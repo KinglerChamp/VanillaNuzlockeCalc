@@ -28,6 +28,10 @@ export interface RawDesc {
     isFlowerGiftDefender?: boolean;
     isFriendGuard?: boolean;
     isHelpingHand?: boolean;
+    isBadgeAtk?: boolean;
+    isBadgeDef?: boolean;
+    isBadgeSpeed?: boolean;
+    isBadgeSpec?: boolean;
     isCritical?: boolean;
     isLightScreen?: boolean;
     isBurned?: boolean;

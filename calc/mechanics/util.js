@@ -133,6 +133,19 @@ function getFinalSpeed(gen, pokemon, field, side) {
     var terrain = field.terrain;
     var speed = getModifiedStat(pokemon.rawStats.spe, pokemon.boosts.spe, gen);
     var speedMods = [];
+    if (gen.num == 1) {
+        if (field.attackerSide.isBadgeSpeed) {
+            speed = Math.floor(speed * 1.125);
+        }
+    } else if (gen.num == 2) {
+        if (field.attackerSide.isBadgeBoosted > 2) {
+            speed = Math.floor(speed * 1.125);
+        }
+    } else if (gen.num == 3) {
+        if (field.attackerSide.isBadgeSpeed) {
+            speed = Math.floor(speed * 1.1);
+        }
+    }
     if (side.isTailwind)
         speedMods.push(8192);
     if ((pokemon.hasAbility('Unburden') && pokemon.abilityOn) ||

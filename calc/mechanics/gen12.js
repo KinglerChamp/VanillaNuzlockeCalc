@@ -119,6 +119,40 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         (gen.num === 1 ||
             (gen.num === 2 && attacker.boosts[attackStat] <= defender.boosts[defenseStat]));
     var lv = attacker.level;
+    if (gen.num === 1) {
+        if (field.attackerSide.isBadgeAtk) {
+            if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+                at = Math.floor(at * 1.125);
+                desc.isBadgeAtk = true;
+            }
+        }
+        if (field.attackerSide.isBadgeSpec) {
+            if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+                at = Math.floor(at * 1.125);
+                desc.isBadgeSpec = true;
+            }
+        }
+        if (field.defenderSide.isBadgeSpec && !isPhysical) {
+            df = Math.floor(df * 1.125);
+        }
+        if (field.defenderSide.isBadgeDef && isPhysical) {
+            df = Math.floor(df * 1.125);
+        }
+    }
+    if (gen.num === 2) {
+        if (field.attackerSide.isBadgeBoosted > 0 && isPhysical) {
+            at = Math.floor(at * 1.125);
+        }
+        if (field.defenderSide.isBadgeBoosted > 5 && (defender.rawStats['spd'] > 205 && defender.rawStats['spd'] < 433 || defender.rawStats['spd'] > 660) && !isPhysical) {
+            df = Math.floor(df * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 5 && !isPhysical) {
+            at = Math.floor(at * 1.125);
+        }
+        if (field.defenderSide.isBadgeBoosted > 6 && isPhysical) {
+            df = Math.floor(df * 1.125);
+        }
+    }
     if (ignoreMods) {
         at = attacker.rawStats[attackStat];
         df = defender.rawStats[defenseStat];
@@ -199,6 +233,57 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         (field.hasWeather('Rain') && (move.hasType('Fire') || move.named('Solar Beam')))) {
         baseDamage = Math.floor(baseDamage / 2);
         desc.weather = field.weather;
+    }
+    // This needs to be reordered to account for post game and chuck/jasmmine/pryce split
+    if (gen.num === 2) {
+        if (field.attackerSide.isBadgeBoosted > 0 && move.hasType('Flying')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 1 && move.hasType('Bug')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 2 && move.hasType('Normal')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 3 && move.hasType('Ghost')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 4 && move.hasType('Fighting')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 5 && move.hasType('Ice')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 6 && move.hasType('Steel')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 7 && move.hasType('Dragon')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 8 && move.hasType('Electric')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 9 && move.hasType('Psychic')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 10 && move.hasType('Poison')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 11 && move.hasType('Grass')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 12 && move.hasType('Rock')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 13 && move.hasType('Water')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 14 && move.hasType('Fire')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
+        if (field.attackerSide.isBadgeBoosted > 15 && move.hasType('Ground')) {
+            baseDamage = Math.floor(baseDamage * 1.125);
+        }
     }
     if (move.hasType.apply(move, __spreadArray([], __read(attacker.types), false))) {
         baseDamage = Math.floor(baseDamage * 1.5);
