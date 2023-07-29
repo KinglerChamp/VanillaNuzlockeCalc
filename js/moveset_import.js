@@ -299,6 +299,7 @@ function addSets(pokes, name) {
 		}
 	}
 	if (addedpokes > 0) {
+		get_box()
 		alert("Successfully imported " + addedpokes + " set(s)");
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
 	} else {
@@ -362,6 +363,7 @@ $(allPokemon("#clearSets")).click(function () {
 		alert("Custom Sets successfully cleared. Please refresh the page.");
 		$(allPokemon("#importedSetsOptions")).hide();
 		loadDefaultLists();
+		$('.player-poks').html("")
 	}
 });
 
@@ -381,6 +383,7 @@ $(document).ready(function () {
 	if (localStorage.customsets) {
 		customSets = JSON.parse(localStorage.customsets);
 		updateDex(customSets);
+		get_box()
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
 	} else {
 		loadDefaultLists();
