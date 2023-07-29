@@ -136,6 +136,34 @@ html, body {
     padding: 0;
     min-width: 100em;
 }
+
+.trainer-poks-label {
+    margin:  10px 0px;
+}
+
+.trainer-pok-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trainer-pok-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trainer-pok{
+    height:  100%;
+    width:  auto;
+    margin-right:  10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.trainer-pok:hover {
+    border:  1px solid #1abc9c;
+    border-radius: 5px;
+}
+
 .wrapper {
     padding: 0 1em;
     max-width: 1285px;
