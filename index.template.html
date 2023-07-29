@@ -143,7 +143,7 @@
     <div aria-label="Pok&eacute;mon 1" class="panel" role="region">
         <fieldset class="poke-info" id="p1">
             <legend align="center">Pok&eacute;mon 1</legend>
-            <input type="text" class="set-selector calc-trigger" />
+            <input type="text" class="set-selector calc-trigger player" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
                 <button id="clearSets">Clear Imported Sets</button>
@@ -660,6 +660,11 @@
                     <option value="4">4 times</option>
                     <option value="5">5 times</option>
                 </select>
+	</div>
+        <div class="trainer-poks ">
+        	<div class="trainer-pok-list player-poks">
+                        <img class="trainer-pok-onside" src="https://play.pokemonshowdown.com/sprites/gen5/charizard.png">
+                </div>
             </div>
         </fieldset>
     </div>
@@ -1052,7 +1057,7 @@
     <div aria-label="Pok&eacute;mon 2" role="region" class="panel">
         <fieldset class="poke-info" id="p2">
             <legend align="center">Pok&eacute;mon 2</legend>
-            <input type="text" class="set-selector calc-trigger" />
+            <input type="text" class="set-selector calc-trigger opposing" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
                 <button id="clearSets">Clear Imported Sets</button>
@@ -1567,6 +1572,18 @@
                     <option value="4">4 times</option>
                     <option value="5">5 times</option>
                 </select>
+            </div>
+		<div class="trainer-poks">
+
+                <div class="trainer-pok-list-opposing">
+                    <div class="trainer-pok-container">
+                        <img class="trainer-pok-opposing" src="https://play.pokemonshowdown.com/sprites/gen5/charizard.png" title="Focus Blast 120">
+
+                    </div>
+
+
+                </div>
+
             </div>
         </fieldset>
     </div>
