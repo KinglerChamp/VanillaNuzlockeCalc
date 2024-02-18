@@ -72,7 +72,8 @@ var bounds = {
 	"evs": [0, 252],
 	"ivs": [0, 31],
 	"dvs": [0, 15],
-	"move-bp": [0, 65535]
+	"move-bp": [0, 65535],
+	"g1g2-evs": [0,65535]
 };
 for (var bounded in bounds) {
 	attachValidation(bounded, bounds[bounded][0], bounds[bounded][1]);
@@ -461,6 +462,28 @@ function smogonAnalysis(pokemonName) {
 // auto-update set details on select
 $(".set-selector").change(function () {
 	var fullSetName = $(this).val();
+
+
+	if ($(this).hasClass('opposing')) {
+		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
+
+
+	var next_poks = CURRENT_TRAINER_POKS
+
+	var trpok_html = ""
+	for (i in next_poks ) {
+		if (next_poks[i][0].includes($('input.opposing').val())){
+			continue
+		}
+		var pok_name = next_poks[i].split(" ")[0]
+		var pok = `<img class="trainer-pok right-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("[")[0]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
+		trpok_html += pok
+	}
+}
+
+	$('.trainer-pok-list-opposing').html(trpok_html)
+
+	console.log("Trainer Pokémon HTML:", trpok_html); // Log trpok_html
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 	var pokemon = pokedex[pokemonName];
@@ -1043,6 +1066,8 @@ var RANDDEX = [
 ];
 var gen, genWasChanged, notation, pokedex, setdex, randdex, typeChart, moves, abilities, items, calcHP, calcStat, GENERATION;
 
+TR_NAMES = get_trainer_names()
+
 $(".gen").change(function () {
 	/*eslint-disable */
 	gen = ~~$(this).val() || 9;
@@ -1309,54 +1334,6 @@ function getTerrainEffects() {
 	}
 }
 
-function loadDefaultLists() {
-	$(".set-selector").select2({
-		formatResult: function (object) {
-			if ($("#randoms").prop("checked")) {
-				return object.pokemon;
-			} else {
-				return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.set) : ("<b>" + object.text + "</b>");
-			}
-		},
-		query: function (query) {
-			var pageSize = 30;
-			var results = [];
-			var options = getSetOptions();
-			for (var i = 0; i < options.length; i++) {
-				var option = options[i];
-				var pokeName = option.pokemon.toUpperCase();
-				if (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
-					return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0 || pokeName.indexOf(" " + term) >= 0;
-				})) {
-					if ($("#randoms").prop("checked")) {
-						if (option.id) results.push(option);
-					} else {
-						results.push(option);
-					}
-				}
-			}
-			query.callback({
-				results: results.slice((query.page - 1) * pageSize, query.page * pageSize),
-				more: results.length >= query.page * pageSize
-			});
-		},
-		initSelection: function (element, callback) {
-			callback(getFirstValidSetOption());
-		}
-	});
-}
-
-function allPokemon(selector) {
-	var allSelector = "";
-	for (var i = 0; i < $(".poke-info").length; i++) {
-		if (i > 0) {
-			allSelector += ", ";
-		}
-		allSelector += "#p" + (i + 1) + " " + selector;
-	}
-	return allSelector;
-}
-
 function loadCustomList(id) {
 	$("#" + id + " .set-selector").select2({
 		formatResult: function (set) {
@@ -1387,6 +1364,154 @@ function loadCustomList(id) {
 		}
 	});
 }
+
+function allPokemon(selector) {
+	var allSelector = "";
+	for (var i = 0; i < $(".poke-info").length; i++) {
+		if (i > 0) {
+			allSelector += ", ";
+		}
+		allSelector += "#p" + (i + 1) + " " + selector;
+	}
+	return allSelector;
+}
+
+function loadDefaultLists() {
+	$(".set-selector").select2({
+		formatResult: function (object) {
+			if ($("#randoms").prop("checked")) {
+				return object.pokemon;
+			} else {
+				// return object.text;
+				return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.text) : ("<b>" + object.text + "</b>");
+			}
+		},
+		query: function (query) {
+			var pageSize = 30;
+			var results = [];
+			var options = getSetOptions();
+			for (var i = 0; i < options.length; i++) {
+				var option = options[i];
+				// var pokeName = option.pokemon.toUpperCase();
+				var fullName = option.text.toUpperCase();
+				if (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
+					// return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0;
+					return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf(" " + term) >= 0 || fullName.indexOf("(" + term) >= 0;
+					// return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf("(" + term) >= 0;
+				})) {
+					if ($("#randoms").prop("checked")) {
+						if (option.id) results.push(option);
+					} else {
+						results.push(option);
+					}
+				}
+			}
+			query.callback({
+				results: results.slice((query.page - 1) * pageSize, query.page * pageSize),
+				more: results.length >= query.page * pageSize
+			});
+		},
+		initSelection: function (element, callback) {
+			callback(getFirstValidSetOption());
+		}
+	});
+}
+
+function get_trainer_names() {
+    var all_sets = [
+        {}, 
+        typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
+        typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
+        typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
+        typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
+        typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+        typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
+        typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
+        typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+        typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV
+    ];
+    
+    var trainer_names = [];
+
+    all_sets.forEach(function(set) {
+        for (const [pok_name, poks] of Object.entries(set)) {
+            var pok_tr_names = Object.keys(poks);
+            for (i in pok_tr_names) {
+                var trainer_name = pok_tr_names[i];
+                trainer_names.push(`${pok_name} (${trainer_name})`);
+            }
+        }
+    });
+
+    return trainer_names;
+}
+
+
+
+function get_box() {
+    var names = get_trainer_names()
+
+    var box = []
+
+    var box_html = ""
+
+    // Object to keep track of encountered custom entries
+    var encounteredCustom = {};
+
+    for (i in names) {
+        if (names[i].includes("Custom")) {
+            var customName = names[i].split(" (")[0];
+
+            // Check if this custom entry has been encountered before
+            if (!encounteredCustom[customName]) {
+                encounteredCustom[customName] = true;
+
+                box.push(customName);
+
+                var pok_name = customName.split(" (")[0];
+                var pok = `<img class="trainer-pok left-side flipped-image" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${customName}">`;
+
+                box_html += pok;
+            }
+        }   
+    }
+
+    $('.player-poks').html(box_html);
+
+    return box;
+}
+
+
+function get_trainer_poks(trainer_name)
+{
+
+	var true_name = trainer_name.split("(")[1]
+    var matches = []
+    for (i in TR_NAMES) {
+        if (TR_NAMES[i].includes(true_name)) {
+            matches.push(TR_NAMES[i])
+        }
+    }
+    return matches
+}
+
+$(document).on('click', '.right-side', function() {
+	var set = $(this).attr('data-id')
+	$('.opposing').val(set)
+	console.log("hit")
+
+	$('.opposing').change()
+	$('.opposing .select2-chosen').text(set)
+})
+
+$(document).on('click', '.left-side', function() {
+	var set = $(this).attr('data-id')
+	$('.player').val(set)
+
+	$('.player').change()
+	$('.player .select2-chosen').text(set)
+	get_box()
+})
 
 $(document).ready(function () {
 	var params = new URLSearchParams(window.location.search);

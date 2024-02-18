@@ -4,7 +4,7 @@ function placeBsBtn() {
 
 	$("#import.bs-btn").click(function () {
 		var pokes = document.getElementsByClassName("import-team-text")[0].value;
-		var name = document.getElementsByClassName("import-name-text")[0].value.trim() === "" ? "Custom Set" : document.getElementsByClassName("import-name-text")[0].value;
+		var name = "Custom Set";
 		addSets(pokes, name);
 	});
 }
@@ -284,9 +284,9 @@ function addSets(pokes, name) {
 				currentPoke.name = currentRow[j].trim();
 				currentPoke.item = getItem(currentRow, j + 1);
 				if (j === 1 && currentRow[0].trim()) {
-					currentPoke.nameProp = currentRow[0].trim();
+					currentPoke.nameProp = "Custom Set";
 				} else {
-					currentPoke.nameProp = name;
+					currentPoke.nameProp = "Custom Set";
 				}
 				currentPoke.isCustomSet = true;
 				currentPoke.ability = getAbility(rows[i + 1].split(":"));
@@ -299,6 +299,7 @@ function addSets(pokes, name) {
 		}
 	}
 	if (addedpokes > 0) {
+		get_box()
 		alert("Successfully imported " + addedpokes + " set(s)");
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
 	} else {
@@ -362,6 +363,7 @@ $(allPokemon("#clearSets")).click(function () {
 		alert("Custom Sets successfully cleared. Please refresh the page.");
 		$(allPokemon("#importedSetsOptions")).hide();
 		loadDefaultLists();
+		$('.player-poks').html("")
 	}
 });
 
@@ -381,6 +383,7 @@ $(document).ready(function () {
 	if (localStorage.customsets) {
 		customSets = JSON.parse(localStorage.customsets);
 		updateDex(customSets);
+		get_box()
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
 	} else {
 		loadDefaultLists();

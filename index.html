@@ -152,7 +152,7 @@
     <div aria-label="Pok&eacute;mon 1" class="panel" role="region">
         <fieldset class="poke-info" id="p1">
             <legend align="center">Pok&eacute;mon 1</legend>
-            <input type="text" class="set-selector calc-trigger" />
+            <input type="text" class="set-selector calc-trigger player" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
                 <button id="clearSets">Clear Imported Sets</button>
@@ -195,6 +195,7 @@
                             <th class="gen-specific g3 g4 g5 g6 g7 g8 g9" scope="col">IVs</th>
                             <th class="gen-specific g3 g4 g5 g6 g7 g8 g9" scope="col">EVs</th>
                             <th class="gen-specific g1 g2 hide" scope="col">DVs</th>
+                            <th class="gen-specific g1 g2 hide" scope="col">EVs</th>
                             <th></th>
                             <th></th>
                         </tr>
@@ -216,6 +217,7 @@
                             <td class="gen-specific g1 g2 hide">
                                 <input class="dvs calc-trigger" value="15" disabled="disabled" />
                             </td>
+                           
                             <td><span class="total">341</span>
                             </td>
                             <td></td>
@@ -236,6 +238,7 @@
                             <td class="gen-specific g1 g2 hide">
                                 <input class="dvs calc-trigger" value="15" />
                             </td>
+                           
                             <td><span class="total">236</span>
                             </td>
                             <td>
@@ -272,6 +275,7 @@
                             <td class="gen-specific g1 g2 hide">
                                 <input class="dvs calc-trigger" value="15" />
                             </td>
+                           
                             <td><span class="total">236</span>
                             </td>
                             <td>
@@ -308,6 +312,7 @@
                             <td class="gen-specific g1 g2 hide">
                                 <input class="dvs calc-trigger" value="15" />
                             </td>
+                            
                             <td><span class="total">236</span>
                             </td>
                             <td>
@@ -344,6 +349,7 @@
                             <td class="gen-specific g1 g2 hide">
                                 <input class="dvs calc-trigger" value="15" disabled="disabled" />
                             </td>
+                            
                             <td><span class="total">236</span>
                             </td>
                             <td>
@@ -364,7 +370,7 @@
                                 </select>
                             </td>
                         </tr>
-                        <tr class="sl gen-specific g1 hide">
+                        <tr class="sp gen-specific g1 hide">
                             <th scope="row">
                                 <label>Special</label>
                             </th>
@@ -374,6 +380,7 @@
                             <td>
                                 <input class="dvs calc-trigger" value="15" />
                             </td>
+                           
                             <td><span class="total">236</span>
                             </td>
                             <td>
@@ -410,6 +417,7 @@
                             <td class="gen-specific g1 g2 hide">
                                 <input class="dvs calc-trigger" value="15" />
                             </td>
+                    
                             <td><span class="total">236</span>
                             </td>
                             <td>
@@ -669,6 +677,10 @@
                     <option value="4">4 times</option>
                     <option value="5">5 times</option>
                 </select>
+            </div>
+            <div class="trainer-poks ">
+                <div class="trainer-pok-list player-poks">
+                </div>
             </div>
         </fieldset>
     </div>
@@ -1083,7 +1095,7 @@
     <div aria-label="Pok&eacute;mon 2" role="region" class="panel">
         <fieldset class="poke-info" id="p2">
             <legend align="center">Pok&eacute;mon 2</legend>
-            <input type="text" class="set-selector calc-trigger" />
+            <input type="text" class="set-selector calc-trigger trainer-pok-list opposing" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
                 <button id="clearSets">Clear Imported Sets</button>
@@ -1598,6 +1610,18 @@
                     <option value="4">4 times</option>
                     <option value="5">5 times</option>
                 </select>
+            </div>
+            <div class="trainer-poks">
+
+                <div class="trainer-pok-list-opposing">
+                    <div class="trainer-pok-container">
+
+
+                    </div>
+
+
+                </div>
+
             </div>
         </fieldset>
     </div>

@@ -136,6 +136,38 @@ html, body {
     padding: 0;
     min-width: 100em;
 }
+/* Addded */
+.trainer-poks-label {
+    margin:  10px 0px;
+}
+
+.trainer-pok-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trainer-pok-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trainer-pok{
+    height:  100%;
+    width:  15%;
+    margin-right:  0px;
+    margin-top:  -15px; 
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.flipped-image {
+    transform: scaleX(-1);
+}
+
+.trainer-pok:hover {
+    border:  1px solid #1abc9c;
+    border-radius: 5px;
+}
+/* Addded */
 .wrapper {
     padding: 0 1em;
     max-width: 1285px;
@@ -200,7 +232,7 @@ th {
     font-size: 0.8em;
 }
 .panel {
-    float: left;
+    float: none;
     display: inline-block; /* required for honkaculate to work */
 }
 .poke-info {
@@ -375,6 +407,9 @@ select.toxic-counter {
 }
 .poke-info input.move-bp {
     width: 2em;
+}
+.poke-info input.g1g2-evs {
+    width: 4em;
 }
 .move-type {
     width: 5.5em;
