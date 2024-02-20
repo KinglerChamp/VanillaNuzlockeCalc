@@ -192,6 +192,9 @@
   align-items: center;
   justify-content: center;
 }
+.dark-light-toggle2 {
+  justify-content: start;
+}
 
 .dark-light-toggle label {
   position: relative;
