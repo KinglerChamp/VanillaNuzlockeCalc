@@ -483,7 +483,7 @@ $(".set-selector").change(function () {
 
 	$('.trainer-pok-list-opposing').html(trpok_html)
 
-	console.log("Trainer Pokémon HTML:", trpok_html); // Log trpok_html
+	
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 	var pokemon = pokedex[pokemonName];
@@ -1365,6 +1365,7 @@ function loadCustomList(id) {
 	});
 }
 
+
 function allPokemon(selector) {
 	var allSelector = "";
 	for (var i = 0; i < $(".poke-info").length; i++) {
@@ -1436,9 +1437,10 @@ function get_trainer_names() {
     all_sets.forEach(function(set) {
         for (const [pok_name, poks] of Object.entries(set)) {
             var pok_tr_names = Object.keys(poks);
-            for (i in pok_tr_names) {
+            for (var i = 0; i < pok_tr_names.length; i++) {
+                var index = poks[pok_tr_names[i]]["index"];
                 var trainer_name = pok_tr_names[i];
-                trainer_names.push(`${pok_name} (${trainer_name})`);
+                trainer_names.push(`[${index}]${pok_name} (${trainer_name})`);
             }
         }
     });
@@ -1447,30 +1449,29 @@ function get_trainer_names() {
 }
 
 
+var names = get_trainer_names();
+
 
 function get_box() {
-    var names = get_trainer_names()
+    var names = get_trainer_names();
+    var encounteredCustom = {}; // Object to keep track of encountered custom entries
 
-    var box = []
+    var box = [];
+    var box_html = "";
 
-    var box_html = ""
-
-    // Object to keep track of encountered custom entries
-    var encounteredCustom = {};
-
-    for (i in names) {
+    for (var i = 0; i < names.length; i++) {
         if (names[i].includes("Custom")) {
-            var customName = names[i].split(" (")[0];
-
+            var customName = names[i].split("]")[1];
+            
             // Check if this custom entry has been encountered before
             if (!encounteredCustom[customName]) {
                 encounteredCustom[customName] = true;
-
+                
                 box.push(customName);
 
                 var pok_name = customName.split(" (")[0];
                 var pok = `<img class="trainer-pok left-side flipped-image" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${customName}">`;
-
+                
                 box_html += pok;
             }
         }   
@@ -1480,6 +1481,8 @@ function get_box() {
 
     return box;
 }
+
+
 
 
 function get_trainer_poks(trainer_name)
