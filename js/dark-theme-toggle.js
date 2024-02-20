@@ -16,7 +16,7 @@
 var prefersDarkTheme = localStorage.getItem('darkTheme') === 'true';
 
 var darkThemeButton = document.getElementById('dark-theme-toggle');
-darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
+// darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
 
 /*
 * Function that toggles light and dark mode
@@ -29,7 +29,7 @@ function toggleTheme() {
 	darkStyles.disabled = !darkStyles.disabled;
 
 	localStorage.setItem('darkTheme', prefersDarkTheme);
-	darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
+	// darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
 }
 
 darkThemeButton.addEventListener('click', toggleTheme);
