@@ -1,120 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* Dark mode styles */
 
 body {
-    color: white;
-    background-color: black;
+  color: #ffff;
+  background-color: #121212;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-style: normal;
+}
+.header {
+  box-shadow: rgba(0, 0, 0, 1) 0px 1px 4px;
 }
 
+.header .nav-items li > a {
+  color: #ffffff;
+}
+
+.button-6 {
+  background-color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: rgba(255, 255, 255, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:active {
+  background-color: #f0f0f1;
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: rgba(255, 255, 255, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.header .nav-items li > a {
+  color: #ffff;
+}
+
+.header .nav-items li > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
 .btn {
-    background-color: #161616;
-    color: #B7B7B7;
+  background-color: #161616;
+  color: #b7b7b7;
 }
 
 .btn:hover {
-    z-index: 10;
-    border-color: #888888;
-    background: black;
+  z-index: 10;
+  border-color: #888888;
+  background: #121212;
 }
 
 .visually-hidden:focus + .btn,
 .btn:hover {
-    z-index: 10;
-    border-color: #888888;
-    background: black;
+  z-index: 10;
+  border-color: #888888;
+  background: #121212;
 }
 
 .visually-hidden:checked + .btn {
-    font-weight: bold;
-    color: white;
-    background: #000042;
+  font-weight: bold;
+  color: white;
+  background: #000042;
 }
 
 .visually-hidden:disabled + .btn {
-    color: black;
+  color: #121212;
 }
 
 fieldset {
-    background-color: #222222;
+  background-color: #222222;
 }
 
 select {
-    background-color: black;
-    color: white;
+  background-color: #121212;
+  color: white;
 }
 
 a.links-lighten {
-    color: #7A9CFF;
+  color: #7a9cff;
 }
 
 a.links-lighten:hover {
-    color: #C2D0FF;
+  color: #c2d0ff;
 }
 
 a.links-lighten:visited {
-    color: #BC8BEA;
+  color: #bc8bea;
 }
 
 a.links-lighten:visited:hover {
-    color: #DACAF7;
+  color: #dacaf7;
 }
 
 input {
-    background-color: black;
-    color: white;
+  background-color: #121212;
+  color: white;
 }
 
 textarea {
-    background-color: black;
-    color: white;
+  background-color: #121212;
+  color: white;
 }
 
 .wrapper {
-    background-color: black;
-    color: white;
+  background-color: #121212;
+  color: white;
 }
 
 a.collapsible-link {
-    color: white;
+  color: white;
 }
 
 .bs-btn {
-    background-color: #161616;
-    color: #B7B7B7;
+  background-color: #161616;
+  color: #b7b7b7;
 }
 
 .bs-btn:hover {
-    z-index: 10;
-    border-color: #888888;
-    background: black;
+  z-index: 10;
+  border-color: #888888;
+  background: #121212;
 }
 
 .popover-content {
-    background-color: #161616;
-    color: #B7B7B7;
+  background-color: #161616;
+  color: #b7b7b7;
 }
 
 .dataTables_info {
-    color: #B7B7B7 !important; /* I know, don't use !important, but w/e */
+  color: #b7b7b7 !important; /* I know, don't use !important, but w/e */
 }
 
 .search-label {
-    color: #B7B7B7;
+  color: #b7b7b7;
 }
 
-tr.odd, tr.even {
-    background-color: rgb(0 0 0) !important;
+tr.odd,
+tr.even {
+  background-color: rgb(0 0 0) !important;
 }
-
 
 td.sorting_1 {
-    background-color: rgb(25 25 25) !important;
+  background-color: rgb(25 25 25) !important;
 }
 
-
 label:not(.btn) {
-    color: white;
+  color: white;
 }
 
 input.select2-input {
-    color: black;
+  color: #121212;
 }
