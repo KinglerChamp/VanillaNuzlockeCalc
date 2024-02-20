@@ -45,6 +45,63 @@ body {
   color: #ffff;
 }
 
+.dark-light-toggle {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-light-toggle label {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: #000839;
+  overflow: hidden;
+  cursor: pointer;
+}
+.dark-light-toggle label:before,
+.dark-light-toggle label:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 8px;
+  left: 10px;
+  transition: 0.5s ease;
+}
+.dark-light-toggle label:before {
+  background-color: #ffa41b;
+}
+.dark-light-toggle label:after {
+  background-color: #000839;
+  left: -20px;
+  transform: scale(0.00001);
+}
+
+.dark-light-toggle input[type="checkbox"] {
+  display: none;
+}
+.dark-light-toggle input[type="checkbox"]:checked + label {
+  width: 50px;
+  height: 30px;
+}
+.dark-light-toggle input[type="checkbox"]:checked + label:before {
+  background-color: #fff;
+  transform: translateX(20px);
+}
+.dark-light-toggle input[type="checkbox"]:checked + label:after {
+  transform: translateX(40px) scale(1);
+}
+
 .header .nav-items li > a::before {
   content: "";
   position: absolute;
