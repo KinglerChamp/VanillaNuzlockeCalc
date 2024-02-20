@@ -1220,7 +1220,7 @@ var SETDEX_BW = {"Absol":{"Plasma Shadow  | Opelucid |  | B2W2 ":{"level":48,"ab
 "Ranger Crofton | B2W2 ":{"level":42,"ability":"Hydration","item":"None","nature":"Hardy","ivs":{"hp":31,"at":31,"df":31,"sa":31,"sd":31,"sp":31},"moves":["Flail","Echoed Voice","Hydro Pump","Rain Dance",]}},
 "Tynamo":{"Harlequin Ian | BW ":{"level":29,"ability":"Levitate","item":"None","nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Tackle","Thunder Wave","Spark","Charge Beam",]}},
 "Umbreon":{"Psychic Sarah | B2W2 ":{"level":35,"ability":"Synchronize","item":"None","nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Feint Attack","Assurance","Screech","Moonlight",]}},
-"Unfeazant":{"Cheren 7  | Tepig |  | BW ":{"level":43,"ability":"Super Luck","item":"Scope Lens","nature":"Hardy","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Detect","Taunt","Air Slash","Razor Wind",]},
+"Unfezant":{"Cheren 7  | Tepig |  | BW ":{"level":43,"ability":"Super Luck","item":"Scope Lens","nature":"Hardy","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Detect","Taunt","Air Slash","Razor Wind",]},
 "Pilot Chase | BW ":{"level":33,"ability":"Super Luck","item":"None","nature":"Naive","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6},"moves":["Roost","Detect","Taunt","Air Slash",]},
 "Leader Skyla | BW ":{"level":33,"ability":"Big Pecks","item":"None","nature":"Lax","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Quick Attack","Air Slash","Leer","Razor Wind",]},
 "Cheren 6  | Snivy |  | BW ":{"level":33,"ability":"Super Luck","item":"Scope Lense","nature":"Modest","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Roost","Detect","Taunt","Air Slash",]},
