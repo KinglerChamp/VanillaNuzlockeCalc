@@ -483,7 +483,7 @@ $(".set-selector").change(function () {
 
 	$('.trainer-pok-list-opposing').html(trpok_html)
 
-	console.log("Trainer Pokémon HTML:", trpok_html); // Log trpok_html
+	
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 	var pokemon = pokedex[pokemonName];
@@ -1365,6 +1365,7 @@ function loadCustomList(id) {
 	});
 }
 
+
 function allPokemon(selector) {
 	var allSelector = "";
 	for (var i = 0; i < $(".poke-info").length; i++) {
@@ -1446,19 +1447,21 @@ function get_trainer_names() {
     return trainer_names;
 }
 
+var names = get_trainer_names();
+console.log("Trainer Names:", names);
+
+
 
 
 function get_box() {
-    var names = get_trainer_names()
-
-    var box = []
-
-    var box_html = ""
+    var names = get_trainer_names();
+    var box = [];
+    var box_html = "";
 
     // Object to keep track of encountered custom entries
     var encounteredCustom = {};
 
-    for (i in names) {
+    for (var i = 0; i < names.length; i++) {
         if (names[i].includes("Custom")) {
             var customName = names[i].split(" (")[0];
 
@@ -1466,20 +1469,29 @@ function get_box() {
             if (!encounteredCustom[customName]) {
                 encounteredCustom[customName] = true;
 
+                // Push the custom name to the box array
                 box.push(customName);
 
+                // Extract the Pokémon name from the custom name
                 var pok_name = customName.split(" (")[0];
-                var pok = `<img class="trainer-pok left-side flipped-image" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${customName}">`;
 
+                // Create the Pokémon sprite HTML
+                var pok = `<img class="trainer-pok left-side flipped-image" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${customName} (Custom Set)" title="${customName} (Custom Set)">`;
+
+                // Append the Pokémon sprite HTML to the box_html string
                 box_html += pok;
             }
-        }   
+        }
     }
 
+    // Set the inner HTML of the .player-poks element to the box_html string
     $('.player-poks').html(box_html);
 
+    // Return the box array (optional)
     return box;
 }
+
+
 
 
 function get_trainer_poks(trainer_name)

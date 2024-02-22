@@ -467,13 +467,15 @@ body {
   flex-wrap: wrap;
 }
 
-.trainer-pok {
-  height: 100%;
-  width: 15%;
-  margin-right: 0px;
-  margin-top: -15px;
-  cursor: pointer;
-  box-sizing: border-box;
+
+.trainer-pok{
+    height:  100%;
+    width:  15%;
+    margin-right:  0px;
+    margin-top:  0px; 
+    cursor: pointer;
+    box-sizing: border-box;
+
 }
 .flipped-image {
   transform: scaleX(-1);
