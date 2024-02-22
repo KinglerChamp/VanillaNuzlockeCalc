@@ -37,31 +37,40 @@
 </head>
 
 <body class="dark-theme">
-
     <nav>
         <div class="header">
             <div class="header-inner">
-                <ul class="nav">
-                    <li><a class="button nav-first" href="//pokemonshowdown.com"><img
-                                src="./img/pokemonshowdownbeta.png" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a>
-                    </li>
-                    <li><a class="button" href="//dex.pokemonshowdown.com">Pok&eacute;dex</a></li>
-                    <li><a class="button" href="//replay.pokemonshowdown.com/">Replays</a></li>
-                    <li><a class="button" href="//pokemonshowdown.com/ladder/">Ladder</a></li>
-                    <li><a class="button nav-last" href="//pokemonshowdown.com/forums/">Forum</a></li>
+                <a href="#" class="img-anchor"><img src="./img/Logo.png" alt="Nuzlocke Resources" /></a>
+                <ul class="nav nav-items">
+                    <li><a class="button nav-first" href="//twitch.tv/kinglerchamp">Twitch</a></li>
+                    <li><a class="button" href="//youtube.com/@NuzlockeResources">Youtube</a></li>
+                    <li><a class="button" href="//discord.gg/pxxmjVk7j5">Discord</a></li>
+                    <li><a class="button"
+                            href="//docs.google.com/document/d/1gJ0ir9vr3kfO-MVr9xYttplMCPAvU_fbgsxYlcNqHtY/edit?usp=sharing">In
+                            Works</a></li>
+                    <li><a class="button nav-last" href="//github.com/KinglerChamp/VanillaNuzlockeCalc/issues"> Bug
+                            Report</a></li>
                 </ul>
                 <ul class="nav nav-play">
-                    <li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a>
+                    <li>
+                        <!-- <button type="button"></button> -->
+
+                        <div class="dark-light-toggle">
+                            <input type="checkbox" id="toggle" />
+                            <label for="toggle" class="dark-theme-toggle"></label>
+                        </div>
+                        <a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/"><button
+                                class="button-6" role="button">Play</button></a>
                     </li>
                 </ul>
-                <div style="clear:both"></div>
+                <!-- <div style="clear:both"></div> -->
             </div>
         </div>
     </nav>
     <div class="wrapper">
 
-        <span class="title-text main-title-text">Pok&eacute;mon Damage Calculator</span>
-        <div aria-label="Settings" role="region">
+        <h1 class="title-text main-title-text">Pok&eacute;mon Damage Calculator</h1>
+        <div class="setting-wrapper" aria-label="Settings" role="region">
             <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup"
                 title="Select the generation.">
                 <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
@@ -1895,7 +1904,11 @@
             <li><a href="https://github.com/smogon/damage-calc" class="links-lighten" target="_blank">GitHub
                     repository</a></li>
         </ul>
-        <button type="button" id="dark-theme-toggle"></button>
+        <div class="dark-light-toggle dark-light-toggle2">
+            <input type="checkbox" id="toggle2" />
+            <label for="toggle2" class="dark-theme-toggle"></label>
+        </div>
+
         <script type="text/javascript" src="./js/dark-theme-toggle.js?b0454081"></script>
     </div>
 

@@ -13,7 +13,7 @@
 * It will be truey and incorrectly cause the
 * dark theme to load.
 */
-var prefersDarkTheme = localStorage.getItem('darkTheme') === 'false';
+var prefersDarkTheme = localStorage.getItem('darkTheme') === 'true';
 
 var darkThemeButton = document.querySelectorAll('.dark-theme-toggle');
 // var darkThemeButton2 = document.getElementById('dark-theme-toggle2');
