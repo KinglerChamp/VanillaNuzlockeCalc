@@ -467,15 +467,13 @@ body {
   flex-wrap: wrap;
 }
 
-
-.trainer-pok{
-    height:  100%;
-    width:  15%;
-    margin-right:  0px;
-    margin-top:  0px; 
-    cursor: pointer;
-    box-sizing: border-box;
-
+.trainer-pok {
+  height: 100%;
+  width: 15%;
+  margin-right: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 .flipped-image {
   transform: scaleX(-1);
@@ -501,9 +499,10 @@ div.wrapper > div > span {
   padding-right: 5px;
 }
 fieldset {
-  float: left;
+  /* float: left; */
   background-color: #f1f4f9;
   border: 1px solid #aaaaaa;
+  
 }
 legend {
   font-weight: bold;
@@ -525,7 +524,7 @@ th {
 .big-text {
   text-align: left;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.5em;
   margin: 0.5em 0;
 }
 .big-text #mainResult:hover {
@@ -537,27 +536,34 @@ th {
   font-size: 0.8em;
   visibility: hidden;
   border-radius: 5px;
-  width: 120px;
+  /* width: 120px; */
   background-color: black;
-  color: #3c3c43;
+  color: #fff;
   text-align: center;
   padding: 5px;
   margin-left: 10px;
 }
 .small-text {
-  font-size: 0.8em;
+  font-size: 1.1em;
 }
 .panel {
-  float: none;
-  display: inline-block; /* required for honkaculate to work */
+  /* required for honkaculate to work */
+}
+.panel-container {
+  display: flex;
+  gap: 2em;
+  margin: 3em 0;
+}
+.panel-container .panel {
+  width: 33.33%;
 }
 .poke-info {
-  width: 30em;
+  /* width: 30em; */
 }
 .field-info,
 .poke-import {
   text-align: center;
-  width: 27.5em;
+  /* width: 27.5em; */
 }
 .holder-0 {
   position: absolute;
@@ -685,11 +691,11 @@ th {
   border-color: #b5b5b5;
 }
 
-/* .visually-hidden:checked + .btn {
+.visually-hidden:checked + .btn {
   border-color: #4a4a4a;
   outline: 0;
-  background-color: #f1f1f1;
-} */
+  background-color: #e4e4e4;
+}
 .visually-hidden[type="radio"]:checked + .btn {
   border-color: #4a4a4a;
   outline: 0;
@@ -713,12 +719,12 @@ th {
   display: inline-block;
   width: 100%;
 }
-.left {
+/* .left {
   float: left;
 }
 .right {
   float: right;
-}
+} */
 .locked-move:checked + .btn {
   background: #ffff99;
 }
@@ -740,12 +746,19 @@ th {
 
 /* header */
 .move-result-group {
-  min-width: 50em;
-  margin: 1em 0 11.5em;
+  /* min-width: 50em; */
+  display: flex;
+  margin: 1em 0;
+
+  align-items: center;
 }
 .move-result-subgroup {
-  float: left;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.move-result-subgroup > div {
+  display: flex;
+  align-items: center;
 }
 .move-result-group .btn {
   margin-right: 1em;
@@ -754,9 +767,9 @@ th {
   margin: 2em 0 1em;
 }
 .result-move-header {
-  font-size: 0.8em;
+  font-size: 1.5em;
   font-weight: bold;
-  margin: 0 0 5px;
+  margin: 25px 0px 30px 0px;
 }
 
 /* pokemon info */
