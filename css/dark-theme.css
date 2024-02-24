@@ -211,3 +211,7 @@ label:not(.btn) {
 input.select2-input {
   color: #121212;
 }
+.info-selectors select,
+.move-type {
+  color: rgb(18, 18, 18);
+}

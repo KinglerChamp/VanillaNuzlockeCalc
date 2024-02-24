@@ -500,13 +500,43 @@ div.wrapper > div > span {
 }
 fieldset {
   /* float: left; */
-  background-color: #f1f4f9;
-  border: 1px solid #aaaaaa;
-  
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 2em;
+  border-radius: 8px;
 }
 legend {
   font-weight: bold;
-  text-align: center;
+  text-align: start;
+  padding: 2em;
+  font-size: 1.5rem;
+  align-items: center;
+  background-color: #f7f7f7;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
 }
 th,
 td {
@@ -556,6 +586,9 @@ th {
 }
 .panel-container .panel {
   width: 33.33%;
+}
+.panel > .field-info,
+.panel .import {
 }
 .poke-info {
   /* width: 30em; */
@@ -781,6 +814,8 @@ th {
 .info-selectors label {
   display: inline-block;
   width: 5em;
+  font-size: 1.125rem;
+  /* border: 5px solid red; */
 }
 .poke-info input:not([type]),
 .poke-info input[type="text"],
@@ -800,6 +835,12 @@ th {
 }
 .info-selectors select {
   width: 12em;
+  /* border: 5px solid red; */
+  background: #fff;
+  margin-block: 0.2em;
+  padding: 0.3em;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
 }
 select.toxic-counter {
   width: 5.5em;
@@ -809,19 +850,26 @@ select.toxic-counter {
 .move-type,
 .move-cat,
 .move-hits {
-  font-size: 0.9em;
+  font-size: 1.12em;
+  /* border: 5px solid red; */
 }
 .move-selector {
   width: 11.5em;
 }
 .poke-info input.move-bp {
   width: 2em;
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .poke-info input.g1g2-evs {
   width: 4em;
 }
 .move-type {
   width: 5.5em;
+  background: #fff;
+  margin-block: 0.2em;
+  padding: 0.3em;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
 }
 .move-cat {
   width: 6em;
@@ -829,18 +877,20 @@ select.toxic-counter {
 .move-hits {
   width: 4.5em;
 }
-.poke-info .crit-btn {
-  font-size: 0.8em;
-  width: 2.5em;
-  height: 1em;
-  padding: 3px 3px;
-  margin: 0px 1px;
+.poke-info .crit-btn,
+.poke-info .z-btn {
+  font-size: 1em;
+  /* width: 2.5em; */
+  /* height: 1em; */
+  padding: 6px 12px;
+  text-align: center;
+  height: auto;
+  /* margin: 0px 1px; */
+  /* border: 5px solid red; */
+  width: auto;
 }
 .poke-info .z-btn {
-  font-size: 0.8em;
-  width: 1.5em;
-  height: 1em;
-  padding: 3px 3px;
+  padding: 6px 8px;
 }
 .poke-info .max-btn {
   font-size: 0.8em;
@@ -851,7 +901,8 @@ select.toxic-counter {
 
 /* field info */
 .field-info .btn {
-  font-size: 0.8em;
+  font-size: 1em;
+  margin: 0;
 }
 table.field {
   width: 100%;
@@ -865,17 +916,22 @@ table.field {
 /* select2 overrides */
 .select2-container .select2-choice > .select2-chosen {
   width: 100%;
+  /* border: 1px solid red; */
 }
 .small-select.select2-container .select2-choice {
-  font-size: 0.9em;
-  height: 18px;
-  line-height: 18px;
+  font-family: inherit;
+  font-size: 1em;
+  /* height: 18px; */
+  /* line-height: 18px; */
+  /* border: 1px solid red; */
 }
 .small-select.select2-container .select2-choice .select2-arrow b {
-  background-position: 0 -4px;
+  /* background-position: center center; */
+  /* border: 1px solid red; */
 }
 .small-select.select2-dropdown-open .select2-choice .select2-arrow b {
-  background-position: -18px -4px;
+  /* background-position: -18px -4px; */
+  /* border: 1px solid red; */
 }
 
 /* Bootstrap */
