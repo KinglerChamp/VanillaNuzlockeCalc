@@ -781,28 +781,41 @@ th {
 .move-result-group {
   /* min-width: 50em; */
   display: flex;
-  margin: 1em 0;
-
+  /* margin: 1em 0; */
+  justify-content: center;
   align-items: center;
 }
 .move-result-subgroup {
   display: flex;
   flex-direction: column;
+
+  justify-content: center;
+  width: 100%;
 }
+.move-result-subgroup:last-child {
+  align-items: end;
+}
+
+.move-result-subgroup:last-child span {
+  margin-inline: 3em;
+}
+
 .move-result-subgroup > div {
   display: flex;
   align-items: center;
 }
+
 .move-result-group .btn {
-  margin-right: 1em;
+  margin-right: 4em;
 }
 .main-result-group {
   margin: 2em 0 1em;
 }
 .result-move-header {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
-  margin: 25px 0px 30px 0px;
+  text-align: center;
+  margin: 10px 0px 15px 0px;
 }
 
 /* pokemon info */
