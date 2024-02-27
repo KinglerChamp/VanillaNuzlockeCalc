@@ -215,3 +215,10 @@ input.select2-input {
 .move-type {
   color: rgb(18, 18, 18);
 }
+.info-selectors select,
+.info-group select {
+  color: #000;
+}
+input {
+  border: 1px solid rgb(0, 0, 0);
+}

@@ -195,11 +195,12 @@
             </div>
         </div>
         <div aria-label="Calculation results" class="main-result-group" role="region">
-            <div class="big-text" title="Click to copy.">
+            <div class="big-text text-center" title="Click to copy.">
                 <span id="mainResult">Loading...</span>
-                <span id="tooltipText">Copied</span>
+                <span id="tooltipText ">Copied</span>
             </div>
-            <div class="small-text"><span id="damageValues">(If you see this message for more than a few seconds, try
+            <div class="small-text text-center"><span id="damageValues" class="">(If you see this message for more
+                    than a few seconds, try
                     enabling JavaScript.)</span>
             </div>
         </div>
@@ -1407,12 +1408,12 @@
                                 <tr>
                                     <td>
                                         <div class="left" title="Export the leftmost Pok&eacute;mon set">
-                                            <button id="exportL">Export</button>
+                                            <button id="exportL" class="btn margin-top">Export</button>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="right" title="Export the rightmost Pok&eacute;mon set">
-                                            <button id="exportR">Export</button>
+                                            <button id="exportR" class="btn margin-top">Export</button>
                                         </div>
                                     </td>
                                 </tr>
@@ -1459,10 +1460,10 @@
                             <label>Forme</label>
                             <select class="forme calc-trigger"></select>
                         </div>
+
                         <div class="hide">
                             <label>Gender</label>
                             <select class="gender calc-trigger">
-                                <option></option>
                                 <option selected="selected">Male</option>
                                 <option>Female</option>
                             </select>
@@ -1471,6 +1472,7 @@
                             <label for="levelR1">Level</label>
                             <input class="level calc-trigger" id="levelR1" value="100" />
                         </div>
+
                         <div class="hide">
                             <label for="weightR1">Weight (kg)</label>
                             <input class="weight calc-trigger" id="weightR1" value="10.0" />
@@ -1848,7 +1850,7 @@
                             type="checkbox" id="zR1" />
                         <label class="btn z-btn gen-specific g7 g8 g9" for="zR1"
                             title="Make this attack a Z-move?">Z</label>
-                        <select class="move-hits calc-trigger hide">
+                        <select class="move-hits btn calc-trigger hide">
                             <option value="2">2 hits</option>
                             <option value="3">3 hits</option>
                             <option value="4">4 hits</option>

@@ -445,7 +445,7 @@ body {
   font-optical-sizing: auto;
   font-size: 12px;
   font-style: normal;
-  background-color: white;
+  background-color: #f8f8f8;
   color: #121212;
   margin: 0;
   padding: 0;
@@ -554,7 +554,7 @@ th {
 .big-text {
   text-align: left;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 0.5em 0;
 }
 .big-text #mainResult:hover {
@@ -633,6 +633,9 @@ th {
   touch-action: manipulation;
   vertical-align: top;
   white-space: nowrap;
+}
+.margin-top {
+  margin-top: 2em !important;
 }
 
 /* <!-- HTML !-->
@@ -795,6 +798,14 @@ th {
 .move-result-subgroup:last-child {
   align-items: end;
 }
+.move-result-subgroup:last-child #resultHeaderR,
+.move-result-subgroup:last-child .btn {
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
 
 .move-result-subgroup:last-child span {
   margin-inline: 3em;
@@ -846,8 +857,9 @@ th {
 .set-selector {
   width: 100%;
 }
-.info-selectors select {
-  width: 12em;
+.info-selectors select,
+.info-group select {
+  /* width: 12em; */
   /* border: 5px solid red; */
   background: #fff;
   margin-block: 0.2em;
@@ -855,8 +867,14 @@ th {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
 }
+.import {
+  margin-top: 1em;
+}
 select.toxic-counter {
   width: 5.5em;
+}
+input {
+  border: 1px solid #e2e2e2;
 }
 .move-selector,
 .move-bp,
@@ -931,6 +949,13 @@ table.field {
   width: 100%;
   /* border: 1px solid red; */
 }
+.select2-container .select2-choice {
+  width: 90%;
+  margin-inline: auto;
+  border: 1px solid rgba(74, 74, 74, 0.536);
+  background-image: none;
+  font-size: 1em;
+}
 .small-select.select2-container .select2-choice {
   font-family: inherit;
   font-size: 1em;
@@ -971,8 +996,15 @@ table.field {
 }
 
 .hpbar {
-  height: 4px;
+  /* height: 4px;
   border-style: solid;
+  border-top-width: 2px;
+  border-right-width: 1px;
+  border-bottom-width: 2px;
+  border-left-width: 0.5px;
+  border-radius: 3px; */
+  height: 10px;
+  /* border-style: solid; */
   border-top-width: 2px;
   border-right-width: 1px;
   border-bottom-width: 2px;
