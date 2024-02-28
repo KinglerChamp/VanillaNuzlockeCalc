@@ -608,7 +608,8 @@ th {
 }
 
 /* general button styling */
-.btn {
+.btn,
+#clearSets {
   align-items: center;
   appearance: none;
   background-color: #fff;
@@ -860,7 +861,7 @@ th {
 }
 .info-selectors select,
 .info-group select,
-select.move-cat {
+select {
   /* width: 12em; */
   /* border: 5px solid red; */
   background: #fff;
@@ -888,6 +889,7 @@ input {
 }
 .move-selector {
   width: 11.5em;
+  margin-block: 8px;
 }
 .poke-info input.move-bp {
   width: 2em;
@@ -995,6 +997,8 @@ table.field {
   min-width: 27em;
   min-height: 10em;
   resize: vertical;
+  border: 1px solid rgb(226, 226, 226);
+  margin-block: 10px;
 }
 
 .import-name-text {
