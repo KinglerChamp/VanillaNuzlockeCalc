@@ -216,7 +216,8 @@ input.select2-input {
   color: rgb(18, 18, 18);
 }
 .info-selectors select,
-.info-group select {
+.info-group select,
+select.move-cat {
   color: #000;
 }
 input {

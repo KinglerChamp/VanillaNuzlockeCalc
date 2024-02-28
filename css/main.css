@@ -543,7 +543,8 @@ td {
   padding: 0;
 }
 th {
-  font-size: 0.8em;
+  /* font-size: 0.8em; */
+  text-align: start;
 }
 .title-text {
   font-weight: bold;
@@ -585,7 +586,7 @@ th {
   margin: 3em 0;
 }
 .panel-container .panel {
-  width: 33.33%;
+  /* width: 33.33%; */
 }
 .panel > .field-info,
 .panel .import {
@@ -858,7 +859,8 @@ th {
   width: 100%;
 }
 .info-selectors select,
-.info-group select {
+.info-group select,
+select.move-cat {
   /* width: 12em; */
   /* border: 5px solid red; */
   background: #fff;
@@ -934,6 +936,13 @@ input {
 .field-info .btn {
   font-size: 1em;
   margin: 0;
+}
+.field-info > .gen-specific,
+.field-info .left,
+.field-info .right {
+  display: flex;
+  margin-block: 3px;
+  justify-content: center;
 }
 table.field {
   width: 100%;
