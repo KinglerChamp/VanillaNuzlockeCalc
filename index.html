@@ -39,7 +39,7 @@
         * It will be truey and incorrectly cause the
         * dark theme to load.
         */
-        
+
         if (localStorage.getItem('darkTheme') !== 'true') {
             document.getElementById('dark-theme-styles').disabled = true;
         }
@@ -104,7 +104,7 @@
                 <input class="gen visually-hidden" type="radio" name="gen" value="9" id="gen9" checked="checked" />
                 <label class="btn btn-small btn-right" for="gen9">S/V</label>
             </div>
-            <div class="notationSelection" aria-labelledby="selectNotationInstruction" role="radiogroup"
+            <!-- <div class="notationSelection" aria-labelledby="selectNotationInstruction" role="radiogroup"
                 title="Select the output notation.">
                 <span class="visually-hidden" id="selectNotationInstruction">Select the output notation.</span>
                 <input class="notation visually-hidden" type="radio" name="notation" id="pixels" value="px" /><label
@@ -124,7 +124,7 @@
                     class="btn btn-mid btn-wide gen-specific g3 g4 g5 g6 g7 g8 g9" for="all-vs-one">All vs One</label>
                 <input class="mode visually-hidden" type="radio" name="mode" id="randoms" /><label
                     class="btn btn-right btn-xwide" for="randoms">Random Battles</label>
-            </div>
+            </div> -->
         </div>
 
 
@@ -213,17 +213,16 @@
                 <fieldset class="poke-info" id="p1">
                     <legend align="center">Pok&eacute;mon 1</legend>
                     <input type="text" class="set-selector calc-trigger player" />
-                    <span id="importedSetsOptions" style="width:auto; display:none">
+                    <!-- <span id="importedSetsOptions" style="width:auto; display:none">
                         <input type="checkbox" id="importedSets" /> Only show imported sets <br />
                         <button id="clearSets">Clear Imported Sets</button>
-                    </span>
+                    </span> -->
                     <div class="info-group top">
                         <div>
                             <label>Type</label>
                             <select aria-label="type1" class="type1 terrain-trigger calc-trigger"></select>
                             <select aria-label="type2" class="type2 terrain-trigger calc-trigger"></select>
-                            <small class="right">(<a class="analysis links-lighten" target="_blank"
-                                    href="">Smogon&nbsp;analysis</a>)</small>
+
                         </div>
                         <div class="gen-specific g9">
                             <label>Tera Type</label>
@@ -1424,7 +1423,7 @@
                 </div>
                 <div class="import" aria-label="Import team" role="region">
                     <fieldset class="poke-import">
-                        <legend align="center">Import / Export</legend>
+                        <legend align="center" class="import-export">Import / Export</legend>
                         <div id="import-1_wrapper" class="dataTables_wrapper no-footer">
                             <form class="import-team">
                                 <input class="import-name-text" value="Custom Set"></input>
@@ -1439,17 +1438,16 @@
                 <fieldset class="poke-info" id="p2">
                     <legend align="center">Pok&eacute;mon 2</legend>
                     <input type="text" class="set-selector calc-trigger trainer-pok-list opposing" />
-                    <span id="importedSetsOptions" style="width:auto; display:none">
+                    <!-- <span id="importedSetsOptions" style="width:auto; display:none">
                         <input type="checkbox" id="importedSets" /> Only show imported sets <br />
                         <button id="clearSets">Clear Imported Sets</button>
-                    </span>
+                    </span> -->
                     <div class="info-group top">
                         <div>
                             <label>Type</label>
                             <select aria-label="Type 1" class="type1 terrain-trigger calc-trigger"></select>
                             <select aria-label="Type 2" class="type2 terrain-trigger calc-trigger"></select>
-                            <small class="right">(<a class="analysis links-lighten" target="_blank"
-                                    href="">Smogon&nbsp;analysis</a>)</small>
+
                         </div>
                         <div class="gen-specific g9">
                             <label>Tera Type</label>
@@ -2082,6 +2080,7 @@
         <script type="text/javascript" src="./js/dark-theme-toggle.js?b0454081"></script>
     </div>
 
+    <script src="./js/update.js"></script>
 </body>
 
 </html>

@@ -486,7 +486,7 @@ body {
 /* Addded */
 .wrapper {
   padding: 0 1em;
-  max-width: 1360px;
+  max-width: 1660px;
   margin: 0 auto;
 }
 .credits {
@@ -585,8 +585,11 @@ th {
   gap: 2em;
   margin: 3em 0;
 }
-.panel-container .panel {
-  /* width: 33.33%; */
+.panel-container .panel:first-child {
+  width: 33.33%;
+}
+.panel-container .panel:last-child {
+  width: 33.33%;
 }
 .panel > .field-info,
 .panel .import {
@@ -888,7 +891,7 @@ input {
   /* border: 5px solid red; */
 }
 .move-selector {
-  width: 11.5em;
+  width: 8.8em;
   margin-block: 8px;
 }
 .poke-info input.move-bp {
@@ -1057,4 +1060,28 @@ table.field {
 .extraSetItems,
 .extraSetMoves {
   width: 100%;
+}
+.trainer-poks {
+  border-top: 2px solid black;
+  margin-top: 1em;
+}
+.crit-btn,
+.z-btn {
+  margin-block: 5px !important;
+}
+.poke-import {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.poke-import #import-1_wrapper {
+  display: none;
+}
+.poke-import.active {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.poke-import.active #import-1_wrapper {
+  display: block;
 }
