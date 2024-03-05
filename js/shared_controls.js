@@ -485,6 +485,9 @@ $(".set-selector").change(function () {
 		if (pok_name == "Farfetch\u2019d") {
 			pok_name = "Farfetch'd"
 		}
+		if (pok_name == "Farfetch\u2019d-Galar") {
+			pok_name = "Farfetch'd-Galar"
+		}
 
 		
 		var pok = `<img class="trainer-pok right-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("[")[0]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
@@ -1493,6 +1496,9 @@ function get_box() {
 				}
 				if (pok_name == "Farfetch\u2019d") {
 					pok_name = "Farfetch'd"
+				}
+				if (pok_name == "Farfetch\u2019d-Galar") {
+					pok_name = "Farfetch'd-Galar"
 				}
 
                 // Create the Pokémon sprite HTML
