@@ -1081,6 +1081,8 @@ table.field {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  max-width: 300px;
+  margin-inline: auto;
 }
 .poke-import.active #import-1_wrapper {
   display: block;
