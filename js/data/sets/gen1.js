@@ -304,7 +304,7 @@ var SETDEX_RBY = {"Abra":{"Rival 3 | Bulbasaur | Cerulean City | Red/Blue ":{"le
 "Rival Champ | Vaporeon | E4 | Yellow ":{"level":61,"dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Barrier","Hypnosis","Leech Seed","Stomp",]},
 "Rival Champ | Jolteon | E4 | Yellow ":{"level":61,"dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Barrier","Hypnosis","Leech Seed","Stomp",]},
 "Rival Champ | Flareon | E4 | Yellow ":{"level":61,"dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Barrier","Hypnosis","Leech Seed","Stomp",]}},
-"Farfetch'd":{"Bird Keeper 5 | R14 | Red/Blue ":{"level":33,"dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Leer","Fury Attack","Agility","Swords Dance",]},
+"Farfetch\u2019d":{"Bird Keeper 5 | R14 | Red/Blue ":{"level":33,"dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Leer","Fury Attack","Agility","Swords Dance",]},
 "Bird Keeper 2 | R15 | Red/Blue ":{"level":26,"dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Leer","Fury Attack","Swords Dance","Sand Attack",]},
 "Bird Keeper 5 | R14 | Yellow ":{"level":33,"dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Leer","Fury Attack","Agility","Swords Dance",]},
 "Bird Keeper 2 | R15 | Yellow ":{"level":26,"dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Leer","Fury Attack","Swords Dance","Sand Attack",]}},

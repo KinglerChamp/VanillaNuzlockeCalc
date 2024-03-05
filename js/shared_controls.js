@@ -475,7 +475,18 @@ $(".set-selector").change(function () {
 		if (next_poks[i][0].includes($('input.opposing').val())){
 			continue
 		}
-		var pok_name = next_poks[i].split(" ")[0]
+		var pok_name = next_poks[i].split(" (")[0]
+		if (pok_name == "Zygarde-10%") {
+			pok_name = "Zygarde-10%25"
+		}
+		if (pok_name == "Sirfetch\u2019d") {
+			pok_name = "Sirfetch'd"
+		}
+		if (pok_name == "Farfetch\u2019d") {
+			pok_name = "Farfetch'd"
+		}
+
+		
 		var pok = `<img class="trainer-pok right-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("[")[0]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
 		trpok_html += pok
 	}
@@ -1474,6 +1485,15 @@ function get_box() {
 
                 // Extract the Pokémon name from the custom name
                 var pok_name = customName.split(" (")[0];
+				if (pok_name == "Zygarde-10%") {
+					pok_name = "Zygarde-10%25"
+				}
+				if (pok_name == "Sirfetch\u2019d") {
+					pok_name = "Sirfetch'd"
+				}
+				if (pok_name == "Farfetch\u2019d") {
+					pok_name = "Farfetch'd"
+				}
 
                 // Create the Pokémon sprite HTML
                 var pok = `<img class="trainer-pok left-side flipped-image" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${customName} (Custom Set)" title="${customName} (Custom Set)">`;

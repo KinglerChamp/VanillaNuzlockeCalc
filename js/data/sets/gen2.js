@@ -298,7 +298,7 @@ var SETDEX_GSC = {"Abra":{"Psychic Mark | Gold/Silver (1) ":{"level":13,"item":"
 "Picknicker Tanya | Crystal ":{"level":37,"item":"None","dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Confusion","Stomp","Egg Bomb","Hypnosis",]},
 "Leader Blue | Crystal ":{"level":58,"item":"None","dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Leech Seed","Sunny Day","Egg Bomb","Solar Beam",]},
 "Psychic Herman | Crystal (1) ":{"level":30,"item":"None","dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Barrage","Hypnosis","Confusion","Stomp",]}},
-"Farfetch'd":{"Bird Keeper Jose | Gold/Silver ":{"level":35,"item":"None","dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Agility","Fury Attack","Swords Dance","Leer",]},
+"Farfetch\u2019d":{"Bird Keeper Jose | Gold/Silver ":{"level":35,"item":"None","dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Agility","Fury Attack","Swords Dance","Leer",]},
 "Bird Keeper Perry | Gold/Silver ":{"level":34,"item":"None","dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Agility","Leer","Fury Attack","Pursuit",]},
 "Bird Keeper Jose | Crystal ":{"level":35,"item":"None","dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Agility","Fury Attack","Swords Dance","Leer",]},
 "Bird Keeper Perry | Crystal ":{"level":34,"item":"None","dvs":{"hp":8,"at":9,"df":8,"sa":8,"sd":8,"sp":8},"moves":["Agility","Leer","Fury Attack","Pursuit",]}},
