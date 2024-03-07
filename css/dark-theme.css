@@ -220,7 +220,8 @@ input.select2-input {
 .info-group select {
   color: #000;
 }
-select.move-cat {
+select.move-cat,
+.credits ul li a {
   color: white;
 }
 input {

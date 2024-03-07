@@ -495,6 +495,10 @@ body {
   max-width: 1285px;
   margin: 0px auto;
 }
+.credits ul li a {
+  color: black;
+  font-size: 1.2rem;
+}
 div.wrapper > div > span {
   padding-right: 5px;
 }
@@ -549,6 +553,7 @@ th {
 .title-text {
   font-weight: bold;
   font-size: 2.5em;
+  text-align: center;
   margin: 0.5em 1em 0.5em 0;
 }
 
@@ -586,16 +591,15 @@ th {
   margin: 3em 0;
 }
 .panel-container .panel:first-child {
-  width: 33.33%;
+  min-width: 30.33%;
+  width: 100%;
 }
 .panel-container .panel:last-child {
-  width: 33.33%;
+  min-width: 30.33%;
+  width: 100%;
 }
-.panel > .field-info,
-.panel .import {
-}
-.poke-info {
-  /* width: 30em; */
+.panel-container .panel:nth-child(2) {
+  max-width: 27.33%;
 }
 .field-info,
 .poke-import {
@@ -774,6 +778,7 @@ th {
   display: flex;
   gap: 3em;
   align-items: center;
+  justify-content: center;
 }
 
 .genSelection,
@@ -948,6 +953,7 @@ input {
   display: flex;
   margin-block: 3px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 table.field {
   width: 100%;
@@ -1083,6 +1089,7 @@ table.field {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   max-width: 300px;
   margin-inline: auto;
+  padding: 1em;
 }
 .poke-import.active #import-1_wrapper {
   display: block;
