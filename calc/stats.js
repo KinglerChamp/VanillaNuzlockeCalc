@@ -46,7 +46,7 @@ exports.Stats = new ((function () {
             case 'def':
                 return 'Def';
             case 'spa':
-                return 'SpA','Spc';
+                return 'SpA';
             case 'spd':
                 return 'SpD';
             case 'spe':
