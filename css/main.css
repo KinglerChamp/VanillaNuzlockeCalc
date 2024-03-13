@@ -1094,3 +1094,19 @@ table.field {
 .poke-import.active #import-1_wrapper {
   display: block;
 }
+.flex-nowrap {
+  flex-wrap: nowrap !important;
+}
+#importedSetsOptions {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-block: 1em;
+}
+.flex {
+  display: flex;
+}
+.flex > div:last-child div{
+  display: flex;
+  flex-direction: column;
+}

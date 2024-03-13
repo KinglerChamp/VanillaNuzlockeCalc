@@ -301,7 +301,7 @@ function addSets(pokes, name) {
 	if (addedpokes > 0) {
 		get_box()
 		alert("Successfully imported " + addedpokes + " set(s)");
-		$(allPokemon("#importedSetsOptions")).css("display", "inline");
+		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}
@@ -384,7 +384,7 @@ $(document).ready(function () {
 		customSets = JSON.parse(localStorage.customsets);
 		updateDex(customSets);
 		get_box()
-		$(allPokemon("#importedSetsOptions")).css("display", "inline");
+		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		loadDefaultLists();
 	}
