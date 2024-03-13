@@ -1106,7 +1106,10 @@ table.field {
 .flex {
   display: flex;
 }
-.flex > div:last-child div{
+.flex > div:last-child div {
   display: flex;
   flex-direction: column;
+}
+.flex > div:last-child div select {
+  width: 100%;
 }
