@@ -229,6 +229,7 @@ input {
 }
 .trainer-poks {
   border-top: 2px solid rgb(128, 128, 128);
+  border-bottom: 2px solid rgb(128, 128, 128);
 }
 .poke-import.active {
   background-color: rgb(34, 34, 34);

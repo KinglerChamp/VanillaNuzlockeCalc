@@ -486,7 +486,7 @@ body {
 /* Addded */
 .wrapper {
   padding: 0 1em;
-  max-width: 1660px;
+  /* max-width: 1660px; */
   margin: 0 auto;
 }
 .credits {
@@ -967,7 +967,17 @@ table.field {
 /* select2 overrides */
 .select2-container .select2-choice > .select2-chosen {
   width: 100%;
+  margin: 0 !important;
   /* border: 1px solid red; */
+}
+.move-selector {
+  display: flex;
+}
+.move {
+  display: flex;
+  align-items: baseline;
+  column-gap: 0.6em;
+  flex-wrap: wrap;
 }
 .select2-container .select2-choice {
   width: 90%;
@@ -1069,6 +1079,7 @@ table.field {
 }
 .trainer-poks {
   border-top: 2px solid black;
+  border-bottom: 2px solid black;
   margin-top: 1em;
 }
 .crit-btn,
@@ -1108,8 +1119,43 @@ table.field {
 }
 .flex > div:last-child div {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 5px;
 }
 .flex > div:last-child div select {
   width: 100%;
+}
+.info-group-top {
+  gap: 1em;
+}
+.align-center {
+  align-items: center;
+}
+.gap-sm {
+  gap: 10px;
+}
+.info-group.top {
+  gap: 1em;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.move .calc-trigger {
+  max-width: 11em;
+  width: 100%;
+}
+.move .move-cat,
+.move .move-type {
+  max-width: 8em;
+}
+.info-group table {
+  width: 100%;
+}
+.info-group table .base {
+  width: 4.5em;
+}
+.info-group table select.boost {
+  width: 10em;
 }
