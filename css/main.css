@@ -1148,7 +1148,7 @@ table.field {
 }
 .move .move-cat,
 .move .move-type {
-  max-width: 8em;
+  max-width: 6.78em;
 }
 .info-group table {
   width: 100%;
@@ -1158,4 +1158,10 @@ table.field {
 }
 .info-group table select.boost {
   width: 10em;
+}
+.trainer-poker-checkboxes {
+  display: flex;
+  gap: 4em;
+  padding-left: 2em;
+  /* justify-content: space-between; */
 }
