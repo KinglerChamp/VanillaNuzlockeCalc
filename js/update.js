@@ -14,6 +14,7 @@ setTimeout(() => {
         for (let i = 0; i < trainerPok.childNodes.length; i++) {
             const input = document.createElement('input');
             input.type = 'checkbox';
+            input.classList.add('trainer-pok-checkbox-input');
             input.dataset.index = i; // Add data-index attribute for reference
             checkboxes.append(input);
 
@@ -23,7 +24,7 @@ setTimeout(() => {
                 const childNode = trainerPok.childNodes[index];
                 if (this.checked) {
                     // If checkbox is checked, fade away the corresponding child node
-                    childNode.style.opacity = '0';
+                    childNode.style.opacity = '0.3';
                 } else {
                     // If checkbox is unchecked, reset opacity of the corresponding child node
                     childNode.style.opacity = '1';

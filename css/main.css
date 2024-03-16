@@ -1165,3 +1165,130 @@ table.field {
   padding-left: 2em;
   /* justify-content: space-between; */
 }
+
+@media (width > 1600px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    transform: scale(2);
+    padding: 10px;
+  }
+  .trainer-poks {
+    padding-bottom: 1em;
+  }
+  .trainer-poker-checkboxes {
+    gap: 5em;
+  }
+}
+@media (width > 1700px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(3); /* IE */
+    -moz-transform: scale(3); /* FF */
+    -webkit-transform: scale(3); /* Safari and Chrome */
+    -o-transform: scale(3); /* Opera */
+    transform: scale(3);
+    padding: 10px;
+  }
+  .trainer-poks {
+    padding-bottom: 2em;
+  }
+  .trainer-poker-checkboxes {
+    gap: 6em;
+  }
+}
+@media (width > 2000px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(3); /* IE */
+    -moz-transform: scale(3); /* FF */
+    -webkit-transform: scale(3); /* Safari and Chrome */
+    -o-transform: scale(3); /* Opera */
+    transform: scale(3);
+    padding: 10px;
+  }
+  .trainer-poks {
+    padding-bottom: 3em;
+  }
+  .trainer-poker-checkboxes {
+    gap: 8em;
+  }
+}
+@media (width > 2200px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(3); /* IE */
+    -moz-transform: scale(3); /* FF */
+    -webkit-transform: scale(3); /* Safari and Chrome */
+    -o-transform: scale(3); /* Opera */
+    transform: scale(3);
+    padding: 10px;
+  }
+  .trainer-poker-checkboxes {
+    gap: 10em;
+  }
+}
+@media (width > 2400px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(3); /* IE */
+    -moz-transform: scale(3); /* FF */
+    -webkit-transform: scale(3); /* Safari and Chrome */
+    -o-transform: scale(3); /* Opera */
+    transform: scale(3);
+    padding: 10px;
+  }
+  .trainer-poker-checkboxes {
+    gap: 14em;
+  }
+}
+@media (width > 2600px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(3); /* IE */
+    -moz-transform: scale(3); /* FF */
+    -webkit-transform: scale(3); /* Safari and Chrome */
+    -o-transform: scale(3); /* Opera */
+    transform: scale(3);
+    padding: 10px;
+  }
+  .trainer-poker-checkboxes {
+    gap: 18em;
+  }
+}
+@media (width > 2800px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(3); /* IE */
+    -moz-transform: scale(3); /* FF */
+    -webkit-transform: scale(3); /* Safari and Chrome */
+    -o-transform: scale(3); /* Opera */
+    transform: scale(3);
+    padding: 10px;
+  }
+  .trainer-poker-checkboxes {
+    gap: 13em;
+  }
+}
+@media (width > 3000px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(3.6); /* IE */
+    -moz-transform: scale(3.6); /* FF */
+    -webkit-transform: scale(3.6); /* Safari and Chrome */
+    -o-transform: scale(3.6); /* Opera */
+    transform: scale(3.6);
+    padding: 10px;
+  }
+  .trainer-poker-checkboxes {
+    gap: 19em;
+  }
+}
+@media (width > 3200px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(3.6); /* IE */
+    -moz-transform: scale(3.6); /* FF */
+    -webkit-transform: scale(3.6); /* Safari and Chrome */
+    -o-transform: scale(3.6); /* Opera */
+    transform: scale(3.6);
+    padding: 10px;
+  }
+  .trainer-poker-checkboxes {
+    gap: 26em;
+  }
+}
