@@ -1081,6 +1081,7 @@ table.field {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   margin-top: 1em;
+  padding: 1em;
 }
 .crit-btn,
 .z-btn {
@@ -1157,12 +1158,13 @@ table.field {
   width: 4.5em;
 }
 .info-group table select.boost {
-  width: 10em;
+  /* width: 10em; */
 }
 .trainer-poker-checkboxes {
   display: flex;
   gap: 4em;
   padding-left: 2em;
+  padding-block: 2em 0.6em;
   /* justify-content: space-between; */
 }
 
@@ -1180,6 +1182,7 @@ table.field {
   }
   .trainer-poker-checkboxes {
     gap: 5em;
+    padding-left: 3em;
   }
 }
 @media (width > 1700px) {
@@ -1196,6 +1199,7 @@ table.field {
   }
   .trainer-poker-checkboxes {
     gap: 6em;
+    padding-left: 4em;
   }
 }
 @media (width > 2000px) {
@@ -1225,6 +1229,7 @@ table.field {
   }
   .trainer-poker-checkboxes {
     gap: 10em;
+    padding-left: 6em;
   }
 }
 @media (width > 2400px) {
@@ -1289,6 +1294,21 @@ table.field {
     padding: 10px;
   }
   .trainer-poker-checkboxes {
+    gap: 17em;
+    padding-left: 5em;
+  }
+}
+@media (width > 3400px) {
+  .trainer-pok-checkbox-input {
+    -ms-transform: scale(3.6); /* IE */
+    -moz-transform: scale(3.6); /* FF */
+    -webkit-transform: scale(3.6); /* Safari and Chrome */
+    -o-transform: scale(3.6); /* Opera */
+    transform: scale(3.6);
+    padding: 10px;
+  }
+  .trainer-poker-checkboxes {
     gap: 26em;
+    padding-left: 5em;
   }
 }
