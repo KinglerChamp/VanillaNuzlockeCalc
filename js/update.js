@@ -54,3 +54,29 @@ setTimeout(() => {
     observer.observe(trainerPok, config);
 
 }, 1000);
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to handle click event and update background
+    function handleClick(event, backgroundDiv) {
+        const imageUrl = event.target.getAttribute('src');
+        if (backgroundDiv && imageUrl) {
+            backgroundDiv.style.backgroundImage = `url(${imageUrl})`;
+        } else {
+            console.error('Could not find elements');
+        }
+    }
+
+    // Select the common parent element for .trainer-pok-list and .trainer-pok-list-opposing
+    const container = document.querySelector('.trainer-pok-list');
+    const containerOpposing = document.querySelector('.trainer-pok-list-opposing');
+    
+    // Add click event listener to the common parent element
+    container.addEventListener('click', function(event) {
+        const backgroundDiv = document.querySelector('.move-result-group > div:first-child');
+        handleClick(event, backgroundDiv);
+    });
+
+    containerOpposing.addEventListener('click', function(event) {
+        const backgroundDivOpposing = document.querySelector('.move-result-group > div:last-child');
+        handleClick(event, backgroundDivOpposing);
+    });
+});

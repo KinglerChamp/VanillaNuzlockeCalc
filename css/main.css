@@ -1082,6 +1082,7 @@ table.field {
   border-bottom: 2px solid black;
   margin-top: 1em;
   padding: 1em;
+  padding-bottom: 3em;
 }
 .crit-btn,
 .z-btn {
@@ -1155,7 +1156,7 @@ table.field {
   width: 100%;
 }
 .info-group table .base {
-  width: 4.5em;
+  width: 1.5em;
 }
 .info-group table select.boost {
   /* width: 10em; */
@@ -1164,7 +1165,8 @@ table.field {
   display: flex;
   gap: 4em;
   padding-left: 2em;
-  padding-block: 2em 0.6em;
+  padding-block: 3em 0.6em;
+
   /* justify-content: space-between; */
 }
 
@@ -1311,4 +1313,43 @@ table.field {
     gap: 26em;
     padding-left: 5em;
   }
+}
+.trainer-poks-left,
+.trainer-poks-right,
+.trainer-poker-checkboxes {
+  position: relative;
+}
+.trainer-poks-left::before,
+.trainer-poks-right::before,
+.trainer-poker-checkboxes::before {
+  content: "Team Box";
+  position: absolute;
+  top: -12px;
+  font-size: 1.3rem;
+  background-color: rgb(247, 247, 247);
+  color: rgb(37, 37, 37);
+  padding: 0.2em 0.6em;
+  border-radius: 0.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.trainer-poks-right::before {
+  content: "Enemies Team";
+}
+.trainer-poker-checkboxes::before {
+  content: "KO’D";
+}
+.move-result-group > div {
+  position: relative;
+  position: relative;
+  background-repeat: no-repeat;
+
+  background-size: 17%;
+}
+.move-result-group > div:first-child {
+  background-position-x: right;
+}
+.move-result-group > div:last-child {
+  background-position-x: left;
 }
