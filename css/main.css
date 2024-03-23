@@ -855,7 +855,7 @@ th {
 .poke-info input[type="text"],
 .poke-info span {
   display: inline-block;
-  width: 2.5em;
+  width: 1.5em;
 }
 .poke-info input[type="number"] {
   display: inline-block;
@@ -1340,16 +1340,35 @@ table.field {
 .trainer-poker-checkboxes::before {
   content: "KO’D";
 }
-.move-result-group > div {
+.move-result-group > div,
+.move-result-group {
   position: relative;
-  position: relative;
+}
+.move-result-group > div:first-child::before {
+  /* background-position-x: right; */
+  /* transform: scaleX(-1); */
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 0;
+  /* transform: translateY(-50%); */
+  /* background-image: url("https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/Abomasnow.png"); */
+  width: 15%;
+  height: 120px;
   background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+}
 
-  background-size: 17%;
-}
-.move-result-group > div:first-child {
-  background-position-x: right;
-}
-.move-result-group > div:last-child {
-  background-position-x: left;
+.move-result-group > div:last-child::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0;
+  /* transform: translateY(-50%); */
+  /* background-image: url("https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/Abomasnow.png"); */
+  width: 15%;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
