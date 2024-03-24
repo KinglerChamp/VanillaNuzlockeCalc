@@ -1,6 +1,6 @@
 import { Natures, Generation, TypeName, StatID, StatsTable } from './data/interface';
 export declare const STATS: Array<Array<StatID | 'spc'> | StatID[]>;
-type HPTypeName = Exclude<TypeName, 'Normal' | 'Fairy' | '???'>;
+type HPTypeName = Exclude<TypeName, 'Normal' | 'Fairy' | 'Stellar' | '???'>;
 export declare const Stats: {
     displayStat(stat: StatID | 'spc'): "HP" | "Atk" | "Def" | "SpA" | "SpD" | "Spe" | "Spc";
     shortForm(stat: StatID | 'spc'): "hp" | "at" | "df" | "sa" | "sd" | "sp" | "sl";

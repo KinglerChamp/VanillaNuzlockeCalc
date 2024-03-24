@@ -271,6 +271,8 @@ var Move = (function () {
         }
         if (move.multihit)
             this.multihit = move.multihit;
+        if (move.multiaccuracy)
+            this.multiaccuracy = move.multiaccuracy;
         if (move.drain)
             this.drain = move.drain;
         if (move.willCrit)

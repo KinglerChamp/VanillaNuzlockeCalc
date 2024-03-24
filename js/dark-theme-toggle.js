@@ -15,21 +15,37 @@
 */
 var prefersDarkTheme = localStorage.getItem('darkTheme') === 'true';
 
-var darkThemeButton = document.getElementById('dark-theme-toggle');
-darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
+var darkThemeButton = document.querySelectorAll('.dark-theme-toggle');
+// var darkThemeButton2 = document.getElementById('dark-theme-toggle2');
+
+console.log(darkThemeButton);
+
+// darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
 
 /*
 * Function that toggles light and dark mode
 * Doesn't use jQuery, probably could with some modification
 */
+
+
 function toggleTheme() {
+
+	
 	prefersDarkTheme = !prefersDarkTheme;
 
 	var darkStyles = document.getElementById('dark-theme-styles');
 	darkStyles.disabled = !darkStyles.disabled;
 
 	localStorage.setItem('darkTheme', prefersDarkTheme);
-	darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
+	
+    
+
+	// darkThemeButton.innerText = prefersDarkTheme ? 'Click for Light Theme' : 'Click for Dark Theme';
 }
 
-darkThemeButton.addEventListener('click', toggleTheme);
+for (let i = 0; i < darkThemeButton.length; i++) {
+	
+	
+	darkThemeButton[i].addEventListener('click', toggleTheme);
+}
+

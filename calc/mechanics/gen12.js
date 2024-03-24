@@ -98,6 +98,10 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
     if (move.hits > 1) {
         desc.hits = move.hits;
     }
+    if (move.name === 'Triple Kick') {
+        move.bp = move.hits === 2 ? 15 : move.hits === 3 ? 20 : 10;
+        desc.moveBP = move.bp;
+    }
     if (move.named('Flail', 'Reversal')) {
         move.isCrit = false;
         var p = Math.floor((48 * attacker.curHP()) / attacker.maxHP());
@@ -119,7 +123,7 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         (gen.num === 1 ||
             (gen.num === 2 && attacker.boosts[attackStat] <= defender.boosts[defenseStat]));
     var lv = attacker.level;
-    if (gen.num === 1) {
+if (gen.num === 1) {
         if (field.attackerSide.isBadgeAtk) {
             if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
                 at = Math.floor(at * 1.125);
@@ -234,7 +238,7 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         baseDamage = Math.floor(baseDamage / 2);
         desc.weather = field.weather;
     }
-    // This needs to be reordered to account for post game and chuck/jasmmine/pryce split
+// This needs to be reordered to account for post game and chuck/jasmmine/pryce split
     if (gen.num === 2) {
         if (field.attackerSide.isBadgeBoosted > 0 && move.hasType('Flying')) {
             baseDamage = Math.floor(baseDamage * 1.125);
@@ -311,6 +315,33 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
             else {
                 result.damage[i - 217] = Math.floor((baseDamage * i) / 255);
             }
+        }
+    }
+    if (move.hits > 1) {
+        var _loop_1 = function (times) {
+            var damageMultiplier = 217;
+            result.damage = result.damage.map(function (affectedAmount) {
+                if (times) {
+                    var newFinalDamage = 0;
+                    if (gen.num === 2) {
+                        newFinalDamage = Math.max(1, Math.floor((baseDamage * damageMultiplier) / 255));
+                    }
+                    else {
+                        if (baseDamage === 1) {
+                            newFinalDamage = 1;
+                        }
+                        else {
+                            newFinalDamage = Math.floor((baseDamage * damageMultiplier) / 255);
+                        }
+                    }
+                    damageMultiplier++;
+                    return affectedAmount + newFinalDamage;
+                }
+                return affectedAmount;
+            });
+        };
+        for (var times = 0; times < move.hits; times++) {
+            _loop_1(times);
         }
     }
     return result;
