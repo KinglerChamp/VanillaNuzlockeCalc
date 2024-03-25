@@ -445,7 +445,30 @@ var XY = (0, util_1.extend)(true, {}, GSC, {
 });
 var SM = XY;
 var SS = SM;
-var SV = SS;
+var SV = (0, util_1.extend)(true, {}, SS, {
+    '???': { Stellar: 1 },
+    Normal: { Stellar: 1 },
+    Grass: { Stellar: 1 },
+    Fire: { Stellar: 1 },
+    Water: { Stellar: 1 },
+    Electric: { Stellar: 1 },
+    Ice: { Stellar: 1 },
+    Flying: { Stellar: 1 },
+    Bug: { Stellar: 1 },
+    Poison: { Stellar: 1 },
+    Ground: { Stellar: 1 },
+    Rock: { Stellar: 1 },
+    Fighting: { Stellar: 1 },
+    Psychic: { Stellar: 1 },
+    Ghost: { Stellar: 1 },
+    Dragon: { Stellar: 1 },
+    Dark: { Stellar: 1 },
+    Steel: { Stellar: 1 },
+    Fairy: { Stellar: 1 },
+    Stellar: {
+        '???': 1
+    }
+});
 exports.TYPE_CHART = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 var Types = (function () {
     function Types(gen) {

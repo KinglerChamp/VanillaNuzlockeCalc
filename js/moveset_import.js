@@ -16,7 +16,12 @@ function ExportPokemon(pokeInfo) {
 	finalText = pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
 	finalText += "Level: " + pokemon.level + "\n";
 	finalText += pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
-	finalText += pokemon.teraType && gen > 8 ? "Tera Type: " + pokemon.teraType : "";
+	if (gen === 9) {
+		var teraType = pokeInfo.find(".teraType").val();
+		if (teraType !== undefined && teraType !== pokemon.types[0]) {
+			finalText += "Tera Type: " + teraType + "\n";
+		}
+	}
 	finalText += pokemon.ability ? "Ability: " + pokemon.ability + "\n" : "";
 	if (gen > 2) {
 		var EVs_Array = [];
@@ -299,9 +304,9 @@ function addSets(pokes, name) {
 		}
 	}
 	if (addedpokes > 0) {
-		get_box()
+get_box()
 		alert("Successfully imported " + addedpokes + " set(s)");
-		$(allPokemon("#importedSetsOptions")).css("display", "inline");
+		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}
@@ -363,7 +368,7 @@ $(allPokemon("#clearSets")).click(function () {
 		alert("Custom Sets successfully cleared. Please refresh the page.");
 		$(allPokemon("#importedSetsOptions")).hide();
 		loadDefaultLists();
-		$('.player-poks').html("")
+$('.player-poks').html("")
 	}
 });
 
@@ -384,7 +389,7 @@ $(document).ready(function () {
 		customSets = JSON.parse(localStorage.customsets);
 		updateDex(customSets);
 		get_box()
-		$(allPokemon("#importedSetsOptions")).css("display", "inline");
+		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		loadDefaultLists();
 	}

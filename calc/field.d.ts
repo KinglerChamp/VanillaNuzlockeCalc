@@ -39,7 +39,7 @@ export declare class Side implements State.Side {
     isHelpingHand: boolean;
     isFlowerGift: boolean;
     isFriendGuard: boolean;
-    isBadgeAtk: boolean;
+isBadgeAtk: boolean;
     isBadgeDef: boolean;
     isBadgeSpeed: boolean;
     isBadgeSpec: boolean;

@@ -84,9 +84,9 @@ describe('calc', function () {
         (0, helper_1.tests)('Comet Punch', function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
             expect(calculate(Pokemon('Snorlax'), Pokemon('Vulpix'), Move('Comet Punch'))).toMatch(gen, {
-                1: { range: [36, 43], desc: 'Snorlax Comet Punch (3 hits) vs. Vulpix', result: '(38.7 - 46.2%) -- approx. 3HKO' },
-                3: { range: [44, 52], desc: '0 Atk Snorlax Comet Punch (3 hits) vs. 0 HP / 0 Def Vulpix', result: '(60.8 - 71.8%) -- approx. 2HKO' },
-                4: { range: [43, 52], result: '(59.4 - 71.8%) -- approx. 2HKO' }
+                1: { range: [108, 129], desc: 'Snorlax Comet Punch (3 hits) vs. Vulpix', result: '(38.7 - 46.2%) -- approx. 3HKO' },
+                3: { range: [132, 156], desc: '0 Atk Snorlax Comet Punch (3 hits) vs. 0 HP / 0 Def Vulpix', result: '(60.8 - 71.8%) -- approx. 2HKO' },
+                4: { range: [129, 156], result: '(59.4 - 71.8%) -- approx. 2HKO' }
             });
         });
         (0, helper_1.inGens)(1, 9, function (_a) {
@@ -174,14 +174,14 @@ describe('calc', function () {
                     {
                         weather: 'Sun', type: 'Fire', damage: {
                             adv: { range: [346, 408], desc: '(149.7 - 176.6%) -- guaranteed OHKO' },
-                            dpp: { range: [170, 204], desc: '(73.5 - 88.3%) -- guaranteed 2HKO' },
+                            dpp: { range: [342, 404], desc: '(148 - 174.8%) -- guaranteed OHKO' },
                             modern: { range: [344, 408], desc: '(148.9 - 176.6%) -- guaranteed OHKO' }
                         }
                     },
                     {
                         weather: 'Rain', type: 'Water', damage: {
                             adv: { range: [86, 102], desc: '(37.2 - 44.1%) -- guaranteed 3HKO' },
-                            dpp: { range: [42, 51], desc: '(18.1 - 22%) -- possible 5HKO' },
+                            dpp: { range: [85, 101], desc: '(36.7 - 43.7%) -- guaranteed 3HKO' },
                             modern: { range: [86, 102], desc: '(37.2 - 44.1%) -- guaranteed 3HKO' }
                         }
                     },
@@ -192,8 +192,8 @@ describe('calc', function () {
                                 desc: '(41.5 - 49.3%) -- 20.7% chance to 2HKO after sandstorm damage'
                             },
                             dpp: {
-                                range: [39, 46],
-                                desc: '(16.8 - 19.9%) -- guaranteed 5HKO after sandstorm damage'
+                                range: [77, 91],
+                                desc: '(33.3 - 39.3%) -- guaranteed 3HKO after sandstorm damage'
                             },
                             modern: {
                                 range: [77, 91],
@@ -208,8 +208,8 @@ describe('calc', function () {
                                 desc: '(101.2 - 119.4%) -- guaranteed OHKO'
                             },
                             dpp: {
-                                range: [116, 138],
-                                desc: '(50.2 - 59.7%) -- guaranteed 2HKO after hail damage'
+                                range: [230, 272],
+                                desc: '(99.5 - 117.7%) -- 93.8% chance to OHKO'
                             },
                             modern: {
                                 range: [230, 272],
@@ -243,6 +243,19 @@ describe('calc', function () {
                 var result = calculate(Pokemon('Zygarde'), Pokemon('Swellow'), Move('Thousand Arrows'));
                 expect(result.range()).toEqual([147, 174]);
                 expect(result.desc()).toBe('0 Atk Zygarde Thousand Arrows vs. 0 HP / 0 Def Swellow: 147-174 (56.3 - 66.6%) -- guaranteed 2HKO');
+            });
+        });
+        describe('IVs are shown if applicable', function () {
+            (0, helper_1.inGens)(3, 9, function (_a) {
+                var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
+                test("Gen ".concat(gen), function () {
+                    var ivs = { spa: 9, spd: 9, hp: 9 };
+                    var evs = { spa: 9, spd: 9, hp: 9 };
+                    var result = calculate(Pokemon('Mew', { ivs: ivs }), Pokemon('Mew', { evs: evs }), Move('Psychic'));
+                    expect(result.desc()).toBe('0 SpA 9 IVs Mew Psychic vs. 9 HP / 9 SpD Mew: 43-51 (12.5 - 14.8%) -- possible 7HKO');
+                    result = calculate(Pokemon('Mew', { evs: evs }), Pokemon('Mew', { ivs: ivs }), Move('Psychic'));
+                    expect(result.desc()).toBe('9 SpA Mew Psychic vs. 0 HP 9 IVs / 0 SpD 9 IVs Mew: 54-64 (16.9 - 20%) -- possible 5HKO');
+                });
             });
         });
         (0, helper_1.inGens)(4, 9, function (_a) {
@@ -290,6 +303,29 @@ describe('calc', function () {
                 var result = calculate(Pokemon('Abomasnow'), dragonite, Move('Ice Shard'));
                 expect(result.range()).toEqual([84, 102]);
                 expect(result.desc()).toBe('0 Atk Abomasnow Ice Shard vs. 0 HP / 0 Def Multiscale Dragonite: 84-102 (26 - 31.5%) -- guaranteed 4HKO');
+            });
+            describe('Weight', function () {
+                describe('Heavy Metal', function () {
+                    function testBP(ability) {
+                        return calculate(Pokemon('Simisage', { ability: ability }), Pokemon('Simisear', { ability: 'Heavy Metal' }), Move('Grass Knot')).rawDesc.moveBP;
+                    }
+                    it('should double the weight of a Pokemon', function () { return expect(testBP('Gluttony')).toBe(80); });
+                    it('should be negated by Mold Breaker', function () { return expect(testBP('Mold Breaker')).toBe(60); });
+                });
+                describe('Light Metal', function () {
+                    function testBP(ability) {
+                        return calculate(Pokemon('Simisage', { ability: ability }), Pokemon('Registeel', { ability: 'Light Metal' }), Move('Grass Knot')).rawDesc.moveBP;
+                    }
+                    it('should halve the weight of a Pokemon', function () { return expect(testBP('Gluttony')).toBe(100); });
+                    it('should be negated by Mold Breaker', function () { return expect(testBP('Mold Breaker')).toBe(120); });
+                });
+                describe('Float Stone', function () {
+                    function testBP(ability) {
+                        return calculate(Pokemon('Simisage', { ability: 'Gluttony' }), Pokemon('Registeel', { ability: ability, item: 'Float Stone' }), Move('Grass Knot')).rawDesc.moveBP;
+                    }
+                    it('should halve the weight of a Pokemon', function () { return expect(testBP()).toBe(100); });
+                    it('should stack with Light Metal', function () { return expect(testBP('Light Metal')).toBe(80); });
+                });
             });
         });
         (0, helper_1.inGen)(8, function (_a) {
@@ -367,6 +403,86 @@ describe('calc', function () {
                     [92, 96, 96, 96, 96, 100, 100, 100, 104, 104, 104, 104, 108, 108, 108, 112],
                 ]);
                 expect(result.desc()).toBe('252 Atk Parental Bond Kangaskhan-Mega Crunch vs. 0 HP / 0 Def Shadow Shield Lunala: 280-334 (67.4 - 80.4%) -- approx. 2HKO');
+            });
+        });
+        (0, helper_1.inGens)(5, 9, function (_a) {
+            var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
+            test("Multi-hit interaction with Multiscale (gen ".concat(gen, ")"), function () {
+                var result = calculate(Pokemon('Mamoswine'), Pokemon('Dragonite', {
+                    ability: 'Multiscale'
+                }), Move('Icicle Spear'));
+                expect(result.range()).toEqual([360, 430]);
+                expect(result.desc()).toBe('0 Atk Mamoswine Icicle Spear (3 hits) vs. 0 HP / 0 Def Multiscale Dragonite: 360-430 (111.4 - 133.1%) -- guaranteed OHKO');
+            });
+        });
+        (0, helper_1.inGens)(5, 9, function (_a) {
+            var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
+            test("Multi-hit interaction with Weak Armor (gen ".concat(gen, ")"), function () {
+                var result = calculate(Pokemon('Mamoswine'), Pokemon('Skarmory', {
+                    ability: 'Weak Armor'
+                }), Move('Icicle Spear'));
+                expect(result.range()).toEqual([115, 138]);
+                expect(result.desc()).toBe('0 Atk Mamoswine Icicle Spear (3 hits) vs. 0 HP / 0 Def Weak Armor Skarmory: 115-138 (42.4 - 50.9%) -- approx. 2.7% chance to 2HKO');
+                result = calculate(Pokemon('Mamoswine'), Pokemon('Skarmory', {
+                    ability: 'Weak Armor',
+                    item: 'White Herb'
+                }), Move('Icicle Spear'));
+                expect(result.range()).toEqual([89, 108]);
+                expect(result.desc()).toBe('0 Atk Mamoswine Icicle Spear (3 hits) vs. 0 HP / 0 Def White Herb Weak Armor Skarmory: 89-108 (32.8 - 39.8%) -- approx. 99.9% chance to 3HKO');
+                result = calculate(Pokemon('Mamoswine'), Pokemon('Skarmory', {
+                    ability: 'Weak Armor',
+                    item: 'White Herb',
+                    boosts: { def: 2 }
+                }), Move('Icicle Spear'));
+                expect(result.range()).toEqual([56, 69]);
+                expect(result.desc()).toBe('0 Atk Mamoswine Icicle Spear (3 hits) vs. +2 0 HP / 0 Def Weak Armor Skarmory: 56-69 (20.6 - 25.4%) -- approx. 0.1% chance to 4HKO');
+                result = calculate(Pokemon('Mamoswine', {
+                    ability: 'Unaware'
+                }), Pokemon('Skarmory', {
+                    ability: 'Weak Armor',
+                    item: 'White Herb',
+                    boosts: { def: 2 }
+                }), Move('Icicle Spear'));
+                expect(result.range()).toEqual([75, 93]);
+                expect(result.desc()).toBe('0 Atk Unaware Mamoswine Icicle Spear (3 hits) vs. 0 HP / 0 Def Skarmory: 75-93 (27.6 - 34.3%) -- approx. 1.5% chance to 3HKO');
+            });
+        });
+        (0, helper_1.inGens)(6, 9, function (_a) {
+            var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
+            test("Multi-hit interaction with Mummy (gen ".concat(gen, ")"), function () {
+                var result = calculate(Pokemon('Pinsir-Mega'), Pokemon('Cofagrigus', {
+                    ability: 'Mummy'
+                }), Move('Double Hit'));
+                if (gen === 6) {
+                    expect(result.range()).toEqual([96, 113]);
+                    expect(result.desc()).toBe('0 Atk Aerilate Pinsir-Mega Double Hit (2 hits) vs. 0 HP / 0 Def Mummy Cofagrigus: 96-113 (37.3 - 43.9%) -- approx. 3HKO');
+                }
+                else {
+                    expect(result.range()).toEqual([91, 107]);
+                    expect(result.desc()).toBe('0 Atk Aerilate Pinsir-Mega Double Hit (2 hits) vs. 0 HP / 0 Def Mummy Cofagrigus: 91-107 (35.4 - 41.6%) -- approx. 3HKO');
+                }
+            });
+        });
+        (0, helper_1.inGens)(7, 9, function (_a) {
+            var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
+            test("Multi-hit interaction with Items (gen ".concat(gen, ")"), function () {
+                var result = calculate(Pokemon('Greninja'), Pokemon('Gliscor', {
+                    item: 'Luminous Moss'
+                }), Move('Water Shuriken'));
+                expect(result.range()).toEqual([104, 126]);
+                expect(result.desc()).toBe('0 SpA Greninja Water Shuriken (15 BP) (3 hits) vs. 0 HP / 0 SpD Luminous Moss Gliscor: 104-126 (35.7 - 43.2%) -- approx. 3HKO');
+                result = calculate(Pokemon('Greninja'), Pokemon('Gliscor', {
+                    ability: 'Simple',
+                    item: 'Luminous Moss'
+                }), Move('Water Shuriken'));
+                expect(result.range()).toEqual([92, 114]);
+                expect(result.desc()).toBe('0 SpA Greninja Water Shuriken (15 BP) (3 hits) vs. 0 HP / 0 SpD Luminous Moss Simple Gliscor: 92-114 (31.6 - 39.1%) -- approx. 79.4% chance to 3HKO');
+                result = calculate(Pokemon('Greninja'), Pokemon('Gliscor', {
+                    ability: 'Contrary',
+                    item: 'Luminous Moss'
+                }), Move('Water Shuriken'));
+                expect(result.range()).toEqual([176, 210]);
+                expect(result.desc()).toBe('0 SpA Greninja Water Shuriken (15 BP) (3 hits) vs. 0 HP / 0 SpD Luminous Moss Contrary Gliscor: 176-210 (60.4 - 72.1%) -- approx. 2HKO');
             });
         });
     });
@@ -775,44 +891,125 @@ describe('calc', function () {
                 expect(result.desc()).toBe('0 Atk Ambipom Low Kick (120 BP) vs. 252 HP / 0 Def Aggron: 112-132 (63.2 - 74.5%) -- guaranteed 2HKO');
             });
         });
-        describe('Gen 9', function () {
-            (0, helper_1.inGen)(9, function (_a) {
-                var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-                test('Supreme Overlord', function () {
-                    var kingambit = Pokemon('Kingambit', { level: 100, ability: 'Supreme Overlord', alliesFainted: 0 });
-                    var aggron = Pokemon('Aggron', { level: 100 });
-                    var result = calculate(kingambit, aggron, Move('Iron Head'));
-                    expect(result.range()).toEqual([67, 79]);
-                    expect(result.desc()).toBe('0 Atk Kingambit Iron Head vs. 0 HP / 0 Def Aggron: 67-79 (23.8 - 28.1%) -- 91.2% chance to 4HKO');
-                    kingambit.alliesFainted = 5;
-                    result = calculate(kingambit, aggron, Move('Iron Head'));
-                    expect(result.range()).toEqual([100, 118]);
-                    expect(result.desc()).toBe('0 Atk Supreme Overlord 5 allies fainted Kingambit Iron Head vs. 0 HP / 0 Def Aggron: 100-118 (35.5 - 41.9%) -- guaranteed 3HKO');
-                    kingambit.alliesFainted = 10;
-                    result = calculate(kingambit, aggron, Move('Iron Head'));
-                    expect(result.range()).toEqual([100, 118]);
-                    expect(result.desc()).toBe('0 Atk Supreme Overlord 5 allies fainted Kingambit Iron Head vs. 0 HP / 0 Def Aggron: 100-118 (35.5 - 41.9%) -- guaranteed 3HKO');
+    });
+    describe('Gen 9', function () {
+        (0, helper_1.inGen)(9, function (_a) {
+            var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
+            test('Supreme Overlord', function () {
+                var kingambit = Pokemon('Kingambit', { level: 100, ability: 'Supreme Overlord', alliesFainted: 0 });
+                var aggron = Pokemon('Aggron', { level: 100 });
+                var result = calculate(kingambit, aggron, Move('Iron Head'));
+                expect(result.range()).toEqual([67, 79]);
+                expect(result.desc()).toBe('0 Atk Kingambit Iron Head vs. 0 HP / 0 Def Aggron: 67-79 (23.8 - 28.1%) -- 91.2% chance to 4HKO');
+                kingambit.alliesFainted = 5;
+                result = calculate(kingambit, aggron, Move('Iron Head'));
+                expect(result.range()).toEqual([100, 118]);
+                expect(result.desc()).toBe('0 Atk Supreme Overlord 5 allies fainted Kingambit Iron Head vs. 0 HP / 0 Def Aggron: 100-118 (35.5 - 41.9%) -- guaranteed 3HKO');
+                kingambit.alliesFainted = 10;
+                result = calculate(kingambit, aggron, Move('Iron Head'));
+                expect(result.range()).toEqual([100, 118]);
+                expect(result.desc()).toBe('0 Atk Supreme Overlord 5 allies fainted Kingambit Iron Head vs. 0 HP / 0 Def Aggron: 100-118 (35.5 - 41.9%) -- guaranteed 3HKO');
+            });
+            test('Electro Drift/Collision Course boost on Super Effective hits', function () {
+                var attacker = Pokemon('Arceus');
+                var defender = Pokemon('Mew');
+                var calc = function (move) {
+                    if (move === void 0) { move = Move('Electro Drift'); }
+                    return calculate(attacker, defender, move).range();
+                };
+                var neutral = calc();
+                var fusionBolt = Move('Fusion Bolt');
+                expect(calc(fusionBolt)).toEqual(neutral);
+                defender = Pokemon('Manaphy');
+                var se = calc();
+                expect(calc(fusionBolt)).not.toEqual(se);
+                defender.teraType = 'Normal';
+                expect(calc()).toEqual(neutral);
+                var cc = Move('Collision Course');
+                defender = Pokemon('Jirachi');
+                expect(calc(cc)).toEqual(neutral);
+                defender.teraType = 'Normal';
+                expect(calc(cc)).toEqual(se);
+            });
+            function testQP(ability, field) {
+                test("".concat(ability, " should take into account boosted stats by default"), function () {
+                    var attacker = Pokemon('Iron Leaves', { ability: ability, boostedStat: 'auto', boosts: { spa: 6 } });
+                    var defender = Pokemon('Iron Treads', { ability: ability, boostedStat: 'auto', boosts: { spd: 6 } });
+                    var result = calculate(attacker, defender, Move('Leaf Storm'), Field(field)).rawDesc;
+                    expect(result.attackerAbility).toBe(ability);
+                    expect(result.defenderAbility).toBe(ability);
+                    result = calculate(attacker, defender, Move('Psyblade'), Field(field)).rawDesc;
+                    expect(result.attackerAbility).toBeUndefined();
+                    expect(result.defenderAbility).toBeUndefined();
                 });
-                test('Electro Drift/Collision Course boost on Super Effective hits', function () {
-                    var attacker = Pokemon('Arceus');
-                    var defender = Pokemon('Mew');
-                    var calc = function (move) {
-                        if (move === void 0) { move = Move('Electro Drift'); }
-                        return calculate(attacker, defender, move).range();
-                    };
-                    var neutral = calc();
-                    var fusionBolt = Move('Fusion Bolt');
-                    expect(calc(fusionBolt)).toEqual(neutral);
-                    defender = Pokemon('Manaphy');
-                    var se = calc();
-                    expect(calc(fusionBolt)).not.toEqual(se);
-                    defender.teraType = 'Normal';
-                    expect(calc()).toEqual(neutral);
-                    var cc = Move('Collision Course');
-                    defender = Pokemon('Jirachi');
-                    expect(calc(cc)).toEqual(neutral);
-                    defender.teraType = 'Normal';
-                    expect(calc(cc)).toEqual(se);
+            }
+            function testQPOverride(ability, field) {
+                test("".concat(ability, " should be able to be overridden with boostedStat"), function () {
+                    var attacker = Pokemon('Flutter Mane', { ability: ability, boostedStat: 'atk', boosts: { spa: 6 } });
+                    var defender = Pokemon('Walking Wake', { ability: ability, boostedStat: 'def', boosts: { spd: 6 } });
+                    var result = calculate(attacker, defender, Move('Leaf Storm'), Field(field)).rawDesc;
+                    expect(result.attackerAbility).toBeUndefined();
+                    expect(result.defenderAbility).toBeUndefined();
+                    result = calculate(attacker, defender, Move('Psyblade'), Field(field)).rawDesc;
+                    expect(result.attackerAbility).toBe(ability);
+                    expect(result.defenderAbility).toBe(ability);
+                });
+            }
+            testQP('Quark Drive', { terrain: 'Electric' });
+            testQP('Protosynthesis', { weather: 'Sun' });
+            testQPOverride('Quark Drive', { terrain: 'Electric' });
+            testQPOverride('Protosynthesis', { weather: 'Sun' });
+            test('Meteor Beam/Electro Shot', function () {
+                var defender = Pokemon('Arceus');
+                var testCase = function (options, expected) {
+                    var result = calculate(Pokemon('Archaludon', options), defender, Move('Meteor Beam'));
+                    expect(result.attacker.boosts.spa).toBe(expected);
+                    result = calculate(Pokemon('Archaludon', options), defender, Move('Electro Shot'));
+                    expect(result.attacker.boosts.spa).toBe(expected);
+                };
+                testCase({}, 1);
+                testCase({ boosts: { spa: 6 } }, 6);
+                testCase({ ability: 'Simple' }, 2);
+                testCase({ ability: 'Contrary' }, -1);
+            });
+            test('Revelation Dance should change type if Pokemon Terastallized', function () {
+                var attacker = Pokemon('Oricorio-Pom-Pom');
+                var defender = Pokemon('Sandaconda');
+                var result = calculate(attacker, defender, Move('Revelation Dance'));
+                expect(result.move.type).toBe('Electric');
+                attacker.teraType = 'Water';
+                result = calculate(attacker, defender, Move('Revelation Dance'));
+                expect(result.move.type).toBe('Water');
+            });
+            test('Flower Gift, Power Spot, Battery, and switching boosts shouldn\'t have double spaces', function () {
+                var attacker = Pokemon('Weavile');
+                var defender = Pokemon('Vulpix');
+                var field = Field({
+                    weather: 'Sun',
+                    attackerSide: {
+                        isFlowerGift: true,
+                        isPowerSpot: true
+                    },
+                    defenderSide: {
+                        isSwitching: 'out'
+                    }
+                });
+                var result = calculate(attacker, defender, Move('Pursuit'), field);
+                expect(result.desc()).toBe("0 Atk Weavile with an ally's Flower Gift Power Spot boosted switching boosted Pursuit (80 BP) vs. 0 HP / 0 Def Vulpix in Sun: 399-469 (183.8 - 216.1%) -- guaranteed OHKO");
+            });
+        });
+        describe('Descriptions', function () {
+            (0, helper_1.inGen)(9, function (_a) {
+                var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
+                test('displayed chances should not round to 100%', function () {
+                    var result = calculate(Pokemon('Xerneas', { item: 'Choice Band', nature: 'Adamant', evs: { atk: 252 } }), Pokemon('Necrozma-Dusk-Mane', { nature: 'Impish', evs: { hp: 252, def: 252 } }), Move('Close Combat'));
+                    expect(result.kochance().chance).toBeGreaterThanOrEqual(0.9995);
+                    expect(result.kochance().text).toBe('99.9% chance to 3HKO');
+                });
+                test('displayed chances should not round to 0%', function () {
+                    var result = calculate(Pokemon('Deoxys-Attack', { evs: { spa: 44 } }), Pokemon('Blissey', { nature: 'Calm', evs: { hp: 252, spd: 252 } }), Move('Psycho Boost'));
+                    expect(result.kochance().chance).toBeLessThan(0.005);
+                    expect(result.kochance().text).toBe('0.1% chance to 4HKO');
                 });
             });
         });

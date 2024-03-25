@@ -26,13 +26,9 @@ export declare class Result {
         text: string;
     };
     kochance(err?: boolean): {
-        chance: number;
+        chance: number | undefined;
         n: number;
         text: string;
-    } | {
-        n: number;
-        text: string;
-        chance?: undefined;
     };
 }
 export declare function damageRange(damage: Damage): [number, number] | [[number, number], [number, number]];
