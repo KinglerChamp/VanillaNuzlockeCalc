@@ -855,7 +855,7 @@ th {
 .poke-info input[type="text"],
 .poke-info span {
   display: inline-block;
-  width: 2.5em;
+  width: 1.8em;
 }
 .poke-info input[type="number"] {
   display: inline-block;
@@ -874,9 +874,9 @@ select {
   /* border: 5px solid red; */
   background: #fff;
   margin-block: 0.2em;
-  padding: 0.3em;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
+  padding: -0.7em;
+  border: -1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 28px;
 }
 .import {
   margin-top: 1em;
@@ -1118,6 +1118,7 @@ table.field {
 }
 .flex {
   display: flex;
+align-items: flex-start;
 }
 .flex > div:last-child div {
   display: flex;
@@ -1129,7 +1130,7 @@ table.field {
   width: 100%;
 }
 .info-group-top {
-  gap: 1em;
+  gap: 8em;
 }
 .align-center {
   align-items: center;
@@ -1347,9 +1348,36 @@ table.field {
 
   background-size: 17%;
 }
-.move-result-group > div:first-child {
-  background-position-x: right;
+.move-result-group > div:first-child::before {
+  /* background-position-x: right; */
+  /* transform: scaleX(-1); */
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 0;
+  /* transform: translateY(-50%); */
+  /* background-image: url("https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/Abomasnow.png"); */
+  width: 20%;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
 }
-.move-result-group > div:last-child {
-  background-position-x: left;
+.move-result-group > div:last-child::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0;
+  /* transform: translateY(-50%); */
+  /* background-image: url("https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/Abomasnow.png"); */
+  width: 20%;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#abilityL1 {
+  width: 156px; /* Adjust the width as needed */
+}
+#abilityR1 {
+  width: 156px; /* Adjust the width as needed */
 }
