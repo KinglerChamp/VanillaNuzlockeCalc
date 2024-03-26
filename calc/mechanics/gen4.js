@@ -25,7 +25,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     return to.concat(ar || Array.prototype.slice.call(from));
 };
 exports.__esModule = true;
-
+exports.calculateDefenseDPP = exports.calculateAttackDPP = exports.calculateBPModsDPP = exports.calculateBasePowerDPP = exports.calculateDPP = void 0;
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_1 = require("./util");
@@ -390,8 +390,8 @@ function calculateBPModsDPP(attacker, defender, move, field, desc, basePower) {
         basePower = Math.floor(basePower * 1.25);
         desc.defenderAbility = defender.ability;
     }
-    // added in rivalry to gen 4
-    if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N')) {
+     // added in rivalry to gen 4
+     if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N')) {
         if (attacker.gender === defender.gender) {
         basePower = Math.floor(basePower * 1.25);
             desc.rivalry = 'buffed';
@@ -402,6 +402,13 @@ function calculateBPModsDPP(attacker, defender, move, field, desc, basePower) {
         }
         desc.attackerAbility = attacker.ability;
     }
+    return basePower;
+
+}
+exports.calculateBPModsDPP = calculateBPModsDPP;
+function calculateAttackDPP(gen, attacker, defender, move, field, desc, isCritical) {
+    if (isCritical === void 0) { isCritical = false; }
+    var isPhysical = move.category === 'Physical';
     var attackStat = isPhysical ? 'atk' : 'spa';
     desc.attackEVs = (0, util_1.getStatDescriptionText)(gen, attacker, attackStat, attacker.nature);
     var attack;

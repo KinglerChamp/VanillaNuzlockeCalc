@@ -872,7 +872,7 @@ th {
 .poke-info span {
   display: inline-block;
 
-  width: 1.5em;
+  width: 1.8em;
 
 }
 .poke-info input[type="number"] {
@@ -893,9 +893,9 @@ select {
   background: #fff;
   margin-block: 0.2em;
 
-  padding: 0.3em;
+  padding: 0.02em;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
+  border-radius: 28px;
 
 }
 .import {
@@ -1138,6 +1138,7 @@ table.field {
 }
 .flex {
   display: flex;
+  align-items: flex-start;
 
 }
 .flex > div:last-child div {
@@ -1151,7 +1152,7 @@ table.field {
 }
 .info-group-top {
 
-  gap: 1em;
+  gap: 8em;
 
 }
 .align-center {

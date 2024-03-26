@@ -25,7 +25,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     return to.concat(ar || Array.prototype.slice.call(from));
 };
 exports.__esModule = true;
-
+exports.calculateDefenseADV = exports.calculateAttackADV = exports.calculateBPModsADV = exports.calculateBasePowerADV = exports.calculateADV = void 0;
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_1 = require("./util");
@@ -167,6 +167,28 @@ function calculateADV(gen, attacker, defender, move, field) {
         desc.defenseBoost = origDefBoost;
         desc.attackBoost = origAtkBoost;
     }
+    if (field.attackerSide.isBadgeAtk) {
+        if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
+            at = Math.floor(at * 1.1);
+            desc.isBadgeAtk = true;
+        }
+    }
+    if (field.attackerSide.isBadgeSpec) {
+        if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
+            at = Math.floor(at * 1.1);
+            desc.isBadgeSpec = true;
+        }
+    }
+    if (field.defenderSide.isBadgeSpec) {
+        if (!isPhysical) {
+            df = Math.floor(df * 1.1);
+        }
+    }
+    if (field.defenderSide.isBadgeDef) {
+        if (isPhysical) {
+            df = Math.floor(df * 1.1);
+        }
+    }
     return result;
 }
 exports.calculateADV = calculateADV;
@@ -220,6 +242,7 @@ function calculateBPModsADV(attacker, move, desc, basePower) {
         basePower = Math.floor(basePower * 1.5);
         desc.attackerAbility = attacker.ability;
     }
+    
     return basePower;
 }
 exports.calculateBPModsADV = calculateBPModsADV;
@@ -232,28 +255,6 @@ function calculateAttackADV(gen, attacker, defender, move, desc, isCritical) {
     if (isPhysical && attacker.hasAbility('Huge Power', 'Pure Power')) {
         at *= 2;
         desc.attackerAbility = attacker.ability;
-    }
-if (field.attackerSide.isBadgeAtk) {
-        if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
-            at = Math.floor(at * 1.1);
-            desc.isBadgeAtk = true;
-        }
-    }
-    if (field.attackerSide.isBadgeSpec) {
-        if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
-            at = Math.floor(at * 1.1);
-            desc.isBadgeSpec = true;
-        }
-    }
-    if (field.defenderSide.isBadgeSpec) {
-        if (!isPhysical) {
-            df = Math.floor(df * 1.1);
-        }
-    }
-    if (field.defenderSide.isBadgeDef) {
-        if (isPhysical) {
-            df = Math.floor(df * 1.1);
-        }
     }
     if (!attacker.hasItem('Sea Incense') && move.hasType((0, items_1.getItemBoostType)(attacker.item))) {
         at = Math.floor(at * 1.1);
