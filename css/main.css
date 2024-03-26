@@ -450,7 +450,10 @@ body {
   margin: 0;
   padding: 0;
   transition: 0.4s;
-  min-width: 100em;
+
+  min-width: 1600px;
+
+
 }
 /* Addded */
 .trainer-poks-label {
@@ -593,6 +596,7 @@ th {
 .panel-container .panel:first-child {
   min-width: 30.33%;
   width: 100%;
+
 }
 .panel-container .panel:last-child {
   min-width: 30.33%;
@@ -601,6 +605,7 @@ th {
 .panel-container .panel:nth-child(2) {
   max-width: 27.33%;
 }
+
 .field-info,
 .poke-import {
   text-align: center;
@@ -673,6 +678,7 @@ th {
   touch-action: manipulation;
   vertical-align: top;
   white-space: nowrap;
+
 }
 
 .button-60:active {
@@ -772,6 +778,7 @@ th {
 } */
 .locked-move:checked + .btn {
   background: #ffff99;
+
 }
 
 .setting-wrapper {
@@ -780,6 +787,10 @@ th {
   align-items: center;
   justify-content: center;
 }
+
+
+
+
 
 .genSelection,
 .notationSelection,
@@ -804,6 +815,7 @@ th {
 
   justify-content: center;
   width: 100%;
+
 }
 .move-result-subgroup:last-child {
   align-items: end;
@@ -812,6 +824,10 @@ th {
 .move-result-subgroup:last-child .btn {
   margin: 0;
 }
+
+
+
+
 
 .text-center {
   text-align: center;
@@ -855,7 +871,9 @@ th {
 .poke-info input[type="text"],
 .poke-info span {
   display: inline-block;
-  width: 1.8em;
+
+  width: 1.5em;
+
 }
 .poke-info input[type="number"] {
   display: inline-block;
@@ -874,9 +892,11 @@ select {
   /* border: 5px solid red; */
   background: #fff;
   margin-block: 0.2em;
-  padding: -0.7em;
-  border: -1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 28px;
+
+  padding: 0.3em;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+
 }
 .import {
   margin-top: 1em;
@@ -1118,7 +1138,7 @@ table.field {
 }
 .flex {
   display: flex;
-align-items: flex-start;
+
 }
 .flex > div:last-child div {
   display: flex;
@@ -1130,7 +1150,9 @@ align-items: flex-start;
   width: 100%;
 }
 .info-group-top {
-  gap: 8em;
+
+  gap: 1em;
+
 }
 .align-center {
   align-items: center;
@@ -1341,12 +1363,11 @@ align-items: flex-start;
 .trainer-poker-checkboxes::before {
   content: "KO’D";
 }
-.move-result-group > div {
-  position: relative;
-  position: relative;
-  background-repeat: no-repeat;
 
-  background-size: 17%;
+.move-result-group > div,
+.move-result-group {
+  position: relative;
+
 }
 .move-result-group > div:first-child::before {
   /* background-position-x: right; */
@@ -1363,6 +1384,7 @@ align-items: flex-start;
   background-size: cover;
   transform: scaleX(-1);
 }
+
 .move-result-group > div:last-child::before {
   content: "";
   position: absolute;
@@ -1374,11 +1396,13 @@ align-items: flex-start;
   height: 120px;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 #abilityL1 {
   width: 156px; /* Adjust the width as needed */
 }
 #abilityR1 {
   width: 156px; /* Adjust the width as needed */
+
 }
 
