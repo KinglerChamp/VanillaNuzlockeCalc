@@ -450,7 +450,7 @@ body {
   margin: 0;
   padding: 0;
   transition: 0.4s;
-  min-width: 100em;
+  min-width: 1600px;
 }
 /* Addded */
 .trainer-poks-label {
