@@ -77,13 +77,13 @@ function tests() {
     var type = undefined;
     if (typeof args[1] !== 'number') {
         from = 1;
-        to = 8;
+        to = 9;
         fn = args[1];
         type = args[2];
     }
     else if (typeof args[2] !== 'number') {
         from = (_a = args[1]) !== null && _a !== void 0 ? _a : 1;
-        to = 8;
+        to = 9;
         fn = args[2];
         type = args[3];
     }

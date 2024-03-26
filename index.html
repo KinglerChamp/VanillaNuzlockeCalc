@@ -233,6 +233,12 @@
                     </div>
                     <div class="flex info-group-top">
                         <div class="info-group top">
+
+<div class="flex gap-sm align-center">
+                                <label for="levelL1">Level</label>
+                                <input class="level calc-trigger" id="levelL1" value="100" />
+                            </div>
+
                             <div class="flex gap-sm align-center">
                                 <label>Type</label>
                                 <select aria-label="type1" class="type1 terrain-trigger calc-trigger"></select>
@@ -257,14 +263,7 @@
                                     <option>Female</option>
                                 </select>
                             </div>
-                            <div class="flex gap-sm align-center">
-                                <label for="levelL1">Level</label>
-                                <input class="level calc-trigger" id="levelL1" value="100" />
-                            </div>
-                            <!-- <div class="hide flex gap-sm align-center">
-                                <label for="weightL1 ">Weight (kg)</label>
-                                <input class="weight calc-trigger" id="weightL1" value="10.0" />
-                            </div> -->
+
                             <div class="info-group info-selectors">
                                 <div class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                     <label for="natureL1">Nature</label>
@@ -608,24 +607,6 @@
                         </table>
                     </div>
 
-                    <div class="">
-                        <div class="info-group">
-
-
-                            <div class="info-group gen-specific g9">
-                                <div class="left" title="Has this Pok&eacute;mon been cured with Salt Cure?">
-                                    <div hidden id="selectRevealInstruction">Has this Pok&eacute;mon been cured with
-                                        Salt
-                                        Cure?
-                                    </div>
-                                    <input aria-describedby="selectRevealInstruction"
-                                        class="visually-hidden saltcure calc-trigger" type="checkbox" id="cureL" />
-                                    <label class="btn btn-xxwide" for="cureL">Salt Cure</label>
-                                </div>
-                                <br />
-                            </div>
-                        </div>
-                    </div>
                     <div class="flex-col">
                         <div hidden id="criticalHitInstruction">Force this attack to be a critical hit?</div>
                         <div hidden id="zMoveInstruction">Make this attack a Z-move?</div>
@@ -1310,6 +1291,33 @@
                                         </div>
                                     </td>
                                 </tr>
+
+<tr class="gen-specific g9">
+                                    <td>
+                                <div class="left" title="Has this Pok&eacute;mon been cured with Salt Cure?">
+                                    <div hidden id="selectRevealInstruction">Has this Pok&eacute;mon been cured with
+                                        Salt
+                                        Cure?
+                                    </div>
+                                    <input aria-describedby="selectRevealInstruction"
+                                        class="visually-hidden saltcure calc-trigger" type="checkbox" id="cureL" />
+                                    <label class="btn btn-xxwide" for="cureL">Salt Cure</label>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="right" title="Has this Pok&eacute;mon been cured with Salt Cure?">
+                                    <div hidden id="selectRevealInstruction">Has this Pok&eacute;mon been cured with
+                                        Salt
+                                        Cure?
+                                    </div>
+                                    <input aria-describedby="selectRevealInstruction"
+                                        class="visually-hidden saltcure calc-trigger" type="checkbox" id="cureL" />
+                                    <label class="btn btn-xxwide" for="cureL">Salt Cure</label>
+                                </div>
+                            </td>
+                        </td>
+
+
                                 <tr class="gen-specific g8 g9">
                                     <td>
                                         <div class="left"
@@ -1460,6 +1468,7 @@
                     <div class="info-group">
                         Health <div class="hpbar"></div>
 
+
                         <br />
                         <label for="currentHpR1">Current HP</label>
                         <input class="current-hp calc-trigger" id="currentHpR1" value="341" />/<span
@@ -1472,6 +1481,10 @@
                     </div>
                     <div class="flex info-group-top ">
                         <div class="info-group top">
+<div class="flex gap-sm align-center">
+                                <label for="levelR1">Level</label>
+                                <input class="level calc-trigger" id="levelR1" value="100" />
+                            </div>
                             <div class="flex gap-sm align-center">
                                 <label>Type</label>
                                 <select aria-label="Type 1" class="type1 terrain-trigger calc-trigger"></select>
@@ -1496,15 +1509,7 @@
                                     <option>Female</option>
                                 </select>
                             </div>
-                            <div class="flex gap-sm align-center">
-                                <label for="levelR1">Level</label>
-                                <input class="level calc-trigger" id="levelR1" value="100" />
-                            </div>
-
-                            <!-- <div class="hide flex gap-sm align-center">
-                                <label for="weightR1">Weight (kg)</label>
-                                <input class="weight calc-trigger" id="weightR1" value="10.0" />
-                            </div> -->
+                           
                             <div class="info-group info-selectors">
                                 <div class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                     <label for="natureR1">Nature</label>
@@ -1838,24 +1843,10 @@
                                 </tr>
                             </tbody>
                         </table>
+
                     </div>
 
-                    <div class="flex">
-                        <div class="info-group">
-
-                            <div class="info-group gen-specific g9">
-                                <div class="left" title="Has this Pok&eacute;mon been cured with Salt Cure?">
-                                    <!-- <div hidden id="selectRevealInstruction">Has this Pok&eacute;mon been cured with
-                                        Salt Cure?
-                                    </div> -->
-                                    <input aria-describedby="selectRevealInstruction"
-                                        class="visually-hidden saltcure calc-trigger" type="checkbox" id="cureR" />
-                                    <label class="btn btn-xxwide" for="cureR">Salt Cure</label>
-                                </div>
-                                <br />
-                            </div>
-                        </div>
-                    </div>
+                 
 
 
                     <div class=" flex-col">
@@ -2021,6 +2012,7 @@
                         </div>
                     </div>
                     <div class="trainer-poks trainer-poks-right">
+
 
                         <div class="trainer-pok-list-opposing">
                             <div class="trainer-pok-container">

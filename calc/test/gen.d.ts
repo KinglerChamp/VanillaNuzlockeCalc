@@ -86,6 +86,7 @@ declare class Move implements I.Move {
         basePower: number;
     };
     readonly multihit?: number | number[];
+    readonly multiaccuracy?: boolean;
     constructor(move: D.Move, dex: D.ModdedDex);
 }
 declare class Species implements I.Species {

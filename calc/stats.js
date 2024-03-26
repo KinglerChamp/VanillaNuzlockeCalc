@@ -124,7 +124,7 @@ exports.Stats = new ((function () {
             return Math.floor((Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + 5) * n);
         }
     };
-    // ADDED - remove max evs in gen 1/2
+// ADDED - remove max evs in gen 1/2
     class_1.prototype.calcStatRBY = function (stat, base, iv, level) {
         return this.calcStatRBYFromDV(stat, base, this.IVToDV(iv), level);
     };

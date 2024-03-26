@@ -9,6 +9,7 @@ export declare namespace State {
         dynamaxLevel?: number;
         isSaltCure?: boolean;
         alliesFainted?: number;
+        boostedStat?: I.StatIDExceptHP | 'auto';
         item?: I.ItemName;
         gender?: I.GenderName;
         nature?: I.NatureName;
@@ -27,6 +28,7 @@ export declare namespace State {
         useZ?: boolean;
         useMax?: boolean;
         isCrit?: boolean;
+        isStellarFirstUse?: boolean;
         hits?: number;
         timesUsed?: number;
         timesUsedWithMetronome?: number;
@@ -64,7 +66,7 @@ export declare namespace State {
         isForesight?: boolean;
         isTailwind?: boolean;
         isHelpingHand?: boolean;
-        isBadgeAtk?: boolean;
+isBadgeAtk?: boolean;
         isBadgeDef?: boolean;
         isBadgeSpeed?: boolean;
         isBadgeSpec?: boolean;
