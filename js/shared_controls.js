@@ -608,6 +608,7 @@ $(".set-selector").change(function () {
 			stickyMoves.clearStickyMove();
 		}
 		pokeObj.find(".teraToggle").prop("checked", isAutoTera);
+		pokeObj.find(".max").prop("checked", false);
 		stellarButtonsVisibility(pokeObj, 0);
 		pokeObj.find(".boostedStat").val("");
 		pokeObj.find(".analysis").attr("href", smogonAnalysis(pokemonName));
@@ -635,7 +636,7 @@ $(".set-selector").change(function () {
 			$(this).closest('.poke-info').find(".extraSetAbilities").text(listAbilities.join(', '));
 			if (gen >= 2) $(this).closest('.poke-info').find(".item-pool").show();
 			$(this).closest('.poke-info').find(".extraSetItems").text(listItems.join(', '));
-			if (gen >= 9 || gen === 7 || gen === 6 || gen === 5 || gen === 4 || gen === 3) {
+			if (gen !== 8 && gen !== 1) {
 				$(this).closest('.poke-info').find(".role-pool").show();
 				if (gen >= 9) $(this).closest('.poke-info').find(".tera-type-pool").show();
 			}
@@ -689,7 +690,7 @@ $(".set-selector").change(function () {
 			}
 			var setMoves = set.moves;
 			if (randset) {
-				if (gen < 9 && gen !== 7 && gen !== 6 && gen !== 5 && gen !== 4 && gen !== 3) {
+				if (gen === 8 || gen === 1) {
 					setMoves = randset.moves;
 				} else {
 					setMoves = [];
@@ -852,22 +853,48 @@ $(".teraToggle").change(function () {
 	var curForme = forme.val();
 	if (forme.is(":hidden")) return;
 	var container = $(this).closest(".info-group").siblings();
-	// Ogerpon mechs
-	if (!startsWith(curForme, "Ogerpon")) return;
-	if (
-		curForme !== "Ogerpon" && !endsWith(curForme, "Tera") &&
-		container.find(".item").val() !== curForme.split("-")[1] + " Mask"
-	) return;
-	if (this.checked) {
-		var newForme = curForme === "Ogerpon" ? "Ogerpon-Teal-Tera" : curForme + "-Tera";
+	// Ogerpon and Terapagos mechs
+	if (startsWith(curForme, "Ogerpon")) {
+		if (
+			curForme !== "Ogerpon" && !endsWith(curForme, "Tera") &&
+			container.find(".item").val() !== curForme.split("-")[1] + " Mask"
+		) return;
+		if (this.checked) {
+			var newForme = curForme === "Ogerpon" ? "Ogerpon-Teal-Tera" : curForme + "-Tera";
+			forme.val(newForme);
+			container.find(".ability").val("Embody Aspect (" + newForme.split("-")[1] + ")");
+			return;
+		}
+		if (!endsWith(curForme, "Tera")) return;
+		var newForme = curForme === "Ogerpon-Teal-Tera" ? "Ogerpon" : curForme.slice(0, -5);
 		forme.val(newForme);
-		container.find(".ability").val("Embody Aspect (" + newForme.split("-")[1] + ")");
-		return;
+		container.find(".ability").val(pokedex[newForme].abilities[0]);
+	} else if (startsWith(curForme, "Terapagos")) {
+		if (this.checked) {
+			var newForme = "Terapagos-Stellar";
+
+			forme.val(newForme);
+			container.find(".ability").val(pokedex[newForme].abilities[0]);
+
+			for (var property in pokedex[newForme].bs) {
+				var baseStat = container.find("." + property).find(".base");
+				baseStat.val(pokedex[newForme].bs[property]);
+				baseStat.keyup();
+			}
+			return;
+		}
+
+		if (!endsWith(curForme, "Stellar")) return;
+		var newForme = "Terapagos-Terastal";
+
+		forme.val(newForme);
+		container.find(".ability").val(pokedex[newForme].abilities[0]);
+		for (var property in pokedex[newForme].bs) {
+			var baseStat = container.find("." + property).find(".base");
+			baseStat.val(pokedex[newForme].bs[property]);
+			baseStat.keyup();
+		}
 	}
-	if (!endsWith(curForme, "Tera")) return;
-	var newForme = curForme === "Ogerpon-Teal-Tera" ? "Ogerpon" : curForme.slice(0, -5);
-	forme.val(newForme);
-	container.find(".ability").val(pokedex[newForme].abilities[0]);
 });
 
 $(".forme").change(function () {
@@ -980,7 +1007,7 @@ function createPokemon(pokeInfo) {
 			evs[stat] = (set.evs && typeof set.evs[legacyStat] !== "undefined") ? set.evs[legacyStat] : 0;
 		}
 		var moveNames = set.moves;
-		if (isRandoms && (gen >= 9 || gen === 7 || gen === 6 || gen === 5 || gen === 4 || gen === 3)) {
+		if (isRandoms && (gen !== 8 && gen !== 1)) {
 			moveNames = [];
 			for (var role in set.roles) {
 				for (var q = 0; q < set.roles[role].moves.length; q++) {
@@ -1040,6 +1067,12 @@ function createPokemon(pokeInfo) {
 		var item = pokeInfo.find(".item").val();
 		var isDynamaxed = pokeInfo.find(".max").prop("checked");
 		var teraType = pokeInfo.find(".teraToggle").is(":checked") ? pokeInfo.find(".teraType").val() : undefined;
+		var opts = {
+			ability: ability,
+			item: item,
+			isDynamaxed: isDynamaxed,
+			teraType: teraType,
+		};
 		pokeInfo.isDynamaxed = isDynamaxed;
 		calcHP(pokeInfo);
 		var curHP = ~~pokeInfo.find(".current-hp").val();
@@ -1065,10 +1098,10 @@ function createPokemon(pokeInfo) {
 			status: CALC_STATUS[pokeInfo.find(".status").val()],
 			toxicCounter: status === 'Badly Poisoned' ? ~~pokeInfo.find(".toxic-counter").val() : 0,
 			moves: [
-				getMoveDetails(pokeInfo.find(".move1"), name, ability, item, isDynamaxed),
-				getMoveDetails(pokeInfo.find(".move2"), name, ability, item, isDynamaxed),
-				getMoveDetails(pokeInfo.find(".move3"), name, ability, item, isDynamaxed),
-				getMoveDetails(pokeInfo.find(".move4"), name, ability, item, isDynamaxed)
+				getMoveDetails(pokeInfo.find(".move1"), opts),
+				getMoveDetails(pokeInfo.find(".move2"), opts),
+				getMoveDetails(pokeInfo.find(".move3"), opts),
+				getMoveDetails(pokeInfo.find(".move4"), opts),
 			],
 			overrides: {
 				baseStats: baseStats,
@@ -1084,7 +1117,7 @@ function getGender(gender) {
 	return 'F';
 }
 
-function getMoveDetails(moveInfo, species, ability, item, useMax) {
+function getMoveDetails(moveInfo, opts) {
 	var moveName = moveInfo.find("select.move-selector").val();
 	var isZMove = gen > 6 && moveInfo.find("input.move-z").prop("checked");
 	var isCrit = moveInfo.find(".move-crit").prop("checked");
@@ -1096,11 +1129,22 @@ function getMoveDetails(moveInfo, species, ability, item, useMax) {
 		basePower: +moveInfo.find(".move-bp").val(),
 		type: moveInfo.find(".move-type").val()
 	};
+	if (moveName === 'Tera Blast') {
+		// custom logic for stellar type tera blast
+		var isStellar = opts.teraType === 'Stellar';
+		var statDrops = moveInfo.find('.stat-drops');
+		var dropsStats = statDrops.is(':visible');
+		if (isStellar !== dropsStats) {
+			// update stat drop dropdown here
+			if (isStellar) statDrops.show(); else statDrops.hide();
+		}
+		if (isStellar) overrides.self = {boosts: {atk: -1, spa: -1}};
+	}
 	if (gen >= 4) overrides.category = moveInfo.find(".move-cat").val();
 	return new calc.Move(gen, moveName, {
-		ability: ability, item: item, useZ: isZMove, species: species, isCrit: isCrit, hits: hits,
+		ability: opts.ability, item: opts.item, useZ: isZMove, species: opts.species, isCrit: isCrit, hits: hits,
 		isStellarFirstUse: isStellarFirstUse, timesUsed: timesUsed, timesUsedWithMetronome: timesUsedWithMetronome,
-		overrides: overrides, useMax: useMax
+		overrides: overrides, useMax: opts.isDynamaxed
 	});
 }
 
@@ -1519,7 +1563,7 @@ function loadCustomList(id) {
 	$("#" + id + " .set-selector").select2({
 		formatResult: function (set) {
 			return (set.nickname ? set.pokemon + " (" + set.nickname + ")" : set.id);
-					},
+		},
 		query: function (query) {
 			var pageSize = 30;
 			var results = [];
