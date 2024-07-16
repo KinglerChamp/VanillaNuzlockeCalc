@@ -10025,35 +10025,35 @@ var SV_PATCH = {
         weightkg: 5.4,
         abilities: { 0: 'Gooey' }
     },
-    'Segin-Starmobile': {
+    'Segin Starmobile': {
         types: ['Dark'],
         bs: { hp: 325, at: 79, df: 107, sa: 77, sd: 84, sp: 310 },
         weightkg: 120,
         gender: 'N',
         abilities: { 0: 'Intimidate' }
     },
-    'Schedar-Starmobile': {
+    'Schedar Starmobile': {
         types: ['Fire'],
         bs: { hp: 324, at: 86, df: 107, sa: 48, sd: 90, sp: 238 },
         weightkg: 120,
         gender: 'N',
         abilities: { 0: 'Speed Boost' }
     },
-    'Navi-Starmobile': {
+    'Navi Starmobile': {
         types: ['Poison'],
         bs: { hp: 329, at: 86, df: 118, sa: 71, sd: 103, sp: 196 },
         weightkg: 120,
         gender: 'N',
         abilities: { 0: 'Toxic Debris' }
     },
-    'Ruchbah-Starmobile': {
+    'Ruchbah Starmobile': {
         types: ['Fairy'],
         bs: { hp: 320, at: 85, df: 115, sa: 65, sd: 85, sp: 127 },
         weightkg: 120,
         gender: 'N',
         abilities: { 0: 'Misty Surge' }
     },
-    'Caph-Starmobile': {
+    'Caph Starmobile': {
         types: ['Fighting'],
         bs: { hp: 306, at: 81, df: 103, sa: 67, sd: 72, sp: 113 },
         weightkg: 120,
