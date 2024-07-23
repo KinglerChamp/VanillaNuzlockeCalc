@@ -339,9 +339,62 @@ function checkExeptions(poke) {
 	case 'Pikachu-Rock-Star':
 		poke = "Pikachu";
 		break;
+	case 'Scatterbug-Icy Snow':
+	case 'Scatterbug-Polar':
+	case 'Scatterbug-Tundra':
+	case 'Scatterbug-Continental':
+	case 'Scatterbug-Garden':
+	case 'Scatterbug-Elegant':
+	case 'Scatterbug-Meadow':
+	case 'Scatterbug-Modern':
+	case 'Scatterbug-Marine':
+	case 'Scatterbug-Archipelago':
+	case 'Scatterbug-High Plains':
+	case 'Scatterbug-Sandstorm':
+	case 'Scatterbug-River':
+	case 'Scatterbug-Monsoon':
+	case 'Scatterbug-Savanna':
+	case 'Scatterbug-Sun':
+	case 'Scatterbug-Ocean':
+	case 'Scatterbug-Jungle':
+	case 'Scatterbug-Fancy':
+	case 'Scatterbug-Pokeball':
+		poke = "Scatterbug";
+		break;
+	case 'Vivillon-Icy Snow':
+	case 'Vivillon-Polar':
+	case 'Vivillon-Tundra':
+	case 'Vivillon-Continental':
+	case 'Vivillon-Garden':
+	case 'Vivillon-Elegant':
+	case 'Vivillon-Meadow':
+	case 'Vivillon-Modern':
+	case 'Vivillon-Marine':
+	case 'Vivillon-Archipelago':
+	case 'Vivillon-High Plains':
+	case 'Vivillon-Sandstorm':
+	case 'Vivillon-River':
+	case 'Vivillon-Monsoon':
+	case 'Vivillon-Savanna':
+	case 'Vivillon-Sun':
+	case 'Vivillon-Ocean':
+	case 'Vivillon-Jungle':
 	case 'Vivillon-Fancy':
 	case 'Vivillon-Pokeball':
 		poke = "Vivillon";
+		break;
+	case 'Flabébé': // there is a difference between the text that PKHeX export and what the calc accepts
+	case 'Flabébé-Yellow':
+	case 'Flabébé-White':
+	case 'Flabébé-Blue':
+	case 'Flabébé-Orange':
+	        poke = 'Flabébé'
+		break;
+	case 'Floette-White':
+	case 'Floette-Blue':
+	case 'Floette-Orange':
+	case 'Floette-Yellow':
+		poke = "Floette";
 		break;
 	case 'Florges-White':
 	case 'Florges-Blue':
