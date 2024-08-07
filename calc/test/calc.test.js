@@ -997,6 +997,51 @@ describe('calc', function () {
                 var result = calculate(attacker, defender, Move('Pursuit'), field);
                 expect(result.desc()).toBe("0 Atk Weavile with an ally's Flower Gift Power Spot boosted switching boosted Pursuit (80 BP) vs. 0 HP / 0 Def Vulpix in Sun: 399-469 (183.8 - 216.1%) -- guaranteed OHKO");
             });
+            test('Wind Rider should give an Attack boost in Tailwind', function () {
+                var attacker = Pokemon('Brambleghast', { 'ability': 'Wind Rider' });
+                var defender = Pokemon('Brambleghast', { 'ability': 'Wind Rider' });
+                var field = Field({
+                    attackerSide: {
+                        isTailwind: true
+                    }
+                });
+                var result = calculate(attacker, defender, Move('Power Whip'), field);
+                expect(attacker.boosts.atk).toBe(0);
+                expect(result.attacker.boosts.atk).toBe(1);
+            });
+            describe('Tera Stellar', function () {
+                var terastal = Pokemon('Arceus', { teraType: 'Stellar' });
+                var control = Pokemon('Arceus');
+                test('should only be displayed on defender for Stellar attacks', function () {
+                    expect(calculate(control, terastal, Move('Tera Blast'))
+                        .rawDesc
+                        .defenderTera).toBeUndefined();
+                    expect(calculate(terastal, terastal, Move('Tera Blast'))
+                        .rawDesc
+                        .defenderTera).toBeDefined();
+                    expect(calculate(terastal, terastal, Move('Tera Blast', { isStellarFirstUse: true }))
+                        .rawDesc
+                        .defenderTera).toBeDefined();
+                    expect(calculate(control, terastal, Move('Tera Blast', { isStellarFirstUse: true }))
+                        .rawDesc
+                        .defenderTera).toBeUndefined();
+                });
+                test('should not be displayed for non-boosted attacks', function () { return expect(calculate(terastal, control, Move('Judgment', { isStellarFirstUse: false }))
+                    .rawDesc
+                    .attackerTera).toBeUndefined(); });
+                test('should distinguish between first use for Tera Blast', function () {
+                    var result = [true, false].map(function (isStellarFirstUse) {
+                        var _ = [];
+                        for (var _i = 1; _i < arguments.length; _i++) {
+                            _[_i - 1] = arguments[_i];
+                        }
+                        return calculate(terastal, control, Move('Tera Blast', { isStellarFirstUse: isStellarFirstUse }))
+                            .rawDesc
+                            .isStellarFirstUse;
+                    });
+                    expect(result[0]).not.toEqual(result[1]);
+                });
+            });
         });
         describe('Descriptions', function () {
             (0, helper_1.inGen)(9, function (_a) {

@@ -623,8 +623,7 @@ th {
 }
 
 /* general button styling */
-.btn,
-#clearSets {
+.btn {
   align-items: center;
   appearance: none;
   background-color: #fff;
@@ -650,6 +649,10 @@ th {
   touch-action: manipulation;
   vertical-align: top;
   white-space: nowrap;
+}
+
+#clearSets {
+  /* Additional or specific styles for #clearSets can go here if needed */
 }
 .margin-top {
   margin-top: 2em !important;
@@ -797,7 +800,7 @@ th {
 
 .genSelection,
 .notationSelection,
-.modeSelection {
+.modeSelection, .gameSelection {
   /* display: inline-block;
   position: relative;
   top: -8px; */
@@ -1220,12 +1223,25 @@ table.field {
   transform: translateX(-50%);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.trainer-poks-right::before {
-  content: "Enemies Team";
-}
 .trainer-poker-checkboxes::before {
   content: "KO’D";
 }
+.team-box::before {
+  content: "Team";
+}
+.box-poke::before {
+  content: "Box 1";
+}
+.box-poke2::before {
+  content: "Box 2";
+}
+.box-poke-trash::before {
+  content: "Trash";
+}
+.trainer-poks-right::before {
+  content: "Enemies Team";
+}
+
 
 .move-result-group > div,
 .move-result-group {
@@ -1269,3 +1285,88 @@ table.field {
 
 }
 
+.box-poke {
+  min-height: 30px;
+}
+
+.deadzone:hover{
+  background: #722323;
+}
+
+.over {
+  background: #373232;
+}
+
+.info-paragraph > b {
+  color: rgb(15, 14, 14);
+}
+
+.info-paragraph > b:hover {
+  background: var(--fieldset-color);
+  color: unset;
+}
+
+#team-poke-list {
+  min-height: 40px;
+}
+#box-poke-list {
+  min-height: 40px;
+}
+#box-poke-list2 {
+  min-height: 40px;
+}
+#trash-box {
+  min-height: 40px;
+}
+.dropzone {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if there's not enough space */
+  gap: 10px; /* Adds space between the items */
+}
+.flipped {
+  transform: scaleX(-1);
+}
+
+.gen-option {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .btn {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content .btn:hover {
+  background-color: #f1f1f1;
+}
+
+.gen-option:hover .dropdown-content {
+  display: block;
+}
+
+.gen-option .btn-small {
+  padding: 5px 10px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

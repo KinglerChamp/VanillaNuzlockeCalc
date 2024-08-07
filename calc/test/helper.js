@@ -27,7 +27,7 @@ var __read = (this && this.__read) || function (o, n) {
     return ar;
 };
 exports.__esModule = true;
-
+exports.tests = exports.inGens = exports.inGen = void 0;
 var index_1 = require("../index");
 var field_1 = require("../field");
 var calc = function (gen) { return function (attacker, defender, move, field) { return (0, index_1.calculate)(gen, attacker, defender, move, field); }; };

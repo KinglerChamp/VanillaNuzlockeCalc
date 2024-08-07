@@ -63,7 +63,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     return to.concat(ar || Array.prototype.slice.call(from));
 };
 exports.__esModule = true;
-
+exports.Natures = exports.Types = exports.Generations = exports.toID = void 0;
 function toID(s) {
     return ('' + s).toLowerCase().replace(/[^a-z0-9]+/g, '');
 }
