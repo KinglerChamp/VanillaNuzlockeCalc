@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Select the common parent element for .trainer-pok-list and .trainer-pok-list-opposing
-    const container = document.querySelector('.trainer-pok-list');
+    const container = document.querySelector('.trainer-poks');
     const containerOpposing = document.querySelector('.trainer-pok-list-opposing');
     
     // Add click event listener to the common parent element

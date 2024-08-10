@@ -1841,14 +1841,8 @@ function dragLeave(event) {
 	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
 }
 
-// Add event listeners for the draggable image
-draggableImage.addEventListener("dragstart", dragStart);
-draggableImage.addEventListener("dragend", dragEnd);
 
-// Add event listeners for the drop zone
-dropZone.addEventListener("dragover", dragOver);
-dropZone.addEventListener("drop", drop);
-dropZone.addEventListener("dragleave", dragLeave);
+
 });
 
 function trashPokemon() {
@@ -1988,7 +1982,6 @@ function nextTrainer() {
     var initialSplit = string.split("[");
     var value = parseInt(initialSplit[initialSplit.length - 2].split("]")[0]) + 1;
 
-    console.log("Value:", value);  // Add this console log statement
 
     for (var set of all_sets) {
         for (const [pok_name, poks] of Object.entries(set)) {
