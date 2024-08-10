@@ -25,7 +25,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     return to.concat(ar || Array.prototype.slice.call(from));
 };
 exports.__esModule = true;
-exports.calculateDefenseADV = exports.calculateAttackADV = exports.calculateBPModsADV = exports.calculateBasePowerADV = exports.calculateADV = void 0;
+
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_1 = require("./util");
@@ -50,6 +50,12 @@ function calculateADV(gen, attacker, defender, move, field) {
     }
     if (field.defenderSide.isProtected) {
         desc.isProtected = true;
+        return result;
+    }
+    if (move.name === 'Pain Split') {
+        var average = Math.floor((attacker.curHP() + defender.curHP()) / 2);
+        var damage = Math.max(0, defender.curHP() - average);
+        result.damage = damage;
         return result;
     }
     if (move.named('Weather Ball')) {
@@ -167,7 +173,6 @@ function calculateADV(gen, attacker, defender, move, field) {
         desc.defenseBoost = origDefBoost;
         desc.attackBoost = origAtkBoost;
     }
-
     return result;
 }
 exports.calculateADV = calculateADV;
@@ -221,7 +226,6 @@ function calculateBPModsADV(attacker, move, desc, basePower) {
         basePower = Math.floor(basePower * 1.5);
         desc.attackerAbility = attacker.ability;
     }
-    
     return basePower;
 }
 exports.calculateBPModsADV = calculateBPModsADV;
@@ -231,6 +235,10 @@ function calculateAttackADV(gen, attacker, defender, move, desc, field, isCritic
     var attackStat = isPhysical ? 'atk' : 'spa';
     desc.attackEVs = (0, util_1.getStatDescriptionText)(gen, attacker, attackStat, attacker.nature);
     var at = attacker.rawStats[attackStat];
+    if (isPhysical && attacker.hasAbility('Huge Power', 'Pure Power')) {
+        at *= 2;
+        desc.attackerAbility = attacker.ability;
+    }
     if (field.attackerSide.isBadgeAtk) {
         if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
             at = Math.floor(at * 1.1);
@@ -242,10 +250,6 @@ function calculateAttackADV(gen, attacker, defender, move, desc, field, isCritic
             at = Math.floor(at * 1.1);
             desc.isBadgeSpec = true;
         }
-    }
-    if (isPhysical && attacker.hasAbility('Huge Power', 'Pure Power')) {
-        at *= 2;
-        desc.attackerAbility = attacker.ability;
     }
     if (!attacker.hasItem('Sea Incense') && move.hasType((0, items_1.getItemBoostType)(attacker.item))) {
         at = Math.floor(at * 1.1);

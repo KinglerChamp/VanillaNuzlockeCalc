@@ -17,6 +17,7 @@ export declare function checkIntimidate(gen: Generation, source: Pokemon, target
 export declare function checkDownload(source: Pokemon, target: Pokemon, wonderRoomActive?: boolean): void;
 export declare function checkIntrepidSword(source: Pokemon, gen: Generation): void;
 export declare function checkDauntlessShield(source: Pokemon, gen: Generation): void;
+export declare function checkWindRider(source: Pokemon, attackingSide: Side): void;
 export declare function checkEmbody(source: Pokemon, gen: Generation): void;
 export declare function checkInfiltrator(pokemon: Pokemon, affectedSide: Side): void;
 export declare function checkSeedBoost(pokemon: Pokemon, field: Field): void;

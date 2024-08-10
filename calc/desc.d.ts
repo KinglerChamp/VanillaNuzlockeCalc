@@ -19,6 +19,7 @@ export interface RawDesc {
     defenseEVs?: string;
     hits?: number;
     alliesFainted?: number;
+    isStellarFirstUse?: boolean;
     isBeadsOfRuin?: boolean;
     isSwordOfRuin?: boolean;
     isTabletsOfRuin?: boolean;
@@ -28,7 +29,7 @@ export interface RawDesc {
     isFlowerGiftDefender?: boolean;
     isFriendGuard?: boolean;
     isHelpingHand?: boolean;
-isBadgeAtk?: boolean;
+    isBadgeAtk?: boolean;
     isBadgeDef?: boolean;
     isBadgeSpeed?: boolean;
     isBadgeSpec?: boolean;

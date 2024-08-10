@@ -7,5 +7,5 @@ import { Result } from '../result';
 export declare function calculateADV(gen: Generation, attacker: Pokemon, defender: Pokemon, move: Move, field: Field): Result;
 export declare function calculateBasePowerADV(attacker: Pokemon, defender: Pokemon, move: Move, desc: RawDesc, hit?: number): number;
 export declare function calculateBPModsADV(attacker: Pokemon, move: Move, desc: RawDesc, basePower: number): number;
-export declare function calculateAttackADV(gen: Generation, attacker: Pokemon, defender: Pokemon, move: Move, desc: RawDesc, isCritical?: boolean): number;
+export declare function calculateAttackADV(gen: Generation, attacker: Pokemon, defender: Pokemon, move: Move, desc: RawDesc, field: Field, isCritical?: boolean): number;
 export declare function calculateDefenseADV(gen: Generation, defender: Pokemon, move: Move, desc: RawDesc, field: Field, isCritical?: boolean): number;

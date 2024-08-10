@@ -133,15 +133,17 @@ function getFinalSpeed(gen, pokemon, field, side) {
     var terrain = field.terrain;
     var speed = getModifiedStat(pokemon.rawStats.spe, pokemon.boosts.spe, gen);
     var speedMods = [];
-if (gen.num == 1) {
+    if (gen.num == 1) {
         if (field.attackerSide.isBadgeSpeed) {
             speed = Math.floor(speed * 1.125);
         }
-    } else if (gen.num == 2) {
+    }
+    else if (gen.num == 2) {
         if (field.attackerSide.isBadgeBoosted > 2) {
             speed = Math.floor(speed * 1.125);
         }
-    } else if (gen.num == 3) {
+    }
+    else if (gen.num == 3) {
         if (field.attackerSide.isBadgeSpeed) {
             speed = Math.floor(speed * 1.1);
         }
@@ -299,6 +301,12 @@ function checkDauntlessShield(source, gen) {
     }
 }
 exports.checkDauntlessShield = checkDauntlessShield;
+function checkWindRider(source, attackingSide) {
+    if (source.hasAbility('Wind Rider') && attackingSide.isTailwind) {
+        source.boosts.atk = Math.min(6, source.boosts.atk + 1);
+    }
+}
+exports.checkWindRider = checkWindRider;
 function checkEmbody(source, gen) {
     if (gen.num < 9)
         return;

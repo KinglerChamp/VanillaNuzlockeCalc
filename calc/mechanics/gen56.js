@@ -39,6 +39,12 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.isProtected = true;
         return result;
     }
+    if (move.name === 'Pain Split') {
+        var average = Math.floor((attacker.curHP() + defender.curHP()) / 2);
+        var damage_1 = Math.max(0, defender.curHP() - average);
+        result.damage = damage_1;
+        return result;
+    }
     if (attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze')) {
         defender.ability = '';
         desc.attackerAbility = attacker.ability;
@@ -627,13 +633,6 @@ function calculateAtModsBWXY(attacker, defender, move, field, desc) {
         desc.attackerAbility = attacker.ability;
         desc.weather = field.weather;
     }
-    else if (field.attackerSide.isFlowerGift &&
-        field.hasWeather('Sun', 'Harsh Sunshine') &&
-        move.category === 'Physical') {
-        atMods.push(6144);
-        desc.weather = field.weather;
-        desc.isFlowerGiftAttacker = true;
-    }
     else if ((attacker.hasAbility('Defeatist') && attacker.curHP() <= attacker.maxHP() / 2) ||
         (attacker.hasAbility('Slow Start') && attacker.abilityOn && move.category === 'Physical')) {
         atMods.push(2048);
@@ -642,6 +641,14 @@ function calculateAtModsBWXY(attacker, defender, move, field, desc) {
     else if (attacker.hasAbility('Huge Power', 'Pure Power') && move.category === 'Physical') {
         atMods.push(8192);
         desc.attackerAbility = attacker.ability;
+    }
+    if (field.attackerSide.isFlowerGift &&
+        !attacker.hasAbility('Flower Gift') &&
+        field.hasWeather('Sun', 'Harsh Sunshine') &&
+        move.category === 'Physical') {
+        atMods.push(6144);
+        desc.weather = field.weather;
+        desc.isFlowerGiftAttacker = true;
     }
     if ((attacker.hasItem('Thick Club') &&
         attacker.named('Cubone', 'Marowak', 'Marowak-Alola') &&

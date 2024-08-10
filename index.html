@@ -14,10 +14,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1600">
     <title>Pok&eacute;mon Damage Calculator</title>
-    <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?9aae00f0" />
-    <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css" />
-    <link type="text/css" rel="stylesheet" href="./css/dark-theme.css" id="dark-theme-styles">
+    <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?fa878065" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?e778993f" />
+    <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css?41755d45" />
+    <link type="text/css" rel="stylesheet" href="./css/dark-theme.css?3989094c" id="dark-theme-styles">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-3"></script>
     <script>
@@ -52,7 +52,7 @@
     <nav>
         <div class="header">
             <div class="header-inner">
-                <a href="#" class="img-anchor"><img src="./img/Logo.png" alt="Nuzlocke Resources" /></a>
+                <a href="#" class="img-anchor"><img src="./img/Logo.png?d39d59f4" alt="Nuzlocke Resources" /></a>
                 <ul class="nav nav-items">
                     <li><a class="button nav-first" href="//twitch.tv/kinglerchamp">Twitch</a></li>
                     <li><a class="button" href="//youtube.com/@NuzlockeResources">Youtube</a></li>
@@ -83,28 +83,112 @@
 
         <h1 class="title-text main-title-text">Full Series Damage Calc</h1>
         <div class="setting-wrapper" aria-label="Settings" role="region">
-            <div class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup"
-                title="Select the generation.">
+            <div class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
                 <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
-                <input class="gen visually-hidden" type="radio" name="gen" value="1" id="gen1" />
-                <label class="btn btn-small btn-left" for="gen1">RBY </label>
-                <input class="gen visually-hidden" type="radio" name="gen" value="2" id="gen2" />
-                <label class="btn  btn-small btn-mid " for="gen2">GSC</label>
-                <input class="gen visually-hidden" type="radio" name="gen" value="3" id="gen3" />
-                <label class="btn btn-small btn-mid" for="gen3">ADV</label>
-                <input class="gen visually-hidden" type="radio" name="gen" value="4" id="gen4" />
-                <label class="btn btn-small btn-mid" for="gen4">DPP</label>
-                <input class="gen visually-hidden" type="radio" name="gen" value="5" id="gen5" />
-                <label class="btn btn-small btn-mid" for="gen5">B/W</label>
-                <input class="gen visually-hidden" type="radio" name="gen" value="6" id="gen6" />
-                <label class="btn btn-small btn-mid" for="gen6">X/Y</label>
-                <input class="gen visually-hidden" type="radio" name="gen" value="7" id="gen7" />
-                <label class="btn btn-small btn-mid" for="gen7">S/M</label>
-                <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8" />
-                <label class="btn btn-small btn-mid" for="gen8">S/S</label>
-                <input class="gen visually-hidden" type="radio" name="gen" value="9" id="gen9" checked="checked" />
-                <label class="btn btn-small btn-right" for="gen9">S/V</label>
-            </div>
+                
+                <div class="gen-option">
+                    <input class="gen visually-hidden" type="radio" name="gen" value="1" id="gen1" />
+                    <label class="btn btn-small btn-left" for="gen1">RBY</label>
+                    <div class="dropdown-content">
+                        <input class="game visually-hidden" type="radio" name="game" value="1" id="game1" />
+                        <label class="btn btn-mid" for="game1">R/B</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="2" id="game2" />
+                        <label class="btn btn-mid" for="game2">Yellow</label>
+                    </div>
+                </div>
+    
+                <div class="gen-option">
+                    <input class="gen visually-hidden" type="radio" name="gen" value="2" id="gen2" />
+                    <label class="btn btn-small btn-mid" for="gen2">GSC</label>
+                    <div class="dropdown-content">
+                        <input class="game visually-hidden" type="radio" name="game" value="3" id="game3"/>
+                        <label class="btn btn-mid" for="game3">G/S</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="4" id="game4" />
+                        <label class="btn btn-mid" for="game4">Crystal</label>
+                    </div>
+                </div>
+    
+                <div class="gen-option">
+                    <input class="gen visually-hidden" type="radio" name="gen" value="3" id="gen3" />
+                    <label class="btn btn-small btn-mid" for="gen3">ADV</label>
+                    <div class="dropdown-content">
+                        <input class="game visually-hidden" type="radio" name="game" value="5" id="game5"/>
+                        <label class="btn btn-mid" for="game5">R/S</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="6" id="game6" />
+                        <label class="btn btn-mid" for="game6">Emerald</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="7" id="game7"/>
+                        <label class="btn btn-mid" for="game7">FR/LG</label>
+                    </div>
+                </div>
+    
+                <div class="gen-option">
+                    <input class="gen visually-hidden" type="radio" name="gen" value="4" id="gen4" />
+                    <label class="btn btn-small btn-mid" for="gen4">DPP</label>
+                    <div class="dropdown-content">
+                        <input class="game visually-hidden" type="radio" name="game" value="8" id="game8"/>
+                        <label class="btn btn-mid" for="game8">D/P</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="9" id="game9" />
+                        <label class="btn btn-mid" for="game9">Platinum</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="10" id="game10" />
+                        <label class="btn btn-mid" for="game10">HG/SS</label>
+                    </div>
+                </div>
+    
+                <div class="gen-option">
+                    <input class="gen visually-hidden" type="radio" name="gen" value="5" id="gen5" />
+                    <label class="btn btn-small btn-mid" for="gen5">B/W</label>
+                    <div class="dropdown-content">
+                        <input class="game visually-hidden" type="radio" name="game" value="11" id="game11"/>
+                        <label class="btn btn-mid" for="game11">B/W</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="12" id="game12"/>
+                        <label class="btn btn-mid" for="game12">B2/W2</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="13" id="game13"/>
+                        <label class="btn btn-mid" for="game13">B2/W2 Hardmode</label>
+                    </div>
+                </div>
+    
+                <div class="gen-option">
+                    <input class="gen visually-hidden" type="radio" name="gen" value="6" id="gen6" />
+                    <label class="btn btn-small btn-mid" for="gen6">X/Y</label>
+                    <div class="dropdown-content">
+                        <input class="game visually-hidden" type="radio" name="game" value="14" id="game14" />
+                        <label class="btn btn-mid" for="game14">X/Y</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="15" id="game15"/>
+                        <label class="btn btn-mid" for="game15">OR/AS</label>
+                    </div>
+                </div>
+                
+                <div class="gen-option">
+                    <input class="gen visually-hidden" type="radio" name="gen" value="7" id="gen7" />
+                    <label class="btn btn-small btn-mid" for="gen7">S/M</label>
+                    <div class="dropdown-content">
+                        <input class="game visually-hidden" type="radio" name="game" value="16" id="game16" />
+                        <label class="btn btn-mid" for="game16">S/M</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="17" id="game17"/>
+                        <label class="btn btn-mid" for="game17">US/UM</label>
+                    </div>
+                </div>
+                
+                <div class="gen-option">
+                    <input class="gen visually-hidden" type="radio" name="gen" value="8" id="gen8" />
+                    <label class="btn btn-small btn-mid" for="gen8">S/S</label>
+                    <div class="dropdown-content">
+                        <input class="game visually-hidden" type="radio" name="game" value="18" id="game18"/>
+                        <label class="btn btn-mid" for="game18">Sw/Sh</label>
+                        <input class="game visually-hidden" type="radio" name="game" value="19" id="game19"/>
+                        <label class="btn btn-mid" for="game19">BD/SP</label>
+                    </div>
+                </div>
+                
+                <div class="gen-option">
+                    <input class="gen visually-hidden" type="radio" name="gen" value="9" id="gen9" checked="checked" />
+                    <label class="btn btn-small btn-right" for="gen9">S/V</label>
+                    <div class="dropdown-content">
+                        <input class="game visually-hidden" type="radio" name="game" value="20" id="game20"/>
+                        <label class="btn btn-mid" for="game20">S/V</label>
+                    </div>
+                </div>
+            </div>                
             <!-- <div class="notationSelection" aria-labelledby="selectNotationInstruction" role="radiogroup"
                 title="Select the output notation.">
                 <span class="visually-hidden" id="selectNotationInstruction">Select the output notation.</span>
@@ -214,10 +298,6 @@
                 <fieldset class="poke-info" id="p1">
                     <legend align="center">Pok&eacute;mon 1</legend>
                     <input type="text" class="set-selector calc-trigger player" />
-                    <span id="importedSetsOptions" style="width:auto; display:none">
-                        <input type="checkbox" id="importedSets" /> Only show imported sets <br />
-                        <button id="clearSets">Clear Imported Sets</button>
-                    </span>
                     <div class="info-group">
                         Health <div class="hpbar"></div>
 
@@ -291,6 +371,22 @@
                                         <option value="Rash">Rash (+SpA, -SpD)</option>
                                         <option value="Relaxed">Relaxed (+Def, -Spe)</option>
                                         <option value="Sassy">Sassy (+SpD, -Spe)</option>
+                                        <option value="Serious">Serious</option>
+                                        <option value="Timid">Timid (+Spe, -Atk)</option>                   <div class="container-for-scaling">
+                      <div class="trainer-poks trainer-poks-right">
+                    
+                    
+                                            <div class="trainer-pok-list-opposing">
+                                                <div class="trainer-pok-container">
+                    
+                    
+                                                </div>
+                    
+                                            </div>
+                    
+                                        </div>
+                                        <div class="trainer-poker-checkboxes">
+                    </div>                                   <option value="Sassy">Sassy (+SpD, -Spe)</option>
                                         <option value="Serious">Serious</option>
                                         <option value="Timid">Timid (+Spe, -Atk)</option>
                                     </select>
@@ -773,8 +869,35 @@
                     </div>
 
                     <div class="trainer-poks trainer-poks-left">
-                        <div class="trainer-pok-list player-poks">
-                        </div>
+                    
+                        <div aria-label="trainer-poks" role="region">
+                            
+                                <div>
+                                    
+                                    <div id="team-poke-list" class="team-box player-poks dropzone">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div>
+                                    
+                                    <div id="box-poke-list" class="box-poke player-poks box-poke dropzone">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div>
+                                    
+                                    <div id="box-poke-list2" class="box-poke player-poks box-poke2 dropzone">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div>
+                                    
+                                    <div id="trash-box" class="box-poke player-poks box-poke-trash dropzone">
+                                    </div>
+                                    <button class="deadzone btn" id="trash-pok">Remove Pokémon from the trash</button>
+<button class="deadzone btn" id="clearSets">Remove Pokémon from all boxes</button>
+
+                                </div>
                     </div>
                 </fieldset>
             </div>
@@ -2027,6 +2150,8 @@
 
                     </div>
                 </fieldset>
+                <button type="button" id="previous-trainer"></button>
+        <button type="button" id="next-trainer"></button>
             </div>
         </div>
 
@@ -2035,9 +2160,9 @@
         <script type="text/javascript">
             var linkExtension = '.html';
         </script>
-        <script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js"></script>
-        <script type="text/javascript" src="./js/vendor/select2/select2.min.js"></script>
-        <script type="text/javascript" src="./js/vendor/url-search-params-0.1.2.min.js"></script>
+        <script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js?874082b2"></script>
+        <script type="text/javascript" src="./js/vendor/select2/select2.min.js?c43abca6"></script>
+        <script type="text/javascript" src="./js/vendor/url-search-params-0.1.2.min.js?1e35f8f9"></script>
         <script type="text/javascript">
             this.__createBinding = function (o, m, k) {
                 o[k] = m[k];
@@ -2047,40 +2172,62 @@
         </script>
         <script type="text/javascript" src="./calc/util.js?8fa0c7ff"></script>
         <script type="text/javascript" src="./calc/stats.js?9220179f"></script>
-        <script type="text/javascript" src="./calc/data/species.js?65e77276"></script>
-        <script type="text/javascript" src="./js/data/sets/gen9.js?6ac289c0"></script>
-        <script type="text/javascript" src="./js/data/sets/gen8.js?497b2c22"></script>
-        <script type="text/javascript" src="./js/data/sets/gen7.js?79220c89"></script>
-        <script type="text/javascript" src="./js/data/sets/gen6.js?07279e0d"></script>
-        <script type="text/javascript" src="./js/data/sets/gen5.js?d4efad74"></script>
-        <script type="text/javascript" src="./js/data/sets/gen4.js?35948916"></script>
-        <script type="text/javascript" src="./js/data/sets/gen3.js?b5c95431"></script>
-        <script type="text/javascript" src="./js/data/sets/gen2.js?b785a949"></script>
-        <script type="text/javascript" src="./js/data/sets/gen1.js?c6c4fe76"></script>
-        <script type="text/javascript" src="./calc/data/types.js?feda570f"></script>
+        <script type="text/javascript" src="./calc/data/species.js?fad93511"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen9/SV.js?2dea8a8c"></script>
+        <script type="text/javascript" src="./js/data/sets/gen9.js?787c7655"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen8/BDSP.js?fb2a3264"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen8/SS.js?a1e849d6"></script>
+        <script type="text/javascript" src="./js/data/sets/gen8.js?7a772ec6"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen7/USUM.js?194cb775"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen7/SM.js?56101220"></script>
+        <script type="text/javascript" src="./js/data/sets/gen7.js?b24a3ad5"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen6/ORAS.js?7be984d6"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen6/XY.js?cb3303c0"></script>
+        <script type="text/javascript" src="./js/data/sets/gen6.js?411cac98"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen5/B2W2HC.js?70564e55"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen5/B2W2.js?63f9aef6"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen5/BW.js?6a5012a4"></script>
+        <script type="text/javascript" src="./js/data/sets/gen5.js?5f46cb2d"></script>
+        <script type="text/javascript" src="./js/data/sets/gen4games.js?23d28f79"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen4/Plat.js?2ecd96f2"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen4/DP.js?751eee4f"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen4/HGSS.js?90c9f0eb"></script>
+        <script type="text/javascript" src="./js/data/sets/gen4.js?ad1ff7ee"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen3/Emerald.js?b90f5382"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen3/FRLG.js?de61316f"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen3/RS.js?0c56ca0a"></script>
+        <script type="text/javascript" src="./js/data/sets/gen3.js?49019c7c"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen2/Crystal.js?c337a6cf"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen2/GS.js?970e7b28"></script>
+        <script type="text/javascript" src="./js/data/sets/gen2.js?239f2043"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen1/Yellow.js?8d82ccb2"></script>
+        <script type="text/javascript" src="./js/data/sets/games/Gen1/RedBlue.js?6755e4a5"></script>
+        <script type="text/javascript" src="./js/data/sets/gen1.js?b70bb188"></script>
+        <script type="text/javascript" src="./calc/data/types.js?6b065b89"></script>
         <script type="text/javascript" src="./calc/data/natures.js?04f00dc5"></script>
-        <script type="text/javascript" src="./calc/data/abilities.js?3fed5409"></script>
-        <script type="text/javascript" src="./calc/data/moves.js?78e4d1d3"></script>
-        <script type="text/javascript" src="./calc/data/items.js?65549879"></script>
+        <script type="text/javascript" src="./calc/data/abilities.js?3e9fb55e"></script>
+        <script type="text/javascript" src="./calc/data/moves.js?f01cd0dc"></script>
+        <script type="text/javascript" src="./calc/data/items.js?81a1fe7e"></script>
         <script type="text/javascript" src="./calc/data/index.js?083d2bc9"></script>
-        <script type="text/javascript" src="./calc/move.js?48331ad1"></script>
-        <script type="text/javascript" src="./calc/pokemon.js?165ba7e1"></script>
-        <script type="text/javascript" src="./calc/field.js?2c7f95da"></script>
-        <script type="text/javascript" src="./calc/items.js?6c1bfef0"></script>
-        <script type="text/javascript" src="./calc/mechanics/util.js?9f493d40"></script>
-        <script type="text/javascript" src="./calc/mechanics/gen789.js?e8d7e9a2"></script>
-        <script type="text/javascript" src="./calc/mechanics/gen56.js?326e578d"></script>
-        <script type="text/javascript" src="./calc/mechanics/gen4.js?a7626c4b"></script>
-        <script type="text/javascript" src="./calc/mechanics/gen3.js?070ab0fe"></script>
-        <script type="text/javascript" src="./calc/mechanics/gen12.js?5a38a633"></script>
+        <script type="text/javascript" src="./calc/move.js?9d26e44e"></script>
+        <script type="text/javascript" src="./calc/pokemon.js?e0fe71b6"></script>
+        <script type="text/javascript" src="./calc/field.js?338abc59"></script>
+        <script type="text/javascript" src="./calc/items.js?3cbea98f"></script>
+        <script type="text/javascript" src="./calc/mechanics/util.js?1170dc44"></script>
+        <script type="text/javascript" src="./calc/mechanics/gen789.js?7619299f"></script>
+        <script type="text/javascript" src="./calc/mechanics/gen56.js?c481f647"></script>
+        <script type="text/javascript" src="./calc/mechanics/gen4.js?86f4ecab"></script>
+        <script type="text/javascript" src="./calc/mechanics/gen3.js?ab0ddb28"></script>
+        <script type="text/javascript" src="./calc/mechanics/gen12.js?bf2df9d1"></script>
         <script type="text/javascript" src="./calc/calc.js?cd072314"></script>
-        <script type="text/javascript" src="./calc/desc.js?6c77b788"></script>
+        <script type="text/javascript" src="./calc/desc.js?65c35c3c"></script>
         <script type="text/javascript" src="./calc/result.js?d5c7552b"></script>
         <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
         <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-        <script type="text/javascript" src="./js/shared_controls.js?36247167"></script>
-        <script type="text/javascript" src="./js/index_randoms_controls.js?05e8813e"></script>
-        <script type="text/javascript" src="./js/moveset_import.js?60db7f40"></script>
+        <script type="text/javascript" src="./js/shared_controls.js?040c3a73"></script>
+        <script type="text/javascript" src="./js/index_randoms_controls.js?13799446"></script>
+        <script type="text/javascript" src="./js/moveset_import.js?cbe36901"></script>
+        <script type="text/javascript" src="./js/game_controls.js?b694f925"></script>
     </div>
 
     <div class="credits">Created by Honko, maintained by Austin and Kris; Modified By Kingler Champ
@@ -2088,7 +2235,7 @@
             <li><a href="https://github.com/KinglerChamp/VanillaNuzlockeCalc/graphs/contributors" class="links-lighten"
                     target="_blank">Contributors</a></li>
             <li><a href="https://github.com/KinglerChamp/VanillaNuzlockeCalc/issues" class="links-lighten"
-                    target="_blank">Bug Reports Here</a></li>
+                    target="_blank">Bug Reports</a></li>
             <li><a href="https://github.com/smogon/damage-calc" class="links-lighten" target="_blank">OG GitHub
                     repository</a></li>
         </ul>
@@ -2098,10 +2245,10 @@
             <label for="toggle2" class="dark-theme-toggle"></label>
         </div>
 
-        <script type="text/javascript" src="./js/dark-theme-toggle.js?b0454081"></script>
+        <script type="text/javascript" src="./js/dark-theme-toggle.js?e1c3dbc4"></script>
     </div>
 
-    <script src="./js/update.js"></script>
+    <script src="./js/update.js?4b6963fb"></script>
 </body>
 
 </html>

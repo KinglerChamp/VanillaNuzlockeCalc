@@ -270,6 +270,46 @@ function updateDex(customsets) {
 			SETDEX_GSC[pokemon][moveset] = customsets[pokemon][moveset];
 			if (!SETDEX_RBY[pokemon]) SETDEX_RBY[pokemon] = {};
 			SETDEX_RBY[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_RB[pokemon]) CUSTOMSETDEX_RB[pokemon] = {};
+			CUSTOMSETDEX_RB[pokemon][moveset] = customsets[pokemon][moveset];
+			if(!CUSTOMSETDEX_Y[pokemon]) CUSTOMSETDEX_Y[pokemon] = {};
+			CUSTOMSETDEX_Y[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_GS[pokemon]) CUSTOMSETDEX_GS[pokemon] = {};
+			CUSTOMSETDEX_GS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_C[pokemon]) CUSTOMSETDEX_C[pokemon] = {};
+			CUSTOMSETDEX_C[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_RS[pokemon]) CUSTOMSETDEX_RS[pokemon] = {};
+			CUSTOMSETDEX_RS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_E[pokemon]) CUSTOMSETDEX_E[pokemon] = {};
+			CUSTOMSETDEX_E[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_FRLG[pokemon]) CUSTOMSETDEX_FRLG[pokemon] = {};
+			CUSTOMSETDEX_FRLG[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_DP[pokemon]) CUSTOMSETDEX_DP[pokemon] = {};
+			CUSTOMSETDEX_DP[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_Pl[pokemon]) CUSTOMSETDEX_Pl[pokemon] = {};
+			CUSTOMSETDEX_Pl[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_HGSS[pokemon]) CUSTOMSETDEX_HGSS[pokemon] = {};
+			CUSTOMSETDEX_HGSS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_BW[pokemon]) CUSTOMSETDEX_BW[pokemon] = {};
+			CUSTOMSETDEX_BW[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_B2W2[pokemon]) CUSTOMSETDEX_B2W2[pokemon] = {};
+			CUSTOMSETDEX_B2W2[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_B2W2HC[pokemon]) CUSTOMSETDEX_B2W2HC[pokemon] = {};
+			CUSTOMSETDEX_B2W2HC[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_XY[pokemon]) CUSTOMSETDEX_XY[pokemon] = {};
+			CUSTOMSETDEX_XY[pokemon][moveset] = customsets[pokemon][moveset];
+			if(!CUSTOMSETDEX_ORAS[pokemon]) CUSTOMSETDEX_ORAS[pokemon] = {};
+			CUSTOMSETDEX_ORAS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_SM[pokemon]) CUSTOMSETDEX_SM[pokemon] = {};
+			CUSTOMSETDEX_SM[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_USUM[pokemon]) CUSTOMSETDEX_USUM[pokemon] = {};
+			CUSTOMSETDEX_USUM[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_SS[pokemon]) CUSTOMSETDEX_SS[pokemon] = {};
+			CUSTOMSETDEX_SS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_BDSP[pokemon]) CUSTOMSETDEX_BDSP[pokemon] = {};
+			CUSTOMSETDEX_BDSP[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_SV[pokemon]) CUSTOMSETDEX_SV[pokemon] = {};
+			CUSTOMSETDEX_SV[pokemon][moveset] = customsets[pokemon][moveset]
 		}
 	}
 	localStorage.customsets = JSON.stringify(customsets);
@@ -304,8 +344,7 @@ function addSets(pokes, name) {
 		}
 	}
 	if (addedpokes > 0) {
-get_box()
-		alert("Successfully imported " + addedpokes + " set(s)");
+		alert("Successfully imported " + addedpokes + " set(s), REFRESH THE PAGE TO SEE IMPORT");
 		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		alert("No sets imported, please check your syntax and try again");

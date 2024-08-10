@@ -40,6 +40,7 @@ var LEGACY_STATS_GSC = ["hp", "at", "df", "sa", "sd", "sp"];
 var LEGACY_STATS = [[], LEGACY_STATS_RBY, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC, LEGACY_STATS_GSC];
 var HIDDEN_POWER_REGEX = /Hidden Power (\w*)/;
 
+
 var CALC_STATUS = {
 	'Healthy': '',
 	'Paralyzed': 'par',
@@ -556,9 +557,13 @@ function smogonAnalysis(pokemonName) {
 	var generation = ["rb", "gs", "rs", "dp", "bw", "xy", "sm", "ss", "sv"][gen - 1];
 	return "https://smogon.com/dex/" + generation + "/pokemon/" + pokemonName.toLowerCase() + "/";
 }
+function sortmons(a,b){
+	return parseInt(a.split("[")[1].split("]")[0]) - parseInt(b.split("[")[1].split("]")[0])
+}
 
 // auto-update set details on select
 $(".set-selector").change(function () {
+	window.NO_CALC = true;
 	var fullSetName = $(this).val();
 
 
@@ -566,22 +571,22 @@ $(".set-selector").change(function () {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
 
 
-	var next_poks = CURRENT_TRAINER_POKS
+	var next_poks = CURRENT_TRAINER_POKS.sort()
 
 	var trpok_html = ""
-	for (i in next_poks ) {
-		if (next_poks[i][0].includes($('input.opposing').val())){
-			continue
+	for (var i in next_poks) {
+		if (next_poks[i][0].includes($('input.opposing').val())) {
+			continue;
 		}
-		var pok_name = next_poks[i].split(" (")[0]
+		var pok_name = next_poks[i].split("]")[1].split(" (")[0];
 		if (pok_name == "Zygarde-10%") {
 			pok_name = "Zygarde-10%25"
 		}
 	
 
 	
-		var pok = `<img class="trainer-pok right-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("[")[0]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
-		trpok_html += pok
+		var pok = `<img class="trainer-pok right-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("]")[1]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
+		trpok_html += pok;
 	}
 }
 
@@ -762,8 +767,12 @@ $(".set-selector").change(function () {
 			pokeObj.find(".gender").parent().hide();
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
+		if (regSets && setdex[pokemonName][setName].gender === "M") pokeObj.find(".gender").val("Male");
+			if (regSets && setdex[pokemonName][setName].gender === "F") pokeObj.find(".gender").val("Female");
+		}
+		window.NO_CALC = false;
 	}
-});
+);
 
 function formatMovePool(moves) {
 	var formatted = [];
@@ -1284,13 +1293,13 @@ var RANDDEX = [
 var gen, genWasChanged, notation, pokedex, setdex, randdex, typeChart, moves, abilities, items, calcHP, calcStat, GENERATION;
 
 TR_NAMES = get_trainer_names()
-
+var DEFAULTGEN = 9;
 $(".gen").change(function () {
 	/*eslint-disable */
-	gen = ~~$(this).val() || 9;
+	gen = ~~$(this).val() || DEFAULTGEN;
 	GENERATION = calc.Generations.get(gen);
 	var params = new URLSearchParams(window.location.search);
-	if (gen === 9) {
+	if (gen === DEFAULTGEN) {
 		params.delete('gen');
 		params = '' + params;
 		if (window.history && window.history.replaceState) {
@@ -1333,6 +1342,7 @@ $(".gen").change(function () {
 
 	$(".set-selector").val(getFirstValidSetOption().id);
 	$(".set-selector").change();
+	updateGameOptions();
 });
 
 function getFirstValidSetOption() {
@@ -1639,81 +1649,268 @@ if (option.id) results.push(option);
 function get_trainer_names() {
     var all_sets = [
         {}, 
-        typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
-        typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
-        typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
-        typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
-        typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
-        typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
-        typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
-        typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
-        typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV
-    ];
+		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
+		typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
+		typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
+		typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
+		typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+		typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
+		typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
+		typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+		typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
+		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
+		typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
+		typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
+		typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
+		typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
+		typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
+		typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
+		typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
+		typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
+		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
+		typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
+		typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
+		typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
+		typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
+		typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
+		typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
+		typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
+		typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
+		typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
+		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
+	];
     
     var trainer_names = [];
 
     all_sets.forEach(function(set) {
         for (const [pok_name, poks] of Object.entries(set)) {
             var pok_tr_names = Object.keys(poks);
-            for (i in pok_tr_names) {
+            for (var i = 0; i < pok_tr_names.length; i++) {
+                var index = poks[pok_tr_names[i]]["index"];
                 var trainer_name = pok_tr_names[i];
-                trainer_names.push(`${pok_name} (${trainer_name})`);
-            }
-        }
+
+                // Skip "Custom Set" entries
+                if (trainer_name.includes("Custom Set")) {
+                    trainer_names.push(`${pok_name} (${trainer_name})`);
+                } else {
+                    trainer_names.push(`[${index}]${pok_name} (${trainer_name})`);
+                }
+			}
+		}
     });
 
     return trainer_names;
 }
 
 var names = get_trainer_names();
-console.log("Trainer Names:", names);
 
 
 
 
-function get_box() {
-    var names = get_trainer_names();
-    var box = [];
-    var box_html = "";
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Call get_box on page load to initialize the boxes
+    get_box();
 
-    // Object to keep track of encountered custom entries
-    var encounteredCustom = {};
+    // Function to get trainer names
+    function get_trainer_names() {
+        var all_sets = [
+            {}, 
+            typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
+		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
+        typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
+        typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
+        typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
+		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
+        typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+        typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
+        typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
+        typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+        typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV
+        ];
 
-    for (var i = 0; i < names.length; i++) {
-        if (names[i].includes("Custom")) {
-            var customName = names[i].split(" (")[0];
+        var trainer_names = [];
 
-            // Check if this custom entry has been encountered before
-            if (!encounteredCustom[customName]) {
-                encounteredCustom[customName] = true;
-
-                // Push the custom name to the box array
-                box.push(customName);
-
-                // Extract the Pokémon name from the custom name
-                var pok_name = customName.split(" (")[0];
-				if (pok_name == "Zygarde-10%") {
-					pok_name = "Zygarde-10%25"
-				}
-			
-
-                // Create the Pokémon sprite HTML
-                var pok = `<img class="trainer-pok left-side flipped-image" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${customName} (Custom Set)" title="${customName} (Custom Set)">`;
-
-                // Append the Pokémon sprite HTML to the box_html string
-                box_html += pok;
+        all_sets.forEach(function(set) {
+            for (const [pok_name, poks] of Object.entries(set)) {
+                var pok_tr_names = Object.keys(poks);
+                for (i in pok_tr_names) {
+                    var trainer_name = pok_tr_names[i];
+                    trainer_names.push(`${pok_name} (${trainer_name})`);
+                }
             }
-        }
+        });
+
+        return trainer_names;
     }
 
-    // Set the inner HTML of the .player-poks element to the box_html string
-    $('.player-poks').html(box_html);
+    // Function to get box and generate HTML for draggable items
+	function get_box() {
+		var names = get_trainer_names();
+		var box = [];
+	
+		// Object to keep track of encountered custom entries
+		var encounteredCustom = {};
+	
+		// Clear the content of the default div
+		document.getElementById('box-poke-list').innerHTML = "";
+	
+		for (var i = 0; i < names.length; i++) {
+			if (names[i].includes("Custom")) {
+				var customName = names[i].split(" (")[0];
+	
+				// Check if this custom entry has been encountered before
+				if (!encounteredCustom[customName]) {
+					encounteredCustom[customName] = true;
+	
+					// Push the custom name to the box array
+					box.push(customName);
+	
+					// Extract the Pokémon name from the custom name
+					var pok_name = customName.split(" (")[0];
+					if (pok_name == "Zygarde-10%") {
+						pok_name = "Zygarde-10%25";
+					}
+	
+					// Create the Pokémon sprite HTML
+					var pok = document.createElement('img');
+					pok.id = `pok-${i}`;
+					pok.className = 'trainer-pok left-side flipped-image draggable-pok';
+					pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					pok.setAttribute('draggable', 'true');
+					pok.dataset.id = `${customName} (Custom Set)`;
+					pok.title = `${customName} (Custom Set)`;
+	
+					// Add dragstart event listener
+					pok.addEventListener('dragstart', dragStart);
+					pok.addEventListener('dragend', dragEnd);
+	
+					// Append the Pokémon sprite to the default box-poke-list drop zone
+					document.getElementById('box-poke-list').appendChild(pok);
+				}
+			}
+		}
+	
+		// Add drag and drop event listeners to the dynamically generated elements
+		const dropzones = document.querySelectorAll('.dropzone');
+	
+		dropzones.forEach(zone => {
+			zone.addEventListener('dragover', dragOver);
+			zone.addEventListener('drop', drop);
+			zone.addEventListener('dragleave', dragLeave);
+		});
+	
+		// Return the box array (optional)
+		return box;
+	}
+	
+	
 
-    // Return the box array (optional)
-    return box;
+   // Function to handle the start of a drag event
+   function dragStart(event) {
+	event.dataTransfer.setData('text/plain', event.target.id); // Set the drag data to the ID of the target
+	event.target.classList.add('dragging'); // Add a class to indicate dragging
+	setTimeout(() => {
+		event.target.style.display = 'none'; // Hide the element to prevent duplicate display
+	}, 0);
+}
+
+// Function to handle the end of a drag event
+function dragEnd(event) {
+	event.target.classList.remove('dragging'); // Remove the dragging class
+	event.target.style.display = 'block'; // Show the element again
+}
+
+// Function to handle drag-over events
+function dragOver(event) {
+	event.preventDefault(); // Prevent default behavior to allow drop
+	event.currentTarget.classList.add('dragover'); // Add a class to indicate the drag-over state
+}
+
+// Function to handle drop events
+function drop(event) {
+	event.preventDefault(); // Prevent default behavior
+	const id = event.dataTransfer.getData('text/plain'); // Get the ID of the dragged element
+	const draggable = document.getElementById(id); // Get the draggable element using the ID
+	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
+	event.currentTarget.appendChild(draggable); // Append the draggable element to the drop zone
+	draggable.style.display = 'block'; // Ensure the element is visible after dropping
+}
+
+// Function to handle drag-leave events
+function dragLeave(event) {
+	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
+}
+
+// Add event listeners for the draggable image
+draggableImage.addEventListener("dragstart", dragStart);
+draggableImage.addEventListener("dragend", dragEnd);
+
+// Add event listeners for the drop zone
+dropZone.addEventListener("dragover", dragOver);
+dropZone.addEventListener("drop", drop);
+dropZone.addEventListener("dragleave", dragLeave);
+});
+
+function trashPokemon() {
+    var maybeMultiple = document.querySelectorAll("#trash-box .trainer-pok");
+    if (maybeMultiple.length == 0) {
+        return; // nothing to delete
+    }
+
+    var numberPKM = maybeMultiple.length > 1 ? `${maybeMultiple.length} Pokémon` : "this Pokémon";
+    var yes = confirm(`Do you really want to remove ${numberPKM}?`);
+    if (!yes) {
+        return;
+    }
+
+    var customSets = localStorage.customsets ? JSON.parse(localStorage.customsets) : {};
+
+    // Remove each Pokémon from customSets and the DOM
+    maybeMultiple.forEach(pokeTrashed => {
+        var name = pokeTrashed.getAttribute("data-id").split(" (")[0];
+        delete customSets[name];
+        pokeTrashed.remove(); // Remove from the DOM
+    });
+
+    localStorage.setItem("customsets", JSON.stringify(customSets));
+
+    // Refresh the boxes
+    $('#box-poke-list')[0].click();
+    // Switch to the next Pokémon automatically
+    $('.box-poke-list')[0].click();
+}
+
+// Event listener for the trash button
+document.getElementById('trash-pok').addEventListener('click', trashPokemon);
+
+function refreshAfterImport() {
+    var customSets = localStorage.customsets ? JSON.parse(localStorage.customsets) : {};
+
+    // Merge newPokemons with existing customSets
+    Object.assign(customSets, newPokemons);
+
+    localStorage.setItem("customsets", JSON.stringify(customSets));
+
+    // Refresh the boxes
+    $('#box-poke-list')[0].click();
+    // Switch to the next Pokémon automatically
+    $('.box-poke-list')[0].click();
 }
 
 
+function addBoxed(poke) {
+	if (document.getElementById(`${poke.name}${poke.nameProp}`)) {
+		//nothing to do it already exist
+		return
+	}
+	var newPoke = document.createElement("img");
+	newPoke.id = `${poke.name}${poke.nameProp}`
+	newPoke.className = "trainer-poke left-side";
+	newPoke.src = getSrcImgPokemon(poke);
+	newPoke.dataset.id = `${poke.name} (${poke.nameProp})`
+	newPoke.addEventListener("dragstart", dragstart_handler);
+	$('#box-poke-list')[0].appendChild(newPoke)
+}
 
 
 function get_trainer_poks(trainer_name)
@@ -1728,6 +1925,93 @@ function get_trainer_poks(trainer_name)
     }
     return matches
 }
+var all_sets = [
+    {}, 
+    typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
+	typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
+	typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
+	typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
+	typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+	typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
+	typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
+	typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+	typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
+	typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
+    typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
+    typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
+	typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
+    typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
+	typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
+	typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
+	typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
+    typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
+	typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
+	typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
+	typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
+	typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
+	typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
+	typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
+	typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
+	typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
+	typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
+	typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
+	typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
+];
+
+function previousTrainer() {
+    var string = $(".trainer-pok-list-opposing").html();
+    var value = parseInt(string.split("]")[0].split("[")[1]) - 1;
+
+    for (var set of all_sets) {
+        for (const [pok_name, poks] of Object.entries(set)) {
+            var pok_tr_names = Object.keys(poks);
+            for (var i = 0; i < pok_tr_names.length; i++) {
+                var index = poks[pok_tr_names[i]]["index"];
+                if (index == value) {
+                    var set = `${pok_name} (${pok_tr_names[i]})`;
+                    $('.opposing').val(set);
+                    $('.opposing').change();
+                    $('.opposing .select2-chosen').text(set);
+                    return;  // Exit once the correct trainer is found
+                }
+            }
+        }
+    }
+}
+
+var previousTrainerButton = document.getElementById('previous-trainer');
+previousTrainerButton.innerText = 'Previous Trainer';
+previousTrainerButton.addEventListener('click', previousTrainer);
+
+function nextTrainer() {
+    var string = $(".trainer-pok-list-opposing").html();
+    var initialSplit = string.split("[");
+    var value = parseInt(initialSplit[initialSplit.length - 2].split("]")[0]) + 1;
+
+    console.log("Value:", value);  // Add this console log statement
+
+    for (var set of all_sets) {
+        for (const [pok_name, poks] of Object.entries(set)) {
+            var pok_tr_names = Object.keys(poks);
+            for (var i = 0; i < pok_tr_names.length; i++) {
+                var index = poks[pok_tr_names[i]]["index"];
+                if (index == value) {
+                    var set = `${pok_name} (${pok_tr_names[i]})`;
+                    $('.opposing').val(set);
+                    $('.opposing').change();
+                    $('.opposing .select2-chosen').text(set);
+                    return;  // Exit once the correct trainer is found
+                }
+            }
+        }
+    }
+}
+
+var nextTrainerButton = document.getElementById('next-trainer');
+nextTrainerButton.innerText = 'Next Trainer';
+nextTrainerButton.addEventListener('click', nextTrainer);
+
+
 
 $(document).on('click', '.right-side', function() {
 	var set = $(this).attr('data-id')
@@ -1747,11 +2031,15 @@ $(document).on('click', '.left-side', function() {
 	get_box()
 })
 
+var READY;
 $(document).ready(function () {
 	var params = new URLSearchParams(window.location.search);
-	var g = GENERATION[params.get('gen')] || 9;
+	var g = GENERATION[params.get('gen')] || DEFAULTGEN;
+	var gm = params.get("game") || 0;
 	$("#gen" + g).prop("checked", true);
 	$("#gen" + g).change();
+	$("#game" + gm).prop("checked", true);
+	$("#game" + gm).change();
 	$("#percentage").prop("checked", true);
 	$("#percentage").change();
 	$("#singles-format").prop("checked", true);
@@ -1769,6 +2057,7 @@ $(document).ready(function () {
 	$(".set-selector").val(getFirstValidSetOption().id);
 	$(".set-selector").change();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
+	READY = true;
 });
 
 /* Click-to-copy function */
@@ -1780,3 +2069,15 @@ $("#mainResult").click(function () {
 		}, 1500);
 	});
 });
+
+function updateGameOptions() {
+	if (!READY) return;
+	var params = new URLSearchParams(window.location.search);
+	$("#game0").prop("checked", true);
+	game = 0;
+	params.delete("game");
+	params = '' + params;
+	if (window.history && window.history.replaceState) {
+		window.history.replaceState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
+	}
+}

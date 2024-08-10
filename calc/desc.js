@@ -67,6 +67,10 @@ function getRecovery(gen, attacker, defender, move, damage, notation) {
     if (move.named('G-Max Finale')) {
         recovery[0] = recovery[1] = Math.round(attacker.maxHP() / 6);
     }
+    if (move.named('Pain Split')) {
+        var average = Math.floor((attacker.curHP() + defender.curHP()) / 2);
+        recovery[0] = recovery[1] = average - attacker.curHP();
+    }
     if (move.drain) {
         var percentHealed = move.drain[0] / move.drain[1];
         var max = Math.round(defender.maxHP() * percentHealed);
@@ -84,7 +88,8 @@ function getRecovery(gen, attacker, defender, move, damage, notation) {
         return { recovery: recovery, text: text };
     var minHealthRecovered = toDisplay(notation, recovery[0], attacker.maxHP());
     var maxHealthRecovered = toDisplay(notation, recovery[1], attacker.maxHP());
-    text = "".concat(minHealthRecovered, " - ").concat(maxHealthRecovered).concat(notation, " recovered");
+    var change = recovery[0] > 0 ? 'recovered' : 'lost';
+    text = "".concat(minHealthRecovered, " - ").concat(maxHealthRecovered).concat(notation, " ").concat(change);
     return { recovery: recovery, text: text };
 }
 exports.getRecovery = getRecovery;
@@ -669,6 +674,9 @@ function buildDescription(description, attacker, defender) {
     if (description.attackerTera) {
         output += "Tera ".concat(description.attackerTera, " ");
     }
+    if (description.isStellarFirstUse) {
+        output += '(First Use) ';
+    }
     if (description.isBeadsOfRuin) {
         output += 'Beads of Ruin ';
     }
@@ -679,7 +687,7 @@ function buildDescription(description, attacker, defender) {
     if (description.isHelpingHand) {
         output += 'Helping Hand ';
     }
-if (description.isBadgeAtk) {
+    if (description.isBadgeAtk) {
         output += 'Badge Boosted Attack ';
     }
     if (description.isBadgeDef) {

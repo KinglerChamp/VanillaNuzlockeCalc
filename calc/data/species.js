@@ -9136,6 +9136,12 @@ var SV_PATCH = {
         gender: 'N',
         abilities: { 0: 'Sword of Ruin' }
     },
+    Chuggalong: {
+        types: ['Dragon', 'Poison'],
+        bs: { hp: 45, at: 43, df: 117, sa: 120, sd: 110, sp: 115 },
+        weightkg: 201.6,
+        abilities: { 0: 'Armor Tail' }
+    },
     Clodsire: {
         types: ['Poison', 'Ground'],
         bs: { hp: 130, at: 75, df: 60, sa: 45, sd: 100, sp: 20 },
@@ -9144,7 +9150,7 @@ var SV_PATCH = {
     },
     Cresceidon: {
         types: ['Water', 'Fairy'],
-        bs: { hp: 80, at: 32, df: 111, sa: 88, sd: 99, sp: 125 },
+        bs: { hp: 80, at: 32, df: 111, sa: 88, sd: 99, sp: 124 },
         weightkg: 999.9,
         abilities: { 0: 'Multiscale' }
     },
@@ -10024,6 +10030,41 @@ var SV_PATCH = {
         bs: { hp: 35, at: 100, df: 50, sa: 50, sd: 70, sp: 120 },
         weightkg: 5.4,
         abilities: { 0: 'Gooey' }
+    },
+    'Segin Starmobile': {
+        types: ['Dark'],
+        bs: { hp: 325, at: 79, df: 107, sa: 77, sd: 84, sp: 310 },
+        weightkg: 120,
+        gender: 'N',
+        abilities: { 0: 'Intimidate' }
+    },
+    'Schedar Starmobile': {
+        types: ['Fire'],
+        bs: { hp: 324, at: 86, df: 107, sa: 48, sd: 90, sp: 238 },
+        weightkg: 120,
+        gender: 'N',
+        abilities: { 0: 'Speed Boost' }
+    },
+    'Navi Starmobile': {
+        types: ['Poison'],
+        bs: { hp: 329, at: 86, df: 118, sa: 71, sd: 103, sp: 196 },
+        weightkg: 120,
+        gender: 'N',
+        abilities: { 0: 'Toxic Debris' }
+    },
+    'Ruchbah Starmobile': {
+        types: ['Fairy'],
+        bs: { hp: 320, at: 85, df: 115, sa: 65, sd: 85, sp: 127 },
+        weightkg: 120,
+        gender: 'N',
+        abilities: { 0: 'Misty Surge' }
+    },
+    'Caph Starmobile': {
+        types: ['Fighting'],
+        bs: { hp: 306, at: 81, df: 103, sa: 67, sd: 72, sp: 113 },
+        weightkg: 120,
+        gender: 'N',
+        abilities: { 0: 'Stamina' }
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);

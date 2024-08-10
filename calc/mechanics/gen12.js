@@ -45,6 +45,12 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         desc.isProtected = true;
         return result;
     }
+    if (move.name === 'Pain Split') {
+        var average = Math.floor((attacker.curHP() + defender.curHP()) / 2);
+        var damage = Math.max(0, defender.curHP() - average);
+        result.damage = damage;
+        return result;
+    }
     if (gen.num === 1) {
         var fixedDamage = (0, util_1.handleFixedDamageMoves)(attacker, move);
         if (fixedDamage) {
@@ -123,7 +129,7 @@ function calculateRBYGSC(gen, attacker, defender, move, field) {
         (gen.num === 1 ||
             (gen.num === 2 && attacker.boosts[attackStat] <= defender.boosts[defenseStat]));
     var lv = attacker.level;
-if (gen.num === 1) {
+    if (gen.num === 1) {
         if (field.attackerSide.isBadgeAtk) {
             if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
                 at = Math.floor(at * 1.125);
@@ -238,7 +244,6 @@ if (gen.num === 1) {
         baseDamage = Math.floor(baseDamage / 2);
         desc.weather = field.weather;
     }
-// This needs to be reordered to account for post game and chuck/jasmmine/pryce split
     if (gen.num === 2) {
         if (field.attackerSide.isBadgeBoosted > 0 && move.hasType('Flying')) {
             baseDamage = Math.floor(baseDamage * 1.125);

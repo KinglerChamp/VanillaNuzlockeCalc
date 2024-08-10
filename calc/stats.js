@@ -124,16 +124,15 @@ exports.Stats = new ((function () {
             return Math.floor((Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + 5) * n);
         }
     };
-// ADDED - remove max evs in gen 1/2
     class_1.prototype.calcStatRBY = function (stat, base, iv, level) {
         return this.calcStatRBYFromDV(stat, base, this.IVToDV(iv), level);
     };
     class_1.prototype.calcStatRBYFromDV = function (stat, base, dv, level) {
         if (stat === 'hp') {
-            return Math.floor((((base + dv) * 2 + 0) * level) / 100) + level + 10;
+            return Math.floor((((base + dv) * 2 + 63) * level) / 100) + level + 10;
         }
         else {
-            return Math.floor((((base + dv) * 2 + 0) * level) / 100) + 5;
+            return Math.floor((((base + dv) * 2 + 63) * level) / 100) + 5;
         }
     };
     class_1.prototype.getHiddenPowerIVs = function (gen, hpType) {

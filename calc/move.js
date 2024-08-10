@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.getMaxMoveName = exports.getZMoveName = exports.Move = void 0;
+
 var util_1 = require("./util");
 var SPECIAL = ['Fire', 'Water', 'Grass', 'Electric', 'Ice', 'Psychic', 'Dark', 'Dragon'];
 var Move = (function () {
@@ -12,7 +12,7 @@ var Move = (function () {
         var data = (0, util_1.extend)(true, { name: name }, gen.moves.get((0, util_1.toID)(name)), options.overrides);
         this.hits = 1;
         if (options.useMax && data.maxMove) {
-            var maxMoveName_1 = getMaxMoveName(data.type, options.species, !!(data.category === 'Status'), options.ability);
+            var maxMoveName_1 = getMaxMoveName(data.type, data.name, options.species, !!(data.category === 'Status'), options.ability);
             var maxMove_1 = gen.moves.get((0, util_1.toID)(maxMoveName_1));
             var maxPower = function () {
                 if (['G-Max Drum Solo', 'G-Max Fire Ball', 'G-Max Hydrosnipe'].includes(maxMoveName_1)) {
@@ -200,7 +200,7 @@ var ZMOVES_TYPING = {
     Steel: 'Corkscrew Crash',
     Water: 'Hydro Vortex'
 };
-function getMaxMoveName(moveType, pokemonSpecies, isStatus, pokemonAbility) {
+function getMaxMoveName(moveType, moveName, pokemonSpecies, isStatus, pokemonAbility) {
     if (isStatus)
         return 'Max Guard';
     if (pokemonAbility === 'Normalize')
@@ -220,14 +220,16 @@ function getMaxMoveName(moveType, pokemonSpecies, isStatus, pokemonAbility) {
             return 'G-Max Gold Rush';
         if (pokemonSpecies === 'Snorlax-Gmax')
             return 'G-Max Replenish';
-        if (pokemonAbility === 'Pixilate')
-            return 'Max Starfall';
-        if (pokemonAbility === 'Aerilate')
-            return 'Max Airstream';
-        if (pokemonAbility === 'Refrigerate')
-            return 'Max Hailstorm';
-        if (pokemonAbility === 'Galvanize')
-            return 'Max Lightning';
+        if (!(moveName === 'Weather Ball' || moveName === 'Terrain Pulse')) {
+            if (pokemonAbility === 'Pixilate')
+                return 'Max Starfall';
+            if (pokemonAbility === 'Aerilate')
+                return 'Max Airstream';
+            if (pokemonAbility === 'Refrigerate')
+                return 'Max Hailstorm';
+            if (pokemonAbility === 'Galvanize')
+                return 'Max Lightning';
+        }
     }
     if (moveType === 'Fairy') {
         if (pokemonSpecies === 'Alcremie-Gmax')

@@ -25,7 +25,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     return to.concat(ar || Array.prototype.slice.call(from));
 };
 exports.__esModule = true;
-exports.calculateDefenseDPP = exports.calculateAttackDPP = exports.calculateBPModsDPP = exports.calculateBasePowerDPP = exports.calculateDPP = void 0;
+
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_1 = require("./util");
@@ -55,6 +55,12 @@ function calculateDPP(gen, attacker, defender, move, field) {
     }
     if (field.defenderSide.isProtected && !move.breaksProtect) {
         desc.isProtected = true;
+        return result;
+    }
+    if (move.name === 'Pain Split') {
+        var average = Math.floor((attacker.curHP() + defender.curHP()) / 2);
+        var damage_1 = Math.max(0, defender.curHP() - average);
+        result.damage = damage_1;
         return result;
     }
     if (attacker.hasAbility('Mold Breaker')) {
@@ -390,20 +396,19 @@ function calculateBPModsDPP(attacker, defender, move, field, desc, basePower) {
         basePower = Math.floor(basePower * 1.25);
         desc.defenderAbility = defender.ability;
     }
-     // added in rivalry to gen 4
-     if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N')) {
+    if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N')) {
         if (attacker.gender === defender.gender) {
-        basePower = Math.floor(basePower * 1.25);
+            basePower = Math.floor(basePower * 1.25);
             desc.rivalry = 'buffed';
         }
         else {
-        basePower = Math.floor(basePower * 0.75);;
+            basePower = Math.floor(basePower * 0.75);
+            ;
             desc.rivalry = 'nerfed';
         }
         desc.attackerAbility = attacker.ability;
     }
     return basePower;
-
 }
 exports.calculateBPModsDPP = calculateBPModsDPP;
 function calculateAttackDPP(gen, attacker, defender, move, field, desc, isCritical) {
@@ -440,11 +445,6 @@ function calculateAttackDPP(gen, attacker, defender, move, field, desc, isCritic
         desc.attackerAbility = attacker.ability;
         desc.weather = field.weather;
     }
-    else if (field.attackerSide.isFlowerGift && field.hasWeather('Sun') && isPhysical) {
-        attack = Math.floor(attack * 1.5);
-        desc.weather = field.weather;
-        desc.isFlowerGiftAttacker = true;
-    }
     else if ((isPhysical &&
         (attacker.hasAbility('Hustle') || (attacker.hasAbility('Guts') && attacker.status)) ||
         (!isPhysical && attacker.abilityOn && attacker.hasAbility('Plus', 'Minus')))) {
@@ -454,6 +454,12 @@ function calculateAttackDPP(gen, attacker, defender, move, field, desc, isCritic
     else if (isPhysical && attacker.hasAbility('Slow Start') && attacker.abilityOn) {
         attack = Math.floor(attack / 2);
         desc.attackerAbility = attacker.ability;
+    }
+    if (field.attackerSide.isFlowerGift && !attacker.hasAbility('Flower Gift') &&
+        field.hasWeather('Sun') && isPhysical) {
+        attack = Math.floor(attack * 1.5);
+        desc.weather = field.weather;
+        desc.isFlowerGiftAttacker = true;
     }
     if ((isPhysical ? attacker.hasItem('Choice Band') : attacker.hasItem('Choice Specs')) ||
         (!isPhysical && attacker.hasItem('Soul Dew') && attacker.named('Latios', 'Latias'))) {

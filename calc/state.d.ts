@@ -66,7 +66,7 @@ export declare namespace State {
         isForesight?: boolean;
         isTailwind?: boolean;
         isHelpingHand?: boolean;
-isBadgeAtk?: boolean;
+        isBadgeAtk?: boolean;
         isBadgeDef?: boolean;
         isBadgeSpeed?: boolean;
         isBadgeSpec?: boolean;
