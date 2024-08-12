@@ -193,6 +193,17 @@ $(document).ready(function () {
 			}
 		}
 	}
+
+	var importParam = params.get('import');
+	if (importParam) {
+		try {
+			var decodedImport = atob(importParam); // Decode base64
+			$('.import-team-text').val(decodedImport); // Set value to text area
+		} catch (e) {
+			console.error('Failed to decode Import parameter:', e);
+		}
+	}
+	
 	$(".calc-trigger").bind("change keyup", function () {
 		setTimeout(performCalculations, 0);
 	});
