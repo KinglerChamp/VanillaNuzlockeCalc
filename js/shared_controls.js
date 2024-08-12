@@ -1767,8 +1767,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	
 					// Extract the Pokémon name from the custom name
 					var pok_name = customName.split(" (")[0];
-					if (pok_name == "Zygarde-10%") {
-						pok_name = "Zygarde-10%25";
+					switch (pok_name) {
+						case "Zygarde-10%":
+							pok_name = "Zygarde-10%25";
+							break;
+						case "Flabébé":
+							pok_name = "Flabébé";
+							break;
+						case "Pumpkaboo-Large":
+						case "Pumpkaboo-Super":
+						case "Pumpkaboo-Small":
+							pok_name = "Pumpkaboo";
+							break;
+						case "Aegislash-Blade":
+						case "Aegislash-Shield":
+						case "Aegislash-Both":
+							pok_name = "Aegislash";
+							break;
 					}
 	
 					// Create the Pokémon sprite HTML
