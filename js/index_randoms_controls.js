@@ -193,7 +193,6 @@ $(document).ready(function () {
 			}
 		}
 	}
-
 	var importParam = params.get('import');
 	if (importParam) {
 		try {
@@ -203,7 +202,7 @@ $(document).ready(function () {
 			console.error('Failed to decode Import parameter:', e);
 		}
 	}
-	
+
 	$(".calc-trigger").bind("change keyup", function () {
 		setTimeout(performCalculations, 0);
 	});
