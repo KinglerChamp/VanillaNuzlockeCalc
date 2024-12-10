@@ -1,2 +1,2 @@
 /* AUTOMATICALLY GENERATED FROM @smogon/sets, DO NOT EDIT! */
-var SETDEX_RBY = {"Abra":{"Click on Tabs":{"level":15,"dvs":{"hp":8,"at":9,"df":8,"sl":8,"sd":8,"sp":8},"moves":["No Move","Teleport","No Move","No Move",]}}};
+var SETDEX_RBY = {"Abra":{"Click on Tabs":{"level":15,"dvs":{"hp":8,"at":9,"df":8,"sl":8,"sp":8},"moves":["No Move","Teleport","No Move","No Move",]}}};
