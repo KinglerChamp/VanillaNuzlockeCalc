@@ -1,0 +1,10 @@
+dist/
+logs/
+node_modules/
+eslint-cache/
+.tsbuildinfo
+.eslintcache
+.DS_Store
+Thumbs.db
+pnpm-debug.log
+npm-debug.log

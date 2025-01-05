@@ -1,0 +1,82 @@
+#!/usr/bin/env node
+'use strict';
+
+const path = require('path');
+const fs = require('fs');
+const crypto = require('crypto');
+
+const rootDir = '.';
+
+// update version
+function makeCachebuster(template, output) {
+	let indexContents = fs.readFileSync(path.resolve(rootDir, template), {encoding: 'utf8'});
+
+	// Add hashes to JS and CSS files
+	process.stdout.write("Updating hashes... ");
+	indexContents = indexContents.replace(/(src|href)="\.\/([^"]*?)(\?[a-z0-9]*?)?"/g, function (a, b, c) {
+		let hash = Math.random().toString(16).substr(2, 8); // Fallback hash
+		try {
+			const filename = c.replace('//play.pokemonshowdown.com/', '../../play.pokemonshowdown.com/');
+			const resolvedPath = path.resolve(rootDir, 'dist', filename);
+
+			console.log('Resolved Path:', resolvedPath);
+
+			if (fs.existsSync(resolvedPath)) {
+				const fstr = fs.readFileSync(resolvedPath, 'utf8');
+				hash = crypto.createHash('md5').update(fstr).digest('hex').substr(0, 8);
+			} else {
+				console.error('File does not exist:', resolvedPath);
+			}
+		} catch (e) {
+			console.error('Error reading file:', e.message);
+		}
+
+		return b + '="./' + c + '?' + hash + '"';
+	}).replace(/\.template\.html/g, '.html');
+
+	process.stdout.write("Writing new `" + output + "` file... ");
+	try {
+		fs.writeFileSync(path.resolve(rootDir, output), indexContents);
+		console.log("File written successfully:", output);
+	} catch (e) {
+		console.error('Error writing file:', e.message);
+	}
+	console.log("DONE");
+}
+
+function cpdir(src, dest) {
+	console.log("Copying `" + src + "` to `" + dest + "`");
+	try {
+		fs.mkdirSync(dest, '0755');
+	} catch(e) {
+		if (e.code != 'EEXIST') throw e;
+	}
+	for (const file of fs.readdirSync(src)) {
+		var current = fs.lstatSync(path.join(src, file));
+		if (current.isDirectory()) {
+			cpdir(path.join(src, file), path.join(dest, file));
+		} else if (current.isSymbolicLink()) {
+			var symlink = fs.readlinkSync(path.join(src, file));
+			fs.symlinkSync(symlink, path.join(dest, file));
+		} else if (file.endsWith('.js')) {
+			let contents = fs.readFileSync(path.join(src, file), 'utf8').replace(/^exports.* = void 0;$/gm, '');
+			// Minify the sets so we save bandwith
+			if (src === 'src/js/data/sets' || src.includes('src/js/data/sets/games/Gen')) {
+				const brkOpenIdx = contents.indexOf('{');
+				contents = `${contents.slice(0, brkOpenIdx)}${JSON.stringify(JSON.parse(contents.slice(brkOpenIdx, -2)))};`
+			} 
+			fs.writeFileSync(path.join(dest, file), contents);
+		} else {
+			fs.copyFileSync(path.join(src, file),path.join(dest, file));
+		}
+	}
+}
+
+if (process.argv[2] !== 'view') {
+	require('child_process').execSync('npm --prefix calc/ run compile', {stdio: 'inherit'});
+}
+
+cpdir('src', 'dist');
+cpdir('calc/dist', 'dist/calc');
+//makeCachebuster('dist/honkalculate.template.html', 'dist/honkalculate.html');
+makeCachebuster('dist/index.template.html', 'dist/index.html');

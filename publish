@@ -1,0 +1,25 @@
+#!/bin/bash -ex
+
+# Setup
+
+rev=$(git rev-parse --short HEAD | tr -d "\n")
+
+# Build
+
+node build
+
+# Checkout: master -> gh-pages
+
+git checkout gh-pages
+
+# Publish
+
+cp -a dist/* .
+
+git add -A .
+git commit -m "Publish: '${rev}'"
+git push git@github.com:smogon/damage-calc.git --force gh-pages
+
+# Checkout: gh-pages -> master
+
+git checkout -

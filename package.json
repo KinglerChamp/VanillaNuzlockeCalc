@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "homepage": "https://calc.pokemonshowdown.com/",
+  "repository": "github:smogon/damage-calc",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "express": "^4.19.2",
+    "subpkg": "^4.1.0"
+  },
+  "optionalDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-proposal-optional-catch-binding": "^7.18.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/plugin-transform-arrow-functions": "^7.20.7",
+    "@babel/plugin-transform-block-scoping": "^7.21.0",
+    "@babel/plugin-transform-classes": "^7.21.0",
+    "@babel/plugin-transform-computed-properties": "^7.20.7",
+    "@babel/plugin-transform-destructuring": "^7.20.7",
+    "@babel/plugin-transform-for-of": "^7.21.0",
+    "@babel/plugin-transform-literals": "^7.18.9",
+    "@babel/plugin-transform-member-expression-literals": "^7.18.6",
+    "@babel/plugin-transform-parameters": "^7.20.7",
+    "@babel/plugin-transform-property-literals": "^7.18.6",
+    "@babel/plugin-transform-shorthand-properties": "^7.18.6",
+    "@babel/plugin-transform-spread": "^7.20.7",
+    "@babel/plugin-transform-template-literals": "^7.18.9",
+    "@babel/plugin-transform-typescript": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "terser": "^5.16.5"
+  },
+  "scripts": {
+    "lint": "subpkg run lint && eslint --cache src --ext js",
+    "fix": "subpkg run fix && eslint --fix src --ext js",
+    "compile": "subpkg run compile && node build view",
+    "bundle": "subpkg run bundle",
+    "build": "subpkg run build && node build view",
+    "test": "subpkg run test && npm run build && eslint --cache src --ext js",
+    "postinstall": "subpkg install"
+  },
+  "subPackages": [
+    "calc"
+  ]
+}

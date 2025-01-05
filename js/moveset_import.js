@@ -4,7 +4,7 @@ function placeBsBtn() {
 
 	$("#import.bs-btn").click(function () {
 		var pokes = document.getElementsByClassName("import-team-text")[0].value;
-		var name = "Custom Set";
+		var name = document.getElementsByClassName("import-name-text")[0].value.trim() === "" ? "Custom Set" : document.getElementsByClassName("import-name-text")[0].value;
 		addSets(pokes, name);
 	});
 }
@@ -344,6 +344,7 @@ function addSets(pokes, name) {
 		}
 	}
 	if (addedpokes > 0) {
+		get_box()
 		alert("Successfully imported " + addedpokes + " set(s), REFRESH THE PAGE TO SEE IMPORT");
 		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
