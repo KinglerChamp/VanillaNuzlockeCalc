@@ -344,12 +344,12 @@ function addSets(pokes, name) {
 		}
 	}
 	if (addedpokes > 0) {
-		get_box()
-		alert("Successfully imported " + addedpokes + " set(s), REFRESH THE PAGE TO SEE IMPORT");
-		$(allPokemon("#importedSetsOptions")).css("display", "flex");
+		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
+		alert("Successfully imported " + addedpokes + " set(s). Refreshing...");
+		setTimeout(() => location.reload(), 250); // Refresh with a slight delay
 	} else {
 		alert("No sets imported, please check your syntax and try again");
-	}
+	}	
 }
 
 function checkExeptions(poke) {
@@ -428,7 +428,6 @@ $(document).ready(function () {
 	if (localStorage.customsets) {
 		customSets = JSON.parse(localStorage.customsets);
 		updateDex(customSets);
-		get_box()
 		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		loadDefaultLists();

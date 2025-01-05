@@ -474,8 +474,18 @@ $(".move-selector").change(function () {
 				for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 					var legacyStat = LEGACY_STATS[gen][i];
 					var stat = legacyStatToStat(legacyStat);
-					pokeObj.find("." + legacyStat + " .ivs").val(hpIVs[stat] !== undefined ? hpIVs[stat] : 31);
-					pokeObj.find("." + legacyStat + " .dvs").val(hpIVs[stat] !== undefined ? calc.Stats.IVToDV(hpIVs[stat]) : 15);
+					
+					// Only assign value if hpIVs[stat] is defined, otherwise leave it as is
+					var ivValue = hpIVs[stat] !== undefined ? hpIVs[stat] : undefined;
+					var dvValue = ivValue !== undefined ? calc.Stats.IVToDV(ivValue) : undefined;
+				
+					// Set the iv and dv only if the value is defined
+					if (ivValue !== undefined) {
+						pokeObj.find("." + legacyStat + " .ivs").val(ivValue);
+					}
+					if (dvValue !== undefined) {
+						pokeObj.find("." + legacyStat + " .dvs").val(dvValue);
+					}
 				}
 				if (gen < 3) {
 					var hpDV = calc.Stats.getHPDV({
@@ -963,6 +973,10 @@ function correctHiddenPower(pokemon) {
 	for (var i = 0; i < pokemon.moves.length; i++) {
 		var m = pokemon.moves[i].match(HIDDEN_POWER_REGEX);
 		if (!m) continue;
+		if (game != "None") {
+			pokemon.moves[i] = "Hidden Power " + expected.type;
+			continue;
+		}
 		// The Pokemon has Hidden Power and is not maxed but the types don't match we don't
 		// want to attempt to reconcile the user's IVs so instead just correct the HP type
 		if (!maxed && expected.type !== m[1]) {
@@ -2036,7 +2050,6 @@ $(document).on('click', '.left-side', function() {
 
 	$('.player').change()
 	$('.player .select2-chosen').text(set)
-	get_box()
 })
 
 var READY;
