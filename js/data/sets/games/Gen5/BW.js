@@ -48,21 +48,15 @@ var CUSTOMSETDEX_BW = {"Accelgor":{"Ace Trainer Jordan | BW ":{"index":"50000000
 "Breloom":{"Marshal 2 | BW ":{"index":"500000000591","level":71,"ability":"Effect Spore","item":"None","nature":"Bold","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Spore","Grass Knot","Sky Uppercut","Mach Punch"]}},
 "Bronzong":{"Caitlin 2 | BW ":{"index":"500000000605","level":71,"ability":"Levitate","item":"None","nature":"Adamant","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Payback","Charge Beam","Flash Cannon","Psychic"]}},
 "Carracosta":{"N 5 | N's Castle | BW ":{"index":"500000000574","level":50,"ability":"Sturdy","item":"None","nature":"Adamant","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Aqua Jet","Waterfall","Stone Edge","Crunch",]}},
-"Chandelure":{
-	"Shauntal | BW ":{"index":"500000000571","level":50,"ability":"Flame Body","item":"None","nature":"Careful","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Payback","Fire Blast","Psychic","Shadow Ball",]},
-	"Shauntal 2 | BW ":{"index":"500000000590","level":73,"ability":"Flame Body","item":"None","nature":"Calm","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Fire Blast","Psychic","Shadow Ball","Payback"]}
-},
+"Chandelure":{"Shauntal | BW ":{"index":"500000000571","level":50,"ability":"Flame Body","item":"None","nature":"Careful","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Payback","Fire Blast","Psychic","Shadow Ball",]},
+"Shauntal 2 | BW ":{"index":"500000000590","level":73,"ability":"Flame Body","item":"None","nature":"Calm","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Fire Blast","Psychic","Shadow Ball","Payback"]}},
 "Cinccino":{"Ranger Annie | BW ":{"index":"500000000465","level":36,"ability":"Cute Charm","item":"None","nature":"Naive","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Helping Hand","Tickle","Sing","Tail Slap",]}},
-"Cofagrigus":{
-	"Shauntal | BW ":{"index":"500000000568","level":48,"ability":"Mummy","item":"None","nature":"Gentle","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Will-O-Wisp","Grass Knot","Psychic","Shadow Ball",]},
-	"Ghetsis | BW ":{"index":"500000000579","level":52,"ability":"Mummy","item":"None","nature":"Jolly","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Protect","Shadow Ball","Psychic","Toxic",]},
-	"Shauntal 2 | BW ":{"index":"500000000585","level":71,"ability":"Mummy","item":"None","nature":"Sassy","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Psychic","Will-O-Wisp","Shadow Ball","Energy Ball"]}
-},
-"Conkeldurr":{
-	"Black Belt Tyrone | BW ":{"index":"500000000545","level":43,"ability":"Sheer Force","item":"None","nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Bulk Up","Rock Slide","Dynamic Punch","Scary Face",]},
-	"Marshall | BW ":{"index":"500000000558","level":48,"ability":"Sheer Force","item":"None","nature":"Naughty","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Hammer Arm","Grass Knot","Stone Edge","Retaliate",]},
-	"Marshal 2 | BW ":{"index":"500000000596","level":73,"ability":"Sheer Force","item":"None","nature":"Lax","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Stone Edge","Hammer Arm","Payback","Earthquake"]}
-},
+"Cofagrigus":{"Shauntal | BW ":{"index":"500000000568","level":48,"ability":"Mummy","item":"None","nature":"Gentle","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Will-O-Wisp","Grass Knot","Psychic","Shadow Ball",]},
+"Ghetsis | BW ":{"index":"500000000579","level":52,"ability":"Mummy","item":"None","nature":"Jolly","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Protect","Shadow Ball","Psychic","Toxic",]},
+"Shauntal 2 | BW ":{"index":"500000000585","level":71,"ability":"Mummy","item":"None","nature":"Sassy","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Psychic","Will-O-Wisp","Shadow Ball","Energy Ball"]}},
+"Conkeldurr":{"Black Belt Tyrone | BW ":{"index":"500000000545","level":43,"ability":"Sheer Force","item":"None","nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Bulk Up","Rock Slide","Dynamic Punch","Scary Face",]},
+"Marshall | BW ":{"index":"500000000558","level":48,"ability":"Sheer Force","item":"None","nature":"Naughty","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Hammer Arm","Grass Knot","Stone Edge","Retaliate",]},
+"Marshal 2 | BW ":{"index":"500000000596","level":73,"ability":"Sheer Force","item":"None","nature":"Lax","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Stone Edge","Hammer Arm","Payback","Earthquake"]}},
 "Cottonee":{"Preschooler Juliet | BW ":{"index":"500000000074","level":13,"ability":"Prankster","item":"None","nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Growth","Leech Seed","Stun Spore","Mega Drain",]},
 "Clerk ♀ Alberta | BW ":{"index":"500000000108","level":18,"ability":"Infiltrator","item":"None","nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Leech Seed","Stun Spore","Mega Drain","Cotton Spore",]},
 "Backpacker Anna | BW ":{"index":"500000000172","level":19,"ability":"Prankster","item":"None","nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Stun Spore","Mega Drain","Cotton Spore","Razor Leaf",]}},
@@ -159,10 +153,8 @@ var CUSTOMSETDEX_BW = {"Accelgor":{"Ace Trainer Jordan | BW ":{"index":"50000000
 "Roughneck Reese | BW ":{"index":"500000000484","level":36,"ability":"Weak Armor","item":"None","nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Swallow","Body Slam","Sludge Bomb","Clear Smog",]}},
 "Gigalith":{"Veteran Martell | BW ":{"index":"500000000554","level":45,"ability":"Sturdy","item":"None","nature":"Rash","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18},"moves":["Stone Edge","Earthquake","Giga Impact","Flash Cannon",]}},
 "Golett":{"Psychic Micki | BW ":{"index":"500000000355","level":31,"ability":"Klutz","item":"None","nature":"Careful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Iron Defense","Mega Punch","Magnitude","Dynamic Punch",]}},
-"Golurk":{
-	"Shauntal | BW ":{"index":"500000000570","level":48,"ability":"Iron Fist","item":"None","nature":"Serious","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Curse","Earthquake","Brick Break","Shadow Punch",]},
-	"Shauntal 2 | BW ":{"index":"500000000589","level":71,"ability":"Iron Fist","item":"None","nature":"Jolly","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Hammer Arm","Earthquake","Shadow Punch","Curse"]}
-},
+"Golurk":{"Shauntal | BW ":{"index":"500000000570","level":48,"ability":"Iron Fist","item":"None","nature":"Serious","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Curse","Earthquake","Brick Break","Shadow Punch",]},
+"Shauntal 2 | BW ":{"index":"500000000589","level":71,"ability":"Iron Fist","item":"None","nature":"Jolly","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Hammer Arm","Earthquake","Shadow Punch","Curse"]}},
 "Gothita":{"Psychic Cybil | BW ":{"index":"500000000183","level":24,"ability":"Frisk","item":"None","nature":"Hardy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Double Slap","Psybeam","Embargo","Feint Attack",]},
 "Ace Trainer Stella | BW ":{"index":"500000000318","level":29,"ability":"Frisk","item":"None","nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Embargo","Feint Attack","Psyshock","Flatter",]},
 "Lass Kara | BW ":{"index":"500000000349","level":30,"ability":"Frisk","item":"None","nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Embargo","Feint Attack","Psyshock","Flatter",]},
@@ -195,11 +187,9 @@ var CUSTOMSETDEX_BW = {"Accelgor":{"Ace Trainer Jordan | BW ":{"index":"50000000
 "Bianca 4 | Oshawott | Driftveil City | BW ":{"index":"500000000281","level":26,"ability":"Intimidate","item":"None","nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Helping Hand","Take Down","Work Up","Crunch",]},
 "Pokéfan Jude | BW ":{"index":"500000000351","level":30,"ability":"Intimidate","item":"None","nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Take Down","Work Up","Crunch","Roar",]}},
 "Hydreigon":{"Ghetsis | BW ":{"index":"500000000584","level":54,"ability":"Levitate","item":"None","nature":"Timid","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Dragon Pulse","Surf","Fire Blast","Focus Blast",]}},
-"Jellicent":{
-	"Ace Trainer Cheyenne | BW ":{"index":"500000000532","level":40,"ability":"Cursed Body","item":"None","nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Water Pulse","Ominous Wind","Brine","Rain Dance",]},
-	"Shauntal | BW ":{"index":"500000000569","level":48,"ability":"Cursed Body","item":"None","nature":"Sassy","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Energy Ball","Brine","Surf","Shadow Ball",]},
-	"Shauntal 2 | BW ":{"index":"500000000586","level":71,"ability":"Cursed Body","item":"None","nature":"Careful","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Sludge Wave","Shadow Ball","Hydro Pump","Psychic"]}
-	},
+"Jellicent":{"Ace Trainer Cheyenne | BW ":{"index":"500000000532","level":40,"ability":"Cursed Body","item":"None","nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Water Pulse","Ominous Wind","Brine","Rain Dance",]},
+"Shauntal | BW ":{"index":"500000000569","level":48,"ability":"Cursed Body","item":"None","nature":"Sassy","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Energy Ball","Brine","Surf","Shadow Ball",]},
+"Shauntal 2 | BW ":{"index":"500000000586","level":71,"ability":"Cursed Body","item":"None","nature":"Careful","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Sludge Wave","Shadow Ball","Hydro Pump","Psychic"]}},
 "Joltik":{"Youngster Albert | BW ":{"index":"500000000241","level":24,"ability":"Unnerve","item":"None","nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Screech","Fury Cutter","Bug Bite","Thunder Wave",]},
 "N 4 | Chargestone Cave | BW ":{"index":"500000000327","level":28,"ability":"Unnerve","item":"None","nature":"Docile","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Electroweb","Bug Bite","Gastro Acid","Slash",]}},
 "Karrablast":{"Youngster Kenneth | BW ":{"index":"500000000240","level":24,"ability":"Swarm","item":"None","nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Endure","Fury Cutter","Fury Attack","Headbutt",]}},
@@ -274,10 +264,8 @@ var CUSTOMSETDEX_BW = {"Accelgor":{"Ace Trainer Jordan | BW ":{"index":"50000000
 "Metagross":{"Caitlin 2 | BW ":{"index":"500000000608","level":73,"ability":"Clear Body","item":"None","nature":"Mild","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Bullet Punch","Earthquake","Zen Headbutt","Giga Impact"]}},
 "Mienfoo":{"Battle Girl Amy | BW ":{"index":"500000000509","level":39,"ability":"Regenerator","item":"None","nature":"Lonely","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Calm Mind","Force Palm","Drain Punch","Jump Kick",]},
 "Black Belt Tyrone | BW ":{"index":"500000000544","level":43,"ability":"Regenerator","item":"None","nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Force Palm","Drain Punch","Jump Kick","U-turn",]}},
-"Mienshao":{
-	"Marshall | BW ":{"index":"500000000559","level":50,"ability":"Inner Focus","item":"None","nature":"Relaxed","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Jump Kick","U-turn","Rock Slide","Retaliate",]},
-	"Marshal 2 | BW ":{"index":"500000000595","level":71,"ability":"Inner Focus","item":"None","nature":"Brave","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["U-turn","High Jump Kick","Fake Out","Acrobatics"]}
-},
+"Mienshao":{"Marshall | BW ":{"index":"500000000559","level":50,"ability":"Inner Focus","item":"None","nature":"Relaxed","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30},"moves":["Jump Kick","U-turn","Rock Slide","Retaliate",]},
+"Marshal 2 | BW ":{"index":"500000000595","level":71,"ability":"Inner Focus","item":"None","nature":"Brave","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["U-turn","High Jump Kick","Fake Out","Acrobatics"]}},
 "Minccino":{"Janitor Geoff | BW ":{"index":"500000000119","level":20,"ability":"Cute Charm","item":"None","nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Tickle","Double Slap","Encore","Swift",]},
 "Pokémon Ranger Richard | BW ":{"index":"500000000296","level":27,"ability":"Cute Charm","item":"None","nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Swift","Sing","Tail Slap","Charm",]},
 "Ace Trainer Elmer | BW ":{"index":"500000000339","level":31,"ability":"Cute Charm","item":"None","nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Sing","Tail Slap","Charm","Wake-Up Slap",]}},
@@ -418,12 +406,10 @@ var CUSTOMSETDEX_BW = {"Accelgor":{"Ace Trainer Jordan | BW ":{"index":"50000000
 "Grunt 1 | Chargestone Cave | BW ":{"index":"500000000304","level":26,"ability":"Moxie","item":"None","nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Assurance","Mud-Slap","Embargo","Swagger",]},
 "Grunt 5 | Chargestone Cave | BW ":{"index":"500000000314","level":27,"ability":"Moxie","item":"None","nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Assurance","Mud-Slap","Embargo","Swagger",]},
 "Grunt 7 | Chargestone Cave | BW ":{"index":"500000000321","level":27,"ability":"Moxie","item":"None","nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Assurance","Mud-Slap","Embargo","Swagger",]}},
-"Sawk":{
-	"Black Belt Teppei | BW ":{"index":"500000000412","level":36,"ability":"Inner Focus","item":"None","nature":"Relaxed","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Counter","Karate Chop","Brick Break","Bulk Up",]},
-	"Black Belt Corey | BW ":{"index":"500000000528","level":40,"ability":"Inner Focus","item":"None","nature":"Gentle","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Karate Chop","Brick Break","Bulk Up","Retaliate",]},
-	"Marshall | BW ":{"index":"500000000557","level":48,"ability":"Sturdy","item":"None","nature":"Hasty","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Karate Chop","Grass Knot","Stone Edge","Retaliate",]},
-	"Marshal 2 | BW ":{"index":"500000000593","level":71,"ability":"Sturdy","item":"None","nature":"Quirky","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Close Combat","Stone Edge","Poison Jab","Retaliate"]}
-},
+"Sawk":{"Black Belt Teppei | BW ":{"index":"500000000412","level":36,"ability":"Inner Focus","item":"None","nature":"Relaxed","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Counter","Karate Chop","Brick Break","Bulk Up",]},
+"Black Belt Corey | BW ":{"index":"500000000528","level":40,"ability":"Inner Focus","item":"None","nature":"Gentle","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Karate Chop","Brick Break","Bulk Up","Retaliate",]},
+"Marshall | BW ":{"index":"500000000557","level":48,"ability":"Sturdy","item":"None","nature":"Hasty","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Karate Chop","Grass Knot","Stone Edge","Retaliate",]},
+"Marshal 2 | BW ":{"index":"500000000593","level":71,"ability":"Sturdy","item":"None","nature":"Quirky","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Close Combat","Stone Edge","Poison Jab","Retaliate"]}},
 "Sawsbuck":{"Ace Trainer Cheyenne | BW ":{"index":"500000000531","level":40,"ability":"Sap Sipper","item":"None","nature":"Jolly","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Aromatherapy","Energy Ball","Charm","Horn Leech",]}},
 "Scolipede":{"Youngster Parker | BW ":{"index":"500000000334","level":29,"ability":"Poison Point","item":"None","nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Protect","Poison Tail","Bug Bite","Venoshock",]},
 "Ace Trainer Dwayne | BW ":{"index":"500000000539","level":45,"ability":"Swarm","item":"None","nature":"Docile","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Baton Pass","Agility","Steamroller","Toxic",]}},
@@ -513,11 +499,9 @@ var CUSTOMSETDEX_BW = {"Accelgor":{"Ace Trainer Jordan | BW ":{"index":"50000000
 "Bianca 2 | Oshawott | R2 | BW ":{"index":"500000000015","level":7,"ability":"Blaze","item":"None","nature":"Quiet","ivs":{"hp":3,"at":3,"df":3,"sa":3,"sd":3,"sp":3},"moves":["Tackle","Tail Whip","Ember","No Move",]},
 "Cheren 2 | Snivy | Trainer School | BW ":{"index":"500000000016","level":8,"ability":"Blaze","item":"Oran Berry","nature":"Sassy","ivs":{"hp":3,"at":3,"df":3,"sa":3,"sd":3,"sp":3},"moves":["Tackle","Tail Whip","Ember","No Move",]},
 "Cheren 3 | Snivy | R3 | BW ":{"index":"500000000045","level":14,"ability":"Blaze","item":"Oran Berry","nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6},"moves":["Tail Whip","Ember","Odor Sleuth","Defense Curl",]}},
-"Throh":{
-	"Battle Girl Sharon | BW ":{"index":"500000000400","level":36,"ability":"Guts","item":"None","nature":"Timid","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Revenge","Storm Throw","Body Slam","Bulk Up",]},
-	"Marshall | BW ":{"index":"500000000556","level":48,"ability":"Guts","item":"None","nature":"Lax","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Storm Throw","Bulldoze","Stone Edge","Payback",]},
-	"Marshal 2 | BW ":{"index":"500000000592","level":71,"ability":"Guts","item":"None","nature":"Lonely","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Earthquake","Superpower","Retaliate","Grass Knot"]}
-},
+"Throh":{"Battle Girl Sharon | BW ":{"index":"500000000400","level":36,"ability":"Guts","item":"None","nature":"Timid","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Revenge","Storm Throw","Body Slam","Bulk Up",]},
+"Marshall | BW ":{"index":"500000000556","level":48,"ability":"Guts","item":"None","nature":"Lax","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},"moves":["Storm Throw","Bulldoze","Stone Edge","Payback",]},
+"Marshal 2 | BW ":{"index":"500000000592","level":71,"ability":"Guts","item":"None","nature":"Lonely","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30,},"moves":["Earthquake","Superpower","Retaliate","Grass Knot"]}},
 "Timburr":{"N 2 | Nacarene City | BW ":{"index":"500000000064","level":13,"ability":"Guts","item":"None","nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Leer","Focus Energy","Bide","Low Kick",]},
 "Black Belt Kentaro | BW ":{"index":"500000000082","level":16,"ability":"Guts","item":"None","nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Focus Energy","Bide","Low Kick","Rock Throw",]},
 "Battle Girl Lee | BW ":{"index":"500000000083","level":16,"ability":"Guts","item":"None","nature":"Lonely","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Focus Energy","Bide","Low Kick","Rock Throw",]},
