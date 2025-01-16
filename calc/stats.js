@@ -99,7 +99,7 @@ exports.Stats = new ((function () {
         if (gen.num < 1 || gen.num > 9)
             throw new Error("Invalid generation ".concat(gen.num));
         if (gen.num < 3)
-            return this.calcStatRBY(stat, base, iv, level);
+            return this.calcStatRBY(stat, base, iv, ev, level);
         return this.calcStatADV(gen.natures, stat, base, iv, ev, level, nature);
     };
     class_1.prototype.calcStatADV = function (natures, stat, base, iv, ev, level, nature) {
@@ -124,15 +124,15 @@ exports.Stats = new ((function () {
             return Math.floor((Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + 5) * n);
         }
     };
-    class_1.prototype.calcStatRBY = function (stat, base, iv, level) {
-        return this.calcStatRBYFromDV(stat, base, this.IVToDV(iv), level);
+    class_1.prototype.calcStatRBY = function (stat, base, iv, ev, level) {
+        return this.calcStatRBYFromDV(stat, base, this.IVToDV(iv), ev, level);
     };
-    class_1.prototype.calcStatRBYFromDV = function (stat, base, dv, level) {
+    class_1.prototype.calcStatRBYFromDV = function (stat, base, dv, ev, level) {
         if (stat === 'hp') {
-            return Math.floor((((base + dv) * 2) * level) / 100) + level + 10;
+            return Math.floor(((((base + dv) * 2) + Math.floor(Math.ceil(Math.sqrt(ev)) / 4)) * level) / 100) + level + 10;
         }
         else {
-            return Math.floor((((base + dv) * 2) * level) / 100) + 5;
+            return Math.floor(((((base + dv) * 2) + Math.floor(Math.ceil(Math.sqrt(ev)) / 4)) * level) / 100) + 5;
         }
     };
     class_1.prototype.getHiddenPowerIVs = function (gen, hpType) {
