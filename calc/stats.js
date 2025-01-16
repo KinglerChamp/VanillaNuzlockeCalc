@@ -129,10 +129,10 @@ exports.Stats = new ((function () {
     };
     class_1.prototype.calcStatRBYFromDV = function (stat, base, dv, ev, level) {
         if (stat === 'hp') {
-            return Math.floor(((((base + dv) * 2) + Math.floor(Math.ceil(Math.sqrt(ev)) / 4)) * level) / 100) + level + 10;
+            return Math.floor((((base + dv) * 2 + Math.floor(Math.ceil(Math.sqrt(ev)) / 4)) * level) / 100) + level + 10;
         }
         else {
-            return Math.floor(((((base + dv) * 2) + Math.floor(Math.ceil(Math.sqrt(ev)) / 4)) * level) / 100) + 5;
+            return Math.floor((((base + dv) * 2 + Math.floor(Math.ceil(Math.sqrt(ev)) / 4)) * level) / 100) + 5;
         }
     };
     class_1.prototype.getHiddenPowerIVs = function (gen, hpType) {
