@@ -142,22 +142,22 @@ $(".sd .base, .sd .evs, .sd .ivs").bind("keyup change", function () {
 $(".sp .base, .sp .evs, .sp .ivs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'sp');
 });
-$(".sl .base, .sl .g1g2-evs").keyup(function () {
+$(".sl .base, .sl .g1g2-evs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'sl');
 });
-$(".at .dvs, .at .g1g2-evs").keyup(function () {
+$(".at .dvs, .at .g1g2-evs").bind("keyup change", function () {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'at');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".df .dvs, .df .g1g2-evs").keyup(function () {
+$(".df .dvs, .df .g1g2-evs").bind("keyup change", function () {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'df');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".sa .dvs").keyup(function () {
+$(".sa .dvs").bind("keyup change", function () {
     var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sa');
     poke.find(".sd .dvs").val($(this).val());
@@ -165,7 +165,7 @@ $(".sa .dvs").keyup(function () {
     poke.find(".hp .dvs").val(getHPDVs(poke));
     calcHP(poke);
 });
-$(".sa .g1g2-evs").on("input keyup", function () {
+$(".sa .g1g2-evs").bind("keyup change", function () {
     var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sa');
     poke.find(".sd .g1g2-evs").val($(this).val());
@@ -173,13 +173,13 @@ $(".sa .g1g2-evs").on("input keyup", function () {
     poke.find(".hp .dvs").val(getHPDVs(poke));
     calcHP(poke);
 });
-$(".sp .dvs, .sp .g1g2-evs").keyup(function () {
+$(".sp .dvs, .sp .g1g2-evs").bind("keyup change", function () {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sp');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".sl .dvs, .sl .g1g2-evs").keyup(function () {
+$(".sl .dvs, .sl .g1g2-evs").bind("keyup change", function () {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sl');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
