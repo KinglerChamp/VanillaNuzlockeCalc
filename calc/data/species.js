@@ -10067,7 +10067,443 @@ var SV_PATCH = {
         abilities: { 0: 'Stamina' }
     }
 };
-var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
+
+var LE_PATCH = {
+    'Pichu-Mega': {
+		types: ['Electric'],
+		bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
+		weightkg: 60,
+		abilities: { 0: 'Lightning Rod' },
+		baseSpecies: 'Pichu',
+		nfe: true
+	},
+	'Cleffa-Mega': {
+		types: ['Electric'],
+		bs: { hp: 70, at: 45, df: 48, sa: 60, sd: 65, sp: 35 },
+		weightkg: 75,
+		abilities: { 0: 'Friend Guard' },
+		baseSpecies: 'Cleffa',
+		nfe: true
+	},
+	'Igglybuff-Mega': {
+		types: ['Normal', 'Fairy'],
+		bs: { hp: 115, at: 45, df: 20, sa: 45, sd: 25, sp: 20 },
+		weightkg: 55,
+		abilities: { 0: 'Cute Charm' },
+		baseSpecies: 'Igglybuff',
+		nfe: true
+	},
+	'Togepi-Mega': {
+		types: ['Fairy', 'Flying'],
+		bs: { hp: 55, at: 40, df: 85, sa: 80, sd: 105, sp: 40 },
+		weightkg: 32,
+		abilities: { 0: 'Serene Grace' },
+		baseSpecies: 'Togepi',
+		nfe: true
+	},
+	'Tyrogue-Mega-L': {
+		types: ['Fighting'],
+		bs: { hp: 50, at: 120, df: 53, sa: 35, sd: 110, sp: 87 },
+		weightkg: 498,
+		abilities: { 0: 'Reckless' },
+		baseSpecies: 'Tyrogue',
+		nfe: true
+	},
+	'Tyrogue-Mega-C': {
+		types: ['Fighting'],
+		bs: { hp: 50, at: 105, df: 79, sa: 35, sd: 110, sp: 76 },
+		weightkg: 502,
+		abilities: { 0: 'Iron Fist' },
+		baseSpecies: 'Tyrogue',
+		nfe: true
+	},
+	'Tyrogue-Mega-T': {
+		types: ['Fighting'],
+		bs: { hp: 50, at: 95, df: 95, sa: 35, sd: 110, sp: 70 },
+		weightkg: 480,
+		abilities: { 0: 'Technician' },
+		baseSpecies: 'Tyrogue',
+		nfe: true
+	},
+	'Smoochum-Mega': {
+		types: ['Ice', 'Psychic'],
+		bs: { hp: 65, at: 50, df: 35, sa: 115, sd: 95, sp: 95 },
+		weightkg: 406,
+		abilities: { 0: 'Dry Skin' },
+		baseSpecies: 'Smoochum',
+		nfe: true
+	},
+	'Elekid-Mega': {
+		types: ['Electric', 'Fighting'],
+		bs: { hp: 65, at: 83, df: 57, sa: 95, sd: 85, sp: 105 },
+		weightkg: 300,
+		abilities: { 0: 'Static' },
+		baseSpecies: 'Elekid',
+		nfe: true
+	},
+	'Magby-Mega': {
+		types: ['Fire'],
+		bs: { hp: 65, at: 95, df: 57, sa: 100, sd: 85, sp: 93 },
+		weightkg: 445,
+		abilities: { 0: 'Flame Body' },
+		baseSpecies: 'Magby',
+		nfe: true
+	},
+	'Azurill-Mega': {
+		types: ['Water', 'Fairy'],
+		bs: { hp: 70, at: 20, df: 50, sa: 20, sd: 50, sp: 40 },
+		weightkg: 85,
+		abilities: { 0: 'Huge Power' },
+		baseSpecies: 'Azurill',
+		nfe: true
+	},
+	'Wynaut-Mega': {
+		types: ['Psychic'],
+		bs: { hp: 190, at: 33, df: 58, sa: 33, sd: 58, sp: 33 },
+		weightkg: 285,
+		abilities: { 0: 'Inner Focus' },
+		baseSpecies: 'Wynaut',
+		nfe: true
+	},
+	'Budew-Mega': {
+		types: ['Grass', 'Poison'],
+		bs: { hp: 50, at: 60, df: 45, sa: 100, sd: 80, sp: 65 },
+		weightkg: 20,
+		abilities: { 0: 'Technician' },
+		baseSpecies: 'Budew',
+		nfe: true
+	},
+	'Chingling-Mega': {
+		types: ['Psychic'],
+		bs: { hp: 75, at: 50, df: 80, sa: 95, sd: 90, sp: 65 },
+		weightkg: 10,
+		abilities: { 0: 'Levitate' },
+		baseSpecies: 'Chingling',
+		nfe: true
+	},
+	'Bonsly-Mega': {
+		types: ['Rock'],
+		bs: { hp: 70, at: 100, df: 115, sa: 30, sd: 65, sp: 30 },
+		weightkg: 380,
+		abilities: { 0: 'Sturdy' },
+		baseSpecies: 'Bonsly',
+		nfe: true
+	},
+	'Mime Jr.-Mega-K': {
+		types: ['Psychic', 'Fairy'],
+		bs: { hp: 40, at: 45, df: 65, sa: 100, sd: 120, sp: 90 },
+		weightkg: 545,
+		abilities: { 0: 'Filter' },
+		baseSpecies: 'Mime Jr.',
+		nfe: true
+	},
+	'Mime Jr.-Mega-G': {
+		types: ['Psychic', 'Ice'],
+		bs: { hp: 40, at: 45, df: 65, sa: 100, sd: 120, sp: 90 },
+		weightkg: 545,
+		abilities: { 0: 'Filter' },
+		baseSpecies: 'Mime Jr.',
+		nfe: true
+	},
+	'Happiny-Mega': {
+		types: ['Normal'],
+		bs: { hp: 250, at: 5, df: 5, sa: 35, sd: 105, sp: 50 },
+		weightkg: 346,
+		abilities: { 0: 'Serene Grace' },
+		baseSpecies: 'Happiny',
+		nfe: true
+	},
+	'Munchlax-Mega': {
+		types: ['Normal'],
+		bs: { hp: 160, at: 110, df: 65, sa: 65, sd: 110, sp: 30 },
+		weightkg: 4600,
+		abilities: { 0: 'Immunity' },
+		baseSpecies: 'Munchlax',
+		nfe: true
+	},
+	'Riolu-Mega': {
+		types: ['Fighting', 'Steel'],
+		bs: { hp: 70, at: 110, df: 70, sa: 115, sd: 70, sp: 90 },
+		weightkg: 540,
+		abilities: { 0: 'Adaptability' },
+		baseSpecies: 'Riolu',
+		nfe: true
+	},
+	'Mantyke-Mega': {
+		types: ['Water', 'Flying'],
+		bs: { hp: 85, at: 40, df: 70, sa: 80, sd: 140, sp: 70 },
+		weightkg: 2200,
+		abilities: { 0: 'Water Absorb' },
+		baseSpecies: 'Mantyke',
+		nfe: true
+	},
+	'Toxel-Mega-A': {
+		types: ['Electric', 'Poison'],
+		bs: { hp: 75, at: 98, df: 70, sa: 114, sd: 70, sp: 75 },
+		weightkg: 400,
+		abilities: { 0: 'Punk Rock' },
+		baseSpecies: 'Toxel',
+		nfe: true
+	},
+	'Toxel-Mega-L': {
+		types: ['Electric', 'Poison'],
+		bs: { hp: 75, at: 98, df: 70, sa: 114, sd: 70, sp: 75 },
+		weightkg: 400,
+		abilities: { 0: 'Technician' },
+		baseSpecies: 'Toxel',
+		nfe: true
+	},
+	'Eevee-Fire': {
+		types: ['Fire'],
+		bs: { hp: 55, at: 55, df: 50, sa: 45, sd: 65, sp: 55 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Water': {
+		types: ['Water'],
+		bs: { hp: 55, at: 55, df: 50, sa: 45, sd: 65, sp: 55 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Electric': {
+		types: ['Electric'],
+		bs: { hp: 55, at: 55, df: 50, sa: 45, sd: 65, sp: 55 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Dark': {
+		types: ['Dark'],
+		bs: { hp: 55, at: 55, df: 50, sa: 45, sd: 65, sp: 55 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Psychic': {
+		types: ['Psychic'],
+		bs: { hp: 55, at: 55, df: 50, sa: 45, sd: 65, sp: 55 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Ice': {
+		types: ['Ice'],
+		bs: { hp: 55, at: 55, df: 50, sa: 45, sd: 65, sp: 55 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Grass': {
+		types: ['Grass'],
+		bs: { hp: 55, at: 55, df: 50, sa: 45, sd: 65, sp: 55 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Fairy': {
+		types: ['Fairy'],
+		bs: { hp: 55, at: 55, df: 50, sa: 45, sd: 65, sp: 55 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Charcadet-Psychic': {
+		types: ['Fire', 'Psychic'],
+		bs: { hp: 40, at: 50, df: 40, sa: 50, sd: 40, sp: 35 },
+		weightkg: 105,
+		abilities: { 0: 'Flash Fire' },
+		baseSpecies: 'Charcadet',
+		nfe: true
+	},
+	'Charcadet-Ghost': {
+		types: ['Fire', 'Ghost'],
+		bs: { hp: 40, at: 50, df: 40, sa: 50, sd: 40, sp: 35 },
+		weightkg: 105,
+		abilities: { 0: 'Flash Fire' },
+		baseSpecies: 'Charcadet',
+		nfe: true
+	},
+	'Eevee-Starter-Fire': {
+		types: ['Fire'],
+		bs: { hp: 65, at: 75, df: 70, sa: 65, sd: 85, sp: 75 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Starter-Water': {
+		types: ['Water'],
+		bs: { hp: 65, at: 75, df: 70, sa: 65, sd: 85, sp: 75 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Starter-Electric': {
+		types: ['Electric'],
+		bs: { hp: 65, at: 75, df: 70, sa: 65, sd: 85, sp: 75 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Starter-Psychic': {
+		types: ['Psychic'],
+		bs: { hp: 65, at: 75, df: 70, sa: 65, sd: 85, sp: 75 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Starter-Dark': {
+		types: ['Dark'],
+		bs: { hp: 65, at: 75, df: 70, sa: 65, sd: 85, sp: 75 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Starter-Grass': {
+		types: ['Grass'],
+		bs: { hp: 65, at: 75, df: 70, sa: 65, sd: 85, sp: 75 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Starter-Ice': {
+		types: ['Ice'],
+		bs: { hp: 65, at: 75, df: 70, sa: 65, sd: 85, sp: 75 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Eevee-Starter-Fairy': {
+		types: ['Fairy'],
+		bs: { hp: 65, at: 75, df: 70, sa: 65, sd: 85, sp: 75 },
+		weightkg: 65,
+		abilities: { 0: 'Run Away' },
+		baseSpecies: 'Eevee',
+		nfe: true
+	},
+	'Ralts-Fighting': {
+		types: ['Psychic', 'Fighting'],
+		bs: { hp: 28, at: 45, df: 25, sa: 25, sd: 35, sp: 40 },
+		weightkg: 66,
+		abilities: { 0: 'Pixilate' },
+		baseSpecies: 'Ralts',
+		nfe: true
+	},
+	'Snorunt-Ghost': {
+		types: ['Ice', 'Ghost'],
+		bs: { hp: 50, at: 50, df: 50, sa: 50, sd: 50, sp: 50 },
+		weightkg: 168,
+		abilities: { 0: 'Inner Focus' },
+		baseSpecies: 'Snorunt',
+		nfe: true
+	},
+	'Wurmple-Poison': {
+		types: ['Bug', 'Poison'],
+		bs: { hp: 45, at: 45, df: 35, sa: 20, sd: 30, sp: 20 },
+		weightkg: 36,
+		abilities: { 0: 'Shield Dust' },
+		baseSpecies: 'Wurmple',
+		nfe: true
+	},
+	'Nincada-Ghost': {
+		types: ['Bug', 'Ghost'],
+		bs: { hp: 31, at: 45, df: 90, sa: 30, sd: 30, sp: 40 },
+		weightkg: 55,
+		abilities: { 0: 'Compound Eyes' },
+		baseSpecies: 'Nincada',
+		nfe: true
+	},
+	'Exeggcute-Dragon': {
+		types: ['Grass', 'Dragon'],
+		bs: { hp: 60, at: 40, df: 80, sa: 60, sd: 45, sp: 40 },
+		weightkg: 25,
+		abilities: { 0: 'Chlorophyll' },
+		baseSpecies: 'Exeggcute',
+		nfe: true
+	},
+	'Koffing-Fairy': {
+		types: ['Poison', 'Fairy'],
+		bs: { hp: 40, at: 65, df: 95, sa: 60, sd: 45, sp: 35 },
+		weightkg: 10,
+		abilities: { 0: 'Levitate' },
+		baseSpecies: 'Koffing',
+		nfe: true
+	},
+	'Petilil-Fighting': {
+		types: ['Grass', 'Fighting'],
+		bs: { hp: 45, at: 70, df: 50, sa: 35, sd: 50, sp: 30 },
+		weightkg: 66,
+		abilities: { 0: 'Chlorophyll' },
+		baseSpecies: 'Petilil',
+		nfe: true
+	},
+	'Rufflet-Psychic': {
+		types: ['Psychic', 'Flying'],
+		bs: { hp: 70, at: 37, df: 50, sa: 83, sd: 50, sp: 60 },
+		weightkg: 105,
+		abilities: { 0: 'Keen Eye' },
+		baseSpecies: 'Rufflet',
+		nfe: true
+	},
+	'Goomy-Steel': {
+		types: ['Dragon', 'Steel'],
+		bs: { hp: 45, at: 50, df: 35, sa: 55, sd: 75, sp: 40 },
+		weightkg: 28,
+		abilities: { 0: 'Sap Sipper' },
+		baseSpecies: 'Goomy',
+		nfe: true
+	},
+	'Bergmite-Rock': {
+		types: ['Ice', 'Rock'],
+		bs: { hp: 55, at: 69, df: 85, sa: 32, sd: 35, sp: 28 },
+		weightkg: 995,
+		abilities: { 0: 'Own Tempo' },
+		baseSpecies: 'Bergmite',
+		nfe: true
+	},
+	'Magikarp-Monster': {
+		types: ['Water', 'Flying'],
+		bs: { hp: 95, at: 125, df: 79, sa: 60, sd: 100, sp: 81 },
+		weightkg: 100,
+		abilities: { 0: 'Swift Swim' },
+		baseSpecies: 'Magikarp',
+		nfe: true
+	},
+	'Froakie-Special': {
+		types: ['Water'],
+		bs: { hp: 41, at: 56, df: 40, sa: 62, sd: 44, sp: 71 },
+		weightkg: 70,
+		abilities: { 0: 'Battle Bond' },
+		baseSpecies: 'Froakie',
+		nfe: true
+	},
+	'Rockruff-Special': {
+		types: ['Rock'],
+		bs: { hp: 45, at: 65, df: 40, sa: 30, sd: 40, sp: 60 },
+		weightkg: 92,
+		abilities: { 0: 'Tough Claws' },
+		baseSpecies: 'Rockruff',
+		nfe: true
+	}
+};
+
+var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, LE_PATCH);
 exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 var Species = (function () {
     function Species(gen) {
