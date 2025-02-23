@@ -895,7 +895,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         bpMods.push(4915);
         desc.attackerItem = attacker.item;
     }
-    else if ((attacker.hasItem('Muscle Band') && move.category === 'Physical') ||
+    else if (((attacker.hasItem('Muscle Band') || attacker.hasItem('Calm Incense')) && move.category === 'Physical') ||
         (attacker.hasItem('Wise Glasses') && move.category === 'Special')) {
         bpMods.push(4505);
         desc.attackerItem = attacker.item;
@@ -1151,7 +1151,11 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
     }
     if ((defender.hasItem('Eviolite') &&
         (defender.name === 'Dipplin' || ((_a = gen.species.get((0, util_1.toID)(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe))) ||
-        (!hitsPhysical && defender.hasItem('Assault Vest'))) {
+        (!hitsPhysical && (defender.hasItem('Assault Vest') || (defender.hasItem('Defense Incense') && (defender.named('Tyrogue') || defender.named('Tyrogue-Mega-C'))))) ||
+        (defender.hasItem('Malicious Armor') && defender.named('Charcadet-Ghost')) ||
+        (defender.hasItem('Auspicious Armor') && defender.named('Charcadet-Psychic')) ||
+        (defender.hasItem('Moon Incense') && (defender.named('Cleffa') || defender.named('Cleffa-Mega'))) ||
+        (defender.hasItem('Protector') && defender.named('Rhyhorn')) ) {
         dfMods.push(6144);
         desc.defenderItem = defender.item;
     }
