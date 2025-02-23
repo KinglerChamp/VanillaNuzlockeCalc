@@ -21,18 +21,23 @@ function getItemBoostType(item) {
             return 'Ground';
         case 'Fist Plate':
         case 'Black Belt':
+        case 'Attack Incense':
             return 'Fighting';
         case 'Flame Plate':
         case 'Charcoal':
+        case 'Magmarizer':
             return 'Fire';
         case 'Icicle Plate':
         case 'Never-Melt Ice':
+        case 'Ice Incense':
+        case 'Weird Incense':
             return 'Ice';
         case 'Insect Plate':
         case 'Silver Powder':
             return 'Bug';
         case 'Iron Plate':
         case 'Metal Coat':
+        case 'Metal Incense':
             return 'Steel';
         case 'Meadow Plate':
         case 'Rose Incense':
@@ -41,7 +46,9 @@ function getItemBoostType(item) {
         case 'Mind Plate':
         case 'Odd Incense':
         case 'Twisted Spoon':
+        case 'Pure Incense':
             return 'Psychic';
+        case 'Pink Incense':
         case 'Fairy Feather':
         case 'Pixie Plate':
             return 'Fairy';
@@ -65,10 +72,12 @@ function getItemBoostType(item) {
             return 'Poison';
         case 'Zap Plate':
         case 'Magnet':
+        case 'Electirizer':
             return 'Electric';
         case 'Silk Scarf':
         case 'Pink Bow':
         case 'Polkadot Bow':
+        case 'Egg Incense':
             return 'Normal';
         default:
             return undefined;

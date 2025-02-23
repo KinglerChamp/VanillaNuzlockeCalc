@@ -821,7 +821,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
             (turnOrder !== 'first' || field.defenderSide.isSwitching === 'out')) ||
         (attacker.hasAbility('Tough Claws') && move.flags.contact) ||
         (attacker.hasAbility('Punk Rock') && move.flags.sound) ||
-		  (attacker.hasAbility('Iron Fist') && move.flags.punch)) {
+		(attacker.hasAbility('Iron Fist') && move.flags.punch)) {
         bpMods.push(5325);
         desc.attackerAbility = attacker.ability;
     }
@@ -892,7 +892,16 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         desc.attackerItem = attacker.item;
     }
     else if (((attacker.hasItem('Muscle Band') || attacker.hasItem('Calm Incense')) && move.category === 'Physical') ||
-        (attacker.hasItem('Wise Glasses') && move.category === 'Special')) {
+        (attacker.hasItem('Wise Glasses') && move.category === 'Special') || 
+        ((attacker.hasItem('Soothing Incense') || attacker.hasItem('Punk Incense') || attacker.item.includes('Flute')) && move.flags.sound) ||
+        (attacker.hasItem('Fire Stone') && attacker.name.includes('Eevee-Fire') && move.hasType('Fire')) ||
+        (attacker.hasItem('Water Stone') && attacker.name.includes('Eevee-Water') && move.hasType('Water')) ||
+        (attacker.hasItem('Thunder Stone') && attacker.name.includes('Eevee-Electric') && move.hasType('Electric')) ||
+        (attacker.hasItem('Sun Stone') && attacker.name.includes('Eevee-Psychic') && move.hasType('Psychic')) ||
+        (attacker.hasItem('Moon Stone') && attacker.name.includes('Eevee-Dark') && move.hasType('Dark')) ||
+        (attacker.hasItem('Leaf Stone') && attacker.name.includes('Eevee-Grass') && move.hasType('Grass')) ||
+        (attacker.hasItem('Ice Stone') && attacker.name.includes('Eevee-Ice') && move.hasType('Ice')) ||
+        (attacker.hasItem('Shiny Stone') && attacker.name.includes('Eevee-Fairy') && move.hasType('Fairy'))) {
         bpMods.push(4505);
         desc.attackerItem = attacker.item;
     }
@@ -993,7 +1002,7 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
         atMods.push(8192);
         desc.attackerAbility = attacker.ability;
     }
-	 else if (attacker.hasAbility('Huge Power') && move.category === 'Physical')) {
+	 else if (attacker.hasAbility('Huge Power') && move.category === 'Physical') {
         atMods.push(8192);
         desc.attackerAbility = attacker.ability;
     }
@@ -1049,7 +1058,8 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
         (attacker.hasItem('Deep Sea Tooth') &&
             attacker.named('Clamperl') &&
             move.category === 'Special') ||
-        (attacker.hasItem('Light Ball') && attacker.name.includes('Pikachu') && !move.isZ)) {
+        (attacker.hasItem('Light Ball') && attacker.name.includes('Pikachu') && !move.isZ) ||
+        (attacker.hasItem('Light Incense') && attacker.name.includes('Pichu') && !move.isZ)) {
         atMods.push(8192);
         desc.attackerItem = attacker.item;
     }
