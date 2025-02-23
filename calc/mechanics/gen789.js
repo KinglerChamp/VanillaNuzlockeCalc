@@ -110,7 +110,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         desc.defenderAbility = defender.ability;
         attacker.ability = '';
     }
-    var isCritical = !defender.hasAbility('Battle Armor', 'Shell Armor') &&
+    var isCritical = !defender.hasAbility('Battle Armor', 'Shell Armor', 'Magma Armor') &&
         (move.isCrit || (attacker.hasAbility('Merciless') && defender.hasStatus('psn', 'tox'))) &&
         move.timesUsed === 1;
     var type = move.type;
@@ -251,9 +251,9 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         move.priority = 1;
         desc.attackerAbility = attacker.ability;
     }
-    var isGhostRevealed = attacker.hasAbility('Scrappy') || attacker.hasAbility('Mind\'s Eye') ||
+    var isGhostRevealed = attacker.hasAbility('Scrappy') || attacker.hasAbility('Mind\'s Eye') || attacker.hasAbility('Normalize') ||
         field.defenderSide.isForesight;
-    var isRingTarget = defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
+    var isRingTarget = (defender.hasItem('Ring Target') && !defender.hasAbility('Klutz')) || attacker.hasAbility('Corrosion');
     var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, isRingTarget);
     var type2Effectiveness = defender.types[1]
         ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, isRingTarget)
@@ -306,8 +306,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     }
     if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
         (move.hasType('Grass') && defender.hasAbility('Sap Sipper')) ||
-        (move.hasType('Fire') && defender.hasAbility('Flash Fire', 'Well-Baked Body')) ||
-        (move.hasType('Water') && defender.hasAbility('Dry Skin', 'Storm Drain', 'Water Absorb')) ||
+        (move.hasType('Fire') && defender.hasAbility('Flash Fire', 'Well-Baked Body', 'Heatproof', 'Steam Engine', 'Thermal Exchange')) ||
+        (move.hasType('Water') && defender.hasAbility('Dry Skin', 'Storm Drain', 'Water Absorb', 'Steam Engine')) ||
         (move.hasType('Electric') &&
             defender.hasAbility('Lightning Rod', 'Motor Drive', 'Volt Absorb')) ||
         (move.hasType('Ground') &&
@@ -820,7 +820,8 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         (attacker.hasAbility('Analytic') &&
             (turnOrder !== 'first' || field.defenderSide.isSwitching === 'out')) ||
         (attacker.hasAbility('Tough Claws') && move.flags.contact) ||
-        (attacker.hasAbility('Punk Rock') && move.flags.sound)) {
+        (attacker.hasAbility('Punk Rock') && move.flags.sound) ||
+		  (attacker.hasAbility('Iron Fist') && move.flags.punch)) {
         bpMods.push(5325);
         desc.attackerAbility = attacker.ability;
     }
@@ -846,17 +847,12 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
     if (!move.isMax && hasAteAbilityTypeChange) {
         bpMods.push(4915);
     }
-    if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage)) ||
-        (attacker.hasAbility('Iron Fist') && move.flags.punch)) {
+    if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage))) {
         bpMods.push(4915);
         desc.attackerAbility = attacker.ability;
     }
     if (attacker.hasItem('Punching Glove') && move.flags.punch) {
         bpMods.push(4506);
-    }
-    if (gen.num <= 8 && defender.hasAbility('Heatproof') && move.hasType('Fire')) {
-        bpMods.push(2048);
-        desc.defenderAbility = defender.ability;
     }
     else if (defender.hasAbility('Dry Skin') && move.hasType('Fire')) {
         bpMods.push(5120);
@@ -993,7 +989,11 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
         desc.attackerAbility = attacker.ability;
     }
     else if ((attacker.hasAbility('Water Bubble') && move.hasType('Water')) ||
-        (attacker.hasAbility('Huge Power', 'Pure Power') && move.category === 'Physical')) {
+        (attacker.hasAbility('Pure Power') && move.category === 'Physical')) {
+        atMods.push(8192);
+        desc.attackerAbility = attacker.ability;
+    }
+	 else if (attacker.hasAbility('Huge Power') && move.category === 'Physical')) {
         atMods.push(8192);
         desc.attackerAbility = attacker.ability;
     }
