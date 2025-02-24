@@ -893,15 +893,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
     }
     else if (((attacker.hasItem('Muscle Band') || attacker.hasItem('Calm Incense')) && move.category === 'Physical') ||
         (attacker.hasItem('Wise Glasses') && move.category === 'Special') || 
-        ((attacker.hasItem('Soothing Incense') || attacker.hasItem('Punk Incense') || attacker.item.includes('Flute')) && move.flags.sound) ||
-        (attacker.hasItem('Fire Stone') && attacker.name.includes('Eevee-Fire') && move.hasType('Fire')) ||
-        (attacker.hasItem('Water Stone') && attacker.name.includes('Eevee-Water') && move.hasType('Water')) ||
-        (attacker.hasItem('Thunder Stone') && attacker.name.includes('Eevee-Electric') && move.hasType('Electric')) ||
-        (attacker.hasItem('Sun Stone') && attacker.name.includes('Eevee-Psychic') && move.hasType('Psychic')) ||
-        (attacker.hasItem('Moon Stone') && attacker.name.includes('Eevee-Dark') && move.hasType('Dark')) ||
-        (attacker.hasItem('Leaf Stone') && attacker.name.includes('Eevee-Grass') && move.hasType('Grass')) ||
-        (attacker.hasItem('Ice Stone') && attacker.name.includes('Eevee-Ice') && move.hasType('Ice')) ||
-        (attacker.hasItem('Shiny Stone') && attacker.name.includes('Eevee-Fairy') && move.hasType('Fairy'))) {
+        ((attacker.hasItem('Soothing Incense') || attacker.hasItem('Punk Incense') || attacker.item.includes('Flute')) && move.flags.sound)) {
         bpMods.push(4505);
         desc.attackerItem = attacker.item;
     }

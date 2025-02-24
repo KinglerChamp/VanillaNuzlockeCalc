@@ -10196,6 +10196,7 @@ var LE_PATCH = {
         'Eevee-Starter-Ice',
         'Eevee-Starter-Fairy'
     ] },
+    
     'Pichu-Mega': {
 		types: ['Electric'],
 		bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
