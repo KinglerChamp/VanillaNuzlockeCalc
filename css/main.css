@@ -721,6 +721,9 @@ th {
 .btn-small {
   width: 4em;
 }
+.btn-large {
+  width: 10em;
+}
 .btn-xsmall {
   width: 1em;
 }

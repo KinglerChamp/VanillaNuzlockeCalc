@@ -1,6 +1,6 @@
 var CUSTOMSETDEX_SV = {
     "Cufant": {
-        "Lvl 21 Hiker Sawyer ": {
+        "Hiker Sawyer ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32,7 +32,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Nickit": {
-        "Lvl 32 Team Aqua Grunt ": {
+        "Team Aqua Grunt ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -62,7 +62,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 27 Team Aqua Grunt 2 ": {
+        "Team Aqua Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -94,7 +94,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Purrloin": {
-        "Lvl 36 Team Aqua Grunt 2 ": {
+        "Team Aqua Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -124,7 +124,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Limber",
             "teraType": "None"
         },
-        "Lvl 9 Team Aqua Grunt 2 ": {
+        "Team Aqua Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -154,7 +154,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Limber",
             "teraType": "None"
         },
-        "Lvl 22 Aqua Leader Archie |Oceanic Museum| ": {
+        "Aqua Leader Archie |Oceanic Museum| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -186,7 +186,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Skitty": {
-        "Lvl 26 Pkmn Breeder Gabrielle ": {
+        "Pkmn Breeder Gabrielle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -216,7 +216,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 26 Cooltrainer Mary ": {
+        "Cooltrainer Mary ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -244,7 +244,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 33 Leader Norman ": {
+        "Leader Norman ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -274,7 +274,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Lvl 15 Pokefan Miguel ": {
+        "Pokefan Miguel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -304,7 +304,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 22 Pokefan Monti ": {
+        "Pokefan Monti ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -333,7 +333,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 36 Pokefan Monti ": {
+        "Pokefan Monti ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -362,7 +362,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 40 Pokefan Monti ": {
+        "Pokefan Monti ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -391,7 +391,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 12 Pokefan Monti ": {
+        "Pokefan Monti ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -420,7 +420,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 30 Pokefan Monti ": {
+        "Pokefan Monti ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -449,7 +449,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 42 Pokefan Monti ": {
+        "Pokefan Monti ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -478,7 +478,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 23 Picnicker Martha ": {
+        "Picnicker Martha ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -508,7 +508,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 54 Rival Wally ": {
+        "Rival Wally ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -525,7 +525,7 @@ var CUSTOMSETDEX_SV = {
                 "sd": 0,
                 "sp": 0
             },
-            "item": "Bright Powder",
+            "item": "Eviolite",
             "level": 54,
             "nature": "Modest",
             "battle_type": "Singles",
@@ -533,12 +533,12 @@ var CUSTOMSETDEX_SV = {
                 "Ice Beam",
                 "Thunderbolt",
                 "Shadow Ball",
-                "Hyper Voice"
+                "Moonblast"
             ],
             "ability": "Wonder Skin",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Lydia ": {
+        "Pkmn Breeder Lydia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -568,7 +568,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 14 Lass Robin ": {
+        "Lass Robin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -598,7 +598,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 31 Young Couple Dez & Luke ": {
+        "Young Couple Dez & Luke ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -628,7 +628,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 21 Rival Wally 2 ": {
+        "Rival Wally 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -660,7 +660,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Poochyena": {
-        "Lvl 26 Pkmn Breeder Gabrielle ": {
+        "Pkmn Breeder Gabrielle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -690,7 +690,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 5 Youngster Calvin ": {
+        "Youngster Calvin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -720,7 +720,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Isaac ": {
+        "Pkmn Breeder Isaac ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -750,7 +750,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 22 Team Magma Grunt 2 ": {
+        "Team Magma Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -780,7 +780,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 26 Magma Leader Maxie |Mt. Chimney| ": {
+        "Magma Leader Maxie |Mt. Chimney| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -810,7 +810,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Lvl 10 Hiker Mike ": {
+        "Hiker Mike ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -838,7 +838,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 8 Rich Boy Dawson ": {
+        "Rich Boy Dawson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -868,7 +868,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Pat ": {
+        "Pkmn Breeder Pat ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -900,7 +900,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bunnelby": {
-        "Lvl 26 Pkmn Breeder Gabrielle ": {
+        "Pkmn Breeder Gabrielle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -930,7 +930,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Lvl 26 Cooltrainer Jody ": {
+        "Cooltrainer Jody ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -958,7 +958,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Lvl 45 Gentleman Thomas ": {
+        "Gentleman Thomas ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -988,7 +988,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Lvl 18 Collector Hector ": {
+        "Collector Hector ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1020,7 +1020,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Lotad": {
-        "Lvl 26 Pkmn Breeder Gabrielle ": {
+        "Pkmn Breeder Gabrielle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1050,7 +1050,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 33 Cooltrainer Warren ": {
+        "Cooltrainer Warren ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1080,7 +1080,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 42 Cooltrainer Michelle ": {
+        "Cooltrainer Michelle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1110,7 +1110,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 39 Beauty Olivia ": {
+        "Beauty Olivia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1140,7 +1140,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 17 Picnicker Carol ": {
+        "Picnicker Carol ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1170,7 +1170,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 18 Picnicker Nancy ": {
+        "Picnicker Nancy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1200,7 +1200,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 6 Twins Gina & Mia ": {
+        "Twins Gina & Mia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1230,7 +1230,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 14 Collector Edwin ": {
+        "Collector Edwin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1260,7 +1260,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 28 Pkmn Ranger Lorenzo ": {
+        "Pkmn Ranger Lorenzo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1290,7 +1290,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 28 Pkmn Ranger Jenna ": {
+        "Pkmn Ranger Jenna ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1320,7 +1320,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 6 Lass Haley ": {
+        "Lass Haley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1350,7 +1350,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 8 Lady Sarah ": {
+        "Lady Sarah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1380,7 +1380,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 19 Picnicker Sophie ": {
+        "Picnicker Sophie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1410,7 +1410,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 18 Picnicker Angelina ": {
+        "Picnicker Angelina ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1440,7 +1440,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 22 Picnicker Celia ": {
+        "Picnicker Celia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1470,7 +1470,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 8 Youngster Johnson ": {
+        "Youngster Johnson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1502,7 +1502,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Seedot": {
-        "Lvl 26 Pkmn Breeder Gabrielle ": {
+        "Pkmn Breeder Gabrielle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1532,7 +1532,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 29 Cooltrainer Marcel ": {
+        "Cooltrainer Marcel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1562,7 +1562,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 28 Cooltrainer Braxton ": {
+        "Cooltrainer Braxton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1591,7 +1591,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 42 Cooltrainer Vito ": {
+        "Cooltrainer Vito ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1621,7 +1621,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 18 Camper Larry ": {
+        "Camper Larry ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1651,7 +1651,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 18 Camper Shane ": {
+        "Camper Shane ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1681,7 +1681,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 7 Youngster Billy ": {
+        "Youngster Billy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1711,7 +1711,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 6 Twins Gina & Mia ": {
+        "Twins Gina & Mia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1741,7 +1741,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 14 Collector Edwin ": {
+        "Collector Edwin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1771,7 +1771,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 22 Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1801,7 +1801,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 36 Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1831,7 +1831,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Lvl 20 Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1861,7 +1861,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 34 Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1891,7 +1891,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Lvl 28 Pkmn Ranger Lorenzo ": {
+        "Pkmn Ranger Lorenzo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1921,7 +1921,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 28 Pkmn Ranger Jenna ": {
+        "Pkmn Ranger Jenna ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1951,7 +1951,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 18 Rival Brendan |Rustboro| |Treecko| ": {
+        "Rival Brendan |Rustboro| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1981,7 +1981,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 41 Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2011,7 +2011,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Lvl 39 Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2041,7 +2041,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Lvl 34 Cooltrainer Ruben ": {
+        "Cooltrainer Ruben ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2071,7 +2071,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 19 Picnicker Charlotte ": {
+        "Picnicker Charlotte ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2101,7 +2101,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 22 Camper Branden ": {
+        "Camper Branden ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2131,7 +2131,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 44 Rival Brendan |Partner| |Mt. Pyre| |Snivy| ": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2161,7 +2161,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 43 Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| ": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2193,7 +2193,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rufflet": {
-        "Lvl 26 Pkmn Breeder Gabrielle ": {
+        "Pkmn Breeder Gabrielle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2223,7 +2223,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Lvl 38 Leader Winona ": {
+        "Leader Winona ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2253,7 +2253,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sheer Force",
             "teraType": "None"
         },
-        "Lvl 25 Bird Keeper Chester ": {
+        "Bird Keeper Chester ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2285,7 +2285,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Electrike": {
-        "Lvl 29 Cooltrainer Marcel ": {
+        "Cooltrainer Marcel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2315,7 +2315,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 17 Cooltrainer Wilton ": {
+        "Cooltrainer Wilton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2345,7 +2345,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 45 Cooltrainer Keira ": {
+        "Cooltrainer Keira ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2375,7 +2375,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 17 Guitarist Kirk ": {
+        "Guitarist Kirk ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2404,7 +2404,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 30 Guitarist Fernando ": {
+        "Guitarist Fernando ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2434,7 +2434,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 29 Gentleman Walter ": {
+        "Gentleman Walter ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2464,7 +2464,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 44 Gentleman Micah ": {
+        "Gentleman Micah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2494,7 +2494,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 24 Leader Wattson ": {
+        "Leader Wattson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2524,7 +2524,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Lightning Rod",
             "teraType": "None"
         },
-        "Lvl 13 Youngster Timmy ": {
+        "Youngster Timmy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2554,7 +2554,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 25 Youngster Demetrius ": {
+        "Youngster Demetrius ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2584,7 +2584,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 33 Expert Auron ": {
+        "Expert Auron ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2614,7 +2614,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 34 Cooltrainer Marley ": {
+        "Cooltrainer Marley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2643,7 +2643,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 32 Cooltrainer Athena ": {
+        "Cooltrainer Athena ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2672,7 +2672,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 31 Young Couple Dez & Luke ": {
+        "Young Couple Dez & Luke ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2702,7 +2702,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 14 Guitarist Joseph ": {
+        "Guitarist Joseph ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2732,7 +2732,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 14 Youngster Deandre ": {
+        "Youngster Deandre ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2762,7 +2762,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 24 Cooltrainer Carolina ": {
+        "Cooltrainer Carolina ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2792,7 +2792,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 26 Guitarist Fabian ": {
+        "Guitarist Fabian ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2822,7 +2822,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 30 Cooltrainer Leonel ": {
+        "Cooltrainer Leonel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2851,7 +2851,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Myles ": {
+        "Pkmn Breeder Myles ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2881,7 +2881,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Pat ": {
+        "Pkmn Breeder Pat ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2913,7 +2913,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wingull": {
-        "Lvl 30 Bird Keeper Alberto ": {
+        "Bird Keeper Alberto ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2943,7 +2943,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Edgar ": {
+        "Cooltrainer Edgar ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2973,7 +2973,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 29 Cooltrainer Wendy ": {
+        "Cooltrainer Wendy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3002,7 +3002,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 17 Cooltrainer Brooke ": {
+        "Cooltrainer Brooke ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3032,7 +3032,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 24 Swimmer M Darrin ": {
+        "Swimmer M Darrin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3062,7 +3062,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Spencer ": {
+        "Swimmer M Spencer ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3092,7 +3092,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 31 Swimmer M Dean ": {
+        "Swimmer M Dean ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3122,7 +3122,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Richard ": {
+        "Swimmer M Richard ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3152,7 +3152,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Herman ": {
+        "Swimmer M Herman ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3182,7 +3182,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Dudley ": {
+        "Swimmer M Dudley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3212,7 +3212,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 18 Kindler Bernie ": {
+        "Kindler Bernie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3242,7 +3242,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 39 Leader Winona ": {
+        "Leader Winona ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3272,7 +3272,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drizzle",
             "teraType": "None"
         },
-        "Lvl 15 School Kid Paul ": {
+        "School Kid Paul ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3302,7 +3302,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 26 Triathlete Chase ": {
+        "Triathlete Chase ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3332,7 +3332,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 26 Triathlete Donny ": {
+        "Triathlete Donny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3362,7 +3362,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 27 Triathlete Allison ": {
+        "Triathlete Allison ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3392,7 +3392,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 26 Bird Keeper Perry ": {
+        "Bird Keeper Perry ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3422,7 +3422,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 25 Bird Keeper Hugh ": {
+        "Bird Keeper Hugh ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3452,7 +3452,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 29 Bird Keeper Edwardo ": {
+        "Bird Keeper Edwardo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3482,7 +3482,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 28 Bird Keeper Colin ": {
+        "Bird Keeper Colin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3512,7 +3512,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 36 Bird Keeper Benny ": {
+        "Bird Keeper Benny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3542,7 +3542,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 25 Swimmer F Beverly ": {
+        "Swimmer F Beverly ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3572,7 +3572,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 25 Swimmer F Denise ": {
+        "Swimmer F Denise ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3602,7 +3602,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 24 Swimmer F Alice ": {
+        "Swimmer F Alice ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3632,7 +3632,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Kaylee ": {
+        "Swimmer F Kaylee ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3662,7 +3662,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 12 Sailor Huey ": {
+        "Sailor Huey ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3692,7 +3692,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 13 Sailor Edmond ": {
+        "Sailor Edmond ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3722,7 +3722,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 33 Sailor Ernest ": {
+        "Sailor Ernest ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3752,7 +3752,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 11 Sailor Dwayne ": {
+        "Sailor Dwayne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3782,7 +3782,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 43 Sailor Leonard ": {
+        "Sailor Leonard ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3812,7 +3812,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Lydia ": {
+        "Pkmn Breeder Lydia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3842,7 +3842,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 10 Hiker Mike ": {
+        "Hiker Mike ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3870,7 +3870,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 33 Sis And Bro Reli & Ian ": {
+        "Sis And Bro Reli & Ian ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3900,7 +3900,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 33 Cooltrainer Darcy ": {
+        "Cooltrainer Darcy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3930,7 +3930,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 25 Bird Keeper Josue ": {
+        "Bird Keeper Josue ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3960,7 +3960,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 24 Sailor Cory ": {
+        "Sailor Cory ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3990,7 +3990,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Myles ": {
+        "Pkmn Breeder Myles ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4022,7 +4022,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Natu": {
-        "Lvl 30 Bird Keeper Alberto ": {
+        "Bird Keeper Alberto ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4052,7 +4052,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 36 Psychic Samantha ": {
+        "Psychic Samantha ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4082,7 +4082,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 26 Psychic Kayla ": {
+        "Psychic Kayla ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4112,7 +4112,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 41 Psychic Alexis ": {
+        "Psychic Alexis ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4142,7 +4142,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 33 Bird Keeper Presley ": {
+        "Bird Keeper Presley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4172,7 +4172,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 28 Bird Keeper Colin ": {
+        "Bird Keeper Colin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4202,7 +4202,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 36 Bird Keeper Benny ": {
+        "Bird Keeper Benny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4232,7 +4232,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 33 Bird Keeper Alex ": {
+        "Bird Keeper Alex ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4262,7 +4262,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 36 Psychic Macey ": {
+        "Psychic Macey ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4292,7 +4292,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 29 Camper Flint ": {
+        "Camper Flint ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4322,7 +4322,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 25 Bird Keeper Elijah ": {
+        "Bird Keeper Elijah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4354,7 +4354,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Slakoth": {
-        "Lvl 30 Collector Ed ": {
+        "Collector Ed ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4384,7 +4384,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Lvl 26 Cooltrainer George ": {
+        "Cooltrainer George ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4413,7 +4413,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Lvl 26 Cooltrainer Berke ": {
+        "Cooltrainer Berke ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4441,7 +4441,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Lvl 32 Sr And Jr Kate & Joy ": {
+        "Sr And Jr Kate & Joy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4471,7 +4471,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Quincy ": {
+        "Cooltrainer Quincy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4500,7 +4500,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Katelynn ": {
+        "Cooltrainer Katelynn ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4532,7 +4532,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Varoom": {
-        "Lvl 30 Collector Ed ": {
+        "Collector Ed ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4564,7 +4564,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Magikarp": {
-        "Lvl 34 Swimmer M Declan ": {
+        "Swimmer M Declan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4594,7 +4594,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Barry ": {
+        "Swimmer M Barry ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4624,7 +4624,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Rodney ": {
+        "Swimmer M Rodney ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4654,7 +4654,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Jack ": {
+        "Swimmer M Jack ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4684,7 +4684,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 5 Fisherman Andrew ": {
+        "Fisherman Andrew ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4714,7 +4714,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 5 Fisherman Ivan ": {
+        "Fisherman Ivan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4744,7 +4744,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 16 Fisherman Claude ": {
+        "Fisherman Claude ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4774,7 +4774,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 10 Fisherman Elliot ": {
+        "Fisherman Elliot ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4804,7 +4804,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 19 Fisherman Ronald ": {
+        "Fisherman Ronald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4834,7 +4834,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 21 Fisherman Ronald ": {
+        "Fisherman Ronald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4864,7 +4864,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 23 Fisherman Ronald ": {
+        "Fisherman Ronald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4894,7 +4894,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 26 Fisherman Ronald ": {
+        "Fisherman Ronald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4924,7 +4924,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 30 Fisherman Ronald ": {
+        "Fisherman Ronald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4954,7 +4954,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 35 Fisherman Ronald ": {
+        "Fisherman Ronald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4984,7 +4984,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 39 Pokefan Annika ": {
+        "Pokefan Annika ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5014,7 +5014,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 35 Fisherman Roger ": {
+        "Fisherman Roger ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5044,7 +5044,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 29 Fisherman Chris ": {
+        "Fisherman Chris ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5074,7 +5074,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 9 Fisherman Darian ": {
+        "Fisherman Darian ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5106,7 +5106,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Finneon": {
-        "Lvl 34 Swimmer M Declan ": {
+        "Swimmer M Declan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5136,7 +5136,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 39 Lady Daphne ": {
+        "Lady Daphne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5166,7 +5166,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Tanya ": {
+        "Swimmer F Tanya ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5196,7 +5196,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Susie ": {
+        "Swimmer F Susie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5226,7 +5226,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Sienna ": {
+        "Swimmer F Sienna ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5256,7 +5256,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Laurel ": {
+        "Swimmer F Laurel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5286,7 +5286,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 40 Lass Andrea ": {
+        "Lass Andrea ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5316,7 +5316,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 45 Young Couple Lea & Jed ": {
+        "Young Couple Lea & Jed ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5348,7 +5348,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Maschiff": {
-        "Lvl 11 Team Aqua Grunt 2 ": {
+        "Team Aqua Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5380,7 +5380,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Noibat": {
-        "Lvl 27 Team Aqua Grunt 2 ": {
+        "Team Aqua Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5410,7 +5410,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Frisk",
             "teraType": "None"
         },
-        "Lvl 32 Team Aqua Grunt 2 ": {
+        "Team Aqua Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5442,7 +5442,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shellder": {
-        "Lvl 27 Team Aqua Grunt 2 ": {
+        "Team Aqua Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5472,7 +5472,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shell Armor",
             "teraType": "None"
         },
-        "Lvl 60 Elite Four Glacia ": {
+        "Elite Four Glacia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5504,7 +5504,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wailmer": {
-        "Lvl 15 Team Aqua Grunt 2 ": {
+        "Team Aqua Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5534,7 +5534,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 12 Tuber M Simon ": {
+        "Tuber M Simon ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5564,7 +5564,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 28 Cooltrainer Braxton ": {
+        "Cooltrainer Braxton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5593,7 +5593,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 17 Cooltrainer Wilton ": {
+        "Cooltrainer Wilton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5623,7 +5623,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 42 Cooltrainer Owen ": {
+        "Cooltrainer Owen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5653,7 +5653,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 25 Beauty Thalia ": {
+        "Beauty Thalia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5683,7 +5683,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Santiago ": {
+        "Swimmer M Santiago ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5713,7 +5713,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Chad ": {
+        "Swimmer M Chad ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5743,7 +5743,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 63 Champion Wallace ": {
+        "Champion Wallace ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5773,7 +5773,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drizzle",
             "teraType": "None"
         },
-        "Lvl 14 Fisherman Dale ": {
+        "Fisherman Dale ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5803,7 +5803,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 25 Fisherman Carter ": {
+        "Fisherman Carter ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5833,7 +5833,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 28 Parasol Lady Clarissa ": {
+        "Parasol Lady Clarissa ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5863,7 +5863,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 25 Swimmer F Beverly ": {
+        "Swimmer F Beverly ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5893,7 +5893,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 26 Swimmer F Kyla ": {
+        "Swimmer F Kyla ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5923,7 +5923,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Jenny ": {
+        "Swimmer F Jenny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5953,7 +5953,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 34 Sailor Hudson ": {
+        "Sailor Hudson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5983,7 +5983,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 31 Team Magma Grunt 2 ": {
+        "Team Magma Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6013,7 +6013,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 39 Lass Crissy ": {
+        "Lass Crissy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6043,7 +6043,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 30 Fisherman Jonah ": {
+        "Fisherman Jonah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6073,7 +6073,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lvl 36 Fisherman Wayne ": {
+        "Fisherman Wayne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6105,7 +6105,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Numel": {
-        "Lvl 32 Team Magma Grunt 2 ": {
+        "Team Magma Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6135,7 +6135,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 17 Cooltrainer Brooke ": {
+        "Cooltrainer Brooke ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6165,7 +6165,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 21 Beauty Shirley ": {
+        "Beauty Shirley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6195,7 +6195,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 20 Team Magma Grunt 2 ": {
+        "Team Magma Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6225,7 +6225,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 23 Kindler Cole ": {
+        "Kindler Cole ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6255,7 +6255,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 23 Kindler Axle ": {
+        "Kindler Axle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6285,7 +6285,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 15 School Kid Paul ": {
+        "School Kid Paul ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6315,7 +6315,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 19 Parasol Lady Madeline ": {
+        "Parasol Lady Madeline ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6344,7 +6344,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 23 Hiker Eli ": {
+        "Hiker Eli ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6374,7 +6374,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 22 Team Magma Grunt 2 ": {
+        "Team Magma Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6404,7 +6404,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 44 Magma Leader Maxie |Magma Hideout| ": {
+        "Magma Leader Maxie |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6434,7 +6434,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Lvl 29 Magma Leader Maxie |Mt. Chimney| ": {
+        "Magma Leader Maxie |Mt. Chimney| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6464,7 +6464,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Solid Rock",
             "teraType": "None"
         },
-        "Lvl 15 Winstrate Vivi ": {
+        "Winstrate Vivi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6494,7 +6494,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 17 Hiker Brice ": {
+        "Hiker Brice ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6524,7 +6524,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 18 Hiker Lucas ": {
+        "Hiker Lucas ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6554,7 +6554,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 35 Sr And Jr Kim & Iris ": {
+        "Sr And Jr Kim & Iris ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6583,7 +6583,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 18 Kindler Hayden ": {
+        "Kindler Hayden ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6613,7 +6613,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 33 Cooltrainer Darcy ": {
+        "Cooltrainer Darcy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6643,7 +6643,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 48 Magma Leader Maxie |Space Center| ": {
+        "Magma Leader Maxie |Space Center| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6673,7 +6673,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Solid Rock",
             "teraType": "None"
         },
-        "Lvl 18 Kindler Bryant ": {
+        "Kindler Bryant ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6703,7 +6703,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 25 Kindler Dayton ": {
+        "Kindler Dayton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6733,7 +6733,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Myles ": {
+        "Pkmn Breeder Myles ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6765,7 +6765,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Makuhita": {
-        "Lvl 30 Expert Fredrick ": {
+        "Expert Fredrick ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6795,7 +6795,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 31 Black Belt Zander ": {
+        "Black Belt Zander ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6825,7 +6825,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 17 Cooltrainer Wilton ": {
+        "Cooltrainer Wilton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6855,7 +6855,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 34 Black Belt Kiyo ": {
+        "Black Belt Kiyo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6885,7 +6885,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 26 Black Belt Yuji ": {
+        "Black Belt Yuji ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6915,7 +6915,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 32 Black Belt Atsushi ": {
+        "Black Belt Atsushi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6945,7 +6945,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 17 Sr And Jr Anna & Meg ": {
+        "Sr And Jr Anna & Meg ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6974,7 +6974,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 27 Expert Timothy ": {
+        "Expert Timothy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7004,7 +7004,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 21 Expert Shelby ": {
+        "Expert Shelby ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7034,7 +7034,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 18 Battle Girl Cyndy ": {
+        "Battle Girl Cyndy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7064,7 +7064,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 33 Battle Girl Reyna ": {
+        "Battle Girl Reyna ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7094,7 +7094,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 33 Expert Conor ": {
+        "Expert Conor ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7124,7 +7124,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Isaac ": {
+        "Pkmn Breeder Isaac ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7154,7 +7154,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 13 Black Belt Cristian ": {
+        "Black Belt Cristian ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7184,7 +7184,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 39 Old Couple John & Jay ": {
+        "Old Couple John & Jay ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7213,7 +7213,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 15 Black Belt Rhett ": {
+        "Black Belt Rhett ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7243,7 +7243,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 26 Battle Girl Helene ": {
+        "Battle Girl Helene ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7273,7 +7273,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 28 Battle Girl Callie ": {
+        "Battle Girl Callie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7303,7 +7303,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Myles ": {
+        "Pkmn Breeder Myles ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7335,7 +7335,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Machop": {
-        "Lvl 30 Expert Fredrick ": {
+        "Expert Fredrick ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7365,7 +7365,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 13 Black Belt Takao ": {
+        "Black Belt Takao ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7395,7 +7395,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 32 Black Belt Hitoshi ": {
+        "Black Belt Hitoshi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7425,7 +7425,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 24 Black Belt Koichi ": {
+        "Black Belt Koichi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7455,7 +7455,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 28 Black Belt Koichi ": {
+        "Black Belt Koichi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7485,7 +7485,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 19 Black Belt Nob ": {
+        "Black Belt Nob ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7515,7 +7515,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 26 Black Belt Yuji ": {
+        "Black Belt Yuji ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7545,7 +7545,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 19 Black Belt Daisuke ": {
+        "Black Belt Daisuke ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7575,7 +7575,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 9 Youngster Joey ": {
+        "Youngster Joey ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7605,7 +7605,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 12 Sailor Huey ": {
+        "Sailor Huey ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7635,7 +7635,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 33 Sailor Ernest ": {
+        "Sailor Ernest ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7665,7 +7665,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 11 Sailor Dwayne ": {
+        "Sailor Dwayne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7695,7 +7695,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 44 Sailor Phillip ": {
+        "Sailor Phillip ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7725,7 +7725,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 43 Sailor Leonard ": {
+        "Sailor Leonard ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7755,7 +7755,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 25 Sailor Duncan ": {
+        "Sailor Duncan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7785,7 +7785,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 33 Sailor Kelvin ": {
+        "Sailor Kelvin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7815,7 +7815,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 13 Sailor Brenden ": {
+        "Sailor Brenden ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7845,7 +7845,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 17 Hiker Brice ": {
+        "Hiker Brice ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7875,7 +7875,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 18 Hiker Lenny ": {
+        "Hiker Lenny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7905,7 +7905,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 34 Black Belt Koji ": {
+        "Black Belt Koji ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7935,7 +7935,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 24 Sailor Cory ": {
+        "Sailor Cory ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7967,7 +7967,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Drifloon": {
-        "Lvl 39 Aqua Admin Matt |Aqua Hideout| ": {
+        "Aqua Admin Matt |Aqua Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7997,7 +7997,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flare Boost",
             "teraType": "None"
         },
-        "Lvl 38 Leader Winona ": {
+        "Leader Winona ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8029,7 +8029,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Geodude-Alola": {
-        "Lvl 40 Aqua Admin Matt |Aqua Hideout| ": {
+        "Aqua Admin Matt |Aqua Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8059,7 +8059,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Galvanize",
             "teraType": "None"
         },
-        "Lvl 8 Hiker Devan ": {
+        "Hiker Devan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8091,7 +8091,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tynamo": {
-        "Lvl 38 Aqua Admin Matt |Aqua Hideout| ": {
+        "Aqua Admin Matt |Aqua Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8121,7 +8121,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Surge Surfer",
             "teraType": "None"
         },
-        "Lvl 24 Leader Wattson ": {
+        "Leader Wattson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8151,7 +8151,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 14 Triathlete Anthony ": {
+        "Triathlete Anthony ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8183,7 +8183,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shinx": {
-        "Lvl 42 Aqua Admin Matt |Aqua Hideout| ": {
+        "Aqua Admin Matt |Aqua Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8215,7 +8215,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Porygon": {
-        "Lvl 43 Aqua Admin Matt |Aqua Hideout| ": {
+        "Aqua Admin Matt |Aqua Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8245,7 +8245,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Analytic",
             "teraType": "None"
         },
-        "Lvl 42 Cooltrainer Owen ": {
+        "Cooltrainer Owen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8275,7 +8275,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Trace",
             "teraType": "None"
         },
-        "Lvl 43 Aqua Admin Matt |Mt. Pyre| ": {
+        "Aqua Admin Matt |Mt. Pyre| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8307,7 +8307,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Vanillite": {
-        "Lvl 34 Aqua Admin Shelly |Weather Institute| ": {
+        "Aqua Admin Shelly |Weather Institute| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8339,7 +8339,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Eevee-Ice": {
-        "Lvl 36 Aqua Admin Shelly |Weather Institute| ": {
+        "Aqua Admin Shelly |Weather Institute| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8371,7 +8371,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Frigibax": {
-        "Lvl 37 Aqua Admin Shelly |Weather Institute| ": {
+        "Aqua Admin Shelly |Weather Institute| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8403,7 +8403,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bergmite": {
-        "Lvl 38 Aqua Admin Shelly |Weather Institute| ": {
+        "Aqua Admin Shelly |Weather Institute| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8433,7 +8433,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Ice Body",
             "teraType": "None"
         },
-        "Lvl 42 Magma Admin Tabitha |Magma Hideout| ": {
+        "Magma Admin Tabitha |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8465,7 +8465,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sneasel-Hisui": {
-        "Lvl 39 Aqua Admin Shelly |Weather Institute| ": {
+        "Aqua Admin Shelly |Weather Institute| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8497,7 +8497,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Carvanha": {
-        "Lvl 49 Aqua Leader Archie |Seafloor Cavern| ": {
+        "Aqua Leader Archie |Seafloor Cavern| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8527,7 +8527,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Strong Jaw",
             "teraType": "None"
         },
-        "Lvl 44 Cooltrainer Vincent ": {
+        "Cooltrainer Vincent ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8557,7 +8557,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 39 Beauty Tiffany ": {
+        "Beauty Tiffany ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8587,7 +8587,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 26 Swimmer M Luis ": {
+        "Swimmer M Luis ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8617,7 +8617,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 26 Swimmer M Tony ": {
+        "Swimmer M Tony ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8647,7 +8647,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 26 Swimmer M Matthew ": {
+        "Swimmer M Matthew ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8677,7 +8677,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 25 Swimmer M David ": {
+        "Swimmer M David ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8707,7 +8707,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Roland ": {
+        "Swimmer M Roland ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8737,7 +8737,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 31 Swimmer M Dean ": {
+        "Swimmer M Dean ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8767,7 +8767,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Gilbert ": {
+        "Swimmer M Gilbert ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8797,7 +8797,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 25 Fisherman Barny ": {
+        "Fisherman Barny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8827,7 +8827,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Leonardo ": {
+        "Swimmer M Leonardo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8857,7 +8857,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Clarence ": {
+        "Swimmer M Clarence ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8887,7 +8887,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 32 Fisherman Jonah ": {
+        "Fisherman Jonah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8917,7 +8917,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 31 Fisherman Henry ": {
+        "Fisherman Henry ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8947,7 +8947,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Reed ": {
+        "Swimmer M Reed ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8977,7 +8977,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 33 Sis And Bro Lila & Roy ": {
+        "Sis And Bro Lila & Roy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9007,7 +9007,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 23 Fisherman Chris ": {
+        "Fisherman Chris ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9037,7 +9037,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Lvl 24 Aqua Leader Archie |Oceanic Museum| ": {
+        "Aqua Leader Archie |Oceanic Museum| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9069,7 +9069,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Poliwag": {
-        "Lvl 45 Aqua Leader Archie |Seafloor Cavern| ": {
+        "Aqua Leader Archie |Seafloor Cavern| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9099,7 +9099,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drizzle",
             "teraType": "None"
         },
-        "Lvl 42 Aqua Leader Archie |Mt. Pyre| ": {
+        "Aqua Leader Archie |Mt. Pyre| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9131,7 +9131,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mantyke": {
-        "Lvl 46 Aqua Leader Archie |Seafloor Cavern| ": {
+        "Aqua Leader Archie |Seafloor Cavern| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9161,7 +9161,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 12 Tuber F Lola ": {
+        "Tuber F Lola ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9191,7 +9191,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 50 Leader Juan ": {
+        "Leader Juan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9223,7 +9223,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Nymble": {
-        "Lvl 47 Aqua Leader Archie |Seafloor Cavern| ": {
+        "Aqua Leader Archie |Seafloor Cavern| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9255,7 +9255,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Clauncher": {
-        "Lvl 48 Aqua Leader Archie |Seafloor Cavern| ": {
+        "Aqua Leader Archie |Seafloor Cavern| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9285,7 +9285,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Lvl 14 Fisherman Dale ": {
+        "Fisherman Dale ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9315,7 +9315,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Lvl 30 Parasol Lady Angelica ": {
+        "Parasol Lady Angelica ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9345,7 +9345,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Lvl 43 Aqua Leader Archie |Mt. Pyre| ": {
+        "Aqua Leader Archie |Mt. Pyre| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9377,7 +9377,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Finizen": {
-        "Lvl 48 Aqua Leader Archie |Seafloor Cavern| ": {
+        "Aqua Leader Archie |Seafloor Cavern| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9409,7 +9409,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Spoink": {
-        "Lvl 31 Hex Maniac Leah ": {
+        "Hex Maniac Leah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9439,7 +9439,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 36 Gentleman Nate ": {
+        "Gentleman Nate ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9469,7 +9469,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 18 Psychic Marlene ": {
+        "Psychic Marlene ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9501,7 +9501,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chingling": {
-        "Lvl 31 Hex Maniac Leah ": {
+        "Hex Maniac Leah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9531,7 +9531,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 41 Psychic Mariela ": {
+        "Psychic Mariela ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9563,7 +9563,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shroomish": {
-        "Lvl 14 Aroma Lady Daisy ": {
+        "Aroma Lady Daisy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9593,7 +9593,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 14 Aroma Lady Rose ": {
+        "Aroma Lady Rose ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9623,7 +9623,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 21 Beauty Sheila ": {
+        "Beauty Sheila ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9653,7 +9653,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 21 Picnicker Autumn ": {
+        "Picnicker Autumn ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9683,7 +9683,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 9 School Kid Karen ": {
+        "School Kid Karen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9713,7 +9713,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 16 School Kid Georgia ": {
+        "School Kid Georgia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9743,7 +9743,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 19 Picnicker Diana ": {
+        "Picnicker Diana ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9773,7 +9773,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 17 Picnicker Irene ": {
+        "Picnicker Irene ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9803,7 +9803,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Lydia ": {
+        "Pkmn Breeder Lydia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9833,7 +9833,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 4 Lass Tiana ": {
+        "Lass Tiana ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9863,7 +9863,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 6 Lass Haley ": {
+        "Lass Haley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9893,7 +9893,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 15 Winstrate Vivi ": {
+        "Winstrate Vivi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9923,7 +9923,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 14 Lass Robin ": {
+        "Lass Robin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9953,7 +9953,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 18 Picnicker Bianca ": {
+        "Picnicker Bianca ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9983,7 +9983,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 18 Aroma Lady Shayla ": {
+        "Aroma Lady Shayla ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10013,7 +10013,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 8 Youngster Johnson ": {
+        "Youngster Johnson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10043,7 +10043,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Pat ": {
+        "Pkmn Breeder Pat ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10075,7 +10075,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Budew": {
-        "Lvl 14 Aroma Lady Daisy ": {
+        "Aroma Lady Daisy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10105,7 +10105,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Lvl 14 Aroma Lady Rose ": {
+        "Aroma Lady Rose ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10137,7 +10137,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Darumaka-Galar": {
-        "Lvl 14 Aroma Lady Rose ": {
+        "Aroma Lady Rose ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10167,7 +10167,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Lvl 29 Leader Flannery ": {
+        "Leader Flannery ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10199,7 +10199,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Meditite": {
-        "Lvl 43 Cooltrainer Felix ": {
+        "Cooltrainer Felix ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10226,7 +10226,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 44 Cooltrainer Vincent ": {
+        "Cooltrainer Vincent ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10256,7 +10256,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 42 Cooltrainer Michelle ": {
+        "Cooltrainer Michelle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10286,7 +10286,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 33 Expert Mollie ": {
+        "Expert Mollie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10316,7 +10316,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 26 Psychic William ": {
+        "Psychic William ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10346,7 +10346,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 18 Winstrate Vicky ": {
+        "Winstrate Vicky ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10375,7 +10375,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 21 Expert Shelby ": {
+        "Expert Shelby ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10405,7 +10405,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 13 Battle Girl Jocelyn ": {
+        "Battle Girl Jocelyn ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10435,7 +10435,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 13 Battle Girl Laura ": {
+        "Battle Girl Laura ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10465,7 +10465,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 18 Battle Girl Cyndy ": {
+        "Battle Girl Cyndy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10495,7 +10495,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 27 Battle Girl Cora ": {
+        "Battle Girl Cora ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10525,7 +10525,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 33 Battle Girl Reyna ": {
+        "Battle Girl Reyna ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10555,7 +10555,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 13 Battle Girl Lilith ": {
+        "Battle Girl Lilith ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10585,7 +10585,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 36 Hex Maniac Sylvia ": {
+        "Hex Maniac Sylvia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10615,7 +10615,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 17 Battle Girl Vivian ": {
+        "Battle Girl Vivian ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10644,7 +10644,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 23 Battle Girl Danielle ": {
+        "Battle Girl Danielle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10673,7 +10673,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 39 Old Couple John & Jay ": {
+        "Old Couple John & Jay ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10702,7 +10702,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 26 Battle Girl Helene ": {
+        "Battle Girl Helene ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10732,7 +10732,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 18 Psychic Marlene ": {
+        "Psychic Marlene ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10762,7 +10762,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 17 Battle Girl Aisha ": {
+        "Battle Girl Aisha ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10792,7 +10792,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 33 Expert Makayla ": {
+        "Expert Makayla ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10822,7 +10822,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Lvl 28 Battle Girl Callie ": {
+        "Battle Girl Callie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10854,7 +10854,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Baltoy": {
-        "Lvl 43 Cooltrainer Felix ": {
+        "Cooltrainer Felix ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10882,7 +10882,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 27 Ruin Maniac Chip ": {
+        "Ruin Maniac Chip ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10911,7 +10911,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 45 Cooltrainer Shannon ": {
+        "Cooltrainer Shannon ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10941,7 +10941,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 21 Camper Beau ": {
+        "Camper Beau ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10970,7 +10970,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Dianne ": {
+        "Cooltrainer Dianne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10998,7 +10998,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 22 Picnicker Heidi ": {
+        "Picnicker Heidi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11027,7 +11027,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 20 Hiker Eric ": {
+        "Hiker Eric ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11057,7 +11057,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 18 Camper Lawrence ": {
+        "Camper Lawrence ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11087,7 +11087,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 29 Team Magma Grunt 2 ": {
+        "Team Magma Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11117,7 +11117,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 100 Rival Steven ": {
+        "Rival Steven ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11149,7 +11149,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bulbasaur": {
-        "Lvl 26 Aroma Lady Violet ": {
+        "Aroma Lady Violet ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11179,7 +11179,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 29 Cooltrainer Wendy ": {
+        "Cooltrainer Wendy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11208,7 +11208,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 17 Cooltrainer Brooke ": {
+        "Cooltrainer Brooke ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11238,7 +11238,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 45 Cooltrainer Hope ": {
+        "Cooltrainer Hope ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11268,7 +11268,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 45 Lady Naomi ": {
+        "Lady Naomi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11298,7 +11298,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 17 Winstrate Victoria ": {
+        "Winstrate Victoria ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11328,7 +11328,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 28 Parasol Lady Clarissa ": {
+        "Parasol Lady Clarissa ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11358,7 +11358,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Lydia ": {
+        "Pkmn Breeder Lydia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11388,7 +11388,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 26 Pkmn Ranger Catherine ": {
+        "Pkmn Ranger Catherine ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11418,7 +11418,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 38 Pkmn Ranger Sophia ": {
+        "Pkmn Ranger Sophia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11448,7 +11448,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 18 Sr And Jr Tyra & Ivy ": {
+        "Sr And Jr Tyra & Ivy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11477,7 +11477,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 18 Aroma Lady Celina ": {
+        "Aroma Lady Celina ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11507,7 +11507,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 18 Aroma Lady Shayla ": {
+        "Aroma Lady Shayla ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11537,7 +11537,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 33 Expert Makayla ": {
+        "Expert Makayla ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11569,7 +11569,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Oddish": {
-        "Lvl 26 Aroma Lady Violet ": {
+        "Aroma Lady Violet ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11599,7 +11599,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 15 School Kid Paul ": {
+        "School Kid Paul ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11629,7 +11629,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 19 Picnicker Diana ": {
+        "Picnicker Diana ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11659,7 +11659,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 26 Pkmn Ranger Catherine ": {
+        "Pkmn Ranger Catherine ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11689,7 +11689,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 16 Lass Sally ": {
+        "Lass Sally ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11719,7 +11719,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 34 Cooltrainer Alexa ": {
+        "Cooltrainer Alexa ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11751,7 +11751,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sandshrew": {
-        "Lvl 23 Ruin Maniac Dusty ": {
+        "Ruin Maniac Dusty ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11780,7 +11780,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 27 Ruin Maniac Chip ": {
+        "Ruin Maniac Chip ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11809,7 +11809,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 25 Ruin Maniac Foster ": {
+        "Ruin Maniac Foster ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11838,7 +11838,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 42 Cooltrainer Julie ": {
+        "Cooltrainer Julie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11868,7 +11868,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 23 Camper Drew ": {
+        "Camper Drew ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11898,7 +11898,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 21 Camper Beau ": {
+        "Camper Beau ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11928,7 +11928,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 18 Camper Shane ": {
+        "Camper Shane ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11958,7 +11958,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 18 Camper Travis ": {
+        "Camper Travis ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11988,7 +11988,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 22 Picnicker Heidi ": {
+        "Picnicker Heidi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12017,7 +12017,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 22 Picnicker Becky ": {
+        "Picnicker Becky ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12046,7 +12046,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 26 Ruin Maniac Garrison ": {
+        "Ruin Maniac Garrison ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12076,7 +12076,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 19 Camper Tyron ": {
+        "Camper Tyron ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12106,7 +12106,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 18 Camper Lawrence ": {
+        "Camper Lawrence ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12136,7 +12136,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 25 Ruin Maniac Andres ": {
+        "Ruin Maniac Andres ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12166,7 +12166,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 22 Ruin Maniac Bryan ": {
+        "Ruin Maniac Bryan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12196,7 +12196,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Pat ": {
+        "Pkmn Breeder Pat ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12228,7 +12228,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Phanpy": {
-        "Lvl 27 Ruin Maniac Chip ": {
+        "Ruin Maniac Chip ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12260,7 +12260,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sandshrew-Alola": {
-        "Lvl 25 Ruin Maniac Foster ": {
+        "Ruin Maniac Foster ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12290,7 +12290,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Cloak",
             "teraType": "None"
         },
-        "Lvl 35 Aqua Admin Shelly |Weather Institute| ": {
+        "Aqua Admin Shelly |Weather Institute| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12322,7 +12322,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Magnemite": {
-        "Lvl 17 Interviewer Gabby & Ty ": {
+        "Interviewer Gabby & Ty ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12352,7 +12352,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 28 Cooltrainer Braxton ": {
+        "Cooltrainer Braxton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12381,7 +12381,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Albert ": {
+        "Cooltrainer Albert ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12411,7 +12411,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 17 Guitarist Shawn ": {
+        "Guitarist Shawn ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12441,7 +12441,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 15 Guitarist Dalton ": {
+        "Guitarist Dalton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12471,7 +12471,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 24 Leader Wattson ": {
+        "Leader Wattson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12501,7 +12501,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Analytic",
             "teraType": "None"
         },
-        "Lvl 14 Triathlete Jacob ": {
+        "Triathlete Jacob ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12531,7 +12531,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 14 Triathlete Anthony ": {
+        "Triathlete Anthony ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12561,7 +12561,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 16 Triathlete Benjamin ": {
+        "Triathlete Benjamin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12591,7 +12591,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 16 Triathlete Abigail ": {
+        "Triathlete Abigail ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12621,7 +12621,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 14 Triathlete Jasmine ": {
+        "Triathlete Jasmine ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12651,7 +12651,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 57 Rival Wally ": {
+        "Rival Wally ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12681,7 +12681,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Lvl 21 Triathlete Julio ": {
+        "Triathlete Julio ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12711,7 +12711,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Lvl 15 Triathlete Alyssa ": {
+        "Triathlete Alyssa ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12743,7 +12743,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Whismur": {
-        "Lvl 17 Interviewer Gabby & Ty ": {
+        "Interviewer Gabby & Ty ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12773,7 +12773,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 30 Guitarist Fernando ": {
+        "Guitarist Fernando ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12803,7 +12803,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 15 Guitarist Dalton ": {
+        "Guitarist Dalton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12833,7 +12833,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Isaac ": {
+        "Pkmn Breeder Isaac ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12863,7 +12863,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 33 Cooltrainer Jonathan ": {
+        "Cooltrainer Jonathan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12893,7 +12893,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 29 Cooltrainer Cristin ": {
+        "Cooltrainer Cristin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12925,7 +12925,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Azurill": {
-        "Lvl 12 Tuber F Lola ": {
+        "Tuber F Lola ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12955,7 +12955,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 26 Tuber F Austina ": {
+        "Tuber F Austina ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12985,7 +12985,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 26 Tuber F Gwen ": {
+        "Tuber F Gwen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13015,7 +13015,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 12 Tuber M Simon ": {
+        "Tuber M Simon ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13045,7 +13045,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 26 Tuber M Charlie ": {
+        "Tuber M Charlie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13075,7 +13075,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 21 Beauty Melissa ": {
+        "Beauty Melissa ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13105,7 +13105,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 40 Beauty Bridget ": {
+        "Beauty Bridget ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13135,7 +13135,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 45 Rich Boy Garret ": {
+        "Rich Boy Garret ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13165,7 +13165,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 35 Pokefan Bethany ": {
+        "Pokefan Bethany ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13195,7 +13195,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 66 Champion Wallace ": {
+        "Champion Wallace ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13225,7 +13225,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Huge Power",
             "teraType": "None"
         },
-        "Lvl 26 Tuber F Jani ": {
+        "Tuber F Jani ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13255,7 +13255,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 26 Swimmer F Imani ": {
+        "Swimmer F Imani ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13285,7 +13285,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 25 Swimmer F Tara ": {
+        "Swimmer F Tara ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13315,7 +13315,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Grace ": {
+        "Swimmer F Grace ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13345,7 +13345,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Nikki ": {
+        "Swimmer F Nikki ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13375,7 +13375,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Dana ": {
+        "Swimmer F Dana ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13405,7 +13405,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 22 Picnicker Becky ": {
+        "Picnicker Becky ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13434,7 +13434,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 18 Picnicker Nancy ": {
+        "Picnicker Nancy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13464,7 +13464,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 17 Picnicker Irene ": {
+        "Picnicker Irene ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13494,7 +13494,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Lydia ": {
+        "Pkmn Breeder Lydia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13524,7 +13524,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 9 Lass Janice ": {
+        "Lass Janice ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13554,7 +13554,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 15 Winstrate Vivi ": {
+        "Winstrate Vivi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13584,7 +13584,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 14 Lass Robin ": {
+        "Lass Robin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13614,7 +13614,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 34 Cooltrainer Alexa ": {
+        "Cooltrainer Alexa ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13644,7 +13644,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 35 Sis And Bro Reli & Ian ": {
+        "Sis And Bro Reli & Ian ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13674,7 +13674,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 13 Tuber F Hailey ": {
+        "Tuber F Hailey ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13704,7 +13704,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 17 Picnicker Sophie ": {
+        "Picnicker Sophie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13734,7 +13734,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 18 Picnicker Angelina ": {
+        "Picnicker Angelina ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13764,7 +13764,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 15 Swimmer F Isabelle ": {
+        "Swimmer F Isabelle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13794,7 +13794,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 22 Picnicker Celia ": {
+        "Picnicker Celia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13824,7 +13824,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Pat ": {
+        "Pkmn Breeder Pat ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13856,7 +13856,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Zigzagoon": {
-        "Lvl 13 Tuber M Ricky ": {
+        "Tuber M Ricky ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13885,7 +13885,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 7 Lady Cindy ": {
+        "Lady Cindy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13915,7 +13915,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 7 Rich Boy Winston ": {
+        "Rich Boy Winston ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13945,7 +13945,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 20 Camper Ethan ": {
+        "Camper Ethan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13975,7 +13975,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 15 Sr And Jr Anna & Meg ": {
+        "Sr And Jr Anna & Meg ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14004,7 +14004,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 16 Winstrate Victor ": {
+        "Winstrate Victor ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14034,7 +14034,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 5 Youngster Billy ": {
+        "Youngster Billy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14064,7 +14064,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 17 Youngster Ben ": {
+        "Youngster Ben ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14093,7 +14093,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 14 Youngster Eddie ": {
+        "Youngster Eddie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14123,7 +14123,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 16 Youngster Eddie ": {
+        "Youngster Eddie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14153,7 +14153,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 4 Youngster Allen ": {
+        "Youngster Allen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14183,7 +14183,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 25 Youngster Demetrius ": {
+        "Youngster Demetrius ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14213,7 +14213,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Isaac ": {
+        "Pkmn Breeder Isaac ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14243,7 +14243,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 32 Cooltrainer Athena ": {
+        "Cooltrainer Athena ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14271,7 +14271,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 4 Lass Tiana ": {
+        "Lass Tiana ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14301,7 +14301,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 8 Rich Boy Dawson ": {
+        "Rich Boy Dawson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14331,7 +14331,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 8 Lady Sarah ": {
+        "Lady Sarah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14361,7 +14361,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 14 Youngster Deandre ": {
+        "Youngster Deandre ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14391,7 +14391,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Myles ": {
+        "Pkmn Breeder Myles ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14423,7 +14423,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Taillow": {
-        "Lvl 26 Cooltrainer Randall ": {
+        "Cooltrainer Randall ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14452,7 +14452,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 28 Cooltrainer Braxton ": {
+        "Cooltrainer Braxton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14481,7 +14481,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 42 Cooltrainer Samuel ": {
+        "Cooltrainer Samuel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14511,7 +14511,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 20 Camper Ethan ": {
+        "Camper Ethan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14541,7 +14541,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 16 Winstrate Victor ": {
+        "Winstrate Victor ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14571,7 +14571,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 3 Youngster Allen ": {
+        "Youngster Allen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14601,7 +14601,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 26 Bird Keeper Phil ": {
+        "Bird Keeper Phil ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14631,7 +14631,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 36 Bird Keeper Benny ": {
+        "Bird Keeper Benny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14661,7 +14661,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 25 Bird Keeper Chester ": {
+        "Bird Keeper Chester ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14691,7 +14691,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 33 Bird Keeper Alex ": {
+        "Bird Keeper Alex ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14721,7 +14721,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 17 Picnicker Carol ": {
+        "Picnicker Carol ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14751,7 +14751,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Isaac ": {
+        "Pkmn Breeder Isaac ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14781,7 +14781,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 33 Expert Paxton ": {
+        "Expert Paxton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14811,7 +14811,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 29 Camper Flint ": {
+        "Camper Flint ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14841,7 +14841,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 32 Bird Keeper Aidan ": {
+        "Bird Keeper Aidan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14871,7 +14871,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 19 Bird Keeper Coby ": {
+        "Bird Keeper Coby ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14901,7 +14901,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 25 Bird Keeper Josue ": {
+        "Bird Keeper Josue ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14931,7 +14931,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 24 Cooltrainer Carolina ": {
+        "Cooltrainer Carolina ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14961,7 +14961,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 22 Camper Branden ": {
+        "Camper Branden ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14993,7 +14993,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tyrogue": {
-        "Lvl 26 Cooltrainer Parker ": {
+        "Cooltrainer Parker ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15023,7 +15023,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 39 Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15053,7 +15053,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 39 Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15083,7 +15083,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 39 Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15113,7 +15113,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 39 Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15143,7 +15143,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 39 Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15173,7 +15173,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 39 Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15203,7 +15203,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 44 Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15233,7 +15233,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 44 Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15263,7 +15263,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 44 Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15293,7 +15293,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 44 Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15323,7 +15323,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 44 Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15353,7 +15353,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Lvl 44 Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15385,7 +15385,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Trapinch": {
-        "Lvl 28 Cooltrainer Braxton ": {
+        "Cooltrainer Braxton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15414,7 +15414,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Lvl 19 Youngster Jaylen ": {
+        "Youngster Jaylen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15444,7 +15444,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Lvl 39 Magma Admin Tabitha |Magma Hideout| ": {
+        "Magma Admin Tabitha |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15476,7 +15476,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Gimmighoul Roaming": {
-        "Lvl 44 Cooltrainer Vincent ": {
+        "Cooltrainer Vincent ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15508,7 +15508,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tinkatink": {
-        "Lvl 46 Cooltrainer Leroy ": {
+        "Cooltrainer Leroy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15538,7 +15538,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mold Breaker",
             "teraType": "None"
         },
-        "Lvl 42 Cooltrainer Samuel ": {
+        "Cooltrainer Samuel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15568,7 +15568,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mold Breaker",
             "teraType": "None"
         },
-        "Lvl 29 Cooltrainer Wendy ": {
+        "Cooltrainer Wendy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15599,7 +15599,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Staryu": {
-        "Lvl 46 Cooltrainer Leroy ": {
+        "Cooltrainer Leroy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15629,7 +15629,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 33 Triathlete Camden ": {
+        "Triathlete Camden ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15659,7 +15659,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 35 Triathlete Isaiah ": {
+        "Triathlete Isaiah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15689,7 +15689,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 33 Triathlete Pablo ": {
+        "Triathlete Pablo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15719,7 +15719,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 34 Triathlete Chase ": {
+        "Triathlete Chase ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15749,7 +15749,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 34 Triathlete Isobel ": {
+        "Triathlete Isobel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15779,7 +15779,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 34 Triathlete Donny ": {
+        "Triathlete Donny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15809,7 +15809,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 34 Triathlete Talia ": {
+        "Triathlete Talia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15839,7 +15839,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 35 Triathlete Katelyn ": {
+        "Triathlete Katelyn ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15869,7 +15869,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 33 Triathlete Allison ": {
+        "Triathlete Allison ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15899,7 +15899,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 34 Triathlete Isabella ": {
+        "Triathlete Isabella ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15929,7 +15929,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 26 Triathlete Camron ": {
+        "Triathlete Camron ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15961,7 +15961,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cacnea": {
-        "Lvl 43 Cooltrainer Edgar ": {
+        "Cooltrainer Edgar ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15991,7 +15991,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 39 Pkmn Ranger Sebastian ": {
+        "Pkmn Ranger Sebastian ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16021,7 +16021,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Lvl 40 Magma Admin Tabitha |Magma Hideout| ": {
+        "Magma Admin Tabitha |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16053,7 +16053,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Grimer": {
-        "Lvl 43 Cooltrainer Albert ": {
+        "Cooltrainer Albert ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16085,7 +16085,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Abra": {
-        "Lvl 42 Cooltrainer Samuel ": {
+        "Cooltrainer Samuel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16114,7 +16114,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 42 Cooltrainer Vito ": {
+        "Cooltrainer Vito ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16144,7 +16144,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 15 Psychic Edward ": {
+        "Psychic Edward ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16171,7 +16171,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 41 Psychic Joshua ": {
+        "Psychic Joshua ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16201,7 +16201,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 16 Psychic Jaclyn ": {
+        "Psychic Jaclyn ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16228,7 +16228,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 36 Psychic Maura ": {
+        "Psychic Maura ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16258,7 +16258,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 26 Psychic Kayla ": {
+        "Psychic Kayla ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16288,7 +16288,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 30 Psychic Jacki ": {
+        "Psychic Jacki ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16318,7 +16318,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 36 Hex Maniac Kathleen ": {
+        "Hex Maniac Kathleen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16348,7 +16348,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 26 Psychic Alix ": {
+        "Psychic Alix ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16378,7 +16378,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 41 Psychic Alvaro ": {
+        "Psychic Alvaro ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16410,7 +16410,37 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Doduo": {
-        "Lvl 42 Cooltrainer Vito ": {
+        "Leader Winona ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 39,
+            "nature": "Careful",
+            "battle_type": "Singles",
+            "moves": [
+                "Drill Peck",
+                "Earthquake",
+                "Knock Off",
+                "Rest"
+            ],
+            "ability": "Early Bird",
+            "teraType": "None"
+        },
+        "Cooltrainer Vito ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16440,7 +16470,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 17 Triathlete Dylan ": {
+        "Triathlete Dylan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16470,7 +16500,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 17 Triathlete Maria ": {
+        "Triathlete Maria ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16500,7 +16530,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 27 Bird Keeper Jared ": {
+        "Bird Keeper Jared ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16530,7 +16560,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 29 Bird Keeper Edwardo ": {
+        "Bird Keeper Edwardo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16560,7 +16590,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 26 Triathlete Kyra ": {
+        "Triathlete Kyra ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16590,7 +16620,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 17 Triathlete Melina ": {
+        "Triathlete Melina ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16622,7 +16652,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Voltorb": {
-        "Lvl 42 Cooltrainer Vito ": {
+        "Cooltrainer Vito ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16652,7 +16682,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 17 Guitarist Kirk ": {
+        "Guitarist Kirk ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16681,7 +16711,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 17 Guitarist Shawn ": {
+        "Guitarist Shawn ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16711,7 +16741,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 6 Triathlete Jacob ": {
+        "Triathlete Jacob ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16741,7 +16771,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 6 Triathlete Jasmine ": {
+        "Triathlete Jasmine ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16771,7 +16801,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 14 Guitarist Joseph ": {
+        "Guitarist Joseph ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16801,7 +16831,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Lvl 15 Guitarist Marcos ": {
+        "Guitarist Marcos ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16833,7 +16863,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Geodude": {
-        "Lvl 42 Cooltrainer Owen ": {
+        "Cooltrainer Owen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16863,7 +16893,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 33 Cooltrainer Warren ": {
+        "Cooltrainer Warren ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16893,7 +16923,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 10 Youngster Josh ": {
+        "Youngster Josh ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16920,7 +16950,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 8 Youngster Tommy ": {
+        "Youngster Tommy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16950,7 +16980,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 8 Hiker Marc ": {
+        "Hiker Marc ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16980,7 +17010,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 16 Hiker Trent ": {
+        "Hiker Trent ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17010,7 +17040,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 17 Hiker Trent ": {
+        "Hiker Trent ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17040,7 +17070,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 18 Hiker Lenny ": {
+        "Hiker Lenny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17070,7 +17100,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 18 Hiker Lucas ": {
+        "Hiker Lucas ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17100,7 +17130,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 22 Hiker Alan ": {
+        "Hiker Alan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17130,7 +17160,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 8 Hiker Clark ": {
+        "Hiker Clark ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17160,7 +17190,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 20 Hiker Eric ": {
+        "Hiker Eric ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17190,7 +17220,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 20 Sr And Jr Tyra & Ivy ": {
+        "Sr And Jr Tyra & Ivy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17219,7 +17249,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 8 Hiker Devan ": {
+        "Hiker Devan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17251,7 +17281,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Igglybuff": {
-        "Lvl 26 Cooltrainer Alexia ": {
+        "Cooltrainer Alexia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17281,7 +17311,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lvl 35 Leader Norman ": {
+        "Leader Norman ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17310,7 +17340,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Aron": {
-        "Lvl 45 Cooltrainer Keira ": {
+        "Cooltrainer Keira ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17340,7 +17370,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Lvl 19 Pokemaniac Steve ": {
+        "Pokemaniac Steve ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17370,7 +17400,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Lvl 19 Youngster Dillon ": {
+        "Youngster Dillon ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17400,7 +17430,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Lvl 15 Youngster Timmy ": {
+        "Youngster Timmy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17430,7 +17460,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Isaac ": {
+        "Pkmn Breeder Isaac ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17460,7 +17490,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Lvl 18 Pokemaniac Wyatt ": {
+        "Pokemaniac Wyatt ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17490,7 +17520,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Lvl 14 Youngster Deandre ": {
+        "Youngster Deandre ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17522,7 +17552,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Greavard": {
-        "Lvl 30 Cooltrainer Jennifer ": {
+        "Cooltrainer Jennifer ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17552,7 +17582,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Caroline ": {
+        "Cooltrainer Caroline ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17582,7 +17612,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Lvl 32 Hex Maniac Valerie ": {
+        "Hex Maniac Valerie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17612,7 +17642,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Halle ": {
+        "Cooltrainer Halle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17644,7 +17674,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Slugma": {
-        "Lvl 42 Cooltrainer Michelle ": {
+        "Cooltrainer Michelle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17674,7 +17704,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Lvl 22 Kindler Jeff ": {
+        "Kindler Jeff ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17704,7 +17734,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Lvl 23 Kindler Jace ": {
+        "Kindler Jace ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17734,7 +17764,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Lvl 23 Kindler Keegan ": {
+        "Kindler Keegan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17764,7 +17794,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Lvl 18 Kindler Bernie ": {
+        "Kindler Bernie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17794,7 +17824,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Lvl 28 Leader Flannery ": {
+        "Leader Flannery ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17824,7 +17854,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drought",
             "teraType": "None"
         },
-        "Lvl 18 Kindler Bryant ": {
+        "Kindler Bryant ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17854,7 +17884,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Lvl 25 Kindler Dayton ": {
+        "Kindler Dayton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17886,7 +17916,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rookidee": {
-        "Lvl 43 Cooltrainer Caroline ": {
+        "Cooltrainer Caroline ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17916,7 +17946,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 27 Bird Keeper Jared ": {
+        "Bird Keeper Jared ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17946,7 +17976,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 30 Bird Keeper Humberto ": {
+        "Bird Keeper Humberto ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17976,7 +18006,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 32 Bird Keeper Aidan ": {
+        "Bird Keeper Aidan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18006,7 +18036,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 17 Bird Keeper Coby ": {
+        "Bird Keeper Coby ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18036,7 +18066,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 25 Bird Keeper Elijah ": {
+        "Bird Keeper Elijah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18066,7 +18096,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 100 Rival Steven ": {
+        "Rival Steven ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18098,7 +18128,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Vulpix": {
-        "Lvl 42 Cooltrainer Julie ": {
+        "Cooltrainer Julie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18130,7 +18160,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Hoppip": {
-        "Lvl 42 Cooltrainer Julie ": {
+        "Cooltrainer Julie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18160,7 +18190,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 25 Bird Keeper Hugh ": {
+        "Bird Keeper Hugh ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18190,7 +18220,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 27 Bird Keeper Jared ": {
+        "Bird Keeper Jared ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18220,7 +18250,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 33 Bird Keeper Presley ": {
+        "Bird Keeper Presley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18250,7 +18280,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 34 Bird Keeper Beck ": {
+        "Bird Keeper Beck ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18280,7 +18310,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Myles ": {
+        "Pkmn Breeder Myles ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18310,7 +18340,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 30 Bird Keeper Darius ": {
+        "Bird Keeper Darius ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18342,7 +18372,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shuppet": {
-        "Lvl 41 Hex Maniac Patricia ": {
+        "Hex Maniac Patricia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18372,7 +18402,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Lvl 30 Hex Maniac Kindra ": {
+        "Hex Maniac Kindra ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18402,7 +18432,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Lvl 29 Hex Maniac Tammy ": {
+        "Hex Maniac Tammy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18432,7 +18462,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Lvl 32 Hex Maniac Tasha ": {
+        "Hex Maniac Tasha ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18462,7 +18492,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Lvl 41 Psychic Alvaro ": {
+        "Psychic Alvaro ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18494,7 +18524,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Glimmet": {
-        "Lvl 41 Hex Maniac Patricia ": {
+        "Hex Maniac Patricia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18524,7 +18554,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Toxic Debris",
             "teraType": "None"
         },
-        "Lvl 30 Psychic Jacki ": {
+        "Psychic Jacki ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18554,7 +18584,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Toxic Debris",
             "teraType": "None"
         },
-        "Lvl 13 Leader Roxanne ": {
+        "Leader Roxanne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18583,7 +18613,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Toxic Debris",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Mitchell ": {
+        "Cooltrainer Mitchell ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18615,7 +18645,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Duskull": {
-        "Lvl 30 Hex Maniac Kindra ": {
+        "Hex Maniac Kindra ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18645,7 +18675,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 29 Hex Maniac Tammy ": {
+        "Hex Maniac Tammy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18677,7 +18707,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Goldeen": {
-        "Lvl 40 Lady Brianna ": {
+        "Lady Brianna ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18707,7 +18737,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 40 Beauty Connie ": {
+        "Beauty Connie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18737,7 +18767,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 17 Fisherman Claude ": {
+        "Fisherman Claude ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18767,7 +18797,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 25 Swimmer F Denise ": {
+        "Swimmer F Denise ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18797,7 +18827,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 26 Swimmer F Beth ": {
+        "Swimmer F Beth ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18827,7 +18857,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 26 Swimmer F Missy ": {
+        "Swimmer F Missy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18857,7 +18887,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 24 Swimmer F Alice ": {
+        "Swimmer F Alice ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18887,7 +18917,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Sharon ": {
+        "Swimmer F Sharon ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18917,7 +18947,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Brenda ": {
+        "Swimmer F Brenda ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18947,7 +18977,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Katie ": {
+        "Swimmer F Katie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18977,7 +19007,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Kara ": {
+        "Swimmer F Kara ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19007,7 +19037,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Debra ": {
+        "Swimmer F Debra ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19037,7 +19067,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 35 Swimmer F Carlee ": {
+        "Swimmer F Carlee ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19067,7 +19097,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 11 Pkmn Breeder Lydia ": {
+        "Pkmn Breeder Lydia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19097,7 +19127,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 39 Lass Crissy ": {
+        "Lass Crissy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19127,7 +19157,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 13 Beauty Johanna ": {
+        "Beauty Johanna ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19157,7 +19187,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 27 Sis And Bro Lisa & Ray ": {
+        "Sis And Bro Lisa & Ray ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19187,7 +19217,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 26 Parasol Lady Rachel ": {
+        "Parasol Lady Rachel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19219,7 +19249,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Helioptile": {
-        "Lvl 29 Beauty Jessica ": {
+        "Beauty Jessica ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19249,7 +19279,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Lvl 24 Camper Justin ": {
+        "Camper Justin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19279,7 +19309,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Lvl 31 Parasol Lady Kayley ": {
+        "Parasol Lady Kayley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19309,7 +19339,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Lvl 33 Cooltrainer Jonathan ": {
+        "Cooltrainer Jonathan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19339,7 +19369,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Lvl 41 Magma Leader Maxie |Magma Hideout| ": {
+        "Magma Leader Maxie |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19369,7 +19399,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Solar Power",
             "teraType": "None"
         },
-        "Lvl 23 Cooltrainer Gerald ": {
+        "Cooltrainer Gerald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19400,7 +19430,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ekans": {
-        "Lvl 29 Beauty Jessica ": {
+        "Beauty Jessica ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19430,7 +19460,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Lvl 18 Collector Hector ": {
+        "Collector Hector ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19462,7 +19492,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Clamperl": {
-        "Lvl 35 Beauty Olivia ": {
+        "Beauty Olivia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19493,7 +19523,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Corphish": {
-        "Lvl 37 Beauty Olivia ": {
+        "Beauty Olivia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19522,7 +19552,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Sienna ": {
+        "Swimmer F Sienna ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19554,7 +19584,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Species_basculin_white_striped": {
-        "Lvl 39 Beauty Tiffany ": {
+        "Beauty Tiffany ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19586,7 +19616,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Barboach": {
-        "Lvl 33 Expert Mollie ": {
+        "Expert Mollie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19616,7 +19646,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 18 Fisherman Claude ": {
+        "Fisherman Claude ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19646,7 +19676,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 19 Fisherman Nolan ": {
+        "Fisherman Nolan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19676,7 +19706,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 19 Fisherman Kai ": {
+        "Fisherman Kai ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19708,7 +19738,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Horsea": {
-        "Lvl 25 Beauty Thalia ": {
+        "Beauty Thalia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19738,7 +19768,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Stan ": {
+        "Swimmer M Stan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19768,7 +19798,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 49 Leader Juan ": {
+        "Leader Juan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19798,7 +19828,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 25 Swimmer F Tara ": {
+        "Swimmer F Tara ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19828,7 +19858,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Linda ": {
+        "Swimmer F Linda ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19860,7 +19890,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rhyhorn": {
-        "Lvl 31 Pokemaniac Mark ": {
+        "Pokemaniac Mark ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19890,7 +19920,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Lightning Rod",
             "teraType": "None"
         },
-        "Lvl 8 Hiker Marc ": {
+        "Hiker Marc ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19922,7 +19952,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tentacool": {
-        "Lvl 26 Swimmer M Dominik ": {
+        "Swimmer M Dominik ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19952,7 +19982,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 24 Swimmer M Douglas ": {
+        "Swimmer M Douglas ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19982,7 +20012,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 24 Swimmer M Darrin ": {
+        "Swimmer M Darrin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20012,7 +20042,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 26 Swimmer M Jerome ": {
+        "Swimmer M Jerome ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20042,7 +20072,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 25 Swimmer M David ": {
+        "Swimmer M David ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20072,7 +20102,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Spencer ": {
+        "Swimmer M Spencer ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20102,7 +20132,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Nolen ": {
+        "Swimmer M Nolen ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20132,7 +20162,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Herman ": {
+        "Swimmer M Herman ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20162,7 +20192,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Santiago ": {
+        "Swimmer M Santiago ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20192,7 +20222,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Dudley ": {
+        "Swimmer M Dudley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20222,7 +20252,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Chad ": {
+        "Swimmer M Chad ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20252,7 +20282,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 10 Fisherman Andrew ": {
+        "Fisherman Andrew ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20282,7 +20312,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 7 Fisherman Elliot ": {
+        "Fisherman Elliot ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20312,7 +20342,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 11 Fisherman Ned ": {
+        "Fisherman Ned ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20342,7 +20372,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 11 Fisherman Dale ": {
+        "Fisherman Dale ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20372,7 +20402,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 25 Fisherman Barny ": {
+        "Fisherman Barny ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20402,7 +20432,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 16 Fisherman Wade ": {
+        "Fisherman Wade ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20432,7 +20462,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 25 Fisherman Carter ": {
+        "Fisherman Carter ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20462,7 +20492,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 11 Sailor Dwayne ": {
+        "Sailor Dwayne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20492,7 +20522,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 44 Sailor Phillip ": {
+        "Sailor Phillip ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20522,7 +20552,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 35 Swimmer M Harrison ": {
+        "Swimmer M Harrison ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20552,7 +20582,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 31 Fisherman Jonah ": {
+        "Fisherman Jonah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20582,7 +20612,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 34 Fisherman Henry ": {
+        "Fisherman Henry ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20612,7 +20642,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 31 Fisherman Wayne ": {
+        "Fisherman Wayne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20642,7 +20672,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 25 Sis And Bro Lisa & Ray ": {
+        "Sis And Bro Lisa & Ray ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20672,7 +20702,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 20 Fisherman Chris ": {
+        "Fisherman Chris ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20702,7 +20732,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 12 Tuber M Chandler ": {
+        "Tuber M Chandler ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20732,7 +20762,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 15 Swimmer M Pete ": {
+        "Swimmer M Pete ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20762,7 +20792,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 24 Sailor Cory ": {
+        "Sailor Cory ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20794,7 +20824,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mareanie": {
-        "Lvl 24 Swimmer M Douglas ": {
+        "Swimmer M Douglas ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20824,7 +20854,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Lvl 24 Swimmer M Darrin ": {
+        "Swimmer M Darrin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20854,7 +20884,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Dudley ": {
+        "Swimmer M Dudley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20884,7 +20914,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Lvl 49 Leader Juan ": {
+        "Leader Juan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20916,7 +20946,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Froakie": {
-        "Lvl 31 Swimmer M Dean ": {
+        "Swimmer M Dean ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20946,7 +20976,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 64 Champion Wallace ": {
+        "Champion Wallace ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20978,7 +21008,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Spheal": {
-        "Lvl 34 Swimmer M Franklin ": {
+        "Swimmer M Franklin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21008,7 +21038,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer M Kevin ": {
+        "Swimmer M Kevin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21038,7 +21068,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Nikki ": {
+        "Swimmer F Nikki ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21068,7 +21098,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Katie ": {
+        "Swimmer F Katie ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21098,7 +21128,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 25 Sailor Duncan ": {
+        "Sailor Duncan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21128,7 +21158,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 33 Sailor Kelvin ": {
+        "Sailor Kelvin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21158,7 +21188,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer M Reed ": {
+        "Swimmer M Reed ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21190,7 +21220,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mankey": {
-        "Lvl 32 Black Belt Hitoshi ": {
+        "Black Belt Hitoshi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21222,7 +21252,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ponyta": {
-        "Lvl 22 Kindler Jeff ": {
+        "Kindler Jeff ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21252,7 +21282,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 20 Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21282,7 +21312,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Lvl 22 Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21312,7 +21342,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Lvl 42 Magma Leader Maxie |Magma Hideout| ": {
+        "Magma Leader Maxie |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21342,7 +21372,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Lvl 18 Rival May |Rustboro| |Torchic| ": {
+        "Rival May |Rustboro| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21372,7 +21402,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Lvl 44 Rival May |Partner| |Mt. Pyre| |Scorbunny| ": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21402,7 +21432,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Lvl 43 Rival May |Partner| |Mt. Pyre| |Squirtle| ": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21434,7 +21464,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Surskit": {
-        "Lvl 26 Bug Maniac Brent ": {
+        "Bug Maniac Brent ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21464,7 +21494,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 27 Bug Maniac Jeffrey ": {
+        "Bug Maniac Jeffrey ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21496,7 +21526,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wurmple": {
-        "Lvl 24 Bug Maniac Donald ": {
+        "Bug Maniac Donald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21526,7 +21556,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Lvl 27 Bug Maniac Taylor ": {
+        "Bug Maniac Taylor ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21556,7 +21586,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Lvl 26 Twins Miu & Yuki ": {
+        "Twins Miu & Yuki ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21586,7 +21616,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Lvl 4 Bug Catcher Rick ": {
+        "Bug Catcher Rick ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21616,7 +21646,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Lvl 3 Bug Catcher Lyle ": {
+        "Bug Catcher Lyle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21646,7 +21676,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Lvl 8 Bug Catcher Jose ": {
+        "Bug Catcher Jose ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21676,7 +21706,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Lvl 27 Young Couple Mel & Paul ": {
+        "Young Couple Mel & Paul ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21705,7 +21735,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Lvl 29 Bug Maniac Cale ": {
+        "Bug Maniac Cale ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21737,7 +21767,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Caterpie": {
-        "Lvl 24 Bug Maniac Donald ": {
+        "Bug Maniac Donald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21769,7 +21799,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Weedle": {
-        "Lvl 24 Bug Maniac Donald ": {
+        "Bug Maniac Donald ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21801,7 +21831,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Scatterbug": {
-        "Lvl 27 Bug Maniac Taylor ": {
+        "Bug Maniac Taylor ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21833,7 +21863,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tarountula": {
-        "Lvl 27 Bug Maniac Taylor ": {
+        "Bug Maniac Taylor ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21865,7 +21895,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Dewpider": {
-        "Lvl 27 Bug Maniac Jeffrey ": {
+        "Bug Maniac Jeffrey ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21897,7 +21927,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snom": {
-        "Lvl 27 Bug Maniac Jeffrey ": {
+        "Bug Maniac Jeffrey ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21929,7 +21959,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wurmple Poison": {
-        "Lvl 16 Bug Maniac Derek ": {
+        "Bug Maniac Derek ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21961,7 +21991,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Nincada": {
-        "Lvl 16 Bug Maniac Derek ": {
+        "Bug Maniac Derek ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21991,7 +22021,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Lvl 8 Bug Catcher Jose ": {
+        "Bug Catcher Jose ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22021,7 +22051,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Lvl 28 Bug Catcher Doug ": {
+        "Bug Catcher Doug ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22051,7 +22081,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Lvl 6 Bug Catcher James ": {
+        "Bug Catcher James ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22081,7 +22111,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Lvl 28 Ninja Boy Riley ": {
+        "Ninja Boy Riley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22112,7 +22142,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ralts": {
-        "Lvl 36 Psychic Preston ": {
+        "Psychic Preston ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22142,7 +22172,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 36 Psychic Virgil ": {
+        "Psychic Virgil ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22172,7 +22202,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 26 Psychic William ": {
+        "Psychic William ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22202,7 +22232,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 36 Psychic Hannah ": {
+        "Psychic Hannah ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22232,7 +22262,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 41 Psychic Alexis ": {
+        "Psychic Alexis ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22262,7 +22292,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 9 School Kid Jerry ": {
+        "School Kid Jerry ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22292,7 +22322,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 17 School Kid Ted ": {
+        "School Kid Ted ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22322,7 +22352,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 58 Rival Wally ": {
+        "Rival Wally ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22352,7 +22382,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 23 Rival Wally 2 ": {
+        "Rival Wally 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22382,7 +22412,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Lvl 26 Psychic Alix ": {
+        "Psychic Alix ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22412,7 +22442,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 17 Psychic Brandi ": {
+        "Psychic Brandi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22444,7 +22474,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Girafarig": {
-        "Lvl 36 Psychic Blake ": {
+        "Psychic Blake ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22474,7 +22504,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Lvl 44 Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22504,7 +22534,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sap Sipper",
             "teraType": "None"
         },
-        "Lvl 37 Psychic Terry ": {
+        "Psychic Terry ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22534,7 +22564,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Lvl 36 Gentleman Clifford ": {
+        "Gentleman Clifford ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22564,7 +22594,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Lvl 44 Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22596,7 +22626,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ponyta-Galar": {
-        "Lvl 26 Psychic William ": {
+        "Psychic William ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22626,7 +22656,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Lvl 34 Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22656,7 +22686,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pastel Veil",
             "teraType": "None"
         },
-        "Lvl 37 Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22686,7 +22716,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pastel Veil",
             "teraType": "None"
         },
-        "Lvl 36 Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22718,7 +22748,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rolycoly": {
-        "Lvl 41 Psychic Joshua ": {
+        "Psychic Joshua ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22748,7 +22778,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steam Engine",
             "teraType": "None"
         },
-        "Lvl 31 Psychic Cameron ": {
+        "Psychic Cameron ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22778,7 +22808,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steam Engine",
             "teraType": "None"
         },
-        "Lvl 29 Leader Flannery ": {
+        "Leader Flannery ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22808,7 +22838,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steam Engine",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Mitchell ": {
+        "Cooltrainer Mitchell ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22840,7 +22870,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wynaut": {
-        "Lvl 26 Psychic Kayla ": {
+        "Psychic Kayla ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22870,7 +22900,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Lvl 32 Psychic Cedric ": {
+        "Psychic Cedric ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22899,7 +22929,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Lvl 36 Psychic Nicholas ": {
+        "Psychic Nicholas ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22929,7 +22959,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Lvl 41 Gentleman Everett ": {
+        "Gentleman Everett ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22961,7 +22991,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Impidimp": {
-        "Lvl 58 Elite Four Sidney ": {
+        "Elite Four Sidney ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22993,7 +23023,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tyrunt": {
-        "Lvl 59 Elite Four Sidney ": {
+        "Elite Four Sidney ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23025,7 +23055,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Zorua": {
-        "Lvl 60 Elite Four Sidney ": {
+        "Elite Four Sidney ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23055,7 +23085,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illusion",
             "teraType": "None"
         },
-        "Lvl 27 Cooltrainer 2 Jazmyn ": {
+        "Cooltrainer 2 Jazmyn ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23085,7 +23115,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illusion",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Halle ": {
+        "Cooltrainer Halle ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23117,7 +23147,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Murkrow": {
-        "Lvl 60 Elite Four Sidney ": {
+        "Elite Four Sidney ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23149,7 +23179,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Qwilfish-Hisui": {
-        "Lvl 61 Elite Four Sidney ": {
+        "Elite Four Sidney ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23181,7 +23211,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bonsly": {
-        "Lvl 62 Elite Four Sidney ": {
+        "Elite Four Sidney ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23213,7 +23243,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Honedge": {
-        "Lvl 58 Elite Four Phoebe ": {
+        "Elite Four Phoebe ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23243,7 +23273,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "No Guard",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Quincy ": {
+        "Cooltrainer Quincy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23275,7 +23305,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Dreepy": {
-        "Lvl 59 Elite Four Phoebe ": {
+        "Elite Four Phoebe ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23304,7 +23334,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Charcadet-Ghost": {
-        "Lvl 60 Elite Four Phoebe ": {
+        "Elite Four Phoebe ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23336,7 +23366,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Corsola-Galar": {
-        "Lvl 60 Elite Four Phoebe ": {
+        "Elite Four Phoebe ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23368,7 +23398,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Misdreavus": {
-        "Lvl 61 Elite Four Phoebe ": {
+        "Elite Four Phoebe ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23400,7 +23430,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Munchlax": {
-        "Lvl 62 Elite Four Phoebe ": {
+        "Elite Four Phoebe ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23432,7 +23462,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Vulpix-Alola": {
-        "Lvl 58 Elite Four Glacia ": {
+        "Elite Four Glacia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23464,7 +23494,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snorunt": {
-        "Lvl 59 Elite Four Glacia ": {
+        "Elite Four Glacia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23496,7 +23526,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cetoddle": {
-        "Lvl 60 Elite Four Glacia ": {
+        "Elite Four Glacia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23528,7 +23558,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sneasel": {
-        "Lvl 61 Elite Four Glacia ": {
+        "Elite Four Glacia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23560,7 +23590,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Smoochum": {
-        "Lvl 45 Elite Four Glacia ": {
+        "Elite Four Glacia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23592,7 +23622,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Exeggcute Dragon": {
-        "Lvl 58 Elite Four Drake ": {
+        "Elite Four Drake ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23624,7 +23654,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Totodile": {
-        "Lvl 59 Elite Four Drake ": {
+        "Elite Four Drake ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23656,7 +23686,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Goomy": {
-        "Lvl 60 Elite Four Drake ": {
+        "Elite Four Drake ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23688,7 +23718,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Poipole": {
-        "Lvl 60 Elite Four Drake ": {
+        "Elite Four Drake ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23720,7 +23750,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Duraludon": {
-        "Lvl 61 Elite Four Drake ": {
+        "Elite Four Drake ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23750,7 +23780,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Stamina",
             "teraType": "None"
         },
-        "Lvl 100 Rival Steven ": {
+        "Rival Steven ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23780,7 +23810,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Heavy Metal",
             "teraType": "None"
         },
-        "Lvl 48 Rival Steven |Partner| |Space Center| ": {
+        "Rival Steven |Partner| |Space Center| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23812,7 +23842,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Toxel": {
-        "Lvl 62 Elite Four Drake ": {
+        "Elite Four Drake ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23842,7 +23872,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Lvl 14 Pokefan Isabel ": {
+        "Pokefan Isabel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23872,7 +23902,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Lvl 15 Twins Amy & Liv ": {
+        "Twins Amy & Liv ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23902,7 +23932,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Lvl 14 Pokefan Kaleb ": {
+        "Pokefan Kaleb ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23932,7 +23962,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Lvl 44 Aqua Leader Archie |Mt. Pyre| ": {
+        "Aqua Leader Archie |Mt. Pyre| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23964,7 +23994,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Roggenrola": {
-        "Lvl 13 Leader Roxanne ": {
+        "Leader Roxanne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23995,7 +24025,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Larvitar": {
-        "Lvl 14 Leader Roxanne ": {
+        "Leader Roxanne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24026,7 +24056,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Growlithe-Hisui": {
-        "Lvl 14 Leader Roxanne ": {
+        "Leader Roxanne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24058,7 +24088,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Archen": {
-        "Lvl 14 Leader Roxanne ": {
+        "Leader Roxanne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24090,7 +24120,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Nosepass": {
-        "Lvl 15 Leader Roxanne ": {
+        "Leader Roxanne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24120,7 +24150,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Lvl 22 Hiker Alan ": {
+        "Hiker Alan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24150,7 +24180,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Lvl 34 Cooltrainer Ruben ": {
+        "Cooltrainer Ruben ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24182,7 +24212,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Croagunk": {
-        "Lvl 18 Leader Brawly ": {
+        "Leader Brawly ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24214,7 +24244,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Stufful": {
-        "Lvl 18 Leader Brawly ": {
+        "Leader Brawly ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24246,7 +24276,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chimchar": {
-        "Lvl 19 Leader Brawly ": {
+        "Leader Brawly ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24278,7 +24308,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pancham": {
-        "Lvl 19 Leader Brawly ": {
+        "Leader Brawly ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24307,7 +24337,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Scrappy",
             "teraType": "None"
         },
-        "Lvl 33 Expert Auron ": {
+        "Expert Auron ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24339,7 +24369,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Clobbopus": {
-        "Lvl 19 Leader Brawly ": {
+        "Leader Brawly ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24368,7 +24398,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Lvl 43 Sailor Leonard ": {
+        "Sailor Leonard ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24400,7 +24430,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Kubfu": {
-        "Lvl 20 Leader Brawly ": {
+        "Leader Brawly ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24432,7 +24462,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Joltik": {
-        "Lvl 23 Leader Wattson ": {
+        "Leader Wattson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24464,7 +24494,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chinchou": {
-        "Lvl 23 Leader Wattson ": {
+        "Leader Wattson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24494,7 +24524,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Lvl 43 Cooltrainer Dianne ": {
+        "Cooltrainer Dianne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24522,7 +24552,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Kaylee ": {
+        "Swimmer F Kaylee ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24552,7 +24582,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Lvl 33 Expert Conor ": {
+        "Expert Conor ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24582,7 +24612,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Lvl 34 Swimmer F Tisha ": {
+        "Swimmer F Tisha ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24612,7 +24642,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Lvl 34 Sis And Bro Lila & Roy ": {
+        "Sis And Bro Lila & Roy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24642,7 +24672,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Lvl 42 Aqua Admin Matt |Mt. Pyre| ": {
+        "Aqua Admin Matt |Mt. Pyre| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24674,7 +24704,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Elekid": {
-        "Lvl 25 Leader Wattson ": {
+        "Leader Wattson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24706,7 +24736,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Charcadet-Psychic": {
-        "Lvl 28 Leader Flannery ": {
+        "Leader Flannery ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24738,7 +24768,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Salandit": {
-        "Lvl 29 Leader Flannery ": {
+        "Leader Flannery ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24770,7 +24800,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Magby": {
-        "Lvl 30 Leader Flannery ": {
+        "Leader Flannery ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24800,7 +24830,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Lvl 49 Magma Leader Maxie |Space Center| ": {
+        "Magma Leader Maxie |Space Center| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24832,7 +24862,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Zorua-Hisui": {
-        "Lvl 33 Leader Norman ": {
+        "Leader Norman ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24864,7 +24894,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Aipom": {
-        "Lvl 34 Leader Norman ": {
+        "Leader Norman ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24896,7 +24926,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Type: Null": {
-        "Lvl 34 Leader Norman ": {
+        "Leader Norman ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24928,7 +24958,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Eevee-Starter-Fairy": {
-        "Lvl 34 Leader Norman ": {
+        "Leader Norman ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24960,37 +24990,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Yanma": {
-        "Lvl 39 Leader Winona ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Eviolite",
-            "level": 39,
-            "nature": "Modest",
-            "battle_type": "Singles",
-            "moves": [
-                "Bug Buzz",
-                "Air Slash",
-                "Supersonic",
-                "Detect"
-            ],
-            "ability": "Speed Boost",
-            "teraType": "None"
-        },
-        "Lvl 16 School Kid Georgia ": {
+        "School Kid Georgia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25020,7 +25020,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Lvl 26 Twins Miu & Yuki ": {
+        "Twins Miu & Yuki ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25050,7 +25050,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Lvl 39 Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25073,14 +25073,14 @@ var CUSTOMSETDEX_SV = {
             "battle_type": "Singles",
             "moves": [
                 "Detect",
-                "Supersonic",
+                "Dragon Pulse",
                 "Air Slash",
                 "Bug Buzz"
             ],
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Lvl 42 Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25103,14 +25103,14 @@ var CUSTOMSETDEX_SV = {
             "battle_type": "Singles",
             "moves": [
                 "Detect",
-                "Supersonic",
+                "Dragon Pulse",
                 "Air Slash",
                 "Bug Buzz"
             ],
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Lvl 41 Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25133,14 +25133,14 @@ var CUSTOMSETDEX_SV = {
             "battle_type": "Singles",
             "moves": [
                 "Detect",
-                "Supersonic",
+                "Dragon Pulse",
                 "Air Slash",
                 "Bug Buzz"
             ],
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Lvl 27 Young Couple Mel & Paul ": {
+        "Young Couple Mel & Paul ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25169,7 +25169,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Lvl 29 Bug Maniac Cale ": {
+        "Bug Maniac Cale ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25201,37 +25201,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Swablu": {
-        "Lvl 39 Leader Winona ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Throat Spray",
-            "level": 39,
-            "nature": "Gentle",
-            "battle_type": "Singles",
-            "moves": [
-                "Dragon Pulse",
-                "Weather Ball",
-                "Hurricane",
-                "Sing"
-            ],
-            "ability": "Pixilate",
-            "teraType": "None"
-        },
-        "Lvl 37 Dragon Tamer Nicolas ": {
+        "Dragon Tamer Nicolas ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25261,7 +25231,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Lvl 29 Bird Keeper Robert ": {
+        "Bird Keeper Robert ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25291,7 +25261,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Lvl 23 Picnicker Martha ": {
+        "Picnicker Martha ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25321,7 +25291,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Lvl 19 Picnicker Diana ": {
+        "Picnicker Diana ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25351,7 +25321,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Lvl 55 Rival Wally ": {
+        "Rival Wally ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25368,20 +25338,20 @@ var CUSTOMSETDEX_SV = {
                 "sd": 0,
                 "sp": 0
             },
-            "item": "Eviolite",
+            "item": "Throat Spray",
             "level": 55,
             "nature": "Relaxed",
             "battle_type": "Singles",
             "moves": [
-                "Moonblast",
+                "Hyper Voice",
                 "Dragon Pulse",
                 "Hurricane",
-                "Rest"
+                "Perish Song"
             ],
-            "ability": "Natural Cure",
+            "ability": "Pixilate",
             "teraType": "None"
         },
-        "Lvl 38 Pkmn Ranger Sophia ": {
+        "Pkmn Ranger Sophia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25411,7 +25381,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Lvl 27 Picnicker Ashley ": {
+        "Picnicker Ashley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25441,7 +25411,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Lvl 32 Sr And Jr Kim & Iris ": {
+        "Sr And Jr Kim & Iris ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25472,7 +25442,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Togepi": {
-        "Lvl 40 Leader Winona ": {
+        "Leader Winona ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25491,7 +25461,7 @@ var CUSTOMSETDEX_SV = {
             },
             "item": "Egg Incense",
             "level": 40,
-            "nature": "Timid",
+            "nature": "Naive",
             "battle_type": "Singles",
             "moves": [
                 "Shadow Ball",
@@ -25504,7 +25474,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Espurr": {
-        "Lvl 43 Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25534,7 +25504,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Psychic Surge",
             "teraType": "None"
         },
-        "Lvl 43 Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25566,7 +25536,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bronzor": {
-        "Lvl 43 Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25596,7 +25566,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Heavy Metal",
             "teraType": "None"
         },
-        "Lvl 43 Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25628,7 +25598,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Slowpoke-Galar": {
-        "Lvl 44 Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25658,7 +25628,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Quick Draw",
             "teraType": "None"
         },
-        "Lvl 44 Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25690,7 +25660,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mime Jr.": {
-        "|1| Lvl 45 Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25720,7 +25690,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "|2| Lvl 45 Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25750,7 +25720,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "|1| Lvl 45 Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25780,7 +25750,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "|2| Lvl 45 2 Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25812,7 +25782,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mudkip": {
-        "Lvl 48 Leader Juan ": {
+        "Leader Juan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25844,7 +25814,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wimpod": {
-        "Lvl 48 Leader Juan ": {
+        "Leader Juan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25876,7 +25846,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Omanyte": {
-        "Lvl 49 Leader Juan ": {
+        "Leader Juan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25908,7 +25878,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Yungoos": {
-        "Lvl 30 Sr And Jr Kate & Joy ": {
+        "Sr And Jr Kate & Joy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25938,7 +25908,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Stakeout",
             "teraType": "None"
         },
-        "Lvl 19 Twins Tori & Tia ": {
+        "Twins Tori & Tia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25970,7 +25940,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pichu": {
-        "Lvl 30 Pokefan Vanessa ": {
+        "Pokefan Vanessa ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26002,7 +25972,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ducklett": {
-        "Lvl 37 Pokefan Bethany ": {
+        "Pokefan Bethany ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26032,7 +26002,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 22 Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26062,7 +26032,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 36 Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26092,7 +26062,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hydration",
             "teraType": "None"
         },
-        "Lvl 20 Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26122,7 +26092,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 34 Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26152,7 +26122,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hydration",
             "teraType": "None"
         },
-        "Lvl 18 Rival May |Rustboro| |Mudkip| ": {
+        "Rival May |Rustboro| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26182,7 +26152,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Lvl 41 Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26212,7 +26182,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 39 Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26242,7 +26212,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 43 Rival May |Partner| |Mt. Pyre| |Snivy| ": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26272,7 +26242,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Lvl 44 Rival May |Partner| |Mt. Pyre| |Squirtle| ": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26304,7 +26274,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Popplio": {
-        "Lvl 39 Pokefan Bethany ": {
+        "Pokefan Bethany ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26334,7 +26304,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 64 Champion Wallace ": {
+        "Champion Wallace ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26366,7 +26336,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pawmi": {
-        "Lvl 14 Pokefan Isabel ": {
+        "Pokefan Isabel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26396,7 +26366,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Lvl 15 Twins Amy & Liv ": {
+        "Twins Amy & Liv ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26426,7 +26396,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Lvl 14 Pokefan Kaleb ": {
+        "Pokefan Kaleb ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26458,7 +26428,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Gulpin": {
-        "Lvl 17 Youngster Ben ": {
+        "Youngster Ben ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26487,7 +26457,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Liquid Ooze",
             "teraType": "None"
         },
-        "Lvl 26 Ninja Boy Jaiden ": {
+        "Ninja Boy Jaiden ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26517,7 +26487,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Liquid Ooze",
             "teraType": "None"
         },
-        "Lvl 25 Pkmn Breeder Pat ": {
+        "Pkmn Breeder Pat ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26549,7 +26519,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Flittle": {
-        "Lvl 43 Cooltrainer Katelynn ": {
+        "Cooltrainer Katelynn ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26581,7 +26551,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Basculin White Striped": {
-        "Lvl 64 Champion Wallace ": {
+        "Champion Wallace ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26613,7 +26583,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Magikarp Monster": {
-        "Lvl 65 Champion Wallace ": {
+        "Champion Wallace ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26645,7 +26615,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Remoraid": {
-        "Lvl 15 Fisherman Andrew ": {
+        "Fisherman Andrew ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26675,7 +26645,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Lvl 7 Fisherman Ivan ": {
+        "Fisherman Ivan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26705,7 +26675,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Lvl 24 Swimmer F Alice ": {
+        "Swimmer F Alice ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26735,7 +26705,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Laurel ": {
+        "Swimmer F Laurel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26765,7 +26735,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Lvl 25 Fisherman Roger ": {
+        "Fisherman Roger ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26797,7 +26767,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Arrokuda": {
-        "Lvl 6 Fisherman Ivan ": {
+        "Fisherman Ivan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26827,7 +26797,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 10 Fisherman Elliot ": {
+        "Fisherman Elliot ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26859,7 +26829,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Skrelp": {
-        "Lvl 11 Fisherman Dale ": {
+        "Fisherman Dale ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26889,7 +26859,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Poison Point",
             "teraType": "None"
         },
-        "Lvl 33 Swimmer F Linda ": {
+        "Swimmer F Linda ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26919,7 +26889,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Poison Point",
             "teraType": "None"
         },
-        "Lvl 31 Fisherman Wayne ": {
+        "Fisherman Wayne ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26949,7 +26919,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Poison Point",
             "teraType": "None"
         },
-        "Lvl 12 Tuber M Chandler ": {
+        "Tuber M Chandler ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26981,7 +26951,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Voltorb-Hisui": {
-        "Lvl 41 Aqua Admin Matt |Aqua Hideout| ": {
+        "Aqua Admin Matt |Aqua Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27011,7 +26981,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Electric Surge",
             "teraType": "None"
         },
-        "Lvl 41 Aqua Admin Matt |Mt. Pyre| ": {
+        "Aqua Admin Matt |Mt. Pyre| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27041,7 +27011,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Electric Surge",
             "teraType": "None"
         },
-        "Lvl 6 Triathlete Jacob ": {
+        "Triathlete Jacob ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27073,7 +27043,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Yamper": {
-        "Lvl 14 Triathlete Jasmine ": {
+        "Triathlete Jasmine ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27103,7 +27073,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Strong Jaw",
             "teraType": "None"
         },
-        "Lvl 24 Cooltrainer Carolina ": {
+        "Cooltrainer Carolina ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27135,7 +27105,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Slowpoke": {
-        "Lvl 33 Triathlete Camden ": {
+        "Triathlete Camden ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27165,7 +27135,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Lvl 33 Triathlete Pablo ": {
+        "Triathlete Pablo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27197,7 +27167,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bagon": {
-        "Lvl 37 Dragon Tamer Nicolas ": {
+        "Dragon Tamer Nicolas ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27227,7 +27197,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Lvl 34 Dragon Tamer Aaron ": {
+        "Dragon Tamer Aaron ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27258,7 +27228,37 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Scyther": {
-        "Lvl 26 Ninja Boy Yasu ": {
+        "Leader Winona ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Sitrus Berry",
+            "level": 39,
+            "nature": "Naughty",
+            "battle_type": "Singles",
+            "moves": [
+                "Bug Bite",
+                "Dual Wingbeat",
+                "Thief",
+                "Trailblaze"
+            ],
+            "ability": "Technician",
+            "teraType": "None"
+        },
+        "Ninja Boy Yasu ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27288,7 +27288,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Lvl 25 Ninja Boy Takashi ": {
+        "Ninja Boy Takashi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27318,7 +27318,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Lvl 18 Ninja Boy Lung ": {
+        "Ninja Boy Lung ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27348,7 +27348,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Lvl 28 Bug Catcher Doug ": {
+        "Bug Catcher Doug ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27378,7 +27378,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Lvl 25 Bug Catcher Kent ": {
+        "Bug Catcher Kent ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27408,7 +27408,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Lvl 28 Ninja Boy Keigo ": {
+        "Ninja Boy Keigo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27437,97 +27437,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Lvl 41 Rival Brendan |Lilycove| |Mudkip| ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Sitrus Berry",
-            "level": 41,
-            "nature": "Naughty",
-            "battle_type": "Singles",
-            "moves": [
-                "X-Scissor",
-                "Acrobatics",
-                "U-turn",
-                "Tailwind"
-            ],
-            "ability": "Swarm",
-            "teraType": "None"
-        },
-        "Lvl 39 Rival Brendan |Lilycove| |Treecko| ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Sitrus Berry",
-            "level": 39,
-            "nature": "Naughty",
-            "battle_type": "Singles",
-            "moves": [
-                "X-Scissor",
-                "Acrobatics",
-                "U-turn",
-                "Tailwind"
-            ],
-            "ability": "Swarm",
-            "teraType": "None"
-        },
-        "Lvl 42 Rival Brendan |Lilycove| |Torchic| ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Sitrus Berry",
-            "level": 42,
-            "nature": "Naughty",
-            "battle_type": "Singles",
-            "moves": [
-                "X-Scissor",
-                "Acrobatics",
-                "U-turn",
-                "Tailwind"
-            ],
-            "ability": "Swarm",
-            "teraType": "None"
-        },
-        "Lvl 26 Ninja Boy Jaiden ": {
+        "Ninja Boy Jaiden ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27559,7 +27469,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Koffing": {
-        "Lvl 25 Ninja Boy Takashi ": {
+        "Ninja Boy Takashi ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27589,7 +27499,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 17 Ninja Boy Lao ": {
+        "Ninja Boy Lao ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27618,7 +27528,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 18 Ninja Boy Lung ": {
+        "Ninja Boy Lung ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27648,7 +27558,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 31 Ninja Boy Jonas ": {
+        "Ninja Boy Jonas ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27677,7 +27587,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 25 Ninja Boy Hideo ": {
+        "Ninja Boy Hideo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27706,7 +27616,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 28 Ninja Boy Keigo ": {
+        "Ninja Boy Keigo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27735,7 +27645,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Lvl 28 Ninja Boy Riley ": {
+        "Ninja Boy Riley ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27766,7 +27676,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shroodle": {
-        "Lvl 17 Ninja Boy Lao ": {
+        "Ninja Boy Lao ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27798,7 +27708,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Grimer-Alola": {
-        "Lvl 17 Ninja Boy Lao ": {
+        "Ninja Boy Lao ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27830,7 +27740,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Morelull": {
-        "Lvl 27 Battle Girl Paula ": {
+        "Battle Girl Paula ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27860,7 +27770,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 27 Pkmn Ranger Jackson ": {
+        "Pkmn Ranger Jackson ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27890,7 +27800,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Lvl 33 Expert Paxton ": {
+        "Expert Paxton ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27922,7 +27832,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Feebas": {
-        "Lvl 39 Pokefan Annika ": {
+        "Pokefan Annika ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27951,7 +27861,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 15 Fisherman Roger ": {
+        "Fisherman Roger ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27981,7 +27891,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 26 Fisherman Chris ": {
+        "Fisherman Chris ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28013,7 +27923,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Grookey": {
-        "Lvl 46 Magma Admin Courtney |Space Center| ": {
+        "Magma Admin Courtney |Space Center| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28045,7 +27955,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bounsweet": {
-        "Lvl 47 Magma Admin Courtney |Space Center| ": {
+        "Magma Admin Courtney |Space Center| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28077,7 +27987,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tangela": {
-        "Lvl 48 Magma Admin Courtney |Space Center| ": {
+        "Magma Admin Courtney |Space Center| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28107,7 +28017,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 28 Magma Admin Courtney |Mt. Chimney| ": {
+        "Magma Admin Courtney |Mt. Chimney| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28139,7 +28049,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Fletchling": {
-        "Lvl 56 Rival Wally ": {
+        "Rival Wally ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28169,7 +28079,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Gale Wings",
             "teraType": "None"
         },
-        "Lvl 21 Rival Wally 2 ": {
+        "Rival Wally 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28201,7 +28111,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Budew-mega": {
-        "Lvl 58 Rival Wally ": {
+        "Rival Wally ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28233,7 +28143,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snivy": {
-        "Lvl 5 Rival Brendan |Route 103| |Mudkip| ": {
+        "Rival Brendan |Route 103| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28261,7 +28171,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 24 Rival Brendan |Route 110| |Mudkip| ": {
+        "Rival Brendan |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28291,7 +28201,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 38 Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28318,7 +28228,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Lvl 5 Rival May |Route 103| |Mudkip| ": {
+        "Rival May |Route 103| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28346,7 +28256,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 24 Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28376,7 +28286,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 38 Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28403,7 +28313,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Lvl 19 Rival Brendan |Rustboro| |Mudkip| ": {
+        "Rival Brendan |Rustboro| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28433,7 +28343,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 19 Rival May |Rustboro| |Mudkip| ": {
+        "Rival May |Rustboro| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28463,7 +28373,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 43 Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28493,7 +28403,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 43 Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28523,7 +28433,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 45 Rival Brendan |Partner| |Mt. Pyre| |Squirtle| ": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28553,7 +28463,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lvl 45 Rival May |Partner| |Mt. Pyre| |Squirtle| ": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28585,7 +28495,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Litleo": {
-        "Lvl 20 Rival Brendan |Route 110| |Mudkip| ": {
+        "Rival Brendan |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28615,7 +28525,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Lvl 34 Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28645,7 +28555,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Moxie",
             "teraType": "None"
         },
-        "Lvl 22 Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28675,7 +28585,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Lvl 36 Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28705,7 +28615,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Moxie",
             "teraType": "None"
         },
-        "Lvl 18 Rival Brendan |Rustboro| |Torchic| ": {
+        "Rival Brendan |Rustboro| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28735,7 +28645,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rivalry",
             "teraType": "None"
         },
-        "Lvl 28 Magma Leader Maxie |Mt. Chimney| ": {
+        "Magma Leader Maxie |Mt. Chimney| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28765,7 +28675,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Lvl 39 Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28795,7 +28705,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Lvl 41 Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28825,7 +28735,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Lvl 44 Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| ": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28855,7 +28765,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Lvl 43 Rival Brendan |Partner| |Mt. Pyre| |Squirtle| ": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28887,7 +28797,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Anorith": {
-        "Lvl 21 Rival Brendan |Route 110| |Mudkip| ": {
+        "Rival Brendan |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28917,7 +28827,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Lvl 35 Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28947,7 +28857,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 21 Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28977,7 +28887,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Lvl 35 Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29007,7 +28917,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 21 Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29037,7 +28947,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Lvl 35 Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29067,7 +28977,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lvl 40 Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29097,7 +29007,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Lvl 40 Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29127,7 +29037,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Lvl 40 Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29159,7 +29069,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wooper": {
-        "Lvl 22 Rival Brendan |Route 110| |Mudkip| ": {
+        "Rival Brendan |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29189,7 +29099,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Lvl 20 Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29219,7 +29129,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Lvl 18 Rival Brendan |Rustboro| |Mudkip| ": {
+        "Rival Brendan |Rustboro| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29249,7 +29159,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Damp",
             "teraType": "None"
         },
-        "Lvl 43 Rival Brendan |Partner| |Mt. Pyre| |Snivy| ": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29279,7 +29189,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Lvl 44 Rival Brendan |Partner| |Mt. Pyre| |Squirtle| ": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29311,7 +29221,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Farfetchd-Galar": {
-        "Lvl 23 Rival Brendan |Route 110| |Mudkip| ": {
+        "Rival Brendan |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29341,7 +29251,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Lvl 23 Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29371,7 +29281,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Lvl 23 Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29401,7 +29311,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Lvl 23 Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29431,7 +29341,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Lvl 23 Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29461,7 +29371,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Lvl 23 Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29493,7 +29403,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wooper Paldea": {
-        "Lvl 36 Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29523,7 +29433,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Lvl 34 Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29553,7 +29463,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Lvl 37 Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29585,7 +29495,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Frillish": {
-        "Lvl 37 Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29615,7 +29525,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Lvl 37 Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29645,7 +29555,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Lvl 42 Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29675,7 +29585,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Lvl 42 Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29707,7 +29617,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Scorbunny": {
-        "Lvl 5 Rival Brendan |Route 103| |Treecko| ": {
+        "Rival Brendan |Route 103| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29735,7 +29645,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Lvl 24 Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29765,7 +29675,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Lvl 38 Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29795,7 +29705,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Lvl 5 Rival May |Route 103| |Treecko| ": {
+        "Rival May |Route 103| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29823,7 +29733,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Lvl 24 Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29853,7 +29763,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Lvl 38 Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29883,7 +29793,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Lvl 19 Rival Brendan |Rustboro| |Treecko| ": {
+        "Rival Brendan |Rustboro| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29913,7 +29823,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Lvl 43 Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29943,7 +29853,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Lvl 43 Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29973,7 +29883,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Lvl 19 Rival May |Rustboro| |Treecko| ": {
+        "Rival May |Rustboro| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30003,7 +29913,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Lvl 45 Rival Brendan |Partner| |Mt. Pyre| |Snivy| ": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30033,7 +29943,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Lvl 45 Rival May |Partner| |Mt. Pyre| |Snivy| ": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30065,7 +29975,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Squirtle": {
-        "Lvl 5 Rival Brendan |Route 103| |Torchic| ": {
+        "Rival Brendan |Route 103| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30093,7 +30003,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 24 Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30123,7 +30033,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 38 Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30153,7 +30063,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Lvl 5 Rival May |Route 103| |Torchic| ": {
+        "Rival May |Route 103| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30181,7 +30091,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 24 Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30211,7 +30121,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 38 Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30241,7 +30151,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Lvl 19 Rival Brendan |Rustboro| |Torchic| ": {
+        "Rival Brendan |Rustboro| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30271,7 +30181,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 43 Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30301,7 +30211,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 43 Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30331,7 +30241,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 19 Rival May |Rustboro| |Torchic| ": {
+        "Rival May |Rustboro| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30361,7 +30271,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 45 Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| ": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30391,7 +30301,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Lvl 45 Rival May |Partner| |Mt. Pyre| |Scorbunny| ": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30423,7 +30333,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Amaura": {
-        "Lvl 21 Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30453,7 +30363,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Lvl 35 Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30483,7 +30393,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Lvl 21 Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30513,7 +30423,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Lvl 35 Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30543,7 +30453,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Lvl 21 Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30573,7 +30483,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Lvl 35 Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30603,7 +30513,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Lvl 40 Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30633,7 +30543,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Lvl 40 Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30663,7 +30573,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Lvl 40 Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30695,7 +30605,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Litwick": {
-        "Lvl 37 Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30725,7 +30635,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Lvl 37 Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30755,7 +30665,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Lvl 42 Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Mudkip| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30785,7 +30695,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Lvl 42 Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30817,7 +30727,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cherubi": {
-        "Lvl 22 Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30847,7 +30757,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 36 Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30877,7 +30787,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Lvl 20 Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30907,7 +30817,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 34 Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30937,7 +30847,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Lvl 41 Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30967,7 +30877,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Lvl 39 Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Torchic| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30997,7 +30907,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Lvl 18 Rival May |Rustboro| |Treecko| ": {
+        "Rival May |Rustboro| |Treecko| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31027,7 +30937,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 44 Rival May |Partner| |Mt. Pyre| |Snivy| ": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31057,7 +30967,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 43 Rival May |Partner| |Mt. Pyre| |Scorbunny| ": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31089,7 +30999,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rellor": {
-        "Lvl 27 Bug Catcher Davis ": {
+        "Bug Catcher Davis ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31121,7 +31031,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Paras": {
-        "Lvl 28 Pkmn Ranger Lorenzo ": {
+        "Pkmn Ranger Lorenzo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31153,7 +31063,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Capsakid": {
-        "Lvl 28 Pkmn Ranger Jenna ": {
+        "Pkmn Ranger Jenna ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31183,7 +31093,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lvl 43 Magma Leader Maxie |Magma Hideout| ": {
+        "Magma Leader Maxie |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31215,7 +31125,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Zubat": {
-        "Lvl 31 Team Magma Grunt 2 ": {
+        "Team Magma Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31245,7 +31155,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Inner Focus",
             "teraType": "None"
         },
-        "Lvl 29 Team Magma Grunt 2 ": {
+        "Team Magma Grunt 2 ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31277,7 +31187,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Smoliv": {
-        "Lvl 25 Magma Admin Courtney |Mt. Chimney| ": {
+        "Magma Admin Courtney |Mt. Chimney| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31309,7 +31219,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chikorita": {
-        "Lvl 26 Magma Admin Courtney |Mt. Chimney| ": {
+        "Magma Admin Courtney |Mt. Chimney| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31341,7 +31251,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Skiddo": {
-        "Lvl 27 Magma Admin Courtney |Mt. Chimney| ": {
+        "Magma Admin Courtney |Mt. Chimney| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31373,7 +31283,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Charmander": {
-        "Lvl 40 Magma Leader Maxie |Magma Hideout| ": {
+        "Magma Leader Maxie |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31403,7 +31313,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drought",
             "teraType": "None"
         },
-        "Lvl 47 Magma Leader Maxie |Space Center| ": {
+        "Magma Leader Maxie |Space Center| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31435,7 +31345,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Yamask": {
-        "Lvl 43 Magma Leader Maxie |Magma Hideout| ": {
+        "Magma Leader Maxie |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31465,7 +31375,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mummy",
             "teraType": "None"
         },
-        "Lvl 28 Magma Leader Maxie |Mt. Chimney| ": {
+        "Magma Leader Maxie |Mt. Chimney| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31497,7 +31407,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Blitzle": {
-        "Lvl 27 Magma Leader Maxie |Mt. Chimney| ": {
+        "Magma Leader Maxie |Mt. Chimney| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31529,7 +31439,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Grubbin": {
-        "Lvl 25 Bug Catcher Greg ": {
+        "Bug Catcher Greg ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31559,7 +31469,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Lvl 25 Young Couple Kira & Dan ": {
+        "Young Couple Kira & Dan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31589,7 +31499,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Lvl 17 Bug Maniac Angelo ": {
+        "Bug Maniac Angelo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31621,7 +31531,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cutiefly": {
-        "Lvl 25 Bug Catcher Greg ": {
+        "Bug Catcher Greg ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31651,7 +31561,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Honey Gather",
             "teraType": "None"
         },
-        "Lvl 25 Young Couple Kira & Dan ": {
+        "Young Couple Kira & Dan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31681,7 +31591,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Honey Gather",
             "teraType": "None"
         },
-        "Lvl 17 Bug Maniac Angelo ": {
+        "Bug Maniac Angelo ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31713,7 +31623,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Skwovet": {
-        "Lvl 19 Twins Tori & Tia ": {
+        "Twins Tori & Tia ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31745,7 +31655,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shieldon": {
-        "Lvl 18 Pokemaniac Wyatt ": {
+        "Pokemaniac Wyatt ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31777,7 +31687,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Silicobra": {
-        "Lvl 38 Magma Admin Tabitha |Magma Hideout| ": {
+        "Magma Admin Tabitha |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31809,7 +31719,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Drilbur": {
-        "Lvl 41 Magma Admin Tabitha |Magma Hideout| ": {
+        "Magma Admin Tabitha |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31841,7 +31751,97 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Gligar": {
-        "Lvl 43 Magma Admin Tabitha |Magma Hideout| ": {
+        "Rival Brendan |Lilycove| |Mudkip| ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Sitrus Berry",
+            "level": 41,
+            "nature": "Naughty",
+            "battle_type": "Singles",
+            "moves": [
+                "Earthquake",
+                "Acrobatics",
+                "U-turn",
+                "Tailwind"
+            ],
+            "ability": "Hyper Cutter",
+            "teraType": "None"
+        },
+        "Rival Brendan |Lilycove| |Treecko| ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Sitrus Berry",
+            "level": 39,
+            "nature": "Naughty",
+            "battle_type": "Singles",
+            "moves": [
+                "Earthquake",
+                "Acrobatics",
+                "U-turn",
+                "Tailwind"
+            ],
+            "ability": "Hyper Cutter",
+            "teraType": "None"
+        },
+        "Rival Brendan |Lilycove| |Torchic| ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Sitrus Berry",
+            "level": 42,
+            "nature": "Naughty",
+            "battle_type": "Singles",
+            "moves": [
+                "Earthquake",
+                "Acrobatics",
+                "U-turn",
+                "Tailwind"
+            ],
+            "ability": "Hyper Cutter",
+            "teraType": "None"
+        },
+        "Magma Admin Tabitha |Magma Hideout| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31873,7 +31873,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mudbray": {
-        "Lvl 25 Ruin Maniac Andres ": {
+        "Ruin Maniac Andres ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31903,7 +31903,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Own Tempo",
             "teraType": "None"
         },
-        "Lvl 22 Ruin Maniac Bryan ": {
+        "Ruin Maniac Bryan ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31935,7 +31935,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Starly": {
-        "Lvl 26 Triathlete Kyra ": {
+        "Triathlete Kyra ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31967,7 +31967,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rockruff": {
-        "Lvl 29 Cooltrainer Cristin ": {
+        "Cooltrainer Cristin ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31999,7 +31999,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Lileep": {
-        "Lvl 100 Rival Steven ": {
+        "Rival Steven ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32031,7 +32031,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Beldum": {
-        "Lvl 100 Rival Steven ": {
+        "Rival Steven ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32061,7 +32061,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Tough Claws",
             "teraType": "None"
         },
-        "Lvl 5 Salon Maiden Anabel ": {
+        "Salon Maiden Anabel ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32091,7 +32091,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 5 Dome Ace Tucker ": {
+        "Dome Ace Tucker ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32121,7 +32121,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 5 Palace Maven Spenser ": {
+        "Palace Maven Spenser ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32151,7 +32151,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 5 Arena Tycoon Greta ": {
+        "Arena Tycoon Greta ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32181,7 +32181,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 5 Factory Head Noland ": {
+        "Factory Head Noland ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32211,7 +32211,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 5 Pike Queen Lucy ": {
+        "Pike Queen Lucy ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32241,7 +32241,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 5 Pyramid King Brandon ": {
+        "Pyramid King Brandon ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32271,7 +32271,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Lvl 49 Rival Steven |Partner| |Space Center| ": {
+        "Rival Steven |Partner| |Space Center| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32303,7 +32303,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Riolu": {
-        "Lvl 100 Rival Steven ": {
+        "Rival Steven ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32335,7 +32335,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wiglett": {
-        "Lvl 23 Aqua Leader Archie |Oceanic Museum| ": {
+        "Aqua Leader Archie |Oceanic Museum| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32367,7 +32367,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Kricketot": {
-        "Lvl 23 Aqua Leader Archie |Oceanic Museum| ": {
+        "Aqua Leader Archie |Oceanic Museum| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32399,7 +32399,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pawniard": {
-        "Lvl 50 Rival Steven |Partner| |Space Center| ": {
+        "Rival Steven |Partner| |Space Center| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
