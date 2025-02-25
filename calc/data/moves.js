@@ -4903,6 +4903,11 @@ var SV_PATCH = {
         target: 'allAdjacentFoes'
     }
 };
+
+var LE_PATCH = {
+    'Dragon Breath': { isSound: True }
+};
+
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH);
 exports.MOVES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 var Moves = (function () {
