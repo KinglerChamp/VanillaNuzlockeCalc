@@ -22504,7 +22504,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22594,7 +22594,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25474,7 +25474,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Espurr": {
-        "Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25504,7 +25504,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Psychic Surge",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25536,7 +25536,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bronzor": {
-        "Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25566,7 +25566,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Heavy Metal",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25598,7 +25598,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Slowpoke-Galar": {
-        "Leader Tate & Liza |Team 1| ": {
+        "Leader Tate & Liza |Team 1| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25628,7 +25628,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Quick Draw",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| ": {
+        "Leader Tate & Liza |Team 2| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25660,7 +25660,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mime Jr.": {
-        "Leader Tate & Liza |Team 1| | (1) ": {
+        "Leader Tate & Liza |Team 1| | (1)": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
