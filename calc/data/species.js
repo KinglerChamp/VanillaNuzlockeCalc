@@ -10688,8 +10688,8 @@ var Specie = (function () {
         baseStats.atk = data.bs.at;
         baseStats.def = data.bs.df;
         console.log(gen);
-        baseStats.spa = gen >= 2 ? data.bs.sa : data.bs.sl;
-        baseStats.spd = gen >= 2 ? data.bs.sd : data.bs.sl;
+        baseStats.spa = data.bs.sa ? data.bs.sa : data.bs.sl;
+        baseStats.spd = data.bs.sd ? data.bs.sd : data.bs.sl;
         baseStats.spe = data.bs.sp;
         this.baseStats = baseStats;
         if (data.otherFormes) {
