@@ -10681,7 +10681,6 @@ var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, LE_PATCH);
 //        console.log(SV[key]);
 //    }
 //});
-delete SV['Abomasnow'];
 
 exports.SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 var Species = (function () {
