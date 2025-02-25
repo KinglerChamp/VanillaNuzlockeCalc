@@ -7606,7 +7606,7 @@ var CUSTOMSETDEX_SV = {
             "moves": [
                 "Protect",
                 "Thunder",
-                "Phantom Force",
+                "Shadow Ball",
                 "Explosion"
             ],
             "ability": "Flare Boost",
@@ -7634,7 +7634,7 @@ var CUSTOMSETDEX_SV = {
             "nature": "Bold",
             "battle_type": "Singles",
             "moves": [
-                "Shadow Ball",
+                "Ominous Wind",
                 "Air Slash",
                 "Thunder Wave",
                 "Destiny Bond"

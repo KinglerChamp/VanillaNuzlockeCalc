@@ -1811,7 +1811,79 @@ document.addEventListener('DOMContentLoaded', (event) => {
 						case "Aegislash-Both":
 							pok_name = "Aegislash";
 							break;
+						case "Snorunt-Ghost":
+							pok_name = "Snorunt";
+						case "Charcadet-Psychic":
+						case "Charcadet-Ghost":
+							pok_name = "Charcadet";
+						case "Magikarp-Monster":
+							pok_name = "Magikarp";
+						case "Ralts-Fighting":
+							pok_name = "Ralts";
+						case "Pichu-Mega":
+							pok_name = "Pikachu";
+						case "Cleffa-Mega":
+							pok_name = "Clefairy";				
+						case "Igglybuff-Mega":
+							pok_name = "Jigglypuff";
+						case "Togepi-Mega":
+							pok_name = "Togetic";
+						case "Tyrogue-Mega-C":
+							pok_name = "Hitmonchan";
+						case "Tyrogue-Mega-L":
+							pok_name = "Hitmonlee";
+						case "Tyrogue-Mega-T":
+							pok_name = "Hitmontop";
+						case "Elekid-Mega":
+							pok_name = "Electabuzz";
+						case "Magby-Mega":
+							pok_name = "Magmar";
+						case "Smoochum-Mega":
+							pok_name = "Jynx";
+						case "Azurill-Mega":
+							pok_name = "Wynaut";
+						case "Toxel-Mega-A":
+							pok_name = "Toxtricity";
+						case "Toxel-Mega-L":
+							pok_name = "Toxtricity-Low-Key";
+						case "Mime Jr.-Mega-K":
+							pok_name = "Mr. Mime";
+						case "Mime Jr.-Mega-G":
+							pok_name = "Mr. Mime-Galar";
+						case "Wurmple-Poison":
+							pok_name = "Wurmple";
+						case "Nincada-Ghost":
+							pok_name = "Nincada";
+						case "Exeggcute-Dragon":
+							pok_name = "Exeggcute";
+						case "Koffing-Fairy":
+							pok_name = "Koffing";
+						case "Petilil-Fighting":
+							pok_name = "Petilil";
+						case "Rufflet-Psychic":
+							pok_name = "Rufflet";
+						case "Goomy-Steel":
+							pok_name = "Goomy";
+						case "Bergmite-Rock":
+							pok_name = "Bergmite";
+						case "Froakie-Special":
+							pok_name = "Froakie";
+						case "Rockruff-Special":
+							pok_name = "Rockruff";
+						case "Deerling-Spring":		
+						case "Deerling-Summer":
+						case "Deerling-Winter":
+						case "Deerling-Autumn":
+							pok_name = "Deerling";
+						case "Burmy-Plant":
+						case "Burmy-Sandy":
+						case "Burmy-Trash":
+							pok_name = "Burmy";
+						case "Basculin-White-Striped":
+							pok_name = "Basculin";
 					}
+					if (pok_name.includes("Eevee"))
+						pok_name = "Eevee";
 	
 					// Create the Pokémon sprite HTML
 					var pok = document.createElement('img');
