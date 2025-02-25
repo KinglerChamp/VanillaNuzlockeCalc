@@ -25660,7 +25660,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mime Jr.": {
-        "Leader Tate & Liza |Team 1| (1) ": {
+        "Leader Tate & Liza |Team 1| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25690,7 +25690,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 1| (2) ": {
+        "Leader Tate & Liza |Team 1| | (2) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25720,7 +25720,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| (1) ": {
+        "Leader Tate & Liza |Team 2| | (1) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25750,7 +25750,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| (2) ": {
+        "Leader Tate & Liza |Team 2| | (2) ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
