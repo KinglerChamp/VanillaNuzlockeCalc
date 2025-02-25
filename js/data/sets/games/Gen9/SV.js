@@ -19318,38 +19318,6 @@ var CUSTOMSETDEX_SV = {
             "teraType": "None"
         }
     },
-    "Species_basculin_white_striped": {
-        "Beauty Tiffany ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 39,
-            "nature": "Modest",
-            "battle_type": "Singles",
-            "moves": [
-                "Soak",
-                "Crunch",
-                "Take Down",
-                "Poltergeist"
-            ],
-            "ability": "Rock Head",
-            "teraType": "None"
-        }
-    },
     "Barboach": {
         "Expert Mollie ": {
             "ivs": {
@@ -26586,6 +26554,36 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Basculin White Striped": {
+        "Beauty Tiffany ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "None",
+            "level": 39,
+            "nature": "Modest",
+            "battle_type": "Singles",
+            "moves": [
+                "Soak",
+                "Crunch",
+                "Take Down",
+                "Poltergeist"
+            ],
+            "ability": "Rock Head",
+            "teraType": "None"
+        },
         "Champion Wallace ": {
             "ivs": {
                 "hp": 31,
@@ -26617,7 +26615,7 @@ var CUSTOMSETDEX_SV = {
             "teraType": "None"
         }
     },
-    "Magikarp Monster": {
+    "Magikarp-Monster": {
         "Champion Wallace ": {
             "ivs": {
                 "hp": 31,
