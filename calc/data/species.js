@@ -10687,7 +10687,7 @@ var Specie = (function () {
         baseStats.hp = data.bs.hp;
         baseStats.atk = data.bs.at;
         baseStats.def = data.bs.df;
-        console.log(gen);
+        console.log(name);
         baseStats.spa = data.bs.sa ? data.bs.sa : data.bs.sl;
         baseStats.spd = data.bs.sd ? data.bs.sd : data.bs.sl;
         baseStats.spe = data.bs.sp;
