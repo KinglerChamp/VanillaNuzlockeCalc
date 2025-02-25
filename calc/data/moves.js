@@ -4905,7 +4905,7 @@ var SV_PATCH = {
 };
 
 var LE_PATCH = {
-    'Dragon Breath': { isSound: True }
+    'Dragon Breath': { isSound: true }
 };
 
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH);
