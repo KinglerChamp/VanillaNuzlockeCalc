@@ -112,36 +112,6 @@ var CUSTOMSETDEX_SV = {
                 "sp": 0
             },
             "item": "None",
-            "level": 36,
-            "nature": "Gentle",
-            "battle_type": "Singles",
-            "moves": [
-                "Hone Claws",
-                "Sucker Punch",
-                "Nasty Plot",
-                "Night Slash"
-            ],
-            "ability": "Limber",
-            "teraType": "None"
-        },
-        "Team Aqua Grunt 2 ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
             "level": 9,
             "nature": "Gentle",
             "battle_type": "Singles",
@@ -300,151 +270,6 @@ var CUSTOMSETDEX_SV = {
                 "Sing",
                 "Attract",
                 "Disarming Voice"
-            ],
-            "ability": "Cute Charm",
-            "teraType": "None"
-        },
-        "Pokefan Monti ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Oran Berry",
-            "level": 22,
-            "nature": "Gentle",
-            "battle_type": "Singles",
-            "moves": [
-                "Assist",
-                "Charm",
-                "Feint Attack"
-            ],
-            "ability": "Cute Charm",
-            "teraType": "None"
-        },
-        "Pokefan Monti ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Oran Berry",
-            "level": 36,
-            "nature": "Gentle",
-            "battle_type": "Singles",
-            "moves": [
-                "Assist",
-                "Charm",
-                "Feint Attack"
-            ],
-            "ability": "Cute Charm",
-            "teraType": "None"
-        },
-        "Pokefan Monti ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Oran Berry",
-            "level": 40,
-            "nature": "Gentle",
-            "battle_type": "Singles",
-            "moves": [
-                "Assist",
-                "Charm",
-                "Feint Attack"
-            ],
-            "ability": "Cute Charm",
-            "teraType": "None"
-        },
-        "Pokefan Monti ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Oran Berry",
-            "level": 12,
-            "nature": "Gentle",
-            "battle_type": "Singles",
-            "moves": [
-                "Assist",
-                "Charm",
-                "Feint Attack"
-            ],
-            "ability": "Cute Charm",
-            "teraType": "None"
-        },
-        "Pokefan Monti ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Oran Berry",
-            "level": 30,
-            "nature": "Gentle",
-            "battle_type": "Singles",
-            "moves": [
-                "Assist",
-                "Charm",
-                "Feint Attack"
             ],
             "ability": "Cute Charm",
             "teraType": "None"
@@ -2910,6 +2735,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Static",
             "teraType": "None"
+        },
+        "Lvl 15 Pkmn Trainer 1 Scary Guy ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "level": 15,
+            "nature": "Timid",
+            "battle_type": "Singles",
+            "moves": [
+                "Electro Ball",
+                "Agility",
+                "Thunder Wave",
+                "Snarl"
+            ],
+            "ability": "Intimidate",
+            "sub_index": 4
         }
     },
     "Wingull": {
@@ -4822,156 +4677,6 @@ var CUSTOMSETDEX_SV = {
                 "sp": 0
             },
             "item": "None",
-            "level": 19,
-            "nature": "Lax",
-            "battle_type": "Singles",
-            "moves": [
-                "Splash",
-                "Tackle",
-                "(no Move)",
-                "(no Move)"
-            ],
-            "ability": "Swift Swim",
-            "teraType": "None"
-        },
-        "Fisherman Ronald ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 21,
-            "nature": "Lax",
-            "battle_type": "Singles",
-            "moves": [
-                "Splash",
-                "Tackle",
-                "(no Move)",
-                "(no Move)"
-            ],
-            "ability": "Swift Swim",
-            "teraType": "None"
-        },
-        "Fisherman Ronald ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 23,
-            "nature": "Lax",
-            "battle_type": "Singles",
-            "moves": [
-                "Splash",
-                "Tackle",
-                "(no Move)",
-                "(no Move)"
-            ],
-            "ability": "Swift Swim",
-            "teraType": "None"
-        },
-        "Fisherman Ronald ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 26,
-            "nature": "Lax",
-            "battle_type": "Singles",
-            "moves": [
-                "Splash",
-                "Tackle",
-                "Flail",
-                "(no Move)"
-            ],
-            "ability": "Swift Swim",
-            "teraType": "None"
-        },
-        "Fisherman Ronald ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 30,
-            "nature": "Lax",
-            "battle_type": "Singles",
-            "moves": [
-                "Splash",
-                "Tackle",
-                "Flail",
-                "(no Move)"
-            ],
-            "ability": "Swift Swim",
-            "teraType": "None"
-        },
-        "Fisherman Ronald ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
             "level": 35,
             "nature": "Lax",
             "battle_type": "Singles",
@@ -5398,36 +5103,6 @@ var CUSTOMSETDEX_SV = {
                 "sp": 0
             },
             "item": "None",
-            "level": 27,
-            "nature": "Quiet",
-            "battle_type": "Singles",
-            "moves": [
-                "Double Team",
-                "Wing Attack",
-                "Bite",
-                "Air Cutter"
-            ],
-            "ability": "Frisk",
-            "teraType": "None"
-        },
-        "Team Aqua Grunt 2 ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
             "level": 32,
             "nature": "Quiet",
             "battle_type": "Singles",
@@ -5501,6 +5176,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Skill Link",
             "teraType": "None"
+        },
+        "Lvl 50 Pkmn Trainer 1 Smasher ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Wacan Berry",
+            "level": 50,
+            "nature": "Careful",
+            "battle_type": "Singles",
+            "moves": [
+                "Shell Smash",
+                "Icicle Spear",
+                "Spike Cannon",
+                "Rock Blast"
+            ],
+            "ability": "Skill Link",
+            "sub_index": 0
         }
     },
     "Wailmer": {
@@ -6123,14 +5828,14 @@ var CUSTOMSETDEX_SV = {
                 "sp": 0
             },
             "item": "None",
-            "level": 32,
+            "level": 22,
             "nature": "Hardy",
             "battle_type": "Singles",
             "moves": [
-                "Lava Plume",
-                "Earth Power",
-                "Curse",
-                "Take Down"
+                "Bulldoze",
+                "Incinerate",
+                "Amnesia",
+                "Lava Plume"
             ],
             "ability": "Oblivious",
             "teraType": "None"
@@ -6185,36 +5890,6 @@ var CUSTOMSETDEX_SV = {
             "item": "None",
             "level": 21,
             "nature": "Adamant",
-            "battle_type": "Singles",
-            "moves": [
-                "Focus Energy",
-                "Bulldoze",
-                "Incinerate",
-                "Amnesia"
-            ],
-            "ability": "Oblivious",
-            "teraType": "None"
-        },
-        "Team Magma Grunt 2 ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 20,
-            "nature": "Hardy",
             "battle_type": "Singles",
             "moves": [
                 "Focus Energy",
@@ -6364,36 +6039,6 @@ var CUSTOMSETDEX_SV = {
             "item": "None",
             "level": 23,
             "nature": "Rash",
-            "battle_type": "Singles",
-            "moves": [
-                "Bulldoze",
-                "Incinerate",
-                "Amnesia",
-                "Lava Plume"
-            ],
-            "ability": "Oblivious",
-            "teraType": "None"
-        },
-        "Team Magma Grunt 2 ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 22,
-            "nature": "Hardy",
             "battle_type": "Singles",
             "moves": [
                 "Bulldoze",
@@ -7421,36 +7066,6 @@ var CUSTOMSETDEX_SV = {
                 "Vital Throw",
                 "Strength",
                 "Dual Chop"
-            ],
-            "ability": "Guts",
-            "teraType": "None"
-        },
-        "Black Belt Koichi ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 24,
-            "nature": "Adamant",
-            "battle_type": "Singles",
-            "moves": [
-                "Low Sweep",
-                "Knock Off",
-                "Scary Face",
-                "Vital Throw"
             ],
             "ability": "Guts",
             "teraType": "None"
@@ -9406,6 +9021,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Water Veil",
             "teraType": "None"
+        },
+        "Lvl 25 Pkmn Trainer 1 Speedy Kid ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Kings Rock",
+            "level": 25,
+            "nature": "Jolly",
+            "battle_type": "Singles",
+            "moves": [
+                "Waterfall",
+                "Zen Headbutt",
+                "Agility",
+                "Encore"
+            ],
+            "ability": "Water Veil",
+            "sub_index": 0
         }
     },
     "Spoink": {
@@ -11146,6 +10791,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Levitate",
             "teraType": "None"
+        },
+        "Lvl 35 Pkmn Trainer 1 Boom Dude ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "level": 35,
+            "nature": "Relaxed",
+            "battle_type": "Singles",
+            "moves": [
+                "Explosion",
+                "Foresight",
+                "Scorching Sands",
+                "Psychic"
+            ],
+            "ability": "Levitate",
+            "sub_index": 1
         }
     },
     "Bulbasaur": {
@@ -14111,36 +13786,6 @@ var CUSTOMSETDEX_SV = {
                 "sp": 0
             },
             "item": "None",
-            "level": 14,
-            "nature": "Lonely",
-            "battle_type": "Singles",
-            "moves": [
-                "Sand Attack",
-                "Tail Whip",
-                "Pound",
-                "Headbutt"
-            ],
-            "ability": "Pickup",
-            "teraType": "None"
-        },
-        "Youngster Eddie ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
             "level": 16,
             "nature": "Lonely",
             "battle_type": "Singles",
@@ -16860,6 +16505,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Soundproof",
             "teraType": "None"
+        },
+        "Lvl 25 Pkmn Trainer 1 Speedy Kid ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Choice Scarf",
+            "level": 25,
+            "nature": "Timid",
+            "battle_type": "Singles",
+            "moves": [
+                "Electro Ball",
+                "Thunder Wave",
+                "Taunt",
+                "Volt Switch"
+            ],
+            "ability": "Static",
+            "sub_index": 5
         }
     },
     "Geodude": {
@@ -17006,36 +16681,6 @@ var CUSTOMSETDEX_SV = {
                 "Defense Curl",
                 "Rock Polish",
                 "(no Move)"
-            ],
-            "ability": "Rock Head",
-            "teraType": "None"
-        },
-        "Hiker Trent ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 16,
-            "nature": "Modest",
-            "battle_type": "Singles",
-            "moves": [
-                "Rock Polish",
-                "Rollout",
-                "Bulldoze",
-                "Rock Throw"
             ],
             "ability": "Rock Head",
             "teraType": "None"
@@ -17671,6 +17316,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Sand Rush",
             "teraType": "None"
+        },
+        "Lvl 15 Pkmn Trainer 1 Scary Guy ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Sticky Barb",
+            "level": 15,
+            "nature": "Sassy",
+            "battle_type": "Singles",
+            "moves": [
+                "Bulldoze",
+                "Phantom Force",
+                "Trick",
+                "Pain Split"
+            ],
+            "ability": "Intimidate",
+            "sub_index": 3
         }
     },
     "Slugma": {
@@ -19489,6 +19164,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Intimidate",
             "teraType": "None"
+        },
+        "Lvl 15 Pkmn Trainer 1 Scary Guy ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Air Balloon",
+            "level": 15,
+            "nature": "Naughty",
+            "battle_type": "Singles",
+            "moves": [
+                "Trailblaze",
+                "Poison Tail",
+                "Lash Out",
+                "Glare"
+            ],
+            "ability": "Intimidate",
+            "sub_index": 0
         }
     },
     "Clamperl": {
@@ -19520,6 +19225,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Shell Armor",
             "teraType": "None"
+        },
+        "Lvl 50 Pkmn Trainer 1 Smasher ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 50,
+            "nature": "Timid",
+            "battle_type": "Singles",
+            "moves": [
+                "Shell Smash",
+                "Ice Beam",
+                "Scald",
+                "Supersonic"
+            ],
+            "ability": "Rattled",
+            "sub_index": 3
         }
     },
     "Corphish": {
@@ -19887,6 +19622,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Swift Swim",
             "teraType": "None"
+        },
+        "Lvl 40 Pkmn Trainer 1 Critter ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Scope Lens",
+            "level": 40,
+            "nature": "Mild",
+            "battle_type": "Doubles",
+            "moves": [
+                "Muddy Water",
+                "Dragon Pulse",
+                "Flash Cannon",
+                "Blizzard"
+            ],
+            "ability": "Sniper",
+            "sub_index": 1
         }
     },
     "Rhyhorn": {
@@ -20943,6 +20708,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Merciless",
             "teraType": "None"
+        },
+        "Lvl 20 Pkmn Trainer 1 Protector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Black Sludge",
+            "level": 20,
+            "nature": "Calm",
+            "battle_type": "Doubles",
+            "moves": [
+                "Baneful Bunker",
+                "Toxic Spikes",
+                "Wide Guard",
+                "Recover"
+            ],
+            "ability": "Regenerator",
+            "sub_index": 4
         }
     },
     "Froakie": {
@@ -21523,6 +21318,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Swift Swim",
             "teraType": "None"
+        },
+        "Lvl 62 Pkmn Trainer 1 Purkat ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "level": 62,
+            "nature": "Modest",
+            "battle_type": "Singles",
+            "moves": [
+                "Rain Dance",
+                "Scald",
+                "Bug Buzz",
+                "Ice Beam"
+            ],
+            "ability": "Swift Swim",
+            "sub_index": 1
         }
     },
     "Wurmple": {
@@ -21892,6 +21717,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Insomnia",
             "teraType": "None"
+        },
+        "Lvl 20 Pkmn Trainer 1 Protector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "level": 20,
+            "nature": "Impish",
+            "battle_type": "Doubles",
+            "moves": [
+                "Silk Trap",
+                "Spider Web",
+                "Spikes",
+                "Gastro Acid"
+            ],
+            "ability": "Insomnia",
+            "sub_index": 2
         }
     },
     "Dewpider": {
@@ -22988,6 +22843,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Shadow Tag",
             "teraType": "None"
+        },
+        "Lvl 62 Pkmn Trainer 1 Purkat ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Lax Incense",
+            "level": 62,
+            "nature": "Relaxed",
+            "battle_type": "Singles",
+            "moves": [
+                "Counter",
+                "Mirror Coat",
+                "Destiny Bond",
+                "Encore"
+            ],
+            "ability": "Shadow Tag",
+            "sub_index": 5
         }
     },
     "Impidimp": {
@@ -23302,6 +23187,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "No Guard",
             "teraType": "None"
+        },
+        "Lvl 62 Pkmn Trainer 1 Purkat ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Power Herb",
+            "level": 62,
+            "nature": "Jolly",
+            "battle_type": "Singles",
+            "moves": [
+                "Sacred Sword",
+                "Night Slash",
+                "Rock Slide",
+                "Solar Blade"
+            ],
+            "ability": "Sharpness",
+            "sub_index": 4
         }
     },
     "Dreepy": {
@@ -23459,6 +23374,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Thick Fat",
             "teraType": "None"
+        },
+        "Lvl 45 Pkmn Trainer 1 Slow Fella ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Leftovers",
+            "level": 45,
+            "nature": "Impish",
+            "battle_type": "Singles",
+            "moves": [
+                "Stomping Tantrum",
+                "Encore",
+                "Substitute",
+                "Fissure"
+            ],
+            "ability": "Thick Fat",
+            "sub_index": 4
         }
     },
     "Vulpix-Alola": {
@@ -23523,6 +23468,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Moody",
             "teraType": "None"
+        },
+        "Lvl 25 Pkmn Trainer 1 Speedy Kid ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Sitrus Berry",
+            "level": 25,
+            "nature": "Brave",
+            "battle_type": "Singles",
+            "moves": [
+                "Ice Shard",
+                "Trailblaze",
+                "Shadow Sneak",
+                "Switcheroo"
+            ],
+            "ability": "Inner Focus",
+            "sub_index": 4
         }
     },
     "Cetoddle": {
@@ -23683,6 +23658,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Sheer Force",
             "teraType": "None"
+        },
+        "Lvl 45 Pkmn Trainer 1 Slow Fella ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "level": 45,
+            "nature": "Relaxed",
+            "battle_type": "Singles",
+            "moves": [
+                "Fishious Rend",
+                "Ice Punch",
+                "Curse",
+                "Endure"
+            ],
+            "ability": "Torrent",
+            "sub_index": 3
         }
     },
     "Goomy": {
@@ -24955,6 +24960,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Battle Armor",
             "teraType": "None"
+        },
+        "Lvl 35 Pkmn Trainer 1 Boom Dude ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Life Orb",
+            "level": 35,
+            "nature": "Adamant",
+            "battle_type": "Singles",
+            "moves": [
+                "Explosion",
+                "Shadow Claw",
+                "Flame Charge",
+                "Iron Head"
+            ],
+            "ability": "Battle Armor",
+            "sub_index": 4
         }
     },
     "Eevee-Starter-Fairy": {
@@ -28108,6 +28143,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Big Pecks",
             "teraType": "None"
+        },
+        "Lvl 25 Pkmn Trainer 1 Speedy Kid ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "level": 25,
+            "nature": "Naive",
+            "battle_type": "Singles",
+            "moves": [
+                "Aerial Ace",
+                "Flame Charge",
+                "Feather Dance",
+                "Agility"
+            ],
+            "ability": "Gale Wings",
+            "sub_index": 1
         }
     },
     "Budew-mega": {
@@ -30602,6 +30667,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Snow Warning",
             "teraType": "None"
+        },
+        "Lvl 35 Pkmn Trainer 1 Boom Dude ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Babiri Berry",
+            "level": 35,
+            "nature": "Lonely",
+            "battle_type": "Singles",
+            "moves": [
+                "Explosion",
+                "Freeze-Dry",
+                "Light Screen",
+                "Reflect"
+            ],
+            "ability": "Refrigerate",
+            "sub_index": 3
         }
     },
     "Litwick": {
@@ -31028,6 +31123,36 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Compound Eyes",
             "teraType": "None"
+        },
+        "Lvl 45 Pkmn Trainer 1 Slow Fella ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 45,
+            "nature": "Modest",
+            "battle_type": "Singles",
+            "moves": [
+                "Electro Ball",
+                "Bug Buzz",
+                "Revival Blessing",
+                "Rest"
+            ],
+            "ability": "Shed Skin",
+            "sub_index": 1
         }
     },
     "Paras": {
@@ -31125,36 +31250,6 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Zubat": {
-        "Team Magma Grunt 2 ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "None",
-            "level": 31,
-            "nature": "Bold",
-            "battle_type": "Singles",
-            "moves": [
-                "Poison Fang",
-                "Quick Guard",
-                "Air Cutter",
-                "Bite"
-            ],
-            "ability": "Inner Focus",
-            "teraType": "None"
-        },
         "Team Magma Grunt 2 ": {
             "ivs": {
                 "hp": 31,
@@ -32428,6 +32523,1062 @@ var CUSTOMSETDEX_SV = {
             ],
             "ability": "Supreme Overlord",
             "teraType": "None"
+        }
+    },
+    "Growlithe": {
+        "Lvl 15 Pkmn Trainer 1 Scary Guy ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 15,
+            "nature": "Quiet",
+            "battle_type": "Singles",
+            "moves": [
+                "Fire Spin",
+                "Snarl",
+                "Thunder Fang",
+                "Dig"
+            ],
+            "ability": "Intimidate",
+            "sub_index": 1
+        }
+    },
+    "Snubbull": {
+        "Lvl 15 Pkmn Trainer 1 Scary Guy ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Muscle Band",
+            "level": 15,
+            "nature": "Adamant",
+            "battle_type": "Singles",
+            "moves": [
+                "Covet",
+                "Fire Fang",
+                "Ice Fang",
+                "Bite"
+            ],
+            "ability": "Intimidate",
+            "sub_index": 2
+        }
+    },
+    "Stantler": {
+        "Lvl 15 Pkmn Trainer 1 Scary Guy ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Kings Rock",
+            "level": 15,
+            "nature": "Impish",
+            "battle_type": "Singles",
+            "moves": [
+                "Stomp",
+                "Psyshield Bash",
+                "Dig",
+                "Hypnosis"
+            ],
+            "ability": "Intimidate",
+            "sub_index": 5
+        }
+    },
+    "Munna": {
+        "Lvl 20 Pkmn Trainer 1 Protector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 20,
+            "nature": "Bold",
+            "battle_type": "Doubles",
+            "moves": [
+                "Light Screen",
+                "Moonlight",
+                "Lucky Chant",
+                "Helping Hand"
+            ],
+            "ability": "Synchronize",
+            "sub_index": 0
+        }
+    },
+    "Spritzee": {
+        "Lvl 20 Pkmn Trainer 1 Protector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Leftovers",
+            "level": 20,
+            "nature": "Relaxed",
+            "battle_type": "Doubles",
+            "moves": [
+                "Draining Kiss",
+                "Protect",
+                "Reflect",
+                "Attract"
+            ],
+            "ability": "Healer",
+            "sub_index": 1
+        }
+    },
+    "Cubone": {
+        "Lvl 20 Pkmn Trainer 1 Protector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Thick Club",
+            "level": 20,
+            "nature": "Sassy",
+            "battle_type": "Doubles",
+            "moves": [
+                "Stealth Rock",
+                "Iron Defense",
+                "Protect",
+                "Bulldoze"
+            ],
+            "ability": "Battle Armor",
+            "sub_index": 3
+        }
+    },
+    "Snover": {
+        "Lvl 20 Pkmn Trainer 1 Protector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Occa Berry",
+            "level": 20,
+            "nature": "Careful",
+            "battle_type": "Doubles",
+            "moves": [
+                "Aurora Veil",
+                "Razor Leaf",
+                "Icy Wind",
+                "Water Pulse"
+            ],
+            "ability": "Snow Warning",
+            "sub_index": 5
+        }
+    },
+    "Onix": {
+        "Lvl 25 Pkmn Trainer 1 Speedy Kid ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Salac Berry",
+            "level": 25,
+            "nature": "Hasty",
+            "battle_type": "Singles",
+            "moves": [
+                "Bulldoze",
+                "Rock Tomb",
+                "Stealth Rock",
+                "Taunt"
+            ],
+            "ability": "Sturdy",
+            "sub_index": 2
+        }
+    },
+    "Chespin": {
+        "Lvl 25 Pkmn Trainer 1 Speedy Kid ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 25,
+            "nature": "Gentle",
+            "battle_type": "Singles",
+            "moves": [
+                "Mach Punch",
+                "Spiky Shield",
+                "Grassy Glide",
+                "Grassy Terrain"
+            ],
+            "ability": "Bulletproof",
+            "sub_index": 3
+        }
+    },
+    "Deerling-spring": {
+        "Lvl 30 Pkmn Trainer 1 Collector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Wide Lens",
+            "level": 30,
+            "nature": "Adamant",
+            "battle_type": "Singles",
+            "moves": [
+                "Play Rough",
+                "Seed Bomb",
+                "Zen Headbutt",
+                "Jump Kick"
+            ],
+            "ability": "Sap Sipper",
+            "sub_index": 0
+        }
+    },
+    "Burmy-trash": {
+        "Lvl 30 Pkmn Trainer 1 Collector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "level": 30,
+            "nature": "Quiet",
+            "battle_type": "Singles",
+            "moves": [
+                "Flash Cannon",
+                "Giga Drain",
+                "Bug Buzz",
+                "Psychic"
+            ],
+            "ability": "Overcoat",
+            "sub_index": 1
+        }
+    },
+    "Rattata-alola": {
+        "Lvl 30 Pkmn Trainer 1 Collector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 30,
+            "nature": "Jolly",
+            "battle_type": "Singles",
+            "moves": [
+                "Super Fang",
+                "Crunch",
+                "Hyper Fang",
+                "Thunder Wave"
+            ],
+            "ability": "Thick Fat",
+            "sub_index": 2
+        }
+    },
+    "Meowth-galar": {
+        "Lvl 30 Pkmn Trainer 1 Collector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Metal Coat",
+            "level": 30,
+            "nature": "Hasty",
+            "battle_type": "Singles",
+            "moves": [
+                "Iron Head",
+                "U-turn",
+                "Knock Off",
+                "X-Scissor"
+            ],
+            "ability": "Steely Spirit",
+            "sub_index": 3
+        }
+    },
+    "Petilil Fighting": {
+        "Lvl 30 Pkmn Trainer 1 Collector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Fist Plate",
+            "level": 30,
+            "nature": "Sassy",
+            "battle_type": "Singles",
+            "moves": [
+                "Brick Break",
+                "Seed Bomb",
+                "Sunny Day",
+                "Victory Dance"
+            ],
+            "ability": "Chlorophyll",
+            "sub_index": 4
+        }
+    },
+    "Froakie-special": {
+        "Lvl 30 Pkmn Trainer 1 Collector ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Leftovers",
+            "level": 30,
+            "nature": "Modest",
+            "battle_type": "Singles",
+            "moves": [
+                "Surf",
+                "Grass Knot",
+                "Ice Beam",
+                "Substitute"
+            ],
+            "ability": "Battle Bond",
+            "sub_index": 5
+        }
+    },
+    "Geodude-alola": {
+        "Lvl 35 Pkmn Trainer 1 Boom Dude ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Air Balloon",
+            "level": 35,
+            "nature": "Brave",
+            "battle_type": "Singles",
+            "moves": [
+                "Explosion",
+                "Iron Defense",
+                "Body Press",
+                "Stone Edge"
+            ],
+            "ability": "Galvanize",
+            "sub_index": 0
+        }
+    },
+    "Koffing Fairy": {
+        "Lvl 35 Pkmn Trainer 1 Boom Dude ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Pixie Plate",
+            "level": 35,
+            "nature": "Modest",
+            "battle_type": "Singles",
+            "moves": [
+                "Misty Explosion",
+                "Strange Steam",
+                "Sludge Bomb",
+                "Pain Split"
+            ],
+            "ability": "Levitate",
+            "sub_index": 2
+        }
+    },
+    "Elgyem": {
+        "Lvl 35 Pkmn Trainer 1 Boom Dude ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 35,
+            "nature": "Quiet",
+            "battle_type": "Singles",
+            "moves": [
+                "Mind Blown",
+                "Nasty Plot",
+                "Recover",
+                "Trick Room"
+            ],
+            "ability": "Analytic",
+            "sub_index": 5
+        }
+    },
+    "Cranidos": {
+        "Lvl 40 Pkmn Trainer 1 Critter ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "level": 40,
+            "nature": "Hasty",
+            "battle_type": "Doubles",
+            "moves": [
+                "Focus Energy",
+                "Dragon Cheer",
+                "Stone Edge",
+                "Endeavor"
+            ],
+            "ability": "Mold Breaker",
+            "sub_index": 0
+        }
+    },
+    "Farfetchd-galar": {
+        "Lvl 40 Pkmn Trainer 1 Critter ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Leek",
+            "level": 40,
+            "nature": "Adamant",
+            "battle_type": "Doubles",
+            "moves": [
+                "Karate Chop",
+                "Leaf Blade",
+                "Night Slash",
+                "Dual Wingbeat"
+            ],
+            "ability": "Scrappy",
+            "sub_index": 2
+        }
+    },
+    "Pidove": {
+        "Lvl 40 Pkmn Trainer 1 Critter ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Power Herb",
+            "level": 40,
+            "nature": "Jolly",
+            "battle_type": "Doubles",
+            "moves": [
+                "Air Cutter",
+                "Heat Wave",
+                "Razor Wind",
+                "Sky Attack"
+            ],
+            "ability": "Super Luck",
+            "sub_index": 3
+        }
+    },
+    "Dratini": {
+        "Lvl 40 Pkmn Trainer 1 Critter ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Lansat Berry",
+            "level": 40,
+            "nature": "Relaxed",
+            "battle_type": "Doubles",
+            "moves": [
+                "Dragon Cheer",
+                "Breaking Swipe",
+                "Thunder Wave",
+                "Extreme Speed"
+            ],
+            "ability": "Multiscale",
+            "sub_index": 4
+        }
+    },
+    "Sprigatito": {
+        "Lvl 40 Pkmn Trainer 1 Critter ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 40,
+            "nature": "Sassy",
+            "battle_type": "Doubles",
+            "moves": [
+                "Flower Trick",
+                "Leech Seed",
+                "Rest",
+                "Worry Seed"
+            ],
+            "ability": "Overgrow",
+            "sub_index": 5
+        }
+    },
+    "Ferroseed": {
+        "Lvl 45 Pkmn Trainer 1 Slow Fella ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Kings Rock",
+            "level": 45,
+            "nature": "Sassy",
+            "battle_type": "Singles",
+            "moves": [
+                "Pin Missile",
+                "Bullet Seed",
+                "Spike Cannon",
+                "Leech Seed"
+            ],
+            "ability": "Iron Barbs",
+            "sub_index": 0
+        }
+    },
+    "Grimer-alola": {
+        "Lvl 45 Pkmn Trainer 1 Slow Fella ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Iron Ball",
+            "level": 45,
+            "nature": "Adamant",
+            "battle_type": "Singles",
+            "moves": [
+                "Fling",
+                "Ice Punch",
+                "Knock Off",
+                "Gunk Shot"
+            ],
+            "ability": "Poison Touch",
+            "sub_index": 2
+        }
+    },
+    "Wattrel": {
+        "Lvl 45 Pkmn Trainer 1 Slow Fella ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Power Bracer",
+            "level": 45,
+            "nature": "Brave",
+            "battle_type": "Singles",
+            "moves": [
+                "Bolt Beak",
+                "Dual Wingbeat",
+                "Volt Switch",
+                "U-turn"
+            ],
+            "ability": "Wind Power",
+            "sub_index": 5
+        }
+    },
+    "Dwebble": {
+        "Lvl 50 Pkmn Trainer 1 Smasher ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Sitrus Berry",
+            "level": 50,
+            "nature": "Gentle",
+            "battle_type": "Singles",
+            "moves": [
+                "Shell Smash",
+                "Rock Wrecker",
+                "X-Scissor",
+                "Earthquake"
+            ],
+            "ability": "Sturdy",
+            "sub_index": 1
+        }
+    },
+    "Turtwig": {
+        "Lvl 50 Pkmn Trainer 1 Smasher ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Leftovers",
+            "level": 50,
+            "nature": "Jolly",
+            "battle_type": "Singles",
+            "moves": [
+                "Shell Smash",
+                "Headlong Rush",
+                "Wood Hammer",
+                "Crunch"
+            ],
+            "ability": "Shell Armor",
+            "sub_index": 2
+        }
+    },
+    "Sinistea": {
+        "Lvl 50 Pkmn Trainer 1 Smasher ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Focus Sash",
+            "level": 50,
+            "nature": "Modest",
+            "battle_type": "Singles",
+            "moves": [
+                "Shell Smash",
+                "Dark Pulse",
+                "Shadow Ball",
+                "Giga Drain"
+            ],
+            "ability": "Cursed Body",
+            "sub_index": 4
+        }
+    },
+    "Binacle": {
+        "Lvl 50 Pkmn Trainer 1 Smasher ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "White Herb",
+            "level": 50,
+            "nature": "Adamant",
+            "battle_type": "Singles",
+            "moves": [
+                "Shell Smash",
+                "Cross Chop",
+                "Stone Edge",
+                "Liquidation"
+            ],
+            "ability": "Tough Claws",
+            "sub_index": 5
+        }
+    },
+    "Litten": {
+        "Lvl 62 Pkmn Trainer 1 Purkat ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 62,
+            "nature": "Adamant",
+            "battle_type": "Singles",
+            "moves": [
+                "Fake Out",
+                "Darkest Lariat",
+                "Flare Blitz",
+                "Leech Life"
+            ],
+            "ability": "Intimidate",
+            "sub_index": 0
+        }
+    },
+    "Golett": {
+        "Lvl 62 Pkmn Trainer 1 Purkat ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Punching Glove",
+            "level": 62,
+            "nature": "Careful",
+            "battle_type": "Singles",
+            "moves": [
+                "Headlong Rush",
+                "Shadow Punch",
+                "Drain Punch",
+                "Ice Punch"
+            ],
+            "ability": "Iron Fist",
+            "sub_index": 2
+        }
+    },
+    "Shelmet": {
+        "Lvl 62 Pkmn Trainer 1 Purkat ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Leftovers",
+            "level": 62,
+            "nature": "Calm",
+            "battle_type": "Singles",
+            "moves": [
+                "Toxic",
+                "Protect",
+                "Recover",
+                "Acid Armor"
+            ],
+            "ability": "Shell Armor",
+            "sub_index": 3
         }
     }
 }
