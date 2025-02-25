@@ -10119,14 +10119,14 @@ var LE_PATCH = {
     Chimchar: { types: ['Fire', 'Fighting'] },
     Piplup: { types: ['Water', 'Steel'] },
     Bidoof: { types: ['Normal', 'Water'] },
-    'Burmy-Plant': { types: ['Bug', 'Grass'] },
-    'Burmy-Sandy': { types: ['Bug', 'Ground'] },
-    'Burmy-Trash': { types: ['Bug', 'Steel'] },
+    //'Burmy-Plant': { types: ['Bug', 'Grass'] },
+    //'Burmy-Sandy': { types: ['Bug', 'Ground'] },
+    //'Burmy-Trash': { types: ['Bug', 'Steel'] },
     'Basculin-White-Striped': { types: ['Water', 'Ghost'] },
     'Darumaka-Galar': { types: ['Ice', 'Fire'] },
-    'Deerling-Spring': { types: ['Grass', 'Fairy'] },
-    'Deerling-Summer': { types: ['Grass', 'Fire'] },
-    'Deerling-Winter': { types: ['Grass', 'Ice'] },
+    //'Deerling-Spring': { types: ['Grass', 'Fairy'] },
+    //'Deerling-Summer': { types: ['Grass', 'Fire'] },
+    //'Deerling-Winter': { types: ['Grass', 'Ice'] },
     Shelmet: { types: ['Bug', 'Steel'] },
     Fennekin: { types: ['Fire', 'Psychic'] },
     Fletchling: { types: ['Fire', 'Flying'] },
@@ -10197,6 +10197,48 @@ var LE_PATCH = {
         'Eevee-Starter-Fairy'
     ] },
 
+    'Burmy-Plant': {
+        types: ['Bug', 'Grass'],
+        bs: { hp: 40, at: 29, df: 45, sa: 29, sd: 45, sp: 36 },
+        weightkg: 3.4,
+        nfe: true,
+        abilities: { 0: 'Shed Skin' }
+    },
+    'Burmy-Sandy': {
+        types: ['Bug', 'Ground'],
+        bs: { hp: 40, at: 29, df: 45, sa: 29, sd: 45, sp: 36 },
+        weightkg: 3.4,
+        nfe: true,
+        abilities: { 0: 'Shed Skin' }
+    },
+    'Burmy-Trash': {
+        types: ['Bug', 'Steel'],
+        bs: { hp: 40, at: 29, df: 45, sa: 29, sd: 45, sp: 36 },
+        weightkg: 3.4,
+        nfe: true,
+        abilities: { 0: 'Shed Skin' }
+    },
+    'Deerling-Spring': {
+        types: ['Fairy', 'Grass'],
+        bs: { hp: 60, at: 60, df: 50, sa: 40, sd: 50, sp: 75 },
+        weightkg: 19.5,
+        nfe: true,
+        abilities: { 0: 'Chlorophyll' }
+    },
+    'Deerling-Winter': {
+        types: ['Ice', 'Grass'],
+        bs: { hp: 60, at: 60, df: 50, sa: 40, sd: 50, sp: 75 },
+        weightkg: 19.5,
+        nfe: true,
+        abilities: { 0: 'Chlorophyll' }
+    },
+    'Deerling-Summer': {
+        types: ['Fire', 'Grass'],
+        bs: { hp: 60, at: 60, df: 50, sa: 40, sd: 50, sp: 75 },
+        weightkg: 19.5,
+        nfe: true,
+        abilities: { 0: 'Chlorophyll' }
+    },
     'Pichu-Mega': {
 		types: ['Electric'],
 		bs: { hp: 35, at: 55, df: 40, sa: 50, sd: 50, sp: 90 },
@@ -10631,8 +10673,7 @@ var LE_PATCH = {
 	}
 };
 
-var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
-var SV = (0, util_1.extend)(true, {}, SV, LE_PATCH);
+var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, LE_PATCH);
 
 //Object.keys(SV).forEach(key => {
 //    if (!SV[key].nfe) {
