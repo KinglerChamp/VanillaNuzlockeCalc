@@ -10631,7 +10631,8 @@ var LE_PATCH = {
 	}
 };
 
-var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, LE_PATCH);
+var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
+var SV = (0, util_1.extend)(true, {}, SV, LE_PATCH);
 
 //Object.keys(SV).forEach(key => {
 //    if (!SV[key].nfe) {
