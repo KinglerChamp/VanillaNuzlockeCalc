@@ -1794,6 +1794,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	
 					// Extract the Pokémon name from the custom name
 					var pok_name = customName.split(" (")[0];
+					console.log(pok_name);
 					switch (pok_name) {
 						case "Zygarde-10%":
 							pok_name = "Zygarde-10%25";
@@ -1879,8 +1880,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 						case "Burmy-Sandy":
 						case "Burmy-Trash":
 							pok_name = "Burmy";
-						case "Basculin-White-Striped":
-							pok_name = "Basculin";
 					}
 					if (pok_name.includes("Eevee"))
 						pok_name = "Eevee";
