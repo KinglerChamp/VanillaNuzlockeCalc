@@ -26553,7 +26553,7 @@ var CUSTOMSETDEX_SV = {
             "teraType": "None"
         }
     },
-    "Basculin White Striped": {
+    "Basculin-White-Striped": {
         "Beauty Tiffany ": {
             "ivs": {
                 "hp": 31,
