@@ -333,7 +333,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Rival Wally ": {
+        "Rival Wally |Victory Road| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -453,7 +453,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Rival Wally 2 ": {
+        "Rival Wally |Mauville| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12326,7 +12326,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Rival Wally ": {
+        "Rival Wally |Victory Road| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21964,6 +21964,38 @@ var CUSTOMSETDEX_SV = {
             "teraType": "None"
         }
     },
+    "Ralts-Fighting": {
+        "Rival Wally |Victory Road| ": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Dawn Stone",
+            "level": 58,
+            "nature": "Adamant",
+            "battle_type": "Singles",
+            "moves": [
+                "Psyblade",
+                "Sacred Sword",
+                "Slash",
+                "Swords Dance"
+            ],
+            "ability": "Pixilate",
+            "teraType": "None"
+        },
+    },
     "Ralts": {
         "Psychic Preston ": {
             "ivs": {
@@ -22175,37 +22207,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Rival Wally ": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Dawn Stone",
-            "level": 58,
-            "nature": "Adamant",
-            "battle_type": "Singles",
-            "moves": [
-                "Psyblade",
-                "Sacred Sword",
-                "Slash",
-                "Swords Dance"
-            ],
-            "ability": "Pixilate",
-            "teraType": "None"
-        },
-        "Rival Wally 2 ": {
+        "Rival Wally |Mauville| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23564,7 +23566,7 @@ var CUSTOMSETDEX_SV = {
             "teraType": "None"
         }
     },
-    "Exeggcute Dragon": {
+    "Exeggcute-Dragon": {
         "Elite Four Drake ": {
             "ivs": {
                 "hp": 31,
@@ -23587,9 +23589,9 @@ var CUSTOMSETDEX_SV = {
             "nature": "Jolly",
             "battle_type": "Singles",
             "moves": [
-                "Leech Seed",
+                "Reflect",
                 "Light Screen",
-                "Swords Dance",
+                "Wood Hammer",
                 "Dragon Hammer"
             ],
             "ability": "Chlorophyll",
@@ -25324,7 +25326,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Rival Wally ": {
+        "Rival Wally |Victory Road| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25841,7 +25843,7 @@ var CUSTOMSETDEX_SV = {
             "moves": [
                 "Liquidation",
                 "Leech Life",
-                "Sucker Punch",
+                "Throat Chop",
                 "Poison Jab"
             ],
             "ability": "Wimp Out",
@@ -28082,7 +28084,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Fletchling": {
-        "Rival Wally ": {
+        "Rival Wally |Victory Road| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28112,7 +28114,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Gale Wings",
             "teraType": "None"
         },
-        "Rival Wally 2 ": {
+        "Rival Wally |Mauville| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28174,7 +28176,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Budew-mega": {
-        "Rival Wally ": {
+        "Rival Wally |Victory Road| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
