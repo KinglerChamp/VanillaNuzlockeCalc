@@ -29285,7 +29285,7 @@ var CUSTOMSETDEX_SV = {
             "teraType": "None"
         }
     },
-    "Farfetch'd-Galar": {
+    "Farfetch\u2019d-Galar": {
         "Rival Brendan |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
