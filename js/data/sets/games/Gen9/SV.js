@@ -1596,7 +1596,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1626,7 +1626,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1656,7 +1656,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1686,7 +1686,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1776,7 +1776,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Treecko| ": {
+        "Rival Brendan |Rustboro| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1806,7 +1806,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1836,7 +1836,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14668,7 +14668,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14698,7 +14698,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14728,7 +14728,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14758,7 +14758,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14788,7 +14788,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14818,7 +14818,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14848,7 +14848,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14878,7 +14878,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14908,7 +14908,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14938,7 +14938,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14968,7 +14968,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14998,7 +14998,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21045,7 +21045,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21075,7 +21075,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21135,7 +21135,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Torchic| ": {
+        "Rival May |Rustboro| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22481,7 +22481,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22511,7 +22511,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pastel Veil",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22541,7 +22541,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pastel Veil",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25055,7 +25055,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25085,7 +25085,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25115,7 +25115,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26007,7 +26007,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26037,7 +26037,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26067,7 +26067,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hydration",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26097,7 +26097,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26127,7 +26127,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hydration",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Mudkip| ": {
+        "Rival May |Rustboro| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26157,7 +26157,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26187,7 +26187,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28208,7 +28208,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snivy": {
-        "Rival Brendan |Route 103| |Mudkip| ": {
+        "Rival Brendan |Route 103| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28236,7 +28236,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Mudkip| ": {
+        "Rival Brendan |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28266,7 +28266,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28293,7 +28293,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Rival May |Route 103| |Mudkip| ": {
+        "Rival May |Route 103| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28321,7 +28321,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28351,7 +28351,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28378,7 +28378,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Mudkip| ": {
+        "Rival Brendan |Rustboro| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28408,7 +28408,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Mudkip| ": {
+        "Rival May |Rustboro| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28438,7 +28438,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28468,7 +28468,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28560,7 +28560,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Litleo": {
-        "Rival Brendan |Route 110| |Mudkip| ": {
+        "Rival Brendan |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28590,7 +28590,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28620,7 +28620,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Moxie",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28650,7 +28650,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28680,7 +28680,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Moxie",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Torchic| ": {
+        "Rival Brendan |Rustboro| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28740,7 +28740,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28770,7 +28770,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28862,7 +28862,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Anorith": {
-        "Rival Brendan |Route 110| |Mudkip| ": {
+        "Rival Brendan |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28892,7 +28892,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28922,7 +28922,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28952,7 +28952,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28982,7 +28982,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29012,7 +29012,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29042,7 +29042,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29072,7 +29072,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29102,7 +29102,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29134,7 +29134,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wooper": {
-        "Rival Brendan |Route 110| |Mudkip| ": {
+        "Rival Brendan |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29164,7 +29164,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29194,7 +29194,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Mudkip| ": {
+        "Rival Brendan |Rustboro| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29285,8 +29285,8 @@ var CUSTOMSETDEX_SV = {
             "teraType": "None"
         }
     },
-    "Farfetchd-Galar": {
-        "Rival Brendan |Route 110| |Mudkip| ": {
+    "Farfetch'd-Galar": {
+        "Rival Brendan |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29316,7 +29316,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29346,7 +29346,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29376,7 +29376,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29406,7 +29406,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29436,7 +29436,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29468,7 +29468,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wooper Paldea": {
-        "Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29498,7 +29498,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29528,7 +29528,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29560,7 +29560,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Frillish": {
-        "Rival Brendan |Route 119| |Mudkip| ": {
+        "Rival Brendan |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29590,7 +29590,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29620,7 +29620,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29650,7 +29650,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29682,7 +29682,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Scorbunny": {
-        "Rival Brendan |Route 103| |Treecko| ": {
+        "Rival Brendan |Route 103| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29710,7 +29710,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Treecko| ": {
+        "Rival Brendan |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29740,7 +29740,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Treecko| ": {
+        "Rival Brendan |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29770,7 +29770,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Route 103| |Treecko| ": {
+        "Rival May |Route 103| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29798,7 +29798,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29828,7 +29828,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29858,7 +29858,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Treecko| ": {
+        "Rival Brendan |Rustboro| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29888,7 +29888,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29918,7 +29918,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29948,7 +29948,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Treecko| ": {
+        "Rival May |Rustboro| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30040,7 +30040,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Squirtle": {
-        "Rival Brendan |Route 103| |Torchic| ": {
+        "Rival Brendan |Route 103| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30068,7 +30068,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Torchic| ": {
+        "Rival Brendan |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30098,7 +30098,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Torchic| ": {
+        "Rival Brendan |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30128,7 +30128,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Rival May |Route 103| |Torchic| ": {
+        "Rival May |Route 103| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30156,7 +30156,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30186,7 +30186,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30216,7 +30216,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Torchic| ": {
+        "Rival Brendan |Rustboro| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30246,7 +30246,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30276,7 +30276,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30306,7 +30306,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Torchic| ": {
+        "Rival May |Rustboro| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30398,7 +30398,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Amaura": {
-        "Rival May |Route 110| |Mudkip| ": {
+        "Rival May |Route 110| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30428,7 +30428,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30458,7 +30458,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30488,7 +30488,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30518,7 +30518,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30548,7 +30548,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30578,7 +30578,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30608,7 +30608,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30638,7 +30638,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30700,7 +30700,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Litwick": {
-        "Rival May |Route 119| |Mudkip| ": {
+        "Rival May |Route 119| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30730,7 +30730,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30760,7 +30760,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Mudkip| ": {
+        "Rival May |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30790,7 +30790,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30822,7 +30822,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cherubi": {
-        "Rival May |Route 110| |Treecko| ": {
+        "Rival May |Route 110| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30852,7 +30852,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Treecko| ": {
+        "Rival May |Route 119| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30882,7 +30882,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Torchic| ": {
+        "Rival May |Route 110| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30912,7 +30912,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Torchic| ": {
+        "Rival May |Route 119| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30942,7 +30942,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Treecko| ": {
+        "Rival May |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30972,7 +30972,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Torchic| ": {
+        "Rival May |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31002,7 +31002,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Treecko| ": {
+        "Rival May |Rustboro| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31846,7 +31846,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Gligar": {
-        "Rival Brendan |Lilycove| |Mudkip| ": {
+        "Rival Brendan |Lilycove| |Squirtle| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31876,7 +31876,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Treecko| ": {
+        "Rival Brendan |Lilycove| |Snivy| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31906,7 +31906,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Torchic| ": {
+        "Rival Brendan |Lilycove| |Scorbunny| ": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
