@@ -32843,7 +32843,7 @@ var CUSTOMSETDEX_SV = {
            "sub_index": 3
         }
     },
-   "Deerling-spring": {
+   "Deerling-Spring": {
        "Lvl 30 Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
@@ -32875,7 +32875,7 @@ var CUSTOMSETDEX_SV = {
            "sub_index": 0
         }
     },
-   "Burmy-trash": {
+   "Burmy-Trash": {
        "Lvl 30 Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
@@ -32907,7 +32907,7 @@ var CUSTOMSETDEX_SV = {
            "sub_index": 1
         }
     },
-   "Rattata-alola": {
+   "Rattata-Alola": {
        "Lvl 30 Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
@@ -32939,7 +32939,7 @@ var CUSTOMSETDEX_SV = {
            "sub_index": 2
         }
     },
-   "Meowth-galar": {
+   "Meowth-Galar": {
        "Lvl 30 Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
@@ -32971,7 +32971,7 @@ var CUSTOMSETDEX_SV = {
            "sub_index": 3
         }
     },
-   "Petilil Fighting": {
+   "Petilil-Fighting": {
        "Lvl 30 Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
@@ -33003,7 +33003,7 @@ var CUSTOMSETDEX_SV = {
            "sub_index": 4
         }
     },
-   "Froakie-special": {
+   "Froakie-Special": {
        "Lvl 30 Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
