@@ -29286,6 +29286,36 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Farfetch’d-Galar": {
+    "Lvl 40 Pkmn Trainer 1 Critter": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Leek",
+           "level": 40,
+           "nature":"Adamant",
+           "battle_type":"Doubles",
+           "moves": [
+               "Karate Chop",
+               "Leaf Blade",
+               "Night Slash",
+               "Dual Wingbeat"
+            ],
+           "ability":"Scrappy",
+           "sub_index": 2
+        },
        "Rival Brendan |Route 110| |Squirtle|": {
            "ivs": {
                "hp": 31,
@@ -33131,38 +33161,6 @@ var CUSTOMSETDEX_SV = {
             ],
            "ability":"Mold Breaker",
            "sub_index": 0
-        }
-    },
-   "Farfetchd-galar": {
-       "Lvl 40 Pkmn Trainer 1 Critter": {
-           "ivs": {
-               "hp": 31,
-               "at": 31,
-               "df": 31,
-               "sa": 31,
-               "sd": 31,
-               "sp": 31
-            },
-           "evs": {
-               "hp": 0,
-               "at": 0,
-               "df": 0,
-               "sa": 0,
-               "sd": 0,
-               "sp": 0
-            },
-           "item":"Leek",
-           "level": 40,
-           "nature":"Adamant",
-           "battle_type":"Doubles",
-           "moves": [
-               "Karate Chop",
-               "Leaf Blade",
-               "Night Slash",
-               "Dual Wingbeat"
-            ],
-           "ability":"Scrappy",
-           "sub_index": 2
         }
     },
    "Pidove": {
