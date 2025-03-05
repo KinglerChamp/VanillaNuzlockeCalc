@@ -1794,6 +1794,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	
 					// Extract the Pokémon name from the custom name
 					var pok_name = customName.split(" (")[0];
+					console.log(pok_name);
 					console.log(pok_name == "Charcadet-Ghost");
 					switch (pok_name) {
 						case "Zygarde-10%":
