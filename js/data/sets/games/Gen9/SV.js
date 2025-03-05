@@ -7644,6 +7644,36 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Geodude-Alola": {
+    "Lvl 35 Pkmn Trainer 1 Boom Dude": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Air Balloon",
+           "level": 35,
+           "nature":"Brave",
+           "battle_type":"Singles",
+           "moves": [
+               "Explosion",
+               "Iron Defense",
+               "Body Press",
+               "Stone Edge"
+            ],
+           "ability":"Galvanize",
+           "sub_index": 0
+        },
        "Aqua Admin Matt |Aqua Hideout|": {
            "ivs": {
                "hp": 31,
@@ -33035,39 +33065,7 @@ var CUSTOMSETDEX_SV = {
            "sub_index": 5
         }
     },
-   "Geodude-alola": {
-       "Lvl 35 Pkmn Trainer 1 Boom Dude": {
-           "ivs": {
-               "hp": 31,
-               "at": 31,
-               "df": 31,
-               "sa": 31,
-               "sd": 31,
-               "sp": 31
-            },
-           "evs": {
-               "hp": 0,
-               "at": 0,
-               "df": 0,
-               "sa": 0,
-               "sd": 0,
-               "sp": 0
-            },
-           "item":"Air Balloon",
-           "level": 35,
-           "nature":"Brave",
-           "battle_type":"Singles",
-           "moves": [
-               "Explosion",
-               "Iron Defense",
-               "Body Press",
-               "Stone Edge"
-            ],
-           "ability":"Galvanize",
-           "sub_index": 0
-        }
-    },
-   "Koffing Fairy": {
+   "Koffing-Fairy": {
        "Lvl 35 Pkmn Trainer 1 Boom Dude": {
            "ivs": {
                "hp": 31,
