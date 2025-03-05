@@ -9829,7 +9829,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Eviolite",
+           "item":"Choice Scarf",
            "level": 29,
            "nature":"Adamant",
            "battle_type":"Singles",
@@ -9839,7 +9839,7 @@ var CUSTOMSETDEX_SV = {
                "Superpower",
                "Ice Punch"
             ],
-           "ability":"Inner Focus",
+           "ability":"Gorilla Tactics",
            "teraType":"None"
         }
     },
@@ -24733,7 +24733,7 @@ var CUSTOMSETDEX_SV = {
            "nature":"Naive",
            "battle_type":"Singles",
            "moves": [
-               "Flamethrower",
+               "Flare Blitz",
                "Psycho Cut",
                "Sunny Day",
                "Destiny Bond"
@@ -24742,7 +24742,7 @@ var CUSTOMSETDEX_SV = {
            "teraType":"None"
         }
     },
-   "Salandit": {
+   "Cyndaquil": {
        "Leader Flannery": {
            "ivs": {
                "hp": 31,
@@ -24762,15 +24762,15 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Focus Sash",
            "level": 29,
-           "nature":"Modest",
+           "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
+               "Eruption",
                "Flamethrower",
-               "Venoshock",
-               "Dragon Pulse",
-               "Toxic"
+               "Scorching Sands",
+               "Infernal Parade"
             ],
-           "ability":"Corrosion",
+           "ability":"Blaze",
            "teraType":"None"
         }
     },
@@ -24794,12 +24794,12 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Magmarizer",
            "level": 30,
-           "nature":"Naughty",
+           "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Fire Spin",
-               "Confuse Ray",
-               "Fire Punch",
+               "Flamethrower",
+               "Psychic",
+               "Scorching Sands",
                "Will-O-Wisp"
             ],
            "ability":"Flame Body",
