@@ -4122,26 +4122,26 @@ var LGPE_MOVES = [
     'Glitzy Glow',
     'Sappy Seed',
     'Sizzly Slide',
-    'Sparkly Swirl',
+    //'Sparkly Swirl',
     'Zippy Zap',
     'Floaty Fall',
     'Pika Papow',
     'Splishy Splash',
     'Veevee Volley',
 ];
-//try {
-//    for (var LGPE_MOVES_1 = __values(LGPE_MOVES), LGPE_MOVES_1_1 = LGPE_MOVES_1.next(); !LGPE_MOVES_1_1.done; LGPE_MOVES_1_1 = LGPE_MOVES_1.next()) {
-//        var m = LGPE_MOVES_1_1.value;
-//        delete SS[m];
-//    }
-//}
-//catch (e_1_1) { e_1 = { error: e_1_1 }; }
-//finally {
-//    try {
-//        if (LGPE_MOVES_1_1 && !LGPE_MOVES_1_1.done && (_a = LGPE_MOVES_1["return"])) _a.call(LGPE_MOVES_1);
-//    }
-//    finally { if (e_1) throw e_1.error; }
-//}
+try {
+    for (var LGPE_MOVES_1 = __values(LGPE_MOVES), LGPE_MOVES_1_1 = LGPE_MOVES_1.next(); !LGPE_MOVES_1_1.done; LGPE_MOVES_1_1 = LGPE_MOVES_1.next()) {
+        var m = LGPE_MOVES_1_1.value;
+        delete SS[m];
+    }
+}
+catch (e_1_1) { e_1 = { error: e_1_1 }; }
+finally {
+    try {
+        if (LGPE_MOVES_1_1 && !LGPE_MOVES_1_1.done && (_a = LGPE_MOVES_1["return"])) _a.call(LGPE_MOVES_1);
+    }
+    finally { if (e_1) throw e_1.error; }
+}
 var SV_PATCH = {
     'Aerial Ace': { isSlicing: true },
     Aeroblast: { isWind: true },
@@ -4936,6 +4936,7 @@ var LE_PATCH = {
     'Twineedle': { bp: 50 },
     'Poison Sting': { bp: 40 },
     'Cut': { type: 'Bug' },
+    'Multi-Attack': { bp: 90 },
 };
 
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, LE_PATCH);

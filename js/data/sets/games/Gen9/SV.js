@@ -24016,7 +24016,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Sitrus Berry",
+           "item":"Custap Berry",
            "level": 13,
            "nature":"Adamant",
            "battle_type":"Singles",
