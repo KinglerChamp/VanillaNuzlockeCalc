@@ -29527,7 +29527,7 @@ var CUSTOMSETDEX_SV = {
            "teraType":"None"
         }
     },
-   "Wooper Paldea": {
+   "Wooper-Paldea": {
        "Rival Brendan |Route 119| |Squirtle|": {
            "ivs": {
                "hp": 31,
