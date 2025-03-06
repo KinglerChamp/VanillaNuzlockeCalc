@@ -134,8 +134,37 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         desc.moveType = type;
     }
     else if (move.originalName === 'Multi-Attack' &&
-        attacker.item && attacker.item.includes('Memory')) {
-        type = (0, items_1.getMultiAttack)(attacker.item);
+        attacker.item && attacker.item.includes('Stone')) {
+        switch (attacker.item) {
+            case 'Fire Stone':
+                type = 'Fire';
+                break;
+            case 'Water Stone':
+                type = 'Water';
+                break;
+            case 'Thunder Stone':
+                type = 'Electric';
+                break;
+            case 'Sun Stone':
+                type = 'Psychic';
+                break;
+            case 'Moon Stone':
+                type = 'Dark';
+                break;
+            case 'Leaf Stone':
+                type = 'Grass';
+                break;
+            case 'Ice Stone':
+                type = 'Ice';
+                break;
+            case 'Shiny Stone':
+                type = 'Fairy';
+                break;
+            default:
+                type = 'Normal';
+                break;
+        }
+        //type = (0, items_1.getMultiAttack)(attacker.item);
         desc.moveType = type;
     }
     else if (move.named('Natural Gift') && ((_a = attacker.item) === null || _a === void 0 ? void 0 : _a.endsWith('Berry'))) {
