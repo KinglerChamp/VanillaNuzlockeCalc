@@ -4937,6 +4937,9 @@ var LE_PATCH = {
     'Poison Sting': { bp: 40 },
     'Cut': { type: 'Bug' },
     'Multi-Attack': { bp: 90 },
+    'Armor Cannon': { isPulse: true },
+    'Lava Plume': { isPulse: true },
+    'Psybeam': { isPulse: true },
 };
 
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, LE_PATCH);

@@ -1806,7 +1806,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Chlorophyll",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Snivy|": {
+       "Rival Brendan |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -1836,7 +1836,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Wind Rider",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Scorbunny|": {
+       "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -8011,7 +8011,7 @@ var CUSTOMSETDEX_SV = {
                "Weather Ball",
                "Last Resort"
             ],
-           "ability":"Adaptability",
+           "ability":"Snow Cloak",
            "teraType":"None"
         }
     },
@@ -14878,7 +14878,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Guts",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Squirtle|": {
+       "Rival Brendan |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -14908,7 +14908,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Guts",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Snivy|": {
+       "Rival Brendan |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -14938,7 +14938,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Guts",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Scorbunny|": {
+       "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -14968,7 +14968,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Guts",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Squirtle|": {
+       "Rival May |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -14998,7 +14998,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Guts",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Snivy|": {
+       "Rival May |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -15028,7 +15028,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Guts",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Scorbunny|": {
+       "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -23276,7 +23276,7 @@ var CUSTOMSETDEX_SV = {
                "Swords Dance",
                "Shadow Claw"
             ],
-           "ability":"Flame Body",
+           "ability":"Sharpness",
            "teraType":"None"
         }
     },
@@ -24306,7 +24306,7 @@ var CUSTOMSETDEX_SV = {
                "Mach Punch",
                "Flame Charge",
                "Fling",
-               "Grass Knot"
+               "Trailblaze"
             ],
            "ability":"Iron Fist",
            "teraType":"None"
@@ -24763,12 +24763,12 @@ var CUSTOMSETDEX_SV = {
            "nature":"Naive",
            "battle_type":"Singles",
            "moves": [
-               "Flare Blitz",
-               "Psycho Cut",
+               "Lava Plume",
+               "Psybeam",
                "Sunny Day",
                "Destiny Bond"
             ],
-           "ability":"Flash Fire",
+           "ability":"Mega Launcher",
            "teraType":"None"
         }
     },
@@ -25085,7 +25085,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Speed Boost",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Squirtle|": {
+       "Rival May |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -25115,7 +25115,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Speed Boost",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Snivy|": {
+       "Rival May |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -25145,7 +25145,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Speed Boost",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Scorbunny|": {
+       "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -26187,7 +26187,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Keen Eye",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Squirtle|": {
+       "Rival May |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -26217,7 +26217,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Big Pecks",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Snivy|": {
+       "Rival May |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -28468,7 +28468,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Overgrow",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Squirtle|": {
+       "Rival Brendan |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -28498,7 +28498,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Overgrow",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Squirtle|": {
+       "Rival May |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -28644,7 +28644,7 @@ var CUSTOMSETDEX_SV = {
            "moves": [
                "Crunch",
                "Facade",
-               "Flamethrower",
+               "Acrobatics",
                "Will-O-Wisp"
             ],
            "ability":"Moxie",
@@ -28704,7 +28704,7 @@ var CUSTOMSETDEX_SV = {
            "moves": [
                "Crunch",
                "Facade",
-               "Flamethrower",
+               "Acrobatics",
                "Will-O-Wisp"
             ],
            "ability":"Moxie",
@@ -28770,7 +28770,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Unnerve",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Squirtle|": {
+       "Rival Brendan |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -28800,7 +28800,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Unnerve",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Scorbunny|": {
+       "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29072,7 +29072,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Swift Swim",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Squirtle|": {
+       "Rival Brendan |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29102,7 +29102,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Battle Armor",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Snivy|": {
+       "Rival Brendan |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29132,7 +29132,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Battle Armor",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Scorbunny|": {
+       "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29680,7 +29680,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Cursed Body",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Squirtle|": {
+       "Rival Brendan |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29710,7 +29710,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Cursed Body",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Snivy|": {
+       "Rival Brendan |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29948,7 +29948,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Blaze",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Snivy|": {
+       "Rival Brendan |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29978,7 +29978,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Libero",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Snivy|": {
+       "Rival May |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30306,7 +30306,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Torrent",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Scorbunny|": {
+       "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30336,7 +30336,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Torrent",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Scorbunny|": {
+       "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30638,7 +30638,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Refrigerate",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Squirtle|": {
+       "Rival May |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30668,7 +30668,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Snow Warning",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Snivy|": {
+       "Rival May |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30698,7 +30698,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Snow Warning",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Scorbunny|": {
+       "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30820,7 +30820,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Flame Body",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Squirtle|": {
+       "Rival May |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30850,7 +30850,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Flash Fire",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Scorbunny|": {
+       "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -31002,7 +31002,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Flower Gift",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Snivy|": {
+       "Rival May |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -31032,7 +31032,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Flower Gift",
            "teraType":"None"
         },
-       "Rival May |Lilycove| |Scorbunny|": {
+       "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -31906,7 +31906,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Gligar": {
-       "Rival Brendan |Lilycove| |Squirtle|": {
+       "Rival Brendan |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -31936,7 +31936,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Hyper Cutter",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Snivy|": {
+       "Rival Brendan |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -31966,7 +31966,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Hyper Cutter",
            "teraType":"None"
         },
-       "Rival Brendan |Lilycove| |Scorbunny|": {
+       "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
