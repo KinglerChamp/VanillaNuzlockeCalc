@@ -1866,6 +1866,66 @@ var CUSTOMSETDEX_SV = {
            "ability":"Wind Rider",
            "teraType":"None"
         },
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 36,
+           "nature":"Brave",
+           "battle_type":"Singles",
+           "moves": [
+               "Sucker Punch",
+               "Trailblaze",
+               "Grassy Glide",
+               "Grassy Terrain"
+            ],
+           "ability":"Wind Rider",
+           "teraType":"None"
+        },
+       "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 34,
+           "nature":"Brave",
+           "battle_type":"Singles",
+           "moves": [
+               "Sucker Punch",
+               "Trailblaze",
+               "Grassy Glide",
+               "Grassy Terrain"
+            ],
+           "ability":"Wind Rider",
+           "teraType":"None"
+        },
        "Cooltrainer Ruben": {
            "ivs": {
                "hp": 31,
@@ -14968,6 +15028,96 @@ var CUSTOMSETDEX_SV = {
            "ability":"Guts",
            "teraType":"None"
         },
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Calm Incense",
+           "level": 39,
+           "nature":"Adamant",
+           "battle_type":"Singles",
+           "moves": [
+               "Fake Out",
+               "Triple Kick",
+               "Bullet Punch",
+               "Sucker Punch"
+            ],
+           "ability":"Guts",
+           "teraType":"None"
+        },
+       "Rival Brendan |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Calm Incense",
+           "level": 39,
+           "nature":"Adamant",
+           "battle_type":"Singles",
+           "moves": [
+               "Fake Out",
+               "Triple Kick",
+               "Bullet Punch",
+               "Sucker Punch"
+            ],
+           "ability":"Guts",
+           "teraType":"None"
+        },
+       "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Calm Incense",
+           "level": 39,
+           "nature":"Adamant",
+           "battle_type":"Singles",
+           "moves": [
+               "Fake Out",
+               "Triple Kick",
+               "Bullet Punch",
+               "Sucker Punch"
+            ],
+           "ability":"Guts",
+           "teraType":"None"
+        },
        "Rival May |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
@@ -15047,6 +15197,96 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Calm Incense",
            "level": 44,
+           "nature":"Adamant",
+           "battle_type":"Singles",
+           "moves": [
+               "Fake Out",
+               "Triple Kick",
+               "Bullet Punch",
+               "Sucker Punch"
+            ],
+           "ability":"Guts",
+           "teraType":"None"
+        },
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Calm Incense",
+           "level": 39,
+           "nature":"Adamant",
+           "battle_type":"Singles",
+           "moves": [
+               "Fake Out",
+               "Triple Kick",
+               "Bullet Punch",
+               "Sucker Punch"
+            ],
+           "ability":"Guts",
+           "teraType":"None"
+        },
+       "Rival May |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Calm Incense",
+           "level": 39,
+           "nature":"Adamant",
+           "battle_type":"Singles",
+           "moves": [
+               "Fake Out",
+               "Triple Kick",
+               "Bullet Punch",
+               "Sucker Punch"
+            ],
+           "ability":"Guts",
+           "teraType":"None"
+        },
+       "Rival May |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Calm Incense",
+           "level": 39,
            "nature":"Adamant",
            "battle_type":"Singles",
            "moves": [
@@ -25175,6 +25415,96 @@ var CUSTOMSETDEX_SV = {
            "ability":"Speed Boost",
            "teraType":"None"
         },
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 34,
+           "nature":"Calm",
+           "battle_type":"Singles",
+           "moves": [
+               "Detect",
+               "Dragon Pulse",
+               "Air Slash",
+               "Bug Buzz"
+            ],
+           "ability":"Speed Boost",
+           "teraType":"None"
+        },
+       "Rival May |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 37,
+           "nature":"Calm",
+           "battle_type":"Singles",
+           "moves": [
+               "Detect",
+               "Dragon Pulse",
+               "Air Slash",
+               "Bug Buzz"
+            ],
+           "ability":"Speed Boost",
+           "teraType":"None"
+        },
+       "Rival May |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 36,
+           "nature":"Calm",
+           "battle_type":"Singles",
+           "moves": [
+               "Detect",
+               "Dragon Pulse",
+               "Air Slash",
+               "Bug Buzz"
+            ],
+           "ability":"Speed Boost",
+           "teraType":"None"
+        },
        "Young Couple Mel & Paul": {
            "ivs": {
                "hp": 31,
@@ -26236,6 +26566,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Eviolite",
            "level": 39,
+           "nature":"Jolly",
+           "battle_type":"Singles",
+           "moves": [
+               "Roost",
+               "Tailwind",
+               "Liquidation",
+               "Brave Bird"
+            ],
+           "ability":"Big Pecks",
+           "teraType":"None"
+        },
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 36,
+           "nature":"Jolly",
+           "battle_type":"Singles",
+           "moves": [
+               "Roost",
+               "Tailwind",
+               "Liquidation",
+               "Brave Bird"
+            ],
+           "ability":"Big Pecks",
+           "teraType":"None"
+        },
+       "Rival May |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 34,
            "nature":"Jolly",
            "battle_type":"Singles",
            "moves": [
@@ -28498,6 +28888,36 @@ var CUSTOMSETDEX_SV = {
            "ability":"Overgrow",
            "teraType":"None"
         },
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Leftovers",
+           "level": 38,
+           "nature":"Quiet",
+           "battle_type":"Singles",
+           "moves": [
+               "Substitute",
+               "Leech Seed",
+               "Synthesis",
+               "Synthesis"
+            ],
+           "ability":"Overgrow",
+           "teraType":"None"
+        },
        "Rival May |Lilycove| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
@@ -28517,6 +28937,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Leftovers",
            "level": 43,
+           "nature":"Quiet",
+           "battle_type":"Singles",
+           "moves": [
+               "Substitute",
+               "Leech Seed",
+               "Synthesis",
+               "Synthesis"
+            ],
+           "ability":"Overgrow",
+           "teraType":"None"
+        },
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Leftovers",
+           "level": 38,
            "nature":"Quiet",
            "battle_type":"Singles",
            "moves": [
@@ -28819,6 +29269,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Life Orb",
            "level": 41,
+           "nature":"Hasty",
+           "battle_type":"Singles",
+           "moves": [
+               "Hyper Voice",
+               "Heat Wave",
+               "Dark Pulse",
+               "Psychic Fangs"
+            ],
+           "ability":"Unnerve",
+           "teraType":"None"
+        },
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Life Orb",
+           "level": 34,
+           "nature":"Hasty",
+           "battle_type":"Singles",
+           "moves": [
+               "Hyper Voice",
+               "Heat Wave",
+               "Dark Pulse",
+               "Psychic Fangs"
+            ],
+           "ability":"Unnerve",
+           "teraType":"None"
+        },
+       "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Life Orb",
+           "level": 36,
            "nature":"Hasty",
            "battle_type":"Singles",
            "moves": [
@@ -29151,6 +29661,96 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Eviolite",
            "level": 40,
+           "nature":"Impish",
+           "battle_type":"Singles",
+           "moves": [
+               "X-Scissor",
+               "Rock Slide",
+               "Knock Off",
+               "Curse"
+            ],
+           "ability":"Battle Armor",
+           "teraType":"None"
+        },
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 35,
+           "nature":"Impish",
+           "battle_type":"Singles",
+           "moves": [
+               "X-Scissor",
+               "Rock Slide",
+               "Knock Off",
+               "Curse"
+            ],
+           "ability":"Battle Armor",
+           "teraType":"None"
+        },
+       "Rival Brendan |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 35,
+           "nature":"Impish",
+           "battle_type":"Singles",
+           "moves": [
+               "X-Scissor",
+               "Rock Slide",
+               "Knock Off",
+               "Curse"
+            ],
+           "ability":"Battle Armor",
+           "teraType":"None"
+        },
+       "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 35,
            "nature":"Impish",
            "battle_type":"Singles",
            "moves": [
@@ -29739,6 +30339,66 @@ var CUSTOMSETDEX_SV = {
             ],
            "ability":"Cursed Body",
            "teraType":"None"
+        },
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Colbur Berry",
+           "level": 37,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Water Spout",
+               "Recover",
+               "Shadow Ball",
+               "Giga Drain"
+            ],
+           "ability":"Cursed Body",
+           "teraType":"None"
+        },
+       "Rival Brendan |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Colbur Berry",
+           "level": 37,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Water Spout",
+               "Recover",
+               "Shadow Ball",
+               "Giga Drain"
+            ],
+           "ability":"Cursed Body",
+           "teraType":"None"
         }
     },
    "Scorbunny": {
@@ -29978,6 +30638,36 @@ var CUSTOMSETDEX_SV = {
            "ability":"Libero",
            "teraType":"None"
         },
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Life Orb",
+           "level": 38,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Electro Ball",
+               "Heat Wave",
+               "Agility",
+               "Super Fang"
+            ],
+           "ability":"Libero",
+           "teraType":"None"
+        },
        "Rival May |Lilycove| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
@@ -29997,6 +30687,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Life Orb",
            "level": 43,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Electro Ball",
+               "Heat Wave",
+               "Agility",
+               "Super Fang"
+            ],
+           "ability":"Libero",
+           "teraType":"None"
+        },
+        "Rival May |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Life Orb",
+           "level": 38,
            "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
@@ -30336,6 +31056,36 @@ var CUSTOMSETDEX_SV = {
            "ability":"Torrent",
            "teraType":"None"
         },
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 38,
+           "nature":"Lonely",
+           "battle_type":"Singles",
+           "moves": [
+               "Shell Smash",
+               "Wave Crash",
+               "Ice Spinner",
+               "Double-Edge"
+            ],
+           "ability":"Torrent",
+           "teraType":"None"
+        },
        "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
@@ -30355,6 +31105,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Eviolite",
            "level": 43,
+           "nature":"Lonely",
+           "battle_type":"Singles",
+           "moves": [
+               "Shell Smash",
+               "Wave Crash",
+               "Ice Spinner",
+               "Double-Edge"
+            ],
+           "ability":"Torrent",
+           "teraType":"None"
+        },
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 38,
            "nature":"Lonely",
            "battle_type":"Singles",
            "moves": [
@@ -30728,6 +31508,96 @@ var CUSTOMSETDEX_SV = {
            "ability":"Snow Warning",
            "teraType":"None"
         },
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Assault Vest",
+           "level": 35,
+           "nature":"Naughty",
+           "battle_type":"Singles",
+           "moves": [
+               "Avalanche",
+               "Iron Head",
+               "Stone Edge",
+               "Outrage"
+            ],
+           "ability":"Snow Warning",
+           "teraType":"None"
+        },
+       "Rival May |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Assault Vest",
+           "level": 35,
+           "nature":"Naughty",
+           "battle_type":"Singles",
+           "moves": [
+               "Avalanche",
+               "Iron Head",
+               "Stone Edge",
+               "Outrage"
+            ],
+           "ability":"Snow Warning",
+           "teraType":"None"
+        },
+       "Rival May |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Assault Vest",
+           "level": 35,
+           "nature":"Naughty",
+           "battle_type":"Singles",
+           "moves": [
+               "Avalanche",
+               "Iron Head",
+               "Stone Edge",
+               "Outrage"
+            ],
+           "ability":"Snow Warning",
+           "teraType":"None"
+        },
        "Lvl 35 Pkmn Trainer 1 Boom Dude": {
            "ivs": {
                "hp": 31,
@@ -30869,6 +31739,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Focus Sash",
            "level": 42,
+           "nature":"Modest",
+           "battle_type":"Singles",
+           "moves": [
+               "Shadow Ball",
+               "Flamethrower",
+               "Energy Ball",
+               "Calm Mind"
+            ],
+           "ability":"Flash Fire",
+           "teraType":"None"
+        },
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 37,
+           "nature":"Modest",
+           "battle_type":"Singles",
+           "moves": [
+               "Shadow Ball",
+               "Flamethrower",
+               "Energy Ball",
+               "Calm Mind"
+            ],
+           "ability":"Flash Fire",
+           "teraType":"None"
+        },
+       "Rival May |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 37,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
@@ -31051,6 +31981,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Focus Sash",
            "level": 39,
+           "nature":"Modest",
+           "battle_type":"Singles",
+           "moves": [
+               "Solar Beam",
+               "Weather Ball",
+               "Pollen Puff",
+               "Sunny Day"
+            ],
+           "ability":"Flower Gift",
+           "teraType":"None"
+        },
+        "Rival May |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 36,
+           "nature":"Modest",
+           "battle_type":"Singles",
+           "moves": [
+               "Solar Beam",
+               "Weather Ball",
+               "Pollen Puff",
+               "Sunny Day"
+            ],
+           "ability":"Flower Gift",
+           "teraType":"None"
+        },
+       "Rival May |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 34,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
@@ -31985,6 +32975,96 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Sitrus Berry",
            "level": 42,
+           "nature":"Naughty",
+           "battle_type":"Singles",
+           "moves": [
+               "Earthquake",
+               "Acrobatics",
+               "U-turn",
+               "Tailwind"
+            ],
+           "ability":"Hyper Cutter",
+           "teraType":"None"
+        },
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 36,
+           "nature":"Naughty",
+           "battle_type":"Singles",
+           "moves": [
+               "Earthquake",
+               "Acrobatics",
+               "U-turn",
+               "Tailwind"
+            ],
+           "ability":"Hyper Cutter",
+           "teraType":"None"
+        },
+       "Rival Brendan |Lilycove| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 34,
+           "nature":"Naughty",
+           "battle_type":"Singles",
+           "moves": [
+               "Earthquake",
+               "Acrobatics",
+               "U-turn",
+               "Tailwind"
+            ],
+           "ability":"Hyper Cutter",
+           "teraType":"None"
+        },
+       "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 37,
            "nature":"Naughty",
            "battle_type":"Singles",
            "moves": [
