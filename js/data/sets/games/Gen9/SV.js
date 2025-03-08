@@ -2016,7 +2016,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Chlorophyll",
            "teraType":"None"
         },
-       "Rival Brendan |Partner| |Mt. Pyre| |Snivy|": {
+       "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -2046,7 +2046,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Chlorophyll",
            "teraType":"None"
         },
-       "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny|": {
+       "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -2065,6 +2065,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Focus Sash",
            "level": 43,
+           "nature":"Sassy",
+           "battle_type":"Singles",
+           "moves": [
+               "Bullet Seed",
+               "Synthesis",
+               "Growth",
+               "Sunny Day"
+            ],
+           "ability":"Chlorophyll",
+           "teraType":"None"
+        },
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 39,
+           "nature":"Sassy",
+           "battle_type":"Singles",
+           "moves": [
+               "Bullet Seed",
+               "Synthesis",
+               "Growth",
+               "Sunny Day"
+            ],
+           "ability":"Chlorophyll",
+           "teraType":"None"
+        },
+       "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 38,
            "nature":"Sassy",
            "battle_type":"Singles",
            "moves": [
@@ -6109,7 +6169,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Oblivious",
            "teraType":"None"
         },
-       "Magma Leader Maxie |Magma Hideout|": {
+       "Magma Leader Maxie |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -6128,6 +6188,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Leftovers",
            "level": 44,
+           "nature":"Adamant",
+           "battle_type":"Singles",
+           "moves": [
+               "Curse",
+               "Amnesia",
+               "Earthquake",
+               "Flare Blitz"
+            ],
+           "ability":"Magma Armor",
+           "teraType":"None"
+        },
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Leftovers",
+           "level": 39,
            "nature":"Adamant",
            "battle_type":"Singles",
            "moves": [
@@ -7642,7 +7732,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Drifloon": {
-       "Aqua Admin Matt |Aqua Hideout|": {
+       "Aqua Admin Matt |Aqua Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -7660,7 +7750,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Flame Orb",
-           "level": 39,
+           "level": 41,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Protect",
+               "Thunder",
+               "Shadow Ball",
+               "Explosion"
+            ],
+           "ability":"Flare Boost",
+           "teraType":"None"
+        },
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Flame Orb",
+           "level": 36,
            "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
@@ -7734,7 +7854,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Galvanize",
            "sub_index": 0
         },
-       "Aqua Admin Matt |Aqua Hideout|": {
+       "Aqua Admin Matt |Aqua Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -7752,7 +7872,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Eviolite",
-           "level": 40,
+           "level": 41,
+           "nature":"Careful",
+           "battle_type":"Singles",
+           "moves": [
+               "Stone Edge",
+               "Body Slam",
+               "Earthquake",
+               "Explosion"
+            ],
+           "ability":"Galvanize",
+           "teraType":"None"
+        },
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 36,
            "nature":"Careful",
            "battle_type":"Singles",
            "moves": [
@@ -7796,7 +7946,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Tynamo": {
-       "Aqua Admin Matt |Aqua Hideout|": {
+       "Aqua Admin Matt |Aqua Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -7814,7 +7964,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Air Balloon",
-           "level": 38,
+           "level": 42,
+           "nature":"Modest",
+           "battle_type":"Singles",
+           "moves": [
+               "Charge Beam",
+               "Giga Drain",
+               "Hex",
+               "Thunder Wave"
+            ],
+           "ability":"Surge Surfer",
+           "teraType":"None"
+        },
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Air Balloon",
+           "level": 37,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
@@ -7888,7 +8068,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Shinx": {
-       "Aqua Admin Matt |Aqua Hideout|": {
+       "Aqua Admin Matt |Aqua Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -7917,10 +8097,40 @@ var CUSTOMSETDEX_SV = {
             ],
            "ability":"Intimidate",
            "teraType":"None"
+        },
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Choice Scarf",
+           "level": 37,
+           "nature":"Rash",
+           "battle_type":"Singles",
+           "moves": [
+               "Rising Voltage",
+               "Wild Charge",
+               "Crunch",
+               "Volt Switch"
+            ],
+           "ability":"Intimidate",
+           "teraType":"None"
         }
     },
    "Porygon": {
-       "Aqua Admin Matt |Aqua Hideout|": {
+       "Aqua Admin Matt |Aqua Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -7939,6 +8149,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Leftovers",
            "level": 43,
+           "nature":"Quiet",
+           "battle_type":"Singles",
+           "moves": [
+               "Tri Attack",
+               "Recover",
+               "Ice Beam",
+               "Thunderbolt"
+            ],
+           "ability":"Analytic",
+           "teraType":"None"
+        },
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Leftovers",
+           "level": 38,
            "nature":"Quiet",
            "battle_type":"Singles",
            "moves": [
@@ -7980,7 +8220,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Trace",
            "teraType":"None"
         },
-       "Aqua Admin Matt |Mt. Pyre|": {
+       "Aqua Admin Matt |Mt. Pyre| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -7999,6 +8239,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Leftovers",
            "level": 43,
+           "nature":"Quiet",
+           "battle_type":"Singles",
+           "moves": [
+               "Icy Wind",
+               "Rain Dance",
+               "Thunder",
+               "Recover"
+            ],
+           "ability":"Trace",
+           "teraType":"None"
+        },
+        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Leftovers",
+           "level": 38,
            "nature":"Quiet",
            "battle_type":"Singles",
            "moves": [
@@ -8137,8 +8407,10 @@ var CUSTOMSETDEX_SV = {
             ],
            "ability":"Ice Body",
            "teraType":"None"
-        },
-       "Magma Admin Tabitha |Magma Hideout|": {
+        }
+    },
+    "Bergmite-Rock": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -8157,6 +8429,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Stone Plate",
            "level": 42,
+           "nature":"Sassy",
+           "battle_type":"Singles",
+           "moves": [
+               "Avalanche",
+               "Stone Edge",
+               "Recover",
+               "Rapid Spin"
+            ],
+           "ability":"Sturdy",
+           "teraType":"None"
+        },
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Stone Plate",
+           "level": 37,
            "nature":"Sassy",
            "battle_type":"Singles",
            "moves": [
@@ -8804,7 +9106,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Drizzle",
            "teraType":"None"
         },
-       "Aqua Leader Archie |Mt. Pyre|": {
+       "Aqua Leader Archie |Mt. Pyre| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -8823,6 +9125,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Damp Rock",
            "level": 42,
+           "nature":"Quiet",
+           "battle_type":"Singles",
+           "moves": [
+               "Hypnosis",
+               "Muddy Water",
+               "Blizzard",
+               "Helping Hand"
+            ],
+           "ability":"Drizzle",
+           "teraType":"None"
+        },
+        "Aqua Leader Archie |Mt. Pyre| |Post-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Damp Rock",
+           "level": 37,
            "nature":"Quiet",
            "battle_type":"Singles",
            "moves": [
@@ -9050,7 +9382,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Mega Launcher",
            "teraType":"None"
         },
-       "Aqua Leader Archie |Mt. Pyre|": {
+       "Aqua Leader Archie |Mt. Pyre| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -9069,6 +9401,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Choice Specs",
            "level": 43,
+           "nature":"Modest",
+           "battle_type":"Singles",
+           "moves": [
+               "Terrain Pulse",
+               "Water Pulse",
+               "Dragon Pulse",
+               "Dark Pulse"
+            ],
+           "ability":"Mega Launcher",
+           "teraType":"None"
+        },
+        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Choice Specs",
+           "level": 38,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
@@ -15359,7 +15721,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Hyper Cutter",
            "teraType":"None"
         },
-       "Magma Admin Tabitha |Magma Hideout|": {
+       "Magma Admin Tabitha |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -15377,7 +15739,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Eviolite",
-           "level": 39,
+           "level": 41,
+           "nature":"Brave",
+           "battle_type":"Singles",
+           "moves": [
+               "First Impression",
+               "Earthquake",
+               "Superpower",
+               "Sandstorm"
+            ],
+           "ability":"Arena Trap",
+           "teraType":"None"
+        },
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 36,
            "nature":"Brave",
            "battle_type":"Singles",
            "moves": [
@@ -15936,7 +16328,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Sand Veil",
            "teraType":"None"
         },
-       "Magma Admin Tabitha |Magma Hideout|": {
+       "Magma Admin Tabitha |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -15954,7 +16346,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Bright Powder",
-           "level": 40,
+           "level": 41,
+           "nature":"Relaxed",
+           "battle_type":"Singles",
+           "moves": [
+               "Leech Seed",
+               "Substitute",
+               "Leaf Storm",
+               "Drain Punch"
+            ],
+           "ability":"Sand Veil",
+           "teraType":"None"
+        },
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Bright Powder",
+           "level": 36,
            "nature":"Relaxed",
            "battle_type":"Singles",
            "moves": [
@@ -19314,7 +19736,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Dry Skin",
            "teraType":"None"
         },
-       "Magma Leader Maxie |Magma Hideout|": {
+       "Magma Leader Maxie |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -19332,7 +19754,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Life Orb",
-           "level": 41,
+           "level": 42,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Parabolic Charge",
+               "Thunderbolt",
+               "Dark Pulse",
+               "Grass Knot"
+            ],
+           "ability":"Solar Power",
+           "teraType":"None"
+        },
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Life Orb",
+           "level": 37,
            "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
@@ -21375,7 +21827,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Flame Body",
            "teraType":"None"
         },
-       "Magma Leader Maxie |Magma Hideout|": {
+       "Magma Leader Maxie |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -21393,7 +21845,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Eviolite",
-           "level": 42,
+           "level": 43,
+           "nature":"Jolly",
+           "battle_type":"Singles",
+           "moves": [
+               "Solar Blade",
+               "Play Rough",
+               "Flare Blitz",
+               "Sunny Day"
+            ],
+           "ability":"Flash Fire",
+           "teraType":"None"
+        },
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 38,
            "nature":"Jolly",
            "battle_type":"Singles",
            "moves": [
@@ -21435,7 +21917,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Flash Fire",
            "teraType":"None"
         },
-       "Rival May |Partner| |Mt. Pyre| |Scorbunny|": {
+       "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -21465,7 +21947,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Flame Body",
            "teraType":"None"
         },
-       "Rival May |Partner| |Mt. Pyre| |Squirtle|": {
+       "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -21484,6 +21966,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Sitrus Berry",
            "level": 43,
+           "nature":"Relaxed",
+           "battle_type":"Singles",
+           "moves": [
+               "Flame Charge",
+               "Body Slam",
+               "Double Team",
+               "Swagger"
+            ],
+           "ability":"Flame Body",
+           "teraType":"None"
+        },
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 39,
+           "nature":"Relaxed",
+           "battle_type":"Singles",
+           "moves": [
+               "Flame Charge",
+               "Body Slam",
+               "Double Team",
+               "Swagger"
+            ],
+           "ability":"Flame Body",
+           "teraType":"None"
+        },
+       "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 38,
            "nature":"Relaxed",
            "battle_type":"Singles",
            "moves": [
@@ -24207,7 +24749,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Punk Rock",
            "teraType":"None"
         },
-       "Aqua Leader Archie |Mt. Pyre|": {
+       "Aqua Leader Archie |Mt. Pyre| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -24226,6 +24768,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Soothing Incense",
            "level": 44,
+           "nature":"Mild",
+           "battle_type":"Singles",
+           "moves": [
+               "Venoshock",
+               "Electroweb",
+               "Snarl",
+               "Dragon Breath"
+            ],
+           "ability":"Punk Rock",
+           "teraType":"None"
+        },
+        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Soothing Incense",
+           "level": 39,
            "nature":"Mild",
            "battle_type":"Singles",
            "moves": [
@@ -24917,7 +25489,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Volt Absorb",
            "teraType":"None"
         },
-       "Aqua Admin Matt |Mt. Pyre|": {
+       "Aqua Admin Matt |Mt. Pyre| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -24936,6 +25508,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Eviolite",
            "level": 42,
+           "nature":"Impish",
+           "battle_type":"Singles",
+           "moves": [
+               "Aqua Ring",
+               "Flail",
+               "Liquidation",
+               "Wild Charge"
+            ],
+           "ability":"Volt Absorb",
+           "teraType":"None"
+        },
+        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 37,
            "nature":"Impish",
            "battle_type":"Singles",
            "moves": [
@@ -26637,7 +27239,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Big Pecks",
            "teraType":"None"
         },
-       "Rival May |Partner| |Mt. Pyre| |Snivy|": {
+       "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -26667,7 +27269,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Big Pecks",
            "teraType":"None"
         },
-       "Rival May |Partner| |Mt. Pyre| |Squirtle|": {
+       "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -26686,6 +27288,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Sharp Beak",
            "level": 44,
+           "nature":"Jolly",
+           "battle_type":"Singles",
+           "moves": [
+               "Aerial Ace",
+               "Aqua Jet",
+               "Facade",
+               "Feather Dance"
+            ],
+           "ability":"Big Pecks",
+           "teraType":"None"
+        },
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sharp Beak",
+           "level": 38,
+           "nature":"Jolly",
+           "battle_type":"Singles",
+           "moves": [
+               "Aerial Ace",
+               "Aqua Jet",
+               "Facade",
+               "Feather Dance"
+            ],
+           "ability":"Big Pecks",
+           "teraType":"None"
+        },
+       "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sharp Beak",
+           "level": 39,
            "nature":"Jolly",
            "battle_type":"Singles",
            "moves": [
@@ -27406,7 +28068,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Voltorb-Hisui": {
-       "Aqua Admin Matt |Aqua Hideout|": {
+       "Aqua Admin Matt |Aqua Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -27436,7 +28098,37 @@ var CUSTOMSETDEX_SV = {
            "ability":"Electric Surge",
            "teraType":"None"
         },
-       "Aqua Admin Matt |Mt. Pyre|": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Terrain Extender",
+           "level": 36,
+           "nature":"Rash",
+           "battle_type":"Singles",
+           "moves": [
+               "Chloroblast",
+               "Electro Ball",
+               "Volt Switch",
+               "Explosion"
+            ],
+           "ability":"Electric Surge",
+           "teraType":"None"
+        },
+       "Aqua Admin Matt |Mt. Pyre| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -27455,6 +28147,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Terrain Extender",
            "level": 41,
+           "nature":"Brave",
+           "battle_type":"Singles",
+           "moves": [
+               "Reflect",
+               "Wild Charge",
+               "Bullet Seed",
+               "Foul Play"
+            ],
+           "ability":"Electric Surge",
+           "teraType":"None"
+        },
+        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Terrain Extender",
+           "level": 36,
            "nature":"Brave",
            "battle_type":"Singles",
            "moves": [
@@ -28978,7 +29700,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Overgrow",
            "teraType":"None"
         },
-       "Rival Brendan |Partner| |Mt. Pyre| |Squirtle|": {
+       "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29008,7 +29730,37 @@ var CUSTOMSETDEX_SV = {
            "ability":"Overgrow",
            "teraType":"None"
         },
-       "Rival May |Partner| |Mt. Pyre| |Squirtle|": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Leftovers",
+           "level": 40,
+           "nature":"Quiet",
+           "battle_type":"Singles",
+           "moves": [
+               "Substitute",
+               "Leech Seed",
+               "Synthesis",
+               "Giga Drain"
+            ],
+           "ability":"Overgrow",
+           "teraType":"None"
+        },
+       "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29027,6 +29779,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Leftovers",
            "level": 45,
+           "nature":"Quiet",
+           "battle_type":"Singles",
+           "moves": [
+               "Substitute",
+               "Leech Seed",
+               "Synthesis",
+               "Giga Drain"
+            ],
+           "ability":"Overgrow",
+           "teraType":"None"
+        },
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Leftovers",
+           "level": 40,
            "nature":"Quiet",
            "battle_type":"Singles",
            "moves": [
@@ -29340,7 +30122,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Unnerve",
            "teraType":"None"
         },
-       "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny|": {
+       "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29370,7 +30152,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Unnerve",
            "teraType":"None"
         },
-       "Rival Brendan |Partner| |Mt. Pyre| |Squirtle|": {
+       "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29389,6 +30171,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Sitrus Berry",
            "level": 43,
+           "nature":"Modest",
+           "battle_type":"Singles",
+           "moves": [
+               "Fire Spin",
+               "Swift",
+               "Sunny Day",
+               "Noble Roar"
+            ],
+           "ability":"Unnerve",
+           "teraType":"None"
+        },
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 39,
+           "nature":"Modest",
+           "battle_type":"Singles",
+           "moves": [
+               "Fire Spin",
+               "Swift",
+               "Sunny Day",
+               "Noble Roar"
+            ],
+           "ability":"Unnerve",
+           "teraType":"None"
+        },
+       "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Sitrus Berry",
+           "level": 38,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
@@ -29854,7 +30696,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Damp",
            "teraType":"None"
         },
-       "Rival Brendan |Partner| |Mt. Pyre| |Snivy|": {
+       "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29884,7 +30726,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Unaware",
            "teraType":"None"
         },
-       "Rival Brendan |Partner| |Mt. Pyre| |Squirtle|": {
+       "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29903,6 +30745,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Mystic Water",
            "level": 44,
+           "nature":"Brave",
+           "battle_type":"Singles",
+           "moves": [
+               "Yawn",
+               "Bulldoze",
+               "Aqua Tail",
+               "Rain Dance"
+            ],
+           "ability":"Unaware",
+           "teraType":"None"
+        },
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Mystic Water",
+           "level": 38,
+           "nature":"Brave",
+           "battle_type":"Singles",
+           "moves": [
+               "Yawn",
+               "Bulldoze",
+               "Aqua Tail",
+               "Rain Dance"
+            ],
+           "ability":"Unaware",
+           "teraType":"None"
+        },
+       "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Mystic Water",
+           "level": 39,
            "nature":"Brave",
            "battle_type":"Singles",
            "moves": [
@@ -30758,7 +31660,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Blaze",
            "teraType":"None"
         },
-       "Rival Brendan |Partner| |Mt. Pyre| |Snivy|": {
+       "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30788,7 +31690,37 @@ var CUSTOMSETDEX_SV = {
            "ability":"Libero",
            "teraType":"None"
         },
-       "Rival May |Partner| |Mt. Pyre| |Snivy|": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Life Orb",
+           "level": 40,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Electro Ball",
+               "Heat Wave",
+               "Agility",
+               "Super Fang"
+            ],
+           "ability":"Libero",
+           "teraType":"None"
+        },
+       "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30807,6 +31739,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Life Orb",
            "level": 45,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Electro Ball",
+               "Heat Wave",
+               "Agility",
+               "Super Fang"
+            ],
+           "ability":"Libero",
+           "teraType":"None"
+        },
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Life Orb",
+           "level": 40,
            "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
@@ -31176,7 +32138,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Torrent",
            "teraType":"None"
         },
-       "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny|": {
+       "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -31206,7 +32168,37 @@ var CUSTOMSETDEX_SV = {
            "ability":"Torrent",
            "teraType":"None"
         },
-       "Rival May |Partner| |Mt. Pyre| |Scorbunny|": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 40,
+           "nature":"Lonely",
+           "battle_type":"Singles",
+           "moves": [
+               "Shell Smash",
+               "Wave Crash",
+               "Ice Spinner",
+               "Double-Edge"
+            ],
+           "ability":"Torrent",
+           "teraType":"None"
+        },
+       "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -31225,6 +32217,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Eviolite",
            "level": 45,
+           "nature":"Lonely",
+           "battle_type":"Singles",
+           "moves": [
+               "Shell Smash",
+               "Wave Crash",
+               "Ice Spinner",
+               "Double-Edge"
+            ],
+           "ability":"Torrent",
+           "teraType":"None"
+        },
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Eviolite",
+           "level": 40,
            "nature":"Lonely",
            "battle_type":"Singles",
            "moves": [
@@ -32082,7 +33104,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Chlorophyll",
            "teraType":"None"
         },
-       "Rival May |Partner| |Mt. Pyre| |Snivy|": {
+       "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -32112,7 +33134,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Chlorophyll",
            "teraType":"None"
         },
-       "Rival May |Partner| |Mt. Pyre| |Scorbunny|": {
+       "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -32131,6 +33153,66 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Focus Sash",
            "level": 43,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Giga Drain",
+               "Draining Kiss",
+               "Grasswhistle",
+               "Sunny Day"
+            ],
+           "ability":"Chlorophyll",
+           "teraType":"None"
+        },
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 39,
+           "nature":"Timid",
+           "battle_type":"Singles",
+           "moves": [
+               "Giga Drain",
+               "Draining Kiss",
+               "Grasswhistle",
+               "Sunny Day"
+            ],
+           "ability":"Chlorophyll",
+           "teraType":"None"
+        },
+       "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Focus Sash",
+           "level": 38,
            "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
@@ -32268,7 +33350,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Chlorophyll",
            "teraType":"None"
         },
-       "Magma Leader Maxie |Magma Hideout|": {
+       "Magma Leader Maxie |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -32287,6 +33369,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"White Herb",
            "level": 43,
+           "nature":"Hasty",
+           "battle_type":"Singles",
+           "moves": [
+               "Lash Out",
+               "Overheat",
+               "Leaf Storm",
+               "Zen Headbutt"
+            ],
+           "ability":"Chlorophyll",
+           "teraType":"None"
+        },
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"White Herb",
+           "level": 38,
            "nature":"Hasty",
            "battle_type":"Singles",
            "moves": [
@@ -32428,7 +33540,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Charmander": {
-       "Magma Leader Maxie |Magma Hideout|": {
+       "Magma Leader Maxie |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -32446,7 +33558,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Heat Rock",
-           "level": 40,
+           "level": 42,
+           "nature":"Modest",
+           "battle_type":"Singles",
+           "moves": [
+               "Scary Face",
+               "Dragon Pulse",
+               "Flamethrower",
+               "Will-O-Wisp"
+            ],
+           "ability":"Drought",
+           "teraType":"None"
+        },
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Heat Rock",
+           "level": 37,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
@@ -32490,7 +33632,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Yamask": {
-       "Magma Leader Maxie |Magma Hideout|": {
+       "Magma Leader Maxie |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -32832,7 +33974,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Silicobra": {
-       "Magma Admin Tabitha |Magma Hideout|": {
+       "Magma Admin Tabitha |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -32850,7 +33992,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Smooth Rock",
-           "level": 38,
+           "level": 41,
+           "nature":"Careful",
+           "battle_type":"Singles",
+           "moves": [
+               "Stealth Rock",
+               "Earthquake",
+               "Scale Shot",
+               "Sandstorm"
+            ],
+           "ability":"Sand Spit",
+           "teraType":"None"
+        },
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Smooth Rock",
+           "level": 36,
            "nature":"Careful",
            "battle_type":"Singles",
            "moves": [
@@ -32864,7 +34036,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Drilbur": {
-       "Magma Admin Tabitha |Magma Hideout|": {
+       "Magma Admin Tabitha |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -32882,7 +34054,37 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Choice Band",
-           "level": 41,
+           "level": 42,
+           "nature":"Adamant",
+           "battle_type":"Singles",
+           "moves": [
+               "Earthquake",
+               "X-Scissor",
+               "Shadow Claw",
+               "Iron Head"
+            ],
+           "ability":"Sand Force",
+           "teraType":"None"
+        },
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Choice Band",
+           "level": 37,
            "nature":"Adamant",
            "battle_type":"Singles",
            "moves": [
@@ -33076,7 +34278,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Hyper Cutter",
            "teraType":"None"
         },
-       "Magma Admin Tabitha |Magma Hideout|": {
+       "Magma Admin Tabitha |Magma Hideout| |Post-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -33095,6 +34297,36 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Toxic Orb",
            "level": 43,
+           "nature":"Jolly",
+           "battle_type":"Singles",
+           "moves": [
+               "Protect",
+               "Fire Fang",
+               "Earthquake",
+               "Toxic"
+            ],
+           "ability":"Poison Heal",
+           "teraType":"None"
+        },
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Toxic Orb",
+           "level": 38,
            "nature":"Jolly",
            "battle_type":"Singles",
            "moves": [
