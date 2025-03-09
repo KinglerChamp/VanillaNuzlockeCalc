@@ -2856,7 +2856,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Static",
            "teraType":"None"
         },
-       "Lvl 15 Pkmn Trainer 1 Scary Guy": {
+       "Pkmn Trainer 1 Scary Guy": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -5297,7 +5297,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Skill Link",
            "teraType":"None"
         },
-       "Lvl 50 Pkmn Trainer 1 Smasher": {
+       "Pkmn Trainer 1 Smasher": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -7824,7 +7824,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Geodude-Alola": {
-    "Lvl 35 Pkmn Trainer 1 Boom Dude": {
+    "Pkmn Trainer 1 Boom Dude": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -9474,7 +9474,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Water Veil",
            "teraType":"None"
         },
-       "Lvl 25 Pkmn Trainer 1 Speedy Kid": {
+       "Pkmn Trainer 1 Speedy Kid": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -11244,7 +11244,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Levitate",
            "teraType":"None"
         },
-       "Lvl 35 Pkmn Trainer 1 Boom Dude": {
+       "Pkmn Trainer 1 Boom Dude": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -17198,7 +17198,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Soundproof",
            "teraType":"None"
         },
-       "Lvl 25 Pkmn Trainer 1 Speedy Kid": {
+       "Pkmn Trainer 1 Speedy Kid": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -18009,7 +18009,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Sand Rush",
            "teraType":"None"
         },
-       "Lvl 15 Pkmn Trainer 1 Scary Guy": {
+       "Pkmn Trainer 1 Scary Guy": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -19887,7 +19887,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Intimidate",
            "teraType":"None"
         },
-       "Lvl 15 Pkmn Trainer 1 Scary Guy": {
+       "Pkmn Trainer 1 Scary Guy": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -19948,7 +19948,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Shell Armor",
            "teraType":"None"
         },
-       "Lvl 50 Pkmn Trainer 1 Smasher": {
+       "Pkmn Trainer 1 Smasher": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -20313,7 +20313,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Swift Swim",
            "teraType":"None"
         },
-       "Lvl 40 Pkmn Trainer 1 Critter": {
+       "Pkmn Trainer 1 Critter": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -21399,7 +21399,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Merciless",
            "teraType":"None"
         },
-       "Lvl 20 Pkmn Trainer 1 Protector": {
+       "Pkmn Trainer 1 Protector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -22099,7 +22099,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Swift Swim",
            "teraType":"None"
         },
-       "Lvl 62 Pkmn Trainer 1 Purkat": {
+       "Pkmn Trainer 1 Purkat": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -22498,7 +22498,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Insomnia",
            "teraType":"None"
         },
-       "Lvl 20 Pkmn Trainer 1 Protector": {
+       "Pkmn Trainer 1 Protector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -23626,7 +23626,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Shadow Tag",
            "teraType":"None"
         },
-       "Lvl 62 Pkmn Trainer 1 Purkat": {
+       "Pkmn Trainer 1 Purkat": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -23970,7 +23970,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"No Guard",
            "teraType":"None"
         },
-       "Lvl 62 Pkmn Trainer 1 Purkat": {
+       "Pkmn Trainer 1 Purkat": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -24157,7 +24157,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Thick Fat",
            "teraType":"None"
         },
-       "Lvl 45 Pkmn Trainer 1 Slow Fella": {
+       "Pkmn Trainer 1 Slow Fella": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -24251,7 +24251,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Moody",
            "teraType":"None"
         },
-       "Lvl 25 Pkmn Trainer 1 Speedy Kid": {
+       "Pkmn Trainer 1 Speedy Kid": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -24441,7 +24441,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Sheer Force",
            "teraType":"None"
         },
-       "Lvl 45 Pkmn Trainer 1 Slow Fella": {
+       "Pkmn Trainer 1 Slow Fella": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -25803,7 +25803,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Battle Armor",
            "teraType":"None"
         },
-       "Lvl 35 Pkmn Trainer 1 Boom Dude": {
+       "Pkmn Trainer 1 Boom Dude": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -29286,7 +29286,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Big Pecks",
            "teraType":"None"
         },
-       "Lvl 25 Pkmn Trainer 1 Speedy Kid": {
+       "Pkmn Trainer 1 Speedy Kid": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -30818,7 +30818,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Farfetch’d-Galar": {
-    "Lvl 40 Pkmn Trainer 1 Critter": {
+    "Pkmn Trainer 1 Critter": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -32620,7 +32620,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Snow Warning",
            "teraType":"None"
         },
-       "Lvl 35 Pkmn Trainer 1 Boom Dude": {
+       "Pkmn Trainer 1 Boom Dude": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -33256,7 +33256,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Compound Eyes",
            "teraType":"None"
         },
-       "Lvl 45 Pkmn Trainer 1 Slow Fella": {
+       "Pkmn Trainer 1 Slow Fella": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -34898,7 +34898,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Growlithe": {
-       "Lvl 15 Pkmn Trainer 1 Scary Guy": {
+       "Pkmn Trainer 1 Scary Guy": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -34930,7 +34930,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Snubbull": {
-       "Lvl 15 Pkmn Trainer 1 Scary Guy": {
+       "Pkmn Trainer 1 Scary Guy": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -34962,7 +34962,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Stantler": {
-       "Lvl 15 Pkmn Trainer 1 Scary Guy": {
+       "Pkmn Trainer 1 Scary Guy": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -34994,7 +34994,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Munna": {
-       "Lvl 20 Pkmn Trainer 1 Protector": {
+       "Pkmn Trainer 1 Protector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35026,7 +35026,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Spritzee": {
-       "Lvl 20 Pkmn Trainer 1 Protector": {
+       "Pkmn Trainer 1 Protector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35058,7 +35058,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Cubone": {
-       "Lvl 20 Pkmn Trainer 1 Protector": {
+       "Pkmn Trainer 1 Protector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35090,7 +35090,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Snover": {
-       "Lvl 20 Pkmn Trainer 1 Protector": {
+       "Pkmn Trainer 1 Protector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35122,7 +35122,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Onix": {
-       "Lvl 25 Pkmn Trainer 1 Speedy Kid": {
+       "Pkmn Trainer 1 Speedy Kid": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35154,7 +35154,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Chespin": {
-       "Lvl 25 Pkmn Trainer 1 Speedy Kid": {
+       "Pkmn Trainer 1 Speedy Kid": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35186,7 +35186,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Deerling-Spring": {
-       "Lvl 30 Pkmn Trainer 1 Collector": {
+       "Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35218,7 +35218,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Burmy-Trash": {
-       "Lvl 30 Pkmn Trainer 1 Collector": {
+       "Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35250,7 +35250,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Rattata-Alola": {
-       "Lvl 30 Pkmn Trainer 1 Collector": {
+       "Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35282,7 +35282,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Meowth-Galar": {
-       "Lvl 30 Pkmn Trainer 1 Collector": {
+       "Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35314,7 +35314,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Petilil-Fighting": {
-       "Lvl 30 Pkmn Trainer 1 Collector": {
+       "Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35346,7 +35346,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Froakie-Special": {
-       "Lvl 30 Pkmn Trainer 1 Collector": {
+       "Pkmn Trainer 1 Collector": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35378,7 +35378,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Koffing-Fairy": {
-       "Lvl 35 Pkmn Trainer 1 Boom Dude": {
+       "Pkmn Trainer 1 Boom Dude": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35410,7 +35410,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Elgyem": {
-       "Lvl 35 Pkmn Trainer 1 Boom Dude": {
+       "Pkmn Trainer 1 Boom Dude": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35442,7 +35442,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Cranidos": {
-       "Lvl 40 Pkmn Trainer 1 Critter": {
+       "Pkmn Trainer 1 Critter": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35474,7 +35474,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Pidove": {
-       "Lvl 40 Pkmn Trainer 1 Critter": {
+       "Pkmn Trainer 1 Critter": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35506,7 +35506,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Dratini": {
-       "Lvl 40 Pkmn Trainer 1 Critter": {
+       "Pkmn Trainer 1 Critter": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35538,7 +35538,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Sprigatito": {
-       "Lvl 40 Pkmn Trainer 1 Critter": {
+       "Pkmn Trainer 1 Critter": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35570,7 +35570,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Ferroseed": {
-       "Lvl 45 Pkmn Trainer 1 Slow Fella": {
+       "Pkmn Trainer 1 Slow Fella": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35602,7 +35602,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Grimer-alola": {
-       "Lvl 45 Pkmn Trainer 1 Slow Fella": {
+       "Pkmn Trainer 1 Slow Fella": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35634,7 +35634,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Wattrel": {
-       "Lvl 45 Pkmn Trainer 1 Slow Fella": {
+       "Pkmn Trainer 1 Slow Fella": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35666,7 +35666,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Dwebble": {
-       "Lvl 50 Pkmn Trainer 1 Smasher": {
+       "Pkmn Trainer 1 Smasher": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35698,7 +35698,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Turtwig": {
-       "Lvl 50 Pkmn Trainer 1 Smasher": {
+       "Pkmn Trainer 1 Smasher": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35730,7 +35730,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Sinistea": {
-       "Lvl 50 Pkmn Trainer 1 Smasher": {
+       "Pkmn Trainer 1 Smasher": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35762,7 +35762,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Binacle": {
-       "Lvl 50 Pkmn Trainer 1 Smasher": {
+       "Pkmn Trainer 1 Smasher": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35794,7 +35794,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Litten": {
-       "Lvl 62 Pkmn Trainer 1 Purkat": {
+       "Pkmn Trainer 1 Purkat": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35826,7 +35826,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Golett": {
-       "Lvl 62 Pkmn Trainer 1 Purkat": {
+       "Pkmn Trainer 1 Purkat": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -35858,7 +35858,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Shelmet": {
-       "Lvl 62 Pkmn Trainer 1 Purkat": {
+       "Pkmn Trainer 1 Purkat": {
            "ivs": {
                "hp": 31,
                "at": 31,
