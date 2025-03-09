@@ -9136,7 +9136,7 @@ var CUSTOMSETDEX_SV = {
            "ability":"Drizzle",
            "teraType":"None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Post-Winona|": {
+        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona|": {
            "ivs": {
                "hp": 31,
                "at": 31,
