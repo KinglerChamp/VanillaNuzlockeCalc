@@ -21934,15 +21934,15 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Sitrus Berry",
+           "item":"Eviolite",
            "level": 44,
            "nature":"Relaxed",
            "battle_type":"Singles",
            "moves": [
-               "Flame Charge",
-               "Body Slam",
-               "Double Team",
-               "Swagger"
+               "Flare Blitz",
+               "High Horsepower",
+               "Play Rough",
+               "Wild Charge"
             ],
            "ability":"Flame Body",
            "teraType":"None"
@@ -21964,15 +21964,15 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Sitrus Berry",
+           "item":"Eviolite",
            "level": 43,
            "nature":"Relaxed",
            "battle_type":"Singles",
            "moves": [
-               "Flame Charge",
-               "Body Slam",
-               "Double Team",
-               "Swagger"
+               "Flare Blitz",
+               "High Horsepower",
+               "Play Rough",
+               "Wild Charge"
             ],
            "ability":"Flame Body",
            "teraType":"None"
@@ -21999,10 +21999,10 @@ var CUSTOMSETDEX_SV = {
            "nature":"Relaxed",
            "battle_type":"Singles",
            "moves": [
-               "Flame Charge",
-               "Body Slam",
-               "Double Team",
-               "Swagger"
+               "Flare Blitz",
+               "High Horsepower",
+               "Play Rough",
+               "Wild Charge"
             ],
            "ability":"Flame Body",
            "teraType":"None"
@@ -22029,10 +22029,10 @@ var CUSTOMSETDEX_SV = {
            "nature":"Relaxed",
            "battle_type":"Singles",
            "moves": [
-               "Flame Charge",
-               "Body Slam",
-               "Double Team",
-               "Swagger"
+               "Flare Blitz",
+               "High Horsepower",
+               "Play Rough",
+               "Wild Charge"
             ],
            "ability":"Flame Body",
            "teraType":"None"
@@ -27258,12 +27258,12 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Sharp Beak",
            "level": 43,
-           "nature":"Jolly",
+           "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
-               "Aerial Ace",
-               "Aqua Jet",
-               "Facade",
+               "Hurricane",
+               "Surf",
+               "Helping Hand",
                "Feather Dance"
             ],
            "ability":"Big Pecks",
@@ -27288,12 +27288,12 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Sharp Beak",
            "level": 44,
-           "nature":"Jolly",
+           "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
-               "Aerial Ace",
-               "Aqua Jet",
-               "Facade",
+               "Hurricane",
+               "Surf",
+               "Helping Hand",
                "Feather Dance"
             ],
            "ability":"Big Pecks",
@@ -27318,12 +27318,12 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Sharp Beak",
            "level": 38,
-           "nature":"Jolly",
+           "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
-               "Aerial Ace",
-               "Aqua Jet",
-               "Facade",
+               "Hurricane",
+               "Surf",
+               "Helping Hand",
                "Feather Dance"
             ],
            "ability":"Big Pecks",
@@ -27348,12 +27348,12 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Sharp Beak",
            "level": 39,
-           "nature":"Jolly",
+           "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
-               "Aerial Ace",
-               "Aqua Jet",
-               "Facade",
+               "Hurricane",
+               "Surf",
+               "Helping Hand",
                "Feather Dance"
             ],
            "ability":"Big Pecks",
@@ -30139,15 +30139,15 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Sitrus Berry",
+           "item":"Eviolite",
            "level": 44,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Fire Spin",
-               "Swift",
+               "Heat Wave",
+               "Hyper Voice",
                "Sunny Day",
-               "Noble Roar"
+               "Helping Hand"
             ],
            "ability":"Unnerve",
            "teraType":"None"
@@ -30169,15 +30169,15 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Sitrus Berry",
+           "item":"Eviolite",
            "level": 43,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Fire Spin",
-               "Swift",
+               "Heat Wave",
+               "Hyper Voice",
                "Sunny Day",
-               "Noble Roar"
+               "Helping Hand"
             ],
            "ability":"Unnerve",
            "teraType":"None"
@@ -30199,15 +30199,15 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Sitrus Berry",
+           "item":"Eviolite",
            "level": 39,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Fire Spin",
-               "Swift",
+               "Heat Wave",
+               "Hyper Voice",
                "Sunny Day",
-               "Noble Roar"
+               "Helping Hand"
             ],
            "ability":"Unnerve",
            "teraType":"None"
@@ -30229,15 +30229,15 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Sitrus Berry",
+           "item":"Eviolite",
            "level": 38,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Fire Spin",
-               "Swift",
+               "Heat Wave",
+               "Hyper Voice",
                "Sunny Day",
-               "Noble Roar"
+               "Helping Hand"
             ],
            "ability":"Unnerve",
            "teraType":"None"
@@ -30721,7 +30721,7 @@ var CUSTOMSETDEX_SV = {
                "Yawn",
                "Bulldoze",
                "Aqua Tail",
-               "Rain Dance"
+               "Helping Hand"
             ],
            "ability":"Unaware",
            "teraType":"None"
@@ -30751,7 +30751,7 @@ var CUSTOMSETDEX_SV = {
                "Yawn",
                "Bulldoze",
                "Aqua Tail",
-               "Rain Dance"
+               "Helping Hand"
             ],
            "ability":"Unaware",
            "teraType":"None"
@@ -30781,7 +30781,7 @@ var CUSTOMSETDEX_SV = {
                "Yawn",
                "Bulldoze",
                "Aqua Tail",
-               "Rain Dance"
+               "Helping Hand"
             ],
            "ability":"Unaware",
            "teraType":"None"
@@ -30811,7 +30811,7 @@ var CUSTOMSETDEX_SV = {
                "Yawn",
                "Bulldoze",
                "Aqua Tail",
-               "Rain Dance"
+               "Helping Hand"
             ],
            "ability":"Unaware",
            "teraType":"None"
@@ -31685,7 +31685,7 @@ var CUSTOMSETDEX_SV = {
                "Electro Ball",
                "Heat Wave",
                "Agility",
-               "Super Fang"
+               "Helping Hand"
             ],
            "ability":"Libero",
            "teraType":"None"
@@ -31715,7 +31715,7 @@ var CUSTOMSETDEX_SV = {
                "Electro Ball",
                "Heat Wave",
                "Agility",
-               "Super Fang"
+               "Helping Hand"
             ],
            "ability":"Libero",
            "teraType":"None"
@@ -31745,7 +31745,7 @@ var CUSTOMSETDEX_SV = {
                "Electro Ball",
                "Heat Wave",
                "Agility",
-               "Super Fang"
+               "Helping Hand"
             ],
            "ability":"Libero",
            "teraType":"None"
@@ -31775,7 +31775,7 @@ var CUSTOMSETDEX_SV = {
                "Electro Ball",
                "Heat Wave",
                "Agility",
-               "Super Fang"
+               "Helping Hand"
             ],
            "ability":"Libero",
            "teraType":"None"
@@ -32155,7 +32155,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Eviolite",
+           "item":"Wacan Berry",
            "level": 45,
            "nature":"Lonely",
            "battle_type":"Singles",
@@ -32165,7 +32165,7 @@ var CUSTOMSETDEX_SV = {
                "Ice Spinner",
                "Double-Edge"
             ],
-           "ability":"Torrent",
+           "ability":"Rain Dish",
            "teraType":"None"
         },
         "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona|": {
@@ -32185,7 +32185,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Eviolite",
+           "item":"Wacan Berry",
            "level": 40,
            "nature":"Lonely",
            "battle_type":"Singles",
@@ -32195,7 +32195,7 @@ var CUSTOMSETDEX_SV = {
                "Ice Spinner",
                "Double-Edge"
             ],
-           "ability":"Torrent",
+           "ability":"Rain Dish",
            "teraType":"None"
         },
        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona|": {
@@ -32215,7 +32215,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Eviolite",
+           "item":"Wacan Berry",
            "level": 45,
            "nature":"Lonely",
            "battle_type":"Singles",
@@ -32225,7 +32225,7 @@ var CUSTOMSETDEX_SV = {
                "Ice Spinner",
                "Double-Edge"
             ],
-           "ability":"Torrent",
+           "ability":"Rain Dish",
            "teraType":"None"
         },
         "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona|": {
@@ -32245,7 +32245,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Eviolite",
+           "item":"Wacan Berry",
            "level": 40,
            "nature":"Lonely",
            "battle_type":"Singles",
@@ -32255,7 +32255,7 @@ var CUSTOMSETDEX_SV = {
                "Ice Spinner",
                "Double-Edge"
             ],
-           "ability":"Torrent",
+           "ability":"Rain Dish",
            "teraType":"None"
         }
     },
@@ -33127,8 +33127,8 @@ var CUSTOMSETDEX_SV = {
            "battle_type":"Singles",
            "moves": [
                "Giga Drain",
-               "Draining Kiss",
-               "Grasswhistle",
+               "Dazzling Gleam",
+               "Pollen Puff",
                "Sunny Day"
             ],
            "ability":"Chlorophyll",
@@ -33156,11 +33156,11 @@ var CUSTOMSETDEX_SV = {
            "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
-               "Giga Drain",
-               "Draining Kiss",
-               "Grasswhistle",
-               "Sunny Day"
-            ],
+            "Giga Drain",
+            "Dazzling Gleam",
+            "Pollen Puff",
+            "Sunny Day"
+         ],
            "ability":"Chlorophyll",
            "teraType":"None"
         },
@@ -33186,11 +33186,11 @@ var CUSTOMSETDEX_SV = {
            "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
-               "Giga Drain",
-               "Draining Kiss",
-               "Grasswhistle",
-               "Sunny Day"
-            ],
+            "Giga Drain",
+            "Dazzling Gleam",
+            "Pollen Puff",
+            "Sunny Day"
+         ],
            "ability":"Chlorophyll",
            "teraType":"None"
         },
@@ -33216,11 +33216,11 @@ var CUSTOMSETDEX_SV = {
            "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
-               "Giga Drain",
-               "Draining Kiss",
-               "Grasswhistle",
-               "Sunny Day"
-            ],
+            "Giga Drain",
+            "Dazzling Gleam",
+            "Pollen Puff",
+            "Sunny Day"
+         ],
            "ability":"Chlorophyll",
            "teraType":"None"
         }
@@ -34063,7 +34063,7 @@ var CUSTOMSETDEX_SV = {
                "Shadow Claw",
                "Iron Head"
             ],
-           "ability":"Sand Force",
+           "ability":"Sand Rush",
            "teraType":"None"
         },
         "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
