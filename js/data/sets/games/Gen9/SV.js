@@ -29877,7 +29877,7 @@ var CUSTOMSETDEX_SV = {
                "Crunch",
                "Facade",
                "Acrobatics",
-               "Will-O-Wisp"
+               "Psychic Fangs"
             ],
            "ability":"Moxie",
            "teraType":"None"
@@ -29937,7 +29937,7 @@ var CUSTOMSETDEX_SV = {
                "Crunch",
                "Facade",
                "Acrobatics",
-               "Will-O-Wisp"
+               "Psychic Fangs"
             ],
            "ability":"Moxie",
            "teraType":"None"
@@ -30025,9 +30025,9 @@ var CUSTOMSETDEX_SV = {
            "battle_type":"Singles",
            "moves": [
                "Hyper Voice",
-               "Heat Wave",
+               "Flamethrower",
                "Dark Pulse",
-               "Psychic Fangs"
+               "Will-O-Wisp"
             ],
            "ability":"Unnerve",
            "teraType":"None"
@@ -30054,10 +30054,10 @@ var CUSTOMSETDEX_SV = {
            "nature":"Hasty",
            "battle_type":"Singles",
            "moves": [
-               "Hyper Voice",
-               "Heat Wave",
-               "Dark Pulse",
-               "Psychic Fangs"
+            "Hyper Voice",
+            "Flamethrower",
+            "Dark Pulse",
+            "Will-O-Wisp"
             ],
            "ability":"Unnerve",
            "teraType":"None"
@@ -30084,10 +30084,10 @@ var CUSTOMSETDEX_SV = {
            "nature":"Hasty",
            "battle_type":"Singles",
            "moves": [
-               "Hyper Voice",
-               "Heat Wave",
-               "Dark Pulse",
-               "Psychic Fangs"
+            "Hyper Voice",
+            "Flamethrower",
+            "Dark Pulse",
+            "Will-O-Wisp"
             ],
            "ability":"Unnerve",
            "teraType":"None"
@@ -30114,10 +30114,10 @@ var CUSTOMSETDEX_SV = {
            "nature":"Hasty",
            "battle_type":"Singles",
            "moves": [
-               "Hyper Voice",
-               "Heat Wave",
-               "Dark Pulse",
-               "Psychic Fangs"
+            "Hyper Voice",
+            "Flamethrower",
+            "Dark Pulse",
+            "Will-O-Wisp"
             ],
            "ability":"Unnerve",
            "teraType":"None"
