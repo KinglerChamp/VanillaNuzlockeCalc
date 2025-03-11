@@ -33662,6 +33662,36 @@ var CUSTOMSETDEX_SV = {
            "ability":"Mummy",
            "teraType":"None"
         },
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Black Sludge",
+           "level": 38,
+           "nature":"Calm",
+           "battle_type":"Singles",
+           "moves": [
+               "Will-O-Wisp",
+               "Hex",
+               "Trick",
+               "Destiny Bond"
+            ],
+           "ability":"Mummy",
+           "teraType":"None"
+        },
        "Magma Leader Maxie |Mt. Chimney|": {
            "ivs": {
                "hp": 31,
