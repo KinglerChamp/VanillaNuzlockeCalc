@@ -7757,7 +7757,7 @@ var CUSTOMSETDEX_SV = {
                "Protect",
                "Thunder",
                "Shadow Ball",
-               "Explosion"
+               "Psychic"
             ],
            "ability":"Flare Boost",
            "teraType":"None"
@@ -7787,7 +7787,7 @@ var CUSTOMSETDEX_SV = {
                "Protect",
                "Thunder",
                "Shadow Ball",
-               "Explosion"
+               "Psychic"
             ],
            "ability":"Flare Boost",
            "teraType":"None"
