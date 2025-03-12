@@ -21460,8 +21460,10 @@ var CUSTOMSETDEX_SV = {
             ],
            "ability":"Torrent",
            "teraType":"None"
-        },
-       "Champion Wallace": {
+        }
+    },
+    "Toedscool": {
+        "Champion Wallace": {
            "ivs": {
                "hp": 31,
                "at": 31,
@@ -21478,15 +21480,15 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Focus Sash",
+           "item":"Leftovers",
            "level": 64,
-           "nature":"Rash",
+           "nature":"Lax",
            "battle_type":"Singles",
            "moves": [
-               "Hydro Pump",
-               "Blizzard",
-               "Fling",
-               "Acrobatics"
+               "Toxic",
+               "Earth Power",
+               "Giga Drain",
+               "Protect"
             ],
            "ability":"Protean",
            "teraType":"None"
