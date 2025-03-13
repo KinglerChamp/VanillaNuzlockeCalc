@@ -26467,7 +26467,7 @@ var CUSTOMSETDEX_SV = {
            "nature":"Bold",
            "battle_type":"Doubles",
            "moves": [
-               "Fake Out",
+               "Dark Pulse",
                "Expanding Force",
                "Light Screen",
                "Reflect"
@@ -26497,7 +26497,7 @@ var CUSTOMSETDEX_SV = {
            "nature":"Bold",
            "battle_type":"Doubles",
            "moves": [
-               "Fake Out",
+               "Dark Pulse",
                "Expanding Force",
                "Light Screen",
                "Reflect"
