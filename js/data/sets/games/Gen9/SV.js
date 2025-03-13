@@ -28889,6 +28889,36 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Grimer-Alola": {
+    "Pkmn Trainer 1 Slow Fella": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Iron Ball",
+           "level": 45,
+           "nature":"Adamant",
+           "battle_type":"Singles",
+           "moves": [
+               "Fling",
+               "Ice Punch",
+               "Knock Off",
+               "Gunk Shot"
+            ],
+           "ability":"Poison Touch",
+           "sub_index": 2
+        },
        "Ninja Boy Lao": {
            "ivs": {
                "hp": 31,
@@ -35633,38 +35663,6 @@ var CUSTOMSETDEX_SV = {
             ],
            "ability":"Iron Barbs",
            "sub_index": 0
-        }
-    },
-   "Grimer-alola": {
-       "Pkmn Trainer 1 Slow Fella": {
-           "ivs": {
-               "hp": 31,
-               "at": 31,
-               "df": 31,
-               "sa": 31,
-               "sd": 31,
-               "sp": 31
-            },
-           "evs": {
-               "hp": 0,
-               "at": 0,
-               "df": 0,
-               "sa": 0,
-               "sd": 0,
-               "sp": 0
-            },
-           "item":"Iron Ball",
-           "level": 45,
-           "nature":"Adamant",
-           "battle_type":"Singles",
-           "moves": [
-               "Fling",
-               "Ice Punch",
-               "Knock Off",
-               "Gunk Shot"
-            ],
-           "ability":"Poison Touch",
-           "sub_index": 2
         }
     },
    "Wattrel": {
