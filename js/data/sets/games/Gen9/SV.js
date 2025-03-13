@@ -17670,7 +17670,10 @@ var CUSTOMSETDEX_SV = {
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Misty Explosion"
+               "Misty Explosion",
+               "Hyper Voice",
+               "Alluring Voice",
+               "Psychic"
             ],
            "ability":"Cute Charm",
            "teraType":"None"
