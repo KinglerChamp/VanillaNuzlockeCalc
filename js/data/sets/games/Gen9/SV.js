@@ -24183,7 +24183,7 @@ var CUSTOMSETDEX_SV = {
            "moves": [
                "Stomping Tantrum",
                "Encore",
-               "Substitute",
+               "Ice Punch",
                "Fissure"
             ],
            "ability":"Thick Fat",
