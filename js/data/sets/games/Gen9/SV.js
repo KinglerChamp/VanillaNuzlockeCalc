@@ -21423,7 +21423,7 @@ var CUSTOMSETDEX_SV = {
            "moves": [
                "Baneful Bunker",
                "Toxic Spikes",
-               "Wide Guard",
+               "Toxic",
                "Recover"
             ],
            "ability":"Regenerator",
@@ -22525,7 +22525,7 @@ var CUSTOMSETDEX_SV = {
                "Silk Trap",
                "Spider Web",
                "Spikes",
-               "Gastro Acid"
+               "Counter"
             ],
            "ability":"Insomnia",
            "sub_index": 2
@@ -35050,7 +35050,7 @@ var CUSTOMSETDEX_SV = {
            "nature":"Bold",
            "battle_type":"Doubles",
            "moves": [
-               "Light Screen",
+               "Round",
                "Moonlight",
                "Lucky Chant",
                "Helping Hand"
@@ -35085,7 +35085,7 @@ var CUSTOMSETDEX_SV = {
                "Draining Kiss",
                "Protect",
                "Reflect",
-               "Attract"
+               "Light Screen"
             ],
            "ability":"Healer",
            "sub_index": 1
