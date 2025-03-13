@@ -9491,7 +9491,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Kings Rock",
+           "item":"King's Rock",
            "level": 25,
            "nature":"Jolly",
            "battle_type":"Singles",
@@ -31383,7 +31383,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Kings Rock",
+           "item":"King's Rock",
            "level": 24,
            "nature":"Adamant",
            "battle_type":"Singles",
@@ -31471,7 +31471,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Kings Rock",
+           "item":"King's Rock",
            "level": 24,
            "nature":"Adamant",
            "battle_type":"Singles",
@@ -35043,7 +35043,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Kings Rock",
+           "item":"King's Rock",
            "level": 15,
            "nature":"Impish",
            "battle_type":"Singles",
@@ -35651,7 +35651,7 @@ var CUSTOMSETDEX_SV = {
                "sd": 0,
                "sp": 0
             },
-           "item":"Kings Rock",
+           "item":"King's Rock",
            "level": 45,
            "nature":"Sassy",
            "battle_type":"Singles",
