@@ -25774,6 +25774,38 @@ var CUSTOMSETDEX_SV = {
            "teraType":"None"
         }
     },
+    "Pineco": {
+        "Pkmn Trainer 1 Boom Dude": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Choice Band",
+           "level": 35,
+           "nature":"Lonely",
+           "battle_type":"Singles",
+           "moves": [
+               "Explosion",
+               "Ice Spinner",
+               "Drill Run",
+               "Gyro Ball"
+            ],
+           "ability":"Battle Armor",
+           "sub_index": 4
+        }
+    },
    "Type: Null": {
        "Leader Norman": {
            "ivs": {
@@ -25799,41 +25831,11 @@ var CUSTOMSETDEX_SV = {
            "moves": [
                "Iron Defense",
                "Crush Claw",
-               "Zen Headbutt",
+               "Flame Charge",
                "Crunch"
             ],
            "ability":"Battle Armor",
            "teraType":"None"
-        },
-       "Pkmn Trainer 1 Boom Dude": {
-           "ivs": {
-               "hp": 31,
-               "at": 31,
-               "df": 31,
-               "sa": 31,
-               "sd": 31,
-               "sp": 31
-            },
-           "evs": {
-               "hp": 0,
-               "at": 0,
-               "df": 0,
-               "sa": 0,
-               "sd": 0,
-               "sp": 0
-            },
-           "item":"Life Orb",
-           "level": 35,
-           "nature":"Adamant",
-           "battle_type":"Singles",
-           "moves": [
-               "Explosion",
-               "Shadow Claw",
-               "Flame Charge",
-               "Iron Head"
-            ],
-           "ability":"Battle Armor",
-           "sub_index": 4
         }
     },
    "Eevee-Starter-Fairy": {
@@ -32641,7 +32643,7 @@ var CUSTOMSETDEX_SV = {
             },
            "item":"Babiri Berry",
            "level": 35,
-           "nature":"Lonely",
+           "nature":"Adamant",
            "battle_type":"Singles",
            "moves": [
                "Explosion",
