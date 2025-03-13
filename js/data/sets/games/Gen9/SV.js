@@ -26530,7 +26530,7 @@ var CUSTOMSETDEX_SV = {
            "battle_type":"Doubles",
            "moves": [
                "Heavy Slam",
-               "Ice Spinner",
+               "Rock Slide",
                "Expanding Force",
                "Rain Dance"
             ],
@@ -26560,7 +26560,7 @@ var CUSTOMSETDEX_SV = {
            "battle_type":"Doubles",
            "moves": [
                "Heavy Slam",
-               "Ice Spinner",
+               "Rock Slide",
                "Expanding Force",
                "Rain Dance"
             ],
