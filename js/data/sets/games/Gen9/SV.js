@@ -7814,7 +7814,7 @@ var CUSTOMSETDEX_SV = {
            "nature":"Bold",
            "battle_type":"Singles",
            "moves": [
-               "Ominous Wind",
+               "Hex",
                "Air Slash",
                "Thunder Wave",
                "Destiny Bond"
@@ -26470,12 +26470,12 @@ var CUSTOMSETDEX_SV = {
            "nature":"Bold",
            "battle_type":"Doubles",
            "moves": [
-               "Dark Pulse",
-               "Expanding Force",
-               "Light Screen",
-               "Reflect"
+               "Fake Out",
+               "Psychic Terrain",
+               "Rain Dance",
+               "Expanding Force"
             ],
-           "ability":"Psychic Surge",
+           "ability":"Prankster",
            "teraType":"None"
         },
        "Leader Tate & Liza |Team 2| | (1)": {
@@ -26500,12 +26500,12 @@ var CUSTOMSETDEX_SV = {
            "nature":"Bold",
            "battle_type":"Doubles",
            "moves": [
-               "Dark Pulse",
-               "Expanding Force",
-               "Light Screen",
-               "Reflect"
+               "Fake Out",
+               "Psychic Terrain",
+               "Rain Dance",
+               "Expanding Force"
             ],
-           "ability":"Psychic Surge",
+           "ability":"Prankster",
            "teraType":"None"
         }
     },
@@ -26533,9 +26533,9 @@ var CUSTOMSETDEX_SV = {
            "battle_type":"Doubles",
            "moves": [
                "Heavy Slam",
-               "Rock Slide",
                "Expanding Force",
-               "Rain Dance"
+               "Reflect",
+               "Light Screen"
             ],
            "ability":"Heavy Metal",
            "teraType":"None"
@@ -26563,9 +26563,9 @@ var CUSTOMSETDEX_SV = {
            "battle_type":"Doubles",
            "moves": [
                "Heavy Slam",
-               "Rock Slide",
                "Expanding Force",
-               "Rain Dance"
+               "Reflect",
+               "Light Screen"
             ],
            "ability":"Heavy Metal",
            "teraType":"None"
