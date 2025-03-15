@@ -351,7 +351,7 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Eviolite",
-           "level": 54,
+           "level": 60,
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
@@ -12796,7 +12796,7 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Leftovers",
-           "level": 57,
+           "level": 60,
            "nature":"Calm",
            "battle_type":"Singles",
            "moves": [
@@ -22800,7 +22800,7 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Dawn Stone",
-           "level": 58,
+           "level": 61,
            "nature":"Adamant",
            "battle_type":"Singles",
            "moves": [
@@ -26313,7 +26313,7 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Throat Spray",
-           "level": 55,
+           "level": 60,
            "nature":"Relaxed",
            "battle_type":"Singles",
            "moves": [
@@ -29281,7 +29281,7 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Flying Gem",
-           "level": 56,
+           "level": 60,
            "nature":"Jolly",
            "battle_type":"Singles",
            "moves": [
@@ -29354,7 +29354,7 @@ var CUSTOMSETDEX_SV = {
            "sub_index": 1
         }
     },
-   "Budew-mega": {
+   "Budew": {
        "Rival Wally |Victory Road|": {
            "ivs": {
                "hp": 31,
@@ -29373,7 +29373,7 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Rose Incense",
-           "level": 58,
+           "level": 62,
            "nature":"Bold",
            "battle_type":"Singles",
            "moves": [
