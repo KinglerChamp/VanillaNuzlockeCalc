@@ -34925,8 +34925,8 @@ var CUSTOMSETDEX_SV = {
            "moves": [
                "Perish Song",
                "Sticky Web",
-               "Endeavor",
-               "Struggle Bug"
+               "Trailblaze",
+               "Rock Tomb"
             ],
            "ability":"Technician",
            "teraType":"None"
