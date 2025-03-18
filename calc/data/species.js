@@ -10142,6 +10142,7 @@ var LE_PATCH = {
     Nymble: { types: ['Bug', 'Dark'] },
     Capsakid: { types: ['Grass', 'Fire'] },
     Doduo: { types: ['Ground', 'Flying'] },
+    Charmander: { types: ['Fire', 'Dragon'] },
 
     Pichu: { otherFormes: ['Pichu-Mega'] },
     Cleffa: { otherFormes: ['Cleffa-Mega'] },
