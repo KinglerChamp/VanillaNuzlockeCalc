@@ -24370,7 +24370,7 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Ice Incense",
-           "level": 45,
+           "level": 62,
            "nature":"Bold",
            "battle_type":"Singles",
            "moves": [
@@ -33013,9 +33013,9 @@ var CUSTOMSETDEX_SV = {
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Solar Beam",
+               "Swords Dance",
                "Weather Ball",
-               "Pollen Puff",
+               "Solar Blade",
                "Sunny Day"
             ],
            "ability":"Flower Gift",
@@ -33043,9 +33043,9 @@ var CUSTOMSETDEX_SV = {
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Solar Beam",
+               "Swords Dance",
                "Weather Ball",
-               "Pollen Puff",
+               "Solar Blade",
                "Sunny Day"
             ],
            "ability":"Flower Gift",
@@ -33073,9 +33073,9 @@ var CUSTOMSETDEX_SV = {
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Solar Beam",
+               "Swords Dance",
                "Weather Ball",
-               "Pollen Puff",
+               "Solar Blade",
                "Sunny Day"
             ],
            "ability":"Flower Gift",
@@ -33103,9 +33103,9 @@ var CUSTOMSETDEX_SV = {
            "nature":"Modest",
            "battle_type":"Singles",
            "moves": [
-               "Solar Beam",
+               "Swords Dance",
                "Weather Ball",
-               "Pollen Puff",
+               "Solar Blade",
                "Sunny Day"
             ],
            "ability":"Flower Gift",
