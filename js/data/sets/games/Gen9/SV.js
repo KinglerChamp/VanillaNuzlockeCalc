@@ -24029,7 +24029,10 @@ var CUSTOMSETDEX_SV = {
            "nature":"Jolly",
            "battle_type":"Singles",
            "moves": [
-               "Dragon Darts"
+               "Dragon Darts",
+               "Poltergeist",
+               "Shadow Sneak",
+               "Dragon Tail"
             ],
            "ability":"Clear Body",
            "teraType":"None"
@@ -24157,7 +24160,7 @@ var CUSTOMSETDEX_SV = {
                "Curse",
                "Shadow Punch",
                "Earthquake",
-               "Last Resort"
+               "Giga Impact"
             ],
            "ability":"Thick Fat",
            "teraType":"None"
