@@ -24410,7 +24410,7 @@ var CUSTOMSETDEX_SV = {
            "battle_type":"Singles",
            "moves": [
                "Reflect",
-               "Light Screen",
+               "Leech Seed",
                "Wood Hammer",
                "Dragon Hammer"
             ],
