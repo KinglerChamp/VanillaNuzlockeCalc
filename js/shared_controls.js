@@ -78,7 +78,7 @@ var bounds = {
 	"ivs": [0, 31],
 	"dvs": [0, 15],
 	"move-bp": [0, 65535],
-	"g1g2-evs": [0,65535]
+	"g1g2-evs": [0, 65535]
 };
 for (var bounded in bounds) {
 	attachValidation(bounded, bounds[bounded][0], bounds[bounded][1]);
@@ -142,36 +142,44 @@ $(".sd .base, .sd .evs, .sd .ivs").bind("keyup change", function () {
 $(".sp .base, .sp .evs, .sp .ivs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'sp');
 });
-$(".sl .base").keyup(function () {
+$(".sl .base, .sl .g1g2-evs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'sl');
 });
-$(".at .dvs").keyup(function () {
+$(".at .dvs, .at .g1g2-evs").bind("keyup change", function () {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'at');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".df .dvs").keyup(function () {
+$(".df .dvs, .df .g1g2-evs").bind("keyup change", function () {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'df');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".sa .dvs").keyup(function () {
-	var poke = $(this).closest(".poke-info");
+$(".sa .dvs").bind("keyup change", function () {
+    var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sa');
-	poke.find(".sd .dvs").val($(this).val());
-	calcStat(poke, 'sd');
-	poke.find(".hp .dvs").val(getHPDVs(poke));
-	calcHP(poke);
+    poke.find(".sd .dvs").val($(this).val());
+    calcStat(poke, 'sd');
+    poke.find(".hp .dvs").val(getHPDVs(poke));
+    calcHP(poke);
 });
-$(".sp .dvs").keyup(function () {
+$(".sa .g1g2-evs").bind("keyup change", function () {
+    var poke = $(this).closest(".poke-info");
+	calcStat(poke, 'sa');
+    poke.find(".sd .g1g2-evs").val($(this).val());
+    calcStat(poke, 'sd');
+    poke.find(".hp .dvs").val(getHPDVs(poke));
+    calcHP(poke);
+});
+$(".sp .dvs, .sp .g1g2-evs").bind("keyup change", function () {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sp');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
 });
-$(".sl .dvs").keyup(function () {
+$(".sl .dvs, .sl .g1g2-evs").bind("keyup change", function () {
 	var poke = $(this).closest(".poke-info");
 	calcStat(poke, 'sl');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
@@ -676,15 +684,19 @@ $(".set-selector").change(function () {
 			pokeObj.find(".level").val(set.level === undefined ? 100 : set.level);
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
-			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : 15);
+			pokeObj.find(".hp .g1g2-evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
+			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : (set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 15);
 			for (i = 0; i < LEGACY_STATS[gen].length; i++) {
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(
 					(set.evs && set.evs[LEGACY_STATS[gen][i]] !== undefined) ?
 						set.evs[LEGACY_STATS[gen][i]] : ($("#randoms").prop("checked") ? 84 : 0));
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .ivs").val(
 					(set.ivs && set.ivs[LEGACY_STATS[gen][i]] !== undefined) ? set.ivs[LEGACY_STATS[gen][i]] : 31);
+				pokeObj.find("." + LEGACY_STATS[gen][i] + " .g1g2-evs").val(
+					(set.evs && set.evs[LEGACY_STATS[gen][i]] !== undefined) ?
+						set.evs[LEGACY_STATS[gen][i]] : ($("#randoms").prop("checked") ? 84 : 0));
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(
-					(set.dvs && set.dvs[LEGACY_STATS[gen][i]] !== undefined) ? set.dvs[LEGACY_STATS[gen][i]] : 15);
+					(set.dvs && set.dvs[LEGACY_STATS[gen][i]] !== undefined) ? set.dvs[LEGACY_STATS[gen][i]] : (set.ivs && set.ivs[LEGACY_STATS[gen][i]] !== undefined) ? set.ivs[LEGACY_STATS[gen][i]] : 15);
 			}
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
 			var abilityFallback = (typeof pokemon.abilities !== "undefined") ? pokemon.abilities[0] : "";
@@ -725,10 +737,12 @@ $(".set-selector").change(function () {
 			pokeObj.find(".level").val(defaultLevel);
 			pokeObj.find(".hp .evs").val(0);
 			pokeObj.find(".hp .ivs").val(31);
+			pokeObj.find(".hp .g1g2-evs").val(0);
 			pokeObj.find(".hp .dvs").val(15);
 			for (i = 0; i < LEGACY_STATS[gen].length; i++) {
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(0);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .ivs").val(31);
+				pokeObj.find("." + LEGACY_STATS[gen][i] + " .g1g2-evs").val(0);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(15);
 			}
 			pokeObj.find(".nature").val("Hardy");
@@ -1012,14 +1026,12 @@ function createPokemon(pokeInfo) {
 		var setName = pokeInfo.substring(pokeInfo.indexOf("(") + 1, pokeInfo.lastIndexOf(")"));
 		var isRandoms = $("#randoms").prop("checked");
 		var set = isRandoms ? randdex[name] : setdex[name][setName];
-
 		var ivs = {};
 		var evs = {};
 		for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 			var legacyStat = LEGACY_STATS[gen][i];
 			var stat = legacyStatToStat(legacyStat);
-
-			ivs[stat] = (gen >= 3 && set.ivs && typeof set.ivs[legacyStat] !== "undefined") ? set.ivs[legacyStat] : 31;
+			ivs[stat] = (set.ivs && typeof set.ivs[legacyStat] !== "undefined") ? set.ivs[legacyStat] : 31;
 			evs[stat] = (set.evs && typeof set.evs[legacyStat] !== "undefined") ? set.evs[legacyStat] : 0;
 		}
 		var moveNames = set.moves;
@@ -1074,7 +1086,8 @@ function createPokemon(pokeInfo) {
 			var stat = legacyStatToStat(LEGACY_STATS[gen][i]);
 			baseStats[stat === 'spc' ? 'spa' : stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .base").val();
 			ivs[stat] = gen > 2 ? ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .ivs").val() : ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .dvs").val() * 2 + 1;
-			evs[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .evs").val();
+			evs[stat] = gen > 2 ? ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .evs").val() : ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .g1g2-evs").val();
+			if (gen === 2) evs['spd'] = evs['spa']; 
 			boosts[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .boost").val();
 		}
 		if (gen === 1) baseStats.spd = baseStats.spa;
@@ -1254,7 +1267,7 @@ function calcStat(poke, StatID) {
 	var nature, ivs, evs;
 	if (gen < 3) {
 		ivs = ~~stat.find(".dvs").val() * 2;
-		evs = 252;
+		evs = ~~stat.find(".g1g2-evs").val();
 	} else {
 		ivs = ~~stat.find(".ivs").val();
 		evs = ~~stat.find(".evs").val();
