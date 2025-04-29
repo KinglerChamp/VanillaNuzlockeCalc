@@ -9222,10 +9222,10 @@ var CUSTOMSETDEX_SS = {
             "moves": [
                 "Scald",
                 "Air Slash",
-                "Ice Beam",
-                "Rain Dance"
+                "Whirlpool",
+                "Aqua Ring"
              ],
-            "ability":"Water Absorb",
+            "ability":"Swift Swim",
             "teraType":"None"
          }
      },
@@ -20127,9 +20127,9 @@ var CUSTOMSETDEX_SS = {
             "battle_type":"Singles",
             "moves": [
                 "Rain Dance",
-                "Hydro Pump",
+                "Muddy Water",
                 "Dragon Pulse",
-                "Rest"
+                "Agility"
              ],
             "ability":"Swift Swim",
             "teraType":"None"
@@ -21274,10 +21274,10 @@ var CUSTOMSETDEX_SS = {
             "moves": [
                 "Toxic",
                 "Venoshock",
-                "Soak",
-                "Recover"
+                "Protect",
+                "Soak"
              ],
-            "ability":"Merciless",
+            "ability":"Rgenerator",
             "teraType":"None"
          },
         "Pkmn Trainer 1 Protector": {
@@ -23131,17 +23131,17 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Eviolite",
+            "item":"Sitrus Berry",
             "level": 44,
             "nature":"Modest",
             "battle_type":"Doubles",
             "moves": [
-                "Calm Mind",
-                "Stored Power",
-                "Energy Ball",
-                "Thunderbolt"
+                "Psychic",
+                "Confuse Ray",
+                "Trailblaze",
+                "Charge Beam"
              ],
-            "ability":"Sap Sipper",
+            "ability":"Cud Chew",
             "teraType":"None"
          }
      },
@@ -26129,12 +26129,12 @@ var CUSTOMSETDEX_SS = {
             "nature":"Bold",
             "battle_type":"Doubles",
             "moves": [
-                "Fake Out",
+                "Light Screen",
                 "Psychic Terrain",
-                "Rain Dance",
+                "Reflect",
                 "Expanding Force"
              ],
-            "ability":"Prankster",
+            "ability":"Infiltrator",
             "teraType":"None"
          },
         "Leader Tate & Liza |Team 2| | (1)": {
@@ -26159,12 +26159,12 @@ var CUSTOMSETDEX_SS = {
             "nature":"Bold",
             "battle_type":"Doubles",
             "moves": [
-                "Fake Out",
+                "Light Screen",
                 "Psychic Terrain",
-                "Rain Dance",
+                "Reflect",
                 "Expanding Force"
              ],
-            "ability":"Prankster",
+            "ability":"Infiltrator",
             "teraType":"None"
          }
      },
@@ -26191,12 +26191,12 @@ var CUSTOMSETDEX_SS = {
             "nature":"Lonely",
             "battle_type":"Doubles",
             "moves": [
-                "Heavy Slam",
-                "Expanding Force",
-                "Reflect",
-                "Light Screen"
+                "Flash Cannon",
+                "Hypnosis",
+                "Extrasensory",
+                "Future Sight"
              ],
-            "ability":"Heavy Metal",
+            "ability":"Heatproof",
             "teraType":"None"
          },
         "Leader Tate & Liza |Team 2| | (1)": {
@@ -26221,12 +26221,12 @@ var CUSTOMSETDEX_SS = {
             "nature":"Lonely",
             "battle_type":"Doubles",
             "moves": [
-                "Heavy Slam",
-                "Expanding Force",
-                "Reflect",
-                "Light Screen"
+                "Flash Cannon",
+                "Hypnosis",
+                "Extrasensory",
+                "Future Sight"
              ],
-            "ability":"Heavy Metal",
+            "ability":"Heatproof",
             "teraType":"None"
          }
      },
@@ -26248,17 +26248,17 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Quick Claw",
+            "item":"Iapapa Berry",
             "level": 44,
             "nature":"Adamant",
             "battle_type":"Doubles",
             "moves": [
-                "Curse",
+                "Amnesia",
                 "Zen Headbutt",
                 "Poison Jab",
                 "Slack Off"
              ],
-            "ability":"Quick Draw",
+            "ability":"Gluttony",
             "teraType":"None"
          },
         "Leader Tate & Liza |Team 2| | (1)": {
@@ -26278,17 +26278,17 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Quick Claw",
+            "item":"Iapapa Berry",
             "level": 44,
             "nature":"Adamant",
             "battle_type":"Doubles",
             "moves": [
-                "Curse",
+                "Amnesia",
                 "Zen Headbutt",
                 "Poison Jab",
                 "Slack Off"
              ],
-            "ability":"Quick Draw",
+            "ability":"Gluttony",
             "teraType":"None"
          }
      },
@@ -26315,8 +26315,8 @@ var CUSTOMSETDEX_SS = {
             "nature":"Bold",
             "battle_type":"Doubles",
             "moves": [
-                "Expanding Force",
-                "Ice Beam",
+                "Psychic",
+                "Icy Wind",
                 "Recover",
                 "Light Screen"
              ],
@@ -26345,9 +26345,9 @@ var CUSTOMSETDEX_SS = {
             "nature":"Bold",
             "battle_type":"Doubles",
             "moves": [
-                "Psychic",
+                "Extrasensory",
                 "Dazzling Gleam",
-                "Psyshock",
+                "Recover",
                 "Reflect"
              ],
             "ability":"Technician",
@@ -26375,8 +26375,8 @@ var CUSTOMSETDEX_SS = {
             "nature":"Bold",
             "battle_type":"Doubles",
             "moves": [
-                "Expanding Force",
-                "Ice Beam",
+                "Psychic",
+                "Icy Wind",
                 "Recover",
                 "Light Screen"
              ],
@@ -26405,9 +26405,9 @@ var CUSTOMSETDEX_SS = {
             "nature":"Bold",
             "battle_type":"Doubles",
             "moves": [
-                "Psychic",
+                "Extrasensory",
                 "Dazzling Gleam",
-                "Psyshock",
+                "Recover",
                 "Reflect"
              ],
             "ability":"Technician",
@@ -26432,14 +26432,14 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Rindo Berry",
+            "item":"Sitrus Berry",
             "level": 48,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Liquidation",
+                "Waterfall",
                 "Earthquake",
-                "Stealth Rock",
+                "Rock Smash",
                 "Endeavor"
              ],
             "ability":"Torrent",
@@ -26464,15 +26464,15 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Choice Band",
+            "item":"Muscle Band",
             "level": 48,
             "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
-                "Liquidation",
-                "Leech Life",
-                "Throat Chop",
-                "Poison Jab"
+                "Aqua Jet",
+                "First Impression",
+                "Sucker Punch",
+                "Leech Life"
              ],
             "ability":"Wimp Out",
             "teraType":"None"
@@ -26496,15 +26496,15 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"White Herb",
+            "item":"Focus Sash",
             "level": 49,
             "nature":"Calm",
             "battle_type":"Singles",
             "moves": [
                 "Ancient Power",
-                "Ice Beam",
-                "Scald",
-                "Shell Smash"
+                "Icy Wind",
+                "Brine",
+                "Surf"
              ],
             "ability":"Shell Armor",
             "teraType":"None"
