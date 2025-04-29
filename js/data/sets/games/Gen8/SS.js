@@ -232,12 +232,12 @@ var CUSTOMSETDEX_SS = {
                 "sp": 0
              },
             "item":"Focus Sash",
-            "level": 33,
+            "level": 31,
             "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
                 "Fake Out",
-                "Sing",
+                "Baby-Doll Eyes",
                 "Attract",
                 "Play Rough"
              ],
@@ -2190,12 +2190,12 @@ var CUSTOMSETDEX_SS = {
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Brave Bird",
-                "Close Combat",
+                "Aerial Ace",
+                "Zen Headbutt",
                 "Body Slam",
                 "Rock Slide"
              ],
-            "ability":"Sheer Force",
+            "ability":"Hustle",
             "teraType":"None"
          },
         "Bird Keeper Chester": {
@@ -2456,17 +2456,17 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Eviolite",
-            "level": 24,
+            "item":"Muscle Band",
+            "level": 23,
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Charge Beam",
-                "Ember",
-                "Snarl",
-                "Light Screen"
+                "Shock Wave",
+                "Bite",
+                "Quick Attack",
+                "Howl"
              ],
-            "ability":"Lightning Rod",
+            "ability":"Static",
             "teraType":"None"
          },
         "Youngster Timmy": {
@@ -3234,17 +3234,17 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Focus Sash",
+            "item":"Leftovers",
             "level": 39,
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Hurricane",
+                "Air Slash",
                 "Surf",
                 "Rain Dance",
-                "Tailwind"
+                "Aqua Ring"
              ],
-            "ability":"Drizzle",
+            "ability":"Rain Dish",
             "teraType":"None"
          },
         "School Kid Paul": {
@@ -7814,12 +7814,12 @@ var CUSTOMSETDEX_SS = {
             "nature":"Bold",
             "battle_type":"Singles",
             "moves": [
-                "Hex",
+                "Ominous Wind",
                 "Air Slash",
                 "Thunder Wave",
-                "Destiny Bond"
+                "Tailwind"
              ],
-            "ability":"Unburden",
+            "ability":"Aftermath",
             "teraType":"None"
          }
      },
@@ -8004,36 +8004,6 @@ var CUSTOMSETDEX_SS = {
                 "Thunder Wave"
              ],
             "ability":"Surge Surfer",
-            "teraType":"None"
-         },
-        "Leader Wattson": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Leftovers",
-            "level": 24,
-            "nature":"Careful",
-            "battle_type":"Singles",
-            "moves": [
-                "Spark",
-                "Knock Off",
-                "Coil",
-                "Headbutt"
-             ],
-            "ability":"Levitate",
             "teraType":"None"
          },
         "Triathlete Anthony": {
@@ -10262,36 +10232,6 @@ var CUSTOMSETDEX_SS = {
                 "Flame Wheel"
              ],
             "ability":"Hustle",
-            "teraType":"None"
-         },
-        "Leader Flannery": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Choice Scarf",
-            "level": 29,
-            "nature":"Adamant",
-            "battle_type":"Singles",
-            "moves": [
-                "Fire Punch",
-                "Zen Headbutt",
-                "Superpower",
-                "Ice Punch"
-             ],
-            "ability":"Gorilla Tactics",
             "teraType":"None"
          }
      },
@@ -12615,17 +12555,17 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Air Balloon",
+            "item":"Sitrus Berry",
             "level": 24,
             "nature":"Quiet",
             "battle_type":"Singles",
             "moves": [
-                "Mirror Shot",
+                "Magnet Bomb",
                 "Volt Switch",
-                "Swift",
+                "Iron Defense",
                 "Supersonic"
              ],
-            "ability":"Analytic",
+            "ability":"Sturdy",
             "teraType":"None"
          },
         "Triathlete Jacob": {
@@ -16769,9 +16709,9 @@ var CUSTOMSETDEX_SS = {
             "nature":"Careful",
             "battle_type":"Singles",
             "moves": [
-                "Drill Peck",
-                "Earthquake",
-                "Knock Off",
+                "Aerial Ace",
+                "Stomping Tantrum",
+                "Swords Dance",
                 "Rest"
              ],
             "ability":"Early Bird",
@@ -17670,10 +17610,7 @@ var CUSTOMSETDEX_SS = {
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Misty Explosion",
-                "Hyper Voice",
-                "Alluring Voice",
-                "Psychic"
+                "Misty Explosion"
              ],
             "ability":"Cute Charm",
             "teraType":"None"
@@ -18192,36 +18129,6 @@ var CUSTOMSETDEX_SS = {
                 "Harden"
              ],
             "ability":"Magma Armor",
-            "teraType":"None"
-         },
-        "Leader Flannery": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Heat Rock",
-            "level": 28,
-            "nature":"Bold",
-            "battle_type":"Singles",
-            "moves": [
-                "Flamethrower",
-                "Ancient Power",
-                "Sunny Day",
-                "Yawn"
-             ],
-            "ability":"Drought",
             "teraType":"None"
          },
         "Kindler Bryant": {
@@ -23134,17 +23041,17 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Eviolite",
+            "item":"Sitrus Berry",
             "level": 44,
             "nature":"Modest",
             "battle_type":"Doubles",
             "moves": [
-                "Calm Mind",
-                "Stored Power",
-                "Energy Ball",
-                "Thunderbolt"
+                "Psychic",
+                "Confuse Ray",
+                "Trailblaze",
+                "Charge Beam"
              ],
-            "ability":"Sap Sipper",
+            "ability":"Cud Chew",
             "teraType":"None"
          },
         "Psychic Terry": {
@@ -23443,10 +23350,10 @@ var CUSTOMSETDEX_SS = {
             "nature":"Hasty",
             "battle_type":"Singles",
             "moves": [
-                "Rock Slide",
-                "Heat Crash",
-                "Flamethrower",
-                "Body Slam"
+                "Rock Tomb",
+                "Iron Head",
+                "Flame Wheel",
+                "Rapid Spin"
              ],
             "ability":"Steam Engine",
             "teraType":"None"
@@ -25099,38 +25006,6 @@ var CUSTOMSETDEX_SS = {
             "teraType":"None"
          }
      },
-    "Joltik": {
-        "Leader Wattson": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Focus Sash",
-            "level": 23,
-            "nature":"Timid",
-            "battle_type":"Singles",
-            "moves": [
-                "Sticky Web",
-                "Thunder Wave",
-                "Electro Ball",
-                "Struggle Bug"
-             ],
-            "ability":"Swarm",
-            "teraType":"None"
-         }
-     },
     "Chinchou": {
         "Leader Wattson": {
             "ivs": {
@@ -25150,13 +25025,13 @@ var CUSTOMSETDEX_SS = {
                 "sp": 0
              },
             "item":"Sitrus Berry",
-            "level": 23,
+            "level": 22,
             "nature":"Bold",
             "battle_type":"Singles",
             "moves": [
-                "Fairy Wind",
+                "Electro Ball",
                 "Bubble Beam",
-                "Volt Switch",
+                "Rain Dance",
                 "Supersonic"
              ],
             "ability":"Volt Absorb",
@@ -25394,10 +25269,10 @@ var CUSTOMSETDEX_SS = {
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Brick Break",
+                "Rock Smash",
                 "Thunder Punch",
-                "Fire Punch",
-                "Ice Punch"
+                "Charge",
+                "Thunder Wave"
              ],
             "ability":"Static",
             "teraType":"None"
@@ -25429,9 +25304,9 @@ var CUSTOMSETDEX_SS = {
                 "Lava Plume",
                 "Psybeam",
                 "Sunny Day",
-                "Destiny Bond"
+                "Night Shade"
              ],
-            "ability":"Mega Launcher",
+            "ability":"Flash Fire",
             "teraType":"None"
          }
      },
@@ -25453,15 +25328,15 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Focus Sash",
-            "level": 29,
+            "item":"Heat Rock",
+            "level": 27,
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Eruption",
-                "Flamethrower",
+                "Lava Plume",
+                "Swift",
                 "Scorching Sands",
-                "Infernal Parade"
+                "Sunny Day"
              ],
             "ability":"Blaze",
             "teraType":"None"
@@ -25487,12 +25362,12 @@ var CUSTOMSETDEX_SS = {
              },
             "item":"Magmarizer",
             "level": 30,
-            "nature":"Modest",
+            "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Flamethrower",
-                "Psychic",
-                "Scorching Sands",
+                "Fire Punch",
+                "Brick Break",
+                "Poison Jab",
                 "Will-O-Wisp"
              ],
             "ability":"Flame Body",
@@ -25553,7 +25428,7 @@ var CUSTOMSETDEX_SS = {
             "battle_type":"Singles",
             "moves": [
                 "Bitter Malice",
-                "Burning Jealousy",
+                "Roar",
                 "Nasty Plot",
                 "Hyper Voice"
              ],
@@ -25579,17 +25454,17 @@ var CUSTOMSETDEX_SS = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Protective Pads",
-            "level": 34,
+            "item":"Sitrus Berry",
+            "level": 32,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Double Hit",
-                "Acrobatics",
-                "Trailblaze",
+                "Tail Slap",
+                "Agility",
+                "Taunt",
                 "Thief"
              ],
-            "ability":"Technician",
+            "ability":"Skill Link",
             "teraType":"None"
          }
      },
@@ -25625,39 +25500,7 @@ var CUSTOMSETDEX_SS = {
             "sub_index": 4
          }
      },
-    "Type: Null": {
-        "Leader Norman": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Leftovers",
-            "level": 34,
-            "nature":"Careful",
-            "battle_type":"Singles",
-            "moves": [
-                "Iron Defense",
-                "Crush Claw",
-                "Flame Charge",
-                "Crunch"
-             ],
-            "ability":"Battle Armor",
-            "teraType":"None"
-         }
-     },
-    "Eevee-Starter-Fairy": {
+    "Eevee-Fairy": {
         "Leader Norman": {
             "ivs": {
                 "hp": 31,
@@ -25680,7 +25523,7 @@ var CUSTOMSETDEX_SS = {
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Sparkly Swirl",
+                "Alluring Voice",
                 "Shadow Ball",
                 "Hyper Voice",
                 "Calm Mind"
@@ -26254,10 +26097,10 @@ var CUSTOMSETDEX_SS = {
             "nature":"Naive",
             "battle_type":"Singles",
             "moves": [
-                "Shadow Ball",
-                "Moonblast",
+                "Ancient Power",
+                "Draining Kiss",
                 "Air Slash",
-                "Flamethrower"
+                "Metronome"
              ],
             "ability":"Serene Grace",
             "teraType":"None"
@@ -28228,36 +28071,6 @@ var CUSTOMSETDEX_SS = {
          }
      },
     "Scyther": {
-        "Leader Winona": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Sitrus Berry",
-            "level": 39,
-            "nature":"Naughty",
-            "battle_type":"Singles",
-            "moves": [
-                "Bug Bite",
-                "Dual Wingbeat",
-                "Thief",
-                "Trailblaze"
-             ],
-            "ability":"Technician",
-            "teraType":"None"
-         },
         "Ninja Boy Yasu": {
             "ivs": {
                 "hp": 31,
