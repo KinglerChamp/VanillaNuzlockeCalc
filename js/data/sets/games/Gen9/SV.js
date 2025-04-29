@@ -25735,7 +25735,7 @@ var CUSTOMSETDEX_SV = {
                "sp": 0
             },
            "item":"Eviolite",
-           "level": 33,
+           "level": 35,
            "nature":"Timid",
            "battle_type":"Singles",
            "moves": [
