@@ -15150,66 +15150,6 @@ var CUSTOMSETDEX_BDSP = {
             "ability":"Guts",
             "teraType":"None"
          },
-        "Rival May |Route 119| |Snivy|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Defense Incense",
-            "level": 39,
-            "nature":"Adamant",
-            "battle_type":"Singles",
-            "moves": [
-                "Drain Punch",
-                "Thunder Punch",
-                "Ice Punch",
-                "Bullet Punch"
-             ],
-            "ability":"Guts",
-            "teraType":"None"
-         },
-        "Rival May |Route 119| |Scorbunny|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Defense Incense",
-            "level": 39,
-            "nature":"Adamant",
-            "battle_type":"Singles",
-            "moves": [
-                "Drain Punch",
-                "Thunder Punch",
-                "Ice Punch",
-                "Bullet Punch"
-             ],
-            "ability":"Guts",
-            "teraType":"None"
-         },
         "Rival Brendan |Lilycove| |Squirtle| |Post-Winona|": {
             "ivs": {
                 "hp": 31,
@@ -15361,126 +15301,6 @@ var CUSTOMSETDEX_BDSP = {
             "teraType":"None"
          },
         "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Calm Incense",
-            "level": 39,
-            "nature":"Adamant",
-            "battle_type":"Singles",
-            "moves": [
-                "Fake Out",
-                "Triple Kick",
-                "Bullet Punch",
-                "Sucker Punch"
-             ],
-            "ability":"Guts",
-            "teraType":"None"
-         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Calm Incense",
-            "level": 44,
-            "nature":"Adamant",
-            "battle_type":"Singles",
-            "moves": [
-                "Fake Out",
-                "Triple Kick",
-                "Bullet Punch",
-                "Sucker Punch"
-             ],
-            "ability":"Guts",
-            "teraType":"None"
-         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Calm Incense",
-            "level": 44,
-            "nature":"Adamant",
-            "battle_type":"Singles",
-            "moves": [
-                "Fake Out",
-                "Triple Kick",
-                "Bullet Punch",
-                "Sucker Punch"
-             ],
-            "ability":"Guts",
-            "teraType":"None"
-         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Calm Incense",
-            "level": 39,
-            "nature":"Adamant",
-            "battle_type":"Singles",
-            "moves": [
-                "Fake Out",
-                "Triple Kick",
-                "Bullet Punch",
-                "Sucker Punch"
-             ],
-            "ability":"Guts",
-            "teraType":"None"
-         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona|": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21613,9 +21433,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Flame Charge",
-                "Body Slam",
-                "Double Team",
-                "Swagger"
+                "Tackle",
+                "Growl",
+                "Tail Whip"
              ],
             "ability":"Flame Body",
             "teraType":"None"
@@ -21702,10 +21522,9 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Quiet",
             "battle_type":"Singles",
             "moves": [
-                "Flame Charge",
-                "Swift",
-                "Will-O-Wisp",
-                "Tail Whip"
+                "Ember",
+                "Tackle",
+                "Will-O-Wisp"
              ],
             "ability":"Flash Fire",
             "teraType":"None"
@@ -23131,15 +22950,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Life Orb",
+            "item":"Babiri Berry",
             "level": 37,
-            "nature":"Jolly",
+            "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Play Rough",
-                "Zen Headbutt",
-                "High Horsepower",
-                "Wild Charge"
+                "Dazzling Gleam",
+                "Psychic",
+                "Take Down",
+                "Healing Wish"
              ],
             "ability":"Pastel Veil",
             "teraType":"None"
@@ -23161,15 +22980,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Life Orb",
+            "item":"Babiri Berry",
             "level": 36,
-            "nature":"Jolly",
+            "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Play Rough",
-                "Zen Headbutt",
-                "High Horsepower",
-                "Wild Charge"
+                "Dazzling Gleam",
+                "Psychic",
+                "Take Down",
+                "Healing Wish"
              ],
             "ability":"Pastel Veil",
             "teraType":"None"
@@ -25555,10 +25374,10 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Detect",
                 "Dragon Pulse",
-                "Air Slash",
-                "Bug Buzz"
+                "Signal Beam",
+                "Hypnosis"
              ],
-            "ability":"Speed Boost",
+            "ability":"Compound Eyes",
             "teraType":"None"
          },
         "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
@@ -25585,10 +25404,10 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Detect",
                 "Dragon Pulse",
-                "Air Slash",
-                "Bug Buzz"
+                "Signal Beam",
+                "Hypnosis"
              ],
-            "ability":"Speed Boost",
+            "ability":"Compound Eyes",
             "teraType":"None"
          },
          "Rival May |Lilycove| |Squirtle| |Pre-Winona|": {
@@ -25645,10 +25464,10 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Detect",
                 "Dragon Pulse",
-                "Air Slash",
-                "Bug Buzz"
+                "Signal Beam",
+                "Hypnosis"
              ],
-            "ability":"Speed Boost",
+            "ability":"Compound Eyes",
             "teraType":"None"
          },
         "Rival May |Lilycove| |Scorbunny| |Pre-Winona|": {
@@ -25675,10 +25494,10 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Detect",
                 "Dragon Pulse",
-                "Air Slash",
-                "Bug Buzz"
+                "Signal Beam",
+                "Hypnosis"
              ],
-            "ability":"Speed Boost",
+            "ability":"Compound Eyes",
             "teraType":"None"
          },
         "Young Couple Mel & Paul": {
@@ -26481,6 +26300,126 @@ var CUSTOMSETDEX_BDSP = {
          }
      },
     "Pichu": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona|": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+             },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+             },
+            "item":"Light Incense",
+            "level": 44,
+            "nature":"Adamant",
+            "battle_type":"Singles",
+            "moves": [
+                "Fake Out",
+                "Thunderbolt",
+                "Charge",
+                "Grass Knot"
+             ],
+            "ability":"Static",
+            "teraType":"None"
+         },
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona|": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+             },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+             },
+            "item":"Light Incense",
+            "level": 44,
+            "nature":"Adamant",
+            "battle_type":"Singles",
+            "moves": [
+                "Fake Out",
+                "Thunderbolt",
+                "Charge",
+                "Grass Knot"
+             ],
+            "ability":"Static",
+            "teraType":"None"
+         },
+        "Rival May |Lilycove| |Snivy| |Pre-Winona|": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+             },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+             },
+            "item":"Light Incense",
+            "level": 39,
+            "nature":"Adamant",
+            "battle_type":"Singles",
+            "moves": [
+                "Fake Out",
+                "Thunderbolt",
+                "Charge",
+                "Grass Knot"
+             ],
+            "ability":"Static",
+            "teraType":"None"
+         },
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona|": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+             },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+             },
+            "item":"Light Incense",
+            "level": 39,
+            "nature":"Adamant",
+            "battle_type":"Singles",
+            "moves": [
+                "Fake Out",
+                "Thunderbolt",
+                "Charge",
+                "Grass Knot"
+             ],
+            "ability":"Static",
+            "teraType":"None"
+         },
         "Rival May |Lilycove| |Squirtle| |Post-Winona|": {
             "ivs": {
                 "hp": 31,
@@ -26686,9 +26625,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Aerial Ace",
-                "Aqua Jet",
-                "Facade",
-                "Feather Dance"
+                "Bubble Beam",
+                "Aqua Ring",
+                "Defog"
              ],
             "ability":"Big Pecks",
             "teraType":"None"
@@ -26710,15 +26649,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Wacan Berry",
+            "item":"Scope Lens",
             "level": 34,
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Hurricane",
-                "Hydro Pump",
-                "Icy Wind",
-                "Endeavor"
+                "Air Cutter",
+                "Surf",
+                "Endure",
+                "Roost"
              ],
             "ability":"Hydration",
             "teraType":"None"
@@ -30573,67 +30512,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability":"Steadfast",
             "teraType":"None"
          },
-        "Rival May |Route 110| |Snivy|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Eviolite",
-            "level": 23,
-            "nature":"Impish",
-            "battle_type":"Singles",
-            "moves": [
-                "Brick Break",
-                "Brutal Swing",
-                "Fury Cutter",
-                "Swords Dance"
-             ],
-            "ability":"Steadfast",
-            "teraType":"None"
-         },
-        "Rival May |Route 110| |Scorbunny|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Eviolite",
-            "level": 23,
-            "nature":"Impish",
-            "battle_type":"Singles",
-            "moves": [
-                "Brick Break",
-                "Brutal Swing",
-                "Fury Cutter",
-                "Swords Dance"
-             ],
-            "ability":"Steadfast",
-            "teraType":"None"
-         }
-     },
+        },
     "Wooper-Paldea": {
         "Rival Brendan |Route 119| |Squirtle|": {
             "ivs": {
@@ -31042,15 +30921,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"King's Rock",
+            "item":"Sitrus Berry",
             "level": 24,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Headbutt",
-                "Zen Headbutt",
-                "Fire Fang",
-                "Endure"
+                "Flame Charge",
+                "Quick Attack",
+                "Double Kick",
+                "Growl"
              ],
             "ability":"Blaze",
             "teraType":"None"
@@ -31077,10 +30956,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Careful",
             "battle_type":"Singles",
             "moves": [
-                "Acrobatics",
-                "Pyro Ball",
-                "Gunk Shot",
-                "High Jump Kick"
+                "Electro Ball",
+                "Flamethrower",
+                "Swift",
+                "Sand Attack"
              ],
             "ability":"Libero",
             "teraType":"None"
@@ -31194,13 +31073,13 @@ var CUSTOMSETDEX_BDSP = {
              },
             "item":"Life Orb",
             "level": 43,
-            "nature":"Timid",
+            "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
-                "Electro Ball",
-                "Heat Wave",
+                "Pyro Ball",
+                "Trailblaze",
                 "Agility",
-                "Super Fang"
+                "Taunt"
              ],
             "ability":"Libero",
             "teraType":"None"
@@ -31224,13 +31103,13 @@ var CUSTOMSETDEX_BDSP = {
              },
             "item":"Life Orb",
             "level": 38,
-            "nature":"Timid",
+            "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
-                "Electro Ball",
-                "Heat Wave",
+                "Pyro Ball",
+                "Trailblaze",
                 "Agility",
-                "Super Fang"
+                "Taunt"
              ],
             "ability":"Libero",
             "teraType":"None"
@@ -31259,8 +31138,7 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Flame Charge",
                 "Double Kick",
-                "Taunt",
-                "Fire Spin"
+                "Taunt"
              ],
             "ability":"Blaze",
             "teraType":"None"
@@ -31520,15 +31398,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Muscle Band",
+            "item":"Sitrus Berry",
             "level": 24,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Aqua Tail",
-                "Brick Break",
-                "Zen Headbutt",
-                "Endure"
+                "Bite",
+                "Rapid Spin",
+                "Water Pulse",
+                "Protect"
              ],
             "ability":"Torrent",
             "teraType":"None"
@@ -31557,8 +31435,8 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Water Pulse",
                 "Dark Pulse",
-                "Aura Sphere",
-                "Shell Smash"
+                "Iron Defense",
+                "Bite"
              ],
             "ability":"Mega Launcher",
             "teraType":"None"
@@ -31676,9 +31554,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Shell Smash",
-                "Wave Crash",
-                "Ice Spinner",
-                "Double-Edge"
+                "Aqua Tail",
+                "Ice Punch",
+                "Brick Break"
              ],
             "ability":"Torrent",
             "teraType":"None"
@@ -31706,9 +31584,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Shell Smash",
-                "Wave Crash",
-                "Ice Spinner",
-                "Double-Edge"
+                "Aqua Tail",
+                "Ice Punch",
+                "Brick Break"
              ],
             "ability":"Torrent",
             "teraType":"None"
@@ -31730,15 +31608,14 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Leftovers",
+            "item":"Berry Juice",
             "level": 19,
             "nature":"Hardy",
             "battle_type":"Singles",
             "moves": [
                 "Water Pulse",
                 "Bite",
-                "Rapid Spin",
-                "Protect"
+                "Rapid Spin"
              ],
             "ability":"Torrent",
             "teraType":"None"
@@ -31949,7 +31826,7 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Ancient Power",
                 "Round",
-                "Encore",
+                "Growl",
                 "Snowscape"
              ],
             "ability":"Refrigerate",
@@ -31978,9 +31855,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Thunder Wave",
-                "Freeze-Dry",
-                "Reflect",
-                "Light Screen"
+                "Ice Beam",
+                "Power Gem",
+                "Encore"
              ],
             "ability":"Refrigerate",
             "teraType":"None"
@@ -32009,7 +31886,7 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Ancient Power",
                 "Round",
-                "Encore",
+                "Growl",
                 "Snowscape"
              ],
             "ability":"Refrigerate",
@@ -32038,9 +31915,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Thunder Wave",
-                "Freeze-Dry",
-                "Reflect",
-                "Light Screen"
+                "Ice Beam",
+                "Power Gem",
+                "Encore"
              ],
             "ability":"Refrigerate",
             "teraType":"None"
@@ -32098,9 +31975,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Avalanche",
-                "Iron Head",
-                "Stone Edge",
-                "Outrage"
+                "Bulldoze",
+                "Rock Slide",
+                "Snowscape"
              ],
             "ability":"Snow Warning",
             "teraType":"None"
@@ -32128,9 +32005,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Avalanche",
-                "Iron Head",
-                "Stone Edge",
-                "Outrage"
+                "Bulldoze",
+                "Rock Slide",
+                "Snowscape"
              ],
             "ability":"Snow Warning",
             "teraType":"None"
@@ -32188,9 +32065,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Avalanche",
-                "Iron Head",
-                "Stone Edge",
-                "Outrage"
+                "Bulldoze",
+                "Rock Slide",
+                "Snowscape"
              ],
             "ability":"Snow Warning",
             "teraType":"None"
@@ -32218,9 +32095,9 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Avalanche",
-                "Iron Head",
-                "Stone Edge",
-                "Outrage"
+                "Bulldoze",
+                "Rock Slide",
+                "Snowscape"
              ],
             "ability":"Snow Warning",
             "teraType":"None"
@@ -32371,8 +32248,8 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Shadow Ball",
                 "Flamethrower",
-                "Energy Ball",
-                "Calm Mind"
+                "Curse",
+                "Imprison"
              ],
             "ability":"Flash Fire",
             "teraType":"None"
@@ -32431,8 +32308,8 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Shadow Ball",
                 "Flamethrower",
-                "Energy Ball",
-                "Calm Mind"
+                "Curse",
+                "Imprison"
              ],
             "ability":"Flash Fire",
             "teraType":"None"
@@ -32461,10 +32338,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Giga Drain",
-                "Draining Kiss",
-                "Grasswhistle",
-                "Sunny Day"
+                "Mega Drain",
+                "Morning Sun",
+                "Stun Spore",
+                "Growth"
              ],
             "ability":"Chlorophyll",
             "teraType":"None"
@@ -32491,12 +32368,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Grass Whistle",
+                "Aromatherapy",
                 "Giga Drain",
                 "Draining Kiss",
-                "Grassy Terrain"
+                "Flower Shield"
              ],
-            "ability":"Flower Gift",
+            "ability":"Chlorophyll",
             "teraType":"None"
          },
         "Rival May |Route 110| |Scorbunny|": {
@@ -32521,10 +32398,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Giga Drain",
-                "Draining Kiss",
-                "Grasswhistle",
-                "Sunny Day"
+                "Mega Drain",
+                "Morning Sun",
+                "Stun Spore",
+                "Growth"
              ],
             "ability":"Chlorophyll",
             "teraType":"None"
@@ -32551,12 +32428,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Grass Whistle",
+                "Aromatherapy",
                 "Giga Drain",
                 "Draining Kiss",
-                "Grassy Terrain"
+                "Flower Shield"
              ],
-            "ability":"Flower Gift",
+            "ability":"Chlorophyll",
             "teraType":"None"
          },
         "Rival May |Lilycove| |Snivy| |Post-Winona|": {
@@ -32581,9 +32458,9 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Swords Dance",
-                "Weather Ball",
-                "Solar Blade",
+                "Seed Bomb",
+                "Facade",
+                "Safeguard",
                 "Sunny Day"
              ],
             "ability":"Flower Gift",
@@ -32611,9 +32488,9 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Swords Dance",
-                "Weather Ball",
-                "Solar Blade",
+                "Seed Bomb",
+                "Facade",
+                "Safeguard",
                 "Sunny Day"
              ],
             "ability":"Flower Gift",
@@ -32641,9 +32518,9 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Swords Dance",
-                "Weather Ball",
-                "Solar Blade",
+                "Seed Bomb",
+                "Facade",
+                "Safeguard",
                 "Sunny Day"
              ],
             "ability":"Flower Gift",
@@ -32671,9 +32548,9 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Swords Dance",
-                "Weather Ball",
-                "Solar Blade",
+                "Seed Bomb",
+                "Facade",
+                "Safeguard",
                 "Sunny Day"
              ],
             "ability":"Flower Gift",
@@ -32702,9 +32579,8 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Attract",
-                "Magical Leaf",
-                "Growth",
-                "Sunny Day"
+                "Absorb",
+                "Growth"
              ],
             "ability":"Chlorophyll",
             "teraType":"None"
