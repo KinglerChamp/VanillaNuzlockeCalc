@@ -628,11 +628,11 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Sand Attack",
-                "Yawn",
-                "Crunch",
+                "Roar",
+                "Bite",
                 "Swagger"
              ],
-            "ability":"Intimidate",
+            "ability":"Quick Feet",
             "teraType":"None"
          },
         "Hiker Mike": {
@@ -6192,8 +6192,8 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Curse",
                 "Amnesia",
-                "Earthquake",
-                "Flare Blitz"
+                "Bulldoze",
+                "Flame Charge"
              ],
             "ability":"Magma Armor",
             "teraType":"None"
@@ -6222,40 +6222,10 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Curse",
                 "Amnesia",
-                "Earthquake",
-                "Flare Blitz"
+                "Bulldoze",
+                "Flame Charge"
              ],
             "ability":"Magma Armor",
-            "teraType":"None"
-         },
-        "Magma Leader Maxie |Mt. Chimney|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Passho Berry",
-            "level": 29,
-            "nature":"Bold",
-            "battle_type":"Singles",
-            "moves": [
-                "Earth Power",
-                "Flamethrower",
-                "Fire Spin",
-                "Flash Cannon"
-             ],
-            "ability":"Solid Rock",
             "teraType":"None"
          },
         "Winstrate Vivi": {
@@ -6459,12 +6429,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Relaxed",
             "battle_type":"Singles",
             "moves": [
-                "Earthquake",
+                "Flare Blitz",
                 "Rock Slide",
                 "Scorching Sands",
                 "Helping Hand"
              ],
-            "ability":"Solid Rock",
+            "ability":"Magma Armor",
             "teraType":"None"
          },
         "Kindler Bryant": {
@@ -8401,8 +8371,8 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Sassy",
             "battle_type":"Singles",
             "moves": [
-                "Avalanche",
-                "Stone Edge",
+                "Icicle Spear",
+                "Rock Slide",
                 "Recover",
                 "Rapid Spin"
              ],
@@ -8431,8 +8401,8 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Sassy",
             "battle_type":"Singles",
             "moves": [
-                "Avalanche",
-                "Stone Edge",
+                "Icicle Spear",
+                "Rock Slide",
                 "Recover",
                 "Rapid Spin"
              ],
@@ -15119,66 +15089,6 @@ var CUSTOMSETDEX_BDSP = {
              ],
             "ability":"Hyper Cutter",
             "teraType":"None"
-         },
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Eviolite",
-            "level": 41,
-            "nature":"Brave",
-            "battle_type":"Singles",
-            "moves": [
-                "First Impression",
-                "Earthquake",
-                "Superpower",
-                "Sandstorm"
-             ],
-            "ability":"Arena Trap",
-            "teraType":"None"
-         },
-         "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Eviolite",
-            "level": 36,
-            "nature":"Brave",
-            "battle_type":"Singles",
-            "moves": [
-                "First Impression",
-                "Earthquake",
-                "Superpower",
-                "Sandstorm"
-             ],
-            "ability":"Arena Trap",
-            "teraType":"None"
          }
      },
     "Gimmighoul Roaming": {
@@ -15744,17 +15654,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Bright Powder",
+            "item":"Focus Sash",
             "level": 41,
             "nature":"Relaxed",
             "battle_type":"Singles",
             "moves": [
-                "Leech Seed",
-                "Substitute",
-                "Leaf Storm",
-                "Drain Punch"
+                "Bullet Seed",
+                "Sucker Punch",
+                "Poison Sting",
+                "Scary Face"
              ],
-            "ability":"Sand Veil",
+            "ability":"Water Absorb",
             "teraType":"None"
          },
          "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
@@ -15774,17 +15684,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Bright Powder",
+            "item":"Focus Sash",
             "level": 36,
             "nature":"Relaxed",
             "battle_type":"Singles",
             "moves": [
-                "Leech Seed",
-                "Substitute",
-                "Leaf Storm",
-                "Drain Punch"
+                "Bullet Seed",
+                "Sucker Punch",
+                "Poison Sting",
+                "Scary Face"
              ],
-            "ability":"Sand Veil",
+            "ability":"Water Absorb",
             "teraType":"None"
          }
      },
@@ -19093,17 +19003,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Life Orb",
+            "item":"Wise Glasses",
             "level": 42,
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
+                "Electro Ball",
                 "Parabolic Charge",
-                "Thunderbolt",
-                "Dark Pulse",
+                "Thunder Wave",
                 "Grass Knot"
              ],
-            "ability":"Solar Power",
+            "ability":"Sand Veil",
             "teraType":"None"
          },
          "Magma Leader Maxie |Magma Hideout| |Pre-Winona|": {
@@ -19123,17 +19033,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Life Orb",
+            "item":"Wise Glasses",
             "level": 37,
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
+                "Electro Ball",
                 "Parabolic Charge",
-                "Thunderbolt",
-                "Dark Pulse",
+                "Thunder Wave",
                 "Grass Knot"
              ],
-            "ability":"Solar Power",
+            "ability":"Sand Veil",
             "teraType":"None"
          },
         "Cooltrainer Gerald": {
@@ -21186,14 +21096,14 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Eviolite",
+            "item":"Sitrus Berry",
             "level": 43,
-            "nature":"Jolly",
+            "nature":"Serious",
             "battle_type":"Singles",
             "moves": [
-                "Solar Blade",
-                "Play Rough",
-                "Flare Blitz",
+                "Solar Beam",
+                "Charm",
+                "Flamethrower",
                 "Sunny Day"
              ],
             "ability":"Flash Fire",
@@ -21216,14 +21126,14 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Eviolite",
+            "item":"Sitrus Berry",
             "level": 38,
-            "nature":"Jolly",
+            "nature":"Serious",
             "battle_type":"Singles",
             "moves": [
-                "Solar Blade",
-                "Play Rough",
-                "Flare Blitz",
+                "Solar Beam",
+                "Charm",
+                "Flamethrower",
                 "Sunny Day"
              ],
             "ability":"Flash Fire",
@@ -24851,8 +24761,8 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Heat Wave",
-                "Psychic",
+                "Flamethrower",
+                "Fire Spin",
                 "Will-O-Wisp",
                 "Helping Hand"
              ],
@@ -28604,11 +28514,11 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Grassy Glide",
+                "Grassy Terrain",
                 "Knock Off",
-                "Drain Punch",
                 "Fake Out"
              ],
-            "ability":"Grassy Surge",
+            "ability":"Overgrow",
             "teraType":"None"
          }
      },
@@ -28635,8 +28545,8 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Brave",
             "battle_type":"Singles",
             "moves": [
-                "Trop Kick",
-                "Teeter Dance",
+                "Helping Hand",
+                "Aromatic Mist",
                 "Giga Drain",
                 "Dazzling Gleam"
              ],
@@ -28668,41 +28578,11 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Solar Beam",
-                "Sludge Bomb",
-                "Sunny Day",
+                "Acid Spray",
+                "Ingrain",
                 "Grassy Terrain"
              ],
-            "ability":"Chlorophyll",
-            "teraType":"None"
-         },
-        "Magma Admin Courtney |Mt. Chimney|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Grassy Seed",
-            "level": 28,
-            "nature":"Calm",
-            "battle_type":"Singles",
-            "moves": [
-                "Ancient Power",
-                "Giga Drain",
-                "Sleep Powder",
-                "Grassy Terrain"
-             ],
-            "ability":"Regenerator",
+            "ability":"Leaf Guard",
             "teraType":"None"
          }
      },
@@ -29480,7 +29360,7 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Incinerate",
                 "Taunt",
-                "Snarl",
+                "Leer",
                 "Noble Roar"
              ],
             "ability":"Unnerve",
@@ -32665,17 +32545,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"White Herb",
+            "item":"Eviolite",
             "level": 43,
             "nature":"Hasty",
             "battle_type":"Singles",
             "moves": [
                 "Lash Out",
-                "Overheat",
-                "Leaf Storm",
-                "Zen Headbutt"
+                "Headbutt",
+                "Trailblaze",
+                "Fire Fang"
              ],
-            "ability":"Chlorophyll",
+            "ability":"Insomnia",
             "teraType":"None"
          },
          "Magma Leader Maxie |Magma Hideout| |Pre-Winona|": {
@@ -32695,17 +32575,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"White Herb",
+            "item":"Eviolite",
             "level": 38,
             "nature":"Hasty",
             "battle_type":"Singles",
             "moves": [
                 "Lash Out",
-                "Overheat",
-                "Leaf Storm",
-                "Zen Headbutt"
+                "Headbutt",
+                "Trailblaze",
+                "Fire Fang"
              ],
-            "ability":"Chlorophyll",
+            "ability":"Insomnia",
             "teraType":"None"
          }
      },
@@ -32759,17 +32639,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Terrain Extender",
+            "item":"Focus Sash",
             "level": 25,
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Leech Seed",
+                "Flail",
                 "Grassy Terrain",
-                "Giga Drain",
-                "Terrain Pulse"
+                "Magical Leaf",
+                "Swift"
              ],
-            "ability":"Seed Sower",
+            "ability":"Early Bird",
             "teraType":"None"
          }
      },
@@ -32796,12 +32676,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Sassy",
             "battle_type":"Singles",
             "moves": [
-                "Giga Drain",
+                "Magical Leaf",
                 "Draining Kiss",
-                "Light Screen",
-                "Reflect"
+                "Charm",
+                "Light Screen"
              ],
-            "ability":"Triage",
+            "ability":"Overgrow",
             "teraType":"None"
          }
      },
@@ -32823,15 +32703,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Leftovers",
+            "item":"Sitrus Berry",
             "level": 27,
             "nature":"Careful",
             "battle_type":"Singles",
             "moves": [
-                "Wild Charge",
-                "Seed Bomb",
+                "Worry Seed",
+                "Razor Leaf",
                 "Bulldoze",
-                "Bulk Up"
+                "Take Down"
              ],
             "ability":"Grass Pelt",
             "teraType":"None"
@@ -32863,9 +32743,9 @@ var CUSTOMSETDEX_BDSP = {
                 "Scary Face",
                 "Dragon Pulse",
                 "Flamethrower",
-                "Will-O-Wisp"
+                "Sunny Day"
              ],
-            "ability":"Drought",
+            "ability":"Blaze",
             "teraType":"None"
          },
          "Magma Leader Maxie |Magma Hideout| |Pre-Winona|": {
@@ -32893,9 +32773,9 @@ var CUSTOMSETDEX_BDSP = {
                 "Scary Face",
                 "Dragon Pulse",
                 "Flamethrower",
-                "Will-O-Wisp"
+                "Sunny Day"
              ],
-            "ability":"Drought",
+            "ability":"Blaze",
             "teraType":"None"
          },
         "Magma Leader Maxie |Space Center|": {
@@ -32920,12 +32800,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Bold",
             "battle_type":"Singles",
             "moves": [
-                "Dragon Dance",
+                "Sunny Day",
                 "Dragon Claw",
-                "Flare Blitz",
-                "Shadow Claw"
+                "Fire Punch",
+                "Slash"
              ],
-            "ability":"Drought",
+            "ability":"Blaze",
             "teraType":"None"
          }
      },
@@ -32947,15 +32827,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Black Sludge",
+            "item":"Leftovers",
             "level": 43,
             "nature":"Calm",
             "battle_type":"Singles",
             "moves": [
                 "Will-O-Wisp",
                 "Hex",
-                "Trick",
-                "Destiny Bond"
+                "Curse",
+                "Haze"
              ],
             "ability":"Mummy",
             "teraType":"None"
@@ -32977,15 +32857,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Black Sludge",
+            "item":"Leftovers",
             "level": 38,
             "nature":"Calm",
             "battle_type":"Singles",
             "moves": [
                 "Will-O-Wisp",
                 "Hex",
-                "Trick",
-                "Destiny Bond"
+                "Curse",
+                "Haze"
              ],
             "ability":"Mummy",
             "teraType":"None"
@@ -33014,8 +32894,8 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Will-O-Wisp",
                 "Hex",
-                "Attract",
-                "Protect"
+                "Disable",
+                "Crafty Shield"
              ],
             "ability":"Mummy",
             "teraType":"None"
@@ -33045,11 +32925,11 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Thunder Wave",
-                "Flame Charge",
-                "Spark",
-                "Stomp"
+                "Stomp",
+                "Shock Wave",
+                "Quick Attack"
              ],
-            "ability":"Motor Drive",
+            "ability":"Lightning Rod",
             "teraType":"None"
          }
      },
@@ -33319,17 +33199,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Smooth Rock",
+            "item":"Leftovers",
             "level": 41,
             "nature":"Careful",
             "battle_type":"Singles",
             "moves": [
-                "Stealth Rock",
-                "Earthquake",
-                "Scale Shot",
+                "Wrap",
+                "Bulldoze",
+                "Brutal Swing",
                 "Sandstorm"
              ],
-            "ability":"Sand Spit",
+            "ability":"Shed Skin",
             "teraType":"None"
          },
          "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
@@ -33349,17 +33229,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Smooth Rock",
+            "item":"Leftovers",
             "level": 36,
             "nature":"Careful",
             "battle_type":"Singles",
             "moves": [
-                "Stealth Rock",
-                "Earthquake",
-                "Scale Shot",
+                "Wrap",
+                "Bulldoze",
+                "Brutal Swing",
                 "Sandstorm"
              ],
-            "ability":"Sand Spit",
+            "ability":"Shed Skin",
             "teraType":"None"
          }
      },
@@ -33381,15 +33261,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Choice Band",
+            "item":"Muscle Band",
             "level": 42,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Earthquake",
-                "X-Scissor",
-                "Shadow Claw",
-                "Iron Head"
+                "Drill Run",
+                "Metal Claw",
+                "Rock Tomb",
+                "Guillotine"
              ],
             "ability":"Sand Rush",
             "teraType":"None"
@@ -33411,15 +33291,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Choice Band",
+            "item":"Muscle Band",
             "level": 37,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Earthquake",
-                "X-Scissor",
-                "Shadow Claw",
-                "Iron Head"
+                "Drill Run",
+                "Metal Claw",
+                "Rock Tomb",
+                "Guillotine"
              ],
             "ability":"Sand Force",
             "teraType":"None"
@@ -33623,17 +33503,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Toxic Orb",
+            "item":"Sitrus Berry",
             "level": 43,
             "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
-                "Protect",
-                "Fire Fang",
-                "Earthquake",
-                "Toxic"
+                "Bulldoze",
+                "Aerial Ace",
+                "Slash",
+                "U-turn"
              ],
-            "ability":"Poison Heal",
+            "ability":"Hyper Cutter",
             "teraType":"None"
          },
          "Magma Admin Tabitha |Magma Hideout| |Pre-Winona|": {
@@ -33653,17 +33533,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Toxic Orb",
+            "item":"Sitrus Berry",
             "level": 38,
             "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
-                "Protect",
-                "Fire Fang",
-                "Earthquake",
-                "Toxic"
+                "Bulldoze",
+                "Aerial Ace",
+                "Slash",
+                "U-turn"
              ],
-            "ability":"Poison Heal",
+            "ability":"Hyper Cutter",
             "teraType":"None"
          }
      },
