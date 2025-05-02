@@ -29645,7 +29645,7 @@ var CUSTOMSETDEX_SV = {
                "Substitute",
                "Leech Seed",
                "Synthesis",
-               "Synthesis"
+               "Giga Drain"
             ],
            "ability":"Overgrow",
            "teraType":"None"
@@ -29675,7 +29675,7 @@ var CUSTOMSETDEX_SV = {
                "Substitute",
                "Leech Seed",
                "Synthesis",
-               "Synthesis"
+               "Giga Drain"
             ],
            "ability":"Overgrow",
            "teraType":"None"
@@ -29705,7 +29705,7 @@ var CUSTOMSETDEX_SV = {
                "Substitute",
                "Leech Seed",
                "Synthesis",
-               "Synthesis"
+               "Giga Drain"
             ],
            "ability":"Overgrow",
            "teraType":"None"
@@ -29735,7 +29735,7 @@ var CUSTOMSETDEX_SV = {
                "Substitute",
                "Leech Seed",
                "Synthesis",
-               "Synthesis"
+               "Giga Drain"
             ],
            "ability":"Overgrow",
            "teraType":"None"
