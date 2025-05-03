@@ -9259,38 +9259,6 @@ var CUSTOMSETDEX_SV = {
            "teraType":"None"
         }
     },
-   "Nymble": {
-       "Aqua Leader Archie |Seafloor Cavern|": {
-           "ivs": {
-               "hp": 31,
-               "at": 31,
-               "df": 31,
-               "sa": 31,
-               "sd": 31,
-               "sp": 31
-            },
-           "evs": {
-               "hp": 0,
-               "at": 0,
-               "df": 0,
-               "sa": 0,
-               "sd": 0,
-               "sp": 0
-            },
-           "item":"Bright Powder",
-           "level": 47,
-           "nature":"Careful",
-           "battle_type":"Singles",
-           "moves": [
-               "First Impression",
-               "Sucker Punch",
-               "Leech Life",
-               "U-turn"
-            ],
-           "ability":"Tinted Lens",
-           "teraType":"None"
-        }
-    },
    "Clauncher": {
        "Aqua Leader Archie |Seafloor Cavern|": {
            "ivs": {
@@ -19015,6 +18983,36 @@ var CUSTOMSETDEX_SV = {
         }
     },
    "Duskull": {
+    "Aqua Leader Archie |Seafloor Cavern|": {
+           "ivs": {
+               "hp": 31,
+               "at": 31,
+               "df": 31,
+               "sa": 31,
+               "sd": 31,
+               "sp": 31
+            },
+           "evs": {
+               "hp": 0,
+               "at": 0,
+               "df": 0,
+               "sa": 0,
+               "sd": 0,
+               "sp": 0
+            },
+           "item":"Reaper Cloth",
+           "level": 47,
+           "nature":"Careful",
+           "battle_type":"Singles",
+           "moves": [
+               "Will-O-Wisp",
+               "Poltergeist",
+               "Leech Life",
+               "Pain Split"
+            ],
+           "ability":"Levitate",
+           "teraType":"None"
+        },
        "Hex Maniac Kindra": {
            "ivs": {
                "hp": 31,
