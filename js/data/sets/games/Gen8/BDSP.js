@@ -141,17 +141,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Normal Gem",
+            "item":"Eviolite",
             "level": 22,
             "nature":"Calm",
             "battle_type":"Singles",
             "moves": [
                 "Fake Out",
-                "Yawn",
-                "Dark Pulse",
+                "Growl",
+                "Assurance",
                 "Sand Attack"
              ],
-            "ability":"Unburden",
+            "ability":"Limber",
             "teraType":"None"
          }
      },
@@ -7718,17 +7718,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Flame Orb",
+            "item":"Sitrus Berry",
             "level": 41,
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
                 "Protect",
-                "Thunder",
-                "Shadow Ball",
-                "Psychic"
+                "Thunderbolt",
+                "Ominous Wind",
+                "Night Shade"
              ],
-            "ability":"Flare Boost",
+            "ability":"Aftermath",
             "teraType":"None"
          },
          "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
@@ -7748,17 +7748,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Flame Orb",
+            "item":"Sitrus Berry",
             "level": 36,
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
                 "Protect",
-                "Thunder",
-                "Shadow Ball",
-                "Psychic"
+                "Thunderbolt",
+                "Ominous Wind",
+                "Night Shade"
              ],
-            "ability":"Flare Boost",
+            "ability":"Aftermath",
             "teraType":"None"
          },
         "Leader Winona": {
@@ -7845,10 +7845,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Careful",
             "battle_type":"Singles",
             "moves": [
-                "Stone Edge",
-                "Body Slam",
-                "Earthquake",
-                "Explosion"
+                "Rock Slide",
+                "Thunder Punch",
+                "Defense Curl",
+                "Self-Destruct"
              ],
             "ability":"Galvanize",
             "teraType":"None"
@@ -7875,10 +7875,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Careful",
             "battle_type":"Singles",
             "moves": [
-                "Stone Edge",
-                "Body Slam",
-                "Earthquake",
-                "Explosion"
+                "Rock Slide",
+                "Thunder Punch",
+                "Defense Curl",
+                "Self-Destruct"
              ],
             "ability":"Galvanize",
             "teraType":"None"
@@ -7932,17 +7932,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Air Balloon",
+            "item":"Focus Sash",
             "level": 42,
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
                 "Charge Beam",
-                "Giga Drain",
-                "Hex",
+                "Charge",
+                "Tackle",
                 "Thunder Wave"
              ],
-            "ability":"Surge Surfer",
+            "ability":"Levitate",
             "teraType":"None"
          },
          "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
@@ -7962,17 +7962,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Air Balloon",
+            "item":"Focus Sash",
             "level": 37,
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
                 "Charge Beam",
-                "Giga Drain",
-                "Hex",
+                "Charge",
+                "Tackle",
                 "Thunder Wave"
              ],
-            "ability":"Surge Surfer",
+            "ability":"Levitate",
             "teraType":"None"
          },
         "Triathlete Anthony": {
@@ -8024,17 +8024,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Choice Scarf",
+            "item":"Flame Orb",
             "level": 42,
             "nature":"Rash",
             "battle_type":"Singles",
             "moves": [
                 "Rising Voltage",
-                "Wild Charge",
-                "Crunch",
-                "Volt Switch"
+                "Spark",
+                "Roar",
+                "Bite"
              ],
-            "ability":"Intimidate",
+            "ability":"Guts",
             "teraType":"None"
          },
          "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
@@ -8054,17 +8054,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Choice Scarf",
+            "item":"Flame Orb",
             "level": 37,
             "nature":"Rash",
             "battle_type":"Singles",
             "moves": [
                 "Rising Voltage",
-                "Wild Charge",
-                "Crunch",
-                "Volt Switch"
+                "Spark",
+                "Roar",
+                "Bite"
              ],
-            "ability":"Intimidate",
+            "ability":"Guts",
             "teraType":"None"
          }
      },
@@ -8093,8 +8093,8 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Tri Attack",
                 "Recover",
-                "Ice Beam",
-                "Thunderbolt"
+                "Eerie Impulse",
+                "Thunder Wave"
              ],
             "ability":"Analytic",
             "teraType":"None"
@@ -8123,8 +8123,8 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Tri Attack",
                 "Recover",
-                "Ice Beam",
-                "Thunderbolt"
+                "Eerie Impulse",
+                "Thunder Wave"
              ],
             "ability":"Analytic",
             "teraType":"None"
@@ -8181,10 +8181,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Quiet",
             "battle_type":"Singles",
             "moves": [
-                "Icy Wind",
+                "Swift",
                 "Rain Dance",
-                "Thunder",
-                "Recover"
+                "Electric Terrain",
+                "Electroweb"
              ],
             "ability":"Trace",
             "teraType":"None"
@@ -8211,10 +8211,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Quiet",
             "battle_type":"Singles",
             "moves": [
-                "Icy Wind",
+                "Swift",
                 "Rain Dance",
-                "Thunder",
-                "Recover"
+                "Electric Terrain",
+                "Electroweb"
              ],
             "ability":"Trace",
             "teraType":"None"
@@ -8238,49 +8238,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Icy Rock",
+            "item":"Eviolite",
             "level": 34,
             "nature":"Bold",
             "battle_type":"Singles",
             "moves": [
                 "Aurora Veil",
-                "Frost Breath",
+                "Icy Wind",
                 "Acid Armor",
-                "Mirror Coat"
+                "Snowscape"
              ],
-            "ability":"Snow Warning",
-            "teraType":"None"
-         }
-     },
-    "Eevee-Ice": {
-        "Aqua Admin Shelly |Weather Institute|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Ice Stone",
-            "level": 36,
-            "nature":"Naughty",
-            "battle_type":"Singles",
-            "moves": [
-                "Multi-Attack",
-                "Yawn",
-                "Weather Ball",
-                "Last Resort"
-             ],
-            "ability":"Snow Cloak",
+            "ability":"Ice Body",
             "teraType":"None"
          }
      },
@@ -8302,14 +8270,14 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Loaded Dice",
+            "item":"Muscle Band",
             "level": 37,
             "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
-                "Breaking Swipe",
-                "Scale Shot",
-                "Icicle Spear",
+                "Ice Fang",
+                "Dragon Tail",
+                "Bite",
                 "Snowscape"
              ],
             "ability":"Thermal Exchange",
@@ -8341,7 +8309,7 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Protect",
                 "Ice Fang",
-                "Crunch",
+                "Bite",
                 "Rapid Spin"
              ],
             "ability":"Ice Body",
@@ -8433,10 +8401,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Impish",
             "battle_type":"Singles",
             "moves": [
-                "Gunk Shot",
-                "Close Combat",
-                "X-Scissor",
-                "Lash Out"
+                "Poison Jab",
+                "Brick Break",
+                "Taunt",
+                "Rock Smash"
              ],
             "ability":"Unburden",
             "teraType":"None"
@@ -8460,15 +8428,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Focus Sash",
+            "item":"Eviolite",
             "level": 49,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
                 "Ice Fang",
-                "Liquidation",
-                "Crunch",
-                "Psychic Fangs"
+                "Aqua Cutter",
+                "Bite",
+                "Aqua Jet"
              ],
             "ability":"Strong Jaw",
             "teraType":"None"
@@ -8982,38 +8950,8 @@ var CUSTOMSETDEX_BDSP = {
              ],
             "ability":"Rough Skin",
             "teraType":"None"
-         },
-        "Aqua Leader Archie |Oceanic Museum|": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Eviolite",
-            "level": 24,
-            "nature":"Adamant",
-            "battle_type":"Singles",
-            "moves": [
-                "Aqua Cutter",
-                "Ice Fang",
-                "Poison Fang",
-                "Swagger"
-             ],
-            "ability":"Rough Skin",
-            "teraType":"None"
          }
-     },
+        },
     "Poliwag": {
         "Aqua Leader Archie |Seafloor Cavern|": {
             "ivs": {
@@ -9037,12 +8975,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Impish",
             "battle_type":"Singles",
             "moves": [
-                "Belly Drum",
+                "Hypnosis",
                 "Waterfall",
                 "Body Slam",
-                "Low Kick"
+                "Rain Dance"
              ],
-            "ability":"Drizzle",
+            "ability":"Swift Swim",
             "teraType":"None"
          },
         "Aqua Leader Archie |Mt. Pyre| |Post-Winona|": {
@@ -9069,10 +9007,10 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Hypnosis",
                 "Muddy Water",
-                "Blizzard",
+                "Mud Shot",
                 "Helping Hand"
              ],
-            "ability":"Drizzle",
+            "ability":"Water Absorb",
             "teraType":"None"
          },
          "Aqua Leader Archie |Mt. Pyre| |Pre-Winona|": {
@@ -9099,10 +9037,10 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Hypnosis",
                 "Muddy Water",
-                "Blizzard",
+                "Mud Shot",
                 "Helping Hand"
              ],
-            "ability":"Drizzle",
+            "ability":"Water Absorb",
             "teraType":"None"
          }
      },
@@ -9124,15 +9062,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Eviolite",
+            "item":"Wacan Berry",
             "level": 46,
             "nature":"Bold",
             "battle_type":"Singles",
             "moves": [
-                "Hydro Pump",
-                "Hurricane",
+                "Surf",
+                "Air Slash",
                 "Agility",
-                "Rain Dance"
+                "Aqua Ring"
              ],
             "ability":"Swift Swim",
             "teraType":"None"
@@ -9216,15 +9154,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Bright Powder",
+            "item":"Focus Sash",
             "level": 47,
             "nature":"Careful",
             "battle_type":"Singles",
             "moves": [
                 "First Impression",
                 "Sucker Punch",
-                "Leech Life",
-                "U-turn"
+                "Agility",
+                "Pounce"
              ],
             "ability":"Tinted Lens",
             "teraType":"None"
@@ -9248,15 +9186,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Life Orb",
+            "item":"Muscle Band",
             "level": 48,
             "nature":"Naive",
             "battle_type":"Singles",
             "moves": [
-                "Swords Dance",
+                "Vice Grip",
                 "Crabhammer",
-                "Dragon Pulse",
-                "Aura Sphere"
+                "Smack Down",
+                "Flip Turn"
              ],
             "ability":"Mega Launcher",
             "teraType":"None"
@@ -9338,15 +9276,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Choice Specs",
+            "item":"Wise Glasses",
             "level": 43,
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Terrain Pulse",
+                "Aqua Jet",
                 "Water Pulse",
-                "Dragon Pulse",
-                "Dark Pulse"
+                "Hone Claws",
+                "Bounce"
              ],
             "ability":"Mega Launcher",
             "teraType":"None"
@@ -9368,15 +9306,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Choice Specs",
+            "item":"Wise Glasses",
             "level": 38,
             "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Terrain Pulse",
+                "Aqua Jet",
                 "Water Pulse",
-                "Dragon Pulse",
-                "Dark Pulse"
+                "Hone Claws",
+                "Bounce"
              ],
             "ability":"Mega Launcher",
             "teraType":"None"
@@ -9400,14 +9338,14 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Flying Gem",
+            "item":"Sitrus Berry",
             "level": 48,
             "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
-                "Acrobatics",
-                "Zen Headbutt",
-                "Liquidation",
+                "Double Hit",
+                "Aqua Jet",
+                "Waterfall",
                 "Rain Dance"
              ],
             "ability":"Water Veil",
@@ -12348,10 +12286,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Swords Dance",
-                "Iron Head",
-                "Ice Spinner",
-                "Leech Life"
+                "Defense Curl",
+                "Rollout",
+                "Metal Claw",
+                "Ice Punch"
              ],
             "ability":"Slush Rush",
             "teraType":"None"
@@ -24023,10 +23961,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Mild",
             "battle_type":"Singles",
             "moves": [
-                "Venoshock",
-                "Electroweb",
-                "Snarl",
-                "Dragon Breath"
+                "Nuzzle",
+                "Acid",
+                "Charge",
+                "Thief"
              ],
             "ability":"Punk Rock",
             "teraType":"None"
@@ -24053,10 +23991,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Mild",
             "battle_type":"Singles",
             "moves": [
-                "Venoshock",
-                "Electroweb",
-                "Snarl",
-                "Dragon Breath"
+                "Nuzzle",
+                "Acid",
+                "Charge",
+                "Thief"
              ],
             "ability":"Punk Rock",
             "teraType":"None"
@@ -24574,7 +24512,7 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Aqua Ring",
-                "Flail",
+                "Charge",
                 "Liquidation",
                 "Wild Charge"
              ],
@@ -24604,7 +24542,7 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Aqua Ring",
-                "Flail",
+                "Charge",
                 "Liquidation",
                 "Wild Charge"
              ],
@@ -27481,12 +27419,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Rash",
             "battle_type":"Singles",
             "moves": [
-                "Chloroblast",
+                "Bullet Seed",
                 "Electro Ball",
                 "Volt Switch",
-                "Explosion"
+                "Electric Terrain"
              ],
-            "ability":"Electric Surge",
+            "ability":"Aftermath",
             "teraType":"None"
          },
          "Aqua Admin Matt |Aqua Hideout| |Pre-Winona|": {
@@ -27511,12 +27449,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Rash",
             "battle_type":"Singles",
             "moves": [
-                "Chloroblast",
+                "Bullet Seed",
                 "Electro Ball",
                 "Volt Switch",
-                "Explosion"
+                "Electric Terrain"
              ],
-            "ability":"Electric Surge",
+            "ability":"Aftermath",
             "teraType":"None"
          },
         "Aqua Admin Matt |Mt. Pyre| |Post-Winona|": {
@@ -27542,11 +27480,11 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Reflect",
-                "Wild Charge",
-                "Bullet Seed",
-                "Foul Play"
+                "Charge Beam",
+                "Self-Destruct",
+                "Electric Terrain"
              ],
-            "ability":"Electric Surge",
+            "ability":"Aftermath",
             "teraType":"None"
          },
          "Aqua Admin Matt |Mt. Pyre| |Pre-Winona|": {
@@ -27572,11 +27510,11 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Reflect",
-                "Wild Charge",
-                "Bullet Seed",
-                "Foul Play"
+                "Charge Beam",
+                "Self-Destruct",
+                "Electric Terrain"
              ],
-            "ability":"Electric Surge",
+            "ability":"Aftermath",
             "teraType":"None"
          },
         "Triathlete Jacob": {
@@ -34032,10 +33970,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Lonely",
             "battle_type":"Singles",
             "moves": [
-                "Triple Dive",
-                "Sand Attack",
-                "Bulldoze",
-                "Whirlpool"
+                "Water Pulse",
+                "Aqua Jet",
+                "Endure",
+                "Sand Attack"
              ],
             "ability":"Gooey",
             "teraType":"None"
@@ -34064,12 +34002,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Quiet",
             "battle_type":"Singles",
             "moves": [
-                "Perish Song",
+                "Growl",
                 "Sticky Web",
-                "Trailblaze",
-                "Rock Tomb"
+                "Endeavor",
+                "Struggle Bug"
              ],
-            "ability":"Technician",
+            "ability":"Shed Skin",
             "teraType":"None"
          }
      },
