@@ -5283,17 +5283,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Focus Sash",
+            "item":"Sitrus Berry",
             "level": 60,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
                 "Shell Smash",
                 "Icicle Spear",
-                "Liquidation",
-                "Rock Blast"
+                "Chilling Water",
+                "Iron Defense"
              ],
-            "ability":"Skill Link",
+            "ability":"Shell Armor",
             "teraType":"None"
          },
         "Pkmn Trainer 1 Smasher": {
@@ -5589,10 +5589,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Hasty",
             "battle_type":"Singles",
             "moves": [
-                "Water Spout",
+                "Hydro Pump",
                 "Blizzard",
-                "Earthquake",
-                "Heavy Slam"
+                "Amnesia",
+                "Rain Dance"
              ],
             "ability":"Drizzle",
             "teraType":"None"
@@ -13193,8 +13193,8 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Play Rough",
                 "Aqua Tail",
-                "Superpower",
-                "Ice Spinner"
+                "Slam",
+                "Charm"
              ],
             "ability":"Huge Power",
             "teraType":"None"
@@ -19595,6 +19595,36 @@ var CUSTOMSETDEX_BDSP = {
          }
      },
     "Tentacool": {
+        "Champion Wallace": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+             },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+             },
+            "item":"Leftovers",
+            "level": 64,
+            "nature":"Lax",
+            "battle_type":"Singles",
+            "moves": [
+                "Toxic",
+                "Sludge Bomb",
+                "Surf",
+                "Protect"
+             ],
+            "ability":"Rain Dish",
+            "teraType":"None"
+         },
         "Swimmer M Dominik": {
             "ivs": {
                 "hp": 31,
@@ -20647,38 +20677,6 @@ var CUSTOMSETDEX_BDSP = {
                 "Smack Down"
              ],
             "ability":"Torrent",
-            "teraType":"None"
-         }
-     },
-     "Toedscool": {
-         "Champion Wallace": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-             },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-             },
-            "item":"Leftovers",
-            "level": 64,
-            "nature":"Lax",
-            "battle_type":"Singles",
-            "moves": [
-                "Toxic",
-                "Earth Power",
-                "Giga Drain",
-                "Protect"
-             ],
-            "ability":"Protean",
             "teraType":"None"
          }
      },
@@ -22872,7 +22870,7 @@ var CUSTOMSETDEX_BDSP = {
                 "Dark Pulse",
                 "Draining Kiss"
              ],
-            "ability":"Prankster",
+            "ability":"Frisk",
             "teraType":"None"
          }
      },
@@ -22894,15 +22892,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Life Orb",
+            "item":"Muscle Band",
             "level": 59,
-            "nature":"Jolly",
+            "nature":"Lonely",
             "battle_type":"Singles",
             "moves": [
                 "Crunch",
                 "Thunder Fang",
-                "Ice Fang",
-                "Fire Fang"
+                "Dragon Claw",
+                "Rock Slide"
              ],
             "ability":"Strong Jaw",
             "teraType":"None"
@@ -22926,15 +22924,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Expert Belt",
+            "item":"Eviolite",
             "level": 60,
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
                 "Encore",
-                "Nasty Plot",
-                "Dark Pulse",
-                "Sludge Bomb"
+                "Hone Claws",
+                "Lash Out",
+                "Shadow Claw"
              ],
             "ability":"Illusion",
             "teraType":"None"
@@ -23018,17 +23016,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Eviolite",
+            "item":"Wide Lens",
             "level": 60,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Brave Bird",
-                "Sucker Punch",
+                "Dual Wingbeat",
+                "Foul Play",
                 "Thunder Wave",
                 "Tailwind"
              ],
-            "ability":"Prankster",
+            "ability":"Insomnia",
             "teraType":"None"
          }
      },
@@ -23050,15 +23048,15 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Air Balloon",
+            "item":"Sitrus Berry",
             "level": 61,
             "nature":"Careful",
             "battle_type":"Singles",
             "moves": [
-                "Barb Barrage",
+                "Poison Jab",
                 "Crunch",
                 "Fell Stinger",
-                "Destiny Bond"
+                "Agility"
              ],
             "ability":"Intimidate",
             "teraType":"None"
@@ -23088,7 +23086,7 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type":"Singles",
             "moves": [
                 "Sucker Punch",
-                "Stone Edge",
+                "Rock Slide",
                 "Curse",
                 "Counter"
              ],
@@ -23119,10 +23117,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Sassy",
             "battle_type":"Singles",
             "moves": [
-                "Close Combat",
-                "Gyro Ball",
+                "Aerial Ace",
+                "Retaliate",
                 "Shadow Claw",
-                "Kings Shield"
+                "Shadow Sneak"
              ],
             "ability":"No Guard",
             "teraType":"None"
@@ -23206,17 +23204,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Choice Band",
+            "item":"Focus Sash",
             "level": 59,
             "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
                 "Dragon Darts",
-                "Poltergeist",
-                "Shadow Sneak",
-                "Dragon Tail"
+                "Curse",
+                "Infestation",
+                "Astonish"
              ],
-            "ability":"Clear Body",
+            "ability":"Cursed Body",
             "teraType":"None"
          }
      },
@@ -23245,10 +23243,10 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Bitter Blade",
                 "Will-O-Wisp",
-                "Swords Dance",
+                "Night Shade",
                 "Shadow Claw"
              ],
-            "ability":"Sharpness",
+            "ability":"Flash Fire",
             "teraType":"None"
          }
      },
@@ -23270,14 +23268,14 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Eviolite",
+            "item":"Chesto Berry",
             "level": 60,
             "nature":"Bold",
             "battle_type":"Singles",
             "moves": [
-                "Strength Sap",
+                "Snore",
                 "Shadow Ball",
-                "Scald",
+                "Rest",
                 "Earth Power"
              ],
             "ability":"Weak Armor",
@@ -23302,13 +23300,13 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Weakness Policy",
+            "item":"Sitrus Berry",
             "level": 61,
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Calm Mind",
-                "Stored Power",
+                "Charm",
+                "Shadow Ball",
                 "Draining Kiss",
                 "Perish Song"
              ],
@@ -23341,7 +23339,7 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Curse",
                 "Shadow Punch",
-                "Earthquake",
+                "Body Slam",
                 "Giga Impact"
              ],
             "ability":"Thick Fat",
@@ -23401,10 +23399,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Timid",
             "battle_type":"Singles",
             "moves": [
-                "Freeze-Dry",
+                "Ice Beam",
                 "Moonblast",
                 "Aurora Veil",
-                "Pain Split"
+                "Fake Tears"
              ],
             "ability":"Snow Warning",
             "teraType":"None"
@@ -23436,7 +23434,7 @@ var CUSTOMSETDEX_BDSP = {
                 "Protect",
                 "Ice Beam",
                 "Ice Spinner",
-                "Explosion"
+                "Snowscape"
              ],
             "ability":"Moody",
             "teraType":"None"
@@ -23490,17 +23488,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Life Orb",
+            "item":"Muscle Band",
             "level": 60,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
-                "Play Rough",
+                "Body Slam",
                 "Avalanche",
-                "Earthquake",
-                "Heavy Slam"
+                "Ice Shard",
+                "Yawn"
              ],
-            "ability":"Sheer Force",
+            "ability":"Thick Fat",
             "teraType":"None"
          }
      },
@@ -23527,12 +23525,12 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Impish",
             "battle_type":"Singles",
             "moves": [
-                "Triple Axel",
-                "Thief",
-                "Aerial Ace",
-                "Metal Claw"
+                "Ice Punch",
+                "Throat Chop",
+                "Surf",
+                "Hone Claws"
              ],
-            "ability":"Technician",
+            "ability":"Inner Focus",
             "teraType":"None"
          }
      },
@@ -23561,8 +23559,8 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Psychic",
                 "Ice Beam",
-                "Calm Mind",
-                "Reflect"
+                "Sweet Kiss",
+                "Lovely Kiss"
              ],
             "ability":"Hydration",
             "teraType":"None"
@@ -23588,12 +23586,12 @@ var CUSTOMSETDEX_BDSP = {
              },
             "item":"Draco Plate",
             "level": 58,
-            "nature":"Jolly",
+            "nature":"Lax",
             "battle_type":"Singles",
             "moves": [
-                "Reflect",
-                "Leech Seed",
-                "Wood Hammer",
+                "Synthesis",
+                "Extrasensory",
+                "Egg Bomb",
                 "Dragon Hammer"
              ],
             "ability":"Chlorophyll",
@@ -23618,17 +23616,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Focus Sash",
+            "item":"Muscle Band",
             "level": 59,
             "nature":"Adamant",
             "battle_type":"Singles",
             "moves": [
                 "Dragon Dance",
                 "Dragon Claw",
-                "Superpower",
-                "Crunch"
+                "Aqua Jet",
+                "Screech"
              ],
-            "ability":"Sheer Force",
+            "ability":"Torrent",
             "teraType":"None"
          },
         "Pkmn Trainer 1 Slow Fella": {
@@ -23685,10 +23683,10 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Relaxed",
             "battle_type":"Singles",
             "moves": [
-                "Outrage",
-                "Thunderbolt",
-                "Sludge Wave",
-                "Aqua Tail"
+                "Dragon Pulse",
+                "Water Pulse",
+                "Sludge Bomb",
+                "Flail"
              ],
             "ability":"Sap Sipper",
             "teraType":"None"
@@ -23714,13 +23712,13 @@ var CUSTOMSETDEX_BDSP = {
              },
             "item":"Air Balloon",
             "level": 60,
-            "nature":"Adamant",
+            "nature":"Modest",
             "battle_type":"Singles",
             "moves": [
-                "Gunk Shot",
-                "Dragon Rush",
-                "Iron Tail",
-                "Fell Stinger"
+                "Dragon Pulse",
+                "Venoshock",
+                "Toxic",
+                "Gastro Acid"
              ],
             "ability":"Beast Boost",
             "teraType":"None"
@@ -23744,17 +23742,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Assault Vest",
+            "item":"Sitrus Berry",
             "level": 61,
             "nature":"Mild",
             "battle_type":"Singles",
             "moves": [
-                "Draco Meteor",
-                "Flash Cannon",
-                "Heavy Slam",
-                "Body Press"
+                "Breaking Swipe",
+                "Iron Head",
+                "Iron Defense",
+                "Dragon Claw"
              ],
-            "ability":"Stamina",
+            "ability":"Light Metal",
             "teraType":"None"
          },
         "Rival Steven": {
@@ -23838,13 +23836,13 @@ var CUSTOMSETDEX_BDSP = {
              },
             "item":"Punk Incense",
             "level": 62,
-            "nature":"Timid",
+            "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
                 "Dragon Dance",
                 "Poison Jab",
                 "Spark",
-                "Boomburst"
+                "Nuzzle"
              ],
             "ability":"Technician",
             "teraType":"None"
@@ -26737,17 +26735,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Throat Spray",
+            "item":"Eviolite",
             "level": 64,
             "nature":"Bold",
             "battle_type":"Singles",
             "moves": [
                 "Moonblast",
-                "Boomburst",
-                "Perish Song",
+                "Sparkling Aria",
+                "Endure",
                 "Whirlpool"
              ],
-            "ability":"Liquid Voice",
+            "ability":"Torrent",
             "teraType":"None"
          }
      },
@@ -27014,17 +27012,17 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
              },
-            "item":"Eviolite",
+            "item":"Sitrus Berry",
             "level": 64,
             "nature":"Jolly",
             "battle_type":"Singles",
             "moves": [
-                "Wave Crash",
-                "Last Respects",
-                "Double-Edge",
-                "Head Smash"
+                "Aqua Tail",
+                "Poltergeist",
+                "Final Gambit",
+                "Reversal"
              ],
-            "ability":"Rock Head",
+            "ability":"Mold Breaker",
             "teraType":"None"
          }
      },
@@ -27051,8 +27049,8 @@ var CUSTOMSETDEX_BDSP = {
             "nature":"Impish",
             "battle_type":"Singles",
             "moves": [
-                "Dragon Dance",
-                "Earthquake",
+                "Thrash",
+                "Ice Fang",
                 "Iron Head",
                 "Waterfall"
              ],
