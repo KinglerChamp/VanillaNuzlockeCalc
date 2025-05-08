@@ -21491,7 +21491,7 @@ var CUSTOMSETDEX_SV = {
                "Giga Drain",
                "Protect"
             ],
-           "ability":"Protean",
+           "ability":"Mycelium Might",
            "teraType":"None"
         }
     },
