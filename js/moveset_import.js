@@ -407,11 +407,11 @@ function checkExeptions(poke) {
 	case 'Shellos-East':
 		poke = "Shellos";
 		break;
-	case 'Deerling-Summer':
-	case 'Deerling-Autumn':
-	case 'Deerling-Winter':
-		poke = "Deerling";
-		break;
+	//case 'Deerling-Summer':
+	//case 'Deerling-Autumn':
+	//case 'Deerling-Winter':
+	//	poke = "Deerling";
+	//	break;
 	}
 	return poke;
 
