@@ -353,7 +353,7 @@ function addSets(pokes, name) {
 	}
 	if (addedpokes > 0) {
 		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
-		alert("Successfully imported " + addedpokes + " set(s). Refresh to see new sets.");
+		//alert("Successfully imported " + addedpokes + " set(s). Refresh to see new sets.");
 		//setTimeout(() => location.reload(), 250); // Refresh with a slight delay
 	} else {
 		alert("No sets imported, please check your syntax and try again");
