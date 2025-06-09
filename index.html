@@ -16,7 +16,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1600">
     <title>Pok&eacute;mon Damage Calculator</title>
-    <link rel="icon" type="image/x-icon" href="./img/Logo.png?d39d59f4">
+    <link rel="icon" href="smallchung.png" type="image/png">
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?fa878065" />
     <link type="text/css" rel="stylesheet" href="./css/main.css?e778993f" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css?41755d45" />
@@ -51,22 +51,27 @@
 </head>
 
 <body class="dark-theme">
-
+    <div id="sidebar" class="sidebar">
+        <a href="#" class="closebtn" onclick="toggleSidebar()">&times;</a>
+        <a href="save-reader.html">Save Reader</a>
+        <a href="pokedex.html">Pokédex</a>
+        <a href="locations.html">Locations</a>
+        <a href="https://purpleyoyo.github.io/Little-Emerald-Calc/?game=19&gen=8">Damage Calculator</a>
+    </div>
+      
+    <span class="openbtn" onclick="toggleSidebar()">☰ Menu</span>
+    
     <nav>
         <div class="header">
             <div class="header-inner">
-                <a href="#" class="img-anchor"><img src="./img/Logo.png?d39d59f4" alt="Nuzlocke Resources" /></a>
+                <a href="#" class="img-anchor"><img src="smallchung.png" alt="Nuzlocke Resources" /></a>
                 <ul class="nav nav-items">
-                    <li><a class="button nav-first" href="//twitch.tv/kinglerchamp">Twitch</a></li>
-                    <li><a class="button" href="//youtube.com/@NuzlockeResources">Youtube</a></li>
-                    <li><a class="button" href="//discord.gg/pxxmjVk7j5">Discord</a></li>
+                    <li><a class="button" href="//discord.gg/YDX4jj7VYP">Discord</a></li>
                     <li><a class="button nav-last" href="https://github.com/PurpleYoyo/Little-Emerald-Calc/issues"> Bug
                             Report</a></li>
                 </ul>
                 <ul class="nav nav-play">
                     <li>
-                        <!-- <button type="button"></button> -->
-
                         <div class="dark-light-toggle">
                             <input type="checkbox" id="toggle" />
                             <label for="toggle" class="dark-theme-toggle"></label>
@@ -75,7 +80,6 @@
                                 class="button-6" role="button">Play</button></a>
                     </li>
                 </ul>
-                <!-- <div style="clear:both"></div> -->
             </div>
         </div>
     </nav>
@@ -95,28 +99,7 @@
                         <label class="btn btn-mid" for="game20">Hard Mode</label>
                     </div>
                 </div>
-            </div>                
-            <!-- <div class="notationSelection" aria-labelledby="selectNotationInstruction" role="radiogroup"
-                title="Select the output notation.">
-                <span class="visually-hidden" id="selectNotationInstruction">Select the output notation.</span>
-                <input class="notation visually-hidden" type="radio" name="notation" id="pixels" value="px" /><label
-                    class="btn btn-small btn-left" for="pixels">48th</label>
-                <input class="notation visually-hidden" type="radio" name="notation" id="percentage" value="%" /><label
-                    class="btn btn-small btn-right" for="percentage">100%</label>
             </div>
-            <div class="modeSelection" aria-labelledby="selectModeInstruction" role="radiogroup"
-                title="Select the calculator's mode of function.">
-                <span class="visually-hidden" id="selectModeInstruction">Select the calculator's mode of
-                    function.</span>
-                <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-one" checked="checked" /><label
-                    class="btn btn-left btn-wide" for="one-vs-one">One vs One</label>
-                <input class="mode visually-hidden" type="radio" name="mode" id="one-vs-all" /><label
-                    class="btn btn-mid btn-wide gen-specific g3 g4 g5 g6 g7 g8 g9" for="one-vs-all">One vs All</label>
-                <input class="mode visually-hidden" type="radio" name="mode" id="all-vs-one" /><label
-                    class="btn btn-mid btn-wide gen-specific g3 g4 g5 g6 g7 g8 g9" for="all-vs-one">All vs One</label>
-                <input class="mode visually-hidden" type="radio" name="mode" id="randoms" /><label
-                    class="btn btn-right btn-xwide" for="randoms">Random Battles</label>
-            </div> -->
         </div>
 
 
@@ -2159,6 +2142,13 @@
     </div>
 
     <script src="./js/update.js?036cd39a"></script>
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            if (!sidebar) return;
+            sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+        }
+    </script>
 </body>
 
 </html>

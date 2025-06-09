@@ -10177,6 +10177,7 @@ var LE_PATCH = {
     Froakie: { otherFormes: ['Froakie-Special'] },
     Rockruff: { otherFormes: ['Rockruff-Special'] },
     Magikarp: { otherFormes: ['Magikarp-Monster'] },
+    Feebas: { otherFormes: ['Feebas-Fairy'] },
     Eevee: { otherFormes: [
         'Eevee-Fire',
         'Eevee-Water',
@@ -10671,7 +10672,14 @@ var LE_PATCH = {
 		abilities: { 0: 'Tough Claws' },
 		baseSpecies: 'Rockruff',
 		nfe: true
-	}
+	},
+    'Feebas-Fairy': {
+        types: ['Water', 'Fairy'],
+        bs: { hp: 20, at: 15, df: 20, sa: 10, sd: 55, sp: 80 },
+        weightkg: 7.4,
+        nfe: true,
+        abilities: { 0: 'Multiscale' }
+    }
 };
 
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, LE_PATCH);
