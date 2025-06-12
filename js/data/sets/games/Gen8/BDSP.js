@@ -1,6 +1,6 @@
 var CUSTOMSETDEX_BDSP = {
     "Cufant": {
-        "Hiker Sawyer (Normal)": {
+        "Hiker Sawyer | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32,7 +32,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Nickit": {
-        "Team Aqua Grunt (Normal)": {
+        "Team Aqua Grunt | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -62,7 +62,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Team Aqua Grunt 2 (Normal)": {
+        "Team Aqua Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -94,7 +94,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Purrloin": {
-        "Team Aqua Grunt 2 (Normal)": {
+        "Team Aqua Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -124,7 +124,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Limber",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Oceanic Museum| (Normal)": {
+        "Aqua Leader Archie |Oceanic Museum| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -156,7 +156,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Skitty": {
-        "Pkmn Breeder Gabrielle (Normal)": {
+        "Pkmn Breeder Gabrielle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -186,7 +186,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Cooltrainer Mary (Normal)": {
+        "Cooltrainer Mary | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -214,7 +214,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Leader Norman (Normal)": {
+        "Leader Norman | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -244,7 +244,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Pokefan Miguel (Normal)": {
+        "Pokefan Miguel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -274,7 +274,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Pokefan Monti (Normal)": {
+        "Pokefan Monti | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -303,7 +303,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Picnicker Martha (Normal)": {
+        "Picnicker Martha | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -333,7 +333,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Rival Wally |Victory Road| (Normal)": {
+        "Rival Wally |Victory Road| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -363,7 +363,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wonder Skin",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Normal)": {
+        "Pkmn Breeder Lydia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -393,7 +393,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lass Robin (Normal)": {
+        "Lass Robin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -423,7 +423,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Young Couple Dez & Luke (Normal)": {
+        "Young Couple Dez & Luke | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -453,7 +453,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Rival Wally |Mauville| (Normal)": {
+        "Rival Wally |Mauville| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -485,7 +485,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Poochyena": {
-        "Pkmn Breeder Gabrielle (Normal)": {
+        "Pkmn Breeder Gabrielle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -515,7 +515,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Youngster Calvin (Normal)": {
+        "Youngster Calvin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -545,7 +545,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Normal)": {
+        "Pkmn Breeder Isaac | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -575,7 +575,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Team Magma Grunt 2 (Normal)": {
+        "Team Magma Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -605,7 +605,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Mt. Chimney| (Normal)": {
+        "Magma Leader Maxie |Mt. Chimney| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -635,7 +635,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Quick Feet",
             "teraType": "None"
         },
-        "Hiker Mike (Normal)": {
+        "Hiker Mike | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -663,7 +663,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Rich Boy Dawson (Normal)": {
+        "Rich Boy Dawson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -693,7 +693,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Normal)": {
+        "Pkmn Breeder Pat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -725,7 +725,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Bunnelby": {
-        "Pkmn Breeder Gabrielle (Normal)": {
+        "Pkmn Breeder Gabrielle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -755,7 +755,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Cooltrainer Jody (Normal)": {
+        "Cooltrainer Jody | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -783,7 +783,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Gentleman Thomas (Normal)": {
+        "Gentleman Thomas | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -813,7 +813,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Collector Hector (Normal)": {
+        "Collector Hector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -845,7 +845,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Lotad": {
-        "Pkmn Breeder Gabrielle (Normal)": {
+        "Pkmn Breeder Gabrielle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -875,7 +875,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Cooltrainer Warren (Normal)": {
+        "Cooltrainer Warren | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -905,7 +905,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Cooltrainer Michelle (Normal)": {
+        "Cooltrainer Michelle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -935,7 +935,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Beauty Olivia (Normal)": {
+        "Beauty Olivia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -965,7 +965,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Carol (Normal)": {
+        "Picnicker Carol | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -995,7 +995,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Nancy (Normal)": {
+        "Picnicker Nancy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1025,7 +1025,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Twins Gina & Mia (Normal)": {
+        "Twins Gina & Mia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1055,7 +1055,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Collector Edwin (Normal)": {
+        "Collector Edwin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1085,7 +1085,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Ranger Lorenzo (Normal)": {
+        "Pkmn Ranger Lorenzo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1115,7 +1115,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Ranger Jenna (Normal)": {
+        "Pkmn Ranger Jenna | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1145,7 +1145,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lass Haley (Normal)": {
+        "Lass Haley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1175,7 +1175,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lady Sarah (Normal)": {
+        "Lady Sarah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1205,7 +1205,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Sophie (Normal)": {
+        "Picnicker Sophie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1235,7 +1235,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Angelina (Normal)": {
+        "Picnicker Angelina | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1265,7 +1265,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Celia (Normal)": {
+        "Picnicker Celia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1295,7 +1295,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Youngster Johnson (Normal)": {
+        "Youngster Johnson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1327,7 +1327,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Seedot": {
-        "Pkmn Breeder Gabrielle (Normal)": {
+        "Pkmn Breeder Gabrielle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1357,7 +1357,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Cooltrainer Marcel (Normal)": {
+        "Cooltrainer Marcel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1387,7 +1387,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Cooltrainer Braxton (Normal)": {
+        "Cooltrainer Braxton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1416,7 +1416,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Cooltrainer Vito (Normal)": {
+        "Cooltrainer Vito | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1446,7 +1446,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Camper Larry (Normal)": {
+        "Camper Larry | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1476,7 +1476,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Camper Shane (Normal)": {
+        "Camper Shane | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1506,7 +1506,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Youngster Billy (Normal)": {
+        "Youngster Billy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1536,7 +1536,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Twins Gina & Mia (Normal)": {
+        "Twins Gina & Mia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1566,7 +1566,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Collector Edwin (Normal)": {
+        "Collector Edwin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1596,7 +1596,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Snivy| (Normal)": {
+        "Rival Brendan |Route 110| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1626,7 +1626,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Normal)": {
+        "Rival Brendan |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1656,7 +1656,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 110| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1686,7 +1686,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1716,7 +1716,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Pkmn Ranger Lorenzo (Normal)": {
+        "Pkmn Ranger Lorenzo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1746,7 +1746,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Pkmn Ranger Jenna (Normal)": {
+        "Pkmn Ranger Jenna | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1776,7 +1776,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Snivy| (Normal)": {
+        "Rival Brendan |Rustboro| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1805,7 +1805,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1835,7 +1835,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1865,7 +1865,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1895,7 +1895,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1925,7 +1925,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Cooltrainer Ruben (Normal)": {
+        "Cooltrainer Ruben | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1955,7 +1955,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Picnicker Charlotte (Normal)": {
+        "Picnicker Charlotte | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1985,7 +1985,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Camper Branden (Normal)": {
+        "Camper Branden | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2015,7 +2015,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2045,7 +2045,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2075,7 +2075,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2105,7 +2105,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2137,7 +2137,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Rufflet": {
-        "Pkmn Breeder Gabrielle (Normal)": {
+        "Pkmn Breeder Gabrielle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2167,7 +2167,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Leader Winona (Normal)": {
+        "Leader Winona | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2197,7 +2197,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Bird Keeper Chester (Normal)": {
+        "Bird Keeper Chester | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2229,7 +2229,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Electrike": {
-        "Cooltrainer Marcel (Normal)": {
+        "Cooltrainer Marcel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2259,7 +2259,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Wilton (Normal)": {
+        "Cooltrainer Wilton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2289,7 +2289,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Keira (Normal)": {
+        "Cooltrainer Keira | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2319,7 +2319,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Guitarist Kirk (Normal)": {
+        "Guitarist Kirk | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2348,7 +2348,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Guitarist Fernando (Normal)": {
+        "Guitarist Fernando | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2378,7 +2378,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Gentleman Walter (Normal)": {
+        "Gentleman Walter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2408,7 +2408,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Gentleman Micah (Normal)": {
+        "Gentleman Micah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2438,7 +2438,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Leader Wattson (Normal)": {
+        "Leader Wattson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2468,7 +2468,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Youngster Timmy (Normal)": {
+        "Youngster Timmy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2498,7 +2498,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Youngster Demetrius (Normal)": {
+        "Youngster Demetrius | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2528,7 +2528,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Expert Auron (Normal)": {
+        "Expert Auron | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2558,7 +2558,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Marley (Normal)": {
+        "Cooltrainer Marley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2587,7 +2587,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Athena (Normal)": {
+        "Cooltrainer Athena | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2616,7 +2616,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Young Couple Dez & Luke (Normal)": {
+        "Young Couple Dez & Luke | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2646,7 +2646,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Guitarist Joseph (Normal)": {
+        "Guitarist Joseph | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2676,7 +2676,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Youngster Deandre (Normal)": {
+        "Youngster Deandre | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2706,7 +2706,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Carolina (Normal)": {
+        "Cooltrainer Carolina | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2736,7 +2736,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Guitarist Fabian (Normal)": {
+        "Guitarist Fabian | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2766,7 +2766,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Leonel (Normal)": {
+        "Cooltrainer Leonel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2795,7 +2795,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Normal)": {
+        "Pkmn Breeder Myles | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2825,7 +2825,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Normal)": {
+        "Pkmn Breeder Pat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2855,7 +2855,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy (Normal)": {
+        "Pkmn Trainer 1 Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2887,7 +2887,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wingull": {
-        "Bird Keeper Alberto (Normal)": {
+        "Bird Keeper Alberto | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2917,7 +2917,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Cooltrainer Edgar (Normal)": {
+        "Cooltrainer Edgar | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2947,7 +2947,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Cooltrainer Wendy (Normal)": {
+        "Cooltrainer Wendy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2976,7 +2976,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Cooltrainer Brooke (Normal)": {
+        "Cooltrainer Brooke | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3006,7 +3006,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Darrin (Normal)": {
+        "Swimmer M Darrin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3036,7 +3036,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Spencer (Normal)": {
+        "Swimmer M Spencer | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3066,7 +3066,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Dean (Normal)": {
+        "Swimmer M Dean | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3096,7 +3096,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Richard (Normal)": {
+        "Swimmer M Richard | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3126,7 +3126,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Herman (Normal)": {
+        "Swimmer M Herman | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3156,7 +3156,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Dudley (Normal)": {
+        "Swimmer M Dudley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3186,7 +3186,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Kindler Bernie (Normal)": {
+        "Kindler Bernie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3216,7 +3216,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Leader Winona (Normal)": {
+        "Leader Winona | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3246,7 +3246,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rain Dish",
             "teraType": "None"
         },
-        "School Kid Paul (Normal)": {
+        "School Kid Paul | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3276,7 +3276,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Triathlete Chase (Normal)": {
+        "Triathlete Chase | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3306,7 +3306,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Triathlete Donny (Normal)": {
+        "Triathlete Donny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3336,7 +3336,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Triathlete Allison (Normal)": {
+        "Triathlete Allison | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3366,7 +3366,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Perry (Normal)": {
+        "Bird Keeper Perry | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3396,7 +3396,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Hugh (Normal)": {
+        "Bird Keeper Hugh | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3426,7 +3426,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Edwardo (Normal)": {
+        "Bird Keeper Edwardo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3456,7 +3456,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Colin (Normal)": {
+        "Bird Keeper Colin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3486,7 +3486,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Benny (Normal)": {
+        "Bird Keeper Benny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3516,7 +3516,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer F Beverly (Normal)": {
+        "Swimmer F Beverly | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3546,7 +3546,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer F Denise (Normal)": {
+        "Swimmer F Denise | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3576,7 +3576,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer F Alice (Normal)": {
+        "Swimmer F Alice | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3606,7 +3606,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer F Kaylee (Normal)": {
+        "Swimmer F Kaylee | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3636,7 +3636,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Huey (Normal)": {
+        "Sailor Huey | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3666,7 +3666,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Edmond (Normal)": {
+        "Sailor Edmond | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3696,7 +3696,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Ernest (Normal)": {
+        "Sailor Ernest | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3726,7 +3726,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Dwayne (Normal)": {
+        "Sailor Dwayne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3756,7 +3756,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Leonard (Normal)": {
+        "Sailor Leonard | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3786,7 +3786,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Normal)": {
+        "Pkmn Breeder Lydia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3816,7 +3816,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Hiker Mike (Normal)": {
+        "Hiker Mike | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3844,7 +3844,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sis And Bro Reli & Ian (Normal)": {
+        "Sis And Bro Reli & Ian | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3874,7 +3874,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Cooltrainer Darcy (Normal)": {
+        "Cooltrainer Darcy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3904,7 +3904,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Josue (Normal)": {
+        "Bird Keeper Josue | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3934,7 +3934,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Cory (Normal)": {
+        "Sailor Cory | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3964,7 +3964,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Normal)": {
+        "Pkmn Breeder Myles | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3996,7 +3996,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Natu": {
-        "Bird Keeper Alberto (Normal)": {
+        "Bird Keeper Alberto | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4026,7 +4026,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Samantha (Normal)": {
+        "Psychic Samantha | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4056,7 +4056,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Kayla (Normal)": {
+        "Psychic Kayla | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4086,7 +4086,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Alexis (Normal)": {
+        "Psychic Alexis | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4116,7 +4116,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Presley (Normal)": {
+        "Bird Keeper Presley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4146,7 +4146,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Colin (Normal)": {
+        "Bird Keeper Colin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4176,7 +4176,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Benny (Normal)": {
+        "Bird Keeper Benny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4206,7 +4206,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Alex (Normal)": {
+        "Bird Keeper Alex | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4236,7 +4236,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Macey (Normal)": {
+        "Psychic Macey | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4266,7 +4266,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Camper Flint (Normal)": {
+        "Camper Flint | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4296,7 +4296,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Elijah (Normal)": {
+        "Bird Keeper Elijah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4328,7 +4328,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Slakoth": {
-        "Collector Ed (Normal)": {
+        "Collector Ed | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4358,7 +4358,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Cooltrainer George (Normal)": {
+        "Cooltrainer George | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4387,7 +4387,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Cooltrainer Berke (Normal)": {
+        "Cooltrainer Berke | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4415,7 +4415,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Sr And Jr Kate & Joy (Normal)": {
+        "Sr And Jr Kate & Joy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4445,7 +4445,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Cooltrainer Quincy (Normal)": {
+        "Cooltrainer Quincy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4474,7 +4474,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Cooltrainer Katelynn (Normal)": {
+        "Cooltrainer Katelynn | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4506,7 +4506,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Varoom": {
-        "Collector Ed (Normal)": {
+        "Collector Ed | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4538,7 +4538,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Magikarp": {
-        "Swimmer M Declan (Normal)": {
+        "Swimmer M Declan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4568,7 +4568,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer M Barry (Normal)": {
+        "Swimmer M Barry | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4598,7 +4598,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer M Rodney (Normal)": {
+        "Swimmer M Rodney | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4628,7 +4628,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer M Jack (Normal)": {
+        "Swimmer M Jack | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4658,7 +4658,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Andrew (Normal)": {
+        "Fisherman Andrew | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4688,7 +4688,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Ivan (Normal)": {
+        "Fisherman Ivan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4718,7 +4718,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Claude (Normal)": {
+        "Fisherman Claude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4748,7 +4748,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Elliot (Normal)": {
+        "Fisherman Elliot | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4778,7 +4778,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Ronald (Normal)": {
+        "Fisherman Ronald | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4808,7 +4808,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pokefan Annika (Normal)": {
+        "Pokefan Annika | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4838,7 +4838,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Roger (Normal)": {
+        "Fisherman Roger | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4868,7 +4868,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Chris (Normal)": {
+        "Fisherman Chris | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4898,7 +4898,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Darian (Normal)": {
+        "Fisherman Darian | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4930,7 +4930,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Finneon": {
-        "Swimmer M Declan (Normal)": {
+        "Swimmer M Declan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4960,7 +4960,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lady Daphne (Normal)": {
+        "Lady Daphne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4990,7 +4990,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Tanya (Normal)": {
+        "Swimmer F Tanya | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5020,7 +5020,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Susie (Normal)": {
+        "Swimmer F Susie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5050,7 +5050,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Sienna (Normal)": {
+        "Swimmer F Sienna | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5080,7 +5080,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Laurel (Normal)": {
+        "Swimmer F Laurel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5110,7 +5110,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lass Andrea (Normal)": {
+        "Lass Andrea | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5140,7 +5140,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Young Couple Lea & Jed (Normal)": {
+        "Young Couple Lea & Jed | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5172,7 +5172,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Maschiff": {
-        "Team Aqua Grunt 2 (Normal)": {
+        "Team Aqua Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5204,7 +5204,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Noibat": {
-        "Team Aqua Grunt 2 (Normal)": {
+        "Team Aqua Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5236,7 +5236,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Shellder": {
-        "Team Aqua Grunt 2 (Normal)": {
+        "Team Aqua Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5266,7 +5266,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shell Armor",
             "teraType": "None"
         },
-        "Elite Four Glacia (Normal)": {
+        "Elite Four Glacia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5296,7 +5296,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shell Armor",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Smasher (Normal)": {
+        "Pkmn Trainer 1 Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5328,7 +5328,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wailmer": {
-        "Team Aqua Grunt 2 (Normal)": {
+        "Team Aqua Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5358,7 +5358,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Tuber M Simon (Normal)": {
+        "Tuber M Simon | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5388,7 +5388,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Cooltrainer Braxton (Normal)": {
+        "Cooltrainer Braxton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5417,7 +5417,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Cooltrainer Wilton (Normal)": {
+        "Cooltrainer Wilton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5447,7 +5447,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Cooltrainer Owen (Normal)": {
+        "Cooltrainer Owen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5477,7 +5477,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Beauty Thalia (Normal)": {
+        "Beauty Thalia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5507,7 +5507,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer M Santiago (Normal)": {
+        "Swimmer M Santiago | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5537,7 +5537,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer M Chad (Normal)": {
+        "Swimmer M Chad | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5567,7 +5567,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Champion Wallace (Normal)": {
+        "Champion Wallace | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5597,7 +5597,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Drizzle",
             "teraType": "None"
         },
-        "Fisherman Dale (Normal)": {
+        "Fisherman Dale | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5627,7 +5627,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Fisherman Carter (Normal)": {
+        "Fisherman Carter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5657,7 +5657,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Parasol Lady Clarissa (Normal)": {
+        "Parasol Lady Clarissa | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5687,7 +5687,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer F Beverly (Normal)": {
+        "Swimmer F Beverly | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5717,7 +5717,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer F Kyla (Normal)": {
+        "Swimmer F Kyla | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5747,7 +5747,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer F Jenny (Normal)": {
+        "Swimmer F Jenny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5777,7 +5777,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Sailor Hudson (Normal)": {
+        "Sailor Hudson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5807,7 +5807,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Team Magma Grunt 2 (Normal)": {
+        "Team Magma Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5837,7 +5837,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lass Crissy (Normal)": {
+        "Lass Crissy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5867,7 +5867,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Fisherman Jonah (Normal)": {
+        "Fisherman Jonah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5897,7 +5897,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Fisherman Wayne (Normal)": {
+        "Fisherman Wayne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5929,7 +5929,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Numel": {
-        "Team Magma Grunt 2 (Normal)": {
+        "Team Magma Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5959,7 +5959,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Cooltrainer Brooke (Normal)": {
+        "Cooltrainer Brooke | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5989,7 +5989,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Beauty Shirley (Normal)": {
+        "Beauty Shirley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6019,7 +6019,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Kindler Cole (Normal)": {
+        "Kindler Cole | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6049,7 +6049,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Kindler Axle (Normal)": {
+        "Kindler Axle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6079,7 +6079,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "School Kid Paul (Normal)": {
+        "School Kid Paul | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6109,7 +6109,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Parasol Lady Madeline (Normal)": {
+        "Parasol Lady Madeline | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6138,7 +6138,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Hiker Eli (Normal)": {
+        "Hiker Eli | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6168,7 +6168,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6198,7 +6198,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6228,7 +6228,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Winstrate Vivi (Normal)": {
+        "Winstrate Vivi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6258,7 +6258,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Hiker Brice (Normal)": {
+        "Hiker Brice | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6288,7 +6288,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Hiker Lucas (Normal)": {
+        "Hiker Lucas | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6318,7 +6318,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Sr And Jr Kim & Iris (Normal)": {
+        "Sr And Jr Kim & Iris | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6347,7 +6347,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Kindler Hayden (Normal)": {
+        "Kindler Hayden | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6377,7 +6377,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Cooltrainer Darcy (Normal)": {
+        "Cooltrainer Darcy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6407,7 +6407,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Space Center| (Normal)": {
+        "Magma Leader Maxie |Space Center| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6437,7 +6437,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Bryant (Normal)": {
+        "Kindler Bryant | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6467,7 +6467,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Kindler Dayton (Normal)": {
+        "Kindler Dayton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6497,7 +6497,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Normal)": {
+        "Pkmn Breeder Myles | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6529,7 +6529,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Makuhita": {
-        "Expert Fredrick (Normal)": {
+        "Expert Fredrick | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6559,7 +6559,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Zander (Normal)": {
+        "Black Belt Zander | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6589,7 +6589,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Cooltrainer Wilton (Normal)": {
+        "Cooltrainer Wilton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6619,7 +6619,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Kiyo (Normal)": {
+        "Black Belt Kiyo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6649,7 +6649,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Yuji (Normal)": {
+        "Black Belt Yuji | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6679,7 +6679,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Atsushi (Normal)": {
+        "Black Belt Atsushi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6709,7 +6709,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Sr And Jr Anna & Meg (Normal)": {
+        "Sr And Jr Anna & Meg | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6738,7 +6738,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Expert Timothy (Normal)": {
+        "Expert Timothy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6768,7 +6768,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Expert Shelby (Normal)": {
+        "Expert Shelby | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6798,7 +6798,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Battle Girl Cyndy (Normal)": {
+        "Battle Girl Cyndy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6828,7 +6828,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Battle Girl Reyna (Normal)": {
+        "Battle Girl Reyna | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6858,7 +6858,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Expert Conor (Normal)": {
+        "Expert Conor | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6888,7 +6888,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Normal)": {
+        "Pkmn Breeder Isaac | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6918,7 +6918,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Cristian (Normal)": {
+        "Black Belt Cristian | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6948,7 +6948,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Old Couple John & Jay (Normal)": {
+        "Old Couple John & Jay | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6977,7 +6977,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Rhett (Normal)": {
+        "Black Belt Rhett | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7007,7 +7007,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Battle Girl Helene (Normal)": {
+        "Battle Girl Helene | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7037,7 +7037,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Battle Girl Callie (Normal)": {
+        "Battle Girl Callie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7067,7 +7067,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Normal)": {
+        "Pkmn Breeder Myles | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7099,7 +7099,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Machop": {
-        "Expert Fredrick (Normal)": {
+        "Expert Fredrick | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7129,7 +7129,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Takao (Normal)": {
+        "Black Belt Takao | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7159,7 +7159,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Hitoshi (Normal)": {
+        "Black Belt Hitoshi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7189,7 +7189,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Koichi (Normal)": {
+        "Black Belt Koichi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7219,7 +7219,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Nob (Normal)": {
+        "Black Belt Nob | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7249,7 +7249,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Yuji (Normal)": {
+        "Black Belt Yuji | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7279,7 +7279,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Daisuke (Normal)": {
+        "Black Belt Daisuke | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7309,7 +7309,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Youngster Joey (Normal)": {
+        "Youngster Joey | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7339,7 +7339,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Huey (Normal)": {
+        "Sailor Huey | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7369,7 +7369,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Ernest (Normal)": {
+        "Sailor Ernest | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7399,7 +7399,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Dwayne (Normal)": {
+        "Sailor Dwayne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7429,7 +7429,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Phillip (Normal)": {
+        "Sailor Phillip | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7459,7 +7459,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Leonard (Normal)": {
+        "Sailor Leonard | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7489,7 +7489,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Duncan (Normal)": {
+        "Sailor Duncan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7519,7 +7519,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Kelvin (Normal)": {
+        "Sailor Kelvin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7549,7 +7549,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Brenden (Normal)": {
+        "Sailor Brenden | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7579,7 +7579,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Hiker Brice (Normal)": {
+        "Hiker Brice | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7609,7 +7609,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Hiker Lenny (Normal)": {
+        "Hiker Lenny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7639,7 +7639,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Koji (Normal)": {
+        "Black Belt Koji | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7669,7 +7669,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Cory (Normal)": {
+        "Sailor Cory | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7701,7 +7701,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Drifloon": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7731,7 +7731,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Aftermath",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7761,7 +7761,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Aftermath",
             "teraType": "None"
         },
-        "Leader Winona (Normal)": {
+        "Leader Winona | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7793,7 +7793,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Geodude-Alola": {
-        "Pkmn Trainer 1 Boom Dude (Normal)": {
+        "Pkmn Trainer 1 Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7823,7 +7823,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Galvanize",
             "sub_index": 0
         },
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7853,7 +7853,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Galvanize",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7883,7 +7883,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Galvanize",
             "teraType": "None"
         },
-        "Hiker Devan (Normal)": {
+        "Hiker Devan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7915,7 +7915,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Tynamo": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7945,7 +7945,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7975,7 +7975,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Triathlete Anthony (Normal)": {
+        "Triathlete Anthony | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8007,7 +8007,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Shinx": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8037,7 +8037,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8069,7 +8069,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Porygon": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8099,7 +8099,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Analytic",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8129,7 +8129,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Analytic",
             "teraType": "None"
         },
-        "Cooltrainer Owen (Normal)": {
+        "Cooltrainer Owen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8159,7 +8159,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Trace",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| (Normal)": {
+        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8189,7 +8189,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Trace",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| (Normal)": {
+        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8221,7 +8221,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Vanillite": {
-        "Aqua Admin Shelly |Weather Institute| (Normal)": {
+        "Aqua Admin Shelly |Weather Institute| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8253,7 +8253,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Frigibax": {
-        "Aqua Admin Shelly |Weather Institute| (Normal)": {
+        "Aqua Admin Shelly |Weather Institute| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8285,7 +8285,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Bergmite": {
-        "Aqua Admin Shelly |Weather Institute| (Normal)": {
+        "Aqua Admin Shelly |Weather Institute| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8317,7 +8317,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Bergmite-Rock": {
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8347,7 +8347,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8379,7 +8379,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Sneasel-Hisui": {
-        "Aqua Admin Shelly |Weather Institute| (Normal)": {
+        "Aqua Admin Shelly |Weather Institute| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8411,7 +8411,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Carvanha": {
-        "Aqua Leader Archie |Seafloor Cavern| (Normal)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8441,7 +8441,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Strong Jaw",
             "teraType": "None"
         },
-        "Cooltrainer Vincent (Normal)": {
+        "Cooltrainer Vincent | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8471,7 +8471,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Beauty Tiffany (Normal)": {
+        "Beauty Tiffany | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8501,7 +8501,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Luis (Normal)": {
+        "Swimmer M Luis | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8531,7 +8531,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Tony (Normal)": {
+        "Swimmer M Tony | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8561,7 +8561,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Matthew (Normal)": {
+        "Swimmer M Matthew | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8591,7 +8591,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M David (Normal)": {
+        "Swimmer M David | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8621,7 +8621,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Roland (Normal)": {
+        "Swimmer M Roland | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8651,7 +8651,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Dean (Normal)": {
+        "Swimmer M Dean | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8681,7 +8681,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Gilbert (Normal)": {
+        "Swimmer M Gilbert | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8711,7 +8711,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Fisherman Barny (Normal)": {
+        "Fisherman Barny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8741,7 +8741,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Leonardo (Normal)": {
+        "Swimmer M Leonardo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8771,7 +8771,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Clarence (Normal)": {
+        "Swimmer M Clarence | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8801,7 +8801,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Fisherman Jonah (Normal)": {
+        "Fisherman Jonah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8831,7 +8831,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Fisherman Henry (Normal)": {
+        "Fisherman Henry | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8861,7 +8861,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Reed (Normal)": {
+        "Swimmer M Reed | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8891,7 +8891,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Sis And Bro Lila & Roy (Normal)": {
+        "Sis And Bro Lila & Roy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8921,7 +8921,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Fisherman Chris (Normal)": {
+        "Fisherman Chris | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8953,7 +8953,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Poliwag": {
-        "Aqua Leader Archie |Seafloor Cavern| (Normal)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8983,7 +8983,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| (Normal)": {
+        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9013,7 +9013,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| (Normal)": {
+        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9045,7 +9045,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Mantyke": {
-        "Aqua Leader Archie |Seafloor Cavern| (Normal)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9075,7 +9075,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Tuber F Lola (Normal)": {
+        "Tuber F Lola | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9105,7 +9105,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Leader Juan (Normal)": {
+        "Leader Juan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9137,7 +9137,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Nymble": {
-        "Aqua Leader Archie |Seafloor Cavern| (Normal)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9169,7 +9169,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Clauncher": {
-        "Aqua Leader Archie |Seafloor Cavern| (Normal)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9199,7 +9199,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Fisherman Dale (Normal)": {
+        "Fisherman Dale | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9229,7 +9229,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Parasol Lady Angelica (Normal)": {
+        "Parasol Lady Angelica | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9259,7 +9259,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| (Normal)": {
+        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9289,7 +9289,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| (Normal)": {
+        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9321,7 +9321,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Finizen": {
-        "Aqua Leader Archie |Seafloor Cavern| (Normal)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9351,7 +9351,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid (Normal)": {
+        "Pkmn Trainer 1 Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9383,7 +9383,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Spoink": {
-        "Hex Maniac Leah (Normal)": {
+        "Hex Maniac Leah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9413,7 +9413,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Gentleman Nate (Normal)": {
+        "Gentleman Nate | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9443,7 +9443,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Psychic Marlene (Normal)": {
+        "Psychic Marlene | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9475,7 +9475,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Chingling": {
-        "Hex Maniac Leah (Normal)": {
+        "Hex Maniac Leah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9505,7 +9505,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Psychic Mariela (Normal)": {
+        "Psychic Mariela | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9537,7 +9537,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Shroomish": {
-        "Aroma Lady Daisy (Normal)": {
+        "Aroma Lady Daisy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9567,7 +9567,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Aroma Lady Rose (Normal)": {
+        "Aroma Lady Rose | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9597,7 +9597,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Beauty Sheila (Normal)": {
+        "Beauty Sheila | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9627,7 +9627,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Picnicker Autumn (Normal)": {
+        "Picnicker Autumn | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9657,7 +9657,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "School Kid Karen (Normal)": {
+        "School Kid Karen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9687,7 +9687,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "School Kid Georgia (Normal)": {
+        "School Kid Georgia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9717,7 +9717,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Picnicker Diana (Normal)": {
+        "Picnicker Diana | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9747,7 +9747,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Picnicker Irene (Normal)": {
+        "Picnicker Irene | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9777,7 +9777,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Normal)": {
+        "Pkmn Breeder Lydia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9807,7 +9807,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lass Tiana (Normal)": {
+        "Lass Tiana | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9837,7 +9837,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lass Haley (Normal)": {
+        "Lass Haley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9867,7 +9867,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Winstrate Vivi (Normal)": {
+        "Winstrate Vivi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9897,7 +9897,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lass Robin (Normal)": {
+        "Lass Robin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9927,7 +9927,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Picnicker Bianca (Normal)": {
+        "Picnicker Bianca | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9957,7 +9957,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Aroma Lady Shayla (Normal)": {
+        "Aroma Lady Shayla | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9987,7 +9987,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Youngster Johnson (Normal)": {
+        "Youngster Johnson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10017,7 +10017,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Normal)": {
+        "Pkmn Breeder Pat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10049,7 +10049,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Budew": {
-        "Rival Wally |Victory Road| (Normal)": {
+        "Rival Wally |Victory Road| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10079,7 +10079,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Aroma Lady Daisy (Normal)": {
+        "Aroma Lady Daisy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10109,7 +10109,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Aroma Lady Rose (Normal)": {
+        "Aroma Lady Rose | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10141,7 +10141,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Darumaka-Galar": {
-        "Aroma Lady Rose (Normal)": {
+        "Aroma Lady Rose | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10173,7 +10173,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Meditite": {
-        "Cooltrainer Felix (Normal)": {
+        "Cooltrainer Felix | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10200,7 +10200,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Cooltrainer Vincent (Normal)": {
+        "Cooltrainer Vincent | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10230,7 +10230,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Cooltrainer Michelle (Normal)": {
+        "Cooltrainer Michelle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10260,7 +10260,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Expert Mollie (Normal)": {
+        "Expert Mollie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10290,7 +10290,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Psychic William (Normal)": {
+        "Psychic William | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10320,7 +10320,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Winstrate Vicky (Normal)": {
+        "Winstrate Vicky | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10349,7 +10349,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Expert Shelby (Normal)": {
+        "Expert Shelby | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10379,7 +10379,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Jocelyn (Normal)": {
+        "Battle Girl Jocelyn | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10409,7 +10409,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Laura (Normal)": {
+        "Battle Girl Laura | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10439,7 +10439,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Cyndy (Normal)": {
+        "Battle Girl Cyndy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10469,7 +10469,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Cora (Normal)": {
+        "Battle Girl Cora | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10499,7 +10499,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Reyna (Normal)": {
+        "Battle Girl Reyna | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10529,7 +10529,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Lilith (Normal)": {
+        "Battle Girl Lilith | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10559,7 +10559,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Hex Maniac Sylvia (Normal)": {
+        "Hex Maniac Sylvia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10589,7 +10589,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Vivian (Normal)": {
+        "Battle Girl Vivian | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10618,7 +10618,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Danielle (Normal)": {
+        "Battle Girl Danielle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10647,7 +10647,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Old Couple John & Jay (Normal)": {
+        "Old Couple John & Jay | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10676,7 +10676,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Helene (Normal)": {
+        "Battle Girl Helene | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10706,7 +10706,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Psychic Marlene (Normal)": {
+        "Psychic Marlene | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10736,7 +10736,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Aisha (Normal)": {
+        "Battle Girl Aisha | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10766,7 +10766,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Expert Makayla (Normal)": {
+        "Expert Makayla | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10796,7 +10796,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Callie (Normal)": {
+        "Battle Girl Callie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10828,7 +10828,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Baltoy": {
-        "Cooltrainer Felix (Normal)": {
+        "Cooltrainer Felix | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10856,7 +10856,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ruin Maniac Chip (Normal)": {
+        "Ruin Maniac Chip | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10885,7 +10885,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Cooltrainer Shannon (Normal)": {
+        "Cooltrainer Shannon | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10915,7 +10915,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Camper Beau (Normal)": {
+        "Camper Beau | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10944,7 +10944,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Cooltrainer Dianne (Normal)": {
+        "Cooltrainer Dianne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10972,7 +10972,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Picnicker Heidi (Normal)": {
+        "Picnicker Heidi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11001,7 +11001,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Hiker Eric (Normal)": {
+        "Hiker Eric | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11031,7 +11031,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Camper Lawrence (Normal)": {
+        "Camper Lawrence | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11061,7 +11061,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Team Magma Grunt 2 (Normal)": {
+        "Team Magma Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11091,7 +11091,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Rival Steven (Normal)": {
+        "Rival Steven | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11121,7 +11121,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Boom Dude (Normal)": {
+        "Pkmn Trainer 1 Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11153,7 +11153,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Bulbasaur": {
-        "Aroma Lady Violet (Normal)": {
+        "Aroma Lady Violet | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11183,7 +11183,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Cooltrainer Wendy (Normal)": {
+        "Cooltrainer Wendy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11212,7 +11212,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Cooltrainer Brooke (Normal)": {
+        "Cooltrainer Brooke | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11242,7 +11242,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Cooltrainer Hope (Normal)": {
+        "Cooltrainer Hope | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11272,7 +11272,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lady Naomi (Normal)": {
+        "Lady Naomi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11302,7 +11302,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Winstrate Victoria (Normal)": {
+        "Winstrate Victoria | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11332,7 +11332,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Parasol Lady Clarissa (Normal)": {
+        "Parasol Lady Clarissa | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11362,7 +11362,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Normal)": {
+        "Pkmn Breeder Lydia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11392,7 +11392,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Pkmn Ranger Catherine (Normal)": {
+        "Pkmn Ranger Catherine | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11422,7 +11422,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Pkmn Ranger Sophia (Normal)": {
+        "Pkmn Ranger Sophia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11452,7 +11452,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Sr And Jr Tyra & Ivy (Normal)": {
+        "Sr And Jr Tyra & Ivy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11481,7 +11481,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Aroma Lady Celina (Normal)": {
+        "Aroma Lady Celina | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11511,7 +11511,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Aroma Lady Shayla (Normal)": {
+        "Aroma Lady Shayla | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11541,7 +11541,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Expert Makayla (Normal)": {
+        "Expert Makayla | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11573,7 +11573,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Oddish": {
-        "Aroma Lady Violet (Normal)": {
+        "Aroma Lady Violet | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11603,7 +11603,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "School Kid Paul (Normal)": {
+        "School Kid Paul | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11633,7 +11633,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Picnicker Diana (Normal)": {
+        "Picnicker Diana | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11663,7 +11663,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Pkmn Ranger Catherine (Normal)": {
+        "Pkmn Ranger Catherine | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11693,7 +11693,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lass Sally (Normal)": {
+        "Lass Sally | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11723,7 +11723,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Cooltrainer Alexa (Normal)": {
+        "Cooltrainer Alexa | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11755,7 +11755,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Sandshrew": {
-        "Ruin Maniac Dusty (Normal)": {
+        "Ruin Maniac Dusty | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11784,7 +11784,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Chip (Normal)": {
+        "Ruin Maniac Chip | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11813,7 +11813,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Foster (Normal)": {
+        "Ruin Maniac Foster | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11842,7 +11842,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Cooltrainer Julie (Normal)": {
+        "Cooltrainer Julie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11872,7 +11872,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Drew (Normal)": {
+        "Camper Drew | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11902,7 +11902,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Beau (Normal)": {
+        "Camper Beau | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11932,7 +11932,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Shane (Normal)": {
+        "Camper Shane | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11962,7 +11962,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Travis (Normal)": {
+        "Camper Travis | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11992,7 +11992,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Picnicker Heidi (Normal)": {
+        "Picnicker Heidi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12021,7 +12021,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Picnicker Becky (Normal)": {
+        "Picnicker Becky | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12050,7 +12050,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Garrison (Normal)": {
+        "Ruin Maniac Garrison | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12080,7 +12080,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Tyron (Normal)": {
+        "Camper Tyron | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12110,7 +12110,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Lawrence (Normal)": {
+        "Camper Lawrence | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12140,7 +12140,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Andres (Normal)": {
+        "Ruin Maniac Andres | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12170,7 +12170,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Bryan (Normal)": {
+        "Ruin Maniac Bryan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12200,7 +12200,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Normal)": {
+        "Pkmn Breeder Pat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12232,7 +12232,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Phanpy": {
-        "Ruin Maniac Chip (Normal)": {
+        "Ruin Maniac Chip | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12264,7 +12264,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Sandshrew-Alola": {
-        "Ruin Maniac Foster (Normal)": {
+        "Ruin Maniac Foster | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12294,7 +12294,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Snow Cloak",
             "teraType": "None"
         },
-        "Aqua Admin Shelly |Weather Institute| (Normal)": {
+        "Aqua Admin Shelly |Weather Institute| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12326,7 +12326,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Magnemite": {
-        "Interviewer Gabby & Ty (Normal)": {
+        "Interviewer Gabby & Ty | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12356,7 +12356,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Cooltrainer Braxton (Normal)": {
+        "Cooltrainer Braxton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12385,7 +12385,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Cooltrainer Albert (Normal)": {
+        "Cooltrainer Albert | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12415,7 +12415,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Guitarist Shawn (Normal)": {
+        "Guitarist Shawn | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12445,7 +12445,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Guitarist Dalton (Normal)": {
+        "Guitarist Dalton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12475,7 +12475,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Leader Wattson (Normal)": {
+        "Leader Wattson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12505,7 +12505,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Triathlete Jacob (Normal)": {
+        "Triathlete Jacob | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12535,7 +12535,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Anthony (Normal)": {
+        "Triathlete Anthony | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12565,7 +12565,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Benjamin (Normal)": {
+        "Triathlete Benjamin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12595,7 +12595,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Abigail (Normal)": {
+        "Triathlete Abigail | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12625,7 +12625,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Jasmine (Normal)": {
+        "Triathlete Jasmine | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12655,7 +12655,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Rival Wally |Victory Road| (Normal)": {
+        "Rival Wally |Victory Road| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12685,7 +12685,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Triathlete Julio (Normal)": {
+        "Triathlete Julio | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12715,7 +12715,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Alyssa (Normal)": {
+        "Triathlete Alyssa | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12747,7 +12747,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Whismur": {
-        "Interviewer Gabby & Ty (Normal)": {
+        "Interviewer Gabby & Ty | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12777,7 +12777,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Fernando (Normal)": {
+        "Guitarist Fernando | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12807,7 +12807,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Dalton (Normal)": {
+        "Guitarist Dalton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12837,7 +12837,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Normal)": {
+        "Pkmn Breeder Isaac | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12867,7 +12867,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Cooltrainer Jonathan (Normal)": {
+        "Cooltrainer Jonathan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12897,7 +12897,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Cooltrainer Cristin (Normal)": {
+        "Cooltrainer Cristin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12929,7 +12929,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Azurill": {
-        "Tuber F Lola (Normal)": {
+        "Tuber F Lola | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12959,7 +12959,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber F Austina (Normal)": {
+        "Tuber F Austina | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12989,7 +12989,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber F Gwen (Normal)": {
+        "Tuber F Gwen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13019,7 +13019,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber M Simon (Normal)": {
+        "Tuber M Simon | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13049,7 +13049,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber M Charlie (Normal)": {
+        "Tuber M Charlie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13079,7 +13079,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Beauty Melissa (Normal)": {
+        "Beauty Melissa | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13109,7 +13109,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Beauty Bridget (Normal)": {
+        "Beauty Bridget | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13139,7 +13139,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Rich Boy Garret (Normal)": {
+        "Rich Boy Garret | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13169,7 +13169,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pokefan Bethany (Normal)": {
+        "Pokefan Bethany | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13199,7 +13199,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Champion Wallace (Normal)": {
+        "Champion Wallace | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13229,7 +13229,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Huge Power",
             "teraType": "None"
         },
-        "Tuber F Jani (Normal)": {
+        "Tuber F Jani | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13259,7 +13259,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Imani (Normal)": {
+        "Swimmer F Imani | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13289,7 +13289,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Tara (Normal)": {
+        "Swimmer F Tara | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13319,7 +13319,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Grace (Normal)": {
+        "Swimmer F Grace | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13349,7 +13349,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Nikki (Normal)": {
+        "Swimmer F Nikki | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13379,7 +13379,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Dana (Normal)": {
+        "Swimmer F Dana | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13409,7 +13409,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Becky (Normal)": {
+        "Picnicker Becky | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13438,7 +13438,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Nancy (Normal)": {
+        "Picnicker Nancy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13468,7 +13468,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Irene (Normal)": {
+        "Picnicker Irene | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13498,7 +13498,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Normal)": {
+        "Pkmn Breeder Lydia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13528,7 +13528,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lass Janice (Normal)": {
+        "Lass Janice | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13558,7 +13558,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Winstrate Vivi (Normal)": {
+        "Winstrate Vivi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13588,7 +13588,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lass Robin (Normal)": {
+        "Lass Robin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13618,7 +13618,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Cooltrainer Alexa (Normal)": {
+        "Cooltrainer Alexa | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13648,7 +13648,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Sis And Bro Reli & Ian (Normal)": {
+        "Sis And Bro Reli & Ian | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13678,7 +13678,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber F Hailey (Normal)": {
+        "Tuber F Hailey | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13708,7 +13708,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Sophie (Normal)": {
+        "Picnicker Sophie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13738,7 +13738,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Angelina (Normal)": {
+        "Picnicker Angelina | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13768,7 +13768,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Isabelle (Normal)": {
+        "Swimmer F Isabelle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13798,7 +13798,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Celia (Normal)": {
+        "Picnicker Celia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13828,7 +13828,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Normal)": {
+        "Pkmn Breeder Pat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13860,7 +13860,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Zigzagoon": {
-        "Tuber M Ricky (Normal)": {
+        "Tuber M Ricky | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13889,7 +13889,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lady Cindy (Normal)": {
+        "Lady Cindy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13919,7 +13919,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Rich Boy Winston (Normal)": {
+        "Rich Boy Winston | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13949,7 +13949,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Camper Ethan (Normal)": {
+        "Camper Ethan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13979,7 +13979,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Sr And Jr Anna & Meg (Normal)": {
+        "Sr And Jr Anna & Meg | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14008,7 +14008,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Winstrate Victor (Normal)": {
+        "Winstrate Victor | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14038,7 +14038,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Billy (Normal)": {
+        "Youngster Billy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14068,7 +14068,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Ben (Normal)": {
+        "Youngster Ben | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14097,7 +14097,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Eddie (Normal)": {
+        "Youngster Eddie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14127,7 +14127,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Allen (Normal)": {
+        "Youngster Allen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14157,7 +14157,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Demetrius (Normal)": {
+        "Youngster Demetrius | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14187,7 +14187,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Normal)": {
+        "Pkmn Breeder Isaac | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14217,7 +14217,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Cooltrainer Athena (Normal)": {
+        "Cooltrainer Athena | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14245,7 +14245,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lass Tiana (Normal)": {
+        "Lass Tiana | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14275,7 +14275,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Rich Boy Dawson (Normal)": {
+        "Rich Boy Dawson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14305,7 +14305,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lady Sarah (Normal)": {
+        "Lady Sarah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14335,7 +14335,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Deandre (Normal)": {
+        "Youngster Deandre | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14365,7 +14365,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Normal)": {
+        "Pkmn Breeder Myles | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14397,7 +14397,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Taillow": {
-        "Cooltrainer Randall (Normal)": {
+        "Cooltrainer Randall | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14426,7 +14426,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Cooltrainer Braxton (Normal)": {
+        "Cooltrainer Braxton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14455,7 +14455,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Cooltrainer Samuel (Normal)": {
+        "Cooltrainer Samuel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14485,7 +14485,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Camper Ethan (Normal)": {
+        "Camper Ethan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14515,7 +14515,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Winstrate Victor (Normal)": {
+        "Winstrate Victor | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14545,7 +14545,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Youngster Allen (Normal)": {
+        "Youngster Allen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14575,7 +14575,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Phil (Normal)": {
+        "Bird Keeper Phil | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14605,7 +14605,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Benny (Normal)": {
+        "Bird Keeper Benny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14635,7 +14635,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Chester (Normal)": {
+        "Bird Keeper Chester | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14665,7 +14665,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Alex (Normal)": {
+        "Bird Keeper Alex | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14695,7 +14695,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Picnicker Carol (Normal)": {
+        "Picnicker Carol | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14725,7 +14725,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Normal)": {
+        "Pkmn Breeder Isaac | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14755,7 +14755,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Expert Paxton (Normal)": {
+        "Expert Paxton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14785,7 +14785,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Camper Flint (Normal)": {
+        "Camper Flint | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14815,7 +14815,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Aidan (Normal)": {
+        "Bird Keeper Aidan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14845,7 +14845,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Coby (Normal)": {
+        "Bird Keeper Coby | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14875,7 +14875,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Josue (Normal)": {
+        "Bird Keeper Josue | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14905,7 +14905,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Cooltrainer Carolina (Normal)": {
+        "Cooltrainer Carolina | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14935,7 +14935,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Camper Branden (Normal)": {
+        "Camper Branden | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14967,7 +14967,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Tyrogue": {
-        "Cooltrainer Parker (Normal)": {
+        "Cooltrainer Parker | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14999,7 +14999,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Trapinch": {
-        "Cooltrainer Braxton (Normal)": {
+        "Cooltrainer Braxton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15028,7 +15028,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Youngster Jaylen (Normal)": {
+        "Youngster Jaylen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15060,7 +15060,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Gimmighoul Roaming": {
-        "Cooltrainer Vincent (Normal)": {
+        "Cooltrainer Vincent | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15092,7 +15092,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Tinkatink": {
-        "Cooltrainer Leroy (Normal)": {
+        "Cooltrainer Leroy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15122,7 +15122,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mold Breaker",
             "teraType": "None"
         },
-        "Cooltrainer Samuel (Normal)": {
+        "Cooltrainer Samuel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15152,7 +15152,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mold Breaker",
             "teraType": "None"
         },
-        "Cooltrainer Wendy (Normal)": {
+        "Cooltrainer Wendy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15183,7 +15183,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Staryu": {
-        "Cooltrainer Leroy (Normal)": {
+        "Cooltrainer Leroy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15213,7 +15213,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Camden (Normal)": {
+        "Triathlete Camden | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15243,7 +15243,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Isaiah (Normal)": {
+        "Triathlete Isaiah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15273,7 +15273,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Pablo (Normal)": {
+        "Triathlete Pablo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15303,7 +15303,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Chase (Normal)": {
+        "Triathlete Chase | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15333,7 +15333,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Isobel (Normal)": {
+        "Triathlete Isobel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15363,7 +15363,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Donny (Normal)": {
+        "Triathlete Donny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15393,7 +15393,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Talia (Normal)": {
+        "Triathlete Talia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15423,7 +15423,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Katelyn (Normal)": {
+        "Triathlete Katelyn | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15453,7 +15453,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Allison (Normal)": {
+        "Triathlete Allison | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15483,7 +15483,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Isabella (Normal)": {
+        "Triathlete Isabella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15513,7 +15513,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Camron (Normal)": {
+        "Triathlete Camron | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15545,7 +15545,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Cacnea": {
-        "Cooltrainer Edgar (Normal)": {
+        "Cooltrainer Edgar | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15575,7 +15575,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Pkmn Ranger Sebastian (Normal)": {
+        "Pkmn Ranger Sebastian | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15605,7 +15605,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15635,7 +15635,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15667,7 +15667,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Grimer": {
-        "Cooltrainer Albert (Normal)": {
+        "Cooltrainer Albert | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15699,7 +15699,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Abra": {
-        "Cooltrainer Samuel (Normal)": {
+        "Cooltrainer Samuel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15728,7 +15728,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Cooltrainer Vito (Normal)": {
+        "Cooltrainer Vito | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15758,7 +15758,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Edward (Normal)": {
+        "Psychic Edward | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15785,7 +15785,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Joshua (Normal)": {
+        "Psychic Joshua | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15815,7 +15815,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Jaclyn (Normal)": {
+        "Psychic Jaclyn | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15842,7 +15842,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Maura (Normal)": {
+        "Psychic Maura | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15872,7 +15872,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Kayla (Normal)": {
+        "Psychic Kayla | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15902,7 +15902,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Jacki (Normal)": {
+        "Psychic Jacki | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15932,7 +15932,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Hex Maniac Kathleen (Normal)": {
+        "Hex Maniac Kathleen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15962,7 +15962,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Alix (Normal)": {
+        "Psychic Alix | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15992,7 +15992,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Alvaro (Normal)": {
+        "Psychic Alvaro | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16024,7 +16024,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Doduo": {
-        "Leader Winona (Normal)": {
+        "Leader Winona | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16054,7 +16054,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Early Bird",
             "teraType": "None"
         },
-        "Cooltrainer Vito (Normal)": {
+        "Cooltrainer Vito | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16084,7 +16084,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Triathlete Dylan (Normal)": {
+        "Triathlete Dylan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16114,7 +16114,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Triathlete Maria (Normal)": {
+        "Triathlete Maria | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16144,7 +16144,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Bird Keeper Jared (Normal)": {
+        "Bird Keeper Jared | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16174,7 +16174,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Bird Keeper Edwardo (Normal)": {
+        "Bird Keeper Edwardo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16204,7 +16204,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Triathlete Kyra (Normal)": {
+        "Triathlete Kyra | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16234,7 +16234,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Triathlete Melina (Normal)": {
+        "Triathlete Melina | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16266,7 +16266,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Voltorb": {
-        "Cooltrainer Vito (Normal)": {
+        "Cooltrainer Vito | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16296,7 +16296,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Kirk (Normal)": {
+        "Guitarist Kirk | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16325,7 +16325,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Shawn (Normal)": {
+        "Guitarist Shawn | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16355,7 +16355,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Triathlete Jacob (Normal)": {
+        "Triathlete Jacob | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16385,7 +16385,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Triathlete Jasmine (Normal)": {
+        "Triathlete Jasmine | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16415,7 +16415,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Joseph (Normal)": {
+        "Guitarist Joseph | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16445,7 +16445,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Marcos (Normal)": {
+        "Guitarist Marcos | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16475,7 +16475,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid (Normal)": {
+        "Pkmn Trainer 1 Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16507,7 +16507,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Geodude": {
-        "Cooltrainer Owen (Normal)": {
+        "Cooltrainer Owen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16537,7 +16537,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Cooltrainer Warren (Normal)": {
+        "Cooltrainer Warren | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16567,7 +16567,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Youngster Josh (Normal)": {
+        "Youngster Josh | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16594,7 +16594,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Youngster Tommy (Normal)": {
+        "Youngster Tommy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16624,7 +16624,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Marc (Normal)": {
+        "Hiker Marc | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16654,7 +16654,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Trent (Normal)": {
+        "Hiker Trent | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16684,7 +16684,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Lenny (Normal)": {
+        "Hiker Lenny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16714,7 +16714,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Lucas (Normal)": {
+        "Hiker Lucas | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16744,7 +16744,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Alan (Normal)": {
+        "Hiker Alan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16774,7 +16774,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Clark (Normal)": {
+        "Hiker Clark | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16804,7 +16804,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Eric (Normal)": {
+        "Hiker Eric | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16834,7 +16834,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Sr And Jr Tyra & Ivy (Normal)": {
+        "Sr And Jr Tyra & Ivy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16863,7 +16863,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Devan (Normal)": {
+        "Hiker Devan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16895,7 +16895,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Igglybuff": {
-        "Cooltrainer Alexia (Normal)": {
+        "Cooltrainer Alexia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16925,7 +16925,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Leader Norman (Normal)": {
+        "Leader Norman | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16954,7 +16954,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Aron": {
-        "Cooltrainer Keira (Normal)": {
+        "Cooltrainer Keira | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16984,7 +16984,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Pokemaniac Steve (Normal)": {
+        "Pokemaniac Steve | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17014,7 +17014,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Youngster Dillon (Normal)": {
+        "Youngster Dillon | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17044,7 +17044,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Youngster Timmy (Normal)": {
+        "Youngster Timmy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17074,7 +17074,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Normal)": {
+        "Pkmn Breeder Isaac | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17104,7 +17104,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Pokemaniac Wyatt (Normal)": {
+        "Pokemaniac Wyatt | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17134,7 +17134,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Youngster Deandre (Normal)": {
+        "Youngster Deandre | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17166,7 +17166,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Greavard": {
-        "Cooltrainer Jennifer (Normal)": {
+        "Cooltrainer Jennifer | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17196,7 +17196,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Cooltrainer Caroline (Normal)": {
+        "Cooltrainer Caroline | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17226,7 +17226,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Hex Maniac Valerie (Normal)": {
+        "Hex Maniac Valerie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17256,7 +17256,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Cooltrainer Halle (Normal)": {
+        "Cooltrainer Halle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17286,7 +17286,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy (Normal)": {
+        "Pkmn Trainer 1 Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17318,7 +17318,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Slugma": {
-        "Cooltrainer Michelle (Normal)": {
+        "Cooltrainer Michelle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17348,7 +17348,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Jeff (Normal)": {
+        "Kindler Jeff | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17378,7 +17378,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Jace (Normal)": {
+        "Kindler Jace | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17408,7 +17408,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Keegan (Normal)": {
+        "Kindler Keegan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17438,7 +17438,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Bernie (Normal)": {
+        "Kindler Bernie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17468,7 +17468,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Bryant (Normal)": {
+        "Kindler Bryant | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17498,7 +17498,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Dayton (Normal)": {
+        "Kindler Dayton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17530,7 +17530,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Rookidee": {
-        "Cooltrainer Caroline (Normal)": {
+        "Cooltrainer Caroline | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17560,7 +17560,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Jared (Normal)": {
+        "Bird Keeper Jared | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17590,7 +17590,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Humberto (Normal)": {
+        "Bird Keeper Humberto | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17620,7 +17620,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Aidan (Normal)": {
+        "Bird Keeper Aidan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17650,7 +17650,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Coby (Normal)": {
+        "Bird Keeper Coby | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17680,7 +17680,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Elijah (Normal)": {
+        "Bird Keeper Elijah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17710,7 +17710,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival Steven (Normal)": {
+        "Rival Steven | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17742,7 +17742,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Vulpix": {
-        "Cooltrainer Julie (Normal)": {
+        "Cooltrainer Julie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17774,7 +17774,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Hoppip": {
-        "Cooltrainer Julie (Normal)": {
+        "Cooltrainer Julie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17804,7 +17804,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Hugh (Normal)": {
+        "Bird Keeper Hugh | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17834,7 +17834,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Jared (Normal)": {
+        "Bird Keeper Jared | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17864,7 +17864,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Presley (Normal)": {
+        "Bird Keeper Presley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17894,7 +17894,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Beck (Normal)": {
+        "Bird Keeper Beck | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17924,7 +17924,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Normal)": {
+        "Pkmn Breeder Myles | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17954,7 +17954,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Darius (Normal)": {
+        "Bird Keeper Darius | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17986,7 +17986,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Shuppet": {
-        "Hex Maniac Patricia (Normal)": {
+        "Hex Maniac Patricia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18016,7 +18016,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Hex Maniac Kindra (Normal)": {
+        "Hex Maniac Kindra | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18046,7 +18046,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Hex Maniac Tammy (Normal)": {
+        "Hex Maniac Tammy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18076,7 +18076,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Hex Maniac Tasha (Normal)": {
+        "Hex Maniac Tasha | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18106,7 +18106,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Psychic Alvaro (Normal)": {
+        "Psychic Alvaro | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18138,7 +18138,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Glimmet": {
-        "Hex Maniac Patricia (Normal)": {
+        "Hex Maniac Patricia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18168,7 +18168,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Toxic Debris",
             "teraType": "None"
         },
-        "Psychic Jacki (Normal)": {
+        "Psychic Jacki | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18198,7 +18198,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Toxic Debris",
             "teraType": "None"
         },
-        "Cooltrainer Mitchell (Normal)": {
+        "Cooltrainer Mitchell | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18230,7 +18230,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Duskull": {
-        "Hex Maniac Kindra (Normal)": {
+        "Hex Maniac Kindra | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18260,7 +18260,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Hex Maniac Tammy (Normal)": {
+        "Hex Maniac Tammy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18292,7 +18292,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Goldeen": {
-        "Lady Brianna (Normal)": {
+        "Lady Brianna | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18322,7 +18322,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Beauty Connie (Normal)": {
+        "Beauty Connie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18352,7 +18352,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Claude (Normal)": {
+        "Fisherman Claude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18382,7 +18382,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Denise (Normal)": {
+        "Swimmer F Denise | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18412,7 +18412,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Beth (Normal)": {
+        "Swimmer F Beth | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18442,7 +18442,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Missy (Normal)": {
+        "Swimmer F Missy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18472,7 +18472,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Alice (Normal)": {
+        "Swimmer F Alice | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18502,7 +18502,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Sharon (Normal)": {
+        "Swimmer F Sharon | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18532,7 +18532,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Brenda (Normal)": {
+        "Swimmer F Brenda | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18562,7 +18562,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Katie (Normal)": {
+        "Swimmer F Katie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18592,7 +18592,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Kara (Normal)": {
+        "Swimmer F Kara | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18622,7 +18622,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Debra (Normal)": {
+        "Swimmer F Debra | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18652,7 +18652,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Carlee (Normal)": {
+        "Swimmer F Carlee | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18682,7 +18682,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Normal)": {
+        "Pkmn Breeder Lydia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18712,7 +18712,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lass Crissy (Normal)": {
+        "Lass Crissy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18742,7 +18742,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Beauty Johanna (Normal)": {
+        "Beauty Johanna | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18772,7 +18772,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Sis And Bro Lisa & Ray (Normal)": {
+        "Sis And Bro Lisa & Ray | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18802,7 +18802,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Parasol Lady Rachel (Normal)": {
+        "Parasol Lady Rachel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18834,7 +18834,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Helioptile": {
-        "Beauty Jessica (Normal)": {
+        "Beauty Jessica | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18864,7 +18864,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Camper Justin (Normal)": {
+        "Camper Justin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18894,7 +18894,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Parasol Lady Kayley (Normal)": {
+        "Parasol Lady Kayley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18924,7 +18924,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Cooltrainer Jonathan (Normal)": {
+        "Cooltrainer Jonathan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18954,7 +18954,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18984,7 +18984,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19014,7 +19014,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Cooltrainer Gerald (Normal)": {
+        "Cooltrainer Gerald | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19045,7 +19045,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Ekans": {
-        "Beauty Jessica (Normal)": {
+        "Beauty Jessica | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19075,7 +19075,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Collector Hector (Normal)": {
+        "Collector Hector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19105,7 +19105,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy (Normal)": {
+        "Pkmn Trainer 1 Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19137,7 +19137,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Clamperl": {
-        "Beauty Olivia (Normal)": {
+        "Beauty Olivia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19166,7 +19166,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shell Armor",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Smasher (Normal)": {
+        "Pkmn Trainer 1 Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19198,7 +19198,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Corphish": {
-        "Beauty Olivia (Normal)": {
+        "Beauty Olivia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19227,7 +19227,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Swimmer F Sienna (Normal)": {
+        "Swimmer F Sienna | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19259,7 +19259,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Barboach": {
-        "Expert Mollie (Normal)": {
+        "Expert Mollie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19289,7 +19289,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Fisherman Claude (Normal)": {
+        "Fisherman Claude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19319,7 +19319,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Fisherman Nolan (Normal)": {
+        "Fisherman Nolan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19349,7 +19349,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Fisherman Kai (Normal)": {
+        "Fisherman Kai | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19381,7 +19381,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Horsea": {
-        "Beauty Thalia (Normal)": {
+        "Beauty Thalia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19411,7 +19411,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer M Stan (Normal)": {
+        "Swimmer M Stan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19441,7 +19441,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Leader Juan (Normal)": {
+        "Leader Juan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19471,7 +19471,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Tara (Normal)": {
+        "Swimmer F Tara | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19501,7 +19501,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Linda (Normal)": {
+        "Swimmer F Linda | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19531,7 +19531,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Critter (Normal)": {
+        "Pkmn Trainer 1 Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19563,7 +19563,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Rhyhorn": {
-        "Pokemaniac Mark (Normal)": {
+        "Pokemaniac Mark | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19593,7 +19593,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Lightning Rod",
             "teraType": "None"
         },
-        "Hiker Marc (Normal)": {
+        "Hiker Marc | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19625,7 +19625,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Tentacool": {
-        "Champion Wallace (Normal)": {
+        "Champion Wallace | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19655,7 +19655,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rain Dish",
             "teraType": "None"
         },
-        "Swimmer M Dominik (Normal)": {
+        "Swimmer M Dominik | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19685,7 +19685,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Douglas (Normal)": {
+        "Swimmer M Douglas | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19715,7 +19715,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Darrin (Normal)": {
+        "Swimmer M Darrin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19745,7 +19745,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Jerome (Normal)": {
+        "Swimmer M Jerome | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19775,7 +19775,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M David (Normal)": {
+        "Swimmer M David | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19805,7 +19805,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Spencer (Normal)": {
+        "Swimmer M Spencer | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19835,7 +19835,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Nolen (Normal)": {
+        "Swimmer M Nolen | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19865,7 +19865,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Herman (Normal)": {
+        "Swimmer M Herman | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19895,7 +19895,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Santiago (Normal)": {
+        "Swimmer M Santiago | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19925,7 +19925,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Dudley (Normal)": {
+        "Swimmer M Dudley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19955,7 +19955,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Chad (Normal)": {
+        "Swimmer M Chad | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19985,7 +19985,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Andrew (Normal)": {
+        "Fisherman Andrew | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20015,7 +20015,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Elliot (Normal)": {
+        "Fisherman Elliot | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20045,7 +20045,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Ned (Normal)": {
+        "Fisherman Ned | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20075,7 +20075,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Dale (Normal)": {
+        "Fisherman Dale | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20105,7 +20105,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Barny (Normal)": {
+        "Fisherman Barny | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20135,7 +20135,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Wade (Normal)": {
+        "Fisherman Wade | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20165,7 +20165,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Carter (Normal)": {
+        "Fisherman Carter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20195,7 +20195,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Sailor Dwayne (Normal)": {
+        "Sailor Dwayne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20225,7 +20225,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Sailor Phillip (Normal)": {
+        "Sailor Phillip | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20255,7 +20255,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Harrison (Normal)": {
+        "Swimmer M Harrison | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20285,7 +20285,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Jonah (Normal)": {
+        "Fisherman Jonah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20315,7 +20315,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Henry (Normal)": {
+        "Fisherman Henry | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20345,7 +20345,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Wayne (Normal)": {
+        "Fisherman Wayne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20375,7 +20375,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Sis And Bro Lisa & Ray (Normal)": {
+        "Sis And Bro Lisa & Ray | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20405,7 +20405,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Chris (Normal)": {
+        "Fisherman Chris | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20435,7 +20435,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Tuber M Chandler (Normal)": {
+        "Tuber M Chandler | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20465,7 +20465,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Pete (Normal)": {
+        "Swimmer M Pete | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20495,7 +20495,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Sailor Cory (Normal)": {
+        "Sailor Cory | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20527,7 +20527,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Mareanie": {
-        "Swimmer M Douglas (Normal)": {
+        "Swimmer M Douglas | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20557,7 +20557,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Swimmer M Darrin (Normal)": {
+        "Swimmer M Darrin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20587,7 +20587,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Swimmer M Dudley (Normal)": {
+        "Swimmer M Dudley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20617,7 +20617,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Leader Juan (Normal)": {
+        "Leader Juan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20647,7 +20647,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rgenerator",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Protector (Normal)": {
+        "Pkmn Trainer 1 Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20679,7 +20679,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Froakie": {
-        "Swimmer M Dean (Normal)": {
+        "Swimmer M Dean | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20711,7 +20711,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Spheal": {
-        "Swimmer M Franklin (Normal)": {
+        "Swimmer M Franklin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20741,7 +20741,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer M Kevin (Normal)": {
+        "Swimmer M Kevin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20771,7 +20771,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Nikki (Normal)": {
+        "Swimmer F Nikki | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20801,7 +20801,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Katie (Normal)": {
+        "Swimmer F Katie | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20831,7 +20831,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Sailor Duncan (Normal)": {
+        "Sailor Duncan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20861,7 +20861,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Sailor Kelvin (Normal)": {
+        "Sailor Kelvin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20891,7 +20891,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer M Reed (Normal)": {
+        "Swimmer M Reed | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20923,7 +20923,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Mankey": {
-        "Black Belt Hitoshi (Normal)": {
+        "Black Belt Hitoshi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20955,7 +20955,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Ponyta": {
-        "Kindler Jeff (Normal)": {
+        "Kindler Jeff | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20985,7 +20985,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Squirtle| (Normal)": {
+        "Rival May |Route 110| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21015,7 +21015,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Scorbunny| (Normal)": {
+        "Rival May |Route 110| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21045,7 +21045,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21075,7 +21075,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21105,7 +21105,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Scorbunny| (Normal)": {
+        "Rival May |Rustboro| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21134,7 +21134,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21164,7 +21164,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21194,7 +21194,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21224,7 +21224,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21256,7 +21256,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Surskit": {
-        "Bug Maniac Brent (Normal)": {
+        "Bug Maniac Brent | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21286,7 +21286,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Bug Maniac Jeffrey (Normal)": {
+        "Bug Maniac Jeffrey | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21316,7 +21316,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat (Normal)": {
+        "Pkmn Trainer 1 Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21348,7 +21348,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wurmple": {
-        "Bug Maniac Donald (Normal)": {
+        "Bug Maniac Donald | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21378,7 +21378,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Maniac Taylor (Normal)": {
+        "Bug Maniac Taylor | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21408,7 +21408,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Twins Miu & Yuki (Normal)": {
+        "Twins Miu & Yuki | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21438,7 +21438,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Catcher Rick (Normal)": {
+        "Bug Catcher Rick | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21468,7 +21468,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Catcher Lyle (Normal)": {
+        "Bug Catcher Lyle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21498,7 +21498,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Catcher Jose (Normal)": {
+        "Bug Catcher Jose | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21528,7 +21528,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Young Couple Mel & Paul (Normal)": {
+        "Young Couple Mel & Paul | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21557,7 +21557,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Maniac Cale (Normal)": {
+        "Bug Maniac Cale | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21589,7 +21589,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Caterpie": {
-        "Bug Maniac Donald (Normal)": {
+        "Bug Maniac Donald | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21621,7 +21621,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Weedle": {
-        "Bug Maniac Donald (Normal)": {
+        "Bug Maniac Donald | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21653,7 +21653,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Scatterbug": {
-        "Bug Maniac Taylor (Normal)": {
+        "Bug Maniac Taylor | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21685,7 +21685,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Tarountula": {
-        "Bug Maniac Taylor (Normal)": {
+        "Bug Maniac Taylor | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21715,7 +21715,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Protector (Normal)": {
+        "Pkmn Trainer 1 Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21747,7 +21747,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Dewpider": {
-        "Bug Maniac Jeffrey (Normal)": {
+        "Bug Maniac Jeffrey | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21779,7 +21779,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Snom": {
-        "Bug Maniac Jeffrey (Normal)": {
+        "Bug Maniac Jeffrey | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21811,7 +21811,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wurmple Poison": {
-        "Bug Maniac Derek (Normal)": {
+        "Bug Maniac Derek | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21843,7 +21843,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Nincada": {
-        "Bug Maniac Derek (Normal)": {
+        "Bug Maniac Derek | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21873,7 +21873,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Bug Catcher Jose (Normal)": {
+        "Bug Catcher Jose | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21903,7 +21903,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Bug Catcher Doug (Normal)": {
+        "Bug Catcher Doug | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21933,7 +21933,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Bug Catcher James (Normal)": {
+        "Bug Catcher James | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21963,7 +21963,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Ninja Boy Riley (Normal)": {
+        "Ninja Boy Riley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21994,7 +21994,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Ralts": {
-        "Rival Wally |Victory Road| (Normal)": {
+        "Rival Wally |Victory Road| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22024,7 +22024,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Trace",
             "teraType": "None"
         },
-        "Psychic Preston (Normal)": {
+        "Psychic Preston | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22054,7 +22054,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic Virgil (Normal)": {
+        "Psychic Virgil | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22084,7 +22084,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic William (Normal)": {
+        "Psychic William | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22114,7 +22114,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic Hannah (Normal)": {
+        "Psychic Hannah | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22144,7 +22144,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic Alexis (Normal)": {
+        "Psychic Alexis | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22174,7 +22174,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "School Kid Jerry (Normal)": {
+        "School Kid Jerry | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22204,7 +22204,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "School Kid Ted (Normal)": {
+        "School Kid Ted | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22234,7 +22234,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Rival Wally |Mauville| (Normal)": {
+        "Rival Wally |Mauville| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22264,7 +22264,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Alix (Normal)": {
+        "Psychic Alix | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22294,7 +22294,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic Brandi (Normal)": {
+        "Psychic Brandi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22326,7 +22326,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Girafarig": {
-        "Psychic Blake (Normal)": {
+        "Psychic Blake | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22356,7 +22356,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 1| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 1| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22386,7 +22386,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Psychic Terry (Normal)": {
+        "Psychic Terry | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22416,7 +22416,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Gentleman Clifford (Normal)": {
+        "Gentleman Clifford | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22446,7 +22446,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 2| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22478,7 +22478,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Ponyta-Galar": {
-        "Psychic William (Normal)": {
+        "Psychic William | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22508,7 +22508,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Squirtle| (Normal)": {
+        "Rival May |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22538,7 +22538,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pastel Veil",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Normal)": {
+        "Rival May |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22568,7 +22568,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pastel Veil",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Normal)": {
+        "Rival May |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22600,7 +22600,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Rolycoly": {
-        "Psychic Joshua (Normal)": {
+        "Psychic Joshua | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22630,7 +22630,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Steam Engine",
             "teraType": "None"
         },
-        "Psychic Cameron (Normal)": {
+        "Psychic Cameron | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22660,7 +22660,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Steam Engine",
             "teraType": "None"
         },
-        "Leader Flannery (Normal)": {
+        "Leader Flannery | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22690,7 +22690,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Steam Engine",
             "teraType": "None"
         },
-        "Cooltrainer Mitchell (Normal)": {
+        "Cooltrainer Mitchell | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22722,7 +22722,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wynaut": {
-        "Psychic Kayla (Normal)": {
+        "Psychic Kayla | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22752,7 +22752,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Psychic Cedric (Normal)": {
+        "Psychic Cedric | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22781,7 +22781,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Psychic Nicholas (Normal)": {
+        "Psychic Nicholas | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22811,7 +22811,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Gentleman Everett (Normal)": {
+        "Gentleman Everett | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22841,7 +22841,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat (Normal)": {
+        "Pkmn Trainer 1 Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22873,7 +22873,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Impidimp": {
-        "Elite Four Sidney (Normal)": {
+        "Elite Four Sidney | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22905,7 +22905,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Tyrunt": {
-        "Elite Four Sidney (Normal)": {
+        "Elite Four Sidney | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22937,7 +22937,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Zorua": {
-        "Elite Four Sidney (Normal)": {
+        "Elite Four Sidney | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22967,7 +22967,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illusion",
             "teraType": "None"
         },
-        "Cooltrainer 2 Jazmyn (Normal)": {
+        "Cooltrainer 2 Jazmyn | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22997,7 +22997,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illusion",
             "teraType": "None"
         },
-        "Cooltrainer Halle (Normal)": {
+        "Cooltrainer Halle | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23029,7 +23029,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Murkrow": {
-        "Elite Four Sidney (Normal)": {
+        "Elite Four Sidney | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23061,7 +23061,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Qwilfish-Hisui": {
-        "Elite Four Sidney (Normal)": {
+        "Elite Four Sidney | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23093,7 +23093,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Bonsly": {
-        "Elite Four Sidney (Normal)": {
+        "Elite Four Sidney | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23125,7 +23125,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Honedge": {
-        "Elite Four Phoebe (Normal)": {
+        "Elite Four Phoebe | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23155,7 +23155,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "No Guard",
             "teraType": "None"
         },
-        "Cooltrainer Quincy (Normal)": {
+        "Cooltrainer Quincy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23185,7 +23185,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "No Guard",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat (Normal)": {
+        "Pkmn Trainer 1 Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23217,7 +23217,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Dreepy": {
-        "Elite Four Phoebe (Normal)": {
+        "Elite Four Phoebe | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23249,7 +23249,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Charcadet-Ghost": {
-        "Elite Four Phoebe (Normal)": {
+        "Elite Four Phoebe | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23281,7 +23281,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Corsola-Galar": {
-        "Elite Four Phoebe (Normal)": {
+        "Elite Four Phoebe | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23313,7 +23313,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Misdreavus": {
-        "Elite Four Phoebe (Normal)": {
+        "Elite Four Phoebe | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23345,7 +23345,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Munchlax": {
-        "Elite Four Phoebe (Normal)": {
+        "Elite Four Phoebe | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23375,7 +23375,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella (Normal)": {
+        "Pkmn Trainer 1 Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23407,7 +23407,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Vulpix-Alola": {
-        "Elite Four Glacia (Normal)": {
+        "Elite Four Glacia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23439,7 +23439,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Snorunt": {
-        "Elite Four Glacia (Normal)": {
+        "Elite Four Glacia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23469,7 +23469,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Moody",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid (Normal)": {
+        "Pkmn Trainer 1 Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23501,7 +23501,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Cetoddle": {
-        "Elite Four Glacia (Normal)": {
+        "Elite Four Glacia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23533,7 +23533,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Sneasel": {
-        "Elite Four Glacia (Normal)": {
+        "Elite Four Glacia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23565,7 +23565,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Smoochum": {
-        "Elite Four Glacia (Normal)": {
+        "Elite Four Glacia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23597,7 +23597,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Exeggcute-Dragon": {
-        "Elite Four Drake (Normal)": {
+        "Elite Four Drake | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23629,7 +23629,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Totodile": {
-        "Elite Four Drake (Normal)": {
+        "Elite Four Drake | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23659,7 +23659,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella (Normal)": {
+        "Pkmn Trainer 1 Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23691,7 +23691,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Goomy": {
-        "Elite Four Drake (Normal)": {
+        "Elite Four Drake | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23723,7 +23723,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Poipole": {
-        "Elite Four Drake (Normal)": {
+        "Elite Four Drake | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23755,7 +23755,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Duraludon": {
-        "Elite Four Drake (Normal)": {
+        "Elite Four Drake | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23785,7 +23785,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Light Metal",
             "teraType": "None"
         },
-        "Rival Steven (Normal)": {
+        "Rival Steven | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23815,7 +23815,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Heavy Metal",
             "teraType": "None"
         },
-        "Rival Steven |Partner| |Space Center| (Normal)": {
+        "Rival Steven |Partner| |Space Center| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23847,7 +23847,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Toxel": {
-        "Elite Four Drake (Normal)": {
+        "Elite Four Drake | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23877,7 +23877,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Pokefan Isabel (Normal)": {
+        "Pokefan Isabel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23907,7 +23907,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Twins Amy & Liv (Normal)": {
+        "Twins Amy & Liv | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23937,7 +23937,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Pokefan Kaleb (Normal)": {
+        "Pokefan Kaleb | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23967,7 +23967,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| (Normal)": {
+        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23997,7 +23997,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| (Normal)": {
+        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24029,7 +24029,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Roggenrola": {
-        "Leader Roxanne (Normal)": {
+        "Leader Roxanne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24060,7 +24060,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Larvitar": {
-        "Leader Roxanne (Normal)": {
+        "Leader Roxanne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24091,7 +24091,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Nosepass": {
-        "Leader Roxanne (Normal)": {
+        "Leader Roxanne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24120,7 +24120,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Hiker Alan (Normal)": {
+        "Hiker Alan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24150,7 +24150,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Cooltrainer Ruben (Normal)": {
+        "Cooltrainer Ruben | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24182,7 +24182,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Chimchar": {
-        "Leader Brawly (Normal)": {
+        "Leader Brawly | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24214,7 +24214,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Pancham": {
-        "Leader Brawly (Normal)": {
+        "Leader Brawly | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24243,7 +24243,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Scrappy",
             "teraType": "None"
         },
-        "Expert Auron (Normal)": {
+        "Expert Auron | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24275,7 +24275,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Clobbopus": {
-        "Sailor Leonard (Normal)": {
+        "Sailor Leonard | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24307,7 +24307,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Kubfu": {
-        "Leader Brawly (Normal)": {
+        "Leader Brawly | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24339,7 +24339,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Chinchou": {
-        "Leader Wattson (Normal)": {
+        "Leader Wattson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24369,7 +24369,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Cooltrainer Dianne (Normal)": {
+        "Cooltrainer Dianne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24397,7 +24397,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Swimmer F Kaylee (Normal)": {
+        "Swimmer F Kaylee | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24427,7 +24427,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Expert Conor (Normal)": {
+        "Expert Conor | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24457,7 +24457,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Swimmer F Tisha (Normal)": {
+        "Swimmer F Tisha | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24487,7 +24487,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Sis And Bro Lila & Roy (Normal)": {
+        "Sis And Bro Lila & Roy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24517,7 +24517,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| (Normal)": {
+        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24547,7 +24547,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| (Normal)": {
+        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24579,7 +24579,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Elekid": {
-        "Leader Wattson (Normal)": {
+        "Leader Wattson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24611,7 +24611,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Charcadet-Psychic": {
-        "Leader Flannery (Normal)": {
+        "Leader Flannery | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24643,7 +24643,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Cyndaquil": {
-        "Leader Flannery (Normal)": {
+        "Leader Flannery | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24675,7 +24675,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Magby": {
-        "Leader Flannery (Normal)": {
+        "Leader Flannery | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24705,7 +24705,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Space Center| (Normal)": {
+        "Magma Leader Maxie |Space Center| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24737,7 +24737,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Zorua-Hisui": {
-        "Leader Norman (Normal)": {
+        "Leader Norman | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24769,7 +24769,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Aipom": {
-        "Leader Norman (Normal)": {
+        "Leader Norman | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24801,7 +24801,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Pineco": {
-        "Pkmn Trainer 1 Boom Dude (Normal)": {
+        "Pkmn Trainer 1 Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24833,7 +24833,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Eevee-Fairy": {
-        "Leader Norman (Normal)": {
+        "Leader Norman | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24865,7 +24865,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Yanma": {
-        "School Kid Georgia (Normal)": {
+        "School Kid Georgia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24895,7 +24895,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Twins Miu & Yuki (Normal)": {
+        "Twins Miu & Yuki | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24925,7 +24925,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24955,7 +24955,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24985,7 +24985,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25015,7 +25015,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25045,7 +25045,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25075,7 +25075,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25105,7 +25105,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Young Couple Mel & Paul (Normal)": {
+        "Young Couple Mel & Paul | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25134,7 +25134,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Bug Maniac Cale (Normal)": {
+        "Bug Maniac Cale | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25166,7 +25166,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Swablu": {
-        "Dragon Tamer Nicolas (Normal)": {
+        "Dragon Tamer Nicolas | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25196,7 +25196,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Bird Keeper Robert (Normal)": {
+        "Bird Keeper Robert | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25226,7 +25226,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Picnicker Martha (Normal)": {
+        "Picnicker Martha | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25256,7 +25256,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Picnicker Diana (Normal)": {
+        "Picnicker Diana | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25286,7 +25286,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Rival Wally |Victory Road| (Normal)": {
+        "Rival Wally |Victory Road| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25316,7 +25316,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Pkmn Ranger Sophia (Normal)": {
+        "Pkmn Ranger Sophia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25346,7 +25346,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Picnicker Ashley (Normal)": {
+        "Picnicker Ashley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25376,7 +25376,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Sr And Jr Kim & Iris (Normal)": {
+        "Sr And Jr Kim & Iris | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25407,7 +25407,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Togepi": {
-        "Leader Winona (Normal)": {
+        "Leader Winona | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25439,7 +25439,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Espurr": {
-        "Leader Tate & Liza |Team 1| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 1| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25469,7 +25469,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Infiltrator",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 2| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25501,7 +25501,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Bronzor": {
-        "Leader Tate & Liza |Team 1| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 1| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25531,7 +25531,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Heatproof",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 2| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25563,7 +25563,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Slowpoke-Galar": {
-        "Leader Tate & Liza |Team 1| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 1| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25593,7 +25593,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Gluttony",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 2| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25625,7 +25625,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Mime Jr.": {
-        "Leader Tate & Liza |Team 1| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 1| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25655,7 +25655,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 1| | (2) (Normal)": {
+        "Leader Tate & Liza |Team 1| | (2) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25685,7 +25685,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Normal)": {
+        "Leader Tate & Liza |Team 2| | (1) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25715,7 +25715,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (2) (Normal)": {
+        "Leader Tate & Liza |Team 2| | (2) | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25747,7 +25747,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Mudkip": {
-        "Leader Juan (Normal)": {
+        "Leader Juan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25779,7 +25779,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wimpod": {
-        "Leader Juan (Normal)": {
+        "Leader Juan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25811,7 +25811,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Omanyte": {
-        "Leader Juan (Normal)": {
+        "Leader Juan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25843,7 +25843,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Yungoos": {
-        "Sr And Jr Kate & Joy (Normal)": {
+        "Sr And Jr Kate & Joy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25873,7 +25873,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Stakeout",
             "teraType": "None"
         },
-        "Twins Tori & Tia (Normal)": {
+        "Twins Tori & Tia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25905,7 +25905,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Pichu": {
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25935,7 +25935,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25965,7 +25965,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25995,7 +25995,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26025,7 +26025,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26055,7 +26055,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26085,7 +26085,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26115,7 +26115,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26145,7 +26145,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26175,7 +26175,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26205,7 +26205,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26235,7 +26235,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26265,7 +26265,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Pokefan Vanessa (Normal)": {
+        "Pokefan Vanessa | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26297,7 +26297,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Ducklett": {
-        "Pokefan Bethany (Normal)": {
+        "Pokefan Bethany | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26327,7 +26327,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Squirtle| (Normal)": {
+        "Rival May |Route 110| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26357,7 +26357,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Squirtle| (Normal)": {
+        "Rival May |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26387,7 +26387,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hydration",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Snivy| (Normal)": {
+        "Rival May |Route 110| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26417,7 +26417,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Normal)": {
+        "Rival May |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26447,7 +26447,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hydration",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Squirtle| (Normal)": {
+        "Rival May |Rustboro| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26476,7 +26476,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26506,7 +26506,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26536,7 +26536,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26566,7 +26566,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26596,7 +26596,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26626,7 +26626,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26656,7 +26656,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26686,7 +26686,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26718,7 +26718,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Popplio": {
-        "Pokefan Bethany (Normal)": {
+        "Pokefan Bethany | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26748,7 +26748,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Champion Wallace (Normal)": {
+        "Champion Wallace | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26780,7 +26780,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Pawmi": {
-        "Pokefan Isabel (Normal)": {
+        "Pokefan Isabel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26810,7 +26810,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Twins Amy & Liv (Normal)": {
+        "Twins Amy & Liv | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26840,7 +26840,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Pokefan Kaleb (Normal)": {
+        "Pokefan Kaleb | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26872,7 +26872,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Gulpin": {
-        "Youngster Ben (Normal)": {
+        "Youngster Ben | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26901,7 +26901,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Liquid Ooze",
             "teraType": "None"
         },
-        "Ninja Boy Jaiden (Normal)": {
+        "Ninja Boy Jaiden | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26931,7 +26931,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Liquid Ooze",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Normal)": {
+        "Pkmn Breeder Pat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26963,7 +26963,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Flittle": {
-        "Cooltrainer Katelynn (Normal)": {
+        "Cooltrainer Katelynn | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26995,7 +26995,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Basculin-White-Striped": {
-        "Beauty Tiffany (Normal)": {
+        "Beauty Tiffany | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27025,7 +27025,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Champion Wallace (Normal)": {
+        "Champion Wallace | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27057,7 +27057,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Magikarp-Monster": {
-        "Champion Wallace (Normal)": {
+        "Champion Wallace | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27089,7 +27089,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Remoraid": {
-        "Fisherman Andrew (Normal)": {
+        "Fisherman Andrew | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27119,7 +27119,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Fisherman Ivan (Normal)": {
+        "Fisherman Ivan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27149,7 +27149,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Swimmer F Alice (Normal)": {
+        "Swimmer F Alice | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27179,7 +27179,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Swimmer F Laurel (Normal)": {
+        "Swimmer F Laurel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27209,7 +27209,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Fisherman Roger (Normal)": {
+        "Fisherman Roger | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27241,7 +27241,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Arrokuda": {
-        "Fisherman Ivan (Normal)": {
+        "Fisherman Ivan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27271,7 +27271,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Elliot (Normal)": {
+        "Fisherman Elliot | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27303,7 +27303,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Skrelp": {
-        "Fisherman Dale (Normal)": {
+        "Fisherman Dale | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27333,7 +27333,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Poison Point",
             "teraType": "None"
         },
-        "Swimmer F Linda (Normal)": {
+        "Swimmer F Linda | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27363,7 +27363,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Poison Point",
             "teraType": "None"
         },
-        "Fisherman Wayne (Normal)": {
+        "Fisherman Wayne | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27393,7 +27393,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Poison Point",
             "teraType": "None"
         },
-        "Tuber M Chandler (Normal)": {
+        "Tuber M Chandler | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27425,7 +27425,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Voltorb-Hisui": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27455,7 +27455,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Aftermath",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Normal)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27485,7 +27485,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Aftermath",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| (Normal)": {
+        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27515,7 +27515,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Aftermath",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| (Normal)": {
+        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27545,7 +27545,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Aftermath",
             "teraType": "None"
         },
-        "Triathlete Jacob (Normal)": {
+        "Triathlete Jacob | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27577,7 +27577,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Yamper": {
-        "Triathlete Jasmine (Normal)": {
+        "Triathlete Jasmine | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27607,7 +27607,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Strong Jaw",
             "teraType": "None"
         },
-        "Cooltrainer Carolina (Normal)": {
+        "Cooltrainer Carolina | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27639,7 +27639,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Slowpoke": {
-        "Triathlete Camden (Normal)": {
+        "Triathlete Camden | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27669,7 +27669,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Triathlete Pablo (Normal)": {
+        "Triathlete Pablo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27701,7 +27701,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Bagon": {
-        "Dragon Tamer Nicolas (Normal)": {
+        "Dragon Tamer Nicolas | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27731,7 +27731,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Dragon Tamer Aaron (Normal)": {
+        "Dragon Tamer Aaron | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27762,7 +27762,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Scyther": {
-        "Ninja Boy Yasu (Normal)": {
+        "Ninja Boy Yasu | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27792,7 +27792,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Ninja Boy Takashi (Normal)": {
+        "Ninja Boy Takashi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27822,7 +27822,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Ninja Boy Lung (Normal)": {
+        "Ninja Boy Lung | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27852,7 +27852,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Bug Catcher Doug (Normal)": {
+        "Bug Catcher Doug | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27882,7 +27882,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Bug Catcher Kent (Normal)": {
+        "Bug Catcher Kent | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27912,7 +27912,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Ninja Boy Keigo (Normal)": {
+        "Ninja Boy Keigo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27941,7 +27941,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Ninja Boy Jaiden (Normal)": {
+        "Ninja Boy Jaiden | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27973,7 +27973,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Koffing": {
-        "Ninja Boy Takashi (Normal)": {
+        "Ninja Boy Takashi | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28003,7 +28003,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Lao (Normal)": {
+        "Ninja Boy Lao | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28032,7 +28032,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Lung (Normal)": {
+        "Ninja Boy Lung | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28062,7 +28062,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Jonas (Normal)": {
+        "Ninja Boy Jonas | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28091,7 +28091,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Hideo (Normal)": {
+        "Ninja Boy Hideo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28120,7 +28120,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Keigo (Normal)": {
+        "Ninja Boy Keigo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28149,7 +28149,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Riley (Normal)": {
+        "Ninja Boy Riley | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28180,7 +28180,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Shroodle": {
-        "Ninja Boy Lao (Normal)": {
+        "Ninja Boy Lao | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28212,7 +28212,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Grimer-Alola": {
-        "Pkmn Trainer 1 Slow Fella (Normal)": {
+        "Pkmn Trainer 1 Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28242,7 +28242,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Poison Touch",
             "sub_index": 2
         },
-        "Ninja Boy Lao (Normal)": {
+        "Ninja Boy Lao | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28274,7 +28274,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Morelull": {
-        "Battle Girl Paula (Normal)": {
+        "Battle Girl Paula | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28304,7 +28304,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Pkmn Ranger Jackson (Normal)": {
+        "Pkmn Ranger Jackson | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28334,7 +28334,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Expert Paxton (Normal)": {
+        "Expert Paxton | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28366,7 +28366,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Feebas": {
-        "Pokefan Annika (Normal)": {
+        "Pokefan Annika | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28395,7 +28395,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Roger (Normal)": {
+        "Fisherman Roger | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28425,7 +28425,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Chris (Normal)": {
+        "Fisherman Chris | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28457,7 +28457,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Grookey": {
-        "Magma Admin Courtney |Space Center| (Normal)": {
+        "Magma Admin Courtney |Space Center| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28489,7 +28489,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Bounsweet": {
-        "Magma Admin Courtney |Space Center| (Normal)": {
+        "Magma Admin Courtney |Space Center| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28521,7 +28521,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Tangela": {
-        "Magma Admin Courtney |Space Center| (Normal)": {
+        "Magma Admin Courtney |Space Center| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28553,7 +28553,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Fletchling": {
-        "Rival Wally |Victory Road| (Normal)": {
+        "Rival Wally |Victory Road| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28583,7 +28583,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival Wally |Mauville| (Normal)": {
+        "Rival Wally |Mauville| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28613,7 +28613,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid (Normal)": {
+        "Pkmn Trainer 1 Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28645,7 +28645,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Snivy": {
-        "Rival Brendan |Route 103| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 103| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28673,7 +28673,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 110| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28703,7 +28703,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28733,7 +28733,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Route 103| |Squirtle| (Normal)": {
+        "Rival May |Route 103| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28761,7 +28761,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Squirtle| (Normal)": {
+        "Rival May |Route 110| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28791,7 +28791,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Squirtle| (Normal)": {
+        "Rival May |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28821,7 +28821,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Squirtle| (Normal)": {
+        "Rival Brendan |Rustboro| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28850,7 +28850,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Squirtle| (Normal)": {
+        "Rival May |Rustboro| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28879,7 +28879,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28909,7 +28909,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28939,7 +28939,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28969,7 +28969,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28999,7 +28999,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29029,7 +29029,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29059,7 +29059,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29089,7 +29089,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29121,7 +29121,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Litleo": {
-        "Rival Brendan |Route 110| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 110| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29151,7 +29151,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29181,7 +29181,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Moxie",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 110| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29211,7 +29211,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29241,7 +29241,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Moxie",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Scorbunny| (Normal)": {
+        "Rival Brendan |Rustboro| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29270,7 +29270,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rivalry",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Mt. Chimney| (Normal)": {
+        "Magma Leader Maxie |Mt. Chimney| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29300,7 +29300,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29330,7 +29330,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29360,7 +29360,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29390,7 +29390,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29420,7 +29420,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29450,7 +29450,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29480,7 +29480,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29510,7 +29510,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29542,7 +29542,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Anorith": {
-        "Rival Brendan |Route 110| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 110| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29572,7 +29572,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29602,7 +29602,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Snivy| (Normal)": {
+        "Rival Brendan |Route 110| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29632,7 +29632,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Normal)": {
+        "Rival Brendan |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29662,7 +29662,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 110| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29692,7 +29692,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29722,7 +29722,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29752,7 +29752,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29782,7 +29782,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29812,7 +29812,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29842,7 +29842,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29872,7 +29872,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29904,7 +29904,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wooper": {
-        "Rival Brendan |Route 110| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 110| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29934,7 +29934,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Snivy| (Normal)": {
+        "Rival Brendan |Route 110| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29964,7 +29964,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Squirtle| (Normal)": {
+        "Rival Brendan |Rustboro| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29993,7 +29993,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Damp",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30023,7 +30023,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30053,7 +30053,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30083,7 +30083,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30115,7 +30115,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Farfetch\u00e2\u20ac\u2122d-Galar": {
-        "Pkmn Trainer 1 Critter (Normal)": {
+        "Pkmn Trainer 1 Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30147,7 +30147,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wooper-Paldea": {
-        "Rival Brendan |Route 119| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30177,7 +30177,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Normal)": {
+        "Rival Brendan |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30207,7 +30207,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30239,7 +30239,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Frillish": {
-        "Rival Brendan |Route 119| |Squirtle| (Normal)": {
+        "Rival Brendan |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30269,7 +30269,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Normal)": {
+        "Rival Brendan |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30299,7 +30299,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30329,7 +30329,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30359,7 +30359,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30389,7 +30389,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30421,7 +30421,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Scorbunny": {
-        "Rival Brendan |Route 103| |Snivy| (Normal)": {
+        "Rival Brendan |Route 103| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30449,7 +30449,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Snivy| (Normal)": {
+        "Rival Brendan |Route 110| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30479,7 +30479,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Normal)": {
+        "Rival Brendan |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30509,7 +30509,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Route 103| |Snivy| (Normal)": {
+        "Rival May |Route 103| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30537,7 +30537,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Snivy| (Normal)": {
+        "Rival May |Route 110| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30567,7 +30567,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Normal)": {
+        "Rival May |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30597,7 +30597,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Snivy| (Normal)": {
+        "Rival Brendan |Rustboro| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30626,7 +30626,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30656,7 +30656,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30686,7 +30686,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30716,7 +30716,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30746,7 +30746,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Snivy| (Normal)": {
+        "Rival May |Rustboro| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30775,7 +30775,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30805,7 +30805,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30835,7 +30835,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30865,7 +30865,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30897,7 +30897,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Squirtle": {
-        "Rival Brendan |Route 103| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 103| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30925,7 +30925,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 110| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30955,7 +30955,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Normal)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30985,7 +30985,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Rival May |Route 103| |Scorbunny| (Normal)": {
+        "Rival May |Route 103| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31013,7 +31013,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Scorbunny| (Normal)": {
+        "Rival May |Route 110| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31043,7 +31043,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Normal)": {
+        "Rival May |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31073,7 +31073,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Scorbunny| (Normal)": {
+        "Rival Brendan |Rustboro| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31102,7 +31102,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31132,7 +31132,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31162,7 +31162,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31192,7 +31192,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31222,7 +31222,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Scorbunny| (Normal)": {
+        "Rival May |Rustboro| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31251,7 +31251,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31281,7 +31281,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31311,7 +31311,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31341,7 +31341,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31373,7 +31373,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Amaura": {
-        "Rival May |Route 110| |Squirtle| (Normal)": {
+        "Rival May |Route 110| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31403,7 +31403,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Squirtle| (Normal)": {
+        "Rival May |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31433,7 +31433,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Snivy| (Normal)": {
+        "Rival May |Route 110| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31463,7 +31463,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Normal)": {
+        "Rival May |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31493,7 +31493,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Scorbunny| (Normal)": {
+        "Rival May |Route 110| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31523,7 +31523,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Normal)": {
+        "Rival May |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31553,7 +31553,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31583,7 +31583,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31613,7 +31613,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31643,7 +31643,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31673,7 +31673,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31703,7 +31703,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31733,7 +31733,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Boom Dude (Normal)": {
+        "Pkmn Trainer 1 Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31765,7 +31765,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Litwick": {
-        "Rival May |Route 119| |Squirtle| (Normal)": {
+        "Rival May |Route 119| |Squirtle| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31795,7 +31795,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Normal)": {
+        "Rival May |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31825,7 +31825,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31855,7 +31855,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31885,7 +31885,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31915,7 +31915,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31947,7 +31947,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Cherubi": {
-        "Rival May |Route 110| |Snivy| (Normal)": {
+        "Rival May |Route 110| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31977,7 +31977,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Normal)": {
+        "Rival May |Route 119| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32007,7 +32007,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Scorbunny| (Normal)": {
+        "Rival May |Route 110| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32037,7 +32037,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Normal)": {
+        "Rival May |Route 119| |Scorbunny| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32067,7 +32067,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32097,7 +32097,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32127,7 +32127,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32157,7 +32157,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32187,7 +32187,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Snivy| (Normal)": {
+        "Rival May |Rustboro| |Snivy| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32216,7 +32216,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32246,7 +32246,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32276,7 +32276,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32306,7 +32306,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32338,7 +32338,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Rellor": {
-        "Bug Catcher Davis (Normal)": {
+        "Bug Catcher Davis | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32368,7 +32368,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella (Normal)": {
+        "Pkmn Trainer 1 Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32400,7 +32400,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Paras": {
-        "Pkmn Ranger Lorenzo (Normal)": {
+        "Pkmn Ranger Lorenzo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32432,7 +32432,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Capsakid": {
-        "Pkmn Ranger Jenna (Normal)": {
+        "Pkmn Ranger Jenna | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32462,7 +32462,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32492,7 +32492,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32524,7 +32524,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Zubat": {
-        "Team Magma Grunt 2 (Normal)": {
+        "Team Magma Grunt 2 | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32556,7 +32556,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Smoliv": {
-        "Magma Admin Courtney |Mt. Chimney| (Normal)": {
+        "Magma Admin Courtney |Mt. Chimney| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32588,7 +32588,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Chikorita": {
-        "Magma Admin Courtney |Mt. Chimney| (Normal)": {
+        "Magma Admin Courtney |Mt. Chimney| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32620,7 +32620,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Skiddo": {
-        "Magma Admin Courtney |Mt. Chimney| (Normal)": {
+        "Magma Admin Courtney |Mt. Chimney| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32652,7 +32652,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Charmander": {
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32682,7 +32682,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32712,7 +32712,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Space Center| (Normal)": {
+        "Magma Leader Maxie |Space Center| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32744,7 +32744,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Yamask": {
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32774,7 +32774,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mummy",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32804,7 +32804,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Mummy",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Mt. Chimney| (Normal)": {
+        "Magma Leader Maxie |Mt. Chimney| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32836,7 +32836,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Blitzle": {
-        "Magma Leader Maxie |Mt. Chimney| (Normal)": {
+        "Magma Leader Maxie |Mt. Chimney| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32868,7 +32868,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Grubbin": {
-        "Bug Catcher Greg (Normal)": {
+        "Bug Catcher Greg | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32898,7 +32898,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Young Couple Kira & Dan (Normal)": {
+        "Young Couple Kira & Dan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32928,7 +32928,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Bug Maniac Angelo (Normal)": {
+        "Bug Maniac Angelo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32960,7 +32960,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Cutiefly": {
-        "Bug Catcher Greg (Normal)": {
+        "Bug Catcher Greg | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32990,7 +32990,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Honey Gather",
             "teraType": "None"
         },
-        "Young Couple Kira & Dan (Normal)": {
+        "Young Couple Kira & Dan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33020,7 +33020,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Honey Gather",
             "teraType": "None"
         },
-        "Bug Maniac Angelo (Normal)": {
+        "Bug Maniac Angelo | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33052,7 +33052,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Skwovet": {
-        "Twins Tori & Tia (Normal)": {
+        "Twins Tori & Tia | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33084,7 +33084,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Shieldon": {
-        "Pokemaniac Wyatt (Normal)": {
+        "Pokemaniac Wyatt | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33116,7 +33116,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Silicobra": {
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33146,7 +33146,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shed Skin",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33178,7 +33178,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Drilbur": {
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33208,7 +33208,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33240,7 +33240,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Gligar": {
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33270,7 +33270,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33300,7 +33300,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33330,7 +33330,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33360,7 +33360,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33390,7 +33390,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Normal)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33420,7 +33420,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33450,7 +33450,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Normal)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33482,7 +33482,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Mudbray": {
-        "Ruin Maniac Andres (Normal)": {
+        "Ruin Maniac Andres | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33512,7 +33512,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Own Tempo",
             "teraType": "None"
         },
-        "Ruin Maniac Bryan (Normal)": {
+        "Ruin Maniac Bryan | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33544,7 +33544,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Starly": {
-        "Triathlete Kyra (Normal)": {
+        "Triathlete Kyra | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33576,7 +33576,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Rockruff": {
-        "Cooltrainer Cristin (Normal)": {
+        "Cooltrainer Cristin | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33608,7 +33608,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Lileep": {
-        "Rival Steven (Normal)": {
+        "Rival Steven | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33640,7 +33640,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Beldum": {
-        "Rival Steven (Normal)": {
+        "Rival Steven | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33670,7 +33670,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Tough Claws",
             "teraType": "None"
         },
-        "Salon Maiden Anabel (Normal)": {
+        "Salon Maiden Anabel | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33700,7 +33700,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Dome Ace Tucker (Normal)": {
+        "Dome Ace Tucker | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33730,7 +33730,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Palace Maven Spenser (Normal)": {
+        "Palace Maven Spenser | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33760,7 +33760,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Arena Tycoon Greta (Normal)": {
+        "Arena Tycoon Greta | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33790,7 +33790,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Factory Head Noland (Normal)": {
+        "Factory Head Noland | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33820,7 +33820,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Pike Queen Lucy (Normal)": {
+        "Pike Queen Lucy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33850,7 +33850,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Pyramid King Brandon (Normal)": {
+        "Pyramid King Brandon | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33880,7 +33880,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Rival Steven |Partner| |Space Center| (Normal)": {
+        "Rival Steven |Partner| |Space Center| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33912,7 +33912,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Riolu": {
-        "Rival Steven (Normal)": {
+        "Rival Steven | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33944,7 +33944,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wiglett": {
-        "Aqua Leader Archie |Oceanic Museum| (Normal)": {
+        "Aqua Leader Archie |Oceanic Museum| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33976,7 +33976,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Kricketot": {
-        "Aqua Leader Archie |Oceanic Museum| (Normal)": {
+        "Aqua Leader Archie |Oceanic Museum| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34008,7 +34008,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Pawniard": {
-        "Rival Steven |Partner| |Space Center| (Normal)": {
+        "Rival Steven |Partner| |Space Center| | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34040,7 +34040,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Growlithe": {
-        "Pkmn Trainer 1 Scary Guy (Normal)": {
+        "Pkmn Trainer 1 Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34072,7 +34072,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Snubbull": {
-        "Pkmn Trainer 1 Scary Guy (Normal)": {
+        "Pkmn Trainer 1 Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34104,7 +34104,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Stantler": {
-        "Pkmn Trainer 1 Scary Guy (Normal)": {
+        "Pkmn Trainer 1 Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34136,7 +34136,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Munna": {
-        "Pkmn Trainer 1 Protector (Normal)": {
+        "Pkmn Trainer 1 Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34168,7 +34168,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Spritzee": {
-        "Pkmn Trainer 1 Protector (Normal)": {
+        "Pkmn Trainer 1 Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34200,7 +34200,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Cubone": {
-        "Pkmn Trainer 1 Protector (Normal)": {
+        "Pkmn Trainer 1 Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34232,7 +34232,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Snover": {
-        "Pkmn Trainer 1 Protector (Normal)": {
+        "Pkmn Trainer 1 Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34264,7 +34264,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Onix": {
-        "Pkmn Trainer 1 Speedy Kid (Normal)": {
+        "Pkmn Trainer 1 Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34296,7 +34296,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Chespin": {
-        "Pkmn Trainer 1 Speedy Kid (Normal)": {
+        "Pkmn Trainer 1 Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34328,7 +34328,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Deerling-Spring": {
-        "Pkmn Trainer 1 Collector (Normal)": {
+        "Pkmn Trainer 1 Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34360,7 +34360,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Burmy-Trash": {
-        "Pkmn Trainer 1 Collector (Normal)": {
+        "Pkmn Trainer 1 Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34392,7 +34392,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Rattata-Alola": {
-        "Pkmn Trainer 1 Collector (Normal)": {
+        "Pkmn Trainer 1 Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34424,7 +34424,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Meowth-Galar": {
-        "Pkmn Trainer 1 Collector (Normal)": {
+        "Pkmn Trainer 1 Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34456,7 +34456,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Petilil-Fighting": {
-        "Pkmn Trainer 1 Collector (Normal)": {
+        "Pkmn Trainer 1 Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34488,7 +34488,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Froakie-Special": {
-        "Pkmn Trainer 1 Collector (Normal)": {
+        "Pkmn Trainer 1 Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34520,7 +34520,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Koffing-Fairy": {
-        "Pkmn Trainer 1 Boom Dude (Normal)": {
+        "Pkmn Trainer 1 Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34552,7 +34552,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Elgyem": {
-        "Pkmn Trainer 1 Boom Dude (Normal)": {
+        "Pkmn Trainer 1 Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34584,7 +34584,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Cranidos": {
-        "Pkmn Trainer 1 Critter (Normal)": {
+        "Pkmn Trainer 1 Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34616,7 +34616,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Pidove": {
-        "Pkmn Trainer 1 Critter (Normal)": {
+        "Pkmn Trainer 1 Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34648,7 +34648,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Dratini": {
-        "Pkmn Trainer 1 Critter (Normal)": {
+        "Pkmn Trainer 1 Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34680,7 +34680,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Sprigatito": {
-        "Pkmn Trainer 1 Critter (Normal)": {
+        "Pkmn Trainer 1 Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34712,7 +34712,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Ferroseed": {
-        "Pkmn Trainer 1 Slow Fella (Normal)": {
+        "Pkmn Trainer 1 Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34744,7 +34744,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wattrel": {
-        "Pkmn Trainer 1 Slow Fella (Normal)": {
+        "Pkmn Trainer 1 Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34776,7 +34776,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Dwebble": {
-        "Pkmn Trainer 1 Smasher (Normal)": {
+        "Pkmn Trainer 1 Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34808,7 +34808,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Turtwig": {
-        "Pkmn Trainer 1 Smasher (Normal)": {
+        "Pkmn Trainer 1 Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34840,7 +34840,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Sinistea": {
-        "Pkmn Trainer 1 Smasher (Normal)": {
+        "Pkmn Trainer 1 Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34872,7 +34872,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Binacle": {
-        "Pkmn Trainer 1 Smasher (Normal)": {
+        "Pkmn Trainer 1 Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34904,7 +34904,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Litten": {
-        "Pkmn Trainer 1 Purkat (Normal)": {
+        "Pkmn Trainer 1 Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34936,7 +34936,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Golett": {
-        "Pkmn Trainer 1 Purkat (Normal)": {
+        "Pkmn Trainer 1 Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34968,7 +34968,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Shelmet": {
-        "Pkmn Trainer 1 Purkat (Normal)": {
+        "Pkmn Trainer 1 Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
