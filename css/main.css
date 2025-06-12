@@ -1413,8 +1413,12 @@ table.field {
   font-size: 30px;
 }
 
+.openbtn {
+  font-size: 20px;
+}
+
 #openSidebarBtn {
-  font-size: 40px;
+  font-size: 20px;
   cursor: pointer;
   padding: 10px;
   display: block;
