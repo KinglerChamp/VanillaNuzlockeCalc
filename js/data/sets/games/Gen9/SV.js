@@ -1,6 +1,6 @@
 var CUSTOMSETDEX_SV = {
     "Cufant": {
-        "Hiker Sawyer (Hard)": {
+        "Hiker Sawyer | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32,7 +32,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Nickit": {
-        "Team Aqua Grunt (Hard)": {
+        "Team Aqua Grunt | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -62,7 +62,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Team Aqua Grunt 2 (Hard)": {
+        "Team Aqua Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -94,7 +94,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Purrloin": {
-        "Team Aqua Grunt 2 (Hard)": {
+        "Team Aqua Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -124,7 +124,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Limber",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Oceanic Museum| (Hard)": {
+        "Aqua Leader Archie |Oceanic Museum| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -156,7 +156,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Skitty": {
-        "Pkmn Breeder Gabrielle (Hard)": {
+        "Pkmn Breeder Gabrielle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -186,7 +186,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Cooltrainer Mary (Hard)": {
+        "Cooltrainer Mary | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -214,7 +214,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Leader Norman (Hard)": {
+        "Leader Norman | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -244,7 +244,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Pokefan Miguel (Hard)": {
+        "Pokefan Miguel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -274,7 +274,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Pokefan Monti (Hard)": {
+        "Pokefan Monti | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -303,7 +303,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Picnicker Martha (Hard)": {
+        "Picnicker Martha | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -333,7 +333,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Rival Wally |Victory Road| (Hard)": {
+        "Rival Wally |Victory Road| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -363,7 +363,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wonder Skin",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Hard)": {
+        "Pkmn Breeder Lydia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -393,7 +393,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Lass Robin (Hard)": {
+        "Lass Robin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -423,7 +423,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Young Couple Dez & Luke (Hard)": {
+        "Young Couple Dez & Luke | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -453,7 +453,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Rival Wally |Mauville| (Hard)": {
+        "Rival Wally |Mauville| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -485,7 +485,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Poochyena": {
-        "Pkmn Breeder Gabrielle (Hard)": {
+        "Pkmn Breeder Gabrielle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -515,7 +515,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Youngster Calvin (Hard)": {
+        "Youngster Calvin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -545,7 +545,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Hard)": {
+        "Pkmn Breeder Isaac | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -575,7 +575,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Team Magma Grunt 2 (Hard)": {
+        "Team Magma Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -605,7 +605,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Mt. Chimney| (Hard)": {
+        "Magma Leader Maxie |Mt. Chimney| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -635,7 +635,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Hiker Mike (Hard)": {
+        "Hiker Mike | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -663,7 +663,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Rich Boy Dawson (Hard)": {
+        "Rich Boy Dawson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -693,7 +693,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Hard)": {
+        "Pkmn Breeder Pat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -725,7 +725,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bunnelby": {
-        "Pkmn Breeder Gabrielle (Hard)": {
+        "Pkmn Breeder Gabrielle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -755,7 +755,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Cooltrainer Jody (Hard)": {
+        "Cooltrainer Jody | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -783,7 +783,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Gentleman Thomas (Hard)": {
+        "Gentleman Thomas | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -813,7 +813,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Normalize",
             "teraType": "None"
         },
-        "Collector Hector (Hard)": {
+        "Collector Hector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -845,7 +845,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Lotad": {
-        "Pkmn Breeder Gabrielle (Hard)": {
+        "Pkmn Breeder Gabrielle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -875,7 +875,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Cooltrainer Warren (Hard)": {
+        "Cooltrainer Warren | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -905,7 +905,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Cooltrainer Michelle (Hard)": {
+        "Cooltrainer Michelle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -935,7 +935,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Beauty Olivia (Hard)": {
+        "Beauty Olivia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -965,7 +965,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Carol (Hard)": {
+        "Picnicker Carol | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -995,7 +995,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Nancy (Hard)": {
+        "Picnicker Nancy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1025,7 +1025,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Twins Gina & Mia (Hard)": {
+        "Twins Gina & Mia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1055,7 +1055,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Collector Edwin (Hard)": {
+        "Collector Edwin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1085,7 +1085,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Ranger Lorenzo (Hard)": {
+        "Pkmn Ranger Lorenzo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1115,7 +1115,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Ranger Jenna (Hard)": {
+        "Pkmn Ranger Jenna | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1145,7 +1145,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lass Haley (Hard)": {
+        "Lass Haley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1175,7 +1175,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lady Sarah (Hard)": {
+        "Lady Sarah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1205,7 +1205,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Sophie (Hard)": {
+        "Picnicker Sophie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1235,7 +1235,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Angelina (Hard)": {
+        "Picnicker Angelina | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1265,7 +1265,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Picnicker Celia (Hard)": {
+        "Picnicker Celia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1295,7 +1295,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Youngster Johnson (Hard)": {
+        "Youngster Johnson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1327,7 +1327,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Seedot": {
-        "Pkmn Breeder Gabrielle (Hard)": {
+        "Pkmn Breeder Gabrielle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1357,7 +1357,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Cooltrainer Marcel (Hard)": {
+        "Cooltrainer Marcel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1387,7 +1387,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Cooltrainer Braxton (Hard)": {
+        "Cooltrainer Braxton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1416,7 +1416,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Cooltrainer Vito (Hard)": {
+        "Cooltrainer Vito | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1446,7 +1446,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Camper Larry (Hard)": {
+        "Camper Larry | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1476,7 +1476,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Camper Shane (Hard)": {
+        "Camper Shane | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1506,7 +1506,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Youngster Billy (Hard)": {
+        "Youngster Billy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1536,7 +1536,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Twins Gina & Mia (Hard)": {
+        "Twins Gina & Mia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1566,7 +1566,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Collector Edwin (Hard)": {
+        "Collector Edwin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1596,7 +1596,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Snivy| (Hard)": {
+        "Rival Brendan |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1626,7 +1626,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Hard)": {
+        "Rival Brendan |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1656,7 +1656,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1686,7 +1686,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1716,7 +1716,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Pkmn Ranger Lorenzo (Hard)": {
+        "Pkmn Ranger Lorenzo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1746,7 +1746,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Pkmn Ranger Jenna (Hard)": {
+        "Pkmn Ranger Jenna | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1776,7 +1776,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Snivy| (Hard)": {
+        "Rival Brendan |Rustboro| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1806,7 +1806,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1836,7 +1836,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1866,7 +1866,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1896,7 +1896,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1926,7 +1926,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wind Rider",
             "teraType": "None"
         },
-        "Cooltrainer Ruben (Hard)": {
+        "Cooltrainer Ruben | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1956,7 +1956,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Picnicker Charlotte (Hard)": {
+        "Picnicker Charlotte | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -1986,7 +1986,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Camper Branden (Hard)": {
+        "Camper Branden | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2016,7 +2016,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2046,7 +2046,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2076,7 +2076,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2106,7 +2106,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2138,7 +2138,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rufflet": {
-        "Pkmn Breeder Gabrielle (Hard)": {
+        "Pkmn Breeder Gabrielle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2168,7 +2168,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Leader Winona (Hard)": {
+        "Leader Winona | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2198,7 +2198,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sheer Force",
             "teraType": "None"
         },
-        "Bird Keeper Chester (Hard)": {
+        "Bird Keeper Chester | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2230,7 +2230,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Electrike": {
-        "Cooltrainer Marcel (Hard)": {
+        "Cooltrainer Marcel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2260,7 +2260,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Wilton (Hard)": {
+        "Cooltrainer Wilton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2290,7 +2290,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Keira (Hard)": {
+        "Cooltrainer Keira | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2320,7 +2320,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Guitarist Kirk (Hard)": {
+        "Guitarist Kirk | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2349,7 +2349,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Guitarist Fernando (Hard)": {
+        "Guitarist Fernando | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2379,7 +2379,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Gentleman Walter (Hard)": {
+        "Gentleman Walter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2409,7 +2409,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Gentleman Micah (Hard)": {
+        "Gentleman Micah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2439,7 +2439,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Leader Wattson (Hard)": {
+        "Leader Wattson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2469,7 +2469,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Lightning Rod",
             "teraType": "None"
         },
-        "Youngster Timmy (Hard)": {
+        "Youngster Timmy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2499,7 +2499,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Youngster Demetrius (Hard)": {
+        "Youngster Demetrius | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2529,7 +2529,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Expert Auron (Hard)": {
+        "Expert Auron | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2559,7 +2559,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Marley (Hard)": {
+        "Cooltrainer Marley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2588,7 +2588,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Athena (Hard)": {
+        "Cooltrainer Athena | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2617,7 +2617,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Young Couple Dez & Luke (Hard)": {
+        "Young Couple Dez & Luke | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2647,7 +2647,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Guitarist Joseph (Hard)": {
+        "Guitarist Joseph | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2677,7 +2677,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Youngster Deandre (Hard)": {
+        "Youngster Deandre | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2707,7 +2707,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Carolina (Hard)": {
+        "Cooltrainer Carolina | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2737,7 +2737,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Guitarist Fabian (Hard)": {
+        "Guitarist Fabian | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2767,7 +2767,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Cooltrainer Leonel (Hard)": {
+        "Cooltrainer Leonel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2796,7 +2796,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Hard)": {
+        "Pkmn Breeder Myles | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2826,7 +2826,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Hard)": {
+        "Pkmn Breeder Pat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2856,7 +2856,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy (Hard)": {
+        "Pkmn Trainer 1 Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2888,7 +2888,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wingull": {
-        "Bird Keeper Alberto (Hard)": {
+        "Bird Keeper Alberto | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2918,7 +2918,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Cooltrainer Edgar (Hard)": {
+        "Cooltrainer Edgar | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2948,7 +2948,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Cooltrainer Wendy (Hard)": {
+        "Cooltrainer Wendy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2977,7 +2977,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Cooltrainer Brooke (Hard)": {
+        "Cooltrainer Brooke | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3007,7 +3007,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Darrin (Hard)": {
+        "Swimmer M Darrin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3037,7 +3037,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Spencer (Hard)": {
+        "Swimmer M Spencer | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3067,7 +3067,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Dean (Hard)": {
+        "Swimmer M Dean | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3097,7 +3097,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Richard (Hard)": {
+        "Swimmer M Richard | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3127,7 +3127,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Herman (Hard)": {
+        "Swimmer M Herman | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3157,7 +3157,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer M Dudley (Hard)": {
+        "Swimmer M Dudley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3187,7 +3187,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Kindler Bernie (Hard)": {
+        "Kindler Bernie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3217,7 +3217,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Leader Winona (Hard)": {
+        "Leader Winona | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3247,7 +3247,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drizzle",
             "teraType": "None"
         },
-        "School Kid Paul (Hard)": {
+        "School Kid Paul | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3277,7 +3277,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Triathlete Chase (Hard)": {
+        "Triathlete Chase | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3307,7 +3307,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Triathlete Donny (Hard)": {
+        "Triathlete Donny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3337,7 +3337,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Triathlete Allison (Hard)": {
+        "Triathlete Allison | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3367,7 +3367,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Perry (Hard)": {
+        "Bird Keeper Perry | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3397,7 +3397,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Hugh (Hard)": {
+        "Bird Keeper Hugh | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3427,7 +3427,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Edwardo (Hard)": {
+        "Bird Keeper Edwardo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3457,7 +3457,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Colin (Hard)": {
+        "Bird Keeper Colin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3487,7 +3487,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Benny (Hard)": {
+        "Bird Keeper Benny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3517,7 +3517,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer F Beverly (Hard)": {
+        "Swimmer F Beverly | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3547,7 +3547,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer F Denise (Hard)": {
+        "Swimmer F Denise | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3577,7 +3577,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer F Alice (Hard)": {
+        "Swimmer F Alice | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3607,7 +3607,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Swimmer F Kaylee (Hard)": {
+        "Swimmer F Kaylee | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3637,7 +3637,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Huey (Hard)": {
+        "Sailor Huey | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3667,7 +3667,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Edmond (Hard)": {
+        "Sailor Edmond | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3697,7 +3697,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Ernest (Hard)": {
+        "Sailor Ernest | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3727,7 +3727,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Dwayne (Hard)": {
+        "Sailor Dwayne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3757,7 +3757,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Leonard (Hard)": {
+        "Sailor Leonard | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3787,7 +3787,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Hard)": {
+        "Pkmn Breeder Lydia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3817,7 +3817,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Hiker Mike (Hard)": {
+        "Hiker Mike | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3845,7 +3845,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sis And Bro Reli & Ian (Hard)": {
+        "Sis And Bro Reli & Ian | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3875,7 +3875,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Cooltrainer Darcy (Hard)": {
+        "Cooltrainer Darcy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3905,7 +3905,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Bird Keeper Josue (Hard)": {
+        "Bird Keeper Josue | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3935,7 +3935,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Sailor Cory (Hard)": {
+        "Sailor Cory | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3965,7 +3965,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Hard)": {
+        "Pkmn Breeder Myles | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -3997,7 +3997,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Natu": {
-        "Bird Keeper Alberto (Hard)": {
+        "Bird Keeper Alberto | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4027,7 +4027,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Samantha (Hard)": {
+        "Psychic Samantha | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4057,7 +4057,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Kayla (Hard)": {
+        "Psychic Kayla | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4087,7 +4087,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Alexis (Hard)": {
+        "Psychic Alexis | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4117,7 +4117,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Presley (Hard)": {
+        "Bird Keeper Presley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4147,7 +4147,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Colin (Hard)": {
+        "Bird Keeper Colin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4177,7 +4177,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Benny (Hard)": {
+        "Bird Keeper Benny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4207,7 +4207,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Alex (Hard)": {
+        "Bird Keeper Alex | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4237,7 +4237,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Macey (Hard)": {
+        "Psychic Macey | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4267,7 +4267,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Camper Flint (Hard)": {
+        "Camper Flint | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4297,7 +4297,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Bird Keeper Elijah (Hard)": {
+        "Bird Keeper Elijah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4329,7 +4329,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Slakoth": {
-        "Collector Ed (Hard)": {
+        "Collector Ed | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4359,7 +4359,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Cooltrainer George (Hard)": {
+        "Cooltrainer George | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4388,7 +4388,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Cooltrainer Berke (Hard)": {
+        "Cooltrainer Berke | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4416,7 +4416,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Sr And Jr Kate & Joy (Hard)": {
+        "Sr And Jr Kate & Joy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4446,7 +4446,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Cooltrainer Quincy (Hard)": {
+        "Cooltrainer Quincy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4475,7 +4475,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Wimp Out",
             "teraType": "None"
         },
-        "Cooltrainer Katelynn (Hard)": {
+        "Cooltrainer Katelynn | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4507,7 +4507,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Varoom": {
-        "Collector Ed (Hard)": {
+        "Collector Ed | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4539,7 +4539,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Magikarp": {
-        "Swimmer M Declan (Hard)": {
+        "Swimmer M Declan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4569,7 +4569,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer M Barry (Hard)": {
+        "Swimmer M Barry | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4599,7 +4599,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer M Rodney (Hard)": {
+        "Swimmer M Rodney | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4629,7 +4629,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer M Jack (Hard)": {
+        "Swimmer M Jack | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4659,7 +4659,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Andrew (Hard)": {
+        "Fisherman Andrew | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4689,7 +4689,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Ivan (Hard)": {
+        "Fisherman Ivan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4719,7 +4719,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Claude (Hard)": {
+        "Fisherman Claude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4749,7 +4749,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Elliot (Hard)": {
+        "Fisherman Elliot | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4779,7 +4779,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Ronald (Hard)": {
+        "Fisherman Ronald | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4809,7 +4809,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pokefan Annika (Hard)": {
+        "Pokefan Annika | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4839,7 +4839,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Roger (Hard)": {
+        "Fisherman Roger | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4869,7 +4869,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Chris (Hard)": {
+        "Fisherman Chris | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4899,7 +4899,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Darian (Hard)": {
+        "Fisherman Darian | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4931,7 +4931,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Finneon": {
-        "Swimmer M Declan (Hard)": {
+        "Swimmer M Declan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4961,7 +4961,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lady Daphne (Hard)": {
+        "Lady Daphne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -4991,7 +4991,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Tanya (Hard)": {
+        "Swimmer F Tanya | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5021,7 +5021,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Susie (Hard)": {
+        "Swimmer F Susie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5051,7 +5051,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Sienna (Hard)": {
+        "Swimmer F Sienna | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5081,7 +5081,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Laurel (Hard)": {
+        "Swimmer F Laurel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5111,7 +5111,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lass Andrea (Hard)": {
+        "Lass Andrea | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5141,7 +5141,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Young Couple Lea & Jed (Hard)": {
+        "Young Couple Lea & Jed | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5173,7 +5173,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Maschiff": {
-        "Team Aqua Grunt 2 (Hard)": {
+        "Team Aqua Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5205,7 +5205,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Noibat": {
-        "Team Aqua Grunt 2 (Hard)": {
+        "Team Aqua Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5237,7 +5237,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shellder": {
-        "Team Aqua Grunt 2 (Hard)": {
+        "Team Aqua Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5267,7 +5267,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shell Armor",
             "teraType": "None"
         },
-        "Elite Four Glacia (Hard)": {
+        "Elite Four Glacia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5297,7 +5297,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Skill Link",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Smasher (Hard)": {
+        "Pkmn Trainer 1 Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5329,7 +5329,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wailmer": {
-        "Team Aqua Grunt 2 (Hard)": {
+        "Team Aqua Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5359,7 +5359,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Tuber M Simon (Hard)": {
+        "Tuber M Simon | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5389,7 +5389,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Cooltrainer Braxton (Hard)": {
+        "Cooltrainer Braxton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5418,7 +5418,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Cooltrainer Wilton (Hard)": {
+        "Cooltrainer Wilton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5448,7 +5448,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Cooltrainer Owen (Hard)": {
+        "Cooltrainer Owen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5478,7 +5478,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Beauty Thalia (Hard)": {
+        "Beauty Thalia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5508,7 +5508,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer M Santiago (Hard)": {
+        "Swimmer M Santiago | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5538,7 +5538,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer M Chad (Hard)": {
+        "Swimmer M Chad | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5568,7 +5568,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Champion Wallace (Hard)": {
+        "Champion Wallace | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5598,7 +5598,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drizzle",
             "teraType": "None"
         },
-        "Fisherman Dale (Hard)": {
+        "Fisherman Dale | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5628,7 +5628,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Fisherman Carter (Hard)": {
+        "Fisherman Carter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5658,7 +5658,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Parasol Lady Clarissa (Hard)": {
+        "Parasol Lady Clarissa | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5688,7 +5688,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer F Beverly (Hard)": {
+        "Swimmer F Beverly | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5718,7 +5718,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer F Kyla (Hard)": {
+        "Swimmer F Kyla | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5748,7 +5748,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Swimmer F Jenny (Hard)": {
+        "Swimmer F Jenny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5778,7 +5778,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Sailor Hudson (Hard)": {
+        "Sailor Hudson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5808,7 +5808,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Team Magma Grunt 2 (Hard)": {
+        "Team Magma Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5838,7 +5838,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Lass Crissy (Hard)": {
+        "Lass Crissy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5868,7 +5868,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Fisherman Jonah (Hard)": {
+        "Fisherman Jonah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5898,7 +5898,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Fisherman Wayne (Hard)": {
+        "Fisherman Wayne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5930,7 +5930,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Numel": {
-        "Team Magma Grunt 2 (Hard)": {
+        "Team Magma Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5960,7 +5960,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Cooltrainer Brooke (Hard)": {
+        "Cooltrainer Brooke | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5990,7 +5990,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Beauty Shirley (Hard)": {
+        "Beauty Shirley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6020,7 +6020,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Kindler Cole (Hard)": {
+        "Kindler Cole | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6050,7 +6050,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Kindler Axle (Hard)": {
+        "Kindler Axle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6080,7 +6080,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "School Kid Paul (Hard)": {
+        "School Kid Paul | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6110,7 +6110,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Parasol Lady Madeline (Hard)": {
+        "Parasol Lady Madeline | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6139,7 +6139,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Hiker Eli (Hard)": {
+        "Hiker Eli | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6169,7 +6169,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6199,7 +6199,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6229,7 +6229,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Mt. Chimney| (Hard)": {
+        "Magma Leader Maxie |Mt. Chimney| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6259,7 +6259,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Solid Rock",
             "teraType": "None"
         },
-        "Winstrate Vivi (Hard)": {
+        "Winstrate Vivi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6289,7 +6289,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Hiker Brice (Hard)": {
+        "Hiker Brice | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6319,7 +6319,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Hiker Lucas (Hard)": {
+        "Hiker Lucas | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6349,7 +6349,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Sr And Jr Kim & Iris (Hard)": {
+        "Sr And Jr Kim & Iris | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6378,7 +6378,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Kindler Hayden (Hard)": {
+        "Kindler Hayden | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6408,7 +6408,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Cooltrainer Darcy (Hard)": {
+        "Cooltrainer Darcy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6438,7 +6438,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Space Center| (Hard)": {
+        "Magma Leader Maxie |Space Center| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6468,7 +6468,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Solid Rock",
             "teraType": "None"
         },
-        "Kindler Bryant (Hard)": {
+        "Kindler Bryant | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6498,7 +6498,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Kindler Dayton (Hard)": {
+        "Kindler Dayton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6528,7 +6528,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Hard)": {
+        "Pkmn Breeder Myles | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6560,7 +6560,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Makuhita": {
-        "Expert Fredrick (Hard)": {
+        "Expert Fredrick | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6590,7 +6590,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Zander (Hard)": {
+        "Black Belt Zander | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6620,7 +6620,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Cooltrainer Wilton (Hard)": {
+        "Cooltrainer Wilton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6650,7 +6650,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Kiyo (Hard)": {
+        "Black Belt Kiyo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6680,7 +6680,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Yuji (Hard)": {
+        "Black Belt Yuji | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6710,7 +6710,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Atsushi (Hard)": {
+        "Black Belt Atsushi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6740,7 +6740,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Sr And Jr Anna & Meg (Hard)": {
+        "Sr And Jr Anna & Meg | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6769,7 +6769,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Expert Timothy (Hard)": {
+        "Expert Timothy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6799,7 +6799,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Expert Shelby (Hard)": {
+        "Expert Shelby | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6829,7 +6829,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Battle Girl Cyndy (Hard)": {
+        "Battle Girl Cyndy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6859,7 +6859,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Battle Girl Reyna (Hard)": {
+        "Battle Girl Reyna | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6889,7 +6889,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Expert Conor (Hard)": {
+        "Expert Conor | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6919,7 +6919,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Hard)": {
+        "Pkmn Breeder Isaac | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6949,7 +6949,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Cristian (Hard)": {
+        "Black Belt Cristian | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -6979,7 +6979,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Old Couple John & Jay (Hard)": {
+        "Old Couple John & Jay | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7008,7 +7008,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Black Belt Rhett (Hard)": {
+        "Black Belt Rhett | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7038,7 +7038,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Battle Girl Helene (Hard)": {
+        "Battle Girl Helene | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7068,7 +7068,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Battle Girl Callie (Hard)": {
+        "Battle Girl Callie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7098,7 +7098,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Hard)": {
+        "Pkmn Breeder Myles | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7130,7 +7130,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Machop": {
-        "Expert Fredrick (Hard)": {
+        "Expert Fredrick | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7160,7 +7160,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Takao (Hard)": {
+        "Black Belt Takao | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7190,7 +7190,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Hitoshi (Hard)": {
+        "Black Belt Hitoshi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7220,7 +7220,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Koichi (Hard)": {
+        "Black Belt Koichi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7250,7 +7250,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Nob (Hard)": {
+        "Black Belt Nob | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7280,7 +7280,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Yuji (Hard)": {
+        "Black Belt Yuji | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7310,7 +7310,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Daisuke (Hard)": {
+        "Black Belt Daisuke | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7340,7 +7340,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Youngster Joey (Hard)": {
+        "Youngster Joey | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7370,7 +7370,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Huey (Hard)": {
+        "Sailor Huey | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7400,7 +7400,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Ernest (Hard)": {
+        "Sailor Ernest | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7430,7 +7430,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Dwayne (Hard)": {
+        "Sailor Dwayne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7460,7 +7460,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Phillip (Hard)": {
+        "Sailor Phillip | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7490,7 +7490,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Leonard (Hard)": {
+        "Sailor Leonard | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7520,7 +7520,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Duncan (Hard)": {
+        "Sailor Duncan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7550,7 +7550,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Kelvin (Hard)": {
+        "Sailor Kelvin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7580,7 +7580,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Brenden (Hard)": {
+        "Sailor Brenden | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7610,7 +7610,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Hiker Brice (Hard)": {
+        "Hiker Brice | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7640,7 +7640,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Hiker Lenny (Hard)": {
+        "Hiker Lenny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7670,7 +7670,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Black Belt Koji (Hard)": {
+        "Black Belt Koji | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7700,7 +7700,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Sailor Cory (Hard)": {
+        "Sailor Cory | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7732,7 +7732,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Drifloon": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7762,7 +7762,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flare Boost",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7792,7 +7792,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flare Boost",
             "teraType": "None"
         },
-        "Leader Winona (Hard)": {
+        "Leader Winona | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7824,7 +7824,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Geodude-Alola": {
-        "Pkmn Trainer 1 Boom Dude (Hard)": {
+        "Pkmn Trainer 1 Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7854,7 +7854,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Galvanize",
             "sub_index": 0
         },
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7884,7 +7884,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Galvanize",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7914,7 +7914,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Galvanize",
             "teraType": "None"
         },
-        "Hiker Devan (Hard)": {
+        "Hiker Devan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7946,7 +7946,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tynamo": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7976,7 +7976,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Surge Surfer",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8006,7 +8006,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Surge Surfer",
             "teraType": "None"
         },
-        "Leader Wattson (Hard)": {
+        "Leader Wattson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8036,7 +8036,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Triathlete Anthony (Hard)": {
+        "Triathlete Anthony | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8068,7 +8068,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shinx": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8098,7 +8098,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8130,7 +8130,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Porygon": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8160,7 +8160,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Analytic",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8190,7 +8190,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Analytic",
             "teraType": "None"
         },
-        "Cooltrainer Owen (Hard)": {
+        "Cooltrainer Owen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8220,7 +8220,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Trace",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| (Hard)": {
+        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8250,7 +8250,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Trace",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| (Hard)": {
+        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8282,7 +8282,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Vanillite": {
-        "Aqua Admin Shelly |Weather Institute| (Hard)": {
+        "Aqua Admin Shelly |Weather Institute| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8314,7 +8314,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Eevee-Ice": {
-        "Aqua Admin Shelly |Weather Institute| (Hard)": {
+        "Aqua Admin Shelly |Weather Institute| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8346,7 +8346,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Frigibax": {
-        "Aqua Admin Shelly |Weather Institute| (Hard)": {
+        "Aqua Admin Shelly |Weather Institute| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8378,7 +8378,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bergmite": {
-        "Aqua Admin Shelly |Weather Institute| (Hard)": {
+        "Aqua Admin Shelly |Weather Institute| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8410,7 +8410,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bergmite-Rock": {
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8440,7 +8440,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8472,7 +8472,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sneasel-Hisui": {
-        "Aqua Admin Shelly |Weather Institute| (Hard)": {
+        "Aqua Admin Shelly |Weather Institute| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8504,7 +8504,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Carvanha": {
-        "Aqua Leader Archie |Seafloor Cavern| (Hard)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8534,7 +8534,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Strong Jaw",
             "teraType": "None"
         },
-        "Cooltrainer Vincent (Hard)": {
+        "Cooltrainer Vincent | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8564,7 +8564,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Beauty Tiffany (Hard)": {
+        "Beauty Tiffany | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8594,7 +8594,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Luis (Hard)": {
+        "Swimmer M Luis | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8624,7 +8624,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Tony (Hard)": {
+        "Swimmer M Tony | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8654,7 +8654,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Matthew (Hard)": {
+        "Swimmer M Matthew | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8684,7 +8684,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M David (Hard)": {
+        "Swimmer M David | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8714,7 +8714,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Roland (Hard)": {
+        "Swimmer M Roland | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8744,7 +8744,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Dean (Hard)": {
+        "Swimmer M Dean | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8774,7 +8774,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Gilbert (Hard)": {
+        "Swimmer M Gilbert | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8804,7 +8804,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Fisherman Barny (Hard)": {
+        "Fisherman Barny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8834,7 +8834,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Leonardo (Hard)": {
+        "Swimmer M Leonardo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8864,7 +8864,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Clarence (Hard)": {
+        "Swimmer M Clarence | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8894,7 +8894,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Fisherman Jonah (Hard)": {
+        "Fisherman Jonah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8924,7 +8924,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Fisherman Henry (Hard)": {
+        "Fisherman Henry | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8954,7 +8954,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Swimmer M Reed (Hard)": {
+        "Swimmer M Reed | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -8984,7 +8984,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Sis And Bro Lila & Roy (Hard)": {
+        "Sis And Bro Lila & Roy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9014,7 +9014,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Fisherman Chris (Hard)": {
+        "Fisherman Chris | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9044,7 +9044,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rough Skin",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Oceanic Museum| (Hard)": {
+        "Aqua Leader Archie |Oceanic Museum| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9076,7 +9076,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Poliwag": {
-        "Aqua Leader Archie |Seafloor Cavern| (Hard)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9106,7 +9106,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drizzle",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| (Hard)": {
+        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9136,7 +9136,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drizzle",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| (Hard)": {
+        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9168,7 +9168,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mantyke": {
-        "Aqua Leader Archie |Seafloor Cavern| (Hard)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9198,7 +9198,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Tuber F Lola (Hard)": {
+        "Tuber F Lola | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9228,7 +9228,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Leader Juan (Hard)": {
+        "Leader Juan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9260,7 +9260,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Clauncher": {
-        "Aqua Leader Archie |Seafloor Cavern| (Hard)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9290,7 +9290,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Fisherman Dale (Hard)": {
+        "Fisherman Dale | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9320,7 +9320,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Parasol Lady Angelica (Hard)": {
+        "Parasol Lady Angelica | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9350,7 +9350,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| (Hard)": {
+        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9380,7 +9380,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| (Hard)": {
+        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9412,7 +9412,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Finizen": {
-        "Aqua Leader Archie |Seafloor Cavern| (Hard)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9442,7 +9442,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid (Hard)": {
+        "Pkmn Trainer 1 Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9474,7 +9474,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Spoink": {
-        "Hex Maniac Leah (Hard)": {
+        "Hex Maniac Leah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9504,7 +9504,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Gentleman Nate (Hard)": {
+        "Gentleman Nate | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9534,7 +9534,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Psychic Marlene (Hard)": {
+        "Psychic Marlene | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9566,7 +9566,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chingling": {
-        "Hex Maniac Leah (Hard)": {
+        "Hex Maniac Leah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9596,7 +9596,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Psychic Mariela (Hard)": {
+        "Psychic Mariela | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9628,7 +9628,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shroomish": {
-        "Aroma Lady Daisy (Hard)": {
+        "Aroma Lady Daisy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9658,7 +9658,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Aroma Lady Rose (Hard)": {
+        "Aroma Lady Rose | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9688,7 +9688,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Beauty Sheila (Hard)": {
+        "Beauty Sheila | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9718,7 +9718,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Picnicker Autumn (Hard)": {
+        "Picnicker Autumn | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9748,7 +9748,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "School Kid Karen (Hard)": {
+        "School Kid Karen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9778,7 +9778,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "School Kid Georgia (Hard)": {
+        "School Kid Georgia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9808,7 +9808,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Picnicker Diana (Hard)": {
+        "Picnicker Diana | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9838,7 +9838,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Picnicker Irene (Hard)": {
+        "Picnicker Irene | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9868,7 +9868,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Hard)": {
+        "Pkmn Breeder Lydia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9898,7 +9898,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lass Tiana (Hard)": {
+        "Lass Tiana | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9928,7 +9928,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lass Haley (Hard)": {
+        "Lass Haley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9958,7 +9958,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Winstrate Vivi (Hard)": {
+        "Winstrate Vivi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9988,7 +9988,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Lass Robin (Hard)": {
+        "Lass Robin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10018,7 +10018,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Picnicker Bianca (Hard)": {
+        "Picnicker Bianca | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10048,7 +10048,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Aroma Lady Shayla (Hard)": {
+        "Aroma Lady Shayla | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10078,7 +10078,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Youngster Johnson (Hard)": {
+        "Youngster Johnson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10108,7 +10108,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Effect Spore",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Hard)": {
+        "Pkmn Breeder Pat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10140,7 +10140,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Budew": {
-        "Rival Wally |Victory Road| (Hard)": {
+        "Rival Wally |Victory Road| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10170,7 +10170,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Aroma Lady Daisy (Hard)": {
+        "Aroma Lady Daisy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10200,7 +10200,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Aroma Lady Rose (Hard)": {
+        "Aroma Lady Rose | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10232,7 +10232,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Darumaka-Galar": {
-        "Aroma Lady Rose (Hard)": {
+        "Aroma Lady Rose | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10262,7 +10262,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Leader Flannery (Hard)": {
+        "Leader Flannery | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10294,7 +10294,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Meditite": {
-        "Cooltrainer Felix (Hard)": {
+        "Cooltrainer Felix | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10321,7 +10321,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Cooltrainer Vincent (Hard)": {
+        "Cooltrainer Vincent | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10351,7 +10351,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Cooltrainer Michelle (Hard)": {
+        "Cooltrainer Michelle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10381,7 +10381,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Expert Mollie (Hard)": {
+        "Expert Mollie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10411,7 +10411,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Psychic William (Hard)": {
+        "Psychic William | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10441,7 +10441,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Winstrate Vicky (Hard)": {
+        "Winstrate Vicky | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10470,7 +10470,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Expert Shelby (Hard)": {
+        "Expert Shelby | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10500,7 +10500,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Jocelyn (Hard)": {
+        "Battle Girl Jocelyn | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10530,7 +10530,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Laura (Hard)": {
+        "Battle Girl Laura | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10560,7 +10560,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Cyndy (Hard)": {
+        "Battle Girl Cyndy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10590,7 +10590,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Cora (Hard)": {
+        "Battle Girl Cora | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10620,7 +10620,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Reyna (Hard)": {
+        "Battle Girl Reyna | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10650,7 +10650,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Lilith (Hard)": {
+        "Battle Girl Lilith | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10680,7 +10680,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Hex Maniac Sylvia (Hard)": {
+        "Hex Maniac Sylvia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10710,7 +10710,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Vivian (Hard)": {
+        "Battle Girl Vivian | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10739,7 +10739,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Danielle (Hard)": {
+        "Battle Girl Danielle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10768,7 +10768,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Old Couple John & Jay (Hard)": {
+        "Old Couple John & Jay | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10797,7 +10797,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Helene (Hard)": {
+        "Battle Girl Helene | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10827,7 +10827,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Psychic Marlene (Hard)": {
+        "Psychic Marlene | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10857,7 +10857,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Aisha (Hard)": {
+        "Battle Girl Aisha | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10887,7 +10887,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Expert Makayla (Hard)": {
+        "Expert Makayla | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10917,7 +10917,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pure Power",
             "teraType": "None"
         },
-        "Battle Girl Callie (Hard)": {
+        "Battle Girl Callie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10949,7 +10949,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Baltoy": {
-        "Cooltrainer Felix (Hard)": {
+        "Cooltrainer Felix | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -10977,7 +10977,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ruin Maniac Chip (Hard)": {
+        "Ruin Maniac Chip | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11006,7 +11006,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Cooltrainer Shannon (Hard)": {
+        "Cooltrainer Shannon | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11036,7 +11036,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Camper Beau (Hard)": {
+        "Camper Beau | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11065,7 +11065,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Cooltrainer Dianne (Hard)": {
+        "Cooltrainer Dianne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11093,7 +11093,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Picnicker Heidi (Hard)": {
+        "Picnicker Heidi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11122,7 +11122,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Hiker Eric (Hard)": {
+        "Hiker Eric | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11152,7 +11152,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Camper Lawrence (Hard)": {
+        "Camper Lawrence | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11182,7 +11182,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Team Magma Grunt 2 (Hard)": {
+        "Team Magma Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11212,7 +11212,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Rival Steven (Hard)": {
+        "Rival Steven | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11242,7 +11242,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Boom Dude (Hard)": {
+        "Pkmn Trainer 1 Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11274,7 +11274,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bulbasaur": {
-        "Aroma Lady Violet (Hard)": {
+        "Aroma Lady Violet | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11304,7 +11304,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Cooltrainer Wendy (Hard)": {
+        "Cooltrainer Wendy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11333,7 +11333,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Cooltrainer Brooke (Hard)": {
+        "Cooltrainer Brooke | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11363,7 +11363,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Cooltrainer Hope (Hard)": {
+        "Cooltrainer Hope | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11393,7 +11393,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Lady Naomi (Hard)": {
+        "Lady Naomi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11423,7 +11423,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Winstrate Victoria (Hard)": {
+        "Winstrate Victoria | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11453,7 +11453,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Parasol Lady Clarissa (Hard)": {
+        "Parasol Lady Clarissa | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11483,7 +11483,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Hard)": {
+        "Pkmn Breeder Lydia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11513,7 +11513,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Pkmn Ranger Catherine (Hard)": {
+        "Pkmn Ranger Catherine | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11543,7 +11543,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Pkmn Ranger Sophia (Hard)": {
+        "Pkmn Ranger Sophia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11573,7 +11573,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Sr And Jr Tyra & Ivy (Hard)": {
+        "Sr And Jr Tyra & Ivy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11602,7 +11602,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Aroma Lady Celina (Hard)": {
+        "Aroma Lady Celina | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11632,7 +11632,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Aroma Lady Shayla (Hard)": {
+        "Aroma Lady Shayla | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11662,7 +11662,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Expert Makayla (Hard)": {
+        "Expert Makayla | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11694,7 +11694,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Oddish": {
-        "Aroma Lady Violet (Hard)": {
+        "Aroma Lady Violet | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11724,7 +11724,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "School Kid Paul (Hard)": {
+        "School Kid Paul | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11754,7 +11754,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Picnicker Diana (Hard)": {
+        "Picnicker Diana | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11784,7 +11784,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Pkmn Ranger Catherine (Hard)": {
+        "Pkmn Ranger Catherine | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11814,7 +11814,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Lass Sally (Hard)": {
+        "Lass Sally | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11844,7 +11844,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Cooltrainer Alexa (Hard)": {
+        "Cooltrainer Alexa | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11876,7 +11876,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sandshrew": {
-        "Ruin Maniac Dusty (Hard)": {
+        "Ruin Maniac Dusty | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11905,7 +11905,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Chip (Hard)": {
+        "Ruin Maniac Chip | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11934,7 +11934,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Foster (Hard)": {
+        "Ruin Maniac Foster | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11963,7 +11963,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Cooltrainer Julie (Hard)": {
+        "Cooltrainer Julie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11993,7 +11993,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Drew (Hard)": {
+        "Camper Drew | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12023,7 +12023,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Beau (Hard)": {
+        "Camper Beau | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12053,7 +12053,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Shane (Hard)": {
+        "Camper Shane | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12083,7 +12083,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Travis (Hard)": {
+        "Camper Travis | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12113,7 +12113,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Picnicker Heidi (Hard)": {
+        "Picnicker Heidi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12142,7 +12142,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Picnicker Becky (Hard)": {
+        "Picnicker Becky | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12171,7 +12171,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Garrison (Hard)": {
+        "Ruin Maniac Garrison | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12201,7 +12201,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Tyron (Hard)": {
+        "Camper Tyron | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12231,7 +12231,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Camper Lawrence (Hard)": {
+        "Camper Lawrence | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12261,7 +12261,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Andres (Hard)": {
+        "Ruin Maniac Andres | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12291,7 +12291,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Ruin Maniac Bryan (Hard)": {
+        "Ruin Maniac Bryan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12321,7 +12321,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Hard)": {
+        "Pkmn Breeder Pat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12353,7 +12353,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Phanpy": {
-        "Ruin Maniac Chip (Hard)": {
+        "Ruin Maniac Chip | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12385,7 +12385,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sandshrew-Alola": {
-        "Ruin Maniac Foster (Hard)": {
+        "Ruin Maniac Foster | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12415,7 +12415,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Cloak",
             "teraType": "None"
         },
-        "Aqua Admin Shelly |Weather Institute| (Hard)": {
+        "Aqua Admin Shelly |Weather Institute| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12447,7 +12447,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Magnemite": {
-        "Interviewer Gabby & Ty (Hard)": {
+        "Interviewer Gabby & Ty | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12477,7 +12477,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Cooltrainer Braxton (Hard)": {
+        "Cooltrainer Braxton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12506,7 +12506,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Cooltrainer Albert (Hard)": {
+        "Cooltrainer Albert | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12536,7 +12536,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Guitarist Shawn (Hard)": {
+        "Guitarist Shawn | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12566,7 +12566,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Guitarist Dalton (Hard)": {
+        "Guitarist Dalton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12596,7 +12596,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Leader Wattson (Hard)": {
+        "Leader Wattson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12626,7 +12626,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Analytic",
             "teraType": "None"
         },
-        "Triathlete Jacob (Hard)": {
+        "Triathlete Jacob | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12656,7 +12656,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Anthony (Hard)": {
+        "Triathlete Anthony | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12686,7 +12686,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Benjamin (Hard)": {
+        "Triathlete Benjamin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12716,7 +12716,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Abigail (Hard)": {
+        "Triathlete Abigail | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12746,7 +12746,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Jasmine (Hard)": {
+        "Triathlete Jasmine | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12776,7 +12776,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Rival Wally |Victory Road| (Hard)": {
+        "Rival Wally |Victory Road| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12806,7 +12806,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Triathlete Julio (Hard)": {
+        "Triathlete Julio | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12836,7 +12836,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magnet Pull",
             "teraType": "None"
         },
-        "Triathlete Alyssa (Hard)": {
+        "Triathlete Alyssa | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12868,7 +12868,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Whismur": {
-        "Interviewer Gabby & Ty (Hard)": {
+        "Interviewer Gabby & Ty | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12898,7 +12898,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Fernando (Hard)": {
+        "Guitarist Fernando | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12928,7 +12928,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Dalton (Hard)": {
+        "Guitarist Dalton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12958,7 +12958,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Hard)": {
+        "Pkmn Breeder Isaac | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -12988,7 +12988,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Cooltrainer Jonathan (Hard)": {
+        "Cooltrainer Jonathan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13018,7 +13018,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Cooltrainer Cristin (Hard)": {
+        "Cooltrainer Cristin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13050,7 +13050,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Azurill": {
-        "Tuber F Lola (Hard)": {
+        "Tuber F Lola | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13080,7 +13080,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber F Austina (Hard)": {
+        "Tuber F Austina | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13110,7 +13110,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber F Gwen (Hard)": {
+        "Tuber F Gwen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13140,7 +13140,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber M Simon (Hard)": {
+        "Tuber M Simon | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13170,7 +13170,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber M Charlie (Hard)": {
+        "Tuber M Charlie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13200,7 +13200,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Beauty Melissa (Hard)": {
+        "Beauty Melissa | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13230,7 +13230,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Beauty Bridget (Hard)": {
+        "Beauty Bridget | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13260,7 +13260,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Rich Boy Garret (Hard)": {
+        "Rich Boy Garret | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13290,7 +13290,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pokefan Bethany (Hard)": {
+        "Pokefan Bethany | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13320,7 +13320,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Champion Wallace (Hard)": {
+        "Champion Wallace | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13350,7 +13350,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Huge Power",
             "teraType": "None"
         },
-        "Tuber F Jani (Hard)": {
+        "Tuber F Jani | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13380,7 +13380,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Imani (Hard)": {
+        "Swimmer F Imani | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13410,7 +13410,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Tara (Hard)": {
+        "Swimmer F Tara | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13440,7 +13440,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Grace (Hard)": {
+        "Swimmer F Grace | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13470,7 +13470,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Nikki (Hard)": {
+        "Swimmer F Nikki | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13500,7 +13500,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Dana (Hard)": {
+        "Swimmer F Dana | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13530,7 +13530,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Becky (Hard)": {
+        "Picnicker Becky | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13559,7 +13559,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Nancy (Hard)": {
+        "Picnicker Nancy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13589,7 +13589,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Irene (Hard)": {
+        "Picnicker Irene | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13619,7 +13619,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Hard)": {
+        "Pkmn Breeder Lydia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13649,7 +13649,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lass Janice (Hard)": {
+        "Lass Janice | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13679,7 +13679,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Winstrate Vivi (Hard)": {
+        "Winstrate Vivi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13709,7 +13709,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Lass Robin (Hard)": {
+        "Lass Robin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13739,7 +13739,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Cooltrainer Alexa (Hard)": {
+        "Cooltrainer Alexa | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13769,7 +13769,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Sis And Bro Reli & Ian (Hard)": {
+        "Sis And Bro Reli & Ian | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13799,7 +13799,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Tuber F Hailey (Hard)": {
+        "Tuber F Hailey | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13829,7 +13829,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Sophie (Hard)": {
+        "Picnicker Sophie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13859,7 +13859,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Angelina (Hard)": {
+        "Picnicker Angelina | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13889,7 +13889,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Isabelle (Hard)": {
+        "Swimmer F Isabelle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13919,7 +13919,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Picnicker Celia (Hard)": {
+        "Picnicker Celia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13949,7 +13949,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Hard)": {
+        "Pkmn Breeder Pat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -13981,7 +13981,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Zigzagoon": {
-        "Tuber M Ricky (Hard)": {
+        "Tuber M Ricky | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14010,7 +14010,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lady Cindy (Hard)": {
+        "Lady Cindy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14040,7 +14040,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Rich Boy Winston (Hard)": {
+        "Rich Boy Winston | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14070,7 +14070,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Camper Ethan (Hard)": {
+        "Camper Ethan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14100,7 +14100,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Sr And Jr Anna & Meg (Hard)": {
+        "Sr And Jr Anna & Meg | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14129,7 +14129,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Winstrate Victor (Hard)": {
+        "Winstrate Victor | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14159,7 +14159,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Billy (Hard)": {
+        "Youngster Billy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14189,7 +14189,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Ben (Hard)": {
+        "Youngster Ben | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14218,7 +14218,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Eddie (Hard)": {
+        "Youngster Eddie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14248,7 +14248,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Allen (Hard)": {
+        "Youngster Allen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14278,7 +14278,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Demetrius (Hard)": {
+        "Youngster Demetrius | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14308,7 +14308,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Hard)": {
+        "Pkmn Breeder Isaac | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14338,7 +14338,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Cooltrainer Athena (Hard)": {
+        "Cooltrainer Athena | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14366,7 +14366,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lass Tiana (Hard)": {
+        "Lass Tiana | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14396,7 +14396,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Rich Boy Dawson (Hard)": {
+        "Rich Boy Dawson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14426,7 +14426,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Lady Sarah (Hard)": {
+        "Lady Sarah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14456,7 +14456,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Youngster Deandre (Hard)": {
+        "Youngster Deandre | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14486,7 +14486,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pickup",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Hard)": {
+        "Pkmn Breeder Myles | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14518,7 +14518,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Taillow": {
-        "Cooltrainer Randall (Hard)": {
+        "Cooltrainer Randall | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14547,7 +14547,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Cooltrainer Braxton (Hard)": {
+        "Cooltrainer Braxton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14576,7 +14576,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Cooltrainer Samuel (Hard)": {
+        "Cooltrainer Samuel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14606,7 +14606,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Camper Ethan (Hard)": {
+        "Camper Ethan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14636,7 +14636,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Winstrate Victor (Hard)": {
+        "Winstrate Victor | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14666,7 +14666,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Youngster Allen (Hard)": {
+        "Youngster Allen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14696,7 +14696,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Phil (Hard)": {
+        "Bird Keeper Phil | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14726,7 +14726,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Benny (Hard)": {
+        "Bird Keeper Benny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14756,7 +14756,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Chester (Hard)": {
+        "Bird Keeper Chester | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14786,7 +14786,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Alex (Hard)": {
+        "Bird Keeper Alex | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14816,7 +14816,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Picnicker Carol (Hard)": {
+        "Picnicker Carol | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14846,7 +14846,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Hard)": {
+        "Pkmn Breeder Isaac | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14876,7 +14876,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Expert Paxton (Hard)": {
+        "Expert Paxton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14906,7 +14906,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Camper Flint (Hard)": {
+        "Camper Flint | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14936,7 +14936,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Aidan (Hard)": {
+        "Bird Keeper Aidan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14966,7 +14966,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Coby (Hard)": {
+        "Bird Keeper Coby | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -14996,7 +14996,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Bird Keeper Josue (Hard)": {
+        "Bird Keeper Josue | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15026,7 +15026,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Cooltrainer Carolina (Hard)": {
+        "Cooltrainer Carolina | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15056,7 +15056,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Camper Branden (Hard)": {
+        "Camper Branden | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15088,7 +15088,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tyrogue": {
-        "Cooltrainer Parker (Hard)": {
+        "Cooltrainer Parker | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15118,7 +15118,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15148,7 +15148,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Hard)": {
+        "Rival Brendan |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15178,7 +15178,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15208,7 +15208,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Squirtle| (Hard)": {
+        "Rival May |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15238,7 +15238,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Hard)": {
+        "Rival May |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15268,7 +15268,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Hard)": {
+        "Rival May |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15298,7 +15298,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15328,7 +15328,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15358,7 +15358,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15388,7 +15388,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15418,7 +15418,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15448,7 +15448,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15478,7 +15478,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15508,7 +15508,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15538,7 +15538,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15568,7 +15568,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15598,7 +15598,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15628,7 +15628,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Guts",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15660,7 +15660,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Trapinch": {
-        "Cooltrainer Braxton (Hard)": {
+        "Cooltrainer Braxton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15689,7 +15689,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Youngster Jaylen (Hard)": {
+        "Youngster Jaylen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15719,7 +15719,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15749,7 +15749,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Arena Trap",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15781,7 +15781,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Gimmighoul Roaming": {
-        "Cooltrainer Vincent (Hard)": {
+        "Cooltrainer Vincent | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15813,7 +15813,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tinkatink": {
-        "Cooltrainer Leroy (Hard)": {
+        "Cooltrainer Leroy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15843,7 +15843,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mold Breaker",
             "teraType": "None"
         },
-        "Cooltrainer Samuel (Hard)": {
+        "Cooltrainer Samuel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15873,7 +15873,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mold Breaker",
             "teraType": "None"
         },
-        "Cooltrainer Wendy (Hard)": {
+        "Cooltrainer Wendy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15904,7 +15904,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Staryu": {
-        "Cooltrainer Leroy (Hard)": {
+        "Cooltrainer Leroy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15934,7 +15934,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Camden (Hard)": {
+        "Triathlete Camden | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15964,7 +15964,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Isaiah (Hard)": {
+        "Triathlete Isaiah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -15994,7 +15994,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Pablo (Hard)": {
+        "Triathlete Pablo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16024,7 +16024,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Chase (Hard)": {
+        "Triathlete Chase | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16054,7 +16054,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Isobel (Hard)": {
+        "Triathlete Isobel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16084,7 +16084,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Donny (Hard)": {
+        "Triathlete Donny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16114,7 +16114,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Talia (Hard)": {
+        "Triathlete Talia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16144,7 +16144,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Katelyn (Hard)": {
+        "Triathlete Katelyn | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16174,7 +16174,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Allison (Hard)": {
+        "Triathlete Allison | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16204,7 +16204,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Isabella (Hard)": {
+        "Triathlete Isabella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16234,7 +16234,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Triathlete Camron (Hard)": {
+        "Triathlete Camron | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16266,7 +16266,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cacnea": {
-        "Cooltrainer Edgar (Hard)": {
+        "Cooltrainer Edgar | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16296,7 +16296,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Pkmn Ranger Sebastian (Hard)": {
+        "Pkmn Ranger Sebastian | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16326,7 +16326,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16356,7 +16356,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Veil",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16388,7 +16388,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Grimer": {
-        "Cooltrainer Albert (Hard)": {
+        "Cooltrainer Albert | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16420,7 +16420,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Abra": {
-        "Cooltrainer Samuel (Hard)": {
+        "Cooltrainer Samuel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16449,7 +16449,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Cooltrainer Vito (Hard)": {
+        "Cooltrainer Vito | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16479,7 +16479,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Edward (Hard)": {
+        "Psychic Edward | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16506,7 +16506,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Joshua (Hard)": {
+        "Psychic Joshua | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16536,7 +16536,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Jaclyn (Hard)": {
+        "Psychic Jaclyn | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16563,7 +16563,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Maura (Hard)": {
+        "Psychic Maura | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16593,7 +16593,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Kayla (Hard)": {
+        "Psychic Kayla | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16623,7 +16623,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Jacki (Hard)": {
+        "Psychic Jacki | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16653,7 +16653,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Hex Maniac Kathleen (Hard)": {
+        "Hex Maniac Kathleen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16683,7 +16683,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Alix (Hard)": {
+        "Psychic Alix | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16713,7 +16713,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Alvaro (Hard)": {
+        "Psychic Alvaro | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16745,7 +16745,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Doduo": {
-        "Leader Winona (Hard)": {
+        "Leader Winona | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16775,7 +16775,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Early Bird",
             "teraType": "None"
         },
-        "Cooltrainer Vito (Hard)": {
+        "Cooltrainer Vito | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16805,7 +16805,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Triathlete Dylan (Hard)": {
+        "Triathlete Dylan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16835,7 +16835,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Triathlete Maria (Hard)": {
+        "Triathlete Maria | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16865,7 +16865,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Bird Keeper Jared (Hard)": {
+        "Bird Keeper Jared | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16895,7 +16895,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Bird Keeper Edwardo (Hard)": {
+        "Bird Keeper Edwardo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16925,7 +16925,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Triathlete Kyra (Hard)": {
+        "Triathlete Kyra | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16955,7 +16955,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Triathlete Melina (Hard)": {
+        "Triathlete Melina | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16987,7 +16987,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Voltorb": {
-        "Cooltrainer Vito (Hard)": {
+        "Cooltrainer Vito | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17017,7 +17017,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Kirk (Hard)": {
+        "Guitarist Kirk | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17046,7 +17046,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Shawn (Hard)": {
+        "Guitarist Shawn | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17076,7 +17076,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Triathlete Jacob (Hard)": {
+        "Triathlete Jacob | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17106,7 +17106,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Triathlete Jasmine (Hard)": {
+        "Triathlete Jasmine | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17136,7 +17136,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Joseph (Hard)": {
+        "Guitarist Joseph | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17166,7 +17166,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Guitarist Marcos (Hard)": {
+        "Guitarist Marcos | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17196,7 +17196,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid (Hard)": {
+        "Pkmn Trainer 1 Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17228,7 +17228,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Geodude": {
-        "Cooltrainer Owen (Hard)": {
+        "Cooltrainer Owen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17258,7 +17258,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Cooltrainer Warren (Hard)": {
+        "Cooltrainer Warren | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17288,7 +17288,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Youngster Josh (Hard)": {
+        "Youngster Josh | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17315,7 +17315,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Youngster Tommy (Hard)": {
+        "Youngster Tommy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17345,7 +17345,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Marc (Hard)": {
+        "Hiker Marc | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17375,7 +17375,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Trent (Hard)": {
+        "Hiker Trent | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17405,7 +17405,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Lenny (Hard)": {
+        "Hiker Lenny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17435,7 +17435,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Lucas (Hard)": {
+        "Hiker Lucas | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17465,7 +17465,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Alan (Hard)": {
+        "Hiker Alan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17495,7 +17495,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Clark (Hard)": {
+        "Hiker Clark | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17525,7 +17525,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Eric (Hard)": {
+        "Hiker Eric | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17555,7 +17555,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Sr And Jr Tyra & Ivy (Hard)": {
+        "Sr And Jr Tyra & Ivy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17584,7 +17584,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Hiker Devan (Hard)": {
+        "Hiker Devan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17616,7 +17616,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Igglybuff": {
-        "Cooltrainer Alexia (Hard)": {
+        "Cooltrainer Alexia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17646,7 +17646,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cute Charm",
             "teraType": "None"
         },
-        "Leader Norman (Hard)": {
+        "Leader Norman | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17678,7 +17678,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Aron": {
-        "Cooltrainer Keira (Hard)": {
+        "Cooltrainer Keira | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17708,7 +17708,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Pokemaniac Steve (Hard)": {
+        "Pokemaniac Steve | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17738,7 +17738,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Youngster Dillon (Hard)": {
+        "Youngster Dillon | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17768,7 +17768,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Youngster Timmy (Hard)": {
+        "Youngster Timmy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17798,7 +17798,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Pkmn Breeder Isaac (Hard)": {
+        "Pkmn Breeder Isaac | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17828,7 +17828,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Pokemaniac Wyatt (Hard)": {
+        "Pokemaniac Wyatt | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17858,7 +17858,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Youngster Deandre (Hard)": {
+        "Youngster Deandre | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17890,7 +17890,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Greavard": {
-        "Cooltrainer Jennifer (Hard)": {
+        "Cooltrainer Jennifer | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17920,7 +17920,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Cooltrainer Caroline (Hard)": {
+        "Cooltrainer Caroline | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17950,7 +17950,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Hex Maniac Valerie (Hard)": {
+        "Hex Maniac Valerie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17980,7 +17980,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Cooltrainer Halle (Hard)": {
+        "Cooltrainer Halle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18010,7 +18010,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy (Hard)": {
+        "Pkmn Trainer 1 Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18042,7 +18042,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Slugma": {
-        "Cooltrainer Michelle (Hard)": {
+        "Cooltrainer Michelle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18072,7 +18072,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Jeff (Hard)": {
+        "Kindler Jeff | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18102,7 +18102,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Jace (Hard)": {
+        "Kindler Jace | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18132,7 +18132,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Keegan (Hard)": {
+        "Kindler Keegan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18162,7 +18162,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Bernie (Hard)": {
+        "Kindler Bernie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18192,7 +18192,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Leader Flannery (Hard)": {
+        "Leader Flannery | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18222,7 +18222,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drought",
             "teraType": "None"
         },
-        "Kindler Bryant (Hard)": {
+        "Kindler Bryant | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18252,7 +18252,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Magma Armor",
             "teraType": "None"
         },
-        "Kindler Dayton (Hard)": {
+        "Kindler Dayton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18284,7 +18284,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rookidee": {
-        "Cooltrainer Caroline (Hard)": {
+        "Cooltrainer Caroline | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18314,7 +18314,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Jared (Hard)": {
+        "Bird Keeper Jared | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18344,7 +18344,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Humberto (Hard)": {
+        "Bird Keeper Humberto | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18374,7 +18374,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Aidan (Hard)": {
+        "Bird Keeper Aidan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18404,7 +18404,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Coby (Hard)": {
+        "Bird Keeper Coby | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18434,7 +18434,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Bird Keeper Elijah (Hard)": {
+        "Bird Keeper Elijah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18464,7 +18464,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival Steven (Hard)": {
+        "Rival Steven | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18496,7 +18496,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Vulpix": {
-        "Cooltrainer Julie (Hard)": {
+        "Cooltrainer Julie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18528,7 +18528,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Hoppip": {
-        "Cooltrainer Julie (Hard)": {
+        "Cooltrainer Julie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18558,7 +18558,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Hugh (Hard)": {
+        "Bird Keeper Hugh | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18588,7 +18588,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Jared (Hard)": {
+        "Bird Keeper Jared | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18618,7 +18618,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Presley (Hard)": {
+        "Bird Keeper Presley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18648,7 +18648,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Beck (Hard)": {
+        "Bird Keeper Beck | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18678,7 +18678,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Pkmn Breeder Myles (Hard)": {
+        "Pkmn Breeder Myles | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18708,7 +18708,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Bird Keeper Darius (Hard)": {
+        "Bird Keeper Darius | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18740,7 +18740,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shuppet": {
-        "Hex Maniac Patricia (Hard)": {
+        "Hex Maniac Patricia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18770,7 +18770,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Hex Maniac Kindra (Hard)": {
+        "Hex Maniac Kindra | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18800,7 +18800,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Hex Maniac Tammy (Hard)": {
+        "Hex Maniac Tammy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18830,7 +18830,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Hex Maniac Tasha (Hard)": {
+        "Hex Maniac Tasha | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18860,7 +18860,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Psychic Alvaro (Hard)": {
+        "Psychic Alvaro | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18892,7 +18892,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Glimmet": {
-        "Hex Maniac Patricia (Hard)": {
+        "Hex Maniac Patricia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18922,7 +18922,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Toxic Debris",
             "teraType": "None"
         },
-        "Psychic Jacki (Hard)": {
+        "Psychic Jacki | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18952,7 +18952,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Toxic Debris",
             "teraType": "None"
         },
-        "Leader Roxanne (Hard)": {
+        "Leader Roxanne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18981,7 +18981,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Toxic Debris",
             "teraType": "None"
         },
-        "Cooltrainer Mitchell (Hard)": {
+        "Cooltrainer Mitchell | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19013,7 +19013,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Duskull": {
-        "Aqua Leader Archie |Seafloor Cavern| (Hard)": {
+        "Aqua Leader Archie |Seafloor Cavern| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19043,7 +19043,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Hex Maniac Kindra (Hard)": {
+        "Hex Maniac Kindra | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19073,7 +19073,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Hex Maniac Tammy (Hard)": {
+        "Hex Maniac Tammy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19105,7 +19105,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Goldeen": {
-        "Lady Brianna (Hard)": {
+        "Lady Brianna | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19135,7 +19135,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Beauty Connie (Hard)": {
+        "Beauty Connie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19165,7 +19165,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Claude (Hard)": {
+        "Fisherman Claude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19195,7 +19195,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Denise (Hard)": {
+        "Swimmer F Denise | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19225,7 +19225,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Beth (Hard)": {
+        "Swimmer F Beth | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19255,7 +19255,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Missy (Hard)": {
+        "Swimmer F Missy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19285,7 +19285,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Alice (Hard)": {
+        "Swimmer F Alice | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19315,7 +19315,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Sharon (Hard)": {
+        "Swimmer F Sharon | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19345,7 +19345,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Brenda (Hard)": {
+        "Swimmer F Brenda | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19375,7 +19375,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Katie (Hard)": {
+        "Swimmer F Katie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19405,7 +19405,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Kara (Hard)": {
+        "Swimmer F Kara | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19435,7 +19435,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Debra (Hard)": {
+        "Swimmer F Debra | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19465,7 +19465,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Carlee (Hard)": {
+        "Swimmer F Carlee | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19495,7 +19495,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Breeder Lydia (Hard)": {
+        "Pkmn Breeder Lydia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19525,7 +19525,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Lass Crissy (Hard)": {
+        "Lass Crissy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19555,7 +19555,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Beauty Johanna (Hard)": {
+        "Beauty Johanna | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19585,7 +19585,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Sis And Bro Lisa & Ray (Hard)": {
+        "Sis And Bro Lisa & Ray | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19615,7 +19615,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Parasol Lady Rachel (Hard)": {
+        "Parasol Lady Rachel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19647,7 +19647,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Helioptile": {
-        "Beauty Jessica (Hard)": {
+        "Beauty Jessica | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19677,7 +19677,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Camper Justin (Hard)": {
+        "Camper Justin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19707,7 +19707,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Parasol Lady Kayley (Hard)": {
+        "Parasol Lady Kayley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19737,7 +19737,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Cooltrainer Jonathan (Hard)": {
+        "Cooltrainer Jonathan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19767,7 +19767,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Dry Skin",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19797,7 +19797,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Solar Power",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19827,7 +19827,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Solar Power",
             "teraType": "None"
         },
-        "Cooltrainer Gerald (Hard)": {
+        "Cooltrainer Gerald | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19858,7 +19858,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ekans": {
-        "Beauty Jessica (Hard)": {
+        "Beauty Jessica | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19888,7 +19888,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Collector Hector (Hard)": {
+        "Collector Hector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19918,7 +19918,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy (Hard)": {
+        "Pkmn Trainer 1 Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19950,7 +19950,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Clamperl": {
-        "Beauty Olivia (Hard)": {
+        "Beauty Olivia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19979,7 +19979,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shell Armor",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Smasher (Hard)": {
+        "Pkmn Trainer 1 Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20011,7 +20011,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Corphish": {
-        "Beauty Olivia (Hard)": {
+        "Beauty Olivia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20040,7 +20040,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Swimmer F Sienna (Hard)": {
+        "Swimmer F Sienna | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20072,7 +20072,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Barboach": {
-        "Expert Mollie (Hard)": {
+        "Expert Mollie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20102,7 +20102,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Fisherman Claude (Hard)": {
+        "Fisherman Claude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20132,7 +20132,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Fisherman Nolan (Hard)": {
+        "Fisherman Nolan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20162,7 +20162,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Fisherman Kai (Hard)": {
+        "Fisherman Kai | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20194,7 +20194,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Horsea": {
-        "Beauty Thalia (Hard)": {
+        "Beauty Thalia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20224,7 +20224,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer M Stan (Hard)": {
+        "Swimmer M Stan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20254,7 +20254,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Leader Juan (Hard)": {
+        "Leader Juan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20284,7 +20284,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Tara (Hard)": {
+        "Swimmer F Tara | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20314,7 +20314,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Swimmer F Linda (Hard)": {
+        "Swimmer F Linda | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20344,7 +20344,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Critter (Hard)": {
+        "Pkmn Trainer 1 Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20376,7 +20376,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rhyhorn": {
-        "Pokemaniac Mark (Hard)": {
+        "Pokemaniac Mark | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20406,7 +20406,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Lightning Rod",
             "teraType": "None"
         },
-        "Hiker Marc (Hard)": {
+        "Hiker Marc | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20438,7 +20438,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tentacool": {
-        "Swimmer M Dominik (Hard)": {
+        "Swimmer M Dominik | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20468,7 +20468,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Douglas (Hard)": {
+        "Swimmer M Douglas | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20498,7 +20498,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Darrin (Hard)": {
+        "Swimmer M Darrin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20528,7 +20528,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Jerome (Hard)": {
+        "Swimmer M Jerome | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20558,7 +20558,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M David (Hard)": {
+        "Swimmer M David | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20588,7 +20588,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Spencer (Hard)": {
+        "Swimmer M Spencer | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20618,7 +20618,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Nolen (Hard)": {
+        "Swimmer M Nolen | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20648,7 +20648,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Herman (Hard)": {
+        "Swimmer M Herman | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20678,7 +20678,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Santiago (Hard)": {
+        "Swimmer M Santiago | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20708,7 +20708,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Dudley (Hard)": {
+        "Swimmer M Dudley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20738,7 +20738,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Chad (Hard)": {
+        "Swimmer M Chad | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20768,7 +20768,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Andrew (Hard)": {
+        "Fisherman Andrew | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20798,7 +20798,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Elliot (Hard)": {
+        "Fisherman Elliot | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20828,7 +20828,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Ned (Hard)": {
+        "Fisherman Ned | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20858,7 +20858,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Dale (Hard)": {
+        "Fisherman Dale | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20888,7 +20888,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Barny (Hard)": {
+        "Fisherman Barny | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20918,7 +20918,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Wade (Hard)": {
+        "Fisherman Wade | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20948,7 +20948,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Carter (Hard)": {
+        "Fisherman Carter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20978,7 +20978,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Sailor Dwayne (Hard)": {
+        "Sailor Dwayne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21008,7 +21008,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Sailor Phillip (Hard)": {
+        "Sailor Phillip | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21038,7 +21038,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Harrison (Hard)": {
+        "Swimmer M Harrison | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21068,7 +21068,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Jonah (Hard)": {
+        "Fisherman Jonah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21098,7 +21098,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Henry (Hard)": {
+        "Fisherman Henry | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21128,7 +21128,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Wayne (Hard)": {
+        "Fisherman Wayne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21158,7 +21158,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Sis And Bro Lisa & Ray (Hard)": {
+        "Sis And Bro Lisa & Ray | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21188,7 +21188,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Fisherman Chris (Hard)": {
+        "Fisherman Chris | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21218,7 +21218,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Tuber M Chandler (Hard)": {
+        "Tuber M Chandler | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21248,7 +21248,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Swimmer M Pete (Hard)": {
+        "Swimmer M Pete | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21278,7 +21278,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Sailor Cory (Hard)": {
+        "Sailor Cory | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21310,7 +21310,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mareanie": {
-        "Swimmer M Douglas (Hard)": {
+        "Swimmer M Douglas | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21340,7 +21340,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Swimmer M Darrin (Hard)": {
+        "Swimmer M Darrin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21370,7 +21370,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Swimmer M Dudley (Hard)": {
+        "Swimmer M Dudley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21400,7 +21400,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Leader Juan (Hard)": {
+        "Leader Juan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21430,7 +21430,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Protector (Hard)": {
+        "Pkmn Trainer 1 Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21462,7 +21462,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Froakie": {
-        "Swimmer M Dean (Hard)": {
+        "Swimmer M Dean | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21494,7 +21494,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Toedscool": {
-        "Champion Wallace (Hard)": {
+        "Champion Wallace | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21526,7 +21526,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Spheal": {
-        "Swimmer M Franklin (Hard)": {
+        "Swimmer M Franklin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21556,7 +21556,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer M Kevin (Hard)": {
+        "Swimmer M Kevin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21586,7 +21586,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Nikki (Hard)": {
+        "Swimmer F Nikki | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21616,7 +21616,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer F Katie (Hard)": {
+        "Swimmer F Katie | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21646,7 +21646,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Sailor Duncan (Hard)": {
+        "Sailor Duncan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21676,7 +21676,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Sailor Kelvin (Hard)": {
+        "Sailor Kelvin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21706,7 +21706,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Swimmer M Reed (Hard)": {
+        "Swimmer M Reed | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21738,7 +21738,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mankey": {
-        "Black Belt Hitoshi (Hard)": {
+        "Black Belt Hitoshi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21770,7 +21770,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ponyta": {
-        "Kindler Jeff (Hard)": {
+        "Kindler Jeff | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21800,7 +21800,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Squirtle| (Hard)": {
+        "Rival May |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21830,7 +21830,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Scorbunny| (Hard)": {
+        "Rival May |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21860,7 +21860,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21890,7 +21890,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21920,7 +21920,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Scorbunny| (Hard)": {
+        "Rival May |Rustboro| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21950,7 +21950,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21980,7 +21980,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22010,7 +22010,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22040,7 +22040,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22072,7 +22072,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Surskit": {
-        "Bug Maniac Brent (Hard)": {
+        "Bug Maniac Brent | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22102,7 +22102,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Bug Maniac Jeffrey (Hard)": {
+        "Bug Maniac Jeffrey | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22132,7 +22132,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat (Hard)": {
+        "Pkmn Trainer 1 Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22164,7 +22164,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wurmple": {
-        "Bug Maniac Donald (Hard)": {
+        "Bug Maniac Donald | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22194,7 +22194,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Maniac Taylor (Hard)": {
+        "Bug Maniac Taylor | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22224,7 +22224,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Twins Miu & Yuki (Hard)": {
+        "Twins Miu & Yuki | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22254,7 +22254,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Catcher Rick (Hard)": {
+        "Bug Catcher Rick | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22284,7 +22284,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Catcher Lyle (Hard)": {
+        "Bug Catcher Lyle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22314,7 +22314,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Catcher Jose (Hard)": {
+        "Bug Catcher Jose | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22344,7 +22344,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Young Couple Mel & Paul (Hard)": {
+        "Young Couple Mel & Paul | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22373,7 +22373,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shield Dust",
             "teraType": "None"
         },
-        "Bug Maniac Cale (Hard)": {
+        "Bug Maniac Cale | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22405,7 +22405,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Caterpie": {
-        "Bug Maniac Donald (Hard)": {
+        "Bug Maniac Donald | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22437,7 +22437,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Weedle": {
-        "Bug Maniac Donald (Hard)": {
+        "Bug Maniac Donald | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22469,7 +22469,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Scatterbug": {
-        "Bug Maniac Taylor (Hard)": {
+        "Bug Maniac Taylor | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22501,7 +22501,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tarountula": {
-        "Bug Maniac Taylor (Hard)": {
+        "Bug Maniac Taylor | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22531,7 +22531,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Protector (Hard)": {
+        "Pkmn Trainer 1 Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22563,7 +22563,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Dewpider": {
-        "Bug Maniac Jeffrey (Hard)": {
+        "Bug Maniac Jeffrey | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22595,7 +22595,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snom": {
-        "Bug Maniac Jeffrey (Hard)": {
+        "Bug Maniac Jeffrey | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22627,7 +22627,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wurmple Poison": {
-        "Bug Maniac Derek (Hard)": {
+        "Bug Maniac Derek | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22659,7 +22659,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Nincada": {
-        "Bug Maniac Derek (Hard)": {
+        "Bug Maniac Derek | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22689,7 +22689,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Bug Catcher Jose (Hard)": {
+        "Bug Catcher Jose | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22719,7 +22719,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Bug Catcher Doug (Hard)": {
+        "Bug Catcher Doug | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22749,7 +22749,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Bug Catcher James (Hard)": {
+        "Bug Catcher James | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22779,7 +22779,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Ninja Boy Riley (Hard)": {
+        "Ninja Boy Riley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22810,7 +22810,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ralts-Fighting": {
-        "Rival Wally |Victory Road| (Hard)": {
+        "Rival Wally |Victory Road| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22842,7 +22842,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ralts": {
-        "Psychic Preston (Hard)": {
+        "Psychic Preston | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22872,7 +22872,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic Virgil (Hard)": {
+        "Psychic Virgil | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22902,7 +22902,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic William (Hard)": {
+        "Psychic William | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22932,7 +22932,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic Hannah (Hard)": {
+        "Psychic Hannah | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22962,7 +22962,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic Alexis (Hard)": {
+        "Psychic Alexis | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22992,7 +22992,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "School Kid Jerry (Hard)": {
+        "School Kid Jerry | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23022,7 +23022,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "School Kid Ted (Hard)": {
+        "School Kid Ted | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23052,7 +23052,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Rival Wally |Mauville| (Hard)": {
+        "Rival Wally |Mauville| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23082,7 +23082,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Synchronize",
             "teraType": "None"
         },
-        "Psychic Alix (Hard)": {
+        "Psychic Alix | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23112,7 +23112,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Psychic Brandi (Hard)": {
+        "Psychic Brandi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23144,7 +23144,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Girafarig": {
-        "Psychic Blake (Hard)": {
+        "Psychic Blake | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23174,7 +23174,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 1| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 1| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23204,7 +23204,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sap Sipper",
             "teraType": "None"
         },
-        "Psychic Terry (Hard)": {
+        "Psychic Terry | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23234,7 +23234,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Gentleman Clifford (Hard)": {
+        "Gentleman Clifford | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23264,7 +23264,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cud Chew",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 2| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23296,7 +23296,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ponyta-Galar": {
-        "Psychic William (Hard)": {
+        "Psychic William | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23326,7 +23326,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Run Away",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Squirtle| (Hard)": {
+        "Rival May |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23356,7 +23356,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pastel Veil",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Hard)": {
+        "Rival May |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23386,7 +23386,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pastel Veil",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Hard)": {
+        "Rival May |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23418,7 +23418,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rolycoly": {
-        "Psychic Joshua (Hard)": {
+        "Psychic Joshua | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23448,7 +23448,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steam Engine",
             "teraType": "None"
         },
-        "Psychic Cameron (Hard)": {
+        "Psychic Cameron | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23478,7 +23478,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steam Engine",
             "teraType": "None"
         },
-        "Leader Flannery (Hard)": {
+        "Leader Flannery | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23508,7 +23508,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steam Engine",
             "teraType": "None"
         },
-        "Cooltrainer Mitchell (Hard)": {
+        "Cooltrainer Mitchell | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23540,7 +23540,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wynaut": {
-        "Psychic Kayla (Hard)": {
+        "Psychic Kayla | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23570,7 +23570,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Psychic Cedric (Hard)": {
+        "Psychic Cedric | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23599,7 +23599,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Psychic Nicholas (Hard)": {
+        "Psychic Nicholas | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23629,7 +23629,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Gentleman Everett (Hard)": {
+        "Gentleman Everett | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23659,7 +23659,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat (Hard)": {
+        "Pkmn Trainer 1 Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23691,7 +23691,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Impidimp": {
-        "Elite Four Sidney (Hard)": {
+        "Elite Four Sidney | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23723,7 +23723,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tyrunt": {
-        "Elite Four Sidney (Hard)": {
+        "Elite Four Sidney | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23755,7 +23755,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Zorua": {
-        "Elite Four Sidney (Hard)": {
+        "Elite Four Sidney | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23785,7 +23785,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illusion",
             "teraType": "None"
         },
-        "Cooltrainer 2 Jazmyn (Hard)": {
+        "Cooltrainer 2 Jazmyn | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23815,7 +23815,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illusion",
             "teraType": "None"
         },
-        "Cooltrainer Halle (Hard)": {
+        "Cooltrainer Halle | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23847,7 +23847,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Murkrow": {
-        "Elite Four Sidney (Hard)": {
+        "Elite Four Sidney | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23879,7 +23879,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Qwilfish-Hisui": {
-        "Elite Four Sidney (Hard)": {
+        "Elite Four Sidney | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23911,7 +23911,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bonsly": {
-        "Elite Four Sidney (Hard)": {
+        "Elite Four Sidney | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23943,7 +23943,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Honedge": {
-        "Elite Four Phoebe (Hard)": {
+        "Elite Four Phoebe | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23973,7 +23973,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "No Guard",
             "teraType": "None"
         },
-        "Cooltrainer Quincy (Hard)": {
+        "Cooltrainer Quincy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24003,7 +24003,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "No Guard",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat (Hard)": {
+        "Pkmn Trainer 1 Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24035,7 +24035,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Dreepy": {
-        "Elite Four Phoebe (Hard)": {
+        "Elite Four Phoebe | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24067,7 +24067,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Charcadet-Ghost": {
-        "Elite Four Phoebe (Hard)": {
+        "Elite Four Phoebe | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24099,7 +24099,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Corsola-Galar": {
-        "Elite Four Phoebe (Hard)": {
+        "Elite Four Phoebe | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24131,7 +24131,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Misdreavus": {
-        "Elite Four Phoebe (Hard)": {
+        "Elite Four Phoebe | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24163,7 +24163,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Munchlax": {
-        "Elite Four Phoebe (Hard)": {
+        "Elite Four Phoebe | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24193,7 +24193,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella (Hard)": {
+        "Pkmn Trainer 1 Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24225,7 +24225,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Vulpix-Alola": {
-        "Elite Four Glacia (Hard)": {
+        "Elite Four Glacia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24257,7 +24257,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snorunt": {
-        "Elite Four Glacia (Hard)": {
+        "Elite Four Glacia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24287,7 +24287,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Moody",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid (Hard)": {
+        "Pkmn Trainer 1 Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24319,7 +24319,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cetoddle": {
-        "Elite Four Glacia (Hard)": {
+        "Elite Four Glacia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24351,7 +24351,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sneasel": {
-        "Elite Four Glacia (Hard)": {
+        "Elite Four Glacia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24383,7 +24383,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Smoochum": {
-        "Elite Four Glacia (Hard)": {
+        "Elite Four Glacia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24415,7 +24415,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Exeggcute-Dragon": {
-        "Elite Four Drake (Hard)": {
+        "Elite Four Drake | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24447,7 +24447,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Totodile": {
-        "Elite Four Drake (Hard)": {
+        "Elite Four Drake | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24477,7 +24477,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sheer Force",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella (Hard)": {
+        "Pkmn Trainer 1 Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24509,7 +24509,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Goomy": {
-        "Elite Four Drake (Hard)": {
+        "Elite Four Drake | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24541,7 +24541,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Poipole": {
-        "Elite Four Drake (Hard)": {
+        "Elite Four Drake | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24573,7 +24573,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Duraludon": {
-        "Elite Four Drake (Hard)": {
+        "Elite Four Drake | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24603,7 +24603,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Stamina",
             "teraType": "None"
         },
-        "Rival Steven (Hard)": {
+        "Rival Steven | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24633,7 +24633,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Heavy Metal",
             "teraType": "None"
         },
-        "Rival Steven |Partner| |Space Center| (Hard)": {
+        "Rival Steven |Partner| |Space Center| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24665,7 +24665,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Toxel": {
-        "Elite Four Drake (Hard)": {
+        "Elite Four Drake | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24695,7 +24695,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Pokefan Isabel (Hard)": {
+        "Pokefan Isabel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24725,7 +24725,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Twins Amy & Liv (Hard)": {
+        "Twins Amy & Liv | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24755,7 +24755,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Pokefan Kaleb (Hard)": {
+        "Pokefan Kaleb | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24785,7 +24785,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| (Hard)": {
+        "Aqua Leader Archie |Mt. Pyre| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24815,7 +24815,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Punk Rock",
             "teraType": "None"
         },
-        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| (Hard)": {
+        "Aqua Leader Archie |Mt. Pyre| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24847,7 +24847,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Roggenrola": {
-        "Leader Roxanne (Hard)": {
+        "Leader Roxanne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24878,7 +24878,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Larvitar": {
-        "Leader Roxanne (Hard)": {
+        "Leader Roxanne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24909,7 +24909,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Growlithe-Hisui": {
-        "Leader Roxanne (Hard)": {
+        "Leader Roxanne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24941,7 +24941,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Archen": {
-        "Leader Roxanne (Hard)": {
+        "Leader Roxanne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24973,7 +24973,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Nosepass": {
-        "Leader Roxanne (Hard)": {
+        "Leader Roxanne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25003,7 +25003,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Hiker Alan (Hard)": {
+        "Hiker Alan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25033,7 +25033,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sturdy",
             "teraType": "None"
         },
-        "Cooltrainer Ruben (Hard)": {
+        "Cooltrainer Ruben | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25065,7 +25065,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Croagunk": {
-        "Leader Brawly (Hard)": {
+        "Leader Brawly | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25097,7 +25097,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Stufful": {
-        "Leader Brawly (Hard)": {
+        "Leader Brawly | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25129,7 +25129,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chimchar": {
-        "Leader Brawly (Hard)": {
+        "Leader Brawly | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25161,7 +25161,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pancham": {
-        "Leader Brawly (Hard)": {
+        "Leader Brawly | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25190,7 +25190,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Scrappy",
             "teraType": "None"
         },
-        "Expert Auron (Hard)": {
+        "Expert Auron | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25222,7 +25222,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Clobbopus": {
-        "Leader Brawly (Hard)": {
+        "Leader Brawly | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25251,7 +25251,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Sailor Leonard (Hard)": {
+        "Sailor Leonard | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25283,7 +25283,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Kubfu": {
-        "Leader Brawly (Hard)": {
+        "Leader Brawly | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25315,7 +25315,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Joltik": {
-        "Leader Wattson (Hard)": {
+        "Leader Wattson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25347,7 +25347,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chinchou": {
-        "Leader Wattson (Hard)": {
+        "Leader Wattson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25377,7 +25377,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Cooltrainer Dianne (Hard)": {
+        "Cooltrainer Dianne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25405,7 +25405,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Swimmer F Kaylee (Hard)": {
+        "Swimmer F Kaylee | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25435,7 +25435,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Expert Conor (Hard)": {
+        "Expert Conor | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25465,7 +25465,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Swimmer F Tisha (Hard)": {
+        "Swimmer F Tisha | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25495,7 +25495,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Sis And Bro Lila & Roy (Hard)": {
+        "Sis And Bro Lila & Roy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25525,7 +25525,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| (Hard)": {
+        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25555,7 +25555,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| (Hard)": {
+        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25587,7 +25587,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Elekid": {
-        "Leader Wattson (Hard)": {
+        "Leader Wattson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25619,7 +25619,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Charcadet-Psychic": {
-        "Leader Flannery (Hard)": {
+        "Leader Flannery | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25651,7 +25651,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cyndaquil": {
-        "Leader Flannery (Hard)": {
+        "Leader Flannery | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25683,7 +25683,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Magby": {
-        "Leader Flannery (Hard)": {
+        "Leader Flannery | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25713,7 +25713,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Space Center| (Hard)": {
+        "Magma Leader Maxie |Space Center| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25745,7 +25745,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Zorua-Hisui": {
-        "Leader Norman (Hard)": {
+        "Leader Norman | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25777,7 +25777,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Aipom": {
-        "Leader Norman (Hard)": {
+        "Leader Norman | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25809,7 +25809,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pineco": {
-        "Pkmn Trainer 1 Boom Dude (Hard)": {
+        "Pkmn Trainer 1 Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25841,7 +25841,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Type: Null": {
-        "Leader Norman (Hard)": {
+        "Leader Norman | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25873,7 +25873,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Eevee-Starter-Fairy": {
-        "Leader Norman (Hard)": {
+        "Leader Norman | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25905,7 +25905,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Yanma": {
-        "School Kid Georgia (Hard)": {
+        "School Kid Georgia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25935,7 +25935,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Twins Miu & Yuki (Hard)": {
+        "Twins Miu & Yuki | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25965,7 +25965,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25995,7 +25995,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26025,7 +26025,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26055,7 +26055,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26085,7 +26085,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26115,7 +26115,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26145,7 +26145,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Young Couple Mel & Paul (Hard)": {
+        "Young Couple Mel & Paul | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26174,7 +26174,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Speed Boost",
             "teraType": "None"
         },
-        "Bug Maniac Cale (Hard)": {
+        "Bug Maniac Cale | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26206,7 +26206,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Swablu": {
-        "Dragon Tamer Nicolas (Hard)": {
+        "Dragon Tamer Nicolas | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26236,7 +26236,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Bird Keeper Robert (Hard)": {
+        "Bird Keeper Robert | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26266,7 +26266,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Picnicker Martha (Hard)": {
+        "Picnicker Martha | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26296,7 +26296,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Picnicker Diana (Hard)": {
+        "Picnicker Diana | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26326,7 +26326,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Rival Wally |Victory Road| (Hard)": {
+        "Rival Wally |Victory Road| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26356,7 +26356,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Pixilate",
             "teraType": "None"
         },
-        "Pkmn Ranger Sophia (Hard)": {
+        "Pkmn Ranger Sophia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26386,7 +26386,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Picnicker Ashley (Hard)": {
+        "Picnicker Ashley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26416,7 +26416,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Natural Cure",
             "teraType": "None"
         },
-        "Sr And Jr Kim & Iris (Hard)": {
+        "Sr And Jr Kim & Iris | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26447,7 +26447,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Togepi": {
-        "Leader Winona (Hard)": {
+        "Leader Winona | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26479,7 +26479,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Espurr": {
-        "Leader Tate & Liza |Team 1| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 1| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26509,7 +26509,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Prankster",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 2| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26541,7 +26541,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bronzor": {
-        "Leader Tate & Liza |Team 1| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 1| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26571,7 +26571,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Heavy Metal",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 2| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26603,7 +26603,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Slowpoke-Galar": {
-        "Leader Tate & Liza |Team 1| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 1| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26633,7 +26633,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Quick Draw",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 2| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26665,7 +26665,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mime Jr.": {
-        "Leader Tate & Liza |Team 1| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 1| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26695,7 +26695,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 1| | (2) (Hard)": {
+        "Leader Tate & Liza |Team 1| | (2) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26725,7 +26725,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (1) (Hard)": {
+        "Leader Tate & Liza |Team 2| | (1) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26755,7 +26755,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Leader Tate & Liza |Team 2| | (2) (Hard)": {
+        "Leader Tate & Liza |Team 2| | (2) | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26787,7 +26787,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mudkip": {
-        "Leader Juan (Hard)": {
+        "Leader Juan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26819,7 +26819,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wimpod": {
-        "Leader Juan (Hard)": {
+        "Leader Juan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26851,7 +26851,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Omanyte": {
-        "Leader Juan (Hard)": {
+        "Leader Juan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26883,7 +26883,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Yungoos": {
-        "Sr And Jr Kate & Joy (Hard)": {
+        "Sr And Jr Kate & Joy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26913,7 +26913,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Stakeout",
             "teraType": "None"
         },
-        "Twins Tori & Tia (Hard)": {
+        "Twins Tori & Tia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26945,7 +26945,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pichu": {
-        "Pokefan Vanessa (Hard)": {
+        "Pokefan Vanessa | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -26977,7 +26977,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ducklett": {
-        "Pokefan Bethany (Hard)": {
+        "Pokefan Bethany | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27007,7 +27007,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Squirtle| (Hard)": {
+        "Rival May |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27037,7 +27037,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Squirtle| (Hard)": {
+        "Rival May |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27067,7 +27067,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hydration",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Snivy| (Hard)": {
+        "Rival May |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27097,7 +27097,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Hard)": {
+        "Rival May |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27127,7 +27127,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hydration",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Squirtle| (Hard)": {
+        "Rival May |Rustboro| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27157,7 +27157,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Keen Eye",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27187,7 +27187,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27217,7 +27217,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27247,7 +27247,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27277,7 +27277,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27307,7 +27307,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27337,7 +27337,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27367,7 +27367,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27399,7 +27399,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Popplio": {
-        "Pokefan Bethany (Hard)": {
+        "Pokefan Bethany | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27429,7 +27429,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Champion Wallace (Hard)": {
+        "Champion Wallace | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27461,7 +27461,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pawmi": {
-        "Pokefan Isabel (Hard)": {
+        "Pokefan Isabel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27491,7 +27491,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Twins Amy & Liv (Hard)": {
+        "Twins Amy & Liv | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27521,7 +27521,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Volt Absorb",
             "teraType": "None"
         },
-        "Pokefan Kaleb (Hard)": {
+        "Pokefan Kaleb | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27553,7 +27553,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Gulpin": {
-        "Youngster Ben (Hard)": {
+        "Youngster Ben | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27582,7 +27582,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Liquid Ooze",
             "teraType": "None"
         },
-        "Ninja Boy Jaiden (Hard)": {
+        "Ninja Boy Jaiden | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27612,7 +27612,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Liquid Ooze",
             "teraType": "None"
         },
-        "Pkmn Breeder Pat (Hard)": {
+        "Pkmn Breeder Pat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27644,7 +27644,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Flittle": {
-        "Cooltrainer Katelynn (Hard)": {
+        "Cooltrainer Katelynn | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27676,7 +27676,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Basculin-White-Striped": {
-        "Beauty Tiffany (Hard)": {
+        "Beauty Tiffany | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27706,7 +27706,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Champion Wallace (Hard)": {
+        "Champion Wallace | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27738,7 +27738,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Magikarp-Monster": {
-        "Champion Wallace (Hard)": {
+        "Champion Wallace | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27770,7 +27770,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Remoraid": {
-        "Fisherman Andrew (Hard)": {
+        "Fisherman Andrew | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27800,7 +27800,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Fisherman Ivan (Hard)": {
+        "Fisherman Ivan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27830,7 +27830,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Swimmer F Alice (Hard)": {
+        "Swimmer F Alice | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27860,7 +27860,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Swimmer F Laurel (Hard)": {
+        "Swimmer F Laurel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27890,7 +27890,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hustle",
             "teraType": "None"
         },
-        "Fisherman Roger (Hard)": {
+        "Fisherman Roger | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27922,7 +27922,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Arrokuda": {
-        "Fisherman Ivan (Hard)": {
+        "Fisherman Ivan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27952,7 +27952,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Elliot (Hard)": {
+        "Fisherman Elliot | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -27984,7 +27984,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Skrelp": {
-        "Fisherman Dale (Hard)": {
+        "Fisherman Dale | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28014,7 +28014,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Poison Point",
             "teraType": "None"
         },
-        "Swimmer F Linda (Hard)": {
+        "Swimmer F Linda | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28044,7 +28044,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Poison Point",
             "teraType": "None"
         },
-        "Fisherman Wayne (Hard)": {
+        "Fisherman Wayne | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28074,7 +28074,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Poison Point",
             "teraType": "None"
         },
-        "Tuber M Chandler (Hard)": {
+        "Tuber M Chandler | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28106,7 +28106,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Voltorb-Hisui": {
-        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28136,7 +28136,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Electric Surge",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| (Hard)": {
+        "Aqua Admin Matt |Aqua Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28166,7 +28166,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Electric Surge",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| (Hard)": {
+        "Aqua Admin Matt |Mt. Pyre| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28196,7 +28196,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Electric Surge",
             "teraType": "None"
         },
-        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| (Hard)": {
+        "Aqua Admin Matt |Mt. Pyre| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28226,7 +28226,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Electric Surge",
             "teraType": "None"
         },
-        "Triathlete Jacob (Hard)": {
+        "Triathlete Jacob | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28258,7 +28258,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Yamper": {
-        "Triathlete Jasmine (Hard)": {
+        "Triathlete Jasmine | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28288,7 +28288,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Strong Jaw",
             "teraType": "None"
         },
-        "Cooltrainer Carolina (Hard)": {
+        "Cooltrainer Carolina | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28320,7 +28320,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Slowpoke": {
-        "Triathlete Camden (Hard)": {
+        "Triathlete Camden | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28350,7 +28350,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Oblivious",
             "teraType": "None"
         },
-        "Triathlete Pablo (Hard)": {
+        "Triathlete Pablo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28382,7 +28382,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bagon": {
-        "Dragon Tamer Nicolas (Hard)": {
+        "Dragon Tamer Nicolas | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28412,7 +28412,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rock Head",
             "teraType": "None"
         },
-        "Dragon Tamer Aaron (Hard)": {
+        "Dragon Tamer Aaron | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28443,7 +28443,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Scyther": {
-        "Leader Winona (Hard)": {
+        "Leader Winona | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28473,7 +28473,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Technician",
             "teraType": "None"
         },
-        "Ninja Boy Yasu (Hard)": {
+        "Ninja Boy Yasu | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28503,7 +28503,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Ninja Boy Takashi (Hard)": {
+        "Ninja Boy Takashi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28533,7 +28533,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Ninja Boy Lung (Hard)": {
+        "Ninja Boy Lung | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28563,7 +28563,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Bug Catcher Doug (Hard)": {
+        "Bug Catcher Doug | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28593,7 +28593,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Bug Catcher Kent (Hard)": {
+        "Bug Catcher Kent | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28623,7 +28623,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Ninja Boy Keigo (Hard)": {
+        "Ninja Boy Keigo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28652,7 +28652,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Ninja Boy Jaiden (Hard)": {
+        "Ninja Boy Jaiden | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28684,7 +28684,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Koffing": {
-        "Ninja Boy Takashi (Hard)": {
+        "Ninja Boy Takashi | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28714,7 +28714,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Lao (Hard)": {
+        "Ninja Boy Lao | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28743,7 +28743,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Lung (Hard)": {
+        "Ninja Boy Lung | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28773,7 +28773,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Jonas (Hard)": {
+        "Ninja Boy Jonas | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28802,7 +28802,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Hideo (Hard)": {
+        "Ninja Boy Hideo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28831,7 +28831,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Keigo (Hard)": {
+        "Ninja Boy Keigo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28860,7 +28860,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Ninja Boy Riley (Hard)": {
+        "Ninja Boy Riley | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28891,7 +28891,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shroodle": {
-        "Ninja Boy Lao (Hard)": {
+        "Ninja Boy Lao | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28923,7 +28923,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Grimer-Alola": {
-        "Pkmn Trainer 1 Slow Fella (Hard)": {
+        "Pkmn Trainer 1 Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28953,7 +28953,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Poison Touch",
             "sub_index": 2
         },
-        "Ninja Boy Lao (Hard)": {
+        "Ninja Boy Lao | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28985,7 +28985,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Morelull": {
-        "Battle Girl Paula (Hard)": {
+        "Battle Girl Paula | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29015,7 +29015,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Pkmn Ranger Jackson (Hard)": {
+        "Pkmn Ranger Jackson | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29045,7 +29045,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Illuminate",
             "teraType": "None"
         },
-        "Expert Paxton (Hard)": {
+        "Expert Paxton | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29077,7 +29077,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Feebas": {
-        "Pokefan Annika (Hard)": {
+        "Pokefan Annika | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29106,7 +29106,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Roger (Hard)": {
+        "Fisherman Roger | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29136,7 +29136,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Fisherman Chris (Hard)": {
+        "Fisherman Chris | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29168,7 +29168,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Grookey": {
-        "Magma Admin Courtney |Space Center| (Hard)": {
+        "Magma Admin Courtney |Space Center| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29200,7 +29200,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Bounsweet": {
-        "Magma Admin Courtney |Space Center| (Hard)": {
+        "Magma Admin Courtney |Space Center| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29232,7 +29232,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Tangela": {
-        "Magma Admin Courtney |Space Center| (Hard)": {
+        "Magma Admin Courtney |Space Center| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29262,7 +29262,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Magma Admin Courtney |Mt. Chimney| (Hard)": {
+        "Magma Admin Courtney |Mt. Chimney| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29294,7 +29294,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Fletchling": {
-        "Rival Wally |Victory Road| (Hard)": {
+        "Rival Wally |Victory Road| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29324,7 +29324,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Gale Wings",
             "teraType": "None"
         },
-        "Rival Wally |Mauville| (Hard)": {
+        "Rival Wally |Mauville| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29354,7 +29354,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid (Hard)": {
+        "Pkmn Trainer 1 Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29386,7 +29386,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snivy": {
-        "Rival Brendan |Route 103| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 103| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29414,7 +29414,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29444,7 +29444,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29471,7 +29471,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Rival May |Route 103| |Squirtle| (Hard)": {
+        "Rival May |Route 103| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29499,7 +29499,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Squirtle| (Hard)": {
+        "Rival May |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29529,7 +29529,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Squirtle| (Hard)": {
+        "Rival May |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29556,7 +29556,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Contrary",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Squirtle| (Hard)": {
+        "Rival Brendan |Rustboro| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29586,7 +29586,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Squirtle| (Hard)": {
+        "Rival May |Rustboro| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29616,7 +29616,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29646,7 +29646,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29676,7 +29676,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29706,7 +29706,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29736,7 +29736,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29766,7 +29766,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29796,7 +29796,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29826,7 +29826,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Overgrow",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29858,7 +29858,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Litleo": {
-        "Rival Brendan |Route 110| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29888,7 +29888,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29918,7 +29918,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Moxie",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29948,7 +29948,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29978,7 +29978,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Moxie",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Scorbunny| (Hard)": {
+        "Rival Brendan |Rustboro| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30008,7 +30008,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rivalry",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Mt. Chimney| (Hard)": {
+        "Magma Leader Maxie |Mt. Chimney| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30038,7 +30038,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30068,7 +30068,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30098,7 +30098,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30128,7 +30128,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30158,7 +30158,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30188,7 +30188,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30218,7 +30218,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30248,7 +30248,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unnerve",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30280,7 +30280,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Anorith": {
-        "Rival Brendan |Route 110| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30310,7 +30310,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30340,7 +30340,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Snivy| (Hard)": {
+        "Rival Brendan |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30370,7 +30370,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Hard)": {
+        "Rival Brendan |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30400,7 +30400,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30430,7 +30430,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30460,7 +30460,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30490,7 +30490,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30520,7 +30520,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30550,7 +30550,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30580,7 +30580,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30610,7 +30610,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Battle Armor",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30642,7 +30642,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wooper": {
-        "Rival Brendan |Route 110| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30672,7 +30672,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Snivy| (Hard)": {
+        "Rival Brendan |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30702,7 +30702,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Squirtle| (Hard)": {
+        "Rival Brendan |Rustboro| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30732,7 +30732,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Damp",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30762,7 +30762,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30792,7 +30792,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30822,7 +30822,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Unaware",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30854,7 +30854,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Farfetch\u00e2\u20ac\u2122d-Galar": {
-        "Pkmn Trainer 1 Critter (Hard)": {
+        "Pkmn Trainer 1 Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30884,7 +30884,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Scrappy",
             "sub_index": 2
         },
-        "Rival Brendan |Route 110| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30914,7 +30914,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Snivy| (Hard)": {
+        "Rival Brendan |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30944,7 +30944,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30974,7 +30974,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Squirtle| (Hard)": {
+        "Rival May |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31004,7 +31004,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Snivy| (Hard)": {
+        "Rival May |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31034,7 +31034,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Steadfast",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Scorbunny| (Hard)": {
+        "Rival May |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31066,7 +31066,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wooper-Paldea": {
-        "Rival Brendan |Route 119| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31096,7 +31096,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Hard)": {
+        "Rival Brendan |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31126,7 +31126,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Absorb",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31158,7 +31158,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Frillish": {
-        "Rival Brendan |Route 119| |Squirtle| (Hard)": {
+        "Rival Brendan |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31188,7 +31188,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Hard)": {
+        "Rival Brendan |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31218,7 +31218,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31248,7 +31248,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31278,7 +31278,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31308,7 +31308,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Cursed Body",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31340,7 +31340,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Scorbunny": {
-        "Rival Brendan |Route 103| |Snivy| (Hard)": {
+        "Rival Brendan |Route 103| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31368,7 +31368,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Snivy| (Hard)": {
+        "Rival Brendan |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31398,7 +31398,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Snivy| (Hard)": {
+        "Rival Brendan |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31428,7 +31428,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Route 103| |Snivy| (Hard)": {
+        "Rival May |Route 103| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31456,7 +31456,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Snivy| (Hard)": {
+        "Rival May |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31486,7 +31486,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Hard)": {
+        "Rival May |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31516,7 +31516,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Snivy| (Hard)": {
+        "Rival Brendan |Rustboro| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31546,7 +31546,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31576,7 +31576,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31606,7 +31606,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31636,7 +31636,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31666,7 +31666,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Snivy| (Hard)": {
+        "Rival May |Rustboro| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31696,7 +31696,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Blaze",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31726,7 +31726,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31756,7 +31756,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31786,7 +31786,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Libero",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31818,7 +31818,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Squirtle": {
-        "Rival Brendan |Route 103| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 103| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31846,7 +31846,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Route 110| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31876,7 +31876,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Route 119| |Scorbunny| (Hard)": {
+        "Rival Brendan |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31906,7 +31906,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Rival May |Route 103| |Scorbunny| (Hard)": {
+        "Rival May |Route 103| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31934,7 +31934,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Scorbunny| (Hard)": {
+        "Rival May |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31964,7 +31964,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Hard)": {
+        "Rival May |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31994,7 +31994,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mega Launcher",
             "teraType": "None"
         },
-        "Rival Brendan |Rustboro| |Scorbunny| (Hard)": {
+        "Rival Brendan |Rustboro| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32024,7 +32024,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32054,7 +32054,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32084,7 +32084,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32114,7 +32114,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32144,7 +32144,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Scorbunny| (Hard)": {
+        "Rival May |Rustboro| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32174,7 +32174,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32204,7 +32204,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rain Dish",
             "teraType": "None"
         },
-        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32234,7 +32234,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rain Dish",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32264,7 +32264,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Rain Dish",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32296,7 +32296,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Amaura": {
-        "Rival May |Route 110| |Squirtle| (Hard)": {
+        "Rival May |Route 110| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32326,7 +32326,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Squirtle| (Hard)": {
+        "Rival May |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32356,7 +32356,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Snivy| (Hard)": {
+        "Rival May |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32386,7 +32386,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Hard)": {
+        "Rival May |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32416,7 +32416,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Scorbunny| (Hard)": {
+        "Rival May |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32446,7 +32446,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Hard)": {
+        "Rival May |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32476,7 +32476,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Refrigerate",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32506,7 +32506,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32536,7 +32536,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32566,7 +32566,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32596,7 +32596,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32626,7 +32626,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32656,7 +32656,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Boom Dude (Hard)": {
+        "Pkmn Trainer 1 Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32688,7 +32688,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Litwick": {
-        "Rival May |Route 119| |Squirtle| (Hard)": {
+        "Rival May |Route 119| |Squirtle| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32718,7 +32718,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Hard)": {
+        "Rival May |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32748,7 +32748,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flame Body",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32778,7 +32778,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32808,7 +32808,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32838,7 +32838,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flash Fire",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32870,7 +32870,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cherubi": {
-        "Rival May |Route 110| |Snivy| (Hard)": {
+        "Rival May |Route 110| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32900,7 +32900,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Snivy| (Hard)": {
+        "Rival May |Route 119| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32930,7 +32930,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Route 110| |Scorbunny| (Hard)": {
+        "Rival May |Route 110| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32960,7 +32960,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Route 119| |Scorbunny| (Hard)": {
+        "Rival May |Route 119| |Scorbunny| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32990,7 +32990,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33020,7 +33020,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33050,7 +33050,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33080,7 +33080,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival May |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33110,7 +33110,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Flower Gift",
             "teraType": "None"
         },
-        "Rival May |Rustboro| |Snivy| (Hard)": {
+        "Rival May |Rustboro| |Snivy| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33140,7 +33140,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33170,7 +33170,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33200,7 +33200,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33230,7 +33230,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival May |Partner| |Mt. Pyre| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33262,7 +33262,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rellor": {
-        "Bug Catcher Davis (Hard)": {
+        "Bug Catcher Davis | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33292,7 +33292,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella (Hard)": {
+        "Pkmn Trainer 1 Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33324,7 +33324,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Paras": {
-        "Pkmn Ranger Lorenzo (Hard)": {
+        "Pkmn Ranger Lorenzo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33356,7 +33356,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Capsakid": {
-        "Pkmn Ranger Jenna (Hard)": {
+        "Pkmn Ranger Jenna | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33386,7 +33386,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33416,7 +33416,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Chlorophyll",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33448,7 +33448,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Zubat": {
-        "Team Magma Grunt 2 (Hard)": {
+        "Team Magma Grunt 2 | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33480,7 +33480,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Smoliv": {
-        "Magma Admin Courtney |Mt. Chimney| (Hard)": {
+        "Magma Admin Courtney |Mt. Chimney| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33512,7 +33512,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chikorita": {
-        "Magma Admin Courtney |Mt. Chimney| (Hard)": {
+        "Magma Admin Courtney |Mt. Chimney| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33544,7 +33544,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Skiddo": {
-        "Magma Admin Courtney |Mt. Chimney| (Hard)": {
+        "Magma Admin Courtney |Mt. Chimney| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33576,7 +33576,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Charmander": {
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33606,7 +33606,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drought",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33636,7 +33636,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Drought",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Space Center| (Hard)": {
+        "Magma Leader Maxie |Space Center| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33668,7 +33668,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Yamask": {
-        "Magma Leader Maxie |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33698,7 +33698,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mummy",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Leader Maxie |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33728,7 +33728,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Mummy",
             "teraType": "None"
         },
-        "Magma Leader Maxie |Mt. Chimney| (Hard)": {
+        "Magma Leader Maxie |Mt. Chimney| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33760,7 +33760,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Blitzle": {
-        "Magma Leader Maxie |Mt. Chimney| (Hard)": {
+        "Magma Leader Maxie |Mt. Chimney| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33792,7 +33792,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Grubbin": {
-        "Bug Catcher Greg (Hard)": {
+        "Bug Catcher Greg | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33822,7 +33822,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Young Couple Kira & Dan (Hard)": {
+        "Young Couple Kira & Dan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33852,7 +33852,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swarm",
             "teraType": "None"
         },
-        "Bug Maniac Angelo (Hard)": {
+        "Bug Maniac Angelo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33884,7 +33884,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cutiefly": {
-        "Bug Catcher Greg (Hard)": {
+        "Bug Catcher Greg | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33914,7 +33914,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Honey Gather",
             "teraType": "None"
         },
-        "Young Couple Kira & Dan (Hard)": {
+        "Young Couple Kira & Dan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33944,7 +33944,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Honey Gather",
             "teraType": "None"
         },
-        "Bug Maniac Angelo (Hard)": {
+        "Bug Maniac Angelo | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33976,7 +33976,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Skwovet": {
-        "Twins Tori & Tia (Hard)": {
+        "Twins Tori & Tia | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34008,7 +34008,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shieldon": {
-        "Pokemaniac Wyatt (Hard)": {
+        "Pokemaniac Wyatt | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34040,7 +34040,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Silicobra": {
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34070,7 +34070,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Spit",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34102,7 +34102,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Drilbur": {
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34132,7 +34132,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34164,7 +34164,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Gligar": {
-        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34194,7 +34194,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34224,7 +34224,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34254,7 +34254,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Squirtle| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34284,7 +34284,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Snivy| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34314,7 +34314,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| (Hard)": {
+        "Rival Brendan |Lilycove| |Scorbunny| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34344,7 +34344,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Hyper Cutter",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Post-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34374,7 +34374,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Poison Heal",
             "teraType": "None"
         },
-        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| (Hard)": {
+        "Magma Admin Tabitha |Magma Hideout| |Pre-Winona| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34406,7 +34406,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mudbray": {
-        "Ruin Maniac Andres (Hard)": {
+        "Ruin Maniac Andres | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34436,7 +34436,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Own Tempo",
             "teraType": "None"
         },
-        "Ruin Maniac Bryan (Hard)": {
+        "Ruin Maniac Bryan | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34468,7 +34468,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Starly": {
-        "Triathlete Kyra (Hard)": {
+        "Triathlete Kyra | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34500,7 +34500,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rockruff": {
-        "Cooltrainer Cristin (Hard)": {
+        "Cooltrainer Cristin | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34532,7 +34532,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Lileep": {
-        "Rival Steven (Hard)": {
+        "Rival Steven | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34564,7 +34564,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Beldum": {
-        "Rival Steven (Hard)": {
+        "Rival Steven | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34594,7 +34594,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Tough Claws",
             "teraType": "None"
         },
-        "Salon Maiden Anabel (Hard)": {
+        "Salon Maiden Anabel | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34624,7 +34624,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Dome Ace Tucker (Hard)": {
+        "Dome Ace Tucker | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34654,7 +34654,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Palace Maven Spenser (Hard)": {
+        "Palace Maven Spenser | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34684,7 +34684,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Arena Tycoon Greta (Hard)": {
+        "Arena Tycoon Greta | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34714,7 +34714,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Factory Head Noland (Hard)": {
+        "Factory Head Noland | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34744,7 +34744,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Pike Queen Lucy (Hard)": {
+        "Pike Queen Lucy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34774,7 +34774,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Pyramid King Brandon (Hard)": {
+        "Pyramid King Brandon | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34804,7 +34804,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Clear Body",
             "teraType": "None"
         },
-        "Rival Steven |Partner| |Space Center| (Hard)": {
+        "Rival Steven |Partner| |Space Center| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34836,7 +34836,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Riolu": {
-        "Rival Steven (Hard)": {
+        "Rival Steven | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34868,7 +34868,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wiglett": {
-        "Aqua Leader Archie |Oceanic Museum| (Hard)": {
+        "Aqua Leader Archie |Oceanic Museum| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34900,7 +34900,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Kricketot": {
-        "Aqua Leader Archie |Oceanic Museum| (Hard)": {
+        "Aqua Leader Archie |Oceanic Museum| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34932,7 +34932,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pawniard": {
-        "Rival Steven |Partner| |Space Center| (Hard)": {
+        "Rival Steven |Partner| |Space Center| | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34964,7 +34964,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Growlithe": {
-        "Pkmn Trainer 1 Scary Guy (Hard)": {
+        "Pkmn Trainer 1 Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34996,7 +34996,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snubbull": {
-        "Pkmn Trainer 1 Scary Guy (Hard)": {
+        "Pkmn Trainer 1 Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35028,7 +35028,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Stantler": {
-        "Pkmn Trainer 1 Scary Guy (Hard)": {
+        "Pkmn Trainer 1 Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35060,7 +35060,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Munna": {
-        "Pkmn Trainer 1 Protector (Hard)": {
+        "Pkmn Trainer 1 Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35092,7 +35092,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Spritzee": {
-        "Pkmn Trainer 1 Protector (Hard)": {
+        "Pkmn Trainer 1 Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35124,7 +35124,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cubone": {
-        "Pkmn Trainer 1 Protector (Hard)": {
+        "Pkmn Trainer 1 Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35156,7 +35156,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snover": {
-        "Pkmn Trainer 1 Protector (Hard)": {
+        "Pkmn Trainer 1 Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35188,7 +35188,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Onix": {
-        "Pkmn Trainer 1 Speedy Kid (Hard)": {
+        "Pkmn Trainer 1 Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35220,7 +35220,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chespin": {
-        "Pkmn Trainer 1 Speedy Kid (Hard)": {
+        "Pkmn Trainer 1 Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35252,7 +35252,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Deerling-Spring": {
-        "Pkmn Trainer 1 Collector (Hard)": {
+        "Pkmn Trainer 1 Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35284,7 +35284,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Burmy-Trash": {
-        "Pkmn Trainer 1 Collector (Hard)": {
+        "Pkmn Trainer 1 Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35316,7 +35316,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rattata-Alola": {
-        "Pkmn Trainer 1 Collector (Hard)": {
+        "Pkmn Trainer 1 Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35348,7 +35348,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Meowth-Galar": {
-        "Pkmn Trainer 1 Collector (Hard)": {
+        "Pkmn Trainer 1 Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35380,7 +35380,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Petilil-Fighting": {
-        "Pkmn Trainer 1 Collector (Hard)": {
+        "Pkmn Trainer 1 Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35412,7 +35412,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Froakie-Special": {
-        "Pkmn Trainer 1 Collector (Hard)": {
+        "Pkmn Trainer 1 Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35444,7 +35444,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Koffing-Fairy": {
-        "Pkmn Trainer 1 Boom Dude (Hard)": {
+        "Pkmn Trainer 1 Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35476,7 +35476,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Elgyem": {
-        "Pkmn Trainer 1 Boom Dude (Hard)": {
+        "Pkmn Trainer 1 Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35508,7 +35508,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cranidos": {
-        "Pkmn Trainer 1 Critter (Hard)": {
+        "Pkmn Trainer 1 Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35540,7 +35540,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pidove": {
-        "Pkmn Trainer 1 Critter (Hard)": {
+        "Pkmn Trainer 1 Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35572,7 +35572,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Dratini": {
-        "Pkmn Trainer 1 Critter (Hard)": {
+        "Pkmn Trainer 1 Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35604,7 +35604,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sprigatito": {
-        "Pkmn Trainer 1 Critter (Hard)": {
+        "Pkmn Trainer 1 Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35636,7 +35636,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ferroseed": {
-        "Pkmn Trainer 1 Slow Fella (Hard)": {
+        "Pkmn Trainer 1 Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35668,7 +35668,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wattrel": {
-        "Pkmn Trainer 1 Slow Fella (Hard)": {
+        "Pkmn Trainer 1 Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35700,7 +35700,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Dwebble": {
-        "Pkmn Trainer 1 Smasher (Hard)": {
+        "Pkmn Trainer 1 Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35732,7 +35732,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Turtwig": {
-        "Pkmn Trainer 1 Smasher (Hard)": {
+        "Pkmn Trainer 1 Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35764,7 +35764,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sinistea": {
-        "Pkmn Trainer 1 Smasher (Hard)": {
+        "Pkmn Trainer 1 Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35796,7 +35796,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Binacle": {
-        "Pkmn Trainer 1 Smasher (Hard)": {
+        "Pkmn Trainer 1 Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35828,7 +35828,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Litten": {
-        "Pkmn Trainer 1 Purkat (Hard)": {
+        "Pkmn Trainer 1 Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35860,7 +35860,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Golett": {
-        "Pkmn Trainer 1 Purkat (Hard)": {
+        "Pkmn Trainer 1 Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35892,7 +35892,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shelmet": {
-        "Pkmn Trainer 1 Purkat (Hard)": {
+        "Pkmn Trainer 1 Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
