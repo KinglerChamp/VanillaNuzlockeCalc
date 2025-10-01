@@ -210,7 +210,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
 	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
             moveCategory = 'Physical';
         }
-	    else {if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
             moveCategory = 'Special';
         }
 	}
@@ -294,7 +294,7 @@ function calculateBasePowerBWXY(gen, attacker, defender, move, field, hasAteAbil
 	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
             moveCategory = 'Physical';
         }
-	    else {if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
             moveCategory = 'Special';
         }
 	}
