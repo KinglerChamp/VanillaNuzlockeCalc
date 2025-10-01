@@ -844,4 +844,8 @@ function calculateFinalModsBWXY(gen, attacker, defender, move, field, desc, isCr
     return finalMods;
 }
 
+<<<<<<< HEAD
 //# sourceMappingURL=gen56.js.map
+=======
+//# sourceMappingURL=gen56.js.map
+>>>>>>> 6647073a9a86a61e8be615c0dfbf89cd18b1369f
