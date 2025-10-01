@@ -210,7 +210,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
 	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
             moveCategory = 'Physical';
         }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+	    else {if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
             moveCategory = 'Special';
         }
 	}
@@ -289,6 +289,15 @@ function calculateBasePowerBWXY(gen, attacker, defender, move, field, hasAteAbil
     if (hit === void 0) { hit = 1; }
     var basePower;
     var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
+    var moveCategory = move.category;
+	if (moveCategory !== 'Status') {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+            moveCategory = 'Physical';
+        }
+	    else {if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+            moveCategory = 'Special';
+        }
+	}
     switch (move.name) {
         case 'Payback':
             basePower = move.bp * (turnOrder === 'last' ? 2 : 1);
