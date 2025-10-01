@@ -594,6 +594,15 @@ function calculateAttackBWXY(gen, attacker, defender, move, field, desc, isCriti
     if (isCritical === void 0) { isCritical = false; }
     var attack;
     var attackSource = move.named('Foul Play') ? defender : attacker;
+    var moveCategory = move.category;
+	if (moveCategory !== 'Status') {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+            moveCategory = 'Physical';
+        }
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+            moveCategory = 'Special';
+        }
+	}
     var attackStat = moveCategory === 'Special' ? 'spa' : 'atk';
     desc.attackEVs =
         move.named('Foul Play')
@@ -622,6 +631,15 @@ function calculateAttackBWXY(gen, attacker, defender, move, field, desc, isCriti
 exports.calculateAttackBWXY = calculateAttackBWXY;
 function calculateAtModsBWXY(attacker, defender, move, field, desc) {
     var atMods = [];
+    var moveCategory = move.category;
+	if (moveCategory !== 'Status') {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+            moveCategory = 'Physical';
+        }
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+            moveCategory = 'Special';
+        }
+	}
     if (defender.hasAbility('Thick Fat') && move.hasType('Fire', 'Ice')) {
         atMods.push(2048);
         desc.defenderAbility = defender.ability;
@@ -692,6 +710,15 @@ exports.calculateAtModsBWXY = calculateAtModsBWXY;
 function calculateDefenseBWXY(gen, attacker, defender, move, field, desc, isCritical) {
     if (isCritical === void 0) { isCritical = false; }
     var defense;
+    var moveCategory = move.category;
+	if (moveCategory !== 'Status') {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+            moveCategory = 'Physical';
+        }
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+            moveCategory = 'Special';
+        }
+	}
     var defenseStat = move.overrideDefensiveStat || moveCategory === 'Physical' ? 'def' : 'spd';
     var hitsPhysical = defenseStat === 'def';
     desc.defenseEVs = (0, util_2.getStatDescriptionText)(gen, defender, defenseStat, defender.nature);
@@ -794,6 +821,15 @@ function calculateFinalModsBWXY(gen, attacker, defender, move, field, desc, isCr
     if (isCritical === void 0) { isCritical = false; }
     if (hitCount === void 0) { hitCount = 0; }
     var finalMods = [];
+    var moveCategory = move.category;
+	if (moveCategory !== 'Status') {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+            moveCategory = 'Physical';
+        }
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+            moveCategory = 'Special';
+        }
+	}
     if (field.defenderSide.isReflect && moveCategory === 'Physical' && !isCritical) {
         finalMods.push(field.gameType !== 'Singles' ? (gen.num > 5 ? 2732 : 2703) : 2048);
         desc.isReflect = true;
