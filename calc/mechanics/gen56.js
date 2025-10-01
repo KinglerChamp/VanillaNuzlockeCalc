@@ -207,10 +207,10 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
 	var moveCategory = move.category;
 	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
             moveCategory = 'Physical';
         }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
             moveCategory = 'Special';
         }
 	}
@@ -291,10 +291,10 @@ function calculateBasePowerBWXY(gen, attacker, defender, move, field, hasAteAbil
     var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
     var moveCategory = move.category;
 	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
             moveCategory = 'Physical';
         }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
             moveCategory = 'Special';
         }
 	}
@@ -596,10 +596,10 @@ function calculateAttackBWXY(gen, attacker, defender, move, field, desc, isCriti
     var attackSource = move.named('Foul Play') ? defender : attacker;
     var moveCategory = move.category;
 	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
             moveCategory = 'Physical';
         }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
             moveCategory = 'Special';
         }
 	}
@@ -633,10 +633,10 @@ function calculateAtModsBWXY(attacker, defender, move, field, desc) {
     var atMods = [];
     var moveCategory = move.category;
 	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
             moveCategory = 'Physical';
         }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
             moveCategory = 'Special';
         }
 	}
@@ -712,10 +712,10 @@ function calculateDefenseBWXY(gen, attacker, defender, move, field, desc, isCrit
     var defense;
     var moveCategory = move.category;
 	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
             moveCategory = 'Physical';
         }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
             moveCategory = 'Special';
         }
 	}
@@ -823,10 +823,10 @@ function calculateFinalModsBWXY(gen, attacker, defender, move, field, desc, isCr
     var finalMods = [];
     var moveCategory = move.category;
 	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison'))) {
+	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
             moveCategory = 'Physical';
         }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon'))) {
+	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
             moveCategory = 'Special';
         }
 	}
