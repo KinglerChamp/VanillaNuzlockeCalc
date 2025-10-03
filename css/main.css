@@ -491,6 +491,7 @@ body {
   cursor: pointer;
   box-sizing: border-box;
 }
+
 .flipped-image {
   transform: scaleX(-1);
 }
@@ -499,33 +500,44 @@ body {
   border: 1px solid #1abc9c;
   border-radius: 5px;
 }
-/* Addded */
+
+.top-buttons {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
 .wrapper {
   padding: 0 1em;
   max-width: 1660px;
-  margin: 0 auto;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
+
 .credits {
   clear: both;
   padding: 20px;
   max-width: 1285px;
   margin: 0px auto;
 }
+
 .credits ul li a {
   color: black;
   font-size: 1.2rem;
 }
+
 div.wrapper > div > span {
   padding-right: 5px;
 }
+
 fieldset {
-  /* float: left; */
   background-color: rgb(255, 255, 255);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   padding: 2em;
   border-radius: 8px;
 }
+
 legend {
   font-weight: bold;
   text-align: start;
@@ -540,13 +552,11 @@ legend {
   color: rgba(0, 0, 0, 0.85);
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
-
   min-height: 3rem;
   padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
@@ -558,14 +568,15 @@ legend {
   vertical-align: baseline;
   width: auto;
 }
-th,
-td {
+
+th, td {
   padding: 0;
 }
+
 th {
-  /* font-size: 0.8em; */
   text-align: start;
 }
+
 .title-text {
   font-weight: bold;
   font-size: 2.5em;
@@ -579,28 +590,27 @@ th {
   font-size: 1.3em;
   margin: 0.5em 0;
 }
+
 .big-text #mainResult:hover {
-  /* indicates the presence of click-to-copy function */
   cursor: pointer;
   opacity: 0.7;
 }
+
 #tooltipText {
   font-size: 0.8em;
   visibility: hidden;
   border-radius: 5px;
-  /* width: 120px; */
   background-color: black;
   color: #fff;
   text-align: center;
   padding: 5px;
   margin-left: 10px;
 }
+
 .small-text {
   font-size: 1.1em;
 }
-.panel {
-  /* required for honkaculate to work */
-}
+
 .panel-container {
   display: flex;
   gap: 2em;

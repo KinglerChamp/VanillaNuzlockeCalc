@@ -53,28 +53,21 @@
 <body class="dark-theme">
     <div id="sidebar" class="sidebar header">
         <a href="#" class="closebtn" onclick="toggleSidebar()">&times;</a>
-        <a href="save-reader.html">Save Reader</a>
-        <a href="pokedex.html">Pokédex</a>
-        <a href="locations.html">Locations</a>
-        <a href="https://purpleyoyo.github.io/Little-Emerald-Calc/?game=19&gen=8">Damage Calculator</a>
+        <p><strong>Little Emerald</strong></p>
+        <a href="save-reader.html">- Save Reader</a>
+        <a href="pokedex.html">- Pokédex</a>
+        <a href="locations.html">- Locations</a>
+        <a href="https://purpleyoyo.github.io/Little-Emerald-Calc/?game=19&gen=8">- Damage Calculator</a>
+
+        <a href="//discord.gg/YDX4jj7VYP">Discord</a> 
+        <a href="https://github.com/PurpleYoyo/Little-Emerald-Calc/issues"> Bug Report</a>
     </div>
       
-    <div style="background-color: rgba(0, 0, 0, 0.5); color: white;">
+    <div class="top-buttons">
         <span class="openbtn" onclick="toggleSidebar()">☰ Menu</span>
-        
-        <nav>
-            <div class="header">
-                <div class="header-inner">
-                    <ul class="nav nav-items">
-                        <li><a class="button btn-left" href="//discord.gg/YDX4jj7VYP">Discord</a></li>
-                        <li><a class="button nav-last btn-right" href="https://github.com/PurpleYoyo/Little-Emerald-Calc/issues"> Bug Report</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
     </div>
-    <div class="wrapper title" style="background-color: rgba(0, 0, 0, 0.5); color: white;">
 
+    <div class="wrapper title">
         <h1 class="title-text main-title-text">Purkat's Damage Calc</h1>
         <div class="setting-wrapper" aria-label="Settings" role="region">
             <div class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the game.">
@@ -102,12 +95,10 @@
             </div>
         </div>
 
-
         <hr />
-        <div aria-label="Move selection" class="move-result-group" role="region"
-            title="Select a move to show detailed results.">
-            <div aria-labelledby="resultHeaderL" style="color: black;" class="move-result-subgroup" role="radiogroup">
-                <div class="result-move-header" style="color: black;"><span id="resultHeaderL">Pok&eacute;mon 1's Moves (select one to show
+        <div aria-label="Move selection" class="move-result-group" role="region" title="Select a move to show detailed results.">
+            <div aria-labelledby="resultHeaderL" class="move-result-subgroup" role="radiogroup">
+                <div class="result-move-header"><span id="resultHeaderL">Pok&eacute;mon 1's Moves (select one to show
                         detailed results)</span>
                 </div>
                 <div>
@@ -135,7 +126,7 @@
                     <span id="resultDamageL4">??? - ???%</span>
                 </div>
             </div>
-            <div aria-labelledby="resultHeaderR" style="color: black;" class="move-result-subgroup" role="radiogroup">
+            <div aria-labelledby="resultHeaderR" class="move-result-subgroup" role="radiogroup">
                 <div class="result-move-header"><span id="resultHeaderR">Pok&eacute;mon 2's Moves (select one to show
                         detailed results)</span>
                 </div>
@@ -170,7 +161,7 @@
                 </div>
             </div>
         </div>
-        <div aria-label="Calculation results" style="color: black;" class="main-result-group" role="region">
+        <div aria-label="Calculation results" class="main-result-group" role="region">
             <div class="big-text text-center" title="Click to copy.">
                 <span id="mainResult">Loading...</span>
                 <span id="tooltipText">Copied</span>
