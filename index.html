@@ -63,18 +63,23 @@
         <p><strong>Calculator</strong></p>
         <a href="https://github.com/PurpleYoyo/Little-Emerald-Calc/issues">- Bug Report</a>
     </div>
+
+    <div id="credits-sidebar" class="sidebar header">
+        <a href="#" class="closebtn" onclick="toggleCreditsSidebar()">&times;</a>
+        <p><strong>Created by Honko, maintained by Austin and Kris.</strong></p>
+        <a href="https://github.com/smogon/damage-calc" class="links-lighten" target="_blank">- Original Repository</a>
+        <p><strong>Modified By Kingler Champ.</strong></p>
+        <a href="https://github.com/KinglerChamp/VanillaNuzlockeCalc" class="links-lighten" target="_blank">- KinglerChamp Repository</a>
+        <p><strong>Modified again by Purkat.</strong></p>
+        <a href="https://github.com/PurpleYoyo/Little-Emerald-Calc" class="links-lighten" target="_blank">- Purkat Repository</a>
+    </div>
       
     <div>
         <span class="openbtn" onclick="toggleSidebar()">☰ Menu</span>
     </div>
 
-    <div class="credits">Created by Honko, maintained by Austin and Kris; Modified By Kingler Champ; Modified again by Purkat
-        <ul>
-            <li><a href="https://github.com/KinglerChamp/VanillaNuzlockeCalc" class="links-lighten"
-                    target="_blank">KinglerChamp repository</a></li>
-            <li><a href="https://github.com/smogon/damage-calc" class="links-lighten" target="_blank">OG GitHub
-                    repository</a></li>
-        </ul>
+    <div>
+        <span class="openbtn" onclick="toggleCreditsSidebar()">☰ Credits</span>
     </div>
 
     <div class="wrapper title">
@@ -2125,9 +2130,18 @@
     </div>
 
     <script src="./js/update.js?036cd39a"></script>
+
     <script>
         function toggleSidebar() {
             const sidebar = document.getElementById("sidebar");
+            if (!sidebar) return;
+            sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+        }
+    </script>
+
+    <script>
+        function toggleCreditsSidebar() {
+            const sidebar = document.getElementById("credits-sidebar");
             if (!sidebar) return;
             sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
         }
