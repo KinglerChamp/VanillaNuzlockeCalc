@@ -507,10 +507,11 @@ body {
 }
 
 .wrapper {
-  padding: 0 1em;
+  padding: 20px;
   max-width: 1660px;
   margin: 20px;
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
   color: white;
 }
 
@@ -519,6 +520,11 @@ body {
   padding: 20px;
   max-width: 1285px;
   margin: 0px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: white;
+  top: 10px;
+  left: 100px;
 }
 
 .credits ul li a {
