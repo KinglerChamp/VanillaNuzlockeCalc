@@ -9168,36 +9168,6 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Mantyke": {
-        "Aqua Leader Archie |Seafloor Cavern| | Hard": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "Eviolite",
-            "level": 46,
-            "nature": "Bold",
-            "battle_type": "Singles",
-            "moves": [
-                "Hydro Pump",
-                "Hurricane",
-                "Agility",
-                "Rain Dance"
-            ],
-            "ability": "Swift Swim",
-            "teraType": "None"
-        },
         "Tuber F Lola | Hard": {
             "ivs": {
                 "hp": 31,
@@ -15903,6 +15873,38 @@ var CUSTOMSETDEX_SV = {
             "teraType": "None"
         }
     },
+    "Staryu-Special": {
+        "Aqua Leader Archie |Seafloor Cavern| | Hard": {
+            "ivs": {
+                "hp": 31,
+                "at": 31,
+                "df": 31,
+                "sa": 31,
+                "sd": 31,
+                "sp": 31
+            },
+            "evs": {
+                "hp": 0,
+                "at": 0,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "item": "Eviolite",
+            "level": 46,
+            "nature": "Naughty",
+            "battle_type": "Singles",
+            "moves": [
+                "Liquidation",
+                "Autotomize",
+                "Zen Headbutt",
+                "Rain Dance"
+            ],
+            "ability": "Swift Swim",
+            "teraType": "None"
+        },
+    },
     "Staryu": {
         "Cooltrainer Leroy | Hard": {
             "ivs": {
@@ -18976,9 +18978,9 @@ var CUSTOMSETDEX_SV = {
             "moves": [
                 "Acid Spray",
                 "Ancient Power",
-                "Confuse Ray"
+                "Poison Gas"
             ],
-            "ability": "Toxic Debris",
+            "ability": "Corrosion",
             "teraType": "None"
         },
         "Cooltrainer Mitchell | Hard": {
@@ -25307,7 +25309,6 @@ var CUSTOMSETDEX_SV = {
             "moves": [
                 "Aerial Ace",
                 "Brick Break",
-                "Facade",
                 "Bulk Up"
             ],
             "ability": "Inner Focus",
@@ -25611,8 +25612,8 @@ var CUSTOMSETDEX_SV = {
             "moves": [
                 "Brick Break",
                 "Thunder Punch",
-                "Fire Punch",
-                "Ice Punch"
+                "Quick Attack",
+                "Icy Wind"
             ],
             "ability": "Static",
             "teraType": "None"

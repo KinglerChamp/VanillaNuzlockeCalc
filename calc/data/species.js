@@ -10673,6 +10673,14 @@ var LE_PATCH = {
 		baseSpecies: 'Rockruff',
 		nfe: true
 	},
+    'Staryu-Special': {
+		types: ['Water'],
+		bs: { hp: 30, at: 55, df: 55, sa: 40, sd: 55, sp: 85 },
+		weightkg: 92,
+		abilities: { 0: 'Pure Power' },
+		baseSpecies: 'Staryu',
+		nfe: true
+	},
     'Feebas-Fairy': {
         types: ['Water', 'Fairy'],
         bs: { hp: 20, at: 15, df: 20, sa: 10, sd: 55, sp: 80 },
