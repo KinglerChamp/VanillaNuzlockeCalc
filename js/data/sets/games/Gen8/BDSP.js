@@ -24206,8 +24206,7 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Mach Punch",
                 "Flame Wheel",
-                "Grass Knot",
-                "Endure"
+                "Grass Knot"
             ],
             "ability": "Blaze",
             "teraType": "None"
@@ -24331,7 +24330,6 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Aerial Ace",
                 "Low Sweep",
-                "Headbutt",
                 "Scary Face"
             ],
             "ability": "Inner Focus",
