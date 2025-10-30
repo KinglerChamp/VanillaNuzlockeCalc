@@ -10571,7 +10571,7 @@ var LE_PATCH = {
 	},
 	'Ralts-Fighting': {
 		types: ['Psychic', 'Fighting'],
-		bs: { hp: 28, at: 45, df: 25, sa: 25, sd: 35, sp: 40 },
+		bs: { hp: 43, at: 80, df: 35, sa: 25, sd: 60, sp: 40 },
 		weightkg: 66,
 		abilities: { 0: 'Pixilate' },
 		baseSpecies: 'Ralts',
@@ -10595,7 +10595,7 @@ var LE_PATCH = {
 	},
 	'Nincada-Ghost': {
 		types: ['Bug', 'Ghost'],
-		bs: { hp: 31, at: 45, df: 90, sa: 30, sd: 30, sp: 40 },
+		bs: { hp: 1, at: 60, df: 90, sa: 30, sd: 30, sp: 40 },
 		weightkg: 55,
 		abilities: { 0: 'Compound Eyes' },
 		baseSpecies: 'Nincada',
@@ -10687,7 +10687,91 @@ var LE_PATCH = {
         weightkg: 7.4,
         nfe: true,
         abilities: { 0: 'Multiscale' }
-    }
+    },
+    'Caterpie': {
+		bs: { hp: 45, at: 30, df: 40, sa: 60, sd: 60, sp: 50 },
+	},
+	'Weedle': {
+		bs: { hp: 40, at: 60, df: 30, sa: 10, sd: 45, sp: 100 },
+	},
+	'Pidgey': {
+		bs: { hp: 40, at: 55, df: 40, sa: 45, sd: 35, sp: 66 },
+	},
+	'Cleffa': {
+		bs: { hp: 50, at: 25, df: 55, sa: 45, sd: 55, sp: 15 },
+	},
+	'Igglybuff': {
+		bs: { hp: 90, at: 50, df: 35, sa: 55, sd: 40, sp: 15 },
+	},
+	'Happiny': {
+		bs: { hp: 150, at: 5, df: 5, sa: 35, sd: 65, sp: 30 },
+	},
+	'Magikarp': {
+		bs: { hp: 35, at: 40, df: 55, sa: 15, sd: 40, sp: 100 },
+	},
+	'Sentret': {
+		bs: { hp: 40, at: 66, df: 44, sa: 35, sd: 35, sp: 60 },
+	},
+	'Ledyba': {
+		bs: { hp: 40, at: 20, df: 30, sa: 40, sd: 80, sp: 55 },
+	},
+	'Hoppip': {
+		bs: { hp: 35, at: 35, df: 40, sa: 35, sd: 55, sp: 80 },
+	},
+	'Sunkern': {
+		bs: { hp: 55, at: 55, df: 40, sa: 65, sd: 50, sp: 30 },
+	},
+	'Wurmple': {
+		bs: { hp: 45, at: 50, df: 50, sa: 50, sd: 50, sp: 40 },
+	},
+	'Lotad': {
+		bs: { hp: 50, at: 35, df: 40, sa: 50, sd: 70, sp: 40 },
+	},
+	'Seedot': {
+		bs: { hp: 40, at: 60, df: 45, sa: 45, sd: 45, sp: 45 },
+	},
+	'Ralts': {
+		bs: { hp: 43, at: 25, df: 35, sa: 80, sd: 60, sp: 40 },
+	},
+	'Nincada': {
+		bs: { hp: 31, at: 60, df: 90, sa: 30, sd: 30, sp: 40 },
+	},
+	'Feebas': {
+		bs: { hp: 40, at: 10, df: 40, sa: 60, sd: 75, sp: 60 },
+	},
+	'Kricketot': {
+		bs: { hp: 57, at: 55, df: 41, sa: 35, sd: 41, sp: 45 },
+	},
+	'Pidove': {
+		bs: { hp: 50, at: 70, df: 50, sa: 36, sd: 30, sp: 43 },
+	},
+	'Bounsweet': {
+		bs: { hp: 42, at: 50, df: 58, sa: 30, sd: 58, sp: 32 },
+	},
+	'Wimpod': {
+		bs: { hp: 25, at: 35, df: 100, sa: 20, sd: 30, sp: 80 },
+	},
+	'Blipbug': {
+		bs: { hp: 35, at: 20, df: 40, sa: 65, sd: 65, sp: 65 },
+	},
+	'Nickit': {
+		bs: { hp: 55, at: 28, df: 28, sa: 67, sd: 52, sp: 50 },
+	},
+	'Toxel': {
+		bs: { hp: 45, at: 48, df: 40, sa: 64, sd: 40, sp: 45 },
+	},
+	'Snom': {
+		bs: { hp: 35, at: 30, df: 40, sa: 90, sd: 60, sp: 30 },
+	},
+	'Lechonk': {
+		bs: { hp: 69, at: 55, df: 40, sa: 35, sd: 45, sp: 35 },
+	},
+	'Gimmighoul-Chest': {
+		bs: { hp: 1, at: 30, df: 70, sa: 75, sd: 70, sp: 10 },
+	},
+    'Scatterbug': {
+		bs: { hp: 58, at: 50, df: 40, sa: 37, sd: 50, sp: 45 },
+	},
 };
 
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, LE_PATCH);
