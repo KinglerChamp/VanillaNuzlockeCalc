@@ -9372,10 +9372,9 @@ var CUSTOMSETDEX_BDSP = {
             "nature": "Jolly",
             "battle_type": "Singles",
             "moves": [
-                "Waterfall",
-                "Zen Headbutt",
-                "Agility",
-                "Encore"
+                "Jet Punch",
+                "Icy Wind",
+                "Agility"
             ],
             "ability": "Water Veil",
             "sub_index": 0
@@ -28630,7 +28629,6 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Aerial Ace",
                 "Flame Charge",
-                "Feather Dance",
                 "Agility"
             ],
             "ability": "Gale Wings",
