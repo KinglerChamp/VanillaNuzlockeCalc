@@ -2855,7 +2855,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy | Normal": {
+        "Mini-Boss Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -2877,10 +2877,9 @@ var CUSTOMSETDEX_BDSP = {
             "nature": "Timid",
             "battle_type": "Singles",
             "moves": [
-                "Electro Ball",
-                "Agility",
-                "Thunder Wave",
-                "Snarl"
+                "Thunder Shock",
+                "Swift",
+                "Thunder Wave"
             ],
             "ability": "Intimidate",
             "sub_index": 4
@@ -5296,7 +5295,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shell Armor",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Smasher | Normal": {
+        "Mini-Boss Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7793,7 +7792,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Geodude-Alola": {
-        "Pkmn Trainer 1 Boom Dude | Normal": {
+        "Mini-Boss Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9351,7 +9350,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid | Normal": {
+        "Mini-Boss Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11121,7 +11120,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Boom Dude | Normal": {
+        "Mini-Boss Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -16475,7 +16474,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid | Normal": {
+        "Mini-Boss Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17286,7 +17285,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy | Normal": {
+        "Mini-Boss Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17303,15 +17302,14 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
             },
-            "item": "Sticky Barb",
+            "item": "Eviolite",
             "level": 15,
             "nature": "Sassy",
             "battle_type": "Singles",
             "moves": [
-                "Bulldoze",
-                "Phantom Force",
-                "Trick",
-                "Pain Split"
+                "Dig",
+                "Shadow Sneak",
+                "Tail Whip"
             ],
             "ability": "Intimidate",
             "sub_index": 3
@@ -19105,7 +19103,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy | Normal": {
+        "Mini-Boss Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19127,9 +19125,8 @@ var CUSTOMSETDEX_BDSP = {
             "nature": "Naughty",
             "battle_type": "Singles",
             "moves": [
-                "Trailblaze",
-                "Poison Tail",
-                "Lash Out",
+                "Bite",
+                "Poison Sting",
                 "Glare"
             ],
             "ability": "Intimidate",
@@ -19166,7 +19163,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shell Armor",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Smasher | Normal": {
+        "Mini-Boss Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19531,7 +19528,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Critter | Normal": {
+        "Mini-Boss Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20647,7 +20644,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Rgenerator",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Protector | Normal": {
+        "Mini-Boss Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20671,8 +20668,7 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Baneful Bunker",
                 "Toxic Spikes",
-                "Toxic",
-                "Recover"
+                "Toxic"
             ],
             "ability": "Regenerator",
             "sub_index": 4
@@ -21316,7 +21312,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat | Normal": {
+        "Creator Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21715,7 +21711,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Protector | Normal": {
+        "Mini-Boss Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21739,8 +21735,7 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Silk Trap",
                 "Spider Web",
-                "Spikes",
-                "Counter"
+                "Spikes"
             ],
             "ability": "Insomnia",
             "sub_index": 2
@@ -22841,7 +22836,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat | Normal": {
+        "Creator Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23185,7 +23180,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "No Guard",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat | Normal": {
+        "Creator Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23375,7 +23370,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella | Normal": {
+        "Mini-Boss Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23469,7 +23464,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Moody",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid | Normal": {
+        "Mini-Boss Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23659,7 +23654,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Torrent",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella | Normal": {
+        "Mini-Boss Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24799,7 +24794,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Pineco": {
-        "Pkmn Trainer 1 Boom Dude | Normal": {
+        "Mini-Boss Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28210,7 +28205,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Grimer-Alola": {
-        "Pkmn Trainer 1 Slow Fella | Normal": {
+        "Mini-Boss Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28611,7 +28606,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid | Normal": {
+        "Mini-Boss Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30113,7 +30108,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Farfetch\u00e2\u20ac\u2122d-Galar": {
-        "Pkmn Trainer 1 Critter | Normal": {
+        "Mini-Boss Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -31731,7 +31726,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Boom Dude | Normal": {
+        "Mini-Boss Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32366,7 +32361,7 @@ var CUSTOMSETDEX_BDSP = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella | Normal": {
+        "Mini-Boss Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34038,7 +34033,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Growlithe": {
-        "Pkmn Trainer 1 Scary Guy | Normal": {
+        "Mini-Boss Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34055,22 +34050,21 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
             },
-            "item": "Eviolite",
+            "item": "Oran Berry",
             "level": 15,
             "nature": "Quiet",
             "battle_type": "Singles",
             "moves": [
                 "Fire Spin",
                 "Snarl",
-                "Thunder Fang",
-                "Dig"
+                "Swift"
             ],
             "ability": "Intimidate",
             "sub_index": 1
         }
     },
     "Snubbull": {
-        "Pkmn Trainer 1 Scary Guy | Normal": {
+        "Mini-Boss Scary Guy | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34093,48 +34087,15 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type": "Singles",
             "moves": [
                 "Covet",
-                "Fire Fang",
-                "Ice Fang",
-                "Bite"
+                "Tackle",
+                "Lick"
             ],
             "ability": "Intimidate",
             "sub_index": 2
         }
     },
-    "Stantler": {
-        "Pkmn Trainer 1 Scary Guy | Normal": {
-            "ivs": {
-                "hp": 31,
-                "at": 31,
-                "df": 31,
-                "sa": 31,
-                "sd": 31,
-                "sp": 31
-            },
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 0
-            },
-            "item": "King's Rock",
-            "level": 15,
-            "nature": "Impish",
-            "battle_type": "Singles",
-            "moves": [
-                "Stomp",
-                "Psyshield Bash",
-                "Dig",
-                "Hypnosis"
-            ],
-            "ability": "Intimidate",
-            "sub_index": 5
-        }
-    },
     "Munna": {
-        "Pkmn Trainer 1 Protector | Normal": {
+        "Mini-Boss Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34158,15 +34119,14 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Round",
                 "Moonlight",
-                "Lucky Chant",
-                "Helping Hand"
+                "Lucky Chant"
             ],
             "ability": "Synchronize",
             "sub_index": 0
         }
     },
     "Spritzee": {
-        "Pkmn Trainer 1 Protector | Normal": {
+        "Mini-Boss Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34183,22 +34143,21 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
             },
-            "item": "Leftovers",
+            "item": "Oran Berry",
             "level": 20,
             "nature": "Relaxed",
             "battle_type": "Doubles",
             "moves": [
                 "Draining Kiss",
                 "Protect",
-                "Reflect",
-                "Light Screen"
+                "Echoed Voice"
             ],
             "ability": "Healer",
             "sub_index": 1
         }
     },
     "Cubone": {
-        "Pkmn Trainer 1 Protector | Normal": {
+        "Mini-Boss Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34221,7 +34180,6 @@ var CUSTOMSETDEX_BDSP = {
             "battle_type": "Doubles",
             "moves": [
                 "Stealth Rock",
-                "Iron Defense",
                 "Protect",
                 "Bulldoze"
             ],
@@ -34230,7 +34188,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Snover": {
-        "Pkmn Trainer 1 Protector | Normal": {
+        "Mini-Boss Protector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34247,22 +34205,21 @@ var CUSTOMSETDEX_BDSP = {
                 "sd": 0,
                 "sp": 0
             },
-            "item": "Occa Berry",
+            "item": "Sitrus Berry",
             "level": 20,
             "nature": "Careful",
             "battle_type": "Doubles",
             "moves": [
                 "Aurora Veil",
                 "Razor Leaf",
-                "Icy Wind",
-                "Water Pulse"
+                "Icy Wind"
             ],
             "ability": "Snow Warning",
             "sub_index": 5
         }
     },
     "Onix": {
-        "Pkmn Trainer 1 Speedy Kid | Normal": {
+        "Mini-Boss Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34286,15 +34243,14 @@ var CUSTOMSETDEX_BDSP = {
             "moves": [
                 "Bulldoze",
                 "Rock Tomb",
-                "Stealth Rock",
-                "Taunt"
+                "Stealth Rock"
             ],
             "ability": "Sturdy",
             "sub_index": 2
         }
     },
     "Chespin": {
-        "Pkmn Trainer 1 Speedy Kid | Normal": {
+        "Mini-Boss Speedy Kid | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34326,7 +34282,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Deerling-Spring": {
-        "Pkmn Trainer 1 Collector | Normal": {
+        "Mini-Boss Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34358,7 +34314,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Burmy-Trash": {
-        "Pkmn Trainer 1 Collector | Normal": {
+        "Mini-Boss Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34390,7 +34346,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Rattata-Alola": {
-        "Pkmn Trainer 1 Collector | Normal": {
+        "Mini-Boss Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34422,7 +34378,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Meowth-Galar": {
-        "Pkmn Trainer 1 Collector | Normal": {
+        "Mini-Boss Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34454,7 +34410,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Petilil-Fighting": {
-        "Pkmn Trainer 1 Collector | Normal": {
+        "Mini-Boss Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34486,7 +34442,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Froakie-Special": {
-        "Pkmn Trainer 1 Collector | Normal": {
+        "Mini-Boss Collector | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34518,7 +34474,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Koffing-Fairy": {
-        "Pkmn Trainer 1 Boom Dude | Normal": {
+        "Mini-Boss Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34550,7 +34506,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Elgyem": {
-        "Pkmn Trainer 1 Boom Dude | Normal": {
+        "Mini-Boss Boom Dude | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34582,7 +34538,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Cranidos": {
-        "Pkmn Trainer 1 Critter | Normal": {
+        "Mini-Boss Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34614,7 +34570,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Pidove": {
-        "Pkmn Trainer 1 Critter | Normal": {
+        "Mini-Boss Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34646,7 +34602,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Dratini": {
-        "Pkmn Trainer 1 Critter | Normal": {
+        "Mini-Boss Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34678,7 +34634,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Sprigatito": {
-        "Pkmn Trainer 1 Critter | Normal": {
+        "Mini-Boss Critter | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34710,7 +34666,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Ferroseed": {
-        "Pkmn Trainer 1 Slow Fella | Normal": {
+        "Mini-Boss Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34742,7 +34698,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Wattrel": {
-        "Pkmn Trainer 1 Slow Fella | Normal": {
+        "Mini-Boss Slow Fella | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34774,7 +34730,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Dwebble": {
-        "Pkmn Trainer 1 Smasher | Normal": {
+        "Mini-Boss Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34806,7 +34762,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Turtwig": {
-        "Pkmn Trainer 1 Smasher | Normal": {
+        "Mini-Boss Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34838,7 +34794,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Sinistea": {
-        "Pkmn Trainer 1 Smasher | Normal": {
+        "Mini-Boss Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34870,7 +34826,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Binacle": {
-        "Pkmn Trainer 1 Smasher | Normal": {
+        "Mini-Boss Smasher | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34902,7 +34858,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Litten": {
-        "Pkmn Trainer 1 Purkat | Normal": {
+        "Creator Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34934,7 +34890,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Golett": {
-        "Pkmn Trainer 1 Purkat | Normal": {
+        "Creator Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34966,7 +34922,7 @@ var CUSTOMSETDEX_BDSP = {
         }
     },
     "Shelmet": {
-        "Pkmn Trainer 1 Purkat | Normal": {
+        "Creator Purkat | Normal": {
             "ivs": {
                 "hp": 31,
                 "at": 31,

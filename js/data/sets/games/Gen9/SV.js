@@ -2856,7 +2856,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Static",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy | Hard": {
+        "Mini-Boss Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -5297,7 +5297,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Skill Link",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Smasher | Hard": {
+        "Mini-Boss Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -7824,7 +7824,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Geodude-Alola": {
-        "Pkmn Trainer 1 Boom Dude | Hard": {
+        "Mini-Boss Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -9412,7 +9412,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Water Veil",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid | Hard": {
+        "Mini-Boss Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -11212,7 +11212,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Levitate",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Boom Dude | Hard": {
+        "Mini-Boss Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -17198,7 +17198,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Soundproof",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid | Hard": {
+        "Mini-Boss Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -18012,7 +18012,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sand Rush",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy | Hard": {
+        "Mini-Boss Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19920,7 +19920,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Intimidate",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Scary Guy | Hard": {
+        "Mini-Boss Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -19981,7 +19981,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shell Armor",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Smasher | Hard": {
+        "Mini-Boss Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -20346,7 +20346,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Critter | Hard": {
+        "Mini-Boss Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -21432,7 +21432,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Merciless",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Protector | Hard": {
+        "Mini-Boss Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22134,7 +22134,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Swift Swim",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat | Hard": {
+        "Creator Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -22533,7 +22533,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Insomnia",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Protector | Hard": {
+        "Mini-Boss Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -23661,7 +23661,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Shadow Tag",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat | Hard": {
+        "Creator Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24005,7 +24005,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "No Guard",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Purkat | Hard": {
+        "Creator Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24195,7 +24195,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Thick Fat",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella | Hard": {
+        "Mini-Boss Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24289,7 +24289,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Moody",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid | Hard": {
+        "Mini-Boss Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -24479,7 +24479,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Sheer Force",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella | Hard": {
+        "Mini-Boss Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -25810,7 +25810,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pineco": {
-        "Pkmn Trainer 1 Boom Dude | Hard": {
+        "Mini-Boss Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -28924,7 +28924,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Grimer-Alola": {
-        "Pkmn Trainer 1 Slow Fella | Hard": {
+        "Mini-Boss Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -29355,7 +29355,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Big Pecks",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Speedy Kid | Hard": {
+        "Mini-Boss Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -30855,7 +30855,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Farfetch\u00e2\u20ac\u2122d-Galar": {
-        "Pkmn Trainer 1 Critter | Hard": {
+        "Mini-Boss Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -32657,7 +32657,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Snow Warning",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Boom Dude | Hard": {
+        "Mini-Boss Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -33293,7 +33293,7 @@ var CUSTOMSETDEX_SV = {
             "ability": "Compound Eyes",
             "teraType": "None"
         },
-        "Pkmn Trainer 1 Slow Fella | Hard": {
+        "Mini-Boss Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34965,7 +34965,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Growlithe": {
-        "Pkmn Trainer 1 Scary Guy | Hard": {
+        "Mini-Boss Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -34982,7 +34982,7 @@ var CUSTOMSETDEX_SV = {
                 "sd": 0,
                 "sp": 0
             },
-            "item": "Eviolite",
+            "item": "Sitrus Berry",
             "level": 15,
             "nature": "Quiet",
             "battle_type": "Singles",
@@ -34997,7 +34997,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snubbull": {
-        "Pkmn Trainer 1 Scary Guy | Hard": {
+        "Mini-Boss Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35029,7 +35029,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Stantler": {
-        "Pkmn Trainer 1 Scary Guy | Hard": {
+        "Mini-Boss Scary Guy | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35046,13 +35046,13 @@ var CUSTOMSETDEX_SV = {
                 "sd": 0,
                 "sp": 0
             },
-            "item": "King's Rock",
+            "item": "Leftovers",
             "level": 15,
             "nature": "Impish",
             "battle_type": "Singles",
             "moves": [
                 "Stomp",
-                "Psyshield Bash",
+                "Astonish",
                 "Dig",
                 "Hypnosis"
             ],
@@ -35061,7 +35061,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Munna": {
-        "Pkmn Trainer 1 Protector | Hard": {
+        "Mini-Boss Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35093,7 +35093,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Spritzee": {
-        "Pkmn Trainer 1 Protector | Hard": {
+        "Mini-Boss Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35125,7 +35125,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cubone": {
-        "Pkmn Trainer 1 Protector | Hard": {
+        "Mini-Boss Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35157,7 +35157,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Snover": {
-        "Pkmn Trainer 1 Protector | Hard": {
+        "Mini-Boss Protector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35189,7 +35189,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Onix": {
-        "Pkmn Trainer 1 Speedy Kid | Hard": {
+        "Mini-Boss Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35221,7 +35221,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Chespin": {
-        "Pkmn Trainer 1 Speedy Kid | Hard": {
+        "Mini-Boss Speedy Kid | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35253,7 +35253,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Deerling-Spring": {
-        "Pkmn Trainer 1 Collector | Hard": {
+        "Mini-Boss Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35285,7 +35285,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Burmy-Trash": {
-        "Pkmn Trainer 1 Collector | Hard": {
+        "Mini-Boss Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35317,7 +35317,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Rattata-Alola": {
-        "Pkmn Trainer 1 Collector | Hard": {
+        "Mini-Boss Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35349,7 +35349,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Meowth-Galar": {
-        "Pkmn Trainer 1 Collector | Hard": {
+        "Mini-Boss Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35381,7 +35381,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Petilil-Fighting": {
-        "Pkmn Trainer 1 Collector | Hard": {
+        "Mini-Boss Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35413,7 +35413,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Froakie-Special": {
-        "Pkmn Trainer 1 Collector | Hard": {
+        "Mini-Boss Collector | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35445,7 +35445,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Koffing-Fairy": {
-        "Pkmn Trainer 1 Boom Dude | Hard": {
+        "Mini-Boss Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35477,7 +35477,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Elgyem": {
-        "Pkmn Trainer 1 Boom Dude | Hard": {
+        "Mini-Boss Boom Dude | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35509,7 +35509,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Cranidos": {
-        "Pkmn Trainer 1 Critter | Hard": {
+        "Mini-Boss Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35541,7 +35541,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Pidove": {
-        "Pkmn Trainer 1 Critter | Hard": {
+        "Mini-Boss Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35573,7 +35573,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Dratini": {
-        "Pkmn Trainer 1 Critter | Hard": {
+        "Mini-Boss Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35605,7 +35605,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sprigatito": {
-        "Pkmn Trainer 1 Critter | Hard": {
+        "Mini-Boss Critter | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35637,7 +35637,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Ferroseed": {
-        "Pkmn Trainer 1 Slow Fella | Hard": {
+        "Mini-Boss Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35669,7 +35669,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Wattrel": {
-        "Pkmn Trainer 1 Slow Fella | Hard": {
+        "Mini-Boss Slow Fella | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35701,7 +35701,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Dwebble": {
-        "Pkmn Trainer 1 Smasher | Hard": {
+        "Mini-Boss Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35733,7 +35733,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Turtwig": {
-        "Pkmn Trainer 1 Smasher | Hard": {
+        "Mini-Boss Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35765,7 +35765,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Sinistea": {
-        "Pkmn Trainer 1 Smasher | Hard": {
+        "Mini-Boss Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35797,7 +35797,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Binacle": {
-        "Pkmn Trainer 1 Smasher | Hard": {
+        "Mini-Boss Smasher | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35829,7 +35829,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Litten": {
-        "Pkmn Trainer 1 Purkat | Hard": {
+        "Creator Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35861,7 +35861,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Golett": {
-        "Pkmn Trainer 1 Purkat | Hard": {
+        "Creator Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
@@ -35893,7 +35893,7 @@ var CUSTOMSETDEX_SV = {
         }
     },
     "Shelmet": {
-        "Pkmn Trainer 1 Purkat | Hard": {
+        "Creator Purkat | Hard": {
             "ivs": {
                 "hp": 31,
                 "at": 31,
