@@ -382,7 +382,7 @@ function addSets(pokes, name) {
 		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
 		//alert("Successfully imported " + addedpokes + " set(s). Refresh to see new sets.");	
 		customSets = JSON.parse(localStorage.customsets);
-		$(allPokemon("#importedSetsOptions")).css("display", "inline");
+		importEncounters()
 		
 	} else {
 		alert("No sets imported, please check your syntax and try again");
