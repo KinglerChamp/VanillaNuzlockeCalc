@@ -330,26 +330,6 @@ function updateDex(customsets) {
 	localStorage.customsets = JSON.stringify(customsets);
 }
 
-function importEncounters() {
-	// Initialize encounter list if doesn't exist
-	if (localStorage.encounters) {
-		currentEncounters = JSON.parse(localStorage.encounters)
-	} else {
-		currentEncounters = {}
-	}
-	for (let [speciesName, setData] of Object.entries(customSets)) {
-		
-	  // add to encounters if doesn't exist
-	  if (!currentEncounters[speciesName] && setData["My Box"]) {
-
-	  	let encounter = {setData: setData}
-	  	currentEncounters[speciesName] = encounter	  	
-	  } 
-	}
-	localStorage.encounters = JSON.stringify(currentEncounters)  	
-	return currentEncounters
-}
-
 function addSets(pokes, name) {
 	var rows = pokes.split("\n");
 	var currentRow;
@@ -381,8 +361,7 @@ function addSets(pokes, name) {
 	if (addedpokes > 0) {
 		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
 		//alert("Successfully imported " + addedpokes + " set(s). Refresh to see new sets.");	
-		customSets = JSON.parse(localStorage.customsets);
-		importEncounters()
+		get_box();
 		
 	} else {
 		alert("No sets imported, please check your syntax and try again");
