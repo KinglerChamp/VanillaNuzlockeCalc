@@ -330,7 +330,23 @@ function updateDex(customsets) {
 	localStorage.customsets = JSON.stringify(customsets);
 }
 
+function isValidJSON(str) {
+    try {
+        JSON.parse(str);
+        return true;
+    } catch (error) {
+        return false;
+    }
+}
+
 function addSets(pokes, name) {
+	if (isValidJSON(pokes)) {
+		newSets = JSON.parse(pokes)
+		localStorage.customsets = newSets
+		location.reload()
+		return
+	}
+	
 	var rows = pokes.split("\n");
 	var currentRow;
 	var currentPoke;
@@ -360,8 +376,9 @@ function addSets(pokes, name) {
 	}
 	if (addedpokes > 0) {
 		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
-		//alert("Successfully imported " + addedpokes + " set(s). Refresh to see new sets.");
-		//setTimeout(() => location.reload(), 250); // Refresh with a slight delay
+		//alert("Successfully imported " + addedpokes + " set(s). Refresh to see new sets.");	
+		$(allPokemon("#importedSetsOptions")).css("display", "inline");
+		
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}	
