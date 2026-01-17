@@ -360,9 +360,7 @@ function addSets(pokes, name) {
 	}
 	if (addedpokes > 0) {
 		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
-		//alert("Successfully imported " + addedpokes + " set(s). Refresh to see new sets.");	
-		get_box();
-		
+		alert("Successfully imported " + addedpokes + " set(s).");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}	
@@ -421,10 +419,10 @@ function checkExeptions(poke) {
 $(allPokemon("#clearSets")).click(function () {
 	if (confirm("Are you sure you want to delete your custom sets? This action cannot be undone.")) {
 		localStorage.removeItem("customsets");
-		alert("Custom Sets successfully cleared. Please refresh the page.");
+		alert("Custom Sets successfully cleared.");
 		$(allPokemon("#importedSetsOptions")).hide();
 		loadDefaultLists();
-$('.player-poks').html("")
+		$('.player-poks').html("")
 	}
 });
 
