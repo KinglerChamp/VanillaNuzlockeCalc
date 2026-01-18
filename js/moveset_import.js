@@ -361,6 +361,9 @@ function addSets(pokes, name) {
 	if (addedpokes > 0) {
 		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
 		alert("Successfully imported " + addedpokes + " set(s).");
+		customSets = JSON.parse(localStorage.customsets);
+		updateDex(customSets);
+		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}	
