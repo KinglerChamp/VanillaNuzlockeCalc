@@ -330,6 +330,190 @@ function updateDex(customsets) {
 	localStorage.customsets = JSON.stringify(customsets);
 }
 
+function get_box() {
+		var names = get_trainer_names();
+		var box = [];
+	
+		// Object to keep track of encountered custom entries
+		var encounteredCustom = {};
+	
+		// Clear the content of the default div
+		document.getElementById('box-poke-list').innerHTML = "";
+	
+		for (var i = 0; i < names.length; i++) {
+			if (names[i].includes("Custom")) {
+				var customName = names[i].split(" (")[0];
+	
+				// Check if this custom entry has been encountered before
+				if (!encounteredCustom[customName]) {
+					encounteredCustom[customName] = true;
+	
+					// Push the custom name to the box array
+					box.push(customName);
+	
+					// Extract the Pokémon name from the custom name
+					var pok_name = customName.split(" (")[0];
+					console.log(pok_name);
+					console.log(pok_name == "Charcadet-Ghost");
+					switch (pok_name) {
+						case "Zygarde-10%":
+							pok_name = "Zygarde-10%25";
+							break;
+						case "Flabébé":
+							pok_name = "Flabébé";
+							break;
+						case "Pumpkaboo-Large":
+						case "Pumpkaboo-Super":
+						case "Pumpkaboo-Small":
+							pok_name = "Pumpkaboo";
+							break;
+						case "Aegislash-Blade":
+						case "Aegislash-Shield":
+						case "Aegislash-Both":
+							pok_name = "Aegislash";
+							break;
+						case "Snorunt-Ghost":
+							pok_name = "Snorunt";
+						case "Charcadet-Psychic":
+						case "Charcadet-Ghost":
+							pok_name = "Charcadet";
+						case "Magikarp-Monster":
+							pok_name = "Magikarp";
+						case "Ralts-Fighting":
+							pok_name = "Ralts";
+						case "Pichu-Mega":
+							pok_name = "Pikachu";
+						case "Cleffa-Mega":
+							pok_name = "Clefairy";				
+						case "Igglybuff-Mega":
+							pok_name = "Jigglypuff";
+						case "Togepi-Mega":
+							pok_name = "Togetic";
+						case "Tyrogue-Mega-C":
+							pok_name = "Hitmonchan";
+						case "Tyrogue-Mega-L":
+							pok_name = "Hitmonlee";
+						case "Tyrogue-Mega-T":
+							pok_name = "Hitmontop";
+						case "Elekid-Mega":
+							pok_name = "Electabuzz";
+						case "Magby-Mega":
+							pok_name = "Magmar";
+						case "Smoochum-Mega":
+							pok_name = "Jynx";
+						case "Azurill-Mega":
+							pok_name = "Wynaut";
+						case "Toxel-Mega-A":
+							pok_name = "Toxtricity";
+						case "Toxel-Mega-L":
+							pok_name = "Toxtricity-Low-Key";
+						case "Mime Jr.-Mega-K":
+							pok_name = "Mr. Mime";
+						case "Mime Jr.-Mega-G":
+							pok_name = "Mr. Mime-Galar";
+						case "Wurmple-Poison":
+							pok_name = "Wurmple";
+						case "Nincada-Ghost":
+							pok_name = "Nincada";
+						case "Exeggcute-Dragon":
+							pok_name = "Exeggcute";
+						case "Koffing-Fairy":
+							pok_name = "Koffing";
+						case "Petilil-Fighting":
+							pok_name = "Petilil";
+						case "Rufflet-Psychic":
+							pok_name = "Rufflet";
+						case "Goomy-Steel":
+							pok_name = "Goomy";
+						case "Bergmite-Rock":
+							pok_name = "Bergmite";
+						case "Froakie-Special":
+							pok_name = "Froakie";
+						case "Rockruff-Special":
+							pok_name = "Rockruff";
+						case "Deerling-Spring":		
+						case "Deerling-Summer":
+						case "Deerling-Winter":
+						case "Deerling-Autumn":
+							pok_name = "Deerling";
+						case "Burmy-Plant":
+						case "Burmy-Sandy":
+						case "Burmy-Trash":
+							pok_name = "Burmy";
+					}
+					if (pok_name.includes("Eevee"))
+						pok_name = "Eevee";
+	
+					// Create the Pokémon sprite HTML
+					var pok = document.createElement('img');
+					pok.id = `pok-${i}`;
+					pok.className = 'trainer-pok left-side flipped-image draggable-pok';
+					pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					pok.setAttribute('draggable', 'true');
+					pok.dataset.id = `${customName} (Custom Set)`;
+					pok.title = `${customName} (Custom Set)`;
+	
+					// Add dragstart event listener
+					pok.addEventListener('dragstart', dragStart);
+					pok.addEventListener('dragend', dragEnd);
+	
+					// Append the Pokémon sprite to the default box-poke-list drop zone
+					document.getElementById('box-poke-list').appendChild(pok);
+				}
+			}
+		}
+	
+		// Add drag and drop event listeners to the dynamically generated elements
+		const dropzones = document.querySelectorAll('.dropzone');
+	
+		dropzones.forEach(zone => {
+			zone.addEventListener('dragover', dragOver);
+			zone.addEventListener('drop', drop);
+			zone.addEventListener('dragleave', dragLeave);
+		});
+	
+		// Return the box array (optional)
+		return box;
+	}
+	
+	
+
+   // Function to handle the start of a drag event
+   function dragStart(event) {
+	event.dataTransfer.setData('text/plain', event.target.id); // Set the drag data to the ID of the target
+	event.target.classList.add('dragging'); // Add a class to indicate dragging
+	setTimeout(() => {
+		event.target.style.display = 'none'; // Hide the element to prevent duplicate display
+	}, 0);
+}
+
+// Function to handle the end of a drag event
+function dragEnd(event) {
+	event.target.classList.remove('dragging'); // Remove the dragging class
+	event.target.style.display = 'block'; // Show the element again
+}
+
+// Function to handle drag-over events
+function dragOver(event) {
+	event.preventDefault(); // Prevent default behavior to allow drop
+	event.currentTarget.classList.add('dragover'); // Add a class to indicate the drag-over state
+}
+
+// Function to handle drop events
+function drop(event) {
+	event.preventDefault(); // Prevent default behavior
+	const id = event.dataTransfer.getData('text/plain'); // Get the ID of the dragged element
+	const draggable = document.getElementById(id); // Get the draggable element using the ID
+	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
+	event.currentTarget.appendChild(draggable); // Append the draggable element to the drop zone
+	draggable.style.display = 'block'; // Ensure the element is visible after dropping
+}
+
+// Function to handle drag-leave events
+function dragLeave(event) {
+	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
+}
+
 function addSets(pokes, name) {
 	var rows = pokes.split("\n");
 	var currentRow;
@@ -359,10 +543,10 @@ function addSets(pokes, name) {
 		}
 	}
 	if (addedpokes > 0) {
+		get_box()
 		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
 		alert("Successfully imported " + addedpokes + " set(s).");
 		customSets = JSON.parse(localStorage.customsets);
-		updateDex(customSets);
 		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
