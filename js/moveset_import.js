@@ -330,6 +330,16 @@ function updateDex(customsets) {
 	localStorage.customsets = JSON.stringify(customsets);
 }
 
+function imageExists(image_url){
+
+    var http = new XMLHttpRequest();
+
+    http.open('HEAD', image_url, false);
+    http.send();
+
+    return http.status != 404;
+}
+
 function get_box() {
 		var names = get_trainer_names();
 		var box = [];
@@ -351,7 +361,7 @@ function get_box() {
 					// Push the custom name to the box array
 					box.push(customName);
 	
-					// Extract the Pokémon name from the custom name
+					// Extract the Pokémon name from the custom name					box.unknownName);
 					var pok_name = customName.split(" (")[0];
 					console.log(pok_name);
 					console.log(pok_name == "Charcadet-Ghost");
@@ -448,9 +458,16 @@ function get_box() {
 					const ctx = canvas.getContext("2d");
 	
 					const pok = new Image();
+					var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					if (!imageExists(pok_img)) {
+						pok_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
+					}
 					pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
 
 					const item = new Image();
+					var item_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					if (!imageExists(item_img)) {
+						item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
 					item.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
 
 					ctx.drawImage(pok, 0, 0, canvas.width, canvas.height);
