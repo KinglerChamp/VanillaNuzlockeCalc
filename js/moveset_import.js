@@ -468,26 +468,26 @@ function get_box() {
 					var item_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
 					if (!imageExists(item_img)) {
 						item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
+					}
 					item.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
 
 					ctx.drawImage(pok, 0, 0, canvas.width, canvas.height);
 					ctx.drawImage(item, 0, 0, canvas.width / 2, canvas.height / 2);
 
-					// Create the Pokémon sprite HTML
-					//var pok = document.createElement('img');
-					pok.id = `pok-${i}`;
-					pok.className = 'trainer-pok left-side flipped-image draggable-pok';
-					//pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
-					pok.setAttribute('draggable', 'true');
-					pok.dataset.id = `${customName} (Custom Set)`;
-					pok.title = `${customName} (Custom Set)`;
+					const final = new Image();
+					final.src = canvas.toDataURL();
+					final.id = `pok-${i}`;
+					final.className = 'trainer-pok left-side flipped-image draggable-pok';
+					final.setAttribute('draggable', 'true');
+					final.dataset.id = `${customName} (Custom Set)`;
+					final.title = `${customName} (Custom Set)`;
 	
 					// Add dragstart event listener
-					pok.addEventListener('dragstart', dragStart);
-					pok.addEventListener('dragend', dragEnd);
+					final.addEventListener('dragstart', dragStart);
+					final.addEventListener('dragend', dragEnd);
 	
 					// Append the Pokémon sprite to the default box-poke-list drop zone
-					document.getElementById('box-poke-list').appendChild(pok);
+					document.getElementById('box-poke-list').appendChild(final);
 				}
 			}
 		}
