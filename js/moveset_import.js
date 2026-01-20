@@ -443,12 +443,24 @@ function get_box() {
 					}
 					if (pok_name.includes("Eevee"))
 						pok_name = "Eevee";
+
+					const canvas = document.createElement('canvas');
+					const ctx = canvas.getContext("2d");
 	
+					const pok = new Image();
+					pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+
+					const item = new Image();
+					item.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+
+					ctx.drawImage(pok, 0, 0, canvas.width, canvas.height);
+					ctx.drawImage(item, 0, 0, canvas.width / 2, canvas.height / 2);
+
 					// Create the Pokémon sprite HTML
-					var pok = document.createElement('img');
+					//var pok = document.createElement('img');
 					pok.id = `pok-${i}`;
 					pok.className = 'trainer-pok left-side flipped-image draggable-pok';
-					pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					//pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
 					pok.setAttribute('draggable', 'true');
 					pok.dataset.id = `${customName} (Custom Set)`;
 					pok.title = `${customName} (Custom Set)`;
