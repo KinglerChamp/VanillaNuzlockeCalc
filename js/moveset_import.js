@@ -454,8 +454,12 @@ function get_box() {
 					if (pok_name.includes("Eevee"))
 						pok_name = "Eevee";
 
-					const canvas = document.createElement('canvas');
-					const ctx = canvas.getContext("2d");
+					const container = document.createElement('div');
+					container.id = `pok-${i}`;
+					container.className = 'trainer-pok left-side flipped-image draggable-pok';
+					container.setAttribute('draggable', 'true');
+					container.dataset.id = `${customName} (Custom Set)`;
+					container.title = `${customName} (Custom Set)`;
 	
 					const pok = new Image();
 					var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
@@ -470,24 +474,18 @@ function get_box() {
 						item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
 					}
 					item.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					item.style.height = '30%';
+					item.style.width = '30%';
 
-					ctx.drawImage(pok, 0, 0, canvas.width, canvas.height);
-					ctx.drawImage(item, 0, 0, canvas.width / 2, canvas.height / 2);
-
-					const final = new Image();
-					final.src = canvas.toDataURL();
-					final.id = `pok-${i}`;
-					final.className = 'trainer-pok left-side flipped-image draggable-pok';
-					final.setAttribute('draggable', 'true');
-					final.dataset.id = `${customName} (Custom Set)`;
-					final.title = `${customName} (Custom Set)`;
+					container.appendChild(pok);
+					container.appendChild(item);
 	
 					// Add dragstart event listener
 					final.addEventListener('dragstart', dragStart);
 					final.addEventListener('dragend', dragEnd);
 	
 					// Append the Pokémon sprite to the default box-poke-list drop zone
-					document.getElementById('box-poke-list').appendChild(final);
+					document.getElementById('box-poke-list').appendChild(container);
 				}
 			}
 		}
