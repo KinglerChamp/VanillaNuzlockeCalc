@@ -71,6 +71,13 @@ function ExportPokemon(pokeInfo) {
 	$("textarea.import-team-text").val(finalText);
 }
 
+$("#save-set").click(function () {
+	ExportPokemon($("#p1"));
+	var pokes = document.getElementsByClassName("import-team-text")[0].value;
+	var name = document.getElementsByClassName("import-name-text")[0].value.trim() === "" ? "Custom Set" : document.getElementsByClassName("import-name-text")[0].value;
+	addSets(pokes, name);
+});
+
 $("#exportL").click(function () {
 	ExportPokemon($("#p1"));
 });
@@ -440,4 +447,5 @@ $(document).ready(function () {
 	} else {
 		loadDefaultLists();
 	}
+
 });
