@@ -581,30 +581,73 @@ function sortmons(a,b){
 
 // auto-update set details on select
 $(".set-selector").change(function () {
+	document.getElementById('trainer-pok-list-opposing').innerHTML = "";
+	
 	window.NO_CALC = true;
 	var fullSetName = $(this).val();
 
-
 	if ($(this).hasClass('opposing')) {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
-
+		var held_items = get_held_items();
+		var tr_names = get_trainer_names();
 
 	var next_poks = CURRENT_TRAINER_POKS.sort()
 
-	var trpok_html = ""
 	for (var i in next_poks) {
 		if (next_poks[i][0].includes($('input.opposing').val())) {
 			continue;
 		}
+		var item_name = held_items[tr_names.indexOf(next_poks[i])].toLowerCase().replace(" ", "_");
 		var pok_name = next_poks[i].split("]")[1].split(" (")[0];
 		if (pok_name == "Zygarde-10%") {
 			pok_name = "Zygarde-10%25"
 		}
-	
 
-	
-		var pok = `<img class="trainer-pok right-side" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png" data-id="${CURRENT_TRAINER_POKS[i].split("]")[1]}" title="${next_poks[i]}, ${next_poks[i]} BP">`
-		trpok_html += pok;
+		const container = document.createElement('div');
+		container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
+		container.title = `${next_poks[i]}, ${next_poks[i]} BP`;
+		container.className = "trainer-pok right-side";
+		container.style.position = "relative";
+
+		const pok = new Image();
+		var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+		pok.src = pok_img;
+		pok.style.width = "100%";
+
+		const item = new Image();
+		var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
+		item.src = item_img;
+		item.style.top = '40%';
+		item.style.left = 0;
+		item.style.width = '50%';
+		item.style.position = 'absolute';
+
+		pok.onload = function() {
+			container.appendChild(pok);
+		}
+		pok.onerror = function() {
+			var err = new Image();
+			err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
+			err.style.width = '100%';
+			container.appendChild(err);
+		}
+
+		item.onload = function() {
+			if (item_name != "undefined") {
+				container.appendChild(item);
+			}
+		}
+		item.onerror = function() {
+			var err = new Image();
+			err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
+			err.style.top = '40%';
+			err.style.left = 0;
+			err.style.width = '50%';
+			err.style.position = 'absolute';
+			container.appendChild(err);
+		}
+
+		document.getElementById('trainer-pok-list-opposing').appendChild(container);
 	}
 }
 
@@ -2115,4 +2158,5 @@ function updateGameOptions() {
 	if (window.history && window.history.replaceState) {
 		window.history.replaceState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
 	}
+
 }
