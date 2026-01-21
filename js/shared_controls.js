@@ -590,16 +590,16 @@ $(".set-selector").change(function () {
 
 	if ($(this).hasClass('opposing')) {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
-		//CURRENT_ITEMS = get_trainer_items(fullSetName)
+		var held_items = get_held_items();
+		var tr_names = get_trainer_names();
 
 	var next_poks = CURRENT_TRAINER_POKS.sort()
-	//var next_items = CURRENT_ITEMS.sort()
 
 	for (var i in next_poks) {
 		if (next_poks[i][0].includes($('input.opposing').val())) {
 			continue;
 		}
-		var item_name = "abomasite"; //next_items[i].toLowerCase().replace(" ", "_");
+		var item_name = held_items[tr_names.indexOf(next_poks[i])].toLowerCase().replace(" ", "_");
 		var pok_name = next_poks[i].split("]")[1].split(" (")[0];
 		if (pok_name == "Zygarde-10%") {
 			pok_name = "Zygarde-10%25"
@@ -1367,7 +1367,6 @@ var RANDDEX = [
 var gen, genWasChanged, notation, pokedex, setdex, randdex, typeChart, moves, abilities, items, calcHP, calcStat, GENERATION;
 
 TR_NAMES = get_trainer_names()
-//HELD_ITEMS = get_held_items()
 var DEFAULTGEN = 9;
 $(".gen").change(function () {
 	/*eslint-disable */
@@ -2169,18 +2168,6 @@ function get_trainer_poks(trainer_name)
     }
     return matches
 }
-
-//function get_trainer_items(trainer_name)
-//{
-//	var true_name = trainer_name.split("(")[1]
-//    var matches = []
-//    for (i in TR_NAMES) {
-//        if (TR_NAMES[i].includes(true_name)) {
-//            matches.push(HELD_ITEMS[i])
-//        }
-//    }
-//    return matches
-//}
 
 var all_sets = [
     {}, 
