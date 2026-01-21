@@ -599,7 +599,7 @@ $(".set-selector").change(function () {
 		if (next_poks[i][0].includes($('input.opposing').val())) {
 			continue;
 		}
-		var item_name = "abomasite"; //next_items[i].toLowerCase().replace(" ", "_");21
+		var item_name = next_items[i].toLowerCase().replace(" ", "_");
 		var pok_name = next_poks[i].split("]")[1].split(" (")[0];
 		if (pok_name == "Zygarde-10%") {
 			pok_name = "Zygarde-10%25"
@@ -2160,7 +2160,6 @@ function addBoxed(poke) {
 
 function get_trainer_poks(trainer_name)
 {
-
 	var true_name = trainer_name.split("(")[1]
     var matches = []
     for (i in TR_NAMES) {
