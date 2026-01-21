@@ -445,6 +445,7 @@ function get_box() {
 					item.src = item_img;
 					item.setAttribute('draggable', 'false');
 					item.style.top = '40%';
+					item.style.left = 0;
 					item.style.width = '50%';
 					item.style.position = 'absolute';
 
@@ -460,7 +461,7 @@ function get_box() {
 					}
 					
 					item.onload = function() {
-						if (!heldItem === "(none)") {
+						if (item_name != "undefined") {
 							container.appendChild(item);
 						}
 					}
@@ -469,6 +470,7 @@ function get_box() {
 						err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
 						err.setAttribute('draggable', 'false');
 						err.style.top = '40%';
+						err.style.left = 0;
 						err.style.width = '50%';
 						err.style.position = 'absolute';
 						container.appendChild(err);
@@ -650,5 +652,6 @@ $(document).ready(function () {
 	}
 
 });
+
 
 
