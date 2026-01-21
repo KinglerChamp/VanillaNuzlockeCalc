@@ -1847,8 +1847,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	
 					// Extract the Pokémon name from the custom name
 					var pok_name = customName.split(" (")[0];
-					console.log(pok_name);
-					console.log(pok_name == "Charcadet-Ghost");
 					switch (pok_name) {
 						case "Zygarde-10%":
 							pok_name = "Zygarde-10%25";
@@ -1976,7 +1974,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 					container.addEventListener('dragend', dragEnd);
 	
 					// Append the Pokémon sprite to the default box-poke-list drop zone
-					document.getElementById('box-poke-list').appendChild(pok);
+					document.getElementById('box-poke-list').appendChild(container);
 				}
 			}
 		}

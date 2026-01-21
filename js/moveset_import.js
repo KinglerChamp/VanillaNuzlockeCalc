@@ -415,8 +415,6 @@ function get_box() {
 	
 					// Extract the Pokémon name from the custom name					box.unknownName);
 					var pok_name = customName.split(" (")[0];
-					console.log(pok_name);
-					console.log(pok_name == "Charcadet-Ghost");
 					switch (pok_name) {
 						case "Zygarde-10%":
 							pok_name = "Zygarde-10%25";
