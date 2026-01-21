@@ -7424,7 +7424,7 @@ var SM_PATCH = {
         weightkg: 212,
         abilities: { 0: 'Shell Armor' }
     },
-    'Type: Null': {
+    'Type Null': {
         types: ['Normal'],
         bs: { hp: 95, at: 95, df: 95, sa: 95, sd: 95, sp: 59 },
         weightkg: 120.5,
