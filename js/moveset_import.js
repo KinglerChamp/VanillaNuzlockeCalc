@@ -481,8 +481,8 @@ function get_box() {
 					container.appendChild(item);
 	
 					// Add dragstart event listener
-					final.addEventListener('dragstart', dragStart);
-					final.addEventListener('dragend', dragEnd);
+					container.addEventListener('dragstart', dragStart);
+					container.addEventListener('dragend', dragEnd);
 	
 					// Append the Pokémon sprite to the default box-poke-list drop zone
 					document.getElementById('box-poke-list').appendChild(container);
