@@ -637,15 +637,6 @@ $(".set-selector").change(function () {
 				container.appendChild(item);
 			}
 		}
-		item.onerror = function() {
-			var err = new Image();
-			err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
-			err.style.top = '40%';
-			err.style.left = 0;
-			err.style.width = '50%';
-			err.style.position = 'absolute';
-			container.appendChild(err);
-		}
 
 		document.getElementById('trainer-pok-list-opposing').appendChild(container);
 	}
@@ -2160,3 +2151,4 @@ function updateGameOptions() {
 	}
 
 }
+
