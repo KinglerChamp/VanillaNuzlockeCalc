@@ -464,7 +464,6 @@ function addSets(pokes, name) {
 	if (addedpokes > 0) {
 		get_box()
 		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
-		alert("Successfully imported " + addedpokes + " set(s).");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}	
@@ -552,3 +551,4 @@ $(document).ready(function () {
 	}
 
 });
+
