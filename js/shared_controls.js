@@ -588,17 +588,18 @@ $(".set-selector").change(function () {
 	window.NO_CALC = true;
 	var fullSetName = $(this).val();
 
-
 	if ($(this).hasClass('opposing')) {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
+		CURRENT_ITEMS = get_trainer_items(fullSetName)
 
 	var next_poks = CURRENT_TRAINER_POKS.sort()
+	var next_items = CURRENT_ITEMS.sort()
 
 	for (var i in next_poks) {
 		if (next_poks[i][0].includes($('input.opposing').val())) {
 			continue;
 		}
-		var item_name = "abomasite";
+		var item_name = next_items[i].toLowerCase().replace(" ", "_");
 		var pok_name = next_poks[i].split("]")[1].split(" (")[0];
 		if (pok_name == "Zygarde-10%") {
 			pok_name = "Zygarde-10%25"
@@ -607,7 +608,7 @@ $(".set-selector").change(function () {
 		const container = document.createElement('div');
 		container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
 		container.title = `${next_poks[i]}, ${next_poks[i]} BP`;
-		container.class = "trainer-pok right-side";
+		container.className = "trainer-pok right-side";
 		container.style.position = "relative";
 
 		const pok = new Image();
@@ -648,6 +649,7 @@ $(".set-selector").change(function () {
 			container.appendChild(err);
 		}
 
+		
 		document.getElementById('trainer-pok-list-opposing').appendChild(container);
 	}
 }
@@ -1365,6 +1367,7 @@ var RANDDEX = [
 var gen, genWasChanged, notation, pokedex, setdex, randdex, typeChart, moves, abilities, items, calcHP, calcStat, GENERATION;
 
 TR_NAMES = get_trainer_names()
+HELD_ITEMS = get_held_items()
 var DEFAULTGEN = 9;
 $(".gen").change(function () {
 	/*eslint-disable */
@@ -2167,6 +2170,19 @@ function get_trainer_poks(trainer_name)
     }
     return matches
 }
+
+function get_trainer_items(trainer_name)
+{
+	var true_name = trainer_name.split("(")[1]
+    var matches = []
+    for (i in TR_NAMES) {
+        if (TR_NAMES[i].includes(true_name)) {
+            matches.push(HELD_ITEMS[i])
+        }
+    }
+    return matches
+}
+
 var all_sets = [
     {}, 
     typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
