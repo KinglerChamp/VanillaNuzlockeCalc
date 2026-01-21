@@ -522,6 +522,7 @@ function get_box() {
 					pok.onerror = function() {
 						var err = new Image();
 						err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
+						err.setAttribute('draggable', 'false');
 						container.appendChild(err);
 					}
 					
@@ -533,6 +534,11 @@ function get_box() {
 					item.onerror = function() {
 						var err = new Image();
 						err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
+						err.setAttribute('draggable', 'false');
+						err.style.top = '40%';
+						err.style.left = 0;
+						err.style.width = '50%';
+						err.style.position = 'absolute';
 						container.appendChild(err);
 					}
 	
