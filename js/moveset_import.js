@@ -392,6 +392,7 @@ function get_held_items() {
 
 function get_box() {
 		var names = get_trainer_names();
+		var items = get_held_items();
 		var box = [];
 	
 		// Object to keep track of encountered custom entries
@@ -403,6 +404,7 @@ function get_box() {
 		for (var i = 0; i < names.length; i++) {
 			if (names[i].includes("Custom")) {
 				var customName = names[i].split(" (")[0];
+				var heldItem = items[i];
 	
 				// Check if this custom entry has been encountered before
 				if (!encounteredCustom[customName]) {
@@ -521,7 +523,7 @@ function get_box() {
 					pok.setAttribute('draggable', 'false');
 
 					const item = new Image();
-					var item_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/${heldItem}.png`;
 					if (!imageExists(item_img)) {
 						item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
 					}
@@ -533,7 +535,9 @@ function get_box() {
 					item.style.position = 'absolute';
 
 					container.appendChild(pok);
-					container.appendChild(item);
+					if (!heldItem === "(none)") {
+						container.appendChild(item);
+					}
 	
 					// Add dragstart event listener
 					container.addEventListener('dragstart', dragStart);

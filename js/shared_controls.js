@@ -1824,6 +1824,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Function to get box and generate HTML for draggable items
 	function get_box() {
 		var names = get_trainer_names();
+		var items = get_held_items();
 		var box = [];
 	
 		// Object to keep track of encountered custom entries
@@ -1835,6 +1836,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		for (var i = 0; i < names.length; i++) {
 			if (names[i].includes("Custom")) {
 				var customName = names[i].split(" (")[0];
+				var heldItem = items[i];
 	
 				// Check if this custom entry has been encountered before
 				if (!encounteredCustom[customName]) {
@@ -1936,18 +1938,42 @@ document.addEventListener('DOMContentLoaded', (event) => {
 					if (pok_name.includes("Eevee"))
 						pok_name = "Eevee";
 	
-					// Create the Pokémon sprite HTML
-					var pok = document.createElement('img');
-					pok.id = `pok-${i}`;
-					pok.className = 'trainer-pok left-side flipped-image draggable-pok';
-					pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
-					pok.setAttribute('draggable', 'true');
-					pok.dataset.id = `${customName} (Custom Set)`;
-					pok.title = `${customName} (Custom Set)`;
+					const container = document.createElement('div');
+					container.id = `pok-${i}`;
+					container.className = 'trainer-pok left-side flipped-image draggable-pok';
+					container.setAttribute('draggable', 'true');
+					container.dataset.id = `${customName} (Custom Set)`;
+					container.title = `${customName} (Custom Set)`;
+					container.style.position = 'relative';
+	
+					const pok = new Image();
+					var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					if (!imageExists(pok_img)) {
+						pok_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
+					}
+					pok.src = pok_img;
+					pok.setAttribute('draggable', 'false');
+
+					const item = new Image();
+					var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/${heldItem}.png`;
+					if (!imageExists(item_img)) {
+						item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
+					}
+					item.src = item_img;
+					item.setAttribute('draggable', 'false');
+					item.style.top = '40%';
+					item.style.left = 0;
+					item.style.width = '50%';
+					item.style.position = 'absolute';
+
+					container.appendChild(pok);
+					if (!heldItem === "(none)") {
+						container.appendChild(item);
+					}
 	
 					// Add dragstart event listener
-					pok.addEventListener('dragstart', dragStart);
-					pok.addEventListener('dragend', dragEnd);
+					container.addEventListener('dragstart', dragStart);
+					container.addEventListener('dragend', dragEnd);
 	
 					// Append the Pokémon sprite to the default box-poke-list drop zone
 					document.getElementById('box-poke-list').appendChild(pok);
