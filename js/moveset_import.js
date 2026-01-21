@@ -395,6 +395,7 @@ function get_box() {
 			if (names[i].includes("Custom")) {
 				var customName = names[i].split(" (")[0];
 				var heldItem = items[i];
+				var item_name = heldItem.toLowerCase().replace(" ", "_");
 	
 				// Check if this custom entry has been encountered before
 				if (!encounteredCustom[customName]) {
@@ -508,7 +509,7 @@ function get_box() {
 					pok.setAttribute('draggable', 'false');
 
 					const item = new Image();
-					var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/${heldItem}.png`;
+					var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
 					item.src = item_img;
 					item.setAttribute('draggable', 'false');
 					item.style.top = '40%';
