@@ -467,6 +467,7 @@ function get_box() {
 						pok_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
 					}
 					pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					pok.setAttribute('draggable', 'false');
 
 					const item = new Image();
 					var item_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
@@ -474,6 +475,9 @@ function get_box() {
 						item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
 					}
 					item.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					item.setAttribute('draggable', 'false');
+					item.style.bottom = 0;
+					item.style.right = 0;
 					item.style.height = '30%';
 					item.style.width = '30%';
 
