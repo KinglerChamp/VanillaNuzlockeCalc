@@ -330,6 +330,116 @@ function updateDex(customsets) {
 	localStorage.customsets = JSON.stringify(customsets);
 }
 
+// Function to get box and generate HTML for draggable items
+function get_box() {
+		var names = get_trainer_names();
+		var box = [];
+	
+		// Object to keep track of encountered custom entries
+		var encounteredCustom = {};
+	
+		// Clear the content of the default div
+		document.getElementById('box-poke-list').innerHTML = "";
+	
+		for (var i = 0; i < names.length; i++) {
+			if (names[i].includes("Custom")) {
+				var customName = names[i].split(" (")[0];
+	
+				// Check if this custom entry has been encountered before
+				if (!encounteredCustom[customName]) {
+					encounteredCustom[customName] = true;
+	
+					// Push the custom name to the box array
+					box.push(customName);
+	
+					// Extract the Pokémon name from the custom name
+					var pok_name = customName.split(" (")[0];
+					switch (pok_name) {
+						case "Zygarde-10%":
+							pok_name = "Zygarde-10%25";
+							break;
+						case "Flabébé":
+							pok_name = "Flabébé";
+							break;
+						case "Pumpkaboo-Large":
+						case "Pumpkaboo-Super":
+						case "Pumpkaboo-Small":
+							pok_name = "Pumpkaboo";
+							break;
+						case "Aegislash-Blade":
+						case "Aegislash-Shield":
+						case "Aegislash-Both":
+							pok_name = "Aegislash";
+							break;
+					}
+	
+					// Create the Pokémon sprite HTML
+					var pok = document.createElement('img');
+					pok.id = `pok-${i}`;
+					pok.className = 'trainer-pok left-side flipped-image draggable-pok';
+					pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					pok.setAttribute('draggable', 'true');
+					pok.dataset.id = `${customName} (Custom Set)`;
+					pok.title = `${customName} (Custom Set)`;
+	
+					// Add dragstart event listener
+					pok.addEventListener('dragstart', dragStart);
+					pok.addEventListener('dragend', dragEnd);
+	
+					// Append the Pokémon sprite to the default box-poke-list drop zone
+					document.getElementById('box-poke-list').appendChild(pok);
+				}
+			}
+		}
+	
+		// Add drag and drop event listeners to the dynamically generated elements
+		const dropzones = document.querySelectorAll('.dropzone');
+	
+		dropzones.forEach(zone => {
+			zone.addEventListener('dragover', dragOver);
+			zone.addEventListener('drop', drop);
+			zone.addEventListener('dragleave', dragLeave);
+		});
+	
+		// Return the box array (optional)
+		return box;
+}
+		
+// Function to handle the start of a drag event
+function dragStart(event) {
+	event.dataTransfer.setData('text/plain', event.target.id); // Set the drag data to the ID of the target
+	event.target.classList.add('dragging'); // Add a class to indicate dragging
+	setTimeout(() => {
+		event.target.style.display = 'none'; // Hide the element to prevent duplicate display
+	}, 0);
+}
+
+// Function to handle the end of a drag event
+function dragEnd(event) {
+	event.target.classList.remove('dragging'); // Remove the dragging class
+	event.target.style.display = 'block'; // Show the element again
+}
+
+// Function to handle drag-over events
+function dragOver(event) {
+	event.preventDefault(); // Prevent default behavior to allow drop
+	event.currentTarget.classList.add('dragover'); // Add a class to indicate the drag-over state
+}
+
+// Function to handle drop events
+function drop(event) {
+	event.preventDefault(); // Prevent default behavior
+	const id = event.dataTransfer.getData('text/plain'); // Get the ID of the dragged element
+	const draggable = document.getElementById(id); // Get the draggable element using the ID
+	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
+	event.currentTarget.appendChild(draggable); // Append the draggable element to the drop zone
+	draggable.style.display = 'block'; // Ensure the element is visible after dropping
+}
+
+// Function to handle drag-leave events
+function dragLeave(event) {
+	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
+}
 function addSets(pokes, name) {
 	var rows = pokes.split("\n");
 	var currentRow;
@@ -359,9 +469,8 @@ function addSets(pokes, name) {
 		}
 	}
 	if (addedpokes > 0) {
+		get_box()
 		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
-		alert("Successfully imported " + addedpokes + " set(s). Refreshing...");
-		setTimeout(() => location.reload(), 250); // Refresh with a slight delay
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}	
@@ -449,3 +558,4 @@ $(document).ready(function () {
 	}
 
 });
+
