@@ -1946,17 +1946,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	
 					const pok = new Image();
 					var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
-					if (!imageExists(pok_img)) {
-						pok_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
-					}
 					pok.src = pok_img;
 					pok.setAttribute('draggable', 'false');
 
 					const item = new Image();
 					var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/${heldItem}.png`;
-					if (!imageExists(item_img)) {
-						item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
-					}
 					item.src = item_img;
 					item.setAttribute('draggable', 'false');
 					item.style.top = '40%';
@@ -1964,9 +1958,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
 					item.style.width = '50%';
 					item.style.position = 'absolute';
 
-					container.appendChild(pok);
-					if (!heldItem === "(none)") {
-						container.appendChild(item);
+					pok.onload = function() {
+						container.appendChild(pok);
+					}
+					pok.onerror = function() {
+						var err = new Image();
+						err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
+						container.appendChild(err);
+					}
+					
+					item.onload = function() {
+						if (!heldItem === "(none)") {
+							container.appendChild(item);
+						}
+					}
+					item.onerror = function() {
+						var err = new Image();
+						err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/img/unknown.png`;
+						container.appendChild(err);
 					}
 	
 					// Add dragstart event listener
