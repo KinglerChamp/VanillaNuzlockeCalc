@@ -1859,7 +1859,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Function to get box and generate HTML for draggable items
 	function get_box() {
 		var names = get_trainer_names();
-		var items = get_held_items():
+		var items = get_held_items();
 		var box = [];
 	
 		// Object to keep track of encountered custom entries
