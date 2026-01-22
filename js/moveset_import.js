@@ -554,13 +554,13 @@ function get_box() {
 					
 					var title = ttp_setName;
 					if (ttp_level != undefined) {
-						title += `\n${ttp_level}`;
+						title += `\nLevel: ${ttp_level}`;
 					}
 					if (ttp_nature != undefined) {
-						title += `\n${ttp_nature}`;
+						title += `\nNature: ${ttp_nature}`;
 					}
 					if (ttp_ability != undefined) {
-						title += `\n${ttp_ability}`;
+						title += `\nAbility: ${ttp_ability}`;
 					}
 
 					if (move1 != undefined) {
