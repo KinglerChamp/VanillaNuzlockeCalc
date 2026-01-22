@@ -380,7 +380,7 @@ function get_held_items() {
     return held_items;
 }
 
-function get_moves() {
+function get_sets() {
     var all_sets = [
         {}, 
 		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
@@ -414,23 +414,22 @@ function get_moves() {
 		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
 	];
 
-    var moves = [];
+    var sets = [];
     all_sets.forEach(function(set) {
         for (const [pok_name, poks] of Object.entries(set)) {
             var pok_tr_names = Object.keys(poks);
             for (var i = 0; i < pok_tr_names.length; i++) {
-                var pokMoves = poks[pok_tr_names[i]]["moves"];
-                moves.push(pokMoves);
+                sets.push(poks[pok_tr_names[i]]);
 			}
 		}
     });
-    return moves;
+    return sets;
 }
 
 function get_box() {
 		var names = get_trainer_names();
 		var items = get_held_items();
-		var moves = get_moves();
+		var sets = get_sets();
 		var box = [];
 	
 		// Object to keep track of encountered custom entries
@@ -444,7 +443,7 @@ function get_box() {
 				var customName = names[i].split(" (")[0];
 				var heldItem = items[i];
 				var item_name = heldItem.toLowerCase().replace(" ", "_");
-				var pok_moves = moves[i];
+				var pok_moves = sets[i]["moves"];
 	
 				// Check if this custom entry has been encountered before
 				if (!encounteredCustom[customName]) {
@@ -545,18 +544,21 @@ function get_box() {
 						pok_name = "Eevee";
 
 					var ttp_setName = `${customName} (Custom Set)`;
+					var ttp_level = sets[i]["level"];
+					var ttp_ability = sets[i]["ability"];
+					var ttp_nature = sets[i]["nature"];
 					var move1 = pok_moves[0];
 					var move2 = pok_moves[1];
 					var move3 = pok_moves[2];
 					var move4 = pok_moves[3];
-					var ttp_moves = `${move1}\n${move2}\n${move3}\n${move4}`;
+					var ttp_moves = `-${move1}\n-${move2}\n-${move3}\n-${move4}`;
 
 					const container = document.createElement('div');
 					container.id = `pok-${i}`;
 					container.className = 'trainer-pok left-side flipped-image draggable-pok';
 					container.setAttribute('draggable', 'true');
 					container.dataset.id = `${customName} (Custom Set)`;
-					container.title = `${ttp_setName}\n${ttp_moves}`;
+					container.title = `${ttp_setName}\nLevel: ${ttp_level}\nNature: ${ttp_nature}\nAbility: ${ttp_ability}\n${ttp_moves}`;
 					container.style.position = 'relative';
 	
 					const pok = new Image();
