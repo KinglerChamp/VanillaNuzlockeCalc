@@ -654,7 +654,11 @@ $(".set-selector").change(function () {
 			}
 
 			var ttp_setName = `${next_poks[i].replace("[undefined]", "")}`;
-			var ttp_moves = `${tr_moves[i][0]}\n${tr_moves[i][1]}\n${tr_moves[i][2]}\n${tr_moves[i][3]}`;
+			var move1 = tr_moves[tr_names.indexOf(next_poks[i])][0];
+			var move2 = tr_moves[tr_names.indexOf(next_poks[i])][1];
+			var move3 = tr_moves[tr_names.indexOf(next_poks[i])][2];
+			var move4 = tr_moves[tr_names.indexOf(next_poks[i])][3];
+			var ttp_moves = `${move1}\n${move2}\n${move3}\n${move4}`;
 
 			const container = document.createElement('div');
 			container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
@@ -1909,6 +1913,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	function get_box() {
 		var names = get_trainer_names();
 		var items = get_held_items();
+		var moves = get_moves();
 		var box = [];
 	
 		// Object to keep track of encountered custom entries
@@ -1922,6 +1927,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 				var customName = names[i].split(" (")[0];
 				var heldItem = items[i];
 				var item_name = heldItem.toLowerCase().replace(" ", "_");
+				var pok_moves = moves[i];
 	
 				// Check if this custom entry has been encountered before
 				if (!encounteredCustom[customName]) {
@@ -2020,13 +2026,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
 					}
 					if (pok_name.includes("Eevee"))
 						pok_name = "Eevee";
-	
+					
+					var ttp_setName = `${customName} (Custom Set)`;
+					var move1 = pok_moves[0];
+					var move2 = pok_moves[1];
+					var move3 = pok_moves[2];
+					var move4 = pok_moves[3];
+					var ttp_moves = `${move1}\n${move2}\n${move3}\n${move4}`;
+
 					const container = document.createElement('div');
 					container.id = `pok-${i}`;
 					container.className = 'trainer-pok left-side flipped-image draggable-pok';
 					container.setAttribute('draggable', 'true');
 					container.dataset.id = `${customName} (Custom Set)`;
-					container.title = `${customName} (Custom Set)`;
+					container.title = `${ttp_setName}\n${ttp_moves}`;
 					container.style.position = 'relative';
 	
 					const pok = new Image();
