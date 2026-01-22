@@ -581,10 +581,11 @@ function sortmons(a,b){
 
 // auto-update set details on select
 $(".set-selector").change(function () {
-	document.getElementById('trainer-pok-list-opposing').innerHTML = "";
-	
+document.getElementById('trainer-pok-list-opposing').innerHTML = "";
+
 	window.NO_CALC = true;
 	var fullSetName = $(this).val();
+
 
 	if ($(this).hasClass('opposing')) {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
@@ -593,6 +594,7 @@ $(".set-selector").change(function () {
 
 	var next_poks = CURRENT_TRAINER_POKS.sort()
 
+	var trpok_html = ""
 	for (var i in next_poks) {
 		if (next_poks[i][0].includes($('input.opposing').val())) {
 			continue;
@@ -602,7 +604,9 @@ $(".set-selector").change(function () {
 		if (pok_name == "Zygarde-10%") {
 			pok_name = "Zygarde-10%25"
 		}
+	
 
+	
 		const container = document.createElement('div');
 		container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
 		container.title = `${next_poks[i]}, ${next_poks[i]} BP`;
@@ -641,8 +645,6 @@ $(".set-selector").change(function () {
 		document.getElementById('trainer-pok-list-opposing').appendChild(container);
 	}
 }
-
-	$('.trainer-pok-list-opposing').html(trpok_html)
 
 	
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
@@ -1764,6 +1766,7 @@ function get_trainer_names() {
     return trainer_names;
 }
 
+
 var names = get_trainer_names();
 
 
@@ -2236,4 +2239,5 @@ function updateGameOptions() {
 	}
 
 }
+
 
