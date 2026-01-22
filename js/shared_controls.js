@@ -657,8 +657,20 @@ $(".set-selector").change(function () {
 			var move2 = sets[tr_names.indexOf(next_poks[i])]["moves"][1];
 			var move3 = sets[tr_names.indexOf(next_poks[i])]["moves"][2];
 			var move4 = sets[tr_names.indexOf(next_poks[i])]["moves"][3];
+			var ttp_ability = sets[tr_names.indexOf(next_poks[i])]["ability"];
+			var ttp_nature = sets[tr_names.indexOf(next_poks[i])]["nature"];
+			var ttp_level = sets[tr_names.indexOf(next_poks[i])]["level"];
 
 			var title = ttp_setName;
+			if (ttp_level != undefined) {
+				title += `\nLevel: ${ttp_level}`;
+			}
+			if (ttp_nature != undefined) {
+				title += `\nNature: ${ttp_nature}`;
+			}
+			if (ttp_ability != undefined) {
+				title += `\nAbility: ${ttp_ability}`;
+			}
 			if (move1 != undefined) {
 				title += `\n-${move1}`;
 			}
@@ -1983,13 +1995,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
 					
 					var title = ttp_setName;
 					if (ttp_level != undefined) {
-						title += `\n${ttp_level}`;
+						title += `\nLevel: ${ttp_level}`;
 					}
 					if (ttp_nature != undefined) {
-						title += `\n${ttp_nature}`;
+						title += `\nNature: ${ttp_nature}`;
 					}
 					if (ttp_ability != undefined) {
-						title += `\n${ttp_ability}`;
+						title += `\nAbility: ${ttp_ability}`;
 					}
 
 					if (move1 != undefined) {
@@ -2339,6 +2351,7 @@ function updateGameOptions() {
 	}
 
 }
+
 
 
 
