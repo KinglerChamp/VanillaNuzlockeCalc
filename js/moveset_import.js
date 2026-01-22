@@ -551,14 +551,37 @@ function get_box() {
 					var move2 = pok_moves[1];
 					var move3 = pok_moves[2];
 					var move4 = pok_moves[3];
-					var ttp_moves = `-${move1}\n-${move2}\n-${move3}\n-${move4}`;
+					
+					var title = ttp_setName;
+					if (ttp_level != "undefined") {
+						title += `\n${ttp_level}`;
+					}
+					if (ttp_nature != "undefined") {
+						title += `\n${ttp_nature}`;
+					}
+					if (ttp_ability != "undefined") {
+						title += `\n${ttp_ability}`;
+					}
+
+					if (move1 != "undefined") {
+						title += `\n-${move1}`;
+					}
+					if (move2 != "undefined") {
+						title += `\n-${move2}`;
+					}
+					if (move3 != "undefined") {
+						title += `\n-${move3}`;
+					}
+					if (move4 != "undefined") {
+						title += `\n-${move4}`;
+					}
 
 					const container = document.createElement('div');
 					container.id = `pok-${i}`;
 					container.className = 'trainer-pok left-side flipped-image draggable-pok';
 					container.setAttribute('draggable', 'true');
 					container.dataset.id = `${customName} (Custom Set)`;
-					container.title = `${ttp_setName}\nLevel: ${ttp_level}\nNature: ${ttp_nature}\nAbility: ${ttp_ability}\n${ttp_moves}`;
+					container.title = title;
 					container.style.position = 'relative';
 	
 					const pok = new Image();
