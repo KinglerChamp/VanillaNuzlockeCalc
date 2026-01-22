@@ -579,6 +579,52 @@ function sortmons(a,b){
 	return parseInt(a.split("[")[1].split("]")[0]) - parseInt(b.split("[")[1].split("]")[0])
 }
 
+function get_sets() {
+    var all_sets = [
+        {}, 
+		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
+		typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
+		typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
+		typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
+		typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+		typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
+		typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
+		typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+		typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
+		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
+		typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
+		typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
+		typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
+		typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
+		typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
+		typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
+		typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
+		typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
+		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
+		typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
+		typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
+		typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
+		typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
+		typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
+		typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
+		typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
+		typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
+		typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
+		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
+	];
+
+    var sets = [];
+    all_sets.forEach(function(set) {
+        for (const [pok_name, poks] of Object.entries(set)) {
+            var pok_tr_names = Object.keys(poks);
+            for (var i = 0; i < pok_tr_names.length; i++) {
+                sets.push(poks[pok_tr_names[i]]);
+			}
+		}
+    });
+    return sets;
+}
+
 // auto-update set details on select
 $(".set-selector").change(function () {
 	window.NO_CALC = true;
@@ -591,6 +637,7 @@ $(".set-selector").change(function () {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
 		var held_items = get_held_items();
 		var tr_names = get_trainer_names();
+		var sets = get_sets();
 
 		var next_poks = CURRENT_TRAINER_POKS.sort()
 
@@ -605,11 +652,29 @@ $(".set-selector").change(function () {
 				pok_name = "Zygarde-10%25"
 			}
 	
+			var ttp_setName = `${next_poks[i].replace("[undefined]", "")}`;
+			var move1 = sets[tr_names.indexOf(next_poks[i])]["moves"][0];
+			var move2 = sets[tr_names.indexOf(next_poks[i])]["moves"][1];
+			var move3 = sets[tr_names.indexOf(next_poks[i])]["moves"][2];
+			var move4 = sets[tr_names.indexOf(next_poks[i])]["moves"][3];
 
+			var title = ttp_setName;
+			if (move1 != undefined) {
+				title += `\n-${move1}`;
+			}
+			if (move2 != undefined) {
+				title += `\n-${move2}`;
+			}
+			if (move3 != undefined) {
+				title += `\n-${move3}`;
+			}
+			if (move4 != undefined) {
+				title += `\n-${move4}`;
+			}
 	
 			const container = document.createElement('div');
 			container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
-			container.title = `${next_poks[i]}, ${next_poks[i]} BP`;
+			container.title = title;
 			container.className = "trainer-pok right-side";
 			container.style.position = "relative";
 
@@ -637,7 +702,7 @@ $(".set-selector").change(function () {
 			}
 
 			item.onload = function() {
-				if (item_name != "undefined") {
+				if (item_name != undefined) {
 					container.appendChild(item);
 				}
 			}
@@ -1863,6 +1928,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	function get_box() {
 		var names = get_trainer_names();
 		var items = get_held_items();
+		var sets = get_sets();
 		var box = [];
 	
 		// Object to keep track of encountered custom entries
@@ -1876,6 +1942,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 				var customName = names[i].split(" (")[0];
 				var heldItem = items[i];
 				var item_name = heldItem.toLowerCase().replace(" ", "_");
+				var pok_moves = sets[i]["moves"];
 	
 				// Check if this custom entry has been encountered before
 				if (!encounteredCustom[customName]) {
@@ -1904,13 +1971,46 @@ document.addEventListener('DOMContentLoaded', (event) => {
 							pok_name = "Aegislash";
 							break;
 					}
-	
+
+					var ttp_setName = `${customName} (Custom Set)`;
+					var ttp_level = sets[i]["level"];
+					var ttp_ability = sets[i]["ability"];
+					var ttp_nature = sets[i]["nature"];
+					var move1 = pok_moves[0];
+					var move2 = pok_moves[1];
+					var move3 = pok_moves[2];
+					var move4 = pok_moves[3];
+					
+					var title = ttp_setName;
+					if (ttp_level != undefined) {
+						title += `\n${ttp_level}`;
+					}
+					if (ttp_nature != undefined) {
+						title += `\n${ttp_nature}`;
+					}
+					if (ttp_ability != undefined) {
+						title += `\n${ttp_ability}`;
+					}
+
+					if (move1 != undefined) {
+						title += `\n-${move1}`;
+					}
+					if (move2 != undefined) {
+						title += `\n-${move2}`;
+					}
+					if (move3 != undefined) {
+						title += `\n-${move3}`;
+					}
+					if (move4 != undefined) {
+						title += `\n-${move4}`;
+					}
+					
 					const container = document.createElement('div');
 					container.id = `pok-${i}`;
 					container.className = 'trainer-pok left-side flipped-image draggable-pok';
 					container.setAttribute('draggable', 'true');
 					container.dataset.id = `${customName} (Custom Set)`;
-					container.title = `${customName} (Custom Set)`;
+					container.title = title;
 					container.style.position = 'relative';
 	
 					const pok = new Image();
@@ -1940,7 +2040,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 					}
 					
 					item.onload = function() {
-						if (item_name != "undefined") {
+						if (item_name != undefined) {
 							container.appendChild(item);
 						}
 					}
@@ -2239,6 +2339,7 @@ function updateGameOptions() {
 	}
 
 }
+
 
 
 
