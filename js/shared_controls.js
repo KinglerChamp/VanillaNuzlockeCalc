@@ -581,68 +581,119 @@ function sortmons(a,b){
 	return parseInt(a.split("[")[1].split("]")[0]) - parseInt(b.split("[")[1].split("]")[0])
 }
 
+function get_moves() {
+    var all_sets = [
+        {}, 
+		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
+		typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
+		typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
+		typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
+		typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+		typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
+		typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
+		typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+		typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
+		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
+		typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
+		typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
+		typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
+		typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
+		typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
+		typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
+		typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
+		typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
+		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
+		typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
+		typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
+		typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
+		typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
+		typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
+		typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
+		typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
+		typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
+		typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
+		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
+	];
+
+    var moves = [];
+    all_sets.forEach(function(set) {
+        for (const [pok_name, poks] of Object.entries(set)) {
+            var pok_tr_names = Object.keys(poks);
+            for (var i = 0; i < pok_tr_names.length; i++) {
+                var pokMoves = poks[pok_tr_names[i]]["moves"];
+                moves.push(pokMoves);
+			}
+		}
+    });
+    return moves;
+}
+
 // auto-update set details on select
 $(".set-selector").change(function () {
-	document.getElementById('trainer-pok-list-opposing').innerHTML = "";
-
 	window.NO_CALC = true;
 	var fullSetName = $(this).val();
 
 	if ($(this).hasClass('opposing')) {
+		document.getElementById('trainer-pok-list-opposing').innerHTML = "";
+
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
 		var held_items = get_held_items();
 		var tr_names = get_trainer_names();
+		var tr_moves = get_moves();
 
-	var next_poks = CURRENT_TRAINER_POKS.sort()
+		var next_poks = CURRENT_TRAINER_POKS.sort()
 
-	for (var i in next_poks) {
-		if (next_poks[i][0].includes($('input.opposing').val())) {
-			continue;
-		}
-		var item_name = held_items[tr_names.indexOf(next_poks[i])].toLowerCase().replace(" ", "_");
-		var pok_name = next_poks[i].split("]")[1].split(" (")[0];
-		if (pok_name == "Zygarde-10%") {
-			pok_name = "Zygarde-10%25"
-		}
-
-		const container = document.createElement('div');
-		container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
-		container.title = `${next_poks[i]}, ${next_poks[i]} BP`;
-		container.className = "trainer-pok right-side";
-		container.style.position = "relative";
-
-		const pok = new Image();
-		var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
-		pok.src = pok_img;
-		pok.style.width = "100%";
-
-		const item = new Image();
-		var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
-		item.src = item_img;
-		item.style.top = '40%';
-		item.style.left = 0;
-		item.style.width = '50%';
-		item.style.position = 'absolute';
-
-		pok.onload = function() {
-			container.appendChild(pok);
-		}
-		pok.onerror = function() {
-			var err = new Image();
-			err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
-			err.style.width = '100%';
-			container.appendChild(err);
-		}
-
-		item.onload = function() {
-			if (item_name != "undefined") {
-				container.appendChild(item);
+		for (var i in next_poks) {
+			if (next_poks[i][0].includes($('input.opposing').val())) {
+				continue;
 			}
-		}
+			var item_name = held_items[tr_names.indexOf(next_poks[i])].toLowerCase().replace(" ", "_");
+			var pok_name = next_poks[i].split("]")[1].split(" (")[0];
+			if (pok_name == "Zygarde-10%") {
+				pok_name = "Zygarde-10%25"
+			}
 
-		document.getElementById('trainer-pok-list-opposing').appendChild(container);
+			var ttp_setName = `${next_poks[i].replace("[undefined]", "")}`;
+			var ttp_moves = `${tr_moves[i][0]}\n${tr_moves[i][1]}\n${tr_moves[i][2]}\n${tr_moves[i][3]}`;
+
+			const container = document.createElement('div');
+			container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
+			container.title = `${ttp_setName}\n${ttp_moves}`;
+			container.className = "trainer-pok right-side";
+			container.style.position = "relative";
+
+			const pok = new Image();
+			var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+			pok.src = pok_img;
+			pok.style.width = "100%";
+
+			const item = new Image();
+			var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
+			item.src = item_img;
+			item.style.top = '40%';
+			item.style.left = 0;
+			item.style.width = '50%';
+			item.style.position = 'absolute';
+
+			pok.onload = function() {
+				container.appendChild(pok);
+			}
+			pok.onerror = function() {
+				var err = new Image();
+				err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
+				err.style.width = '100%';
+				container.appendChild(err);
+			}
+
+			item.onload = function() {
+				if (item_name != "undefined") {
+					container.appendChild(item);
+				}
+			}
+
+			document.getElementById('trainer-pok-list-opposing').appendChild(container);
+		}
 	}
-}
 	
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
