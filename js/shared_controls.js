@@ -581,70 +581,70 @@ function sortmons(a,b){
 
 // auto-update set details on select
 $(".set-selector").change(function () {
-document.getElementById('trainer-pok-list-opposing').innerHTML = "";
-
 	window.NO_CALC = true;
 	var fullSetName = $(this).val();
 
 
 	if ($(this).hasClass('opposing')) {
+		document.getElementById('trainer-pok-list-opposing').innerHTML = "";
+		
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
 		var held_items = get_held_items();
 		var tr_names = get_trainer_names();
 
-	var next_poks = CURRENT_TRAINER_POKS.sort()
+		var next_poks = CURRENT_TRAINER_POKS.sort()
 
-	var trpok_html = ""
-	for (var i in next_poks) {
-		if (next_poks[i][0].includes($('input.opposing').val())) {
-			continue;
-		}
-		var item_name = held_items[tr_names.indexOf(next_poks[i])].toLowerCase().replace(" ", "_");
-		var pok_name = next_poks[i].split("]")[1].split(" (")[0];
-		if (pok_name == "Zygarde-10%") {
-			pok_name = "Zygarde-10%25"
-		}
-	
-
-	
-		const container = document.createElement('div');
-		container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
-		container.title = `${next_poks[i]}, ${next_poks[i]} BP`;
-		container.className = "trainer-pok right-side";
-		container.style.position = "relative";
-
-		const pok = new Image();
-		var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
-		pok.src = pok_img;
-		pok.style.width = "100%";
-
-		const item = new Image();
-		var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
-		item.src = item_img;
-		item.style.top = '40%';
-		item.style.left = 0;
-		item.style.width = '50%';
-		item.style.position = 'absolute';
-
-		pok.onload = function() {
-			container.appendChild(pok);
-		}
-		pok.onerror = function() {
-			var err = new Image();
-			err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
-			err.style.width = '100%';
-			container.appendChild(err);
-		}
-
-		item.onload = function() {
-			if (item_name != "undefined") {
-				container.appendChild(item);
+		var trpok_html = ""
+		for (var i in next_poks) {
+			if (next_poks[i][0].includes($('input.opposing').val())) {
+				continue;
 			}
-		}
+			var item_name = held_items[tr_names.indexOf(next_poks[i])].toLowerCase().replace(" ", "_");
+			var pok_name = next_poks[i].split("]")[1].split(" (")[0];
+			if (pok_name == "Zygarde-10%") {
+				pok_name = "Zygarde-10%25"
+			}
+	
 
-		document.getElementById('trainer-pok-list-opposing').appendChild(container);
+	
+			const container = document.createElement('div');
+			container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
+			container.title = `${next_poks[i]}, ${next_poks[i]} BP`;
+			container.className = "trainer-pok right-side";
+			container.style.position = "relative";
+
+			const pok = new Image();
+			var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+			pok.src = pok_img;
+			pok.style.width = "100%";
+
+			const item = new Image();
+			var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
+			item.src = item_img;
+			item.style.top = '40%';
+			item.style.left = 0;
+			item.style.width = '50%';
+			item.style.position = 'absolute';
+
+			pok.onload = function() {
+				container.appendChild(pok);
+			}
+			pok.onerror = function() {
+				var err = new Image();
+				err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
+				err.style.width = '100%';
+				container.appendChild(err);
+			}
+
+			item.onload = function() {
+				if (item_name != "undefined") {
+					container.appendChild(item);
+				}
+			}
+
+			document.getElementById('trainer-pok-list-opposing').appendChild(container);
+		}
 	}
-}
 
 	
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
@@ -2239,5 +2239,6 @@ function updateGameOptions() {
 	}
 
 }
+
 
 
