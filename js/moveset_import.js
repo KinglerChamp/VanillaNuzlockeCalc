@@ -766,6 +766,20 @@ function checkExeptions(poke) {
 
 $(allPokemon("#clearSets")).click(function () {
 	if (confirm("Are you sure you want to delete your custom sets? This action cannot be undone.")) {
+		$('.trainer-pok.left-side').each(function() {
+			var species_name = $(this).attr('data-id').replace(" (Custom Set)", "")
+
+			delete SETDEX_ADV[species_name]["Custom Set"]
+			delete SETDEX_BW[species_name]["Custom Set"]
+			delete SETDEX_DPP[species_name]["Custom Set"]
+			delete SETDEX_GSC[species_name]["Custom Set"]
+			delete SETDEX_RBY[species_name]["Custom Set"]
+			delete SETDEX_SM[species_name]["Custom Set"]
+			delete SETDEX_SS[species_name]["Custom Set"]
+			delete SETDEX_XY[species_name]["Custom Set"]
+			delete SETDEX_SV[species_name]["Custom Set"]
+		})
+
 		localStorage.removeItem("customsets");
 		alert("Custom Sets successfully cleared.");
 		$(allPokemon("#importedSetsOptions")).hide();
