@@ -553,26 +553,26 @@ function get_box() {
 					var move4 = pok_moves[3];
 					
 					var title = ttp_setName;
-					if (ttp_level != "undefined") {
+					if (ttp_level != undefined) {
 						title += `\n${ttp_level}`;
 					}
-					if (ttp_nature != "undefined") {
+					if (ttp_nature != undefined) {
 						title += `\n${ttp_nature}`;
 					}
-					if (ttp_ability != "undefined") {
+					if (ttp_ability != undefined) {
 						title += `\n${ttp_ability}`;
 					}
 
-					if (move1 != "undefined") {
+					if (move1 != undefined) {
 						title += `\n-${move1}`;
 					}
-					if (move2 != "undefined") {
+					if (move2 != undefined) {
 						title += `\n-${move2}`;
 					}
-					if (move3 != "undefined") {
+					if (move3 != undefined) {
 						title += `\n-${move3}`;
 					}
-					if (move4 != "undefined") {
+					if (move4 != undefined) {
 						title += `\n-${move4}`;
 					}
 
@@ -611,7 +611,7 @@ function get_box() {
 					}
 					
 					item.onload = function() {
-						if (item_name != "undefined") {
+						if (item_name != undefined) {
 							container.appendChild(item);
 						}
 					}
