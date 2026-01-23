@@ -1944,11 +1944,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		// Object to keep track of encountered custom entries
 		var encounteredCustom = {};
 	
-		// Clear the content of the default div
-		document.getElementById('box-poke-list').innerHTML = "";
+		var curBox;
+		var box1_html = [];
+		var box2_html = [];
+		var team_html = [];
+		var trash_html = [];
 	
 		for (var i = 0; i < names.length; i++) {
 			if (names[i].includes("Custom")) {
+				var child = document.getElementById(`pok-${i}`);
+				if (child) {
+					var curBox = child.parentElement.id;
+				}
+
 				var customName = names[i].split(" (")[0];
 				var heldItem = items[i];
 				var item_name = heldItem.toLowerCase().replace(" ", "_");
@@ -2129,12 +2137,44 @@ document.addEventListener('DOMContentLoaded', (event) => {
 					container.addEventListener('dragstart', dragStart);
 					container.addEventListener('dragend', dragEnd);
 	
-					// Append the Pokémon sprite to the default box-poke-list drop zone
-					document.getElementById('box-poke-list').appendChild(container);
+					switch (curBox) {
+						default:
+						case "box-poke-list":
+							box1_html.push(container);
+							break;
+						case "box-poke-list2":
+							box2_html.push(container);
+							break;
+						case "trash-box":
+							trash_html.push(container);
+							break;
+						case "team-poke-list":
+							team_html.push(container);
+							break;
+					}
 				}
 			}
 		}
 	
+		// Clear the content of the default div
+		document.getElementById('box-poke-list').innerHTML = "";
+		document.getElementById('box-poke-list2').innerHTML = "";
+		document.getElementById('trash-box').innerHTML = "";
+		document.getElementById('team-poke-list').innerHTML = "";
+
+		for (var i = 0; i< box1_html.length; i++) {
+			document.getElementById('box-poke-list').appendChild(box1_html[i]);
+		}
+		for (var i = 0; i< box2_html.length; i++) {
+			document.getElementById('box-poke-list2').appendChild(box2_html[i]);
+		}
+		for (var i = 0; i< trash_html.length; i++) {
+			document.getElementById('trash-box').appendChild(trash_html[i]);
+		}
+		for (var i = 0; i< team_html.length; i++) {
+			document.getElementById('team-poke-list').appendChild(team_html[i]);
+		}
+
 		// Add drag and drop event listeners to the dynamically generated elements
 		const dropzones = document.querySelectorAll('.dropzone');
 	
