@@ -441,6 +441,12 @@ function get_box() {
 		var team_html = [];
 		var trash_html = [];
 
+		var teamPoks_html = document.getElementById('team-poke-list').children;
+		var teamPoks = [];
+		for (var i = 0; i < teamPoks_html.length; i++) {
+			teamPoks.push(teamPoks_html[i].id);
+		}
+	
 		for (var i = 0; i < names.length; i++) {
 			if (names[i].includes("Custom")) {
 				var child = document.getElementById(`pok-${i}`);
@@ -640,7 +646,7 @@ function get_box() {
 							trash_html.push(container);
 							break;
 						case "team-poke-list":
-							team_html.push(container);
+							team_html.push({ 'html': container, 'index': teamPoks.indexOf(container.id) });
 							break;
 					}
 				}
@@ -662,9 +668,9 @@ function get_box() {
 		for (var i = 0; i< trash_html.length; i++) {
 			document.getElementById('trash-box').appendChild(trash_html[i]);
 		}
-		for (var i = 0; i< team_html.length; i++) {
-			document.getElementById('team-poke-list').appendChild(team_html[i]);
-		}
+		team_html.sort((a, b) => a.index - b.index).forEach(value => {
+			document.getElementById('team-poke-list').appendChild(value.html);
+		});
 	
 		// Add drag and drop event listeners to the dynamically generated elements
 		const dropzones = document.querySelectorAll('.dropzone');

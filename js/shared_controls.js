@@ -2338,7 +2338,7 @@ var all_sets = [
 ];
 
 function previousTrainer() {
-    var string = $(".trainer-pok-list-opposing").html();
+    var string = document.getElementById("trainer-pok-list-opposing").children[0].title;
     var value = parseInt(string.split("]")[0].split("[")[1]) - 1;
 
     for (var set of all_sets) {
@@ -2363,10 +2363,9 @@ previousTrainerButton.innerText = 'Previous Trainer';
 previousTrainerButton.addEventListener('click', previousTrainer);
 
 function nextTrainer() {
-    var string = $(".trainer-pok-list-opposing").html();
-    var initialSplit = string.split("[");
-    var value = parseInt(initialSplit[initialSplit.length - 2].split("]")[0]) + 1;
-
+    var elements = document.getElementById("trainer-pok-list-opposing").children;
+	var string = elements[elements.length - 1].title;
+    var value = parseInt(string.split("]")[0].split("[")[1]) + 1;
 
     for (var set of all_sets) {
         for (const [pok_name, poks] of Object.entries(set)) {
