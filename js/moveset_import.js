@@ -1,6 +1,13 @@
-/*
-This file houses code relating to importing sets.
-*/
+function placeBsBtn() {
+	var importBtn = "<button id='import' class='bs-btn bs-btn-default'>Import</button>";
+	$("#import-1_wrapper").append(importBtn);
+
+	$("#import.bs-btn").click(function () {
+		var pokes = document.getElementsByClassName("import-team-text")[0].value;
+		var name = document.getElementsByClassName("import-name-text")[0].value.trim() === "" ? "Custom Set" : document.getElementsByClassName("import-name-text")[0].value;
+		addSets(pokes, name);
+	});
+}
 
 function ExportPokemon(pokeInfo) {
 	var pokemon = createPokemon(pokeInfo);
@@ -64,12 +71,6 @@ function ExportPokemon(pokeInfo) {
 	$("textarea.import-team-text").val(finalText);
 }
 
-$("#import.bs-btn").click(function () {
-	var pokes = document.getElementsByClassName("import-team-text")[0].value;
-	var name = document.getElementsByClassName("import-name-text")[0].value.trim() === "" ? "Custom Set" : document.getElementsByClassName("import-name-text")[0].value;
-	addSets(pokes, name);
-});
-
 $("#save-set").click(function () {
 	ExportPokemon($("#p1"));
 	var pokes = document.getElementsByClassName("import-team-text")[0].value;
@@ -84,125 +85,6 @@ $("#exportL").click(function () {
 $("#exportR").click(function () {
 	ExportPokemon($("#p2"));
 });
-
-$(allPokemon("#clearSets")).click(function () {
-	if (confirm("Are you sure you want to delete your custom sets? This action cannot be undone.")) {
-		localStorage.removeItem("customsets");
-		$(allPokemon("#importedSetsOptions")).hide();
-		
-		$('.trainer-pok.left-side').each(function() {
-			var species_name = $(this).attr('data-id').split(" (")[0];
-
-			delete SETDEX_BW[species_name]["Custom Set"]
-		})
-
-		alert("Custom Sets successfully cleared. Please refresh the page.");
-	
-		loadDefaultLists();
-		$('.player-poks').html("")
-	}
-});
-
-function addToDex(poke) {
-	var dexObject = {};
-	if ($("#randoms").prop("checked")) {
-		if (GEN9RANDOMBATTLE[poke.name] == undefined) GEN9RANDOMBATTLE[poke.name] = {};
-		if (GEN8RANDOMBATTLE[poke.name] == undefined) GEN8RANDOMBATTLE[poke.name] = {};
-		if (GEN7RANDOMBATTLE[poke.name] == undefined) GEN7RANDOMBATTLE[poke.name] = {};
-		if (GEN6RANDOMBATTLE[poke.name] == undefined) GEN6RANDOMBATTLE[poke.name] = {};
-		if (GEN5RANDOMBATTLE[poke.name] == undefined) GEN5RANDOMBATTLE[poke.name] = {};
-		if (GEN4RANDOMBATTLE[poke.name] == undefined) GEN4RANDOMBATTLE[poke.name] = {};
-		if (GEN3RANDOMBATTLE[poke.name] == undefined) GEN3RANDOMBATTLE[poke.name] = {};
-		if (GEN2RANDOMBATTLE[poke.name] == undefined) GEN2RANDOMBATTLE[poke.name] = {};
-		if (GEN1RANDOMBATTLE[poke.name] == undefined) GEN1RANDOMBATTLE[poke.name] = {};
-	} else {
-		if (SETDEX_SV[poke.name] == undefined) SETDEX_SV[poke.name] = {};
-		if (SETDEX_SS[poke.name] == undefined) SETDEX_SS[poke.name] = {};
-		if (SETDEX_SM[poke.name] == undefined) SETDEX_SM[poke.name] = {};
-		if (SETDEX_XY[poke.name] == undefined) SETDEX_XY[poke.name] = {};
-		if (SETDEX_BW[poke.name] == undefined) SETDEX_BW[poke.name] = {};
-		if (SETDEX_DPP[poke.name] == undefined) SETDEX_DPP[poke.name] = {};
-		if (SETDEX_ADV[poke.name] == undefined) SETDEX_ADV[poke.name] = {};
-		if (SETDEX_GSC[poke.name] == undefined) SETDEX_GSC[poke.name] = {};
-		if (SETDEX_RBY[poke.name] == undefined) SETDEX_RBY[poke.name] = {};
-	}
-	if (poke.ability !== undefined) {
-		dexObject.ability = poke.ability;
-	}
-	if (poke.teraType !== undefined) {
-		dexObject.teraType = poke.teraType;
-	}
-	dexObject.level = poke.level;
-	dexObject.evs = poke.evs;
-	dexObject.ivs = poke.ivs;
-	dexObject.moves = poke.moves;
-	dexObject.nature = poke.nature;
-	dexObject.item = poke.item;
-	dexObject.isCustomSet = poke.isCustomSet;
-	var customsets;
-	if (localStorage.customsets) {
-		customsets = JSON.parse(localStorage.customsets);
-	} else {
-		customsets = {};
-	}
-	if (!customsets[poke.name]) {
-		customsets[poke.name] = {};
-	}
-	customsets[poke.name][poke.nameProp] = dexObject;
-	if (poke.name === "Aegislash-Blade") {
-		if (!customsets["Aegislash-Shield"]) {
-			customsets["Aegislash-Shield"] = {};
-		}
-		customsets["Aegislash-Shield"][poke.nameProp] = dexObject;
-	}
-	updateDex(customsets);
-}
-
-function addSets(pokes, name) {
-	var rows = pokes.split("\n");
-	var currentRow;
-	var currentPoke;
-	var addedpokes = 0;
-	for (var i = 0; i < rows.length; i++) {
-		currentRow = rows[i].split(/[()@]/);
-		for (var j = 0; j < currentRow.length; j++) {
-			currentRow[j] = checkExeptions(currentRow[j].trim());
-			if (calc.SPECIES[9][currentRow[j].trim()] !== undefined) {
-				currentPoke = calc.SPECIES[9][currentRow[j].trim()];
-				currentPoke.name = currentRow[j].trim();
-				currentPoke.item = getItem(currentRow, j + 1);
-				if (j === 1 && currentRow[0].trim()) {
-					currentPoke.nameProp = "Custom Set";
-				} else {
-					currentPoke.nameProp = "Custom Set";
-				}
-				currentPoke.isCustomSet = true;
-				currentPoke.ability = getAbility(rows[i + 1].split(":"));
-				currentPoke.teraType = getTeraType(rows[i + 1].split(":"));
-				currentPoke = getStats(currentPoke, rows, i + 1);
-				currentPoke = getMoves(currentPoke, rows, i);
-				addToDex(currentPoke);
-				addedpokes++;
-			}
-		}
-	}
-	if (addedpokes > 0) {
-		get_box();
-		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
-		alert("Successfully imported " + addedpokes + " set(s).");
-	} else {
-		alert("No sets imported, please check your syntax and try again");
-	}	
-}
-
-function getItem(currentRow, j) {
-	for (;j < currentRow.length; j++) {
-		var item = currentRow[j].trim();
-		if (calc.ITEMS[9].indexOf(item) != -1) {
-			return item;
-		}
-	}
-}
 
 function serialize(array, separator) {
 	var text = "";
@@ -224,6 +106,23 @@ function getAbility(row) {
 function getTeraType(row) {
 	var teraType = row[1] ? row[1].trim() : '';
 	if (Object.keys(calc.TYPE_CHART[9]).slice(1).indexOf(teraType) !== -1) return teraType;
+}
+
+function statToLegacyStat(stat) {
+	switch (stat) {
+	case 'hp':
+		return "hp";
+	case 'atk':
+		return "at";
+	case 'def':
+		return "df";
+	case 'spa':
+		return (gen > 1) ? "sa" : "sl";
+	case 'spd':
+		return "sd";
+	case 'spe':
+		return "sp";
+	}
 }
 
 function getStats(currentPoke, rows, offset) {
@@ -281,19 +180,678 @@ function getStats(currentPoke, rows, offset) {
 	return currentPoke;
 }
 
-function statToLegacyStat(stat) {
-	switch (stat) {
-	case 'hp':
-		return "hp";
-	case 'atk':
-		return "at";
-	case 'def':
-		return "df";
-	case 'spa':
-		return (gen > 1) ? "sa" : "sl";
-	case 'spd':
-		return "sd";
-	case 'spe':
-		return "sp";
+function getItem(currentRow, j) {
+	for (;j < currentRow.length; j++) {
+		var item = currentRow[j].trim();
+		if (calc.ITEMS[9].indexOf(item) != -1) {
+			return item;
+		}
 	}
 }
+
+function getMoves(currentPoke, rows, offset) {
+	var movesFound = false;
+	var moves = [];
+	for (var x = offset; x < offset + 12; x++) {
+		if (rows[x]) {
+			if (rows[x][0] == "-") {
+				movesFound = true;
+				var move = rows[x].substr(2, rows[x].length - 2).replace("[", "").replace("]", "").replace("  ", "");
+				moves.push(move);
+			} else {
+				if (movesFound == true) {
+					break;
+				}
+			}
+		}
+	}
+	currentPoke.moves = moves;
+	return currentPoke;
+}
+
+function addToDex(poke) {
+	var dexObject = {};
+	if ($("#randoms").prop("checked")) {
+		if (GEN9RANDOMBATTLE[poke.name] == undefined) GEN9RANDOMBATTLE[poke.name] = {};
+		if (GEN8RANDOMBATTLE[poke.name] == undefined) GEN8RANDOMBATTLE[poke.name] = {};
+		if (GEN7RANDOMBATTLE[poke.name] == undefined) GEN7RANDOMBATTLE[poke.name] = {};
+		if (GEN6RANDOMBATTLE[poke.name] == undefined) GEN6RANDOMBATTLE[poke.name] = {};
+		if (GEN5RANDOMBATTLE[poke.name] == undefined) GEN5RANDOMBATTLE[poke.name] = {};
+		if (GEN4RANDOMBATTLE[poke.name] == undefined) GEN4RANDOMBATTLE[poke.name] = {};
+		if (GEN3RANDOMBATTLE[poke.name] == undefined) GEN3RANDOMBATTLE[poke.name] = {};
+		if (GEN2RANDOMBATTLE[poke.name] == undefined) GEN2RANDOMBATTLE[poke.name] = {};
+		if (GEN1RANDOMBATTLE[poke.name] == undefined) GEN1RANDOMBATTLE[poke.name] = {};
+	} else {
+		if (SETDEX_SV[poke.name] == undefined) SETDEX_SV[poke.name] = {};
+		if (SETDEX_SS[poke.name] == undefined) SETDEX_SS[poke.name] = {};
+		if (SETDEX_SM[poke.name] == undefined) SETDEX_SM[poke.name] = {};
+		if (SETDEX_XY[poke.name] == undefined) SETDEX_XY[poke.name] = {};
+		if (SETDEX_BW[poke.name] == undefined) SETDEX_BW[poke.name] = {};
+		if (SETDEX_DPP[poke.name] == undefined) SETDEX_DPP[poke.name] = {};
+		if (SETDEX_ADV[poke.name] == undefined) SETDEX_ADV[poke.name] = {};
+		if (SETDEX_GSC[poke.name] == undefined) SETDEX_GSC[poke.name] = {};
+		if (SETDEX_RBY[poke.name] == undefined) SETDEX_RBY[poke.name] = {};
+	}
+	if (poke.ability !== undefined) {
+		dexObject.ability = poke.ability;
+	}
+	if (poke.teraType !== undefined) {
+		dexObject.teraType = poke.teraType;
+	}
+	dexObject.level = poke.level;
+	dexObject.evs = poke.evs;
+	dexObject.ivs = poke.ivs;
+	dexObject.moves = poke.moves;
+	dexObject.nature = poke.nature;
+	dexObject.item = poke.item;
+	dexObject.isCustomSet = poke.isCustomSet;
+	var customsets;
+	if (localStorage.customsets) {
+		customsets = JSON.parse(localStorage.customsets);
+	} else {
+		customsets = {};
+	}
+	if (!customsets[poke.name]) {
+		customsets[poke.name] = {};
+	}
+	customsets[poke.name][poke.nameProp] = dexObject;
+	if (poke.name === "Aegislash-Blade") {
+		if (!customsets["Aegislash-Shield"]) {
+			customsets["Aegislash-Shield"] = {};
+		}
+		customsets["Aegislash-Shield"][poke.nameProp] = dexObject;
+	}
+	updateDex(customsets);
+}
+
+function updateDex(customsets) {
+	for (var pokemon in customsets) {
+		for (var moveset in customsets[pokemon]) {
+			if (!SETDEX_SV[pokemon]) SETDEX_SV[pokemon] = {};
+			SETDEX_SV[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!SETDEX_SS[pokemon]) SETDEX_SS[pokemon] = {};
+			SETDEX_SS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!SETDEX_SM[pokemon]) SETDEX_SM[pokemon] = {};
+			SETDEX_SM[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!SETDEX_XY[pokemon]) SETDEX_XY[pokemon] = {};
+			SETDEX_XY[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!SETDEX_BW[pokemon]) SETDEX_BW[pokemon] = {};
+			SETDEX_BW[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!SETDEX_DPP[pokemon]) SETDEX_DPP[pokemon] = {};
+			SETDEX_DPP[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!SETDEX_ADV[pokemon]) SETDEX_ADV[pokemon] = {};
+			SETDEX_ADV[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!SETDEX_GSC[pokemon]) SETDEX_GSC[pokemon] = {};
+			SETDEX_GSC[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!SETDEX_RBY[pokemon]) SETDEX_RBY[pokemon] = {};
+			SETDEX_RBY[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_RB[pokemon]) CUSTOMSETDEX_RB[pokemon] = {};
+			CUSTOMSETDEX_RB[pokemon][moveset] = customsets[pokemon][moveset];
+			if(!CUSTOMSETDEX_Y[pokemon]) CUSTOMSETDEX_Y[pokemon] = {};
+			CUSTOMSETDEX_Y[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_GS[pokemon]) CUSTOMSETDEX_GS[pokemon] = {};
+			CUSTOMSETDEX_GS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_C[pokemon]) CUSTOMSETDEX_C[pokemon] = {};
+			CUSTOMSETDEX_C[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_RS[pokemon]) CUSTOMSETDEX_RS[pokemon] = {};
+			CUSTOMSETDEX_RS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_E[pokemon]) CUSTOMSETDEX_E[pokemon] = {};
+			CUSTOMSETDEX_E[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_FRLG[pokemon]) CUSTOMSETDEX_FRLG[pokemon] = {};
+			CUSTOMSETDEX_FRLG[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_DP[pokemon]) CUSTOMSETDEX_DP[pokemon] = {};
+			CUSTOMSETDEX_DP[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_Pl[pokemon]) CUSTOMSETDEX_Pl[pokemon] = {};
+			CUSTOMSETDEX_Pl[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_HGSS[pokemon]) CUSTOMSETDEX_HGSS[pokemon] = {};
+			CUSTOMSETDEX_HGSS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_BW[pokemon]) CUSTOMSETDEX_BW[pokemon] = {};
+			CUSTOMSETDEX_BW[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_B2W2[pokemon]) CUSTOMSETDEX_B2W2[pokemon] = {};
+			CUSTOMSETDEX_B2W2[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_B2W2HC[pokemon]) CUSTOMSETDEX_B2W2HC[pokemon] = {};
+			CUSTOMSETDEX_B2W2HC[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_XY[pokemon]) CUSTOMSETDEX_XY[pokemon] = {};
+			CUSTOMSETDEX_XY[pokemon][moveset] = customsets[pokemon][moveset];
+			if(!CUSTOMSETDEX_ORAS[pokemon]) CUSTOMSETDEX_ORAS[pokemon] = {};
+			CUSTOMSETDEX_ORAS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_SM[pokemon]) CUSTOMSETDEX_SM[pokemon] = {};
+			CUSTOMSETDEX_SM[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_USUM[pokemon]) CUSTOMSETDEX_USUM[pokemon] = {};
+			CUSTOMSETDEX_USUM[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_SS[pokemon]) CUSTOMSETDEX_SS[pokemon] = {};
+			CUSTOMSETDEX_SS[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_BDSP[pokemon]) CUSTOMSETDEX_BDSP[pokemon] = {};
+			CUSTOMSETDEX_BDSP[pokemon][moveset] = customsets[pokemon][moveset];
+			if (!CUSTOMSETDEX_SV[pokemon]) CUSTOMSETDEX_SV[pokemon] = {};
+			CUSTOMSETDEX_SV[pokemon][moveset] = customsets[pokemon][moveset]
+		}
+	}
+	localStorage.customsets = JSON.stringify(customsets);
+}
+
+function get_held_items() {
+    var all_sets = [
+        {}, 
+		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
+		typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
+		typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
+		typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
+		typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+		typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
+		typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
+		typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+		typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
+		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
+		typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
+		typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
+		typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
+		typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
+		typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
+		typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
+		typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
+		typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
+		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
+		typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
+		typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
+		typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
+		typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
+		typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
+		typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
+		typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
+		typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
+		typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
+		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
+	];
+    
+    var held_items = [];
+
+    all_sets.forEach(function(set) {
+        for (const [pok_name, poks] of Object.entries(set)) {
+            var pok_tr_names = Object.keys(poks);
+            for (var i = 0; i < pok_tr_names.length; i++) {
+                var item = poks[pok_tr_names[i]]["item"];
+
+                held_items.push(`${item}`);
+			}
+		}
+    });
+
+    return held_items;
+}
+
+function get_sets() {
+    var all_sets = [
+        {}, 
+		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
+		typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
+		typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
+		typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
+		typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+		typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
+		typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
+		typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+		typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
+		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
+		typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
+		typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
+		typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
+		typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
+		typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
+		typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
+		typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
+		typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
+		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
+		typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
+		typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
+		typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
+		typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
+		typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
+		typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
+		typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
+		typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
+		typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
+		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
+	];
+
+    var sets = [];
+    all_sets.forEach(function(set) {
+        for (const [pok_name, poks] of Object.entries(set)) {
+            var pok_tr_names = Object.keys(poks);
+            for (var i = 0; i < pok_tr_names.length; i++) {
+                sets.push(poks[pok_tr_names[i]]);
+			}
+		}
+    });
+    return sets;
+}
+
+function get_box() {
+		var names = get_trainer_names();
+		var items = get_held_items();
+		var sets = get_sets();
+		var box = [];
+	
+		// Object to keep track of encountered custom entries
+		var encounteredCustom = {};
+	
+		var curBox;
+		var box1_html = [];
+		var box2_html = [];
+		var team_html = [];
+		var trash_html = [];
+
+		var teamPoks_html = document.getElementById('team-poke-list').children;
+		var teamPoks = [];
+		for (var i = 0; i < teamPoks_html.length; i++) {
+			teamPoks.push(teamPoks_html[i].id);
+		}
+	
+		for (var i = 0; i < names.length; i++) {
+			if (names[i].includes("Custom")) {
+				var child = document.getElementById(`pok-${i}`);
+				if (child) {
+					var curBox = child.parentElement.id;
+				}
+
+				var customName = names[i].split(" (")[0];
+				var heldItem = items[i];
+				var item_name = heldItem.toLowerCase().replace(" ", "_");
+				var pok_moves = sets[i]["moves"];
+	
+				// Check if this custom entry has been encountered before
+				if (!encounteredCustom[customName]) {
+					encounteredCustom[customName] = true;
+	
+					// Push the custom name to the box array
+					box.push(customName);
+	
+					// Extract the Pokémon name from the custom name					box.unknownName);
+					var pok_name = customName.split(" (")[0];
+					switch (pok_name) {
+						case "Zygarde-10%":
+							pok_name = "Zygarde-10%25";
+							break;
+						case "Flabébé":
+							pok_name = "Flabébé";
+							break;
+						case "Pumpkaboo-Large":
+						case "Pumpkaboo-Super":
+						case "Pumpkaboo-Small":
+							pok_name = "Pumpkaboo";
+							break;
+						case "Aegislash-Blade":
+						case "Aegislash-Shield":
+						case "Aegislash-Both":
+							pok_name = "Aegislash";
+							break;
+						case "Snorunt-Ghost":
+							pok_name = "Snorunt";
+						case "Charcadet-Psychic":
+						case "Charcadet-Ghost":
+							pok_name = "Charcadet";
+						case "Magikarp-Monster":
+							pok_name = "Magikarp";
+						case "Ralts-Fighting":
+							pok_name = "Ralts";
+						case "Pichu-Mega":
+							pok_name = "Pikachu";
+						case "Cleffa-Mega":
+							pok_name = "Clefairy";				
+						case "Igglybuff-Mega":
+							pok_name = "Jigglypuff";
+						case "Togepi-Mega":
+							pok_name = "Togetic";
+						case "Tyrogue-Mega-C":
+							pok_name = "Hitmonchan";
+						case "Tyrogue-Mega-L":
+							pok_name = "Hitmonlee";
+						case "Tyrogue-Mega-T":
+							pok_name = "Hitmontop";
+						case "Elekid-Mega":
+							pok_name = "Electabuzz";
+						case "Magby-Mega":
+							pok_name = "Magmar";
+						case "Smoochum-Mega":
+							pok_name = "Jynx";
+						case "Azurill-Mega":
+							pok_name = "Wynaut";
+						case "Toxel-Mega-A":
+							pok_name = "Toxtricity";
+						case "Toxel-Mega-L":
+							pok_name = "Toxtricity-Low-Key";
+						case "Mime Jr.-Mega-K":
+							pok_name = "Mr. Mime";
+						case "Mime Jr.-Mega-G":
+							pok_name = "Mr. Mime-Galar";
+						case "Wurmple-Poison":
+							pok_name = "Wurmple";
+						case "Nincada-Ghost":
+							pok_name = "Nincada";
+						case "Exeggcute-Dragon":
+							pok_name = "Exeggcute";
+						case "Koffing-Fairy":
+							pok_name = "Koffing";
+						case "Petilil-Fighting":
+							pok_name = "Petilil";
+						case "Rufflet-Psychic":
+							pok_name = "Rufflet";
+						case "Goomy-Steel":
+							pok_name = "Goomy";
+						case "Bergmite-Rock":
+							pok_name = "Bergmite";
+						case "Froakie-Special":
+							pok_name = "Froakie";
+						case "Rockruff-Special":
+							pok_name = "Rockruff";
+						case "Deerling-Spring":		
+						case "Deerling-Summer":
+						case "Deerling-Winter":
+						case "Deerling-Autumn":
+							pok_name = "Deerling";
+						case "Burmy-Plant":
+						case "Burmy-Sandy":
+						case "Burmy-Trash":
+							pok_name = "Burmy";
+					}
+					if (pok_name.includes("Eevee"))
+						pok_name = "Eevee";
+
+					var ttp_setName = `${customName} (Custom Set)`;
+					var ttp_level = sets[i]["level"];
+					var ttp_ability = sets[i]["ability"];
+					var ttp_nature = sets[i]["nature"];
+					var move1 = pok_moves[0];
+					var move2 = pok_moves[1];
+					var move3 = pok_moves[2];
+					var move4 = pok_moves[3];
+					
+					var title = ttp_setName;
+					if (ttp_level != undefined) {
+						title += `\nLevel: ${ttp_level}`;
+					}
+					if (ttp_nature != undefined) {
+						title += `\nNature: ${ttp_nature}`;
+					}
+					if (ttp_ability != undefined) {
+						title += `\nAbility: ${ttp_ability}`;
+					}
+
+					if (move1 != undefined) {
+						title += `\n-${move1}`;
+					}
+					if (move2 != undefined) {
+						title += `\n-${move2}`;
+					}
+					if (move3 != undefined) {
+						title += `\n-${move3}`;
+					}
+					if (move4 != undefined) {
+						title += `\n-${move4}`;
+					}
+
+					const container = document.createElement('div');
+					container.id = `pok-${i}`;
+					container.className = 'trainer-pok left-side flipped-image draggable-pok';
+					container.setAttribute('draggable', 'true');
+					container.dataset.id = `${customName} (Custom Set)`;
+					container.title = title;
+					container.style.position = 'relative';
+	
+					const pok = new Image();
+					var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
+					pok.src = pok_img;
+					pok.setAttribute('draggable', 'false');
+					pok.style.width = '100%';
+
+					const item = new Image();
+					var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
+					item.src = item_img;
+					item.setAttribute('draggable', 'false');
+					item.style.top = '40%';
+					item.style.left = 0;
+					item.style.width = '50%';
+					item.style.position = 'absolute';
+
+					pok.onload = function() {
+						container.appendChild(pok);
+					}
+					pok.onerror = function() {
+						var err = new Image();
+						err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
+						err.setAttribute('draggable', 'false');
+						err.style.width = '100%';
+						container.appendChild(err);
+					}
+					
+					item.onload = function() {
+						if (item_name != undefined) {
+							container.appendChild(item);
+						}
+					}
+	
+					// Add dragstart event listener
+					container.addEventListener('dragstart', dragStart);
+					container.addEventListener('dragend', dragEnd);
+					
+					switch (curBox) {
+						default:
+						case "box-poke-list":
+							box1_html.push(container);
+							break;
+						case "box-poke-list2":
+							box2_html.push(container);
+							break;
+						case "trash-box":
+							trash_html.push(container);
+							break;
+						case "team-poke-list":
+							team_html.push({ 'html': container, 'index': teamPoks.indexOf(container.id) });
+							break;
+					}
+				}
+			}
+		}
+
+		// Clear the content of the default div
+		document.getElementById('box-poke-list').innerHTML = "";
+		document.getElementById('box-poke-list2').innerHTML = "";
+		document.getElementById('trash-box').innerHTML = "";
+		document.getElementById('team-poke-list').innerHTML = "";
+
+		for (var i = 0; i< box1_html.length; i++) {
+			document.getElementById('box-poke-list').appendChild(box1_html[i]);
+		}
+		for (var i = 0; i< box2_html.length; i++) {
+			document.getElementById('box-poke-list2').appendChild(box2_html[i]);
+		}
+		for (var i = 0; i< trash_html.length; i++) {
+			document.getElementById('trash-box').appendChild(trash_html[i]);
+		}
+		team_html.sort((a, b) => a.index - b.index).forEach(value => {
+			document.getElementById('team-poke-list').appendChild(value.html);
+		});
+	
+		// Add drag and drop event listeners to the dynamically generated elements
+		const dropzones = document.querySelectorAll('.dropzone');
+	
+		dropzones.forEach(zone => {
+			zone.addEventListener('dragover', dragOver);
+			zone.addEventListener('drop', drop);
+			zone.addEventListener('dragleave', dragLeave);
+		});
+	
+		// Return the box array (optional)
+		return box;
+	}
+	
+	
+
+   // Function to handle the start of a drag event
+   function dragStart(event) {
+	event.dataTransfer.setData('text/plain', event.target.id); // Set the drag data to the ID of the target
+	event.target.classList.add('dragging'); // Add a class to indicate dragging
+	setTimeout(() => {
+		event.target.style.display = 'none'; // Hide the element to prevent duplicate display
+	}, 0);
+}
+
+// Function to handle the end of a drag event
+function dragEnd(event) {
+	event.target.classList.remove('dragging'); // Remove the dragging class
+	event.target.style.display = 'block'; // Show the element again
+}
+
+// Function to handle drag-over events
+function dragOver(event) {
+	event.preventDefault(); // Prevent default behavior to allow drop
+	event.currentTarget.classList.add('dragover'); // Add a class to indicate the drag-over state
+}
+
+// Function to handle drop events
+function drop(event) {
+	event.preventDefault(); // Prevent default behavior
+	const id = event.dataTransfer.getData('text/plain'); // Get the ID of the dragged element
+	const draggable = document.getElementById(id); // Get the draggable element using the ID
+	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
+	event.currentTarget.appendChild(draggable); // Append the draggable element to the drop zone
+	draggable.style.display = 'block'; // Ensure the element is visible after dropping
+}
+
+// Function to handle drag-leave events
+function dragLeave(event) {
+	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
+}
+
+function addSets(pokes, name) {
+	var rows = pokes.split("\n");
+	var currentRow;
+	var currentPoke;
+	var addedpokes = 0;
+	for (var i = 0; i < rows.length; i++) {
+		currentRow = rows[i].split(/[()@]/);
+		for (var j = 0; j < currentRow.length; j++) {
+			currentRow[j] = checkExeptions(currentRow[j].trim());
+			if (calc.SPECIES[9][currentRow[j].trim()] !== undefined) {
+				currentPoke = calc.SPECIES[9][currentRow[j].trim()];
+				currentPoke.name = currentRow[j].trim();
+				currentPoke.item = getItem(currentRow, j + 1);
+				if (j === 1 && currentRow[0].trim()) {
+					currentPoke.nameProp = "Custom Set";
+				} else {
+					currentPoke.nameProp = "Custom Set";
+				}
+				currentPoke.isCustomSet = true;
+				currentPoke.ability = getAbility(rows[i + 1].split(":"));
+				currentPoke.teraType = getTeraType(rows[i + 1].split(":"));
+				currentPoke = getStats(currentPoke, rows, i + 1);
+				currentPoke = getMoves(currentPoke, rows, i);
+				addToDex(currentPoke);
+				addedpokes++;
+			}
+		}
+	}
+	if (addedpokes > 0) {
+		get_box();
+		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
+		alert("Successfully imported " + addedpokes + " set(s).");
+	} else {
+		alert("No sets imported, please check your syntax and try again");
+	}	
+}
+
+function checkExeptions(poke) {
+	switch (poke) {
+	case 'Aegislash':
+		poke = "Aegislash-Blade";
+		break;
+	case 'Basculin-Blue-Striped':
+		poke = "Basculin";
+		break;
+	case 'Gastrodon-East':
+		poke = "Gastrodon";
+		break;
+	case 'Mimikyu-Busted-Totem':
+		poke = "Mimikyu-Totem";
+		break;
+	case 'Mimikyu-Busted':
+		poke = "Mimikyu";
+		break;
+	case 'Pikachu-Belle':
+	case 'Pikachu-Cosplay':
+	case 'Pikachu-Libre':
+	case 'Pikachu-Original':
+	case 'Pikachu-Partner':
+	case 'Pikachu-PhD':
+	case 'Pikachu-Pop-Star':
+	case 'Pikachu-Rock-Star':
+		poke = "Pikachu";
+		break;
+	case 'Vivillon-Fancy':
+	case 'Vivillon-Pokeball':
+		poke = "Vivillon";
+		break;
+	case 'Florges-White':
+	case 'Florges-Blue':
+	case 'Florges-Orange':
+	case 'Florges-Yellow':
+		poke = "Florges";
+		break;
+	case 'Shellos-East':
+		poke = "Shellos";
+		break;
+	//case 'Deerling-Summer':
+	//case 'Deerling-Autumn':
+	//case 'Deerling-Winter':
+	//	poke = "Deerling";
+	//	break;
+	}
+	return poke;
+
+}
+
+$(allPokemon("#clearSets")).click(function () {
+	if (confirm("Are you sure you want to delete your custom sets? This action cannot be undone.")) {
+		$('.trainer-pok.left-side').each(function() {
+			var species_name = $(this).attr('data-id').replace(" (Custom Set)", "")
+
+			delete SETDEX_ADV[species_name]["Custom Set"]
+			delete SETDEX_BW[species_name]["Custom Set"]
+			delete SETDEX_DPP[species_name]["Custom Set"]
+			delete SETDEX_GSC[species_name]["Custom Set"]
+			delete SETDEX_RBY[species_name]["Custom Set"]
+			delete SETDEX_SM[species_name]["Custom Set"]
+			delete SETDEX_SS[species_name]["Custom Set"]
+			delete SETDEX_XY[species_name]["Custom Set"]
+			delete SETDEX_SV[species_name]["Custom Set"]
+		})
+
+		localStorage.removeItem("customsets");
+		alert("Custom Sets successfully cleared.");
+		$(allPokemon("#importedSetsOptions")).hide();
+		loadDefaultLists();
+		$('.player-poks').html("")
+	}
+});
+
+$(allPokemon("#importedSets")).click(function () {
+	var pokeID = $(this).parent().parent().prop("id");
+	var showCustomSets = $(this).prop("checked");
+	if (showCustomSets) {
+		loadCustomList(pokeID);
+	} else {
+		loadDefaultLists();
+	}
+});
+
+$(document).ready(function () {
+	var customSets;
+	placeBsBtn();
+	if (localStorage.customsets) {
+		customSets = JSON.parse(localStorage.customsets);
+		updateDex(customSets);
+		$(allPokemon("#importedSetsOptions")).css("display", "flex");
+	} else {
+		loadDefaultLists();
+	}
+});
