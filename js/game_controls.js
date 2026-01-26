@@ -1,3 +1,14 @@
+function getSelectOptions(arr, sort, defaultOption) {
+	if (sort) {
+		arr.sort();
+	}
+	var r = '';
+	for (var i = 0; i < arr.length; i++) {
+		r += '<option value="' + arr[i] + '" ' + (defaultOption === i ? 'selected' : '') + '>' + arr[i] + '</option>';
+	}
+	return r;
+}
+
 var game, gameId, generation, isHack;
 $(".game").change(function() {
 	game = $("input[name='game']:checked + label").html();
