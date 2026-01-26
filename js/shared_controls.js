@@ -630,6 +630,53 @@ $(".set-selector").change(function () {
 	window.NO_CALC = true;
 	var fullSetName = $(this).val();
 
+	var playerSetName = $(".set-selector.player").val();
+	var opponentSetName = $(".set-selector.opposing").val();
+	var playerImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${playerSetName.split(" (")[0]}.png`;
+   // Create a new style rule for background image
+   const playerStyle = document.createElement('style');
+   playerStyle.textContent = `
+        .move-result-group > div:first-child::before {
+            background-image: url("${playerImageUrl}");
+        }
+	    .move-result-group::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 100px;
+            /* border: 1px solid red; */
+            background-color: rgb(78, 80, 95);
+            border-radius: 8px;
+            }      
+    `;
+
+    // Append the style rule to the document head
+   document.head.appendChild(playerStyle);
+
+	var opponentImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${opponentSetName.split(" (")[0]}.png`;
+   // Create a new style rule for background image
+   const opponentStyle = document.createElement('style');
+   opponentStyle.textContent = `
+        .move-result-group > div:last-child::before {
+            background-image: url("${opponentImageUrl}");
+        }
+	    .move-result-group::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 100px;
+            /* border: 1px solid red; */
+            background-color: rgb(78, 80, 95);
+            border-radius: 8px;
+            }      
+   `;
+
+   // Append the style rule to the document head
+   document.head.appendChild(opponentStyle);
 
 	if ($(this).hasClass('opposing')) {
 		document.getElementById('trainer-pok-list-opposing').innerHTML = "";
@@ -1945,7 +1992,53 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	
 		// Object to keep track of encountered custom entries
 		var encounteredCustom = {};
-	
+
+		var playerSetName = $(".set-selector.player").val();
+		var opponentSetName = $(".set-selector.opposing").val();
+		var playerImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${playerSetName.split(" (")[0]}.png`;
+    	// Create a new style rule for background image
+    	const playerStyle = document.createElement('style');
+    	playerStyle.textContent = `
+        		.move-result-group > div:first-child::before {
+            	background-image: url("${playerImageUrl}");
+        		}
+	    		.move-result-group::before {
+         	   content: "";
+            	position: absolute;
+            	left: 50%;
+         	   transform: translateX(-50%);
+            	width: 300px;
+            	height: 100px;
+         	   background-color: rgb(78, 80, 95);
+       	      border-radius: 8px;
+            }      
+    	`;
+
+    	// Append the style rule to the document head
+    	document.head.appendChild(playerStyle);
+
+		var opponentImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${opponentSetName.split(" (")[0]}.png`;
+    	// Create a new style rule for background image
+    	const opponentStyle = document.createElement('style');
+    	opponentStyle.textContent = `
+        .move-result-group > div:last-child::before {
+            background-image: url("${opponentImageUrl}");
+        }
+	   	 .move-result-group::before {
+            	content: "";
+         	  	position: absolute;
+            	left: 50%;
+         	   transform: translateX(-50%);
+      	      width: 300px;
+   	         height: 100px;
+         	   background-color: rgb(78, 80, 95);
+      	      border-radius: 8px;
+            }      
+    	`;
+
+    	// Append the style rule to the document head
+    	document.head.appendChild(opponentStyle);
+		
 		var curBox;
 		var box1_html = [];
 		var box2_html = [];
@@ -2390,6 +2483,7 @@ function updateGameOptions() {
 	}
 
 }
+
 
 
 
