@@ -143,7 +143,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function handleClick2(event, backgroundDiv) {
-        const imageUrl = event.target.getAttribute('src');
+        console.log(event.target);
+        const imageUrl = event.target.children[0].getAttribute('src');
         if (backgroundDiv && imageUrl) {
             // Create a new style rule for background image
             const style = document.createElement('style');
