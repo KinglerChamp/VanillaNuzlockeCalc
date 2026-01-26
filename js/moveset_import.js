@@ -380,277 +380,6 @@ function get_held_items() {
     return held_items;
 }
 
-function get_sets() {
-    var all_sets = [
-        {}, 
-		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
-		typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
-		typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
-		typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
-		typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
-		typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
-		typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
-		typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
-		typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
-		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
-		typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
-		typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
-		typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
-		typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
-		typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
-		typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
-		typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
-		typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
-		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
-		typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
-		typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
-		typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
-		typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
-		typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
-		typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
-		typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
-		typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
-		typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
-		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
-	];
-
-    var sets = [];
-    all_sets.forEach(function(set) {
-        for (const [pok_name, poks] of Object.entries(set)) {
-            var pok_tr_names = Object.keys(poks);
-            for (var i = 0; i < pok_tr_names.length; i++) {
-                sets.push(poks[pok_tr_names[i]]);
-			}
-		}
-    });
-    return sets;
-}
-
-// Function to get box and generate HTML for draggable items
-function get_box() {
-		var names = get_trainer_names();
-		var items = get_held_items();
-		var sets = get_sets();
-		var box = [];
-	
-		// Object to keep track of encountered custom entries
-		var encounteredCustom = {};
-	
-		var curBox;
-		var box1_html = [];
-		var box2_html = [];
-		var team_html = [];
-		var trash_html = [];
-
-		var teamPoks_html = document.getElementById('team-poke-list').children;
-		var teamPoks = [];
-		for (var i = 0; i < teamPoks_html.length; i++) {
-			teamPoks.push(teamPoks_html[i].id);
-		}
-	
-		for (var i = 0; i < names.length; i++) {
-			if (names[i].includes("Custom")) {
-				var child = document.getElementById(`pok-${i}`);
-				if (child) {
-					var curBox = child.parentElement.id;
-				}
-				
-				var customName = names[i].split(" (")[0];
-				var heldItem = items[i];
-				var item_name = heldItem.toLowerCase().replace(" ", "_");
-				var pok_moves = sets[i]["moves"];
-	
-				// Check if this custom entry has been encountered before
-				if (!encounteredCustom[customName]) {
-					encounteredCustom[customName] = true;
-	
-					// Push the custom name to the box array
-					box.push(customName);
-	
-					// Extract the Pokémon name from the custom name
-					var pok_name = customName.split(" (")[0];
-					switch (pok_name) {
-						case "Zygarde-10%":
-							pok_name = "Zygarde-10%25";
-							break;
-						case "Flabébé":
-							pok_name = "Flabébé";
-							break;
-						case "Pumpkaboo-Large":
-						case "Pumpkaboo-Super":
-						case "Pumpkaboo-Small":
-							pok_name = "Pumpkaboo";
-							break;
-						case "Aegislash-Blade":
-						case "Aegislash-Shield":
-						case "Aegislash-Both":
-							pok_name = "Aegislash";
-							break;
-					}
-
-					var ttp_setName = `${customName} (Custom Set)`;
-					var ttp_level = sets[i]["level"];
-					var ttp_ability = sets[i]["ability"];
-					var ttp_nature = sets[i]["nature"];
-					var move1 = pok_moves[0];
-					var move2 = pok_moves[1];
-					var move3 = pok_moves[2];
-					var move4 = pok_moves[3];
-					
-					var title = ttp_setName;
-					if (ttp_level != undefined) {
-						title += `\nLevel: ${ttp_level}`;
-					}
-					if (ttp_nature != undefined) {
-						title += `\nNature: ${ttp_nature}`;
-					}
-					if (ttp_ability != undefined) {
-						title += `\nAbility: ${ttp_ability}`;
-					}
-
-					if (move1 != undefined) {
-						title += `\n-${move1}`;
-					}
-					if (move2 != undefined) {
-						title += `\n-${move2}`;
-					}
-					if (move3 != undefined) {
-						title += `\n-${move3}`;
-					}
-					if (move4 != undefined) {
-						title += `\n-${move4}`;
-					}
-	
-					const container = document.createElement('div');
-					container.id = `pok-${i}`;
-					container.className = 'trainer-pok left-side flipped-image draggable-pok';
-					container.setAttribute('draggable', 'true');
-					container.dataset.id = `${customName} (Custom Set)`;
-					container.title = title;
-					container.style.position = 'relative';
-	
-					const pok = new Image();
-					var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
-					pok.src = pok_img;
-					pok.setAttribute('draggable', 'false');
-					pok.style.width = '100%';
-
-					const item = new Image();
-					var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
-					item.src = item_img;
-					item.setAttribute('draggable', 'false');
-					item.style.top = '40%';
-					item.style.left = 0;
-					item.style.width = '50%';
-					item.style.position = 'absolute';
-
-					pok.onload = function() {
-						container.appendChild(pok);
-					}
-					pok.onerror = function() {
-						var err = new Image();
-						err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
-						err.setAttribute('draggable', 'false');
-						err.style.width = '100%';
-						container.appendChild(err);
-					}
-					
-					item.onload = function() {
-						if (item_name != undefined) {
-							container.appendChild(item);
-						}
-					}
-	
-					// Add dragstart event listener
-					container.addEventListener('dragstart', dragStart);
-					container.addEventListener('dragend', dragEnd);
-	
-					switch (curBox) {
-						default:
-						case "box-poke-list":
-							box1_html.push(container);
-							break;
-						case "box-poke-list2":
-							box2_html.push(container);
-							break;
-						case "trash-box":
-							trash_html.push(container);
-							break;
-						case "team-poke-list":
-							team_html.push({ 'html': container, 'index': teamPoks.indexOf(container.id) });
-							break;
-					}
-				}
-			}
-		}
-
-		// Clear the content of the default div
-		document.getElementById('box-poke-list').innerHTML = "";
-		document.getElementById('box-poke-list2').innerHTML = "";
-		document.getElementById('trash-box').innerHTML = "";
-		document.getElementById('team-poke-list').innerHTML = "";
-
-		for (var i = 0; i < box1_html.length; i++) {
-			document.getElementById('box-poke-list').appendChild(box1_html[i]);
-		}
-		for (var i = 0; i < box2_html.length; i++) {
-			document.getElementById('box-poke-list2').appendChild(box2_html[i]);
-		}
-		for (var i = 0; i < trash_html.length; i++) {
-			document.getElementById('trash-box').appendChild(trash_html[i]);
-		}
-		team_html.sort((a, b) => a.index - b.index).forEach(value => {
-			document.getElementById('team-poke-list').appendChild(value.html);
-		});
-	
-		// Add drag and drop event listeners to the dynamically generated elements
-		const dropzones = document.querySelectorAll('.dropzone');
-	
-		dropzones.forEach(zone => {
-			zone.addEventListener('dragover', dragOver);
-			zone.addEventListener('drop', drop);
-			zone.addEventListener('dragleave', dragLeave);
-		});
-	
-		// Return the box array (optional)
-		return box;
-}
-		
-// Function to handle the start of a drag event
-function dragStart(event) {
-	event.dataTransfer.setData('text/plain', event.target.id); // Set the drag data to the ID of the target
-	event.target.classList.add('dragging'); // Add a class to indicate dragging
-	setTimeout(() => {
-		event.target.style.display = 'none'; // Hide the element to prevent duplicate display
-	}, 0);
-}
-
-// Function to handle the end of a drag event
-function dragEnd(event) {
-	event.target.classList.remove('dragging'); // Remove the dragging class
-	event.target.style.display = 'block'; // Show the element again
-}
-
-// Function to handle drag-over events
-function dragOver(event) {
-	event.preventDefault(); // Prevent default behavior to allow drop
-	event.currentTarget.classList.add('dragover'); // Add a class to indicate the drag-over state
-}
-
-// Function to handle drop events
-function drop(event) {
-	event.preventDefault(); // Prevent default behavior
-	const id = event.dataTransfer.getData('text/plain'); // Get the ID of the dragged element
-	const draggable = document.getElementById(id); // Get the draggable element using the ID
-	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
-	event.currentTarget.appendChild(draggable); // Append the draggable element to the drop zone
-	draggable.style.display = 'block'; // Ensure the element is visible after dropping
-}
-
-// Function to handle drag-leave events
-function dragLeave(event) {
-	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
-}
 function addSets(pokes, name) {
 	var rows = pokes.split("\n");
 	var currentRow;
@@ -659,7 +388,7 @@ function addSets(pokes, name) {
 	for (var i = 0; i < rows.length; i++) {
 		currentRow = rows[i].split(/[()@]/);
 		for (var j = 0; j < currentRow.length; j++) {
-			currentRow[j] = checkExeptions(currentRow[j].trim());
+			currentRow[j] = check_name_exeptions(currentRow[j].trim());
 			if (calc.SPECIES[9][currentRow[j].trim()] !== undefined) {
 				currentPoke = calc.SPECIES[9][currentRow[j].trim()];
 				currentPoke.name = currentRow[j].trim();
@@ -681,28 +410,27 @@ function addSets(pokes, name) {
 	}
 	if (addedpokes > 0) {
 		get_box()
-		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
+		alert("Successfully imported " + addedpokes + " set(s).");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}	
 }
 
-function checkExeptions(poke) {
+function check_name_exeptions(poke) {
+    var pok_name = "Ditto";
+
 	switch (poke) {
-	case 'Aegislash':
-		poke = "Aegislash-Blade";
-		break;
 	case 'Basculin-Blue-Striped':
-		poke = "Basculin";
+		pok_name = "Basculin";
 		break;
 	case 'Gastrodon-East':
-		poke = "Gastrodon";
+		pok_name = "Gastrodon";
 		break;
 	case 'Mimikyu-Busted-Totem':
-		poke = "Mimikyu-Totem";
+		pok_name = "Mimikyu-Totem";
 		break;
 	case 'Mimikyu-Busted':
-		poke = "Mimikyu";
+		pok_name = "Mimikyu";
 		break;
 	case 'Pikachu-Belle':
 	case 'Pikachu-Cosplay':
@@ -712,29 +440,54 @@ function checkExeptions(poke) {
 	case 'Pikachu-PhD':
 	case 'Pikachu-Pop-Star':
 	case 'Pikachu-Rock-Star':
-		poke = "Pikachu";
+		pok_name = "Pikachu";
 		break;
 	case 'Vivillon-Fancy':
 	case 'Vivillon-Pokeball':
-		poke = "Vivillon";
+		pok_name = "Vivillon";
 		break;
 	case 'Florges-White':
 	case 'Florges-Blue':
 	case 'Florges-Orange':
 	case 'Florges-Yellow':
-		poke = "Florges";
+		pok_name = "Florges";
 		break;
 	case 'Shellos-East':
-		poke = "Shellos";
+		pok_name = "Shellos";
 		break;
 	case 'Deerling-Summer':
 	case 'Deerling-Autumn':
 	case 'Deerling-Winter':
-		poke = "Deerling";
+		pok_name = "Deerling";
 		break;
+    case "Zygarde-10%":
+		pok_name = "Zygarde-10%25";
+		break;
+	case "Flabébé":
+		pok_name = "Flabébé";
+		break;
+	case "Pumpkaboo-Large":
+	case "Pumpkaboo-Super":
+	case "Pumpkaboo-Small":
+		pok_name = "Pumpkaboo";
+		break;
+	case "Aegislash-Blade":
+	case "Aegislash-Shield":
+	case "Aegislash-Both":
+		pok_name = "Aegislash";
+		break;
+    case "Deerling-Spring":		
+	case "Deerling-Summer":
+	case "Deerling-Winter":
+	case "Deerling-Autumn":
+		pok_name = "Deerling";
+	case "Burmy-Plant":
+	case "Burmy-Sandy":
+	case "Burmy-Trash":
+		pok_name = "Burmy";
 	}
-	return poke;
 
+	return pok_name;
 }
 
 $(allPokemon("#clearSets")).click(function () {
@@ -769,11 +522,3 @@ $(document).ready(function () {
 	}
 
 });
-
-
-
-
-
-
-
-
