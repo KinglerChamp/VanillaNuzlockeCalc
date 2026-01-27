@@ -592,7 +592,7 @@ $(".set-selector").change(function () {
 		var sets = get_sets(fullSetName).sort();
 
 		for (var i in sets) {
-			var pokName = check_name_exeptions(sets[i].name.split("]")[1].split(" (")[0]);
+			var pokName = check_name_exeptions(fullSetName.split(" (")[0]);
 			
             var container = create_sprites(pokName, sets[i])
             container.dataset.id = sets[i].name.split("]")[1];
@@ -2092,6 +2092,8 @@ function get_team_indices() {
 }
 
 function create_tooltip(customName, setData) {
+	setData = setData.data;
+
     var ttp_setName = `${customName} (Custom Set)`;
 	var ttp_level = setData.level;
 	var ttp_ability = setData.ability;
@@ -2132,6 +2134,8 @@ function create_tooltip(customName, setData) {
 
 function create_sprites(customName, setData, pokId = undefined) {
     var tooltip = create_tooltip(customName, setData);
+
+	setData = setData.data;
 
     var heldItem = setData.item;
 	var itemName = heldItem.toLowerCase().replace(" ", "_");
@@ -2177,7 +2181,7 @@ function create_sprites(customName, setData, pokId = undefined) {
 	item.style.position = 'absolute';
 	
 	item.onload = function() { // If the sprite is not found, don't append anything
-		if (item_name != undefined) {
+		if (itemName != undefined) {
 			container.appendChild(item);
 		}
 	}
