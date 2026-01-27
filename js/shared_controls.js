@@ -592,15 +592,14 @@ $(".set-selector").change(function () {
 		var sets = get_sets(fullSetName).sort();
 
 		for (var i in sets) {
-			var pokName = check_name_exeptions(fullSetName.split(" (")[0]);
-			
-            var container = create_sprites(pokName, sets[i])
+			var setName = `[${sets[i].data.index}] ${sets[i].pok} (${sets[i].name})`;
+
+			var container = create_sprites(setName, sets[i].data)
             container.dataset.id = sets[i].name.split("]")[1];
 
 			document.getElementById('trainer-pok-list-opposing').appendChild(container);
 		}
 	}
-
 	
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
@@ -1726,7 +1725,7 @@ var names = get_trainer_names();
 
 function get_box() {
 	var sets = get_sets();
-	var box = []; // What is this for?
+	var box = [];
 
 	// Object to keep track of encountered custom entries
 	var encounteredCustom = {};
@@ -1746,6 +1745,7 @@ function get_box() {
 	for (var i = 0; i < sets.length; i++) {
         var setName = sets[i].name;
         var setData = sets[i].data;
+		var pokName = sets[i].pok;
 
 		if (setName.includes("Custom")) {
             var pokId = `pok-${i}`;
@@ -1755,8 +1755,6 @@ function get_box() {
 			if (child) {
 				var curBox = child.parentElement.id;
 			}
-
-			var pokName = setName.split(" (")[0];
 
 			// Check if this custom entry has been encountered before
 			if (!encounteredCustom[pokName]) {
@@ -2092,7 +2090,13 @@ function get_team_indices() {
 }
 
 function create_tooltip(customName, setData) {
-	var ttp_setName = `${customName} (Custom Set)`;
+	var ttp_setName;
+	if (customName.includes("(")) {
+		ttp_setName = customName;
+	}
+	else {
+		ttp_setName = `${customName} (Custom Set)`;
+	}
 	var ttp_level = setData.level;
 	var ttp_ability = setData.ability;
 	var ttp_nature = setData.nature;
@@ -2152,8 +2156,12 @@ function create_sprites(customName, setData, pokId = undefined) {
 	container.title = tooltip;
 	container.style.position = 'relative';
 
+	var pokName = customName;
+	if (customName.includes("(")) {
+		pokName = customName.split(" (")[0].split("] ")[1];
+	}
     const pok = new Image();
-    pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${customName}.png`;
+    pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pokName}.png`;
 	
     pok.setAttribute('draggable', 'false');
 	pok.style.width = '100%';
@@ -2252,13 +2260,14 @@ function get_sets(setName = undefined) {
 
     all_sets.forEach(set => {
         // Set structure: "[pokemon]: { set_name1: { set1 } }, { set_name2: { set2 } }, ..."
-        Object.values(set).forEach(pok_sets => {
+        Object.entries(set).forEach(([pok_name, pok_sets]) => {
             Object.entries(pok_sets).forEach(([set_name, set_data]) => {
 				if (
 					setName == undefined ||
 					setName.includes(set_name)
 				) {
                 	sets.push({
+						pok: pok_name,
  	                    name: set_name,
     	            	data: set_data
         	        });
