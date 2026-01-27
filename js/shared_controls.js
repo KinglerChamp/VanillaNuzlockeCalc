@@ -592,6 +592,7 @@ $(".set-selector").change(function () {
 		document.getElementById('trainer-pok-list-opposing').innerHTML = "";
 		
 		var sets = get_sets(fullSetName).sort();
+		consolge.log(sets);
 
 		for (var i in sets) {
 			var setName = `[${sets[i].data.index}] ${sets[i].pok} (${sets[i].name})`;
@@ -1362,7 +1363,7 @@ $(".gen").change(function () {
 	$("select.item").find("option").remove().end().append("<option value=\"\">(none)</option>" + itemOptions);
 
 	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".").change();
+	$(".set-selector").change();
 	updateGameOptions();
 });
 
@@ -2295,7 +2296,7 @@ function create_display_sprites() {
 	var opponentImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprite-Gifs/master/${opponentSetName.split(" (")[0]}.gif`;
 
     // Create a new style rule for background image
-    const style = document.getElementById("sprite-display");
+    var style = document.getElementById("sprite-display");
 	if (!style) {
 		style = document.createElement("style");
 		style.id = "sprite-display";
