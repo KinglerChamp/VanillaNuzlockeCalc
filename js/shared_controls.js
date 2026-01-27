@@ -592,7 +592,6 @@ $(".set-selector").change(function () {
 		document.getElementById('trainer-pok-list-opposing').innerHTML = "";
 		
 		var sets = get_sets(fullSetName).sort();
-		consolge.log(sets);
 
 		for (var i in sets) {
 			var setName = `[${sets[i].data.index}] ${sets[i].pok} (${sets[i].name})`;
