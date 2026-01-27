@@ -2308,14 +2308,25 @@ function create_display_sprites() {
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            width: 300px;
-            height: 100px;
             background-color: rgb(78, 80, 95);
             border-radius: 8px;
         }
+
+		.move-result-group > div::before {
+            content: "";
+            display: block;
+            width: 96px;
+            height: 96px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            margin: 0 auto;
+        }
+
 		.move-result-group > div:first-child::before {
             background-image: url("${playerImageUrl}");
         }
+
 		.move-result-group > div:last-child::before {
             background-image: url("${opponentImageUrl}");
         }

@@ -1243,34 +1243,41 @@ table.field {
 }
 
 
-.move-result-group > div,
+.move-result-group > div {
+  position: relative;
+  min-height: 110px;
+}
+
 .move-result-group {
   position: relative;
-
 }
+
+.move-result-group::before {
+  width: 310px;
+  height: 150px;
+}
+
 .move-result-group > div:first-child::before {
   content: "";
   position: absolute;
-  right: 0px;
-  top: 0;
-  width: 15%;
+  right: 20px;
+  top: 20px;
+  width: 120px;
   height: 120px;
   background-repeat: no-repeat;
-  background-size: cover;
   transform: scaleX(-1);
 }
 
 .move-result-group > div:last-child::before {
   content: "";
   position: absolute;
-  left: 0px;
-  top: 0;
-  width: 15%;
+  left: 20px;
+  top: 20px;
+  width: 120px;
   height: 120px;
   background-repeat: no-repeat;
-  background-size: cover;
-
 }
+
 #abilityL1 {
   width: 156px; /* Adjust the width as needed */
 }
