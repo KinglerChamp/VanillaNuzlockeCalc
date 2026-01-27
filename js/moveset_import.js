@@ -380,6 +380,53 @@ function get_held_items() {
     return held_items;
 }
 
+function checkExceptions(poke) {
+	switch (poke) {
+		case 'Aegislash':
+			poke = "Aegislash-Blade";
+			break;
+		case 'Basculin-Blue-Striped':
+			poke = "Basculin";
+			break;
+		case 'Gastrodon-East':
+			poke = "Gastrodon";
+			break;
+		case 'Mimikyu-Busted-Totem':
+			poke = "Mimikyu-Totem";
+			break;
+		case 'Mimikyu-Busted':
+			poke = "Mimikyu";
+			break;
+		case 'Pikachu-Belle':
+		case 'Pikachu-Cosplay':
+		case 'Pikachu-PhD':
+		case 'Pikachu-Pop-Star':
+		case 'Pikachu-Rock-Star':
+			poke = "Pikachu";
+			break;
+		case 'Vivillon-Fancy':
+		case 'Vivillon-Pokeball':
+			poke = "Vivillon";
+			break;
+		case 'Florges-White':
+		case 'Florges-Blue':
+		case 'Florges-Orange':
+		case 'Florges-Yellow':
+			poke = "Florges";
+			break;
+		case 'Shellos-East':
+			poke = "Shellos";
+			break;
+		case 'Deerling-Summer':
+		case 'Deerling-Autumn':
+		case 'Deerling-Winter':
+			poke = "Deerling";
+			break;
+	}
+	
+	return poke;
+}
+
 function addSets(pokes, name) {
 	var rows = pokes.split("\n");
 	var currentRow;
@@ -388,7 +435,7 @@ function addSets(pokes, name) {
 	for (var i = 0; i < rows.length; i++) {
 		currentRow = rows[i].split(/[()@]/);
 		for (var j = 0; j < currentRow.length; j++) {
-			currentRow[j] = check_name_exeptions(currentRow[j].trim());
+			currentRow[j] = checkExceptions(currentRow[j].trim());
 			if (calc.SPECIES[9][currentRow[j].trim()] !== undefined) {
 				currentPoke = calc.SPECIES[9][currentRow[j].trim()];
 				currentPoke.name = currentRow[j].trim();
