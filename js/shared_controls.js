@@ -1765,7 +1765,7 @@ function get_box() {
 				// Push the custom name to the box array
 				box.push(pokName);
 				
-				var container = create_sprites(check_name_exeptions(pokName), setData, pokId)
+				var container = create_sprites(check_name_exeptions(pokName), structuredClone(setData), pokId)
 
 				// Add drag event listeners
 				container.addEventListener('dragstart', dragStart);
@@ -2092,9 +2092,7 @@ function get_team_indices() {
 }
 
 function create_tooltip(customName, setData) {
-	setData = setData.data;
-
-    var ttp_setName = `${customName} (Custom Set)`;
+	var ttp_setName = `${customName} (Custom Set)`;
 	var ttp_level = setData.level;
 	var ttp_ability = setData.ability;
 	var ttp_nature = setData.nature;
@@ -2135,10 +2133,11 @@ function create_tooltip(customName, setData) {
 function create_sprites(customName, setData, pokId = undefined) {
     var tooltip = create_tooltip(customName, setData);
 
-	setData = setData.data;
-
     var heldItem = setData.item;
-	var itemName = heldItem.toLowerCase().replace(" ", "_");
+	var itemName = "";
+	if (heldItem != undefined) {
+		itemName = heldItem.toLowerCase().replace(" ", "_");
+	}
 
     // Create a container for the mon sprie and held item sprite
     const container = document.createElement('div');

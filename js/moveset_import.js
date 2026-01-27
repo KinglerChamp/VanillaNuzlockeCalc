@@ -464,74 +464,74 @@ function addSets(pokes, name) {
 }
 
 function check_name_exeptions(poke) {
-    var pok_name = "Ditto";
+    var pok_name = poke;
 
 	switch (poke) {
-	case 'Basculin-Blue-Striped':
-		pok_name = "Basculin";
-		break;
-	case 'Gastrodon-East':
-		pok_name = "Gastrodon";
-		break;
-	case 'Mimikyu-Busted-Totem':
-		pok_name = "Mimikyu-Totem";
-		break;
-	case 'Mimikyu-Busted':
-		pok_name = "Mimikyu";
-		break;
-	case 'Pikachu-Belle':
-	case 'Pikachu-Cosplay':
-	case 'Pikachu-Libre':
-	case 'Pikachu-Original':
-	case 'Pikachu-Partner':
-	case 'Pikachu-PhD':
-	case 'Pikachu-Pop-Star':
-	case 'Pikachu-Rock-Star':
-		pok_name = "Pikachu";
-		break;
-	case 'Vivillon-Fancy':
-	case 'Vivillon-Pokeball':
-		pok_name = "Vivillon";
-		break;
-	case 'Florges-White':
-	case 'Florges-Blue':
-	case 'Florges-Orange':
-	case 'Florges-Yellow':
-		pok_name = "Florges";
-		break;
-	case 'Shellos-East':
-		pok_name = "Shellos";
-		break;
-	case 'Deerling-Summer':
-	case 'Deerling-Autumn':
-	case 'Deerling-Winter':
-		pok_name = "Deerling";
-		break;
-    case "Zygarde-10%":
-		pok_name = "Zygarde-10%25";
-		break;
-	case "Flabébé":
-		pok_name = "Flabébé";
-		break;
-	case "Pumpkaboo-Large":
-	case "Pumpkaboo-Super":
-	case "Pumpkaboo-Small":
-		pok_name = "Pumpkaboo";
-		break;
-	case "Aegislash-Blade":
-	case "Aegislash-Shield":
-	case "Aegislash-Both":
-		pok_name = "Aegislash";
-		break;
-    case "Deerling-Spring":		
-	case "Deerling-Summer":
-	case "Deerling-Winter":
-	case "Deerling-Autumn":
-		pok_name = "Deerling";
-	case "Burmy-Plant":
-	case "Burmy-Sandy":
-	case "Burmy-Trash":
-		pok_name = "Burmy";
+		case 'Basculin-Blue-Striped':
+			pok_name = "Basculin";
+			break;
+		case 'Gastrodon-East':
+			pok_name = "Gastrodon";
+			break;
+		case 'Mimikyu-Busted-Totem':
+			pok_name = "Mimikyu-Totem";
+			break;
+		case 'Mimikyu-Busted':
+			pok_name = "Mimikyu";
+			break;
+		case 'Pikachu-Belle':
+		case 'Pikachu-Cosplay':
+		case 'Pikachu-Libre':
+		case 'Pikachu-Original':
+		case 'Pikachu-Partner':
+		case 'Pikachu-PhD':
+		case 'Pikachu-Pop-Star':
+		case 'Pikachu-Rock-Star':
+			pok_name = "Pikachu";
+			break;
+		case 'Vivillon-Fancy':
+		case 'Vivillon-Pokeball':
+			pok_name = "Vivillon";
+			break;
+		case 'Florges-White':
+		case 'Florges-Blue':
+		case 'Florges-Orange':
+		case 'Florges-Yellow':
+			pok_name = "Florges";
+			break;
+		case 'Shellos-East':
+			pok_name = "Shellos";
+			break;
+		case 'Deerling-Summer':
+		case 'Deerling-Autumn':
+		case 'Deerling-Winter':
+			pok_name = "Deerling";
+			break;
+    	case "Zygarde-10%":
+			pok_name = "Zygarde-10%25";
+			break;
+		case "Flabébé":
+			pok_name = "Flabébé";
+			break;
+		case "Pumpkaboo-Large":
+		case "Pumpkaboo-Super":
+		case "Pumpkaboo-Small":
+			pok_name = "Pumpkaboo";
+			break;
+		case "Aegislash-Blade":
+		case "Aegislash-Shield":
+		case "Aegislash-Both":
+			pok_name = "Aegislash";
+			break;
+    	case "Deerling-Spring":		
+		case "Deerling-Summer":
+		case "Deerling-Winter":
+		case "Deerling-Autumn":
+			pok_name = "Deerling";
+		case "Burmy-Plant":
+		case "Burmy-Sandy":
+		case "Burmy-Trash":
+			pok_name = "Burmy";
 	}
 
 	return pok_name;
