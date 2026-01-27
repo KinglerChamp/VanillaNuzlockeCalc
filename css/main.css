@@ -1249,14 +1249,10 @@ table.field {
 
 }
 .move-result-group > div:first-child::before {
-  /* background-position-x: right; */
-  /* transform: scaleX(-1); */
   content: "";
   position: absolute;
   right: 0px;
   top: 0;
-  /* transform: translateY(-50%); */
-  /* background-image: url("https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/Abomasnow.png"); */
   width: 15%;
   height: 120px;
   background-repeat: no-repeat;
@@ -1269,8 +1265,6 @@ table.field {
   position: absolute;
   left: 0px;
   top: 0;
-  /* transform: translateY(-50%); */
-  /* background-image: url("https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/Abomasnow.png"); */
   width: 15%;
   height: 120px;
   background-repeat: no-repeat;

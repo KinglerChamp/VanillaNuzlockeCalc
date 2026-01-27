@@ -1,3 +1,5 @@
+const { createElement } = require("react");
+
 if (!Array.prototype.indexOf) {
 	Array.prototype.indexOf = function (searchElement, fromIndex) { // eslint-disable-line no-extend-native
 		var k;
@@ -595,7 +597,8 @@ $(".set-selector").change(function () {
 			var setName = `[${sets[i].data.index}] ${sets[i].pok} (${sets[i].name})`;
 
 			var container = create_sprites(setName, sets[i].data)
-            container.dataset.id = sets[i].name.split("]")[1];
+            container.dataset.id = `${sets[i].pok} (${sets[i].name})`;
+			container.id = `${sets[i].pok} (${sets[i].name})`;
 
 			document.getElementById('trainer-pok-list-opposing').appendChild(container);
 		}
@@ -1359,7 +1362,7 @@ $(".gen").change(function () {
 	$("select.item").find("option").remove().end().append("<option value=\"\">(none)</option>" + itemOptions);
 
 	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".set-selector").change();
+	$(".").change();
 	updateGameOptions();
 });
 
@@ -2097,6 +2100,7 @@ function create_tooltip(customName, setData) {
 	else {
 		ttp_setName = `${customName} (Custom Set)`;
 	}
+
 	var ttp_level = setData.level;
 	var ttp_ability = setData.ability;
 	var ttp_nature = setData.nature;
@@ -2150,8 +2154,6 @@ function create_sprites(customName, setData, pokId = undefined) {
     	container.id = pokId;
 	}
 
-	container.className = 'trainer-pok left-side flipped-image draggable-pok';
-	container.setAttribute('draggable', 'true');
 	container.dataset.id = `${customName} (Custom Set)`;
 	container.title = tooltip;
 	container.style.position = 'relative';
@@ -2159,7 +2161,13 @@ function create_sprites(customName, setData, pokId = undefined) {
 	var pokName = customName;
 	if (customName.includes("(")) {
 		pokName = customName.split(" (")[0].split("] ")[1];
+		container.className = 'trainer-pok right-side';
 	}
+	else {
+		container.setAttribute('draggable', 'true');
+		container.className = 'trainer-pok left-side flipped-image draggable-pok';
+	}
+	
     const pok = new Image();
     pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pokName}.png`;
 	
@@ -2281,39 +2289,20 @@ function get_sets(setName = undefined) {
 
 function create_display_sprites() {
 	var playerSetName = $(".set-selector.player").val();
-	var playerImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${playerSetName.split(" (")[0]}.png`;
-
-    // Create a new style rule for background image
-    const playerStyle = document.createElement('style');
-    playerStyle.textContent = `
-        .move-result-group > div:first-child::before {
-            background-image: url("${playerImageUrl}");
-        }
-	    .move-result-group::before {
-            content: "";
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 300px;
-            height: 100px;
-            /* border: 1px solid red; */
-            background-color: rgb(78, 80, 95);
-            border-radius: 8px;
-            }      
-    `;
-
-    // Append the style rule to the document head
-    document.head.appendChild(playerStyle);
+	var playerImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprite-Gifs/master/${playerSetName.split(" (")[0]}.gif`;
 
 	var opponentSetName = $(".set-selector.opposing").val();
-	var opponentImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${opponentSetName.split(" (")[0]}.png`;
+	var opponentImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprite-Gifs/master/${opponentSetName.split(" (")[0]}.gif`;
 
     // Create a new style rule for background image
-    const opponentStyle = document.createElement('style');
-    opponentStyle.textContent = `
-        .move-result-group > div:last-child::before {
-            background-image: url("${opponentImageUrl}");
-        }
+    const style = document.getElementById("sprite-display");
+	if (!style) {
+		style = document.createElement("style");
+		style.id = "sprite-display";
+		document.head.appendChild(style);
+	}
+
+    style.textContent = `
 	    .move-result-group::before {
             content: "";
             position: absolute;
@@ -2321,12 +2310,14 @@ function create_display_sprites() {
             transform: translateX(-50%);
             width: 300px;
             height: 100px;
-            /* border: 1px solid red; */
             background-color: rgb(78, 80, 95);
             border-radius: 8px;
-            }      
+        }
+		.move-result-group > div:first-child::before {
+            background-image: url("${playerImageUrl}");
+        }
+		.move-result-group > div:last-child::before {
+            background-image: url("${opponentImageUrl}");
+        }
     `;
-
-	// Append the style rule to the document head
-    document.head.appendChild(opponentStyle);
 }
