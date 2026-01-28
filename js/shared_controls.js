@@ -329,6 +329,16 @@ $("input[name='weather']").change(function () {
 
 	var weather = $(this).val();
 
+	if (weather == 'Harsh Sunshine') {
+		weather = 'Sun';
+	}
+	if (weather == 'Heavy Rain') {
+		weather = 'Sun';
+	}
+	if (weather == 'Strong Winds') {
+		weather = '';
+	}
+
 	var fieldset = document.getElementsByClassName("field-info")[0];
 	fieldset.className = "field-info";
 	if (weather != "") {
@@ -354,41 +364,42 @@ function autosetWeather(ability, i) {
 	case "Drought":
 	case "Orichalcum Pulse":
 		lastAutoWeather[i] = "Sun";
-		$("#sun").prop("checked", true);
+		$("#sun").prop("checked", true).trigger("change");
 		break;
 	case "Drizzle":
 		lastAutoWeather[i] = "Rain";
-		$("#rain").prop("checked", true);
+		$("#rain").prop("checked", true).trigger("change");
 		break;
 	case "Sand Stream":
 		lastAutoWeather[i] = "Sand";
-		$("#sand").prop("checked", true);
+		$("#sand").prop("checked", true).trigger("change");
 		break;
 	case "Snow Warning":
 		if (gen >= 9) {
 			lastAutoWeather[i] = "Snow";
-			$("#snow").prop("checked", true);
+			$("#snow").prop("checked", true).trigger("change");
 		} else {
 			lastAutoWeather[i] = "Hail";
-			$("#hail").prop("checked", true);
+			$("#hail").prop("checked", true).trigger("change");
 		}
 		break;
 	case "Desolate Land":
 		lastAutoWeather[i] = "Harsh Sunshine";
-		$("#harsh-sunshine").prop("checked", true);
+		$("#harsh-sunshine").prop("checked", true).trigger("change");
 		break;
 	case "Primordial Sea":
 		lastAutoWeather[i] = "Heavy Rain";
-		$("#heavy-rain").prop("checked", true);
+		$("#heavy-rain").prop("checked", true.trigger("change"));
 		break;
 	case "Delta Stream":
 		lastAutoWeather[i] = "Strong Winds";
-		$("#strong-winds").prop("checked", true);
+		$("#strong-winds").prop("checked", true).trigger("change");
 		break;
 	default:
 		lastAutoWeather[i] = "";
-		var newWeather = lastAutoWeather[1 - i] !== "" ? lastAutoWeather[1 - i] : "";
-		$("input:radio[name='weather'][value='" + newWeather + "']").prop("checked", true);
+		$("input[name='weather']").change();
+		//var newWeather = lastAutoWeather[1 - i] !== "" ? lastAutoWeather[1 - i] : "";
+		//$("input:radio[name='weather'][value='" + newWeather + "']").prop("checked", true);
 		break;
 	}
 }
@@ -1361,6 +1372,13 @@ $(".gen").change(function () {
 	moves = calc.MOVES[gen];
 	items = calc.ITEMS[gen];
 	abilities = calc.ABILITIES[gen];
+
+	var spriteDisplay = document.getElementsByClassName("move-result-group")[0];
+	spriteDisplay.className = "move-result-group";
+
+	var fieldset = document.getElementsByClassName("field-info")[0];
+	fieldset.className = "field-info";
+
 	clearField();
 	$("#importedSets").prop("checked", false);
 	loadDefaultLists();
