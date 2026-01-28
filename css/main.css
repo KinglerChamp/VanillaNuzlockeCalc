@@ -1242,6 +1242,45 @@ table.field {
   content: "Enemies Team";
 }
 
+.move-result-group.sun::before {
+  background-color: rgb(45, 31, 20);
+}
+
+.sun > fieldset {
+  background-color: rgb(45, 31, 20);
+}
+
+.move-result-group.rain::before {
+  background-color: rgb(24, 33, 46);
+}
+
+.rain > fieldset{
+  background-color: rgb(24, 33, 46);
+}
+
+.move-result-group.sand::before {
+  background-color: rgb(38, 35, 20);
+}
+
+.sand > fieldset{
+  background-color: rgb(38, 35, 20);
+}
+
+.move-result-group.hail::before {
+  background-color: rgb(34, 43, 43);
+}
+
+.hail > fieldset{
+  background-color: rgb(34, 43, 43);
+}
+
+.move-result-group.snow::before {
+  background-color: rgb(34, 43, 43);
+}
+
+.snow > fieldset{
+  background-color: rgb(34, 43, 43);
+}
 
 .move-result-group > div {
   position: relative;

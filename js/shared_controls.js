@@ -294,7 +294,7 @@ $(".ability").bind("keyup change", function () {
 	}
 });
 
-function autosetQP(pokemon) {
+function autosetQP(pokemon) { // QP = Quark Drive/Protosynthesis ?
 	var currentWeather = $("input:radio[name='weather']:checked").val();
 	var currentTerrain = $("input:checkbox[name='terrain']:checked").val() || "No terrain";
 
@@ -326,6 +326,20 @@ $("input[name='weather']").change(function () {
 	allPokemon.each(function () {
 		autosetQP($(this));
 	});
+
+	var weather = $(this).val();
+
+	var fieldset = document.getElementsByClassName("field-info")[0];
+	fieldset.className = "field-info";
+	if (weather != "") {
+		fieldset.classList.add(weather.toLowerCase());
+	}
+
+	var spriteDisplay = document.getElementsByClassName("move-result-group")[0];
+	spriteDisplay.className = "move-result-group";
+	if (weather != "") {
+		spriteDisplay.classList.add(weather.toLowerCase());
+	}
 });
 
 var lastManualWeather = "";
