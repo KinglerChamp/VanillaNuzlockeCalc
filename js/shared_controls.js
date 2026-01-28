@@ -2292,7 +2292,8 @@ function get_sets(setName = undefined) {
             Object.entries(pok_sets).forEach(([set_name, set_data]) => {
 				if (
 					setName == undefined ||
-					set_name.includes(setName)
+					set_name.includes(setName) ||
+					set_name.includes(setName.trim())
 				) {
                 	sets.push({
 						pok: pok_name,
