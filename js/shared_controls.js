@@ -598,20 +598,21 @@ function sortmons(a,b){
 // auto-update set details on select
 $(".set-selector").change(function () {
 	window.NO_CALC = true;
-	// Remove the ' (#)' from the end of the set name if presesnt
-	var fullSetName = $(this).val().replace(/ \(\d+\)/, "");
+	var fullSetName = $(this).val();
+	// Remove the '(#)' from the end of the set name if presesnt
+	var newFullSetName = fullSetName.replace(/\(\d+\)/, "").replace("  ", " ");
 
 	create_display_sprites();
 
 	if ($(this).hasClass('opposing')) {
 		document.getElementById('trainer-pok-list-opposing').innerHTML = "";
 		
-		var sets = get_sets(fullSetName).sort((a, b) => a.data.index - b.data.index);
+		var sets = get_sets(newFullSetName).sort((a, b) => a.data.index - b.data.index);
 
 		for (var i in sets) {
-			var setName = `[${sets[i].data.index}] ${sets[i].pok} (${sets[i].name})`;
+			var curSetName = `[${sets[i].data.index}] ${sets[i].pok} (${sets[i].name})`;
 
-			var container = create_sprites(setName, sets[i].data)
+			var container = create_sprites(curSetName, sets[i].data)
             container.dataset.id = `${sets[i].pok} (${sets[i].name})`;
 			container.id = `${sets[i].pok} (${sets[i].name})`;
 
