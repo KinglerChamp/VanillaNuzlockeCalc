@@ -584,7 +584,8 @@ function sortmons(a,b){
 // auto-update set details on select
 $(".set-selector").change(function () {
 	window.NO_CALC = true;
-	var fullSetName = $(this).val();
+	// Remove the ' (#)' from the end of the set name if presesnt
+	var fullSetName = $(this).val().replace(/ \(\d+\)/, "");
 
 	create_display_sprites();
 
@@ -2231,6 +2232,10 @@ function repopulate_boxes(box1_html, box2_html, trash_html, team_html) {
 }
 
 function get_sets(setName = undefined) {
+	if (setName != undefined) {
+		setName = setName.split(" (")[1].split(")")[0];
+	}
+
     var all_sets = [
         {}, 
 		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
@@ -2272,7 +2277,7 @@ function get_sets(setName = undefined) {
             Object.entries(pok_sets).forEach(([set_name, set_data]) => {
 				if (
 					setName == undefined ||
-					setName.includes(set_name)
+					set_name.includes(setName)
 				) {
                 	sets.push({
 						pok: pok_name,
