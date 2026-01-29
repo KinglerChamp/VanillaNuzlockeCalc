@@ -611,7 +611,7 @@ $(".set-selector").change(function () {
 	window.NO_CALC = true;
 	var fullSetName = $(this).val();
 	// Remove the '(#)' from the end of the set name if presesnt
-	var newFullSetName = fullSetName.replace(/\(\d+\)/, "").replace("  ", " ");
+	var newFullSetName = fullSetName.replace(/\(\d+\)/, "").replace("  )", " )");
 
 	create_display_sprites();
 
