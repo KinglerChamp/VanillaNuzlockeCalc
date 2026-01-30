@@ -10143,6 +10143,8 @@ var LE_PATCH = {
     Capsakid: { types: ['Grass', 'Fire'] },
     Doduo: { types: ['Ground', 'Flying'] },
     Charmander: { types: ['Fire', 'Dragon'] },
+    Totodile: { types: ['Water', 'Dragon'] },
+    Hattena: { types: ['Psychic', 'Fairy'] },
 
     Pichu: { otherFormes: ['Pichu-Mega'] },
     Cleffa: { otherFormes: ['Cleffa-Mega'] },
@@ -10198,7 +10200,16 @@ var LE_PATCH = {
         'Eevee-Starter-Ice',
         'Eevee-Starter-Fairy'
     ] },
+    Staryu: { otherFormes: ['Staryu-Special'] },
 
+    'Staryu-Special': {
+		types: ['Water'],
+		bs: { hp: 30, at: 55, df: 55, sa: 40, sd: 55, sp: 85 },
+		weightkg: 55,
+		abilities: { 0: 'Pure Power' },
+		baseSpecies: 'Staryu',
+		nfe: true
+	},
     'Burmy-Plant': {
         types: ['Bug', 'Grass'],
         bs: { hp: 40, at: 29, df: 45, sa: 29, sd: 45, sp: 36 },
@@ -10597,7 +10608,7 @@ var LE_PATCH = {
 		types: ['Bug', 'Ghost'],
 		bs: { hp: 1, at: 60, df: 90, sa: 30, sd: 30, sp: 40 },
 		weightkg: 55,
-		abilities: { 0: 'Compound Eyes' },
+		abilities: { 0: 'Wonder Guard' },
 		baseSpecies: 'Nincada',
 		nfe: true
 	},
@@ -10688,6 +10699,11 @@ var LE_PATCH = {
         nfe: true,
         abilities: { 0: 'Multiscale' }
     },
+    
+    'Gimmighoul': {
+        abilities: { 0: 'Wonder Guard' },
+		bs: { hp: 1, at: 30, df: 70, sa: 75, sd: 70, sp: 10 },
+	},
     'Caterpie': {
 		bs: { hp: 45, at: 30, df: 40, sa: 60, sd: 60, sp: 50 },
 	},
@@ -10765,9 +10781,6 @@ var LE_PATCH = {
 	},
 	'Lechonk': {
 		bs: { hp: 69, at: 55, df: 40, sa: 35, sd: 45, sp: 35 },
-	},
-	'Gimmighoul-Chest': {
-		bs: { hp: 1, at: 30, df: 70, sa: 75, sd: 70, sp: 10 },
 	},
     'Scatterbug': {
 		bs: { hp: 58, at: 50, df: 40, sa: 37, sd: 50, sp: 45 },

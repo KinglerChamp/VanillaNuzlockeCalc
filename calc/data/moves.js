@@ -4940,6 +4940,7 @@ var LE_PATCH = {
     'Armor Cannon': { isPulse: true },
     'Lava Plume': { isPulse: true },
     'Psybeam': { isPulse: true },
+    'Slam': { type: 'Steel' },
 };
 
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, LE_PATCH);
