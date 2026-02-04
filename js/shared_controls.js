@@ -2181,7 +2181,7 @@ function create_sprites(customName, setData, pokId = undefined) {
 		itemName = heldItem.toLowerCase().replace(" ", "_");
 	}
 
-    // Create a container for the mon sprie and held item sprite
+    // Create a container for the mon sprite and held item sprite
     const container = document.createElement('div');
 	
 	if (pokId != undefined) {
