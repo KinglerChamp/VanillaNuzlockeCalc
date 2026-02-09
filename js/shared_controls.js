@@ -1820,7 +1820,7 @@ function get_box() {
 						break;
 					case "team-poke-list":
                         // Push the index as well as the container; this is done to preserve party order on import
-						team_html.push({ 'html': container, 'index': teamPoks.indexOf(container.id) });
+						team_html.push({ 'html': container, 'index': teamIndices.indexOf(container.id) });
 						break;
 				}
 			}
