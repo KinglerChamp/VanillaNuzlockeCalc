@@ -1,4 +1,4 @@
-const { cloneElement } = require("react");
+const { createElement } = require("react");
 
 if (!Array.prototype.indexOf) {
 	Array.prototype.indexOf = function (searchElement, fromIndex) { // eslint-disable-line no-extend-native
@@ -294,7 +294,7 @@ $(".ability").bind("keyup change", function () {
 	}
 });
 
-function autosetQP(pokemon) {
+function autosetQP(pokemon) { // QP = Quark Drive/Protosynthesis ?
 	var currentWeather = $("input:radio[name='weather']:checked").val();
 	var currentTerrain = $("input:checkbox[name='terrain']:checked").val() || "No terrain";
 
@@ -326,6 +326,30 @@ $("input[name='weather']").change(function () {
 	allPokemon.each(function () {
 		autosetQP($(this));
 	});
+
+	var weather = $(this).val();
+
+	if (weather == 'Harsh Sunshine') {
+		weather = 'Sun';
+	}
+	if (weather == 'Heavy Rain') {
+		weather = 'Sun';
+	}
+	if (weather == 'Strong Winds') {
+		weather = '';
+	}
+
+	var fieldset = document.getElementsByClassName("field-info")[0];
+	fieldset.className = "field-info";
+	if (weather != "") {
+		fieldset.classList.add(weather.toLowerCase());
+	}
+
+	var spriteDisplay = document.getElementsByClassName("move-result-group")[0];
+	spriteDisplay.className = "move-result-group";
+	if (weather != "") {
+		spriteDisplay.classList.add(weather.toLowerCase());
+	}
 });
 
 var lastManualWeather = "";
@@ -340,41 +364,42 @@ function autosetWeather(ability, i) {
 	case "Drought":
 	case "Orichalcum Pulse":
 		lastAutoWeather[i] = "Sun";
-		$("#sun").prop("checked", true);
+		$("#sun").prop("checked", true).trigger("change");
 		break;
 	case "Drizzle":
 		lastAutoWeather[i] = "Rain";
-		$("#rain").prop("checked", true);
+		$("#rain").prop("checked", true).trigger("change");
 		break;
 	case "Sand Stream":
 		lastAutoWeather[i] = "Sand";
-		$("#sand").prop("checked", true);
+		$("#sand").prop("checked", true).trigger("change");
 		break;
 	case "Snow Warning":
 		if (gen >= 9) {
 			lastAutoWeather[i] = "Snow";
-			$("#snow").prop("checked", true);
+			$("#snow").prop("checked", true).trigger("change");
 		} else {
 			lastAutoWeather[i] = "Hail";
-			$("#hail").prop("checked", true);
+			$("#hail").prop("checked", true).trigger("change");
 		}
 		break;
 	case "Desolate Land":
 		lastAutoWeather[i] = "Harsh Sunshine";
-		$("#harsh-sunshine").prop("checked", true);
+		$("#harsh-sunshine").prop("checked", true).trigger("change");
 		break;
 	case "Primordial Sea":
 		lastAutoWeather[i] = "Heavy Rain";
-		$("#heavy-rain").prop("checked", true);
+		$("#heavy-rain").prop("checked", true.trigger("change"));
 		break;
 	case "Delta Stream":
 		lastAutoWeather[i] = "Strong Winds";
-		$("#strong-winds").prop("checked", true);
+		$("#strong-winds").prop("checked", true).trigger("change");
 		break;
 	default:
 		lastAutoWeather[i] = "";
-		var newWeather = lastAutoWeather[1 - i] !== "" ? lastAutoWeather[1 - i] : "";
-		$("input:radio[name='weather'][value='" + newWeather + "']").prop("checked", true);
+		$("input[name='weather']").change();
+		//var newWeather = lastAutoWeather[1 - i] !== "" ? lastAutoWeather[1 - i] : "";
+		//$("input:radio[name='weather'][value='" + newWeather + "']").prop("checked", true);
 		break;
 	}
 }
@@ -581,192 +606,26 @@ function sortmons(a,b){
 	return parseInt(a.split("[")[1].split("]")[0]) - parseInt(b.split("[")[1].split("]")[0])
 }
 
-function get_sets() {
-    var all_sets = [
-        {}, 
-		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
-		typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
-		typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
-		typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
-		typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
-		typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
-		typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
-		typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
-		typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
-		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
-		typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
-		typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
-		typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
-		typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
-		typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
-		typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
-		typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
-		typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
-		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
-		typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
-		typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
-		typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
-		typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
-		typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
-		typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
-		typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
-		typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
-		typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
-		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
-	];
-
-    var sets = [];
-    all_sets.forEach(function(set) {
-        for (const [pok_name, poks] of Object.entries(set)) {
-            var pok_tr_names = Object.keys(poks);
-            for (var i = 0; i < pok_tr_names.length; i++) {
-                sets.push(poks[pok_tr_names[i]]);
-			}
-		}
-    });
-    return sets;
-}
-
 // auto-update set details on select
 $(".set-selector").change(function () {
 	window.NO_CALC = true;
 	var fullSetName = $(this).val();
-	
-	var playerSetName = $(".set-selector.player").val();
-	var opponentSetName = $(".set-selector.opposing").val();
-	var playerImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${playerSetName.split(" (")[0]}.png`;
-    // Create a new style rule for background image
-    const playerStyle = document.createElement('style');
-    playerStyle.textContent = `
-        .move-result-group > div:first-child::before {
-            background-image: url("${playerImageUrl}");
-        }
-	    .move-result-group::before {
-            content: "";
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 300px;
-            height: 100px;
-            /* border: 1px solid red; */
-            background-color: rgb(78, 80, 95);
-            border-radius: 8px;
-            }      
-    `;
+	// Remove the '(#)' from the end of the set name if presesnt
+	var newFullSetName = fullSetName.replace(/\(\d+\)/, "").replace("  )", " )");
 
-    // Append the style rule to the document head
-    document.head.appendChild(playerStyle);
+	create_display_sprites();
 
-	var opponentImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${opponentSetName.split(" (")[0]}.png`;
-    // Create a new style rule for background image
-    const opponentStyle = document.createElement('style');
-    opponentStyle.textContent = `
-        .move-result-group > div:last-child::before {
-            background-image: url("${opponentImageUrl}");
-        }
-	    .move-result-group::before {
-            content: "";
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 300px;
-            height: 100px;
-            /* border: 1px solid red; */
-            background-color: rgb(78, 80, 95);
-            border-radius: 8px;
-            }      
-    `;
-
-    // Append the style rule to the document head
-    document.head.appendChild(opponentStyle);
-			
 	if ($(this).hasClass('opposing')) {
 		document.getElementById('trainer-pok-list-opposing').innerHTML = "";
+		
+		var sets = get_sets(newFullSetName).sort((a, b) => a.data.index - b.data.index);
 
-		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
-		var held_items = get_held_items();
-		var tr_names = get_trainer_names();
-		var sets = get_sets();
+		for (var i in sets) {
+			var curSetName = `[${sets[i].data.index}] ${sets[i].pok} (${sets[i].name})`;
 
-		var next_poks = CURRENT_TRAINER_POKS.sort()
-
-		for (var i in next_poks) {
-			if (next_poks[i][0].includes($('input.opposing').val())) {
-				continue;
-			}
-			var item_name = held_items[tr_names.indexOf(next_poks[i])].toLowerCase().replace(" ", "_");
-			var pok_name = next_poks[i].split("]")[1].split(" (")[0];
-			if (pok_name == "Zygarde-10%") {
-				pok_name = "Zygarde-10%25"
-			}
-
-			var ttp_setName = `${next_poks[i].replace("[undefined]", "")}`;
-			var move1 = sets[tr_names.indexOf(next_poks[i])]["moves"][0];
-			var move2 = sets[tr_names.indexOf(next_poks[i])]["moves"][1];
-			var move3 = sets[tr_names.indexOf(next_poks[i])]["moves"][2];
-			var move4 = sets[tr_names.indexOf(next_poks[i])]["moves"][3];
-			var ttp_level = sets[tr_names.indexOf(next_poks[i])]["level"];
-			var ttp_ability = sets[tr_names.indexOf(next_poks[i])]["ability"];
-			var ttp_nature = sets[tr_names.indexOf(next_poks[i])]["nature"];
-
-			var title = ttp_setName;
-			if (ttp_level != undefined) {
-				title += `\nLevel: ${ttp_level}`;
-			}
-			if (ttp_nature != undefined) {
-				title += `\nNature: ${ttp_nature}`;
-			}
-			if (ttp_ability != undefined) {
-				title += `\nAbility: ${ttp_ability}`;
-			}
-
-			if (move1 != undefined) {
-				title += `\n-${move1}`;
-			}
-			if (move2 != undefined) {
-				title += `\n-${move2}`;
-			}
-			if (move3 != undefined) {
-				title += `\n-${move3}`;
-			}
-			if (move4 != undefined) {
-				title += `\n-${move4}`;
-			}
-
-			const container = document.createElement('div');
-			container.dataset.id = CURRENT_TRAINER_POKS[i].split("]")[1];
-			container.title = title;
-			container.className = "trainer-pok right-side";
-			container.style.position = "relative";
-
-			const pok = new Image();
-			var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
-			pok.src = pok_img;
-			pok.style.width = "100%";
-
-			const item = new Image();
-			var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
-			item.src = item_img;
-			item.style.top = '40%';
-			item.style.left = 0;
-			item.style.width = '50%';
-			item.style.position = 'absolute';
-
-			pok.onload = function() {
-				container.appendChild(pok);
-			}
-			pok.onerror = function() {
-				var err = new Image();
-				err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
-				err.style.width = '100%';
-				container.appendChild(err);
-			}
-
-			item.onload = function() {
-				if (item_name != undefined) {
-					container.appendChild(item);
-				}
-			}
+			var container = create_sprites(curSetName, sets[i].data)
+            container.dataset.id = `${sets[i].pok} (${sets[i].name})`;
+			container.id = `${sets[i].pok} (${sets[i].name})`;
 
 			document.getElementById('trainer-pok-list-opposing').appendChild(container);
 		}
@@ -1131,6 +990,7 @@ $(".forme").change(function () {
 });
 
 function correctHiddenPower(pokemon) {
+	return pokemon
 	// After Gen 7 bottlecaps means you can have a HP without perfect IVs
 	// Level 100 is elided from sets so if its undefined its level 100
 	if (gen >= 7 && (!pokemon.level || pokemon.level >= 100)) return pokemon;
@@ -1235,11 +1095,7 @@ function createPokemon(pokeInfo) {
 		} else {
 			var pokemonName = setName.substring(0, setName.indexOf(" ("));
 			var species = pokedex[pokemonName];
-			try {
-				name = (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName)) ? pokeInfo.find(".forme").val() : pokemonName;
-			} catch {
-				name = pokemonName;
-			}
+			name = (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName)) ? pokeInfo.find(".forme").val() : pokemonName;
 		}
 
 		var baseStats = {};
@@ -1516,6 +1372,13 @@ $(".gen").change(function () {
 	moves = calc.MOVES[gen];
 	items = calc.ITEMS[gen];
 	abilities = calc.ABILITIES[gen];
+
+	var spriteDisplay = document.getElementsByClassName("move-result-group")[0];
+	spriteDisplay.className = "move-result-group";
+
+	var fieldset = document.getElementsByClassName("field-info")[0];
+	fieldset.className = "field-info";
+
 	clearField();
 	$("#importedSets").prop("checked", false);
 	loadDefaultLists();
@@ -1894,400 +1757,97 @@ function get_trainer_names() {
     return trainer_names;
 }
 
+
 var names = get_trainer_names();
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Call get_box on page load to initialize the boxes
-    get_box();
+function get_box() {
+	var sets = get_sets();
+	var box = [];
 
-    // Function to get trainer names
-    function get_trainer_names() {
-        var all_sets = [
-            {}, 
-            typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
-		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
-        typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
-        typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
-        typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
-		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
-        typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
-        typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
-        typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
-        typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
-        typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV
-        ];
+	// Object to keep track of encountered custom entries
+	var encounteredCustom = {};
 
-        var trainer_names = [];
+	create_display_sprites();
 
-        all_sets.forEach(function(set) {
-            for (const [pok_name, poks] of Object.entries(set)) {
-                var pok_tr_names = Object.keys(poks);
-                for (i in pok_tr_names) {
-                    var trainer_name = pok_tr_names[i];
-                    trainer_names.push(`${pok_name} (${trainer_name})`);
-                }
-            }
-        });
+	var curBox;
+    // Create arrays to store the HTML
+	var box1_html = [];
+	var box2_html = [];
+	var team_html = [];
+	var trash_html = [];
 
-        return trainer_names;
-    }
+    // Get the current indices of each sprite in the team area
+	teamIndices = get_team_indices();
 
-	function get_held_items() {
-	    var all_sets = [
-	        {}, 
-			typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
-			typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
-			typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
-			typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
-			typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
-			typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
-			typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
-			typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
-			typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
-			typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
-			typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
-			typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
-			typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
-			typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
-			typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
-			typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
-			typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
-			typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
-			typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
-			typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
-			typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
-			typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
-			typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
-			typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
-			typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
-			typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
-			typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
-			typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
-			typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
-		];
-	
-	    var held_items = [];
+	for (var i = 0; i < sets.length; i++) {
+        var setName = sets[i].name;
+        var setData = sets[i].data;
+		var pokName = sets[i].pok;
 
-	    all_sets.forEach(function(set) {
-	        for (const [pok_name, poks] of Object.entries(set)) {
-	            var pok_tr_names = Object.keys(poks);
-	            for (var i = 0; i < pok_tr_names.length; i++) {
-	                var item = poks[pok_tr_names[i]]["item"];
+		if (setName.includes("Custom")) {
+            var pokId = `pok-${i}`;
 
-	                held_items.push(`${item}`);
-				}
+            // Check if the child already exists, if so, store the area that it is in
+			var child = document.getElementById(pokId);
+			if (child) {
+				var curBox = child.parentElement.id;
 			}
-	    });
 
-	    return held_items;
-	}
+			// Check if this custom entry has been encountered before
+			if (!encounteredCustom[pokName]) {
+				encounteredCustom[pokName] = true;
 
-    // Function to get box and generate HTML for draggable items
-	function get_box() {
-		var names = get_trainer_names();
-		var items = get_held_items();
-		var sets = get_sets();
-		var box = [];
-	
-		// Object to keep track of encountered custom entries
-		var encounteredCustom = {};
-	
-		var playerSetName = $(".set-selector.player").val();
-		var opponentSetName = $(".set-selector.opposing").val();
-		var playerImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${playerSetName.split(" (")[0]}.png`;
-    	// Create a new style rule for background image
-    	const playerStyle = document.createElement('style');
-    	playerStyle.textContent = `
-    	    .move-result-group > div:first-child::before {
-    	        background-image: url("${playerImageUrl}");
-    	    }
-		    .move-result-group::before {
-    	        content: "";
-    	        position: absolute;
-    	        left: 50%;
-    	        transform: translateX(-50%);
-    	        width: 300px;
-    	        height: 100px;
-    	        /* border: 1px solid red; */
-    	        background-color: rgb(78, 80, 95);
-    	        border-radius: 8px;
-    	        }      
-    	`;
+				// Push the custom name to the box array
+				box.push(pokName);
+				
+				var container = create_sprites(check_name_exeptions(pokName), structuredClone(setData), pokId)
 
-    	// Append the style rule to the document head
-    	document.head.appendChild(playerStyle);
-
-		var opponentImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${opponentSetName.split(" (")[0]}.png`;
-    	// Create a new style rule for background image
-    	const opponentStyle = document.createElement('style');
-    	opponentStyle.textContent = `
-    	    .move-result-group > div:last-child::before {
-    	        background-image: url("${opponentImageUrl}");
-    	    }
-		    .move-result-group::before {
-    	        content: "";
-    	        position: absolute;
-    	        left: 50%;
-    	        transform: translateX(-50%);
-    	        width: 300px;
-    	        height: 100px;
-    	        /* border: 1px solid red; */
-    	        background-color: rgb(78, 80, 95);
-    	        border-radius: 8px;
-    	        }      
-    	`;
-
-    	// Append the style rule to the document head
-    	document.head.appendChild(opponentStyle);
-
-		var curBox;
-		var box1_html = [];
-		var box2_html = [];
-		var team_html = [];
-		var trash_html = [];
-	
-		for (var i = 0; i < names.length; i++) {
-			if (names[i].includes("Custom")) {
-				var child = document.getElementById(`pok-${i}`);
-				if (child) {
-					var curBox = child.parentElement.id;
-				}
-
-				var customName = names[i].split(" (")[0];
-				var heldItem = items[i];
-				var item_name = heldItem.toLowerCase().replace(" ", "_");
-				var pok_moves = sets[i]["moves"];
-	
-				// Check if this custom entry has been encountered before
-				if (!encounteredCustom[customName]) {
-					encounteredCustom[customName] = true;
-	
-					// Push the custom name to the box array
-					box.push(customName);
-	
-					// Extract the Pokémon name from the custom name
-					var pok_name = customName.split(" (")[0];
-					switch (pok_name) {
-						case "Zygarde-10%":
-							pok_name = "Zygarde-10%25";
-							break;
-						case "Flabébé":
-							pok_name = "Flabébé";
-							break;
-						case "Pumpkaboo-Large":
-						case "Pumpkaboo-Super":
-						case "Pumpkaboo-Small":
-							pok_name = "Pumpkaboo";
-							break;
-						case "Aegislash-Blade":
-						case "Aegislash-Shield":
-						case "Aegislash-Both":
-							pok_name = "Aegislash";
-							break;
-						case "Snorunt-Ghost":
-							pok_name = "Snorunt";
-						case "Charcadet-Psychic":
-						case "Charcadet-Ghost":
-							pok_name = "Charcadet";
-						case "Magikarp-Monster":
-							pok_name = "Magikarp";
-						case "Ralts-Fighting":
-							pok_name = "Ralts";
-						case "Pichu-Mega":
-							pok_name = "Pikachu";
-						case "Cleffa-Mega":
-							pok_name = "Clefairy";				
-						case "Igglybuff-Mega":
-							pok_name = "Jigglypuff";
-						case "Togepi-Mega":
-							pok_name = "Togetic";
-						case "Tyrogue-Mega-C":
-							pok_name = "Hitmonchan";
-						case "Tyrogue-Mega-L":
-							pok_name = "Hitmonlee";
-						case "Tyrogue-Mega-T":
-							pok_name = "Hitmontop";
-						case "Elekid-Mega":
-							pok_name = "Electabuzz";
-						case "Magby-Mega":
-							pok_name = "Magmar";
-						case "Smoochum-Mega":
-							pok_name = "Jynx";
-						case "Azurill-Mega":
-							pok_name = "Wynaut";
-						case "Toxel-Mega-A":
-							pok_name = "Toxtricity";
-						case "Toxel-Mega-L":
-							pok_name = "Toxtricity-Low-Key";
-						case "Mime Jr.-Mega-K":
-							pok_name = "Mr. Mime";
-						case "Mime Jr.-Mega-G":
-							pok_name = "Mr. Mime-Galar";
-						case "Wurmple-Poison":
-							pok_name = "Wurmple";
-						case "Nincada-Ghost":
-							pok_name = "Nincada";
-						case "Exeggcute-Dragon":
-							pok_name = "Exeggcute";
-						case "Koffing-Fairy":
-							pok_name = "Koffing";
-						case "Petilil-Fighting":
-							pok_name = "Petilil";
-						case "Rufflet-Psychic":
-							pok_name = "Rufflet";
-						case "Goomy-Steel":
-							pok_name = "Goomy";
-						case "Bergmite-Rock":
-							pok_name = "Bergmite";
-						case "Froakie-Special":
-							pok_name = "Froakie";
-						case "Rockruff-Special":
-							pok_name = "Rockruff";
-						case "Deerling-Spring":		
-						case "Deerling-Summer":
-						case "Deerling-Winter":
-						case "Deerling-Autumn":
-							pok_name = "Deerling";
-						case "Burmy-Plant":
-						case "Burmy-Sandy":
-						case "Burmy-Trash":
-							pok_name = "Burmy";
-					}
-					if (pok_name.includes("Eevee"))
-						pok_name = "Eevee";
-					
-					var ttp_setName = `${customName} (Custom Set)`;
-					var ttp_level = sets[i]["level"];
-					var ttp_ability = sets[i]["ability"];
-					var ttp_nature = sets[i]["nature"];
-					var move1 = pok_moves[0];
-					var move2 = pok_moves[1];
-					var move3 = pok_moves[2];
-					var move4 = pok_moves[3];
-					
-					var title = ttp_setName;
-					if (ttp_level != undefined) {
-						title += `\nLevel: ${ttp_level}`;
-					}
-					if (ttp_nature != undefined) {
-						title += `\nNature: ${ttp_nature}`;
-					}
-					if (ttp_ability != undefined) {
-						title += `\nAbility: ${ttp_ability}`;
-					}
-
-					if (move1 != undefined) {
-						title += `\n-${move1}`;
-					}
-					if (move2 != undefined) {
-						title += `\n-${move2}`;
-					}
-					if (move3 != undefined) {
-						title += `\n-${move3}`;
-					}
-					if (move4 != undefined) {
-						title += `\n-${move4}`;
-					}
-
-					const container = document.createElement('div');
-					container.id = `pok-${i}`;
-					container.className = 'trainer-pok left-side flipped-image draggable-pok';
-					container.setAttribute('draggable', 'true');
-					container.dataset.id = `${customName} (Custom Set)`;
-					container.title = title;
-					container.style.position = 'relative';
-	
-					const pok = new Image();
-					var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
-					pok.src = pok_img;
-					pok.setAttribute('draggable', 'false');
-					pok.style.width = '100%';
-
-					const item = new Image();
-					var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
-					item.src = item_img;
-					item.setAttribute('draggable', 'false');
-					item.style.top = '40%';
-					item.style.left = 0;
-					item.style.width = '50%';
-					item.style.position = 'absolute';
-
-					pok.onload = function() {
-						container.appendChild(pok);
-					}
-					pok.onerror = function() {
-						var err = new Image();
-						err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
-						err.setAttribute('draggable', 'false');
-						err.style.width = '100%';
-						container.appendChild(err);
-					}
-					
-					item.onload = function() {
-						if (item_name != undefined) {
-							container.appendChild(item);
-						}
-					}
-	
-					// Add dragstart event listener
-					container.addEventListener('dragstart', dragStart);
-					container.addEventListener('dragend', dragEnd);
-	
-					switch (curBox) {
-						default:
-						case "box-poke-list":
-							box1_html.push(container);
-							break;
-						case "box-poke-list2":
-							box2_html.push(container);
-							break;
-						case "trash-box":
-							trash_html.push(container);
-							break;
-						case "team-poke-list":
-							team_html.push(container);
-							break;
-					}
+				// Add drag event listeners
+				container.addEventListener('dragstart', dragStart);
+				container.addEventListener('dragend', dragEnd);
+				
+                // Put the container into the corresponding array; this preserves the box each sprite was in on import instead of just dupming them all in box 1
+				switch (curBox) {
+					default:
+					case "box-poke-list":
+						box1_html.push(container);
+						break;
+					case "box-poke-list2":
+						box2_html.push(container);
+						break;
+					case "trash-box":
+						trash_html.push(container);
+						break;
+					case "team-poke-list":
+                        // Push the index as well as the container; this is done to preserve party order on import
+						team_html.push({ 'html': container, 'index': teamIndices.indexOf(container.id) });
+						break;
 				}
 			}
 		}
-	
-		// Clear the content of the default div
-		document.getElementById('box-poke-list').innerHTML = "";
-		document.getElementById('box-poke-list2').innerHTML = "";
-		document.getElementById('trash-box').innerHTML = "";
-		document.getElementById('team-poke-list').innerHTML = "";
-
-		for (var i = 0; i< box1_html.length; i++) {
-			document.getElementById('box-poke-list').appendChild(box1_html[i]);
-		}
-		for (var i = 0; i< box2_html.length; i++) {
-			document.getElementById('box-poke-list2').appendChild(box2_html[i]);
-		}
-		for (var i = 0; i< trash_html.length; i++) {
-			document.getElementById('trash-box').appendChild(trash_html[i]);
-		}
-		for (var i = 0; i< team_html.length; i++) {
-			document.getElementById('team-poke-list').appendChild(team_html[i]);
-		}
-
-		// Add drag and drop event listeners to the dynamically generated elements
-		const dropzones = document.querySelectorAll('.dropzone');
-	
-		dropzones.forEach(zone => {
-			zone.addEventListener('dragover', dragOver);
-			zone.addEventListener('drop', drop);
-			zone.addEventListener('dragleave', dragLeave);
-		});
-	
-		// Return the box array (optional)
-		return box;
 	}
-	
-	
 
-   // Function to handle the start of a drag event
-   function dragStart(event) {
+	repopulate_boxes(box1_html, box2_html, trash_html, team_html);
+
+	// Add drag and drop event listeners to the dynamically generated elements
+	const dropzones = document.querySelectorAll('.dropzone');
+
+	dropzones.forEach(zone => {
+		zone.addEventListener('dragover', dragOver);
+		zone.addEventListener('drop', drop);
+		zone.addEventListener('dragleave', dragLeave);
+	});
+
+	// Return the box array (optional)
+	return box;
+}
+
+/*
+Drag listeners for the player's boxes
+*/
+
+// Function to handle the start of a drag event
+function dragStart(event) {
 	event.dataTransfer.setData('text/plain', event.target.id); // Set the drag data to the ID of the target
 	event.target.classList.add('dragging'); // Add a class to indicate dragging
 	setTimeout(() => {
@@ -2322,8 +1882,9 @@ function dragLeave(event) {
 	event.currentTarget.classList.remove('dragover'); // Remove the drag-over class
 }
 
-
-
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Call get_box on page load to initialize the boxes
+    get_box();
 });
 
 function trashPokemon() {
@@ -2390,6 +1951,7 @@ function addBoxed(poke) {
 
 function get_trainer_poks(trainer_name)
 {
+
 	var true_name = trainer_name.split("(")[1]
     var matches = []
     for (i in TR_NAMES) {
@@ -2399,7 +1961,6 @@ function get_trainer_poks(trainer_name)
     }
     return matches
 }
-
 var all_sets = [
     {}, 
     typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
@@ -2460,7 +2021,7 @@ previousTrainerButton.addEventListener('click', previousTrainer);
 
 function nextTrainer() {
     var elements = document.getElementById("trainer-pok-list-opposing").children;
-	var string = elements[elements.length - 1].title;
+	 var string = elements[elements.length - 1].title;
     var value = parseInt(string.split("]")[0].split("[")[1]) + 1;
 
     for (var set of all_sets) {
@@ -2552,4 +2113,261 @@ function updateGameOptions() {
 	if (window.history && window.history.replaceState) {
 		window.history.replaceState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
 	}
+
+}
+
+function get_team_indices() {
+    var teamChildren = document.getElementById('team-poke-list').children;
+	var teamIndices = [];
+	for (var i = 0; i < teamChildren.length; i++) {
+		teamIndices.push(teamChildren[i].id);
+	}   
+
+    return teamIndices;
+}
+
+function create_tooltip(customName, setData) {
+	var ttp_setName;
+	if (customName.includes("(")) {
+		ttp_setName = customName;
+	}
+	else {
+		ttp_setName = `${customName} (Custom Set)`;
+	}
+
+	var ttp_level = setData.level;
+	var ttp_ability = setData.ability;
+	var ttp_nature = setData.nature;
+
+    var moves = setData.moves;
+	var move1 = moves[0];
+	var move2 = moves[1];
+	var move3 = moves[2];
+	var move4 = moves[3];
+	
+	var title = ttp_setName;
+
+	if (ttp_level != undefined) {
+		title += `\nLevel: ${ttp_level}`;
+	}
+	if (ttp_nature != undefined) {
+		title += `\nNature: ${ttp_nature}`;
+	}
+	if (ttp_ability != undefined) {
+		title += `\nAbility: ${ttp_ability}`;
+	}
+	if (move1 != undefined) {
+		title += `\n-${move1}`;
+	}
+	if (move2 != undefined) {
+		title += `\n-${move2}`;
+	}
+	if (move3 != undefined) {
+		title += `\n-${move3}`;
+	}
+	if (move4 != undefined) {
+		title += `\n-${move4}`;
+	}
+
+    return title;
+}
+
+function create_sprites(customName, setData, pokId = undefined) {
+    var tooltip = create_tooltip(customName, setData);
+
+    var heldItem = setData.item;
+	var itemName = "";
+	if (heldItem != undefined) {
+		itemName = heldItem.toLowerCase().replace(" ", "_");
+	}
+
+    // Create a container for the mon sprite and held item sprite
+    const container = document.createElement('div');
+	
+	if (pokId != undefined) {
+    	container.id = pokId;
+	}
+
+	container.dataset.id = `${customName} (Custom Set)`;
+	container.title = tooltip;
+	container.style.position = 'relative';
+
+	var pokName = customName;
+	if (customName.includes("(")) {
+		pokName = customName.split(" (")[0].split("] ")[1];
+		container.className = 'trainer-pok right-side';
+	}
+	else {
+		container.setAttribute('draggable', 'true');
+		container.className = 'trainer-pok left-side flipped-image draggable-pok';
+	}
+	
+    const pok = new Image();
+    pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pokName}.png`;
+	
+    pok.setAttribute('draggable', 'false');
+	pok.style.width = '100%';
+
+    pok.onload = function() {
+		container.appendChild(pok);
+	}
+	pok.onerror = function() { // If the sprite is not found, use the question mark sprite
+		var err = new Image();
+		err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
+
+		err.setAttribute('draggable', 'false');
+		err.style.width = '100%';
+		container.appendChild(err);
+	}
+	
+    const item = new Image();
+	item.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${itemName}.png`;
+	
+    item.setAttribute('draggable', 'false');
+	item.style.top = '40%';
+	item.style.left = 0;
+	item.style.width = '50%';
+	item.style.position = 'absolute';
+	
+	item.onload = function() { // If the sprite is not found, don't append anything
+		if (itemName != undefined) {
+			container.appendChild(item);
+		}
+	}
+
+    return container
+}
+
+function repopulate_boxes(box1_html, box2_html, trash_html, team_html) {
+    // Clear the content of the boxes
+	document.getElementById('box-poke-list').innerHTML = "";
+	document.getElementById('box-poke-list2').innerHTML = "";
+	document.getElementById('trash-box').innerHTML = "";
+	document.getElementById('team-poke-list').innerHTML = "";
+
+    // Loop through the arrays and add the containers to the corresponding boxes
+	for (var i = 0; i < box1_html.length; i++) {
+		document.getElementById('box-poke-list').appendChild(box1_html[i]);
+	}
+
+	for (var i = 0; i < box2_html.length; i++) {
+		document.getElementById('box-poke-list2').appendChild(box2_html[i]);
+	}
+
+	for (var i = 0; i < trash_html.length; i++) {
+		document.getElementById('trash-box').appendChild(trash_html[i]);
+	}
+
+    // In order to preserve team order, first sort by the index
+	team_html.sort((a, b) => a.index - b.index).forEach(value => {
+		document.getElementById('team-poke-list').appendChild(value.html);
+	});
+}
+
+function get_sets(setName = undefined) {
+	if (setName != undefined) {
+		setName = setName.split(" (")[1].split(")")[0];
+	}
+
+    var all_sets = [
+        {}, 
+		typeof SETDEX_RBY === 'undefined' ? {} : SETDEX_RBY,
+		typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
+		typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
+		typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
+		typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+		typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
+		typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
+		typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,
+		typeof SETDEX_SV === 'undefined' ? {} : SETDEX_SV,
+		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
+		typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
+		typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
+		typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
+		typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
+		typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
+		typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
+		typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
+		typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
+		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
+		typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
+		typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
+		typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
+		typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
+		typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
+		typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
+		typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
+		typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
+		typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
+		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
+	];
+
+    var sets = [];
+
+    all_sets.forEach(set => {
+        // Set structure: "[pokemon]: { set_name1: { set1 } }, { set_name2: { set2 } }, ..."
+        Object.entries(set).forEach(([pok_name, pok_sets]) => {
+            Object.entries(pok_sets).forEach(([set_name, set_data]) => {
+				if (
+					setName == undefined ||
+					set_name.includes(setName) ||
+					set_name.includes(setName.trim())
+				) {
+                	sets.push({
+						pok: pok_name,
+ 	                    name: set_name,
+    	            	data: set_data
+        	        });
+				}
+            });
+        });
+    });
+
+    return sets;
+}
+
+function create_display_sprites() {
+	var playerSetName = $(".set-selector.player").val();
+	var playerImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprite-Gifs/master/${playerSetName.split(" (")[0]}.gif`;
+
+	var opponentSetName = $(".set-selector.opposing").val();
+	var opponentImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprite-Gifs/master/${opponentSetName.split(" (")[0]}.gif`;
+
+    // Create a new style rule for background image
+    var style = document.getElementById("sprite-display");
+	if (!style) {
+		style = document.createElement("style");
+		style.id = "sprite-display";
+		document.head.appendChild(style);
+	}
+
+    style.textContent = `
+	    .move-result-group::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgb(78, 80, 95);
+            border-radius: 8px;
+        }
+
+		.move-result-group > div::before {
+            content: "";
+            display: block;
+            width: 96px;
+            height: 96px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            margin: 0 auto;
+        }
+
+		.move-result-group > div:first-child::before {
+            background-image: url("${playerImageUrl}");
+        }
+
+		.move-result-group > div:last-child::before {
+            background-image: url("${opponentImageUrl}");
+        }
+    `;
 }
