@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-image: url("../smallchung.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* header */
 /* a img {
@@ -491,7 +481,6 @@ body {
   cursor: pointer;
   box-sizing: border-box;
 }
-
 .flipped-image {
   transform: scaleX(-1);
 }
@@ -500,38 +489,33 @@ body {
   border: 1px solid #1abc9c;
   border-radius: 5px;
 }
-
-.top-buttons {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-}
-
+/* Addded */
 .wrapper {
-  padding: 20px;
+  padding: 0 1em;
   max-width: 1660px;
-  margin: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  color: white;
+  margin: 0 auto;
 }
-
+.credits {
+  clear: both;
+  padding: 20px;
+  max-width: 1285px;
+  margin: 0px auto;
+}
 .credits ul li a {
   color: black;
   font-size: 1.2rem;
 }
-
 div.wrapper > div > span {
   padding-right: 5px;
 }
-
 fieldset {
-  background-color: rgb(88, 88, 88, 0.3);
+  /* float: left; */
+  background-color: rgb(255, 255, 255);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-  padding: 10px;
+  padding: 2em;
   border-radius: 8px;
 }
-
 legend {
   font-weight: bold;
   text-align: start;
@@ -546,11 +530,13 @@ legend {
   color: rgba(0, 0, 0, 0.85);
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
+
   min-height: 3rem;
   padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
@@ -562,15 +548,14 @@ legend {
   vertical-align: baseline;
   width: auto;
 }
-
-th, td {
+th,
+td {
   padding: 0;
 }
-
 th {
+  /* font-size: 0.8em; */
   text-align: start;
 }
-
 .title-text {
   font-weight: bold;
   font-size: 2.5em;
@@ -584,27 +569,28 @@ th {
   font-size: 1.3em;
   margin: 0.5em 0;
 }
-
 .big-text #mainResult:hover {
+  /* indicates the presence of click-to-copy function */
   cursor: pointer;
   opacity: 0.7;
 }
-
 #tooltipText {
   font-size: 0.8em;
   visibility: hidden;
   border-radius: 5px;
+  /* width: 120px; */
   background-color: black;
   color: #fff;
   text-align: center;
   padding: 5px;
   margin-left: 10px;
 }
-
 .small-text {
   font-size: 1.1em;
 }
-
+.panel {
+  /* required for honkaculate to work */
+}
 .panel-container {
   display: flex;
   gap: 2em;
@@ -626,8 +612,6 @@ th {
 .field-info,
 .poke-import {
   text-align: center;
-  margin: 10px;
-  padding: 10px;
   /* width: 27.5em; */
 }
 .holder-0 {
@@ -736,9 +720,6 @@ th {
 }
 .btn-small {
   width: 4em;
-}
-.btn-large {
-  width: 10em;
 }
 .btn-xsmall {
   width: 1em;
@@ -1428,47 +1409,4 @@ table.field {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}
-
-/* Sidebar styles */
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  background-color: #222;
-  overflow-x: hidden;
-  transition: 0.3s ease;
-  padding-top: 60px;
-}
-
-.sidebar a, .sidebar p {
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: 18px;
-  color: white;
-  display: block;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 30px;
-}
-
-.openbtn {
-  font-size: 20px;
-  right: 10px;
-}
-
-#openSidebarBtn {
-  font-size: 20px;
-  cursor: pointer;
-  padding: 10px;
-  display: block;
-  background-color: #222;
-  color: white;
 }

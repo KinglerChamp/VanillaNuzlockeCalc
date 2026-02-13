@@ -4122,7 +4122,7 @@ var LGPE_MOVES = [
     'Glitzy Glow',
     'Sappy Seed',
     'Sizzly Slide',
-    //'Sparkly Swirl',
+    'Sparkly Swirl',
     'Zippy Zap',
     'Floaty Fall',
     'Pika Papow',
@@ -4903,47 +4903,7 @@ var SV_PATCH = {
         target: 'allAdjacentFoes'
     }
 };
-
-var LE_PATCH = {
-    'Dragon Breath': { isSound: true },
-    'Shadow Claw': { isSlicing: true },
-    'Double Hit': { bp: 40 },
-    'Water Pledge': { bp: 50 },
-    'Fire Pledge': { bp: 50 },
-    'Grass Pledge': { bp: 50 },
-    'Snap Trap': { bp: 40 },
-    'Dragon Rush': { bp: 120 },
-    'Psycho Boost': { bp: 130 },
-    'Covet': { type: 'Fairy' },
-    'Sand Tomb': { bp: 40 },
-    'Fire Spin': { bp: 40 },
-    'Whirlpool': { bp: 40 },
-    'Wrap': { bp: 40 },
-    'Clamp': { bp: 40 },
-    'Bind': { bp: 40 },
-    'Arm Thrust': { bp: 25 },
-    'Spark': { bp: 75 },
-    'Triple Kick': { bp: 20 },
-    'Fury Swipes': { bp: 25 },
-    'Fury Attack': { bp: 25 },
-    'Barrage': { bp: 25 },
-    'Spike Cannon': { bp: 25, type: 'Steel' },
-    'Comet Punch': { bp: 25, type: 'Fighting' },
-    'Double Slap': { bp: 25, type: 'Fairy' },
-    'Constrict': { bp: 50 },
-    'Egg Bomb': { type: 'Grass' },
-    'Strength': { type: 'Rock' },
-    'Twineedle': { bp: 50 },
-    'Poison Sting': { bp: 40 },
-    'Cut': { type: 'Bug' },
-    'Multi-Attack': { bp: 90 },
-    'Armor Cannon': { isPulse: true },
-    'Lava Plume': { isPulse: true },
-    'Psybeam': { isPulse: true },
-    'Slam': { type: 'Steel' },
-};
-
-var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, LE_PATCH);
+var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH);
 exports.MOVES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 var Moves = (function () {
     function Moves(gen) {

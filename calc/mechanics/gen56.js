@@ -205,22 +205,13 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     if (basePower === 0) {
         return result;
     }
-	var moveCategory = move.category;
-	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
-            moveCategory = 'Physical';
-        }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
-            moveCategory = 'Special';
-        }
-	}
     var attack = calculateAttackBWXY(gen, attacker, defender, move, field, desc, isCritical);
-    var attackStat = moveCategory === 'Special' ? 'spa' : 'atk';
+    var attackStat = move.category === 'Special' ? 'spa' : 'atk';
     var defense = calculateDefenseBWXY(gen, attacker, defender, move, field, desc, isCritical);
     var baseDamage = calculateBaseDamageBWXY(gen, attacker, basePower, attack, defense, move, field, desc, isCritical);
     var stabMod = (0, util_2.getStabMod)(attacker, move, desc);
     var applyBurn = attacker.hasStatus('brn') &&
-        moveCategory === 'Physical' &&
+        move.category === 'Physical' &&
         !attacker.hasAbility('Guts') &&
         !(move.named('Facade') && gen.num === 6);
     desc.isBurned = applyBurn;
@@ -289,15 +280,6 @@ function calculateBasePowerBWXY(gen, attacker, defender, move, field, hasAteAbil
     if (hit === void 0) { hit = 1; }
     var basePower;
     var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
-    var moveCategory = move.category;
-	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
-            moveCategory = 'Physical';
-        }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
-            moveCategory = 'Special';
-        }
-	}
     switch (move.name) {
         case 'Payback':
             basePower = move.bp * (turnOrder === 'last' ? 2 : 1);
@@ -386,13 +368,13 @@ function calculateBasePowerBWXY(gen, attacker, defender, move, field, hasAteAbil
             break;
         case 'Nature Power':
             if (gen.num === 5) {
-                moveCategory = 'Physical';
+                move.category = 'Physical';
                 move.target = 'allAdjacent';
                 basePower = 100;
                 desc.moveName = 'Earthquake';
             }
             else {
-                moveCategory = 'Special';
+                move.category = 'Special';
                 move.secondaries = true;
                 switch (field.terrain) {
                     case 'Electric':
@@ -448,9 +430,9 @@ function calculateBPModsBWXY(gen, attacker, defender, move, field, desc, basePow
     }
     if ((attacker.hasAbility('Technician') && basePower <= 60) ||
         (attacker.hasAbility('Flare Boost') &&
-            attacker.hasStatus('brn') && moveCategory === 'Special') ||
+            attacker.hasStatus('brn') && move.category === 'Special') ||
         (attacker.hasAbility('Toxic Boost') &&
-            attacker.hasStatus('psn', 'tox') && moveCategory === 'Physical')) {
+            attacker.hasStatus('psn', 'tox') && move.category === 'Physical')) {
         bpMods.push(6144);
         desc.attackerAbility = attacker.ability;
     }
@@ -497,8 +479,8 @@ function calculateBPModsBWXY(gen, attacker, defender, move, field, desc, basePow
         bpMods.push(4915);
         desc.attackerItem = attacker.item;
     }
-    else if ((attacker.hasItem('Muscle Band') && moveCategory === 'Physical') ||
-        (attacker.hasItem('Wise Glasses') && moveCategory === 'Special')) {
+    else if ((attacker.hasItem('Muscle Band') && move.category === 'Physical') ||
+        (attacker.hasItem('Wise Glasses') && move.category === 'Special')) {
         bpMods.push(4505);
         desc.attackerItem = attacker.item;
     }
@@ -594,16 +576,7 @@ function calculateAttackBWXY(gen, attacker, defender, move, field, desc, isCriti
     if (isCritical === void 0) { isCritical = false; }
     var attack;
     var attackSource = move.named('Foul Play') ? defender : attacker;
-    var moveCategory = move.category;
-	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
-            moveCategory = 'Physical';
-        }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
-            moveCategory = 'Special';
-        }
-	}
-    var attackStat = moveCategory === 'Special' ? 'spa' : 'atk';
+    var attackStat = move.category === 'Special' ? 'spa' : 'atk';
     desc.attackEVs =
         move.named('Foul Play')
             ? (0, util_2.getStatDescriptionText)(gen, defender, attackStat, defender.nature)
@@ -620,7 +593,7 @@ function calculateAttackBWXY(gen, attacker, defender, move, field, desc, isCriti
         attack = (0, util_2.getModifiedStat)(attackSource.rawStats[attackStat], attackSource.boosts[attackStat]);
         desc.attackBoost = attackSource.boosts[attackStat];
     }
-    if (attacker.hasAbility('Hustle') && moveCategory === 'Physical') {
+    if (attacker.hasAbility('Hustle') && move.category === 'Physical') {
         attack = (0, util_2.pokeRound)((attack * 3) / 2);
         desc.attackerAbility = attacker.ability;
     }
@@ -631,26 +604,17 @@ function calculateAttackBWXY(gen, attacker, defender, move, field, desc, isCriti
 exports.calculateAttackBWXY = calculateAttackBWXY;
 function calculateAtModsBWXY(attacker, defender, move, field, desc) {
     var atMods = [];
-    var moveCategory = move.category;
-	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
-            moveCategory = 'Physical';
-        }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
-            moveCategory = 'Special';
-        }
-	}
     if (defender.hasAbility('Thick Fat') && move.hasType('Fire', 'Ice')) {
         atMods.push(2048);
         desc.defenderAbility = defender.ability;
     }
-    if ((attacker.hasAbility('Guts') && attacker.status && moveCategory === 'Physical') ||
+    if ((attacker.hasAbility('Guts') && attacker.status && move.category === 'Physical') ||
         (attacker.curHP() <= attacker.maxHP() / 3 &&
             ((attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||
                 (attacker.hasAbility('Blaze') && move.hasType('Fire')) ||
                 (attacker.hasAbility('Torrent') && move.hasType('Water')) ||
                 (attacker.hasAbility('Swarm') && move.hasType('Bug')))) ||
-        (moveCategory === 'Special' && attacker.abilityOn && attacker.hasAbility('Plus', 'Minus'))) {
+        (move.category === 'Special' && attacker.abilityOn && attacker.hasAbility('Plus', 'Minus'))) {
         atMods.push(6144);
         desc.attackerAbility = attacker.ability;
     }
@@ -660,47 +624,47 @@ function calculateAtModsBWXY(attacker, defender, move, field, desc) {
     }
     else if ((attacker.hasAbility('Solar Power') &&
         field.hasWeather('Sun', 'Harsh Sunshine') &&
-        moveCategory === 'Special') ||
+        move.category === 'Special') ||
         (attacker.named('Cherrim') &&
             attacker.hasAbility('Flower Gift') &&
             field.hasWeather('Sun', 'Harsh Sunshine') &&
-            moveCategory === 'Physical')) {
+            move.category === 'Physical')) {
         atMods.push(6144);
         desc.attackerAbility = attacker.ability;
         desc.weather = field.weather;
     }
     else if ((attacker.hasAbility('Defeatist') && attacker.curHP() <= attacker.maxHP() / 2) ||
-        (attacker.hasAbility('Slow Start') && attacker.abilityOn && moveCategory === 'Physical')) {
+        (attacker.hasAbility('Slow Start') && attacker.abilityOn && move.category === 'Physical')) {
         atMods.push(2048);
         desc.attackerAbility = attacker.ability;
     }
-    else if (attacker.hasAbility('Huge Power', 'Pure Power') && moveCategory === 'Physical') {
+    else if (attacker.hasAbility('Huge Power', 'Pure Power') && move.category === 'Physical') {
         atMods.push(8192);
         desc.attackerAbility = attacker.ability;
     }
     if (field.attackerSide.isFlowerGift &&
         !attacker.hasAbility('Flower Gift') &&
         field.hasWeather('Sun', 'Harsh Sunshine') &&
-        moveCategory === 'Physical') {
+        move.category === 'Physical') {
         atMods.push(6144);
         desc.weather = field.weather;
         desc.isFlowerGiftAttacker = true;
     }
     if ((attacker.hasItem('Thick Club') &&
         attacker.named('Cubone', 'Marowak', 'Marowak-Alola') &&
-        moveCategory === 'Physical') ||
+        move.category === 'Physical') ||
         (attacker.hasItem('Deep Sea Tooth') &&
             attacker.named('Clamperl') &&
-            moveCategory === 'Special') ||
+            move.category === 'Special') ||
         (attacker.hasItem('Light Ball') && attacker.name.startsWith('Pikachu') && !move.isZ)) {
         atMods.push(8192);
         desc.attackerItem = attacker.item;
     }
     else if ((attacker.hasItem('Soul Dew') &&
         attacker.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega') &&
-        moveCategory === 'Special') ||
-        (attacker.hasItem('Choice Band') && moveCategory === 'Physical') ||
-        (attacker.hasItem('Choice Specs') && moveCategory === 'Special')) {
+        move.category === 'Special') ||
+        (attacker.hasItem('Choice Band') && move.category === 'Physical') ||
+        (attacker.hasItem('Choice Specs') && move.category === 'Special')) {
         atMods.push(6144);
         desc.attackerItem = attacker.item;
     }
@@ -710,16 +674,7 @@ exports.calculateAtModsBWXY = calculateAtModsBWXY;
 function calculateDefenseBWXY(gen, attacker, defender, move, field, desc, isCritical) {
     if (isCritical === void 0) { isCritical = false; }
     var defense;
-    var moveCategory = move.category;
-	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
-            moveCategory = 'Physical';
-        }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
-            moveCategory = 'Special';
-        }
-	}
-    var defenseStat = move.overrideDefensiveStat || moveCategory === 'Physical' ? 'def' : 'spd';
+    var defenseStat = move.overrideDefensiveStat || move.category === 'Physical' ? 'def' : 'spd';
     var hitsPhysical = defenseStat === 'def';
     desc.defenseEVs = (0, util_2.getStatDescriptionText)(gen, defender, defenseStat, defender.nature);
     if (defender.boosts[defenseStat] === 0 ||
@@ -821,20 +776,11 @@ function calculateFinalModsBWXY(gen, attacker, defender, move, field, desc, isCr
     if (isCritical === void 0) { isCritical = false; }
     if (hitCount === void 0) { hitCount = 0; }
     var finalMods = [];
-    var moveCategory = move.category;
-	if (moveCategory !== 'Status') {
-	    if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
-            moveCategory = 'Physical';
-        }
-	    else if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
-            moveCategory = 'Special';
-        }
-	}
-    if (field.defenderSide.isReflect && moveCategory === 'Physical' && !isCritical) {
+    if (field.defenderSide.isReflect && move.category === 'Physical' && !isCritical) {
         finalMods.push(field.gameType !== 'Singles' ? (gen.num > 5 ? 2732 : 2703) : 2048);
         desc.isReflect = true;
     }
-    else if (field.defenderSide.isLightScreen && moveCategory === 'Special' && !isCritical) {
+    else if (field.defenderSide.isLightScreen && move.category === 'Special' && !isCritical) {
         finalMods.push(field.gameType !== 'Singles' ? (gen.num > 5 ? 2732 : 2703) : 2048);
         desc.isLightScreen = true;
     }
@@ -888,3 +834,4 @@ function calculateFinalModsBWXY(gen, attacker, defender, move, field, desc, isCr
     }
     return finalMods;
 }
+//# sourceMappingURL=gen56.js.map
