@@ -2221,7 +2221,12 @@ function create_sprites(customName, setData, pokId = undefined) {
 	}
 	
     const item = new Image();
-	item.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${itemName}.png`;
+	 if (itemName === 'never-melt_ice') {
+	 	item.src = 'https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/never_melt_ice.png';
+	 }
+	else {
+		item.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${itemName}.png`;
+	}
 	
     item.setAttribute('draggable', 'false');
 	item.style.top = '40%';
@@ -2370,4 +2375,6 @@ function create_display_sprites() {
             background-image: url("${opponentImageUrl}");
         }
     `;
+
 }
+

@@ -744,4 +744,5 @@ var CUSTOMSETDEX_B2W2HC = {"Absol":{"Plasma Shadow | Opelucid City | B2W2 Challe
 "Zubat":{"Rich Boy Brad | B2W2 Challenge ":{"index":"530000000056","level":16,"ability":"Inner Focus","item":"None","nature":"Hardy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Wing Attack","Bite","Astonish","Supersonic",]},
 "Biker Stanley | B2 Challenge ":{"index":"530000000116","level":21,"ability":"Inner Focus","item":"None","nature":"Hardy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},"moves":["Astonish","Bite","Confuse Ray","Wing Attack",]}},
 "Zweilous":{"Veteran Hugo | B2W2 Challenge ":{"index":"530000000694","level":54,"ability":"Hustle","item":"None","nature":"Hardy","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18},"moves":["Crunch","Body Slam","Dragon Rush","Scary Face",]},
+
 "Ace Trainer Elmer | B2W2 Challenge ":{"index":"530000000699","level":55,"ability":"Hustle","item":"None","nature":"Hardy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12},"moves":["Dragon Pulse","Body Slam","Thief","Torment",]}}};
