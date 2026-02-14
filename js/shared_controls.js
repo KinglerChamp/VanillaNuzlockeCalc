@@ -2221,7 +2221,7 @@ function create_sprites(customName, setData, pokId = undefined) {
 	}
 	
     const item = new Image();
-	 if (itemName === 'nevermelt_ice') {
+	 if (itemName === 'never-melt_ice') {
 	 	item.src = 'https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/never_melt_ice.png';
 	 }
 	else {
@@ -2377,3 +2377,4 @@ function create_display_sprites() {
     `;
 
 }
+
