@@ -109,3 +109,14 @@ setTimeout(() => {
     });
 
 }, 1000);
+
+$(document).keydown(async function (e) {
+    console.log(e.altKey, e.key);
+    if ((e.altKey) && e.key == 'c') {
+        console.log(1);
+        $("#critR1")[0].checked = !$("#critR1")[0].checked
+        $("#critR2")[0].checked = !$("#critR2")[0].checked
+        $("#critR3")[0].checked = !$("#critR3")[0].checked
+        $("#critR4")[0].checked = !$("#critR4")[0].checked
+    }
+});
