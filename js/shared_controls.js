@@ -2332,10 +2332,10 @@ function get_sets(setName = undefined) {
 }
 
 function create_display_sprites() {
-	var playerSetName = $(".set-selector.player").val();
+	var playerSetName = $("input.set-selector.player").val();
 	var playerImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprite-Gifs/master/${playerSetName.split(" (")[0]}.gif`;
 
-	var opponentSetName = $(".set-selector.opposing").val();
+	var opponentSetName = $("input.set-selector.opposing").val();
 	var opponentImageUrl = `https://raw.githubusercontent.com/KinglerChamp/Sprite-Gifs/master/${opponentSetName.split(" (")[0]}.gif`;
 
     // Create a new style rule for background image
