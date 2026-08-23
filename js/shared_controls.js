@@ -2104,17 +2104,101 @@ $("#mainResult").click(function () {
 });
 
 function updateGameOptions() {
-	if (!READY) return;
+	var gameSets = [
+		SETDEX[gen],
+		typeof CUSTOMSETDEX_RB === 'undefined' ? {} : CUSTOMSETDEX_RB,
+		typeof CUSTOMSETDEX_Y === 'undefined' ? {} : CUSTOMSETDEX_Y,
+		typeof CUSTOMSETDEX_GS === 'undefined' ? {} : CUSTOMSETDEX_GS,
+		typeof CUSTOMSETDEX_C === 'undefined' ? {} : CUSTOMSETDEX_C,
+		typeof CUSTOMSETDEX_RS === 'undefined' ? {} : CUSTOMSETDEX_RS,
+		typeof CUSTOMSETDEX_RSFR === 'undefined' ? {} : CUSTOMSETDEX_RSFR,
+		typeof CUSTOMSETDEX_RSIT === 'undefined' ? {} : CUSTOMSETDEX_RSIT,
+		typeof CUSTOMSETDEX_RSDE === 'undefined' ? {} : CUSTOMSETDEX_RSDE,
+		typeof CUSTOMSETDEX_RSES === 'undefined' ? {} : CUSTOMSETDEX_RSES,
+		typeof CUSTOMSETDEX_RSJA === 'undefined' ? {} : CUSTOMSETDEX_RSJA,
+		typeof CUSTOMSETDEX_E === 'undefined' ? {} : CUSTOMSETDEX_E,
+		typeof CUSTOMSETDEX_EFR === 'undefined' ? {} : CUSTOMSETDEX_EFR,
+		typeof CUSTOMSETDEX_EIT === 'undefined' ? {} : CUSTOMSETDEX_EIT,
+		typeof CUSTOMSETDEX_EDE === 'undefined' ? {} : CUSTOMSETDEX_EDE,
+		typeof CUSTOMSETDEX_EES === 'undefined' ? {} : CUSTOMSETDEX_EES,
+		typeof CUSTOMSETDEX_EJA === 'undefined' ? {} : CUSTOMSETDEX_EJA,
+		typeof CUSTOMSETDEX_FRLG === 'undefined' ? {} : CUSTOMSETDEX_FRLG,
+		typeof CUSTOMSETDEX_FRLGFR === 'undefined' ? {} : CUSTOMSETDEX_FRLGFR,
+		typeof CUSTOMSETDEX_FRLGIT === 'undefined' ? {} : CUSTOMSETDEX_FRLGIT,
+		typeof CUSTOMSETDEX_FRLGDE === 'undefined' ? {} : CUSTOMSETDEX_FRLGDE,
+		typeof CUSTOMSETDEX_FRLGES === 'undefined' ? {} : CUSTOMSETDEX_FRLGES,
+		typeof CUSTOMSETDEX_FRLGJA === 'undefined' ? {} : CUSTOMSETDEX_FRLGJA,
+		typeof CUSTOMSETDEX_DP === 'undefined' ? {} : CUSTOMSETDEX_DP,
+		typeof CUSTOMSETDEX_Pl === 'undefined' ? {} : CUSTOMSETDEX_Pl,
+		typeof CUSTOMSETDEX_HGSS === 'undefined' ? {} : CUSTOMSETDEX_HGSS,
+		typeof CUSTOMSETDEX_BW === 'undefined' ? {} : CUSTOMSETDEX_BW,
+		typeof CUSTOMSETDEX_B2W2 === 'undefined' ? {} : CUSTOMSETDEX_B2W2,
+		typeof CUSTOMSETDEX_B2W2HC === 'undefined' ? {} : CUSTOMSETDEX_B2W2HC,
+		typeof CUSTOMSETDEX_XY === 'undefined' ? {} : CUSTOMSETDEX_XY,
+		typeof CUSTOMSETDEX_ORAS === 'undefined' ? {} : CUSTOMSETDEX_ORAS,
+		typeof CUSTOMSETDEX_SM === 'undefined' ? {} : CUSTOMSETDEX_SM,
+		typeof CUSTOMSETDEX_USUM === 'undefined' ? {} : CUSTOMSETDEX_USUM,
+		typeof CUSTOMSETDEX_SS === 'undefined' ? {} : CUSTOMSETDEX_SS,
+		typeof CUSTOMSETDEX_BDSP === 'undefined' ? {} : CUSTOMSETDEX_BDSP,
+		typeof CUSTOMSETDEX_SV === 'undefined' ? {} : CUSTOMSETDEX_SV
+	];
 	var params = new URLSearchParams(window.location.search);
-	$("#game0").prop("checked", true);
-	game = 0;
-	params.delete("game");
-	params = '' + params;
+	game = ~~$("input.game:checked").val() || 0;
+	$(".game-dropdown").removeClass("language-open");
+	var gameGeneration = game === 0 ? gen : game <= 2 ? 1 : game <= 4 ? 2 : game <= 22 ? 3 : game <= 25 ? 4 : game <= 28 ? 5 : game <= 30 ? 6 : game <= 32 ? 7 : game <= 34 ? 8 : 9;
+	if (game && gameGeneration !== gen) {
+		$("#gen" + gameGeneration).prop("checked", true).change();
+		return;
+	}
+	setdex = gameSets[game] || SETDEX[gen];
+	if (game) {
+		params.set("game", game);
+	} else {
+		params.delete("game");
+	}
 	if (window.history && window.history.replaceState) {
+		params = '' + params;
 		window.history.replaceState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
 	}
-
+	loadDefaultLists();
+	var firstSet = getFirstValidSetOption();
+	if (firstSet) {
+		$(".set-selector").val(firstSet.id).change();
+	}
 }
+
+$(document).on("change", "input.game", updateGameOptions);
+
+$(".result-move").each(function () {
+	var critId = this.id.replace("resultMove", "crit");
+	var critButton = $("<label class='btn crit-btn result-crit-btn' for='" + critId + "' title='Force this attack to be a critical hit?'>Crit</label>");
+	var resultRow = $(this).closest("div");
+	resultRow.append(critButton);
+	$("#" + critId).trigger("change");
+});
+
+$(document).on("change", ".move-crit", function () {
+	$(".result-crit-btn[for='" + this.id + "']").toggleClass("active", this.checked);
+});
+
+$(document).on("click", ".result-crit-btn", function (e) {
+	e.preventDefault();
+	var crit = $("#" + $(this).attr("for"));
+	crit.prop("checked", !crit.prop("checked")).change();
+});
+
+$(document).on("click", ".game-btn", function (e) {
+	e.preventDefault();
+	var gameOption = $(this).parent();
+	$(".game-dropdown").not(gameOption).removeClass("language-open");
+	gameOption.toggleClass("language-open");
+});
+
+$(document).on("click", function (e) {
+	if (!$(e.target).closest(".game-dropdown").length) {
+		$(".game-dropdown").removeClass("language-open");
+	}
+});
 
 function get_team_indices() {
     var teamChildren = document.getElementById('team-poke-list').children;

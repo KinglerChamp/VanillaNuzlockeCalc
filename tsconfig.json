@@ -13,7 +13,8 @@
     "noImplicitReturns": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es3",
+    "target": "es5",
     "removeComments": true,
+    "ignoreDeprecations": "6.0"
   }
 }

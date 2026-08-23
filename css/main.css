@@ -313,15 +313,14 @@
   padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
   text-decoration: none;
-  transition: all 250ms;
+    gap: 0.5em;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  vertical-align: baseline;
+    margin-right: 0;
   width: auto;
 }
 
-.button-6:hover,
 .button-6:focus {
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
@@ -588,9 +587,6 @@ th {
 .small-text {
   font-size: 1.1em;
 }
-.panel {
-  /* required for honkaculate to work */
-}
 .panel-container {
   display: flex;
   gap: 2em;
@@ -599,7 +595,6 @@ th {
 .panel-container .panel:first-child {
   min-width: 30.33%;
   width: 100%;
-
 }
 .panel-container .panel:last-child {
   min-width: 30.33%;
@@ -651,9 +646,6 @@ th {
   white-space: nowrap;
 }
 
-#clearSets {
-  /* Additional or specific styles for #clearSets can go here if needed */
-}
 .margin-top {
   margin-top: 2em !important;
 }
@@ -753,6 +745,11 @@ th {
   outline: 0;
   background-color: #e4e4e4;
 }
+.result-crit-btn.active {
+  border-color: #4a4a4a;
+  outline: 0;
+  background-color: #e4e4e4;
+}
 .visually-hidden[type="radio"]:checked + .btn {
   border-color: #4a4a4a;
   outline: 0;
@@ -840,16 +837,33 @@ th {
 }
 
 .move-result-subgroup:last-child span {
-  margin-inline: 3em;
+  margin-inline: 0;
 }
 
 .move-result-subgroup > div {
   display: flex;
   align-items: center;
+  gap: 0.5em;
 }
 
 .move-result-group .btn {
-  margin-right: 4em;
+  margin-right: 0;
+}
+.move-result-group .result-crit-btn {
+  margin: 0;
+  padding: 4px 8px;
+}
+.move-result-subgroup:last-child .result-crit-btn {
+  order: 1;
+}
+.move-result-subgroup:last-child label[for^="resultMove"] {
+  order: 2;
+}
+.move-result-subgroup:first-child .result-crit-btn {
+  order: 1;
+}
+.move-result-subgroup:first-child [id^="resultDamageL"] {
+  order: 2;
 }
 .main-result-group {
   margin: 2em 0 1em;
@@ -1019,15 +1033,6 @@ table.field {
   /* line-height: 18px; */
   /* border: 1px solid red; */
 }
-.small-select.select2-container .select2-choice .select2-arrow b {
-  /* background-position: center center; */
-  /* border: 1px solid red; */
-}
-.small-select.select2-dropdown-open .select2-choice .select2-arrow b {
-  /* background-position: -18px -4px; */
-  /* border: 1px solid red; */
-}
-
 /* Bootstrap */
 .panel-group > .panel {
   clear: left;
@@ -1188,9 +1193,6 @@ table.field {
 }
 .info-group table .base {
   width: 1.5em;
-}
-.info-group table select.boost {
-  /* width: 10em; */
 }
 .trainer-poker-checkboxes {
   display: flex;
@@ -1410,3 +1412,19 @@ table.field {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+.game-dropdown {
+    position: relative;
+}
+.language-dropdown {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.game-dropdown.language-open .language-dropdown {
+  display: block;
+}
+
