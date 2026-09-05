@@ -814,9 +814,53 @@ $(".set-selector").change(function () {
 		if (regSets && setdex[pokemonName][setName].gender === "M") pokeObj.find(".gender").val("Male");
 			if (regSets && setdex[pokemonName][setName].gender === "F") pokeObj.find(".gender").val("Female");
 		}
+		if (READY) {
+			saveCurrentSelections();
+		}
 		window.NO_CALC = false;
 	}
 );
+
+var CURRENT_SELECTIONS_KEY = "currentSelections";
+
+function getCurrentSelectionsKey() {
+	return CURRENT_SELECTIONS_KEY + ":" + gen + ":" + game;
+}
+
+function saveCurrentSelections() {
+	localStorage.setItem(getCurrentSelectionsKey(), JSON.stringify({
+		player: $("input.set-selector.player").val(),
+		opposing: $("input.set-selector.opposing").val()
+	}));
+}
+
+function restoreCurrentSelections() {
+	var savedSelections;
+	try {
+		savedSelections = JSON.parse(localStorage.getItem(getCurrentSelectionsKey()));
+	} catch (error) {
+		return;
+	}
+	if (!savedSelections) return;
+
+	["player", "opposing"].forEach(function(side) {
+		var selector = $("input.set-selector." + side);
+		var value = savedSelections[side];
+		var hasSavedOption = getSetOptions().some(function(option) {
+			return option.id === value;
+		});
+		if (value && hasSavedOption) {
+			selector.val(value).change();
+			selector.prev(".select2-container").find(".select2-chosen").text(value);
+		}
+	});
+}
+
+$(document).on("change", ".set-selector", function() {
+	if (READY) {
+		saveCurrentSelections();
+	}
+});
 
 function formatMovePool(moves) {
 	var formatted = [];
@@ -1409,6 +1453,34 @@ function getFirstValidSetOption() {
 	return undefined;
 }
 
+function getFirstTrainerSetOption() {
+	var firstOption;
+	var firstIndex;
+
+	Object.keys(setdex || {}).forEach(function(pokemonName) {
+		Object.keys(setdex[pokemonName] || {}).forEach(function(setName) {
+			var set = setdex[pokemonName][setName];
+			var index = Number(set.index);
+			if (!set.isCustomSet && Number.isFinite(index) && (firstIndex === undefined || index < firstIndex)) {
+				firstIndex = index;
+				firstOption = {
+					pokemon: pokemonName,
+					set: setName,
+					text: pokemonName + " (" + setName + ")",
+					id: pokemonName + " (" + setName + ")"
+				};
+			}
+		});
+	});
+
+	return firstOption || getFirstValidSetOption();
+}
+
+function setSelectorValue(selector, value) {
+	selector.val(value).change();
+	selector.prev(".select2-container").find(".select2-chosen").text(value);
+}
+
 $(".notation").change(function () {
 	notation = $(this).val();
 });
@@ -1784,7 +1856,7 @@ function get_box() {
         var setData = sets[i].data;
 		var pokName = sets[i].pok;
 
-		if (setName.includes("Custom")) {
+		if (setData.isCustomSet) {
             var pokId = `pok-${i}`;
 
             // Check if the child already exists, if so, store the area that it is in
@@ -2114,8 +2186,9 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	$(".set-selector").val(getFirstValidSetOption().id);
-	$(".set-selector").change();
+	setSelectorValue($("input.set-selector.player"), getFirstValidSetOption().id);
+	setSelectorValue($("input.set-selector.opposing"), getFirstTrainerSetOption().id);
+	restoreCurrentSelections();
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 	READY = true;
 });
@@ -2189,8 +2262,12 @@ function updateGameOptions() {
 	}
 	loadDefaultLists();
 	var firstSet = getFirstValidSetOption();
+	var firstTrainerSet = getFirstTrainerSetOption();
 	if (firstSet) {
-		$(".set-selector").val(firstSet.id).change();
+		setSelectorValue($("input.set-selector.player"), firstSet.id);
+	}
+	if (firstTrainerSet) {
+			setSelectorValue($("input.set-selector.opposing"), firstTrainerSet.id);
 	}
 }
 
@@ -2419,11 +2496,17 @@ function get_sets(setName = undefined) {
 	];
 
     var sets = [];
+	var encounteredCustomSets = {};
 
     all_sets.forEach(set => {
         // Set structure: "[pokemon]: { set_name1: { set1 } }, { set_name2: { set2 } }, ..."
         Object.entries(set).forEach(([pok_name, pok_sets]) => {
             Object.entries(pok_sets).forEach(([set_name, set_data]) => {
+				if (set_data.isCustomSet) {
+					var customSetKey = pok_name + "\0" + set_name;
+					if (encounteredCustomSets[customSetKey]) return;
+					encounteredCustomSets[customSetKey] = true;
+				}
 				if (
 					setName == undefined ||
 					set_name.includes(setName) ||
@@ -2480,10 +2563,16 @@ function create_display_sprites() {
 
 		.move-result-group > div:first-child::before {
             background-image: url("${playerImageUrl}");
+			right: 25px;
+			top: 25px;
+			background-position: center bottom;
         }
 
 		.move-result-group > div:last-child::before {
             background-image: url("${opponentImageUrl}");
+			left: 25px;
+			top: 25px;
+			background-position: center bottom;
         }
     `;
 

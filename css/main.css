@@ -805,12 +805,24 @@ th {
 }
 
 /* header */
+.sprite-display-panel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 170px;
+}
+
 .move-result-group {
   /* min-width: 50em; */
   display: flex;
   /* margin: 1em 0; */
   justify-content: center;
   align-items: center;
+}
+.sprite-display-panel .move-result-group {
+  width: 100%;
 }
 .move-result-subgroup {
   display: flex;
@@ -1301,22 +1313,24 @@ table.field {
 .move-result-group > div:first-child::before {
   content: "";
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 25px;
+  top: 25px;
   width: 120px;
   height: 120px;
   background-repeat: no-repeat;
+  background-position: center bottom;
   transform: scaleX(-1);
 }
 
 .move-result-group > div:last-child::before {
   content: "";
   position: absolute;
-  left: 20px;
-  top: 20px;
+  left: 25px;
+  top: 25px;
   width: 120px;
   height: 120px;
   background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 #abilityL1 {

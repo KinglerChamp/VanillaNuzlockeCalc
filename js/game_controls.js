@@ -12,9 +12,14 @@ function placeBsBtn() {
 
 function ExportPokemon(pokeInfo) {
 	var pokemon = createPokemon(pokeInfo);
+	var fullSetName = pokeInfo.find("input.set-selector").val();
+	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
+	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
+	var set = setdex[pokemonName] && setdex[pokemonName][setName];
+	var exportName = set && set.nickname ? set.nickname + " (" + pokemon.name + ")" : pokemon.name;
 	var EV_counter = 0;
 	var finalText = "";
-	finalText = pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
+	finalText = exportName + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
 	finalText += "Level: " + pokemon.level + "\n";
 	finalText += pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
 	if (gen === 9) {
@@ -245,6 +250,7 @@ function addToDex(poke) {
 	dexObject.moves = poke.moves;
 	dexObject.nature = poke.nature;
 	dexObject.item = poke.item;
+	dexObject.nickname = poke.nickname;
 	dexObject.isCustomSet = poke.isCustomSet;
 	var customsets;
 var ensure = function (name) { if (typeof window[name] === 'undefined') window[name] = {}; };
@@ -421,8 +427,7 @@ function get_held_items() {
 
 // Function to get box and generate HTML for draggable items
 function get_box() {
-		var names = get_trainer_names();
-		var items = get_held_items();
+		var customSets = localStorage.customsets ? JSON.parse(localStorage.customsets) : {};
 		var box = [];
 	
 		// Object to keep track of encountered custom entries
@@ -431,11 +436,14 @@ function get_box() {
 		// Clear the content of the default div
 		document.getElementById('box-poke-list').innerHTML = "";
 	
-		for (var i = 0; i < names.length; i++) {
-			if (names[i].includes("Custom")) {
-				var customName = names[i].split(" (")[0];
-				var heldItem = items[i];
-				var item_name = heldItem.toLowerCase().replace(" ", "_");
+		var customIndex = 0;
+		for (var pokemonName in customSets) {
+			for (var setName in customSets[pokemonName]) {
+				var setData = customSets[pokemonName][setName];
+				if (setData.isCustomSet) {
+				var customName = pokemonName + " (" + setName + ")";
+				var heldItem = setData.item;
+				var item_name = String(heldItem || "undefined").toLowerCase().replace(" ", "_");
 	
 				// Check if this custom entry has been encountered before
 				if (!encounteredCustom[customName]) {
@@ -466,11 +474,11 @@ function get_box() {
 					}
 	
 					const container = document.createElement('div');
-					container.id = `pok-${i}`;
+					container.id = `pok-${customIndex}`;
 					container.className = 'trainer-pok left-side flipped-image draggable-pok';
 					container.setAttribute('draggable', 'true');
-					container.dataset.id = `${customName} (Custom Set)`;
-					container.title = `${customName} (Custom Set)`;
+					container.dataset.id = customName;
+					container.title = customName;
 					container.style.position = 'relative';
 	
 					const pok = new Image();
@@ -511,8 +519,10 @@ function get_box() {
 	
 					// Append the Pokémon sprite to the default box-poke-list drop zone
 					document.getElementById('box-poke-list').appendChild(container);
+					customIndex++;
 				}
 			}
+		}
 		}
 	
 		// Add drag and drop event listeners to the dynamically generated elements
@@ -576,11 +586,8 @@ function addSets(pokes, name) {
 				currentPoke = calc.SPECIES[9][currentRow[j].trim()];
 				currentPoke.name = currentRow[j].trim();
 				currentPoke.item = getItem(currentRow, j + 1);
-				if (j === 1 && currentRow[0].trim()) {
-					currentPoke.nameProp = "Custom Set";
-				} else {
-					currentPoke.nameProp = "Custom Set";
-				}
+				currentPoke.nickname = j > 0 ? currentRow[0].trim() : "";
+				currentPoke.nameProp = currentPoke.nickname || "Custom Set";
 				currentPoke.isCustomSet = true;
 				currentPoke.ability = getAbility(rows[i + 1].split(":"));
 				currentPoke.teraType = getTeraType(rows[i + 1].split(":"));
@@ -675,6 +682,7 @@ $(document).ready(function () {
 	if (localStorage.customsets) {
 		customSets = JSON.parse(localStorage.customsets);
 		updateDex(customSets);
+		get_box();
 		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		loadDefaultLists();

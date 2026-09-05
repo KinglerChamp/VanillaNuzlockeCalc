@@ -12,9 +12,14 @@ function placeBsBtn() {
 
 function ExportPokemon(pokeInfo) {
 	var pokemon = createPokemon(pokeInfo);
+	var fullSetName = pokeInfo.find("input.set-selector").val();
+	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
+	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
+	var set = setdex[pokemonName] && setdex[pokemonName][setName];
+	var exportName = set && set.nickname ? set.nickname + " (" + pokemon.name + ")" : pokemon.name;
 	var EV_counter = 0;
 	var finalText = "";
-	finalText = pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
+	finalText = exportName + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
 	finalText += "Level: " + pokemon.level + "\n";
 	finalText += pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
 	if (gen === 9) {
@@ -245,6 +250,7 @@ function addToDex(poke) {
 	dexObject.moves = poke.moves;
 	dexObject.nature = poke.nature;
 	dexObject.item = poke.item;
+	dexObject.nickname = poke.nickname;
 	dexObject.isCustomSet = poke.isCustomSet;
 	var customsets;
 	if (localStorage.customsets) {
@@ -441,11 +447,8 @@ function addSets(pokes, name) {
 				currentPoke = calc.SPECIES[9][currentRow[j].trim()];
 				currentPoke.name = currentRow[j].trim();
 				currentPoke.item = getItem(currentRow, j + 1);
-				if (j === 1 && currentRow[0].trim()) {
-					currentPoke.nameProp = "Custom Set";
-				} else {
-					currentPoke.nameProp = "Custom Set";
-				}
+				currentPoke.nickname = j > 0 ? currentRow[0].trim() : "";
+				currentPoke.nameProp = currentPoke.nickname || "Custom Set";
 				currentPoke.isCustomSet = true;
 				currentPoke.ability = getAbility(rows[i + 1].split(":"));
 				currentPoke.teraType = getTeraType(rows[i + 1].split(":"));
@@ -564,6 +567,7 @@ $(document).ready(function () {
 	if (localStorage.customsets) {
 		customSets = JSON.parse(localStorage.customsets);
 		updateDex(customSets);
+		get_box();
 		$(allPokemon("#importedSetsOptions")).css("display", "flex");
 	} else {
 		loadDefaultLists();
