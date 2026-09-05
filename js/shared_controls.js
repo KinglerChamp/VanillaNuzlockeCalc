@@ -1856,6 +1856,36 @@ function dragStart(event) {
 }
 
 // Function to handle the end of a drag event
+function removeCustomSetFromDex(pokemonName) {
+	var dexNames = [
+		'SETDEX_RBY', 'SETDEX_GSC', 'SETDEX_ADV', 'SETDEX_DPP', 'SETDEX_BW',
+		'SETDEX_XY', 'SETDEX_SM', 'SETDEX_SS', 'SETDEX_SV', 'CUSTOMSETDEX_RB',
+		'CUSTOMSETDEX_Y', 'CUSTOMSETDEX_GS', 'CUSTOMSETDEX_C', 'CUSTOMSETDEX_RS',
+		'CUSTOMSETDEX_E', 'CUSTOMSETDEX_FRLG', 'CUSTOMSETDEX_DP', 'CUSTOMSETDEX_Pl',
+		'CUSTOMSETDEX_HGSS', 'CUSTOMSETDEX_BW', 'CUSTOMSETDEX_B2W2',
+		'CUSTOMSETDEX_B2W2HC', 'CUSTOMSETDEX_XY', 'CUSTOMSETDEX_ORAS',
+		'CUSTOMSETDEX_SM', 'CUSTOMSETDEX_USUM', 'CUSTOMSETDEX_SS',
+		'CUSTOMSETDEX_BDSP', 'CUSTOMSETDEX_SV'
+	];
+
+	dexNames.forEach(function(dexName) {
+		var dex = window[dexName];
+		if (!dex || !dex[pokemonName]) {
+			return;
+		}
+
+		Object.keys(dex[pokemonName]).forEach(function(setName) {
+			if (dex[pokemonName][setName].isCustomSet) {
+				delete dex[pokemonName][setName];
+			}
+		});
+
+		if (Object.keys(dex[pokemonName]).length === 0) {
+			delete dex[pokemonName];
+		}
+	});
+}
+
 function dragEnd(event) {
 	event.target.classList.remove('dragging'); // Remove the dragging class
 	event.target.style.display = 'block'; // Show the element again
@@ -1905,6 +1935,7 @@ function trashPokemon() {
     maybeMultiple.forEach(pokeTrashed => {
         var name = pokeTrashed.getAttribute("data-id").split(" (")[0];
         delete customSets[name];
+		removeCustomSetFromDex(name);
         pokeTrashed.remove(); // Remove from the DOM
     });
 
@@ -1912,8 +1943,6 @@ function trashPokemon() {
 
     // Refresh the boxes
     $('#box-poke-list')[0].click();
-    // Switch to the next Pokémon automatically
-    $('.box-poke-list')[0].click();
 }
 
 // Event listener for the trash button
@@ -1929,8 +1958,6 @@ function refreshAfterImport() {
 
     // Refresh the boxes
     $('#box-poke-list')[0].click();
-    // Switch to the next Pokémon automatically
-    $('.box-poke-list')[0].click();
 }
 
 
