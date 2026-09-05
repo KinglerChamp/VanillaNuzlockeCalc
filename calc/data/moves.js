@@ -1665,7 +1665,7 @@ var BW_PATCH = {
     'Work Up': { bp: 0, type: 'Normal' }
 };
 var BW = (0, util_1.extend)(true, {}, DPP, BW_PATCH);
-delete BW['Faint Attack'];
+delete BW['Feint Attack'];
 var XY_PATCH = {
     'Ice Ball': { isBullet: true },
     'Knock Off': { bp: 65 },
