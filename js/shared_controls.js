@@ -702,6 +702,7 @@ $(".set-selector").change(function () {
 				pokeObj.find(".teraType").val(set.teraType || getForcedTeraType(pokemonName) || pokemon.types[0]);
 			}
 			pokeObj.find(".level").val(set.level === undefined ? 100 : set.level);
+			pokeObj.find(".challenge_level").val(set.challenge_level ?? set.level);
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
 			pokeObj.find(".hp .g1g2-evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
@@ -1087,7 +1088,6 @@ function correctHiddenPower(pokemon) {
 function createPokemon(pokeInfo) {
 	if (typeof pokeInfo === "string") { // in this case, pokeInfo is the id of an individual setOptions value whose moveset's tier matches the selected tier(s)
 		var name = pokeInfo.substring(0, pokeInfo.indexOf(" ("));
-		console.log(`s ${name}`);
 		var setName = pokeInfo.substring(pokeInfo.indexOf("(") + 1, pokeInfo.lastIndexOf(")"));
 		var isRandoms = $("#randoms").prop("checked");
 		var set = isRandoms ? randdex[name] : setdex[name][setName];
@@ -1143,7 +1143,6 @@ function createPokemon(pokeInfo) {
 			var species = pokedex[pokemonName];
 			name = (species.otherFormes || (species.baseSpecies && species.baseSpecies !== pokemonName)) ? pokeInfo.find(".forme").val() : pokemonName;
 		}
-		console.log(`e ${name}`);
 
 		var baseStats = {};
 		var ivs = {};
@@ -1175,8 +1174,10 @@ function createPokemon(pokeInfo) {
 		// FIXME the Pokemon constructor expects non-dynamaxed HP
 		if (isDynamaxed) curHP = Math.floor(curHP / 2);
 		var types = [pokeInfo.find(".type1").val(), pokeInfo.find(".type2").val()];
+		var level = ~~pokeInfo.find(".level").val();
 		return new calc.Pokemon(gen, name, {
-			level: ~~pokeInfo.find(".level").val(),
+			level: level,
+			challenge_level: ~~pokeInfo.find(".challenge_level").val() ?? level,
 			ability: ability,
 			abilityOn: pokeInfo.find(".abilityToggle").is(":checked"),
 			item: item,
