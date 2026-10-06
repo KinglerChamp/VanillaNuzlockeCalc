@@ -702,7 +702,7 @@ $(".set-selector").change(function () {
 				pokeObj.find(".teraType").val(set.teraType || getForcedTeraType(pokemonName) || pokemon.types[0]);
 			}
 			pokeObj.find(".level").val(set.level === undefined ? 100 : set.level);
-			pokeObj.find(".challenge_level").val(set.challenge_level ?? set.level);
+			pokeObj.find(".challenge_level").val(set.challenge_level === undefined ? 100 : set.challenge_level);
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
 			pokeObj.find(".hp .g1g2-evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
