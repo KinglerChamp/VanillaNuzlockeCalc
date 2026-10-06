@@ -508,8 +508,8 @@ function chainMods(mods, lowerBound, upperBound) {
 }
 exports.chainMods = chainMods;
 function getBaseDamage(attacker, basePower, attack, defense) {
-    console.log(attacker);
     var level = attacker.challenge_level ?? attacker.level;
+    console.log(level);
     return Math.floor(OF32(Math.floor(OF32(OF32(Math.floor((2 * level) / 5 + 2) * basePower) * attack) / defense) / 50 + 2));
 }
 exports.getBaseDamage = getBaseDamage;
