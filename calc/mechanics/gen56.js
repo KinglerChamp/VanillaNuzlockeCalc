@@ -256,8 +256,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 stabMod = (0, util_2.getStabMod)(attacker, move, desc);
             }
             var newBasePower = calculateBasePowerBWXY(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc);
-			   var level = attacker.challenge_level ?? attacker.level;
-            var newBaseDamage = (0, util_2.getBaseDamage)(level, newBasePower, newAtk, newDef);
+			var newBaseDamage = (0, util_2.getBaseDamage)(attacker, newBasePower, newAtk, newDef);
             var newFinalMods = calculateFinalModsBWXY(gen, attacker, defender, move, field, desc, isCritical, typeEffectiveness, times);
             var newFinalMod = (0, util_2.chainMods)(newFinalMods, 41, 131072);
             var damageMultiplier = 0;
@@ -748,8 +747,7 @@ function calculateDfModsBWXY(gen, defender, field, desc, hitsPhysical) {
 exports.calculateDfModsBWXY = calculateDfModsBWXY;
 function calculateBaseDamageBWXY(gen, attacker, basePower, attack, defense, move, field, desc, isCritical) {
     if (isCritical === void 0) { isCritical = false; }
-	 var level = attacker.challenge_level ?? attacker.level;
-    var baseDamage = (0, util_2.getBaseDamage)(level, basePower, attack, defense);
+	var baseDamage = (0, util_2.getBaseDamage)(attacker, basePower, attack, defense);
     var isSpread = field.gameType !== 'Singles' &&
         ['allAdjacent', 'allAdjacentFoes'].includes(move.target);
     if (isSpread) {
