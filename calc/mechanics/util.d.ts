@@ -23,7 +23,7 @@ export declare function checkInfiltrator(pokemon: Pokemon, affectedSide: Side): 
 export declare function checkSeedBoost(pokemon: Pokemon, field: Field): void;
 export declare function checkMultihitBoost(gen: Generation, attacker: Pokemon, defender: Pokemon, move: Move, field: Field, desc: RawDesc, attackerUsedItem?: boolean, defenderUsedItem?: boolean): boolean[];
 export declare function chainMods(mods: number[], lowerBound: number, upperBound: number): number;
-export declare function getBaseDamage(level: number, basePower: number, attack: number, defense: number): number;
+export declare function getBaseDamage(attacker: Pokemon, basePower: number, attack: number, defense: number): number;
 export declare function getQPBoostedStat(pokemon: Pokemon, gen?: Generation): StatID;
 export declare function isQPActive(pokemon: Pokemon, field: Field): boolean;
 export declare function getFinalDamage(baseAmount: number, i: number, effectiveness: number, isBurned: boolean, stabMod: number, finalMod: number, protect?: boolean): number;
