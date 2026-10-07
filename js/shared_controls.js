@@ -1174,7 +1174,7 @@ function createPokemon(pokeInfo) {
 		if (isDynamaxed) curHP = Math.floor(curHP / 2);
 		var types = [pokeInfo.find(".type1").val(), pokeInfo.find(".type2").val()];
 		var level = ~~pokeInfo.find(".level").val();
-		var challenge_level = parseInt(pokeInfo.find(".challenge_level").val());
+		var challenge_level = pokeInfo.find(".challenge_level").val();
 		return new calc.Pokemon(gen, name, {
 			level: level,
 			challenge_level: challenge_level,
