@@ -3,7 +3,6 @@ export declare namespace State {
     interface Pokemon {
         name: I.SpeciesName;
         level?: number;
-        challenge_level?: number;
         ability?: I.AbilityName;
         abilityOn?: boolean;
         isDynamaxed?: boolean;

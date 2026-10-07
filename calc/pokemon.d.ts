@@ -7,7 +7,6 @@ export declare class Pokemon implements State.Pokemon {
     types: [I.TypeName] | [I.TypeName, I.TypeName];
     weightkg: number;
     level: number;
-    challenge_level?: number;
     gender?: I.GenderName;
     ability?: I.AbilityName;
     abilityOn?: boolean;
