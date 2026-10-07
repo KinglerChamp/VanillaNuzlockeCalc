@@ -177,7 +177,6 @@ var Pokemon = (function () {
     Pokemon.prototype.clone = function () {
         return new Pokemon(this.gen, this.name, {
             level: this.level,
-            challenge_level: this.challenge_level,
             ability: this.ability,
             abilityOn: this.abilityOn,
             isDynamaxed: this.isDynamaxed,
