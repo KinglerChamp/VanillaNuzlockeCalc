@@ -1175,7 +1175,7 @@ function createPokemon(pokeInfo) {
 		var types = [pokeInfo.find(".type1").val(), pokeInfo.find(".type2").val()];
 		var level = ~~pokeInfo.find(".level").val();
 		var challenge_level = pokeInfo.find(".challenge_level").val();
-		var pok = new calc.Pokemon(gen, name, {
+		return new calc.Pokemon(gen, name, {
 			level: level,
 			challenge_level: challenge_level,
 			ability: ability,
@@ -1205,8 +1205,6 @@ function createPokemon(pokeInfo) {
 				types: types
 			}
 		});
-		console.log(pok);
-		return pok;
 	}
 }
 
