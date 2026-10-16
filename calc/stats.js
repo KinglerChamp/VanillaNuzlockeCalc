@@ -87,6 +87,12 @@ exports.Stats = new ((function () {
     class_1.prototype.DVToIV = function (dv) {
         return dv * 2;
     };
+    class_1.prototype.EVToStatEXP = function (ev) {
+        return (ev - 1) * (ev - 1) + 1;
+    };
+    class_1.prototype.StatEXPToEv = function (statexp) {
+        return statexp === 0 ? 0 : Math.floor((Math.sqrt(statexp - 1) + 1) / 4) * 4;
+    };
     class_1.prototype.DVsToIVs = function (dvs) {
         var ivs = {};
         var dv;
@@ -125,14 +131,15 @@ exports.Stats = new ((function () {
         }
     };
     class_1.prototype.calcStatRBY = function (stat, base, iv, ev, level) {
-        return this.calcStatRBYFromDV(stat, base, this.IVToDV(iv), ev, level);
+        return this.calcStatRBYFromDV(stat, base, this.IVToDV(iv), this.EVToStatEXP(ev), level);
     };
-    class_1.prototype.calcStatRBYFromDV = function (stat, base, dv, ev, level) {
+    class_1.prototype.calcStatRBYFromDV = function (stat, base, dv, statexp, level) {
+        var statExp = Math.floor((Math.sqrt(statexp - 1) + 1) / 4);
         if (stat === 'hp') {
-            return Math.floor((((base + dv) * 2 + Math.floor(Math.ceil(Math.sqrt(ev)) / 4)) * level) / 100) + level + 10;
+            return Math.floor((((base + dv) * 2 + statExp) * level) / 100) + level + 10;
         }
         else {
-            return Math.floor((((base + dv) * 2 + Math.floor(Math.ceil(Math.sqrt(ev)) / 4)) * level) / 100) + 5;
+            return Math.floor((((base + dv) * 2 + statExp) * level) / 100) + 5;
         }
     };
     class_1.prototype.getHiddenPowerIVs = function (gen, hpType) {

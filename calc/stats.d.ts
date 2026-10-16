@@ -12,11 +12,13 @@ export declare const Stats: {
     }): number;
     IVToDV(iv: number): number;
     DVToIV(dv: number): number;
+    EVToStatEXP(ev: number): number;
+    StatEXPToEv(statexp: number): number;
     DVsToIVs(dvs: Readonly<Partial<StatsTable>>): Partial<StatsTable<number>>;
     calcStat(gen: Generation, stat: StatID, base: number, iv: number, ev: number, level: number, nature?: string): number;
     calcStatADV(natures: Natures, stat: StatID, base: number, iv: number, ev: number, level: number, nature?: string): number;
     calcStatRBY(stat: StatID, base: number, iv: number, ev: number, level: number): number;
-    calcStatRBYFromDV(stat: StatID, base: number, dv: number, ev: number, level: number): number;
+    calcStatRBYFromDV(stat: StatID, base: number, dv: number, statexp: number, level: number): number;
     getHiddenPowerIVs(gen: Generation, hpType: HPTypeName): Partial<StatsTable<number>> | undefined;
     getHiddenPower(gen: Generation, ivs: StatsTable): {
         type: TypeName;

@@ -64,8 +64,17 @@ describe('Pokemon', function () {
         });
         expect(p.ivs).toEqual({ hp: 20, atk: 31, def: 16, spa: 20, spd: 20, spe: 31 });
         expect(p.evs).toEqual({ hp: 252, atk: 200, def: 252, spa: 252, spd: 252, spe: 252 });
-        expect(p.stats).toEqual({ hp: 343, atk: 298, def: 274, spa: 228, spd: 228, spe: 318 });
+        expect(p.stats).toEqual({ hp: 343, atk: 285, def: 274, spa: 228, spd: 228, spe: 318 });
         expect(p.curHP()).toBe(p.maxHP());
+
+        var zeroSpecial = new index_1.Pokemon(1, 'Tauros', {
+            ivs: { spc: 0 },
+            evs: { spc: 0 }
+        });
+        expect(zeroSpecial.ivs.spa).toBe(0);
+        expect(zeroSpecial.ivs.spd).toBe(0);
+        expect(zeroSpecial.evs.spa).toBe(0);
+        expect(zeroSpecial.evs.spd).toBe(0);
     });
     test('getForme', function () {
         expect(index_1.Pokemon.getForme(1, 'Gengar')).toBe('Gengar');

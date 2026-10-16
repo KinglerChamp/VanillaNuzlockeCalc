@@ -955,9 +955,6 @@ input {
   width: 2em;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
-.poke-info input.g1g2-evs {
-  width: 4em;
-}
 .move-type {
   width: 5.5em;
   background: #fff;
@@ -1441,4 +1438,3 @@ table.field {
 .game-dropdown.language-open .language-dropdown {
   display: block;
 }
-

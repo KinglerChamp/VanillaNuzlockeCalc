@@ -31,6 +31,7 @@ function ExportPokemon(pokeInfo) {
 	finalText += pokemon.ability ? "Ability: " + pokemon.ability + "\n" : "";
 	var EVs_Array = [];
 	for (var stat in pokemon.evs) {
+		if (gen === 1 && stat === 'spd') continue;
 		var ev = pokemon.evs[stat] ? pokemon.evs[stat] : 0;
 		if (ev > 0) {
 			EVs_Array.push(ev + " " + calc.Stats.displayStat(stat));
@@ -52,13 +53,17 @@ function ExportPokemon(pokeInfo) {
 
 	var IVs_Array = [];
 	for (var stat in pokemon.ivs) {
+		if (gen === 1 && stat === 'spd') continue;
 		var iv = pokemon.ivs[stat] ? pokemon.ivs[stat] : 0;
 		if (gen > 2) {
 			if (iv < 31) {
 				IVs_Array.push(iv + " " + calc.Stats.displayStat(stat));
 			}
-		} else if (iv < 15) {
-			IVs_Array.push(iv + " " + calc.Stats.displayStat(stat));
+		} else {
+			var dv = calc.Stats.IVToDV(iv);
+			if (dv < 15) {
+				IVs_Array.push((dv * 2) + " " + calc.Stats.displayStat(stat));
+			}
 		}
 	}
 	if (IVs_Array.length > 0) {
@@ -114,7 +119,7 @@ function getTeraType(row) {
 	if (Object.keys(calc.TYPE_CHART[9]).slice(1).indexOf(teraType) !== -1) return teraType;
 }
 
-function statToLegacyStat(stat) {
+function statToLegacyStat(stat, generation) {
 	switch (stat) {
 	case 'hp':
 		return "hp";
@@ -123,7 +128,9 @@ function statToLegacyStat(stat) {
 	case 'def':
 		return "df";
 	case 'spa':
-		return (gen > 1) ? "sa" : "sl";
+		return generation === 1 ? "sl" : "sa";
+	case 'spc':
+		return generation === 1 ? "sl" : "sa";
 	case 'spd':
 		return "sd";
 	case 'spe':
@@ -151,9 +158,14 @@ function getStats(currentPoke, rows, offset) {
 			currentPoke.level = parseInt(currentRow[1].trim());
 			break;
 		case 'EVs':
+			if (gen === 1) {
+				evs = {hp: 0, at: 0, df: 0, sl: 0, sp: 0};
+			} else if (gen === 2) {
+				evs = {hp: 0, at: 0, df: 0, sa: 0, sd: 0, sp: 0};
+			}
 			for (j = 1; j < currentRow.length; j++) {
 				currentEV = currentRow[j].trim().split(" ");
-				currentEV[1] = statToLegacyStat(currentEV[1].toLowerCase());
+				currentEV[1] = statToLegacyStat(currentEV[1].toLowerCase(), gen);
 				evs[currentEV[1]] = parseInt(currentEV[0]);
 			}
 			currentPoke.evs = evs;
@@ -161,10 +173,23 @@ function getStats(currentPoke, rows, offset) {
 		case 'IVs':
 			for (j = 1; j < currentRow.length; j++) {
 				currentIV = currentRow[j].trim().split(" ");
-				currentIV[1] = statToLegacyStat(currentIV[1].toLowerCase());
-				ivs[currentIV[1]] = parseInt(currentIV[0]);
+				currentIV[1] = statToLegacyStat(currentIV[1].toLowerCase(), gen);
+				if (gen < 3) {
+					ivs[currentIV[1]] = Math.floor(parseInt(currentIV[0]) / 2);
+				} else {
+					ivs[currentIV[1]] = parseInt(currentIV[0]);
+				}
 			}
-			currentPoke.ivs = ivs;
+			if (gen < 3) currentPoke.dvs = ivs;
+			else currentPoke.ivs = ivs;
+			break;
+		case 'DVs':
+			for (j = 1; j < currentRow.length; j++) {
+				currentIV = currentRow[j].trim().split(" ");
+				currentIV[1] = statToLegacyStat(currentIV[1].toLowerCase(), gen);
+				currentPoke.dvs = currentPoke.dvs || {};
+				currentPoke.dvs[currentIV[1]] = parseInt(currentIV[0]);
+			}
 			break;
 
 		}
@@ -247,6 +272,7 @@ function addToDex(poke) {
 	dexObject.level = poke.level;
 	dexObject.evs = poke.evs;
 	dexObject.ivs = poke.ivs;
+	dexObject.dvs = poke.dvs;
 	dexObject.moves = poke.moves;
 	dexObject.nature = poke.nature;
 	dexObject.item = poke.item;

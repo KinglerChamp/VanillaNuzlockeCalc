@@ -56,6 +56,13 @@ describe('Stats', function () {
             spe: stats_1.Stats.DVToIV(10)
         })).toBe(13);
     });
+    test('gen 1 and 2 EVs', function () {
+        expect(stats_1.Stats.EVToStatEXP(252)).toBe(63002);
+        expect(stats_1.Stats.StatEXPToEv(63002)).toBe(252);
+        expect(stats_1.Stats.StatEXPToEv(0)).toBe(0);
+        expect(stats_1.Stats.calcStat(data_1.Generations.get(1), 'atk', 100, 31, 0, 100)).toBe(235);
+        expect(stats_1.Stats.calcStat(data_1.Generations.get(1), 'atk', 100, 31, 252, 100)).toBe(298);
+    });
     test('gen 2 modifications', function () {
         expect((0, util_1.getModifiedStat)(158, -1, data_1.Generations.get(2))).toBe(104);
         expect((0, util_1.getModifiedStat)(238, -1, data_1.Generations.get(2))).toBe(157);
