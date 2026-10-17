@@ -693,7 +693,7 @@ $(".set-selector").change(function () {
 				pokeObj.find(".teraType").val(set.teraType || getForcedTeraType(pokemonName) || pokemon.types[0]);
 			}
 			pokeObj.find(".level").val(set.level === undefined ? 100 : set.level);
-			var evsDefault = gen < 3 ? 252 : ($("#randoms").prop("checked") ? 84 : 0);
+			var evsDefault = gen < 3 ? 0 : ($("#randoms").prop("checked") ? 84 : 0);
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : evsDefault);
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
 			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : (set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 15);
@@ -1090,7 +1090,7 @@ function createPokemon(pokeInfo) {
 		var set = isRandoms ? randdex[name] : setdex[name][setName];
 		var ivs = {};
 		var evs = {};
-		var evsDefault = gen < 3 ? 252 : (isRandoms ? 84 : 0);
+		var evsDefault = gen < 3 ? 0 : (isRandoms ? 84 : 0);
 		for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 			var legacyStat = LEGACY_STATS[gen][i];
 			var stat = legacyStatToStat(legacyStat);
