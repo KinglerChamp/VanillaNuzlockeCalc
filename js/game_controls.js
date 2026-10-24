@@ -146,6 +146,15 @@ function getStats(currentPoke, rows, offset) {
 	var currentTeraType;
 	var currentNature;
 	currentPoke.level = 100;
+	var defaultIVs = {};
+	for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
+		defaultIVs[LEGACY_STATS[gen][i]] = 0;
+	}
+	if (gen < 3) {
+		currentPoke.dvs = defaultIVs;
+	} else {
+		currentPoke.ivs = defaultIVs;
+	}
 	for (var x = offset; x < offset + 9; x++) {
 		var currentRow = rows[x] ? rows[x].split(/[/:]/) : '';
 		var evs = {};
@@ -171,6 +180,7 @@ function getStats(currentPoke, rows, offset) {
 			currentPoke.evs = evs;
 			break;
 		case 'IVs':
+			ivs = gen < 3 ? currentPoke.dvs : currentPoke.ivs;
 			for (j = 1; j < currentRow.length; j++) {
 				currentIV = currentRow[j].trim().split(" ");
 				currentIV[1] = statToLegacyStat(currentIV[1].toLowerCase(), gen);
@@ -542,7 +552,7 @@ function addSets(pokes, name) {
 					skippedDuplicates++;
 					continue;
 				}
-				currentPoke = calc.SPECIES[9][pokemonName];
+				currentPoke = Object.assign({}, calc.SPECIES[9][pokemonName]);
 				currentPoke.name = pokemonName;
 				currentPoke.item = getItem(currentRow, j + 1);
 				currentPoke.nickname = j > 0 ? currentRow[0].trim() : "";

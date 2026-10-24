@@ -1876,6 +1876,7 @@ function renderPokemonBoxes() {
 				box.push(pokName);
 				
 				var container = create_sprites(check_name_exeptions(pokName), structuredClone(setData), pokId)
+				container.dataset.id = `${pokName} (${setName})`;
 
 				// Add drag event listeners
 				container.addEventListener('dragstart', dragStart);
