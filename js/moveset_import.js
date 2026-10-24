@@ -569,6 +569,7 @@ function check_name_exeptions(poke) {
 
 $(allPokemon("#clearSets")).click(function () {
 	if (confirm("Are you sure you want to delete your custom sets? This action cannot be undone.")) {
+		removeCustomSetFromDex();
 		localStorage.removeItem("customsets");
 		alert("Custom Sets successfully cleared. Please refresh the page.");
 		$(allPokemon("#importedSetsOptions")).hide();

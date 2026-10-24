@@ -693,7 +693,7 @@ $(".set-selector").change(function () {
 				pokeObj.find(".teraType").val(set.teraType || getForcedTeraType(pokemonName) || pokemon.types[0]);
 			}
 			pokeObj.find(".level").val(set.level === undefined ? 100 : set.level);
-			var evsDefault = gen < 3 ? 252 : ($("#randoms").prop("checked") ? 84 : 0);
+			var evsDefault = gen < 3 ? 0 : ($("#randoms").prop("checked") ? 84 : 0);
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : evsDefault);
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
 			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : (set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 15);
@@ -1095,7 +1095,7 @@ function createPokemon(pokeInfo) {
 		var set = isRandoms ? randdex[name] : setdex[name][setName];
 		var ivs = {};
 		var evs = {};
-		var evsDefault = gen < 3 ? 252 : (isRandoms ? 84 : 0);
+		var evsDefault = gen < 3 ? 0 : (isRandoms ? 84 : 0);
 		for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 			var legacyStat = LEGACY_STATS[gen][i];
 			var stat = legacyStatToStat(legacyStat);
@@ -1934,30 +1934,29 @@ function dragStart(event) {
 function removeCustomSetFromDex(pokemonName) {
 	var dexNames = [
 		'SETDEX_RBY', 'SETDEX_GSC', 'SETDEX_ADV', 'SETDEX_DPP', 'SETDEX_BW',
-		'SETDEX_XY', 'SETDEX_SM', 'SETDEX_SS', 'SETDEX_SV', 'CUSTOMSETDEX_RB',
-		'CUSTOMSETDEX_Y', 'CUSTOMSETDEX_GS', 'CUSTOMSETDEX_C', 'CUSTOMSETDEX_RS',
-		'CUSTOMSETDEX_E', 'CUSTOMSETDEX_FRLG', 'CUSTOMSETDEX_DP', 'CUSTOMSETDEX_Pl',
-		'CUSTOMSETDEX_HGSS', 'CUSTOMSETDEX_BW', 'CUSTOMSETDEX_B2W2',
-		'CUSTOMSETDEX_B2W2HC', 'CUSTOMSETDEX_XY', 'CUSTOMSETDEX_ORAS',
-		'CUSTOMSETDEX_SM', 'CUSTOMSETDEX_USUM', 'CUSTOMSETDEX_SS',
-		'CUSTOMSETDEX_BDSP', 'CUSTOMSETDEX_SV'
-	];
+		'SETDEX_XY', 'SETDEX_SM', 'SETDEX_SS', 'SETDEX_SV'
+	].concat(Object.keys(window).filter(function (dexName) {
+		return dexName.indexOf('CUSTOMSETDEX_') === 0;
+	}));
 
 	dexNames.forEach(function(dexName) {
 		var dex = window[dexName];
-		if (!dex || !dex[pokemonName]) {
-			return;
-		}
+		if (!dex) return;
 
-		Object.keys(dex[pokemonName]).forEach(function(setName) {
-			if (dex[pokemonName][setName].isCustomSet) {
-				delete dex[pokemonName][setName];
+		var pokemonNames = pokemonName ? [pokemonName] : Object.keys(dex);
+		pokemonNames.forEach(function(name) {
+			if (!dex[name]) return;
+
+			Object.keys(dex[name]).forEach(function(setName) {
+				if (dex[name][setName].isCustomSet) {
+					delete dex[name][setName];
+				}
+			});
+
+			if (Object.keys(dex[name]).length === 0) {
+				delete dex[name];
 			}
 		});
-
-		if (Object.keys(dex[pokemonName]).length === 0) {
-			delete dex[pokemonName];
-		}
 	});
 }
 

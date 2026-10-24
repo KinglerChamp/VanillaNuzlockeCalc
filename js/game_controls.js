@@ -624,16 +624,6 @@ function checkExeptions(poke) {
 
 }
 
-$(allPokemon("#clearSets")).click(function () {
-	if (confirm("Are you sure you want to delete your custom sets? This action cannot be undone.")) {
-		localStorage.removeItem("customsets");
-		alert("Custom Sets successfully cleared. Please refresh the page.");
-		$(allPokemon("#importedSetsOptions")).hide();
-		loadDefaultLists();
-$('.player-poks').html("")
-	}
-});
-
 $(allPokemon("#importedSets")).click(function () {
 	var pokeID = $(this).parent().parent().prop("id");
 	var showCustomSets = $(this).prop("checked");
