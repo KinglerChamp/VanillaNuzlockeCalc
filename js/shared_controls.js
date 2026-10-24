@@ -541,7 +541,7 @@ $(".move-selector").change(function () {
 	$(this).attr('data-prev', moveName);
 	moveGroupObj.children(".move-type").val(move.type);
 	moveGroupObj.children(".move-cat").val(move.category);
-	moveGroupObj.children(".move-crit").prop("checked", move.willCrit === true);
+	moveGroupObj.children(".move-crit").prop("checked", move.willCrit === true).trigger("change");
 
 	var stat = move.category === 'Special' ? 'spa' : 'atk';
 	var dropsStats =
@@ -693,7 +693,7 @@ $(".set-selector").change(function () {
 				pokeObj.find(".teraType").val(set.teraType || getForcedTeraType(pokemonName) || pokemon.types[0]);
 			}
 			pokeObj.find(".level").val(set.level === undefined ? 100 : set.level);
-			var evsDefault = gen < 3 ? 252 : ($("#randoms").prop("checked") ? 84 : 0);
+		var evsDefault = gen < 3 ? 0 : ($("#randoms").prop("checked") ? 84 : 0);
 			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : evsDefault);
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
 			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : (set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 15);
@@ -731,11 +731,11 @@ $(".set-selector").change(function () {
 					}
 				}
 			}
-			var moves = selectMovesFromRandomOptions(setMoves);
+			var selectedMoves = selectMovesFromRandomOptions(setMoves);
 			for (i = 0; i < 4; i++) {
 				moveObj = pokeObj.find(".move" + (i + 1) + " select.move-selector");
 				moveObj.attr('data-prev', moveObj.val());
-				setSelectValueIfValid(moveObj, moves[i], "(No Move)");
+				setSelectValueIfValid(moveObj, selectedMoves[i], "(No Move)");
 				moveObj.change();
 			}
 			if (randset) {
@@ -745,11 +745,11 @@ $(".set-selector").change(function () {
 		} else {
 			pokeObj.find(".teraType").val(getForcedTeraType(pokemonName) || pokemon.types[0]);
 			pokeObj.find(".level").val(defaultLevel);
-			pokeObj.find(".hp .evs").val(gen < 3 ? 252 : 0);
+			pokeObj.find(".hp .evs").val(0);
 			pokeObj.find(".hp .ivs").val(31);
 			pokeObj.find(".hp .dvs").val(15);
 			for (i = 0; i < LEGACY_STATS[gen].length; i++) {
-				pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(gen < 3 ? 252 : 0);
+				pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(0);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .ivs").val(31);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(15);
 			}
@@ -770,6 +770,11 @@ $(".set-selector").change(function () {
 				$(this).closest('.poke-info').find(".move-pool").hide();
 			}
 		}
+		$(".move-crit").each(function () {
+			var moveSelector = $(this).closest(".move").find(".move-selector");
+			var move = moves[moveSelector.val()] || moves["(No Move)"];
+			$(this).prop("checked", move.willCrit === true).trigger("change");
+		});
 		if (typeof getSelectedTiers === "function") { // doesn't exist when in 1vs1 mode
 			var format = getSelectedTiers()[0];
 			var is50lvl = startsWith(format, "VGC") || startsWith(format, "Battle Spot");
@@ -1090,7 +1095,7 @@ function createPokemon(pokeInfo) {
 		var set = isRandoms ? randdex[name] : setdex[name][setName];
 		var ivs = {};
 		var evs = {};
-		var evsDefault = gen < 3 ? 252 : (isRandoms ? 84 : 0);
+	var evsDefault = gen < 3 ? 0 : (isRandoms ? 84 : 0);
 		for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 			var legacyStat = LEGACY_STATS[gen][i];
 			var stat = legacyStatToStat(legacyStat);
@@ -1833,7 +1838,7 @@ function get_trainer_names() {
 
 var names = get_trainer_names();
 
-function get_box() {
+function renderPokemonBoxes() {
 	var sets = get_sets();
 	var box = [];
 
@@ -1842,7 +1847,6 @@ function get_box() {
 
 	create_display_sprites();
 
-	var curBox;
     // Create arrays to store the HTML
 	var box1_html = [];
 	var box2_html = [];
@@ -1862,9 +1866,7 @@ function get_box() {
 
             // Check if the child already exists, if so, store the area that it is in
 			var child = document.getElementById(pokId);
-			if (child) {
-				var curBox = child.parentElement.id;
-			}
+			var curBox = child ? child.parentElement.id : "box-poke-list";
 
 			// Check if this custom entry has been encountered before
 			if (!encounteredCustom[pokName]) {
@@ -1986,8 +1988,8 @@ function dragLeave(event) {
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    // Call get_box on page load to initialize the boxes
-    get_box();
+    // Render imported Pokémon into their saved box locations.
+    renderPokemonBoxes();
 });
 
 function trashPokemon() {
@@ -2190,6 +2192,10 @@ $(document).ready(function () {
 	setSelectorValue($("input.set-selector.player"), getFirstValidSetOption().id);
 	setSelectorValue($("input.set-selector.opposing"), getFirstTrainerSetOption().id);
 	restoreCurrentSelections();
+	var trainerSet = params.get("trainer");
+	if (trainerSet && getSetOptions().some(function (option) { return option.id === trainerSet; })) {
+		setSelectorValue($("input.set-selector.opposing"), trainerSet);
+	}
 	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
 	READY = true;
 });

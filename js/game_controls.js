@@ -453,115 +453,7 @@ function get_held_items() {
 
 // Function to get box and generate HTML for draggable items
 function get_box() {
-		var customSets = localStorage.customsets ? JSON.parse(localStorage.customsets) : {};
-		var box = [];
-	
-		// Object to keep track of encountered custom entries
-		var encounteredCustom = {};
-	
-		// Clear the content of the default div
-		document.getElementById('box-poke-list').innerHTML = "";
-	
-		var customIndex = 0;
-		for (var pokemonName in customSets) {
-			for (var setName in customSets[pokemonName]) {
-				var setData = customSets[pokemonName][setName];
-				if (setData.isCustomSet) {
-				var customName = pokemonName + " (" + setName + ")";
-				var heldItem = setData.item;
-				var item_name = String(heldItem || "undefined").toLowerCase().replace(" ", "_");
-	
-				// Check if this custom entry has been encountered before
-				if (!encounteredCustom[customName]) {
-					encounteredCustom[customName] = true;
-	
-					// Push the custom name to the box array
-					box.push(customName);
-	
-					// Extract the Pokémon name from the custom name
-					var pok_name = customName.split(" (")[0];
-					switch (pok_name) {
-						case "Zygarde-10%":
-							pok_name = "Zygarde-10%25";
-							break;
-						case "Flabébé":
-							pok_name = "Flabébé";
-							break;
-						case "Pumpkaboo-Large":
-						case "Pumpkaboo-Super":
-						case "Pumpkaboo-Small":
-							pok_name = "Pumpkaboo";
-							break;
-						case "Aegislash-Blade":
-						case "Aegislash-Shield":
-						case "Aegislash-Both":
-							pok_name = "Aegislash";
-							break;
-					}
-	
-					const container = document.createElement('div');
-					container.id = `pok-${customIndex}`;
-					container.className = 'trainer-pok left-side flipped-image draggable-pok';
-					container.setAttribute('draggable', 'true');
-					container.dataset.id = customName;
-					container.title = customName;
-					container.style.position = 'relative';
-	
-					const pok = new Image();
-					var pok_img = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
-					pok.src = pok_img;
-					pok.setAttribute('draggable', 'false');
-					pok.style.width = '100%';
-
-					const item = new Image();
-					var item_img = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/${item_name}.png`;
-					item.src = item_img;
-					item.setAttribute('draggable', 'false');
-					item.style.top = '40%';
-					item.style.left = 0;
-					item.style.width = '50%';
-					item.style.position = 'absolute';
-
-					pok.onload = function() {
-						container.appendChild(pok);
-					}
-					pok.onerror = function() {
-						var err = new Image();
-						err.src = `https://raw.githubusercontent.com/PurpleYoyo/Little-Emerald-Calc/main/items/unknown.png`;
-						err.setAttribute('draggable', 'false');
-						err.style.width = '100%';
-						container.appendChild(err);
-					}
-					
-					item.onload = function() {
-						if (item_name != "undefined") {
-							container.appendChild(item);
-						}
-					}
-	
-					// Add dragstart event listener
-					container.addEventListener('dragstart', dragStart);
-					container.addEventListener('dragend', dragEnd);
-	
-					// Append the Pokémon sprite to the default box-poke-list drop zone
-					document.getElementById('box-poke-list').appendChild(container);
-					customIndex++;
-				}
-			}
-		}
-		}
-	
-		// Add drag and drop event listeners to the dynamically generated elements
-		const dropzones = document.querySelectorAll('.dropzone');
-	
-		dropzones.forEach(zone => {
-			zone.addEventListener('dragover', dragOver);
-			zone.addEventListener('drop', drop);
-			zone.addEventListener('dragleave', dragLeave);
-		});
-	
-		// Return the box array (optional)
-		return box;
+	return renderPokemonBoxes();
 }
 		
 // Function to handle the start of a drag event
@@ -603,30 +495,80 @@ function addSets(pokes, name) {
 	var rows = pokes.split("\n");
 	var currentRow;
 	var currentPoke;
-	var addedpokes = 0;
+	var addedPokes = 0;
+	var updatedPokes = 0;
+	var skippedDuplicates = 0;
+	var customSets = localStorage.customsets ? JSON.parse(localStorage.customsets) : {};
+	var existingSetNames = {};
+	var encounteredPokemon = {};
+	var importedPokemon = {};
+	function trackPokemonName(pokemonName) {
+		var normalizedName = checkExeptions(pokemonName.trim());
+		if (normalizedName) {
+			encounteredPokemon[normalizedName] = true;
+		}
+	}
+	Object.keys(customSets).forEach(function (pokemonName) {
+		var normalizedName = checkExeptions(pokemonName.trim());
+		var pokemonSets = customSets[pokemonName];
+		Object.keys(pokemonSets).some(function (setName) {
+			if (pokemonSets[setName].isCustomSet) {
+				existingSetNames[normalizedName] = setName;
+				return true;
+			}
+			return false;
+		});
+		if (existingSetNames[normalizedName]) {
+			encounteredPokemon[normalizedName] = true;
+		}
+	});
+	document.querySelectorAll("#team-poke-list .trainer-pok, #box-poke-list .trainer-pok, #box-poke-list2 .trainer-pok, #trash-box .trainer-pok").forEach(function (pokemon) {
+		var savedName = pokemon.dataset.id || pokemon.title || "";
+		trackPokemonName(savedName.split(" (")[0]);
+	});
 	for (var i = 0; i < rows.length; i++) {
 		currentRow = rows[i].split(/[()@]/);
 		for (var j = 0; j < currentRow.length; j++) {
 			currentRow[j] = checkExeptions(currentRow[j].trim());
 			if (calc.SPECIES[9][currentRow[j].trim()] !== undefined) {
-				currentPoke = calc.SPECIES[9][currentRow[j].trim()];
-				currentPoke.name = currentRow[j].trim();
+				var pokemonName = currentRow[j].trim();
+				if (importedPokemon[pokemonName]) {
+					skippedDuplicates++;
+					continue;
+				}
+				importedPokemon[pokemonName] = true;
+				var isUpdate = !!existingSetNames[pokemonName];
+				if (encounteredPokemon[pokemonName] && !isUpdate) {
+					skippedDuplicates++;
+					continue;
+				}
+				currentPoke = calc.SPECIES[9][pokemonName];
+				currentPoke.name = pokemonName;
 				currentPoke.item = getItem(currentRow, j + 1);
 				currentPoke.nickname = j > 0 ? currentRow[0].trim() : "";
-				currentPoke.nameProp = currentPoke.nickname || "Custom Set";
+				currentPoke.nameProp = existingSetNames[pokemonName] || currentPoke.nickname || "Custom Set";
 				currentPoke.isCustomSet = true;
 				currentPoke.ability = getAbility(rows[i + 1].split(":"));
 				currentPoke.teraType = getTeraType(rows[i + 1].split(":"));
 				currentPoke = getStats(currentPoke, rows, i + 1);
 				currentPoke = getMoves(currentPoke, rows, i);
 				addToDex(currentPoke);
-				addedpokes++;
+				existingSetNames[pokemonName] = currentPoke.nameProp;
+				encounteredPokemon[pokemonName] = true;
+				if (isUpdate) {
+					updatedPokes++;
+				} else {
+					addedPokes++;
+				}
 			}
 		}
 	}
-	if (addedpokes > 0) {
+	if (addedPokes + updatedPokes > 0) {
 		get_box()
-		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
+		alert("Successfully imported " + addedPokes + " new Pokémon and updated " + updatedPokes + " existing Pokémon." +
+			(skippedDuplicates ? " Skipped " + skippedDuplicates + " duplicate Pokémon." : ""));
+	} else if (skippedDuplicates > 0) {
+		alert("No Pokémon imported or updated; all were duplicates.");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}	
@@ -715,4 +657,3 @@ $(document).ready(function () {
 	}
 
 });
-

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Trainer Fight Charts</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/Logo.png">
+
+    <link rel="stylesheet" href="./css/trainer.css">
+
+</head>
+
+<body>
+
+    <main class="trainer-page">
+
+        <header class="trainer-header">
+
+            <a class="back-link" href="./index.html">Damage Calculator</a>
+
+            <div class="header-copy">
+
+                <p class="eyebrow">Nuzlocke Resources</p>
+
+                <h1>Trainer Fight Charts</h1>
+
+                <p class="lede">A quick visual read of every opponent team, built from the same trainer data as the calculator.</p>
+
+            </div>
+
+        </header>
+
+
+
+        <section class="controls" aria-label="Trainer chart controls">
+
+            <div class="game-picker-field">
+
+                <span>Game</span>
+
+                <div id="game-picker" class="game-picker" role="radiogroup" aria-label="Select a game"></div>
+
+            </div>
+            <label class="trainer-control">
+                <span id="trainer-label">Trainer</span>
+                <select id="trainer-select"></select>
+            </label>
+
+        </section>
+
+
+
+        <section class="fight-heading" aria-live="polite">
+
+            <div>
+
+                <p class="eyebrow" id="fight-game">Select a game</p>
+
+                <h2 id="fight-name">Choose a trainer</h2>
+
+            </div>
+
+            <div class="heading-actions">
+
+                <div class="team-summary" id="team-summary">0 Pokemon</div>
+
+                <a class="calc-link" id="calc-link" href="./index.html">Calc</a>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="team-chart" id="team-chart" aria-live="polite"></section>
+
+    </main>
+
+
+
+    <script src="./js/data/sets/games/Gen1/RedBlue.js"></script>
+
+    <script src="./js/data/sets/games/Gen1/Yellow.js"></script>
+
+    <script src="./js/data/sets/games/Gen2/GS.js"></script>
+
+    <script src="./js/data/sets/games/Gen2/Crystal.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/RS.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/RSFR.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/RSIT.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/RSDE.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/RSES.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/RSJA.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/Emerald.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/EmeraldFR.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/EmeraldIT.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/EmeraldDE.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/EmeraldES.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/EmeraldJA.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/FRLG.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/FRLGFR.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/FRLGIT.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/FRLGDE.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/FRLGES.js"></script>
+
+    <script src="./js/data/sets/games/Gen3/FRLGJA.js"></script>
+
+    <script src="./js/data/sets/games/Gen4/DP.js"></script>
+
+    <script src="./js/data/sets/games/Gen4/Plat.js"></script>
+
+    <script src="./js/data/sets/games/Gen4/HGSS.js"></script>
+
+    <script src="./js/data/sets/games/Gen5/BW.js"></script>
+
+    <script src="./js/data/sets/games/Gen5/B2W2.js"></script>
+
+    <script src="./js/data/sets/games/Gen5/B2W2HC.js"></script>
+
+    <script src="./js/data/sets/games/Gen6/XY.js"></script>
+
+    <script src="./js/data/sets/games/Gen6/ORAS.js"></script>
+
+    <script src="./js/data/sets/games/Gen7/SM.js"></script>
+
+    <script src="./js/data/sets/games/Gen7/USUM.js"></script>
+
+    <script src="./js/data/sets/games/Gen8/SS.js"></script>
+
+    <script src="./js/data/sets/games/Gen8/BDSP.js"></script>
+
+    <script src="./js/data/sets/games/Gen9/SV.js"></script>
+
+    <script src="./js/trainer_controls.js"></script>
+
+</body>
+
+</html>
