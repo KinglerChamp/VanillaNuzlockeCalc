@@ -30,9 +30,22 @@ function ExportPokemon(pokeInfo) {
 	}
 	finalText += pokemon.ability ? "Ability: " + pokemon.ability + "\n" : "";
 	var EVs_ARRAY = [];
+	var STAT_EXP_ARRAY = [];
 	for (var stat in pokemon.evs) {
 		if (gen === 1 && stat === 'spd') continue;
 		var ev = pokemon.evs[stat] ? pokemon.evs[stat] : 0;
+		if (gen < 3) {
+			var legacyStat = statToLegacyStat(calc.Stats.displayStat(stat).toLowerCase(), gen);
+			var statExp = ~~pokeInfo.find("." + legacyStat + " .g1g2-evs").val();
+			var importedEV = set ? getSetEV(set, gen, legacyStat) : undefined;
+			if (importedEV !== undefined && calc.Stats.EVToStatEXP(importedEV) === statExp) {
+				ev = importedEV;
+			}
+			if (!(gen === 2 && stat === 'spd') &&
+				statExp !== 0 && calc.Stats.EVToStatEXP(ev) !== statExp) {
+				STAT_EXP_ARRAY.push(statExp + " " + calc.Stats.displayStat(stat));
+			}
+		}
 		if (ev > 0) {
 			EVs_ARRAY.push(ev + " " + calc.Stats.displayStat(stat));
 		}
@@ -48,6 +61,11 @@ function ExportPokemon(pokeInfo) {
 	if (EVs_ARRAY.length > 0) {
 		finalText += "EVs: ";
 		finalText += serialize(EVs_ARRAY, " / ");
+		finalText += "\n";
+	}
+	if (STAT_EXP_ARRAY.length > 0) {
+		finalText += "Stat EXP: ";
+		finalText += serialize(STAT_EXP_ARRAY, " / ");
 		finalText += "\n";
 	}
 
@@ -132,7 +150,7 @@ function statToLegacyStat(stat, generation) {
 	case 'spc':
 		return generation === 1 ? "sl" : "sa";
 	case 'spd':
-		return "sd";
+		return generation === 2 ? "sa" : "sd";
 	case 'spe':
 		return "sp";
 	}
@@ -178,6 +196,15 @@ function getStats(currentPoke, rows, offset) {
 				evs[currentEV[1]] = parseInt(currentEV[0]);
 			}
 			currentPoke.evs = evs;
+			break;
+		case 'Stat EXP':
+			var statExp = currentPoke.statExp || {};
+			for (j = 1; j < currentRow.length; j++) {
+				currentEV = currentRow[j].trim().split(" ");
+				currentEV[1] = statToLegacyStat(currentEV[1].toLowerCase(), gen);
+				statExp[currentEV[1]] = parseInt(currentEV[0]);
+			}
+			currentPoke.statExp = statExp;
 			break;
 		case 'IVs':
 			ivs = gen < 3 ? currentPoke.dvs : currentPoke.ivs;
@@ -281,6 +308,7 @@ function addToDex(poke) {
 	}
 	dexObject.level = poke.level;
 	dexObject.evs = poke.evs;
+	dexObject.statExp = poke.statExp;
 	dexObject.ivs = poke.ivs;
 	dexObject.dvs = poke.dvs;
 	dexObject.moves = poke.moves;

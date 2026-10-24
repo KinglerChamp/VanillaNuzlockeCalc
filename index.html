@@ -515,7 +515,8 @@
                                     <th scope="col">Base</th>
                                     <th class="gen-specific g3 g4 g5 g6 g7 g8 g9" scope="col">IVs</th>
                                     <th class="gen-specific g1 g2 hide" scope="col">DVs</th>
-                                    <th class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9" scope="col">EVs</th>
+                                    <th class="gen-specific g3 g4 g5 g6 g7 g8 g9" scope="col">EVs</th>
+                                    <th class="gen-specific g1 g2 hide" scope="col">Stat EXP</th>
                                     <th></th>
                                     <th></th>
                                 </tr>
@@ -534,7 +535,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" disabled="disabled" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -555,7 +559,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -592,7 +599,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -629,7 +639,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -666,7 +679,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" disabled="disabled" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -701,7 +717,7 @@
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
                                     <td class="gen-specific g1 hide">
-                                        <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0">
                                     </td>
 
                                     <td><span class="total">236</span>
@@ -737,7 +753,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -1783,7 +1802,8 @@
                                     <th scope="col">Base</th>
                                     <th class="gen-specific g3 g4 g5 g6 g7 g8 g9" scope="col">IVs</th>
                                     <th class="gen-specific g1 g2 hide" scope="col">DVs</th>
-                                    <th class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9" scope="col">EVs</th>
+                                    <th class="gen-specific g3 g4 g5 g6 g7 g8 g9" scope="col">EVs</th>
+                                    <th class="gen-specific g1 g2 hide" scope="col">Stat EXP</th>
                                     <th></th>
                                     <th></th>
                                 </tr>
@@ -1802,7 +1822,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" disabled="disabled" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -1824,7 +1847,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -1862,7 +1888,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -1900,7 +1929,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -1938,7 +1970,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" disabled="disabled" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -1974,7 +2009,7 @@
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
                                     <td class="gen-specific g1 hide">
-                                        <input class="evs calc-trigger" type="number" min="0" max="252" step="4" value="0">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0">
                                     </td>
                                     <td><span class="total">236</span>
                                     </td>
@@ -2009,7 +2044,10 @@
                                     <td class="gen-specific g1 g2 hide">
                                         <input class="dvs calc-trigger" value="15" />
                                     </td>
-                                    <td class="gen-specific g1 g2 g3 g4 g5 g6 g7 g8 g9">
+                                    <td class="gen-specific g1 g2 hide">
+                                        <input class="g1g2-evs calc-trigger" type="number" min="0" max="65535" step="771" value="0" />
+                                    </td>
+                                    <td class="gen-specific g3 g4 g5 g6 g7 g8 g9">
                                         <input class="evs calc-trigger" type="number" min="0" max="252" step="4"
                                             value="0" />
                                     </td>
@@ -2312,10 +2350,10 @@
         <script type="text/javascript" src="./calc/result.js?d5c7552b"></script>
         <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
         <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-        <script type="text/javascript" src="./js/shared_controls.js?imported-set-selection-fix"></script>
+        <script type="text/javascript" src="./js/shared_controls.js?gen12-stat-exp-conversion"></script>
         <script type="text/javascript" src="./js/index_randoms_controls.js?495f89c3"></script>
-        <script type="text/javascript" src="./js/moveset_import.js?clear-customsets-fix"></script>
-        <script type="text/javascript" src="./js/game_controls.js?import-iv-zero"></script>
+        <script type="text/javascript" src="./js/moveset_import.js?gen12-stat-exp-conversion"></script>
+        <script type="text/javascript" src="./js/game_controls.js?gen12-stat-exp-conversion"></script>
     </div>
 
     <div class="credits">Created by Honko, maintained by Austin and Kris; Modified By Kingler Champ

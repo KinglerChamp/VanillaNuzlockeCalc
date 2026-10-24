@@ -939,6 +939,9 @@ select.toxic-counter {
 input {
   border: 1px solid #e2e2e2;
 }
+.poke-info input.g1g2-evs {
+  width: 4em;
+}
 .move-selector,
 .move-bp,
 .move-type,

@@ -79,6 +79,7 @@ var bounds = {
 	"evs": [0, 252],
 	"ivs": [0, 31],
 	"dvs": [0, 15],
+	"g1g2-evs": [0, 65535],
 	"move-bp": [0, 65535]
 };
 for (var bounded in bounds) {
@@ -125,25 +126,25 @@ $(".level").bind("keyup change", function () {
 $(".nature").bind("keyup change", function () {
 	calcStats($(this).closest(".poke-info"));
 });
-$(".hp .base, .hp .evs, .hp .ivs").bind("keyup change", function () {
+$(".hp .base, .hp .evs, .hp .g1g2-evs, .hp .ivs").bind("keyup change", function () {
 	calcHP($(this).closest(".poke-info"));
 });
-$(".at .base, .at .evs, .at .ivs").bind("keyup change", function () {
+$(".at .base, .at .evs, .at .g1g2-evs, .at .ivs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'at');
 });
-$(".df .base, .df .evs, .df .ivs").bind("keyup change", function () {
+$(".df .base, .df .evs, .df .g1g2-evs, .df .ivs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'df');
 });
-$(".sa .base, .sa .evs, .sa .ivs").bind("keyup change", function () {
+$(".sa .base, .sa .evs, .sa .g1g2-evs, .sa .ivs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'sa');
 });
-$(".sd .base, .sd .evs, .sd .ivs").bind("keyup change", function () {
+$(".sd .base, .sd .evs, .sd .g1g2-evs, .sd .ivs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'sd');
 });
-$(".sp .base, .sp .evs, .sp .ivs").bind("keyup change", function () {
+$(".sp .base, .sp .evs, .sp .g1g2-evs, .sp .ivs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'sp');
 });
-$(".sl .base, .sl .evs").bind("keyup change", function () {
+$(".sl .base, .sl .evs, .sl .g1g2-evs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), 'sl');
 });
 $(".at .dvs").bind("keyup change", function () {
@@ -151,6 +152,12 @@ $(".at .dvs").bind("keyup change", function () {
 	calcStat(poke, 'at');
 	poke.find(".hp .dvs").val(getHPDVs(poke));
 	calcHP(poke);
+});
+$(".sa .g1g2-evs").bind("keyup change", function () {
+	var poke = $(this).closest(".poke-info");
+	poke.find(".sd .g1g2-evs").val($(this).val());
+	calcStat(poke, 'sa');
+	calcStat(poke, 'sd');
 });
 $(".df .dvs").bind("keyup change", function () {
 	var poke = $(this).closest(".poke-info");
@@ -694,19 +701,27 @@ $(".set-selector").change(function () {
 			}
 			pokeObj.find(".level").val(set.level === undefined ? 100 : set.level);
 			var evsDefault = gen < 3 ? 0 : ($("#randoms").prop("checked") ? 84 : 0);
-			pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : evsDefault);
-			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
-			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : (set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 15);
+			pokeObj.find(".hp .evs").val((gen >= 3 && set.evs && set.evs.hp !== undefined) ? set.evs.hp : evsDefault);
+			var hpStatExp = getSetStatExp(set, gen, "hp");
+			pokeObj.find(".hp .g1g2-evs").val(gen < 3 && hpStatExp !== undefined ? hpStatExp : 0);
+			pokeObj.find(".hp .ivs").val(hpIV !== undefined ? hpIV : 31);
+			var hpDV = getSetDV(set, gen, "hp");
+			var hpIV = getSetIV(set, gen, "hp");
+			pokeObj.find(".hp .dvs").val(gen < 3 ?
+				(hpDV !== undefined ? hpDV : hpIV !== undefined ? calc.Stats.IVToDV(hpIV) : 15) : 15);
 			for (i = 0; i < LEGACY_STATS[gen].length; i++) {
-				pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(
-					(set.evs && set.evs[LEGACY_STATS[gen][i]] !== undefined) ?
-						set.evs[LEGACY_STATS[gen][i]] : evsDefault);
-				pokeObj.find("." + LEGACY_STATS[gen][i] + " .ivs").val(
-					(set.ivs && set.ivs[LEGACY_STATS[gen][i]] !== undefined) ? set.ivs[LEGACY_STATS[gen][i]] : 31);
-				var dv = getSetDV(set, gen, LEGACY_STATS[gen][i]);
-				var iv = set.ivs && set.ivs[LEGACY_STATS[gen][i]];
+				var legacyStat = LEGACY_STATS[gen][i];
+				var setEV = getSetEV(set, gen, legacyStat);
+				pokeObj.find("." + legacyStat + " .evs").val(
+					gen >= 3 && setEV !== undefined ? setEV : evsDefault);
+				var statExp = getSetStatExp(set, gen, legacyStat);
+				pokeObj.find("." + legacyStat + " .g1g2-evs").val(
+					gen < 3 && statExp !== undefined ? statExp : 0);
+				var dv = getSetDV(set, gen, legacyStat);
+				var iv = getSetIV(set, gen, legacyStat);
+				pokeObj.find("." + legacyStat + " .ivs").val(iv !== undefined ? iv : 31);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(
-					dv !== undefined ? dv : iv !== undefined ? iv : 15);
+					gen < 3 ? (dv !== undefined ? dv : iv !== undefined ? calc.Stats.IVToDV(iv) : 15) : 15);
 			}
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
 			var abilityFallback = (typeof pokemon.abilities !== "undefined") ? pokemon.abilities[0] : "";
@@ -746,10 +761,12 @@ $(".set-selector").change(function () {
 			pokeObj.find(".teraType").val(getForcedTeraType(pokemonName) || pokemon.types[0]);
 			pokeObj.find(".level").val(defaultLevel);
 			pokeObj.find(".hp .evs").val(0);
+			pokeObj.find(".hp .g1g2-evs").val(0);
 			pokeObj.find(".hp .ivs").val(31);
 			pokeObj.find(".hp .dvs").val(15);
 			for (i = 0; i < LEGACY_STATS[gen].length; i++) {
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(0);
+				pokeObj.find("." + LEGACY_STATS[gen][i] + " .g1g2-evs").val(0);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .ivs").val(31);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(15);
 			}
@@ -1079,12 +1096,86 @@ function correctHiddenPower(pokemon) {
 
 function getSetDV(set, generation, legacyStat) {
 	if (!set || !set.dvs) return undefined;
-	if (set.dvs[legacyStat] !== undefined) return set.dvs[legacyStat];
-	if (generation === 1 && legacyStat === "sl") {
-		if (set.dvs.spc !== undefined) return set.dvs.spc;
+	if (generation === 2 && (legacyStat === "sa" || legacyStat === "sd")) {
 		if (set.dvs.sa !== undefined) return set.dvs.sa;
-		return set.dvs.sd;
+		if (set.dvs.sd !== undefined) return set.dvs.sd;
 	}
+	if (set.dvs[legacyStat] !== undefined) return set.dvs[legacyStat];
+	var aliases = legacyStat === "sl" ? ["spc", "sa", "spa", "sd", "spd"] :
+		legacyStat === "sa" ? ["spa", "sl", "spc"] :
+			legacyStat === "sd" ? ["spd", "sa", "spa", "sl", "spc"] : [];
+	for (var i = 0; i < aliases.length; i++) {
+		if (set.dvs[aliases[i]] !== undefined) return set.dvs[aliases[i]];
+	}
+}
+
+function getSetIV(set, generation, legacyStat) {
+	if (!set) return undefined;
+	var aliases = generation === 2 && (legacyStat === "sa" || legacyStat === "sd") ?
+		["sa", "spa", "sl", "spc", "sd", "spd"] :
+			legacyStat === "sl" ? ["sl", "spc", "sa", "spa", "sd"] :
+		legacyStat === "sa" ? ["sa", "spa", "sl", "spc"] :
+			legacyStat === "sd" ? ["sd", "spd", "sa", "spa", "sl", "spc"] :
+				[legacyStat, legacyStat === "at" ? "atk" : legacyStat === "df" ? "def" : legacyStat === "sp" ? "spe" : legacyStat];
+	for (var i = 0; i < aliases.length; i++) {
+		if (set.ivs && set.ivs[aliases[i]] !== undefined) return set.ivs[aliases[i]];
+	}
+	var dv = getSetDV(set, generation, legacyStat);
+	return dv === undefined ? undefined : calc.Stats.DVToIV(dv);
+}
+
+function getSetEV(set, generation, legacyStat) {
+	if (!set) return undefined;
+	var statExp = getStoredSetStatExp(set, generation, legacyStat);
+	if (statExp !== undefined) return calc.Stats.StatEXPToEv(statExp);
+	if (!set.evs) return undefined;
+	if (generation === 1 && legacyStat === "sl") {
+		var specialEV = set.evs.sl !== undefined ? set.evs.sl :
+			set.evs.spc !== undefined ? set.evs.spc :
+				set.evs.sa !== undefined ? set.evs.sa :
+					set.evs.spa !== undefined ? set.evs.spa : set.evs.sd;
+		return specialEV;
+	}
+	if (generation === 2 && (legacyStat === "sa" || legacyStat === "sd")) {
+		return set.evs.sa !== undefined ? set.evs.sa :
+			set.evs.sd !== undefined ? set.evs.sd :
+				set.evs.sl !== undefined ? set.evs.sl : set.evs.spc;
+	}
+	if (set.evs[legacyStat] !== undefined) return set.evs[legacyStat];
+	var aliases = legacyStat === "at" ? ["atk"] :
+		legacyStat === "df" ? ["def"] :
+			legacyStat === "sp" ? ["spe"] :
+				legacyStat === "sa" ? ["spa", "sl", "spc"] :
+					legacyStat === "sd" ? ["spd", "sa", "spa", "sl", "spc"] :
+						legacyStat === "sl" ? ["spc", "sa", "spa", "sd", "spd"] : [];
+	for (var i = 0; i < aliases.length; i++) {
+		if (set.evs[aliases[i]] !== undefined) return set.evs[aliases[i]];
+	}
+}
+
+function getStoredSetStatExp(set, generation, legacyStat) {
+	if (set && set.statExp) {
+		if (generation === 2 && (legacyStat === "sa" || legacyStat === "sd")) {
+			if (set.statExp.sa !== undefined) return set.statExp.sa;
+			if (set.statExp.sd !== undefined) return set.statExp.sd;
+			if (set.statExp.sl !== undefined) return set.statExp.sl;
+			return set.statExp.spc;
+		}
+		if (set.statExp[legacyStat] !== undefined) return set.statExp[legacyStat];
+		var aliases = legacyStat === "sl" ? ["spc", "sa", "spa", "sd", "spd"] :
+			legacyStat === "sa" ? ["spa", "sl", "spc"] :
+				legacyStat === "sd" ? ["spd", "sa", "spa", "sl", "spc"] : [];
+		for (var i = 0; i < aliases.length; i++) {
+			if (set.statExp[aliases[i]] !== undefined) return set.statExp[aliases[i]];
+		}
+	}
+}
+
+function getSetStatExp(set, generation, legacyStat) {
+	var statExp = getStoredSetStatExp(set, generation, legacyStat);
+	if (statExp !== undefined) return statExp;
+	var ev = getSetEV(set, generation, legacyStat);
+	return ev === undefined ? undefined : calc.Stats.EVToStatEXP(ev);
 }
 
 function createPokemon(pokeInfo) {
@@ -1100,9 +1191,11 @@ function createPokemon(pokeInfo) {
 			var legacyStat = LEGACY_STATS[gen][i];
 			var stat = legacyStatToStat(legacyStat);
 			var dv = gen < 3 ? getSetDV(set, gen, legacyStat) : undefined;
+			var setIV = getSetIV(set, gen, legacyStat);
 			ivs[stat] = dv !== undefined ? calc.Stats.DVToIV(dv) :
-				(set.ivs && typeof set.ivs[legacyStat] !== "undefined") ? set.ivs[legacyStat] : 31;
-			evs[stat] = (set.evs && typeof set.evs[legacyStat] !== "undefined") ? set.evs[legacyStat] : evsDefault;
+				setIV !== undefined ? setIV : 31;
+			var setEV = getSetEV(set, gen, legacyStat);
+			evs[stat] = setEV !== undefined ? setEV : evsDefault;
 		}
 		var moveNames = set.moves;
 		if (isRandoms && (gen !== 8 && gen !== 1)) {
@@ -1155,8 +1248,15 @@ function createPokemon(pokeInfo) {
 		for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 			var stat = legacyStatToStat(LEGACY_STATS[gen][i]);
 			baseStats[stat === 'spc' ? 'spa' : stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .base").val();
-			ivs[stat] = gen > 2 ? ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .ivs").val() : ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .dvs").val() * 2 + 1;
-			evs[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .evs").val();
+			if (gen > 2) {
+				ivs[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .ivs").val();
+				evs[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .evs").val();
+			} else {
+				var dv = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .dvs").val();
+				var statExp = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .g1g2-evs").val();
+				ivs[stat] = calc.Stats.DVToIV(dv);
+				evs[stat] = calc.Stats.StatEXPToEv(statExp);
+			}
 			boosts[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .boost").val();
 		}
 		if (gen === 1) baseStats.spd = baseStats.spa;
@@ -1336,15 +1436,16 @@ function calcStat(poke, StatID) {
 	var level = ~~poke.find(".level").val();
 	var nature, ivs, evs;
 	if (gen < 3) {
-		ivs = ~~stat.find(".dvs").val() * 2;
-		evs = ~~stat.find(".evs").val();
+		var dv = ~~stat.find(".dvs").val();
+		var statExp = ~~stat.find(".g1g2-evs").val();
+		var total = calc.calcStatRBYFromDV(legacyStatToStat(StatID), base, dv, statExp, level);
 	} else {
 		ivs = ~~stat.find(".ivs").val();
 		evs = ~~stat.find(".evs").val();
 		if (StatID !== "hp") nature = poke.find(".nature").val();
+		var total = calc.calcStat(gen, legacyStatToStat(StatID), base, ivs, evs, level, nature);
 	}
 	// Shedinja still has 1 max HP during the effect even if its Dynamax Level is maxed (DaWoblefet)
-	var total = calc.calcStat(gen, legacyStatToStat(StatID), base, ivs, evs, level, nature);
 	if (gen > 7 && StatID === "hp" && poke.isDynamaxed && total !== 1) {
 		total *= 2;
 	}

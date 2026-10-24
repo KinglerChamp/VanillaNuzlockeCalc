@@ -57,11 +57,23 @@ describe('Stats', function () {
         })).toBe(13);
     });
     test('gen 1 and 2 EVs', function () {
+        expect(stats_1.Stats.EVToStatEXP(0)).toBe(0);
         expect(stats_1.Stats.EVToStatEXP(252)).toBe(63002);
         expect(stats_1.Stats.StatEXPToEv(63002)).toBe(252);
         expect(stats_1.Stats.StatEXPToEv(0)).toBe(0);
         expect(stats_1.Stats.calcStat(data_1.Generations.get(1), 'atk', 100, 31, 0, 100)).toBe(235);
         expect(stats_1.Stats.calcStat(data_1.Generations.get(1), 'atk', 100, 31, 252, 100)).toBe(298);
+        expect(stats_1.Stats.calcStatRBYFromDV('atk', 100, 15, 0, 100)).toBe(235);
+        for (var ev = 0; ev <= 255; ev++) {
+            var statexp = stats_1.Stats.EVToStatEXP(ev);
+            var roundTripEV = stats_1.Stats.StatEXPToEv(statexp);
+            expect(stats_1.Stats.calcStat(data_1.Generations.get(1), 'atk', 100, 30, ev, 100)).toBe(
+                stats_1.Stats.calcStatRBYFromDV('atk', 100, 15, statexp, 100)
+            );
+            expect(stats_1.Stats.calcStat(data_1.Generations.get(2), 'atk', 100, 30, ev, 100)).toBe(
+                stats_1.Stats.calcStat(data_1.Generations.get(2), 'atk', 100, 30, roundTripEV, 100)
+            );
+        }
     });
     test('gen 2 modifications', function () {
         expect((0, util_1.getModifiedStat)(158, -1, data_1.Generations.get(2))).toBe(104);

@@ -88,7 +88,7 @@ exports.Stats = new ((function () {
         return dv * 2;
     };
     class_1.prototype.EVToStatEXP = function (ev) {
-        return (ev - 1) * (ev - 1) + 1;
+        return ev === 0 ? 0 : (ev - 1) * (ev - 1) + 1;
     };
     class_1.prototype.StatEXPToEv = function (statexp) {
         return statexp === 0 ? 0 : Math.floor((Math.sqrt(statexp - 1) + 1) / 4) * 4;
@@ -134,7 +134,7 @@ exports.Stats = new ((function () {
         return this.calcStatRBYFromDV(stat, base, this.IVToDV(iv), this.EVToStatEXP(ev), level);
     };
     class_1.prototype.calcStatRBYFromDV = function (stat, base, dv, statexp, level) {
-        var statExp = Math.floor((Math.sqrt(statexp - 1) + 1) / 4);
+        var statExp = statexp === 0 ? 0 : Math.floor((Math.sqrt(statexp - 1) + 1) / 4);
         if (stat === 'hp') {
             return Math.floor((((base + dv) * 2 + statExp) * level) / 100) + level + 10;
         }
