@@ -1203,6 +1203,32 @@ table.field {
 .info-group table {
   width: 100%;
 }
+.boost-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+  white-space: nowrap;
+}
+.boost-control .boost {
+  box-sizing: border-box;
+  width: 2.7em;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+.boost-step {
+  box-sizing: border-box;
+  width: 1.5em;
+  min-width: 1.5em;
+  height: 20px;
+  padding: 0;
+  font-size: 0.9em;
+  line-height: 1.2;
+}
+.boost-step:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
 .info-group table .base {
   width: 1.5em;
 }

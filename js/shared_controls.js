@@ -90,6 +90,45 @@ function attachValidation(clazz, min, max) {
 		validate($(this), min, max);
 	});
 }
+
+$(".boost").each(function () {
+	var $boost = $(this);
+	var statName = $boost.closest("tr").find("th").first().text().trim() || "stat";
+	var $decrease = $("<button>", {
+		type: "button",
+		class: "boost-step",
+		text: "-",
+		title: "Decrease " + statName + " stage",
+		"aria-label": "Decrease " + statName + " stage"
+	}).data("step", -1);
+	var $increase = $("<button>", {
+		type: "button",
+		class: "boost-step",
+		text: "+",
+		title: "Increase " + statName + " stage",
+		"aria-label": "Increase " + statName + " stage"
+	}).data("step", 1);
+	$boost.wrap('<div class="boost-control"></div>');
+	$boost.before($decrease).after($increase);
+
+	var updateBoostButtons = function () {
+		var value = Number($boost.val());
+		$decrease.prop("disabled", value <= -6);
+		$increase.prop("disabled", value >= 6);
+	};
+	$boost.bind("change", updateBoostButtons);
+	updateBoostButtons();
+});
+
+$(".boost-step").click(function () {
+	var $boost = $(this).siblings(".boost");
+	var value = Number($boost.val());
+	var nextValue = Math.max(-6, Math.min(6, value + $(this).data("step")));
+	if (nextValue !== value) {
+		$boost.val(nextValue).trigger("change");
+	}
+});
+
 function validate(obj, min, max) {
 	obj.val(Math.max(min, Math.min(max, ~~obj.val())));
 }
