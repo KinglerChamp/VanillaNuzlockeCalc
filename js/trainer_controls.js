@@ -106,7 +106,9 @@
 
     var teamSummary = document.getElementById('team-summary');
 
-    var calcLink = document.getElementById('calc-link');
+    var previousRouteButton = document.getElementById('previous-route');
+
+    var nextRouteButton = document.getElementById('next-route');
 
     var currentGame;
 
@@ -153,7 +155,7 @@
 
     function getTrainerDisplayName(trainerName) {
         var parts = trainerName.split('|').map(function (part) { return part.trim(); });
-        var locationIndex = parts.length - 2;
+        var locationIndex = Math.max(1, parts.length - 2);
         var displayName = parts.slice(0, locationIndex).join(' | ');
         var variation = parts[parts.length - 1].match(/\(\d+\)$/);
         return displayName + (variation ? ' ' + variation[0] : '');
@@ -170,6 +172,39 @@
         return Object.keys(locations).sort(function (left, right) {
             return locations[left] - locations[right];
         });
+    }
+
+    function getRouteLocations(game) {
+        var routes = {};
+        var data = getGameData(game);
+        Object.keys(data).forEach(function (pokemon) {
+            Object.keys(data[pokemon] || {}).forEach(function (trainerName) {
+                var location = getTrainerLocation(trainerName);
+                if (!/^(?:R\d+|Route\s+\d+)\b/i.test(location)) return;
+                var index = Number(data[pokemon][trainerName].index) || 0;
+                if (!routes[location] || index < routes[location].index) {
+                    routes[location] = {location: location, index: index, trainer: trainerName};
+                }
+            });
+        });
+        return Object.keys(routes).map(function (location) {
+            return routes[location];
+        }).sort(function (left, right) {
+            return left.index - right.index;
+        });
+    }
+
+    function getLocationIndex(game, location) {
+        var index = 0;
+        var data = getGameData(game);
+        Object.keys(data).forEach(function (pokemon) {
+            Object.keys(data[pokemon] || {}).forEach(function (trainerName) {
+                if (getTrainerLocation(trainerName) !== location) return;
+                var trainerIndex = Number(data[pokemon][trainerName].index) || 0;
+                if (!index || trainerIndex < index) index = trainerIndex;
+            });
+        });
+        return index;
     }
 
     function getTrainerEntries(game, trainerName) {
@@ -214,6 +249,57 @@
 
     }
 
+    var natureStatChanges = {
+        adamant: ['at', 'sa'], bashful: ['sa', 'sa'], bold: ['df', 'at'], brave: ['at', 'sp'],
+        calm: ['sd', 'at'], careful: ['sd', 'sa'], docile: ['df', 'df'], gentle: ['sd', 'df'],
+        hardy: ['at', 'at'], hasty: ['sp', 'df'], impish: ['df', 'sa'], jolly: ['sp', 'sa'],
+        lax: ['df', 'sd'], lonely: ['at', 'df'], mild: ['sa', 'df'], modest: ['sa', 'at'],
+        naive: ['sp', 'sd'], naughty: ['at', 'sd'], quiet: ['sa', 'sp'], quirky: ['sd', 'sd'],
+        rash: ['sa', 'sd'], relaxed: ['df', 'sp'], sassy: ['sd', 'sp'], serious: ['sp', 'sp'],
+        timid: ['sp', 'at']
+    };
+
+    function getNatureChange(nature, statKey) {
+        var changes = natureStatChanges[String(nature || '').toLowerCase()];
+        if (!changes || changes[0] === changes[1]) return '';
+        if (changes[0] === statKey) return 'increase';
+        if (changes[1] === statKey) return 'decrease';
+        return '';
+    }
+
+    function renderStatValues(label, values, nature) {
+        if (!values || typeof values !== 'object') return '';
+
+        var stats = [
+            {key: 'hp', label: 'HP', name: 'HP'},
+            {key: 'at', label: 'Atk', name: 'Attack'},
+            {key: 'df', label: 'Def', name: 'Defense'},
+            {key: 'sa', label: 'SpA', name: 'Special Attack'},
+            {key: 'sd', label: 'SpD', name: 'Special Defense'},
+            {key: 'sp', label: 'Spe', name: 'Speed'}
+        ].filter(function (stat) {
+            return values[stat.key] !== undefined && values[stat.key] !== null;
+        });
+        if (!stats.length) return '';
+        if (label === 'EVs' && stats.every(function (stat) {
+            return Number(values[stat.key]) === 0;
+        })) return '';
+
+        return '<div class="stat-training-row"><span class="stat-training-label">' + label +
+            '</span><div class="stat-training-values">' + stats.map(function (stat) {
+                var natureChange = label === 'IVs' ? getNatureChange(nature, stat.key) : '';
+                var indicator = natureChange === 'increase' ? '↑' : natureChange === 'decrease' ? '↓' : '';
+                var title = stat.name + (natureChange ? ' — nature ' + natureChange : '');
+                var natureClass = natureChange ? 'nature-' + natureChange : '';
+                var natureClassAttribute = natureClass ? ' class="' + natureClass + '"' : '';
+                return '<span title="' + escapeHtml(title) + '"><abbr' + natureClassAttribute + '>' + stat.label +
+                    (indicator ? '<i aria-hidden="true">' + indicator + '</i>' : '') +
+                    '</abbr><strong><span class="stat-training-number' +
+                    (natureClass ? ' ' + natureClass : '') + '">' +
+                    escapeHtml(values[stat.key]) + '</span></strong></span>';
+            }).join('') + '</div></div>';
+    }
+
 
 
     function renderCard(entry, position, generation) {
@@ -237,6 +323,8 @@
         if (generation >= 3) {
             details += '<div class="fight-detail"><span>Nature</span><strong>' + escapeHtml(nature) + '</strong></div>';
         }
+        details += renderStatValues(generation < 3 ? 'DVs' : 'IVs', generation < 3 ? set.dvs : set.ivs, nature);
+        details += renderStatValues('EVs', set.evs);
 
         return '<article class="pokemon-card" style="animation-delay:' + position * 45 + 'ms">' +
 
@@ -250,7 +338,10 @@
 
             details +
 
-            '<ul class="moves">' + moves.map(function (move) { return '<li>' + escapeHtml(move) + '</li>'; }).join('') + '</ul>' +
+            '<h4 class="moves-heading">Moves</h4>' +
+            '<ul class="moves">' + moves.map(function (move) {
+                return '<li><strong>' + escapeHtml(move) + '</strong></li>';
+            }).join('') + '</ul>' +
 
         '</article>';
 
@@ -266,12 +357,28 @@
         return '<div class="team-grid">' + cards.join('') + '</div>';
     }
 
+    function renderTrainerTeam(name, entries, game, generation) {
+        var heading = '<div class="trainer-team-heading"><h3 class="trainer-team-title">' +
+            escapeHtml(getTrainerDisplayName(name)) + '</h3>';
+        if (entries.length) {
+            var firstPokemon = entries[0].pokemon + ' (' + name + ')';
+            var calcUrl = './index.html?game=' + calculatorGames[game.id] + '&gen=' + game.generation +
+                '&trainer=' + encodeURIComponent(firstPokemon);
+            heading += '<a class="fight-calc-link" href="' + escapeHtml(calcUrl) + '">Calc</a>';
+        }
+        return '<section class="trainer-team">' + heading + '</div>' +
+            renderTeamGrid(entries, generation) + '</section>';
+    }
+
 
     function renderTrainers(game) {
 
         currentGame = game;
 
         var saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
+        if (jQuery(trainerSelect).data('select2')) {
+            jQuery(trainerSelect).select2('destroy');
+        }
         if (game.generation === 1) {
             trainerLabel.textContent = 'Location';
             trainerSelect.innerHTML = getLocations(game).map(function (location) {
@@ -290,10 +397,18 @@
             }
         }
 
+        jQuery(trainerSelect).select2({
+            width: '100%',
+            minimumResultsForSearch: 0,
+            dropdownCssClass: 'trainer-select2-drop',
+            formatNoMatches: function () {
+                return 'No matching ' + (game.generation === 1 ? 'locations' : 'trainers') + '.';
+            }
+        });
+
         renderTeam();
 
     }
-
 
 
     function renderGamePicker(activeGame) {
@@ -348,7 +463,7 @@
 
             }
 
-            return '<div class="generation-option' + (isActiveGeneration ? ' is-active' : '') + '"><button type="button" class="generation-label" aria-expanded="' + (isActiveGeneration ? 'true' : 'false') + '">Gen ' + generation + '</button><div class="game-options">' + options + '</div></div>';
+            return '<div class="generation-option generation-option-' + generation + '"><button type="button" class="generation-label" aria-expanded="false">Gen ' + generation + '</button><div class="game-options">' + options + '</div></div>';
 
         }).join('');
 
@@ -442,6 +557,23 @@
 
         var selectedValue = trainerSelect.value;
         var isLocationView = game.generation === 1;
+        var selectedEntries = getTrainerEntries(game, selectedValue);
+        var currentIndex = isLocationView ? getLocationIndex(game, selectedValue) :
+            (selectedEntries.length ? Number(selectedEntries[0].set.index) || 0 : 0);
+        var routeLocations = getRouteLocations(game);
+        var previousRoute = routeLocations.slice().reverse().find(function (route) {
+            return route.index < currentIndex;
+        });
+        var nextRoute = routeLocations.find(function (route) {
+            return route.index > currentIndex;
+        });
+        previousRouteButton.disabled = !previousRoute;
+        previousRouteButton.setAttribute('aria-label', previousRoute ?
+            'Go to ' + getLocationLabel(previousRoute.location) : 'No previous route available');
+        nextRouteButton.disabled = !nextRoute;
+        nextRouteButton.setAttribute('aria-label', nextRoute ?
+            'Go to ' + getLocationLabel(nextRoute.location) : 'No next route available');
+
         var trainerGroups = isLocationView ? getTrainerNames(game).filter(function (name) {
             return getTrainerLocation(name) === selectedValue;
         }).map(function (name) {
@@ -459,19 +591,14 @@
             trainerGroups.length + ' trainers · ' + entries.length + ' Pokémon' :
             entries.length + (entries.length === 1 ? ' Pokemon' : ' Pokemon');
 
-        var firstTrainer = isLocationView && trainerGroups.length ? trainerGroups[0].name : selectedValue;
-        var firstPokemon = entries.length ? entries[0].pokemon + ' (' + firstTrainer + ')' : '';
-
-        calcLink.href = './index.html?game=' + calculatorGames[game.id] + '&gen=' + game.generation + '&trainer=' + encodeURIComponent(firstPokemon);
-
         if (isLocationView) {
             chart.innerHTML = trainerGroups.length ? trainerGroups.map(function (group) {
-                return '<section class="trainer-team"><h3 class="trainer-team-title">' +
-                    escapeHtml(getTrainerDisplayName(group.name)) + '</h3>' +
-                    renderTeamGrid(group.entries, game.generation) + '</section>';
+                return renderTrainerTeam(group.name, group.entries, game, game.generation);
             }).join('') : '<div class="empty">No trainer teams are available for this location.</div>';
         } else {
-            chart.innerHTML = entries.length ? renderTeamGrid(entries, game.generation) : '<div class="empty">No trainer team data is available for this game.</div>';
+            chart.innerHTML = entries.length ?
+                renderTrainerTeam(selectedValue, entries, game, game.generation) :
+                '<div class="empty">No trainer team data is available for this game.</div>';
         }
 
         var saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
@@ -480,6 +607,38 @@
         localStorage.setItem(storageKey, JSON.stringify(saved));
 
     }
+
+    previousRouteButton.addEventListener('click', function () {
+        var game = currentGame || games[0];
+        var selectedValue = trainerSelect.value;
+        var isLocationView = game.generation === 1;
+        var selectedEntries = getTrainerEntries(game, selectedValue);
+        var currentIndex = isLocationView ? getLocationIndex(game, selectedValue) :
+            (selectedEntries.length ? Number(selectedEntries[0].set.index) || 0 : 0);
+        var previousRoute = getRouteLocations(game).slice().reverse().find(function (route) {
+            return route.index < currentIndex;
+        });
+        if (!previousRoute) return;
+
+        jQuery(trainerSelect).val(isLocationView ? previousRoute.location : previousRoute.trainer).trigger('change');
+        renderTeam();
+    });
+
+    nextRouteButton.addEventListener('click', function () {
+        var game = currentGame || games[0];
+        var selectedValue = trainerSelect.value;
+        var isLocationView = game.generation === 1;
+        var selectedEntries = getTrainerEntries(game, selectedValue);
+        var currentIndex = isLocationView ? getLocationIndex(game, selectedValue) :
+            (selectedEntries.length ? Number(selectedEntries[0].set.index) || 0 : 0);
+        var nextRoute = getRouteLocations(game).find(function (route) {
+            return route.index > currentIndex;
+        });
+        if (!nextRoute) return;
+
+        jQuery(trainerSelect).val(isLocationView ? nextRoute.location : nextRoute.trainer).trigger('change');
+        renderTeam();
+    });
 
 
 
@@ -495,6 +654,6 @@
 
     renderTrainers(activeGame);
 
-    trainerSelect.addEventListener('change', renderTeam);
+    jQuery(trainerSelect).on('change', renderTeam);
 
 }());

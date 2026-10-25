@@ -8,11 +8,17 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Trainer Fight Charts</title>
+    <title>Trainer Docs</title>
 
     <link rel="icon" type="image/x-icon" href="./img/Logo.png">
 
-    <link rel="stylesheet" href="./css/trainer.css">
+    <link rel="stylesheet" href="./js/vendor/select2/select2.css">
+    <link rel="stylesheet" href="./css/trainer.css?select2-search-style-20261024">
+    <link rel="stylesheet" href="./css/trainer-dark-theme.css?trainer-dark-mode-20261024" id="dark-theme-styles">
+    <script>
+        var trainerDarkMode = localStorage.getItem('darkTheme') === 'true';
+        document.getElementById('dark-theme-styles').disabled = !trainerDarkMode;
+    </script>
 
 </head>
 
@@ -28,10 +34,15 @@
 
                 <p class="eyebrow">Nuzlocke Resources</p>
 
-                <h1>Trainer Fight Charts</h1>
+                <h1>Trainer Docs</h1>
 
-                <p class="lede">A quick visual read of every opponent team, built from the same trainer data as the calculator.</p>
 
+            </div>
+            <div class="theme-control">
+                <div class="dark-light-toggle">
+                    <input type="checkbox" id="trainer-theme-toggle" aria-label="Dark mode">
+                    <label for="trainer-theme-toggle" class="dark-theme-toggle" aria-label="Toggle dark mode"></label>
+                </div>
             </div>
 
         </header>
@@ -47,10 +58,10 @@
                 <div id="game-picker" class="game-picker" role="radiogroup" aria-label="Select a game"></div>
 
             </div>
-            <label class="trainer-control">
-                <span id="trainer-label">Trainer</span>
+            <div class="trainer-control">
+                <label id="trainer-label" for="trainer-select">Trainer</label>
                 <select id="trainer-select"></select>
-            </label>
+            </div>
 
         </section>
 
@@ -69,8 +80,8 @@
             <div class="heading-actions">
 
                 <div class="team-summary" id="team-summary">0 Pokemon</div>
-
-                <a class="calc-link" id="calc-link" href="./index.html">Calc</a>
+                <button class="route-navigation-button" id="previous-route" type="button">Previous Route</button>
+                <button class="route-navigation-button" id="next-route" type="button">Next Route</button>
 
             </div>
 
@@ -154,7 +165,13 @@
 
     <script src="./js/data/sets/games/Gen9/SV.js"></script>
 
-    <script src="./js/trainer_controls.js"></script>
+    <script>
+        document.getElementById('trainer-theme-toggle').checked = trainerDarkMode;
+    </script>
+    <script src="./js/vendor/jquery-1.9.1.min.js?874082b2"></script>
+    <script src="./js/vendor/select2/select2.min.js?c43abca6"></script>
+    <script src="./js/trainer_controls.js?select2-search-style-20261024"></script>
+    <script src="./js/dark-theme-toggle.js"></script>
 
 </body>
 

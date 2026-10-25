@@ -450,9 +450,6 @@ body {
   padding: 0;
   transition: 0.4s;
 
-  min-width: 1600px;
-
-
 }
 /* Addded */
 .trainer-poks-label {
@@ -588,20 +585,68 @@ th {
   font-size: 1.1em;
 }
 .panel-container {
-  display: flex;
-  gap: 2em;
+  display: grid;
+  grid-template-columns: minmax(545px, 1fr) minmax(360px, 0.5fr) minmax(545px, 1fr);
+  gap: clamp(12px, 1.5vw, 24px);
+  align-items: start;
+  overflow-x: auto;
   margin: 3em 0;
 }
 .panel-container .panel:first-child {
-  min-width: 30.33%;
-  width: 100%;
+  min-width: 0;
 }
 .panel-container .panel:last-child {
-  min-width: 30.33%;
-  width: 100%;
+  min-width: 0;
 }
 .panel-container .panel:nth-child(2) {
-  max-width: 27.33%;
+  min-width: 0;
+  max-width: none;
+}
+.panel-container fieldset {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+.header .header-inner {
+  box-sizing: border-box;
+}
+.panel-container .info-group-top {
+  flex-wrap: nowrap;
+}
+.panel-container .info-group-top > .info-group {
+  box-sizing: border-box;
+  flex: 0 0 200px;
+  min-width: 0;
+}
+.panel-container .info-group-top > table {
+  flex: 0 0 269px;
+  font-size: 10.5px;
+  min-width: 0;
+}
+.panel-container .info-selectors {
+  margin: 0.5em 0;
+}
+.panel-container .info-selectors > div:not(.hide) {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+.panel-container .info-selectors label {
+  box-sizing: border-box;
+  flex: 0 0 62px;
+  width: 62px;
+  font-size: 1rem;
+}
+.panel-container .info-selectors > div > select:not(.toxic-counter) {
+  box-sizing: border-box;
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+}
+.panel-container .info-selectors .toxic-counter {
+  flex: 0 0 auto;
 }
 
 .field-info,
@@ -1056,7 +1101,10 @@ table.field {
 }
 
 .import-team-text {
-  min-width: 27em;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
   min-height: 10em;
   resize: vertical;
   border: 1px solid rgb(226, 226, 226);
@@ -1064,7 +1112,10 @@ table.field {
 }
 
 .import-name-text {
-  min-width: 26.3em;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
   min-height: 1em;
   overflow: auto;
   display: inline;

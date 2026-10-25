@@ -1,0 +1,46 @@
+:root {
+    --ink: #e8eaf0;
+    --muted: #a4abb8;
+    --paper: #12151b;
+    --panel: #1d222b;
+    --line: #343b47;
+    --accent: #e9795d;
+    --accent-dark: #ff9a7a;
+    --mint: #253d37;
+    --stat-increase: #83b8ff;
+    --stat-decrease: #ff8e86;
+    --shadow: 0 18px 50px rgba(0, 0, 0, .3);
+}
+
+.controls {
+    background: #202630;
+}
+
+.generation-label,
+.game-family.is-active .family-label {
+    color: #e8eaf0;
+    background: #343c49;
+}
+
+.generation-option.is-active .generation-label,
+.game-family.is-active .family-label {
+    color: #171a20;
+    background: #fffaf2;
+}
+
+.team-chart {
+    background: rgba(29, 34, 43, .9);
+}
+
+.moves li {
+    color: #c8ced8;
+}
+
+select {
+    color: var(--ink);
+    background: #292f3a;
+}
+
+.trainer-select2-drop .select2-results .select2-highlighted {
+    color: #fffaf2;
+}
