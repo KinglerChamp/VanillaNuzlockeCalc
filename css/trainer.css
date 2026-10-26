@@ -191,6 +191,14 @@ h2 { font-size: clamp(28px, 4vw, 48px); line-height: 1; }
 
 .trainer-team-title { margin: 0; color: var(--accent-dark); font: 700 18px 'Space Grotesk', sans-serif; }
 
+.trainer-context { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-right: auto; }
+
+.trainer-context-item { display: flex; align-items: baseline; gap: 6px; font-size: 12px; }
+
+.trainer-context-item > span { color: var(--muted); font-size: 9px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+
+.trainer-context-item > strong { color: var(--ink); font-weight: 600; }
+
 .fight-calc-link { flex: 0 0 auto; padding: 6px 10px; color: #fffaf2; background: var(--accent); font-size: 11px; font-weight: 700; text-decoration: none; text-transform: uppercase; }
 
 .fight-calc-link:hover { color: #fffaf2; background: var(--accent-dark); }
@@ -201,7 +209,15 @@ h2 { font-size: clamp(28px, 4vw, 48px); line-height: 1; }
 
 .pokemon-card:last-child { border-right: 0; }
 
+.pokemon-card-topline { display: flex; align-items: center; justify-content: space-between; min-height: 14px; }
+
 .slot-number { color: #b9b0a4; font: 700 12px 'Space Grotesk', sans-serif; }
+
+.gender-symbol { font: 700 20px/1 Arial, sans-serif; }
+
+.gender-symbol.gender-male { color: #277bbd; }
+
+.gender-symbol.gender-female { color: #d65b8b; }
 
 .sprite { display: block; width: 145px; height: 125px; margin: -2px auto 2px; object-fit: contain; image-rendering: auto; }
 

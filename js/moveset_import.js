@@ -17,9 +17,10 @@ function ExportPokemon(pokeInfo) {
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 	var set = setdex[pokemonName] && setdex[pokemonName][setName];
 	var exportName = set && set.nickname ? set.nickname + " (" + pokemon.name + ")" : pokemon.name;
+	var genderTag = pokemon.gender === "M" || pokemon.gender === "F" ? " (" + pokemon.gender + ")" : "";
 	var EV_counter = 0;
 	var finalText = "";
-	finalText = exportName + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
+	finalText = exportName + genderTag + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
 	finalText += "Level: " + pokemon.level + "\n";
 	finalText += pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
 	if (gen === 9) {
@@ -74,14 +75,10 @@ function ExportPokemon(pokeInfo) {
 		if (gen === 1 && stat === 'spd') continue;
 		var iv = pokemon.ivs[stat] ? pokemon.ivs[stat] : 0;
 		if (gen > 2) {
-			if (iv < 31) {
-				IVs_Array.push(iv + " " + calc.Stats.displayStat(stat));
-			}
+			IVs_Array.push(iv + " " + calc.Stats.displayStat(stat));
 		} else {
 			var dv = calc.Stats.IVToDV(iv);
-			if (dv < 15) {
-				IVs_Array.push((dv * 2) + " " + calc.Stats.displayStat(stat));
-			}
+			IVs_Array.push((dv * 2) + " " + calc.Stats.displayStat(stat));
 		}
 	}
 	if (IVs_Array.length > 0) {

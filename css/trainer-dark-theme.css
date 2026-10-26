@@ -36,6 +36,14 @@
     color: #c8ced8;
 }
 
+.gender-symbol.gender-male {
+    color: #83b8ff;
+}
+
+.gender-symbol.gender-female {
+    color: #ff8eae;
+}
+
 select {
     color: var(--ink);
     background: #292f3a;

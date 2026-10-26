@@ -312,6 +312,9 @@
 
         var nature = set.nature || 'Unknown nature';
 
+        var gender = set.gender === 'M' ? 'male' : set.gender === 'F' ? 'female' : '';
+        var genderSymbol = gender === 'male' ? '&#9794;' : gender === 'female' ? '&#9792;' : '';
+
         var moves = (set.moves || []).filter(function (move) { return move && move !== 'No Move'; });
         var details = '';
         if (generation >= 3) {
@@ -328,7 +331,10 @@
 
         return '<article class="pokemon-card" style="animation-delay:' + position * 45 + 'ms">' +
 
-            '<div class="slot-number">' + String(position + 1).padStart(2, '0') + '</div>' +
+            '<div class="pokemon-card-topline"><span class="slot-number">' + String(position + 1).padStart(2, '0') +
+            '</span>' + (genderSymbol ? '<span class="gender-symbol gender-' + gender + '" role="img" aria-label="' +
+                (gender === 'male' ? 'Male' : 'Female') + '" title="' + (gender === 'male' ? 'Male' : 'Female') +
+                '">' + genderSymbol + '</span>' : '') + '</div>' +
 
             '<img class="sprite" src="https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/' + encodeURIComponent(entry.pokemon) + '.png" alt="' + escapeHtml(entry.pokemon) + ' sprite" loading="lazy">' +
 
@@ -357,9 +363,27 @@
         return '<div class="team-grid">' + cards.join('') + '</div>';
     }
 
+    function renderTrainerMetadata(entries) {
+        var metadata = [
+            {label: 'Location', key: 'location'},
+            {label: 'Split', key: 'split'}
+        ].map(function (field) {
+            var values = entries.map(function (entry) {
+                return entry.set[field.key];
+            }).filter(function (value, index, allValues) {
+                return value && allValues.indexOf(value) === index;
+            });
+            if (!values.length) return '';
+            return '<span class="trainer-context-item"><span>' + field.label +
+                '</span><strong>' + values.map(escapeHtml).join(', ') + '</strong></span>';
+        }).join('');
+        return metadata ? '<div class="trainer-context">' + metadata + '</div>' : '';
+    }
+
     function renderTrainerTeam(name, entries, game, generation) {
         var heading = '<div class="trainer-team-heading"><h3 class="trainer-team-title">' +
             escapeHtml(getTrainerDisplayName(name)) + '</h3>';
+        heading += renderTrainerMetadata(entries);
         if (entries.length) {
             var firstPokemon = entries[0].pokemon + ' (' + name + ')';
             var calcUrl = './index.html?game=' + calculatorGames[game.id] + '&gen=' + game.generation +

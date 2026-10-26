@@ -17,9 +17,10 @@ function ExportPokemon(pokeInfo) {
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 	var set = setdex[pokemonName] && setdex[pokemonName][setName];
 	var exportName = set && set.nickname ? set.nickname + " (" + pokemon.name + ")" : pokemon.name;
+	var genderTag = pokemon.gender === "M" || pokemon.gender === "F" ? " (" + pokemon.gender + ")" : "";
 	var EV_counter = 0;
 	var finalText = "";
-	finalText = exportName + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
+	finalText = exportName + genderTag + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
 	finalText += "Level: " + pokemon.level + "\n";
 	finalText += pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
 	if (gen === 9) {
@@ -74,14 +75,10 @@ function ExportPokemon(pokeInfo) {
 		if (gen === 1 && stat === 'spd') continue;
 		var iv = pokemon.ivs[stat] ? pokemon.ivs[stat] : 0;
 		if (gen > 2) {
-			if (iv < 31) {
-				IVs_ARRAY.push(iv + " " + calc.Stats.displayStat(stat));
-			}
+			IVs_ARRAY.push(iv + " " + calc.Stats.displayStat(stat));
 		} else {
 			var dv = calc.Stats.IVToDV(iv);
-			if (dv < 15) {
-				IVs_ARRAY.push((dv * 2) + " " + calc.Stats.displayStat(stat));
-			}
+			IVs_ARRAY.push((dv * 2) + " " + calc.Stats.displayStat(stat));
 		}
 	}
 	if (IVs_ARRAY.length > 0) {
@@ -314,6 +311,7 @@ function addToDex(poke) {
 	dexObject.moves = poke.moves;
 	dexObject.nature = poke.nature;
 	dexObject.item = poke.item;
+	dexObject.gender = poke.gender;
 	dexObject.nickname = poke.nickname;
 	dexObject.isCustomSet = poke.isCustomSet;
 	var customsets;
@@ -582,6 +580,12 @@ function addSets(pokes, name) {
 				}
 				currentPoke = Object.assign({}, calc.SPECIES[9][pokemonName]);
 				currentPoke.name = pokemonName;
+				var importedGender = currentRow.slice(j + 1).map(function (part) {
+					return part.trim();
+				}).find(function (part) {
+					return part === "M" || part === "F";
+				});
+				if (importedGender) currentPoke.gender = importedGender;
 				currentPoke.item = getItem(currentRow, j + 1);
 				currentPoke.nickname = j > 0 ? currentRow[0].trim() : "";
 				currentPoke.nameProp = existingSetNames[pokemonName] || currentPoke.nickname || "Custom Set";
