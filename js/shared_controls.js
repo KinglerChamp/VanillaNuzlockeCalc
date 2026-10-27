@@ -1477,7 +1477,7 @@ function calcStat(poke, StatID) {
 	if (gen < 3) {
 		var dv = ~~stat.find(".dvs").val();
 		var statExp = ~~stat.find(".g1g2-evs").val();
-		var total = calc.calcStatRBYFromDV(legacyStatToStat(StatID), base, dv, statExp, level);
+		var total = calc.Stats.calcStatRBYFromDV(legacyStatToStat(StatID), base, dv, statExp, level);
 	} else {
 		ivs = ~~stat.find(".ivs").val();
 		evs = ~~stat.find(".evs").val();
