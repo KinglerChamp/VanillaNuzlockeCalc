@@ -1518,3 +1518,146 @@ table.field {
 .game-dropdown.language-open .language-dropdown {
   display: block;
 }
+
+@media (max-width: 700px) {
+  .header .header-inner {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 1em;
+    padding: 8px 12px;
+  }
+
+  .header .nav-items {
+    order: 3;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header .nav-items li > a {
+    display: block;
+    padding: 7px 8px;
+    font-size: 0.8em;
+  }
+
+  .header .nav-play {
+    margin-left: auto;
+    padding: 0;
+  }
+
+  .nav-play li {
+    margin-left: auto;
+  }
+
+  .wrapper {
+    padding: 0 12px;
+  }
+
+  .title-text {
+    margin: 0.5em 0;
+    font-size: clamp(1.7em, 7vw, 2.5em);
+  }
+
+  .setting-wrapper {
+    flex-wrap: wrap;
+    gap: 0.75em;
+  }
+
+  .genSelection,
+  .notationSelection,
+  .modeSelection,
+  .gameSelection {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gen-option .btn-small {
+    padding: 5px 6px;
+  }
+
+  .dropdown-content {
+    max-width: calc(100vw - 24px);
+  }
+
+  .sprite-display-panel {
+    min-height: 0;
+  }
+
+  .move-result-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75em;
+  }
+
+  .move-result-group > div {
+    min-height: 0;
+  }
+
+  .move-result-group > div::before {
+    display: none !important;
+  }
+
+  .move-result-group::before {
+    display: none !important;
+  }
+
+  .move-result-subgroup,
+  .move-result-subgroup:last-child {
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .move-result-subgroup > div {
+    width: 100%;
+    min-width: 0;
+    justify-content: space-between;
+    gap: 0.3em;
+  }
+
+  .panel-container {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1em;
+    overflow: visible;
+    margin: 2em 0;
+  }
+
+  .panel-container .panel,
+  .panel-container fieldset {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .panel-container fieldset {
+    padding: 1em;
+  }
+
+  .panel-container .info-group-top {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+
+  .panel-container .info-group-top > .info-group,
+  .panel-container .info-group-top > table {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .field-info > fieldset > div[style*="width"] {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  .field-info table.field {
+    table-layout: fixed;
+    max-width: 100%;
+  }
+}

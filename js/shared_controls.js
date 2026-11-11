@@ -691,7 +691,7 @@ $(".set-selector").change(function () {
 		for (i = 0; i < LEGACY_STATS[gen].length; i++) {
 			pokeObj.find("." + LEGACY_STATS[gen][i] + " .base").val(pokemon.bs[LEGACY_STATS[gen][i]]);
 		}
-		pokeObj.find(".boost").val(0);
+		pokeObj.find(".boost").val(0).trigger("change");
 		pokeObj.find(".percent-hp").val(100);
 		pokeObj.find(".status").val("Healthy");
 		$(".status").change();
@@ -860,8 +860,9 @@ $(".set-selector").change(function () {
 			pokeObj.find(".gender").parent().hide();
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
-		if (regSets && setdex[pokemonName][setName].gender === "M") pokeObj.find(".gender").val("Male");
-			if (regSets && setdex[pokemonName][setName].gender === "F") pokeObj.find(".gender").val("Female");
+		var setGender = regSets ? getGender(setdex[pokemonName][setName].gender) : "";
+		if (setGender === "M") pokeObj.find(".gender").val("Male");
+		if (setGender === "F") pokeObj.find(".gender").val("Female");
 		}
 		if (READY) {
 			saveCurrentSelections();

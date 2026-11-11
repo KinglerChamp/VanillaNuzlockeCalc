@@ -107,10 +107,9 @@ h1 { max-width: 720px; font-size: clamp(42px, 7vw, 86px); line-height: .93; }
 
 .generation-option.is-active .generation-label { color: #171a20; background: #fffaf2; }
 
-.game-options { display: none; grid-template-columns: repeat(3, max-content); gap: 3px; width: max-content; max-width: calc(100vw - 40px); padding: 6px; position: absolute; z-index: 5; top: calc(100% + 4px); left: 0; background: #343a45; box-shadow: var(--shadow); }
+.game-options { display: none; grid-template-columns: repeat(3, max-content); gap: 3px; padding: 6px; position: absolute; z-index: 5; top: calc(100% + 4px); left: 0; background: #343a45; box-shadow: var(--shadow); }
 
 .generation-option.is-active .game-options { display: grid; }
-.generation-option-3 .game-options { grid-template-columns: repeat(3, minmax(0, 1fr)); width: min(420px, calc(100vw - 40px)); }
 
 .game-family { position: relative; }
 
@@ -124,7 +123,7 @@ h1 { max-width: 720px; font-size: clamp(42px, 7vw, 86px); line-height: .93; }
 
 .game-family.is-active .family-label::after { content: '\25BE'; }
 
-.language-options { display: none; grid-column: 1 / -1; grid-row: 2; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 3px; width: 100%; padding: 4px; margin-top: 3px; background: #343a45; box-shadow: var(--shadow); }
+.language-options { display: none; grid-column: 1 / -1; grid-row: 2; grid-template-columns: repeat(6, max-content); gap: 3px; padding: 4px; margin-top: 3px; background: #343a45; box-shadow: var(--shadow); }
 
 .game-family.is-active .language-options { display: grid; }
 
@@ -265,21 +264,20 @@ h2 { font-size: clamp(28px, 4vw, 48px); line-height: 1; }
 
 @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 
-
-
 @media (max-width: 700px) {
+    .trainer-page { width: calc(100% - 32px); padding-top: 16px; }
 
-    .trainer-page { width: min(100% - 24px, 560px); padding-top: 16px; }
-
-    .trainer-header { grid-template-columns: 1fr auto; gap: 20px; padding-bottom: 30px; }
+    .trainer-header { grid-template-columns: 1fr auto; gap: 16px; padding-bottom: 30px; }
     .header-copy { grid-column: 1 / -1; grid-row: 2; }
+    .theme-control { grid-column: 2; grid-row: 1; }
 
-    .controls { grid-template-columns: 1fr; padding: 14px; }
+    .game-picker { flex-wrap: wrap; }
+    .game-options { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: calc(100vw - 48px); }
+    .generation-option-3 .game-options { width: min(420px, calc(100vw - 48px)); }
+    .language-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
-    .language-options { grid-template-columns: repeat(2, 1fr); box-shadow: none; }
-
-    .fight-heading { align-items: start; flex-direction: column; padding-top: 34px; }
-
-    .pokemon-card { min-height: 360px; }
-
+    .fight-heading { align-items: flex-start; flex-direction: column; padding-top: 34px; }
+    .heading-actions { width: 100%; flex-wrap: wrap; }
+    .team-summary { flex: 1 0 100%; }
+    .route-navigation-button { flex: 1 1 0; }
 }
